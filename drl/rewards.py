@@ -66,15 +66,15 @@ def combine_rewards(
 ) -> float:
 
     if step_frac < 0.10:
-        w = dict(align=0.05, nov=0.30, len=0.20,
+        w = dict(align=0.20, nov=0.10, len=0.25,
                  depth=0.20, flag=0.15, val=0.10)
 
     elif step_frac < 0.80:
-        w = dict(align=0.10, nov=0.25, len=0.20,
+        w = dict(align=0.25, nov=0.10, len=0.20,
                  depth=0.20, flag=0.15, val=0.10)
 
     else:
-        w = dict(align=0.15, nov=0.20, len=0.20,
+        w = dict(align=0.35, nov=0.10, len=0.10,
                  depth=0.20, flag=0.15, val=0.10)
 
     # safeguard: ensure weights still sum to 1
