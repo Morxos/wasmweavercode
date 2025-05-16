@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 142))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) anyref)
+  (data (;0;) "")
+)

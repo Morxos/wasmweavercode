@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 85 exnref ref.null exn)
+  (export "\u{1f}_" (table 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

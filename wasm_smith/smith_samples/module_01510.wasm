@@ -1,0 +1,8 @@
+(module
+  (import "v\u{5c1}" "" (memory (;0;) i64 237))
+  (table (;0;) 83 216897 nullref)
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

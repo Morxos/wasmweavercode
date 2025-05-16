@@ -1,0 +1,5 @@
+(module
+  (import "" "" (memory (;0;) i64 5))
+  (table (;0;) 6237 456893 exnref)
+  (global (;0;) i32 i32.const 1015900916)
+)

@@ -1,0 +1,10 @@
+(module
+  (global (;0;) (mut f32) f32.const -0x1.1eaa5p+91 (;=-2772456500000000000000000000;))
+  (export "" (global 0))
+  (data (;0;) "")
+  (data (;1;) "\93A>")
+  (data (;2;) "\d2")
+  (data (;3;) "")
+  (data (;4;) "")
+  (data (;5;) "")
+)

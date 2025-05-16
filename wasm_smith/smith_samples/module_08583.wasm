@@ -1,0 +1,7 @@
+(module
+  (import "V" "" (table (;0;) i64 25 arrayref))
+  (export "5" (table 0))
+  (data (;0;) "")
+  (data (;1;) "\87")
+  (data (;2;) "\c9\ee")
+)

@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 1 35673 shared)
+  (elem (;0;) nullref)
+)

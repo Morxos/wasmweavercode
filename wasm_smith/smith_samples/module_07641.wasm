@@ -1,0 +1,5 @@
+(module
+  (import "\u{59e}" "" (table (;0;) 9484 969622 anyref))
+  (memory (;0;) 70)
+  (export "n\u{5d4}\u{1d}" (table 0))
+)

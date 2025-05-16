@@ -1,0 +1,12 @@
+(module
+  (memory (;0;) i64 247 162666003262368)
+  (global (;0;) i31ref ref.null i31)
+  (global (;1;) funcref ref.null nofunc)
+  (global (;2;) i64 i64.const -7372477261414533958 i64.const -5345518279155782637 i64.const -4221525192605423086 i64.const 3089225285102345368 i64.const 6011268443871229168 i64.const 7359942353967753839 i64.const 6902693478776188266 i64.const -7288817503407825049 i64.const -6739538110195874901 i64.const 2434315814548972943 i64.mul i64.add i64.mul i64.sub i64.mul i64.mul i64.sub i64.mul i64.const -1594235716348305691 i64.add i64.add)
+  (global (;3;) (mut i64) global.get 2)
+  (global (;4;) (mut i32) i32.const 2075589630 i32.const -1291883269 i32.const 1712860167 i32.const 1433540190 i32.const 529209737 i32.const -345653171 i32.const 410690947 i32.const -2095363391 i32.const -1324819899 i32.const 2110184556 i32.mul i32.sub i32.const 562630880 i32.sub i32.sub i32.sub i32.mul i32.sub i32.sub i32.add i32.add)
+  (data (;0;) (global.get 2) "\92")
+  (data (;1;) (global.get 2) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

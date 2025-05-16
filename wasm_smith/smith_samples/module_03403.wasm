@@ -1,0 +1,8 @@
+(module
+  (import "\u{16}`\u{16},\u{1a3}`\u{1c}" "" (memory (;0;) i64 55 216120688128041 shared))
+  (import "" "" (table (;0;) i64 28 structref))
+  (export "j" (table 0))
+  (elem (;0;) i31ref (ref.null none) (ref.null i31) (ref.null i31))
+  (data (;0;) "\9c")
+  (data (;1;) "")
+)

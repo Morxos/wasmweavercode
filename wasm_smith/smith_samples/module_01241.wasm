@@ -1,0 +1,9 @@
+(module
+  (import "^" "" (table (;0;) 4898 18499 eqref))
+  (import ",\u{7f}." "" (memory (;0;) i64 254 189491731908011 shared))
+  (import "" "" (global (;0;) exnref))
+  (global (;1;) (mut i64) i64.const 4052554511549947429)
+  (export "" (table 0))
+  (export "c" (memory 0))
+  (data (;0;) (i64.const 754376) "\c1%")
+)

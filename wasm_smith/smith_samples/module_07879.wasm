@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 0)
+  (global (;0;) (mut i64) i64.const -8436617228299271429)
+  (global (;1;) i64 i64.const -7311834546917704825 i64.const 7324415386424100948 i64.const 3658839601539358174 i64.const -7044633384310726574 i64.const 315105384712397141 i64.const 1797084604319365380 i64.const -2059499915151376371 i64.const 1025546214521468837 i64.const 4092000620315174146 i64.const -5638697710025155424 i64.mul i64.mul i64.add i64.mul i64.add i64.mul i64.mul i64.sub i64.sub i64.const 2800638599608430438 i64.mul)
+  (global (;2;) (mut i32) i32.const -1728012584)
+  (export "2" (memory 0))
+  (elem (;0;) declare funcref (ref.null func) (ref.null func) (ref.null nofunc) (ref.null func))
+  (elem (;1;) declare funcref)
+  (elem (;2;) nullfuncref)
+)

@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 0)
+  (elem (;0;) arrayref)
+  (elem (;1;) i31ref)
+)

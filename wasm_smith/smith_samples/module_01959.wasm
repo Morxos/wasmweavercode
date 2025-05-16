@@ -1,0 +1,4 @@
+(module
+  (import "U\u{1a}_j\u{131}" "" (global (;0;) (mut i64)))
+  (import "\u{18}\u{13}qZ" "" (table (;0;) 1075 nullfuncref))
+)

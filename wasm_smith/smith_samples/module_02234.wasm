@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 110 370845 externref ref.null extern)
+  (memory (;0;) 0 35411)
+  (elem (;0;) declare nullref (ref.null none) (ref.null none))
+  (data (;0;) "\b0\dc\aa\e1")
+)

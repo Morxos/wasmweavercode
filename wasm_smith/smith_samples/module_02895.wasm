@@ -1,0 +1,7 @@
+(module
+  (global (;0;) (mut i64) i64.const -3539653119312432790)
+  (export "W" (global 0))
+  (export "*r" (global 0))
+  (elem (;0;) eqref)
+  (elem (;1;) nullexternref)
+)

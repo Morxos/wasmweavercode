@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 7529 656211 structref))
+  (import "ITn" "" (memory (;0;) 0 10063))
+  (import "p" "" (global (;0;) (mut arrayref)))
+  (global (;1;) (mut i64) i64.const 2032160657679112394 i64.const 6216545652467041604 i64.const 7324732149507918520 i64.const -3217615751789662039 i64.const 7002077813484667584 i64.const 1425234737811798800 i64.mul i64.add i64.const -4733575233682949830 i64.const -2772812934849000386 i64.sub i64.add i64.const 8053899450044954734 i64.sub i64.add i64.sub i64.sub)
+  (elem (;0;) declare arrayref)
+)

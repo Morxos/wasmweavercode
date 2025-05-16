@@ -1,0 +1,7 @@
+(module
+  (import "4\u{1d}" "" (global (;0;) nullexternref))
+  (table (;0;) 3 i31ref)
+  (global (;1;) exnref ref.null exn)
+  (elem (;0;) declare eqref (ref.null array))
+  (data (;0;) "C")
+)

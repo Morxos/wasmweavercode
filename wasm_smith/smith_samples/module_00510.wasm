@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 2796))
+  (import "\u{b}`" "" (table (;0;) 456 554503 i31ref))
+  (import "?" "" (global (;0;) (mut i32)))
+  (export "p" (table 0))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) nullfuncref (ref.null nofunc))
+)

@@ -1,0 +1,5 @@
+(module
+  (global (;0;) f32 f32.const 0x1.a61ab4p+82 (;=7973325000000000000000000;))
+  (export "U" (global 0))
+  (data (;0;) "")
+)

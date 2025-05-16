@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 537 183727358028810 shared)
+  (global (;0;) (mut i32) i32.const 1951945278)
+  (export "I" (global 0))
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) declare eqref (ref.null eq) (ref.null struct) (ref.null none))
+)

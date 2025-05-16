@@ -1,0 +1,7 @@
+(module
+  (import "5_j\u{2}" "" (memory (;0;) i64 8535 32667345133714 shared))
+  (import "s\u{9}}\u{4c2}\u{e}@l!g7" "" (table (;0;) 184 funcref))
+  (import "" "" (global (;0;) (mut externref)))
+  (global (;1;) (mut i32) i32.const -2140755379)
+  (elem (;0;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc))
+)

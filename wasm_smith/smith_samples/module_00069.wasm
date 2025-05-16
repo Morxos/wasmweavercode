@@ -1,0 +1,7 @@
+(module
+  (import "\u{6}" "" (memory (;0;) i64 1494 124451413899085))
+  (import "" "" (table (;0;) 4 140948 structref))
+  (import "m." "" (global (;0;) (mut f64)))
+  (export "\u{14}\u{f479f}" (global 0))
+  (export "\u{35c}m" (table 0))
+)

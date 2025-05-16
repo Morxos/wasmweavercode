@@ -1,0 +1,4 @@
+(module
+  (import "\u{1b}" "" (memory (;0;) i64 279))
+  (data (;0;) (i64.const 316734) "")
+)

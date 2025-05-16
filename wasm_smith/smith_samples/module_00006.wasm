@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 11219 16151))
+  (import "" "" (table (;0;) i64 9 864574 eqref))
+  (data (;0;) (i32.const 249770063) "")
+  (data (;1;) (i32.const 3805015) "/\d39")
+  (data (;2;) "")
+  (data (;3;) "\9d")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 959 566896 anyref)
+  (memory (;0;) 0)
+  (global (;0;) (mut f32) f32.const -0x1.b5d342p-9 (;=-0.0033403414;))
+)

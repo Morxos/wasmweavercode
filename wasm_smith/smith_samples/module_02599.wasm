@@ -1,0 +1,8 @@
+(module
+  (import "=9\u{22}" "" (memory (;0;) 6668 15237))
+  (import "" "" (table (;0;) 0 688319 eqref))
+  (import "" "" (global (;0;) i32))
+  (import "" "" (global (;1;) f64))
+  (import "\u{9}Q{" "" (global (;2;) (mut i32)))
+  (elem (;0;) externref)
+)

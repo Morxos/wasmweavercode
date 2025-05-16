@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 0)
+  (global (;0;) f64 f64.const -0x1.382c5ffc6b6a7p-214 (;=-0.00000000000000000000000000000000000000000000000000000000000000004631661085749978;))
+  (global (;1;) eqref ref.null array)
+  (global (;2;) (mut nullexternref) ref.null noextern)
+  (global (;3;) funcref ref.null nofunc)
+)

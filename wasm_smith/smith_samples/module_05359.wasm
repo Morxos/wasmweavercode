@@ -1,0 +1,10 @@
+(module
+  (global (;0;) i64 i64.const 7979525359213131781)
+  (global (;1;) i64 i64.const 1346271569595664750)
+  (global (;2;) i64 i64.const 7761371847570020675)
+  (export "" (global 0))
+  (export "1" (global 2))
+  (export "2" (global 1))
+  (export "3" (global 1))
+  (elem (;0;) structref)
+)

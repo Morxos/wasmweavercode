@@ -1,0 +1,9 @@
+(module
+  (import "s" "" (global (;0;) (mut i64)))
+  (import "" "" (table (;0;) i64 223 eqref))
+  (import " !" "" (global (;1;) (mut f64)))
+  (import "\u{8}" "" (global (;2;) (mut f32)))
+  (import "E" "" (memory (;0;) 32 59186))
+  (elem (;0;) exnref (ref.null exn))
+  (data (;0;) "")
+)

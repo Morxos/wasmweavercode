@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) i64 28 201345112203322))
+  (import "\u{188}t\u{1d}" "" (table (;0;) 1009 nullref))
+  (import "h" "" (global (;0;) f64))
+  (import "h\u{d}L" "" (global (;1;) (mut nullexternref)))
+  (import "\u{7f}" "" (global (;2;) f32))
+  (elem (;0;) declare eqref)
+  (elem (;1;) (table 0) (i32.const 1) nullref)
+  (elem (;2;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) (i64.const 0) "\0b")
+)

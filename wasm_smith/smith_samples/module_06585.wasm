@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 0 656879 nullfuncref)
+  (global (;0;) i32 i32.const -1797215734 i32.const 1576585842 i32.const 1170683930 i32.const 1785163462 i32.const 608011693 i32.const 816110027 i32.add i32.add i32.const 968272619 i32.const 1966512431 i32.add i32.const -178550313 i32.add i32.sub i32.sub i32.add i32.mul)
+  (export "_%" (global 0))
+  (export "" (table 0))
+)

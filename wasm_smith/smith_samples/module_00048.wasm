@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 9703 externref)
+  (global (;0;) (mut externref) ref.null extern)
+  (data (;0;) "\19")
+)

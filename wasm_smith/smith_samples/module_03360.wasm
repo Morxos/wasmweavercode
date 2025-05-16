@@ -1,0 +1,3 @@
+(module
+  (import "j\u{1}\u{682}" "" (table (;0;) i64 192 i31ref))
+)

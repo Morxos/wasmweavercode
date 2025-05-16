@@ -1,0 +1,7 @@
+(module
+  (global (;0;) i64 i64.const -2322101864227792275)
+  (export "" (global 0))
+  (export "Z\u{14}" (global 0))
+  (data (;0;) "")
+  (data (;1;) "@")
+)

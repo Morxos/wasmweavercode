@@ -1,0 +1,6 @@
+(module
+  (import "V" "" (global (;0;) (mut eqref)))
+  (import "" "" (memory (;0;) 747 50983))
+  (import "" "" (global (;1;) f32))
+  (elem (;0;) declare i31ref)
+)

@@ -1,0 +1,9 @@
+(module
+  (import "g)5" "" (table (;0;) i64 990 funcref))
+  (import "" "" (global (;0;) f32))
+  (memory (;0;) i64 6958 88949892373812)
+  (elem (;0;) structref (ref.null struct))
+  (elem (;1;) nullfuncref (ref.null nofunc))
+  (elem (;2;) (table 0) (i64.const 0) funcref (ref.null nofunc))
+  (data (;0;) "\af")
+)

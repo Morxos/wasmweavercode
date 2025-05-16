@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 577 38343124968070 shared)
+  (elem (;0;) nullfuncref)
+)

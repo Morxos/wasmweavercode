@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 0 403638 externref))
+  (global (;0;) f32 f32.const 0x1.138f56p+68 (;=317698940000000000000;))
+  (global (;1;) (mut eqref) ref.null none)
+  (export "" (global 1))
+  (elem (;0;) i31ref)
+  (elem (;1;) declare nullref)
+)

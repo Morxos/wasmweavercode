@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 8641 funcref ref.null func)
+  (memory (;0;) i64 11 166549913669522)
+  (export "" (memory 0))
+  (data (;0;) (i64.const 102690) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

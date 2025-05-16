@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 2780 51031)
+  (export "G" (memory 0))
+)

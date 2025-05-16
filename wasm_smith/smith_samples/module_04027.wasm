@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 96 exnref))
+  (import "" "" (memory (;0;) i64 14791 53032231813077 shared))
+  (elem (;0;) arrayref (ref.null none))
+  (elem (;1;) externref (ref.null extern) (ref.null extern))
+  (data (;0;) (i64.const 251569413) "")
+)

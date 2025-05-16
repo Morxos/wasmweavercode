@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) eqref (ref.null none) (ref.null i31) (ref.null array) (ref.null i31) (ref.null i31))
+  (elem (;1;) declare arrayref)
+  (data (;0;) "")
+)

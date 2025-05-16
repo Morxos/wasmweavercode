@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 11 53406 shared)
+  (global (;0;) (mut nullref) ref.null none)
+  (elem (;0;) structref)
+  (data (;0;) (i32.const 4) "\f3")
+  (data (;1;) (i32.const 99802) "")
+)

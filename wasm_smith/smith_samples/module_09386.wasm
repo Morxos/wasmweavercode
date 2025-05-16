@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 1111 23903))
+  (export "" (memory 0))
+  (export "q/" (memory 0))
+  (export "2" (memory 0))
+)

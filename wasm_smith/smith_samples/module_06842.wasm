@@ -1,0 +1,13 @@
+(module
+  (import "4" "" (global (;0;) i64))
+  (table (;0;) i64 19 externref)
+  (global (;1;) (mut f32) f32.const 0x1.68b2f4p-9 (;=0.0027519152;))
+  (global (;2;) (mut structref) ref.null struct)
+  (global (;3;) exnref ref.null exn)
+  (export "" (table 0))
+  (export "\u{10}@\u{1e}\u{17}\u{1a}" (global 0))
+  (export "n\u{387}I" (table 0))
+  (elem (;0;) eqref (ref.null i31) (ref.null struct))
+  (elem (;1;) exnref)
+  (data (;0;) "")
+)

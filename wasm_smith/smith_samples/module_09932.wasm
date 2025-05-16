@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) declare i31ref (ref.null i31))
+  (elem (;1;) declare eqref (ref.null struct) (ref.null struct))
+  (data (;0;) "\8f\bc\a9\82\a5\8f\e0\b4P")
+)

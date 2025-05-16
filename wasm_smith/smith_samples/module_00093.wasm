@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 188654 arrayref)
+  (memory (;0;) i64 1576)
+  (data (;0;) "")
+  (data (;1;) (i64.const 833552) "")
+)

@@ -1,0 +1,4 @@
+(module
+  (import ">" "" (table (;0;) i64 426 nullfuncref))
+  (memory (;0;) 26 47188)
+)

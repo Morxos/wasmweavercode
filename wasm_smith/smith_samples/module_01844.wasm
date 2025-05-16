@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 637 853948 funcref ref.null func)
+  (export "g" (table 0))
+  (elem (;0;) nullref (ref.null none) (ref.null none))
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) (table 0) (i64.const 0) nullfuncref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\be")
+  (data (;3;) "")
+)

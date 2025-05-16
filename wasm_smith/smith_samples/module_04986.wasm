@@ -1,0 +1,13 @@
+(module
+  (import "A\u{0}" "" (table (;0;) 1914 227294 funcref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "\u{f}" "" (memory (;0;) 13832 23784))
+  (elem (;0;) structref)
+  (elem (;1;) (table 0) (i32.const 804) nullfuncref (ref.null nofunc))
+  (elem (;2;) (table 0) (i32.const 394) nullfuncref)
+  (elem (;3;) (table 0) (i32.const 143) funcref)
+  (data (;0;) "\eb")
+  (data (;1;) (i32.const 329069138) "^\c1\8f")
+  (data (;2;) (i32.const 119583624) "")
+  (data (;3;) "")
+)

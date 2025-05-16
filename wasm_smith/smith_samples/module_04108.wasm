@@ -1,0 +1,8 @@
+(module
+  (import "6" "" (table (;0;) 0 structref))
+  (memory (;0;) i64 7)
+  (export "" (table 0))
+  (export "N\u{4292}" (memory 0))
+  (data (;0;) (i64.const 8673) "\a6")
+  (data (;1;) (i64.const 2767) "\09`\d4")
+)

@@ -1,0 +1,12 @@
+(module
+  (import "plz\u{3}\u{7f}" "" (global (;0;) (mut f32)))
+  (import "5^Z\u{5ab}" "" (table (;0;) 0 222695 structref))
+  (import "" "" (global (;1;) f32))
+  (import "\u{5c}" "" (memory (;0;) 12 63750 shared))
+  (import "" "" (global (;2;) (mut f64)))
+  (import "" "" (global (;3;) eqref))
+  (import "" "" (global (;4;) f64))
+  (export "n" (table 0))
+  (data (;0;) (i32.const 4) "")
+  (data (;1;) (i32.const 381) "\9e\f1")
+)

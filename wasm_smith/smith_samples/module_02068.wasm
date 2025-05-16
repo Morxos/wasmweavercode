@@ -1,0 +1,5 @@
+(module
+  (import "K" "" (table (;0;) i64 88 303666 nullref))
+  (memory (;0;) i64 0 33669619654685)
+  (global (;0;) nullfuncref ref.null nofunc)
+)

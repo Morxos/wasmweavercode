@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 13 funcref)
+  (memory (;0;) i64 6697 211999171125398 shared)
+  (global (;0;) (mut eqref) ref.null eq)
+  (elem (;0;) (table 0) (i32.const 8) nullfuncref (ref.null nofunc))
+  (elem (;1;) anyref)
+  (elem (;2;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;3;) i31ref)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "0" "" (global (;0;) f32))
+  (table (;0;) 0 funcref)
+  (memory (;0;) 7 10858 shared)
+  (global (;1;) i64 i64.const 7974938137816723289)
+  (data (;0;) "")
+)

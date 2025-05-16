@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 11892)
+  (global (;0;) i32 i32.const -2074162677 i32.const -1092287246 i32.const -69640625 i32.const 2031549345 i32.const -453548338 i32.const 1744930662 i32.sub i32.const 1207532683 i32.mul i32.const 1369900650 i32.sub i32.sub i32.const 1535614177 i32.mul i32.add i32.add i32.add)
+  (export "" (memory 0))
+  (elem (;0;) declare eqref (ref.null eq))
+  (elem (;1;) declare nullref)
+  (elem (;2;) externref)
+  (elem (;3;) anyref)
+  (elem (;4;) nullref (ref.null none) (ref.null none))
+)

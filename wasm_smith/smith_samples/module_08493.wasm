@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 143 exnref ref.null exn)
+  (export "/\u{e}" (table 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+  (elem (;1;) exnref)
+)

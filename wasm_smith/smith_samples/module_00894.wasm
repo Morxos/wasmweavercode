@@ -1,0 +1,9 @@
+(module
+  (global (;0;) (mut i64) i64.const -3754165949023940712 i64.const -1182986075278238741 i64.const 7008620732881009535 i64.const 1778953100963887751 i64.const -9206101354470683266 i64.const -7142107159465059442 i64.const -7274425924548859497 i64.const -2051755718184504184 i64.const 193210053718426450 i64.const -6081221931249400321 i64.add i64.const -4786728945893434289 i64.sub i64.sub i64.mul i64.sub i64.sub i64.sub i64.sub i64.add i64.sub)
+  (global (;1;) i64 i64.const 7732986112281232391)
+  (elem (;0;) nullref)
+  (elem (;1;) declare externref)
+  (elem (;2;) declare nullexternref (ref.null noextern))
+  (data (;0;) "")
+  (data (;1;) "\fbo")
+)

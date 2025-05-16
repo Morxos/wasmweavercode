@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 338 arrayref)
+  (export "\u{4}%~" (table 0))
+  (elem (;0;) declare anyref (ref.null none))
+  (elem (;1;) nullref (ref.null none) (ref.null none) (ref.null none))
+)

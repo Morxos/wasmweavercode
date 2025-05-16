@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 52)
+  (global (;0;) (mut i64) i64.const 7245773203045627021)
+  (data (;0;) "")
+)

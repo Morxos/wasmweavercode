@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 eqref)
+  (global (;0;) (mut f32) f32.const 0x1.f942a8p+35 (;=67814900000;))
+  (global (;1;) i32 i32.const -1355999066)
+  (elem (;0;) func)
+  (elem (;1;) eqref)
+  (data (;0;) "e")
+  (data (;1;) "")
+)

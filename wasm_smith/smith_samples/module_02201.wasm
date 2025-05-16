@@ -1,0 +1,11 @@
+(module
+  (import "PI" "" (global (;0;) anyref))
+  (import "]x" "" (table (;0;) 8 861618 eqref))
+  (import "c\u{4}" "" (memory (;0;) 12 29416 shared))
+  (import "\u{2}9\u{0}" "" (global (;1;) (mut nullref)))
+  (import "\u{22}\u{66d}" "" (global (;2;) (mut nullfuncref)))
+  (elem (;0;) declare i31ref (ref.null none) (ref.null i31))
+  (data (;0;) "\06")
+  (data (;1;) (i32.const 3059) "")
+  (data (;2;) "H")
+)

@@ -1,0 +1,13 @@
+(module
+  (import "" "" (table (;0;) i64 8734 722908 funcref))
+  (import "" "" (memory (;0;) 2593))
+  (global (;0;) i32 i32.const -1354044821)
+  (global (;1;) i32 i32.const 1676882602)
+  (elem (;0;) (table 0) (i64.const 495) nullfuncref)
+  (data (;0;) "\d4")
+  (data (;1;) (global.get 0) "\a8\94")
+  (data (;2;) "")
+  (data (;3;) (global.get 1) "\f9")
+  (data (;4;) (global.get 0) "")
+  (data (;5;) (global.get 0) "")
+)

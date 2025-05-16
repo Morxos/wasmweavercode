@@ -1,0 +1,7 @@
+(module
+  (import "Jk\u{6}>^?T" "" (table (;0;) i64 0 738886 externref))
+  (import "L@k" "" (memory (;0;) i64 8 236997152547630))
+  (import "r" "" (global (;0;) f64))
+  (import "~\u{4}\u{d9}TU\u{12}" "" (global (;1;) (mut i32)))
+  (global (;2;) (mut i32) i32.const 951258710)
+)

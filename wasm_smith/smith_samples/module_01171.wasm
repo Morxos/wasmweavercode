@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 4860 nullexternref)
+  (global (;0;) (mut i32) i32.const -1801160146)
+  (export "\u{7}" (global 0))
+)

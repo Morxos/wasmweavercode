@@ -1,0 +1,6 @@
+(module
+  (import "D" "" (memory (;0;) i64 671))
+  (table (;0;) 0 externref)
+  (export "U\u{19}%" (memory 0))
+  (export "" (memory 0))
+)

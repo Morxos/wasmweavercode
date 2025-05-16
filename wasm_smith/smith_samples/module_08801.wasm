@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 0 anyref))
+  (import "\u{7f}c\u{5004}\u{1c}w\u{1c}Mp" "" (memory (;0;) 1042 45783 shared))
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31))
+  (elem (;1;) declare nullexternref (ref.null noextern))
+  (elem (;2;) nullref (ref.null none))
+  (elem (;3;) externref)
+  (elem (;4;) declare externref (ref.null noextern))
+)

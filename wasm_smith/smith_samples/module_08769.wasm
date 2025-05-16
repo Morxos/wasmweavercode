@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 408 19668 shared)
+  (elem (;0;) declare i31ref)
+)

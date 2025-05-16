@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 310 funcref))
+  (global (;0;) f32 f32.const -0x1.e1a7e4p-98 (;=-0.0000000000000000000000000000059368664;))
+  (export "\u{12}" (global 0))
+  (data (;0;) "")
+)

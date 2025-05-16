@@ -1,0 +1,8 @@
+(module
+  (elem (;0;) i31ref)
+  (elem (;1;) declare structref (ref.null struct) (ref.null struct))
+  (elem (;2;) declare nullexternref)
+  (elem (;3;) structref (ref.null struct))
+  (elem (;4;) funcref (ref.null func))
+  (elem (;5;) nullfuncref)
+)

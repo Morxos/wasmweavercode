@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 40 eqref)
+  (memory (;0;) 9461)
+  (elem (;0;) declare anyref (ref.null none))
+  (data (;0;) (i32.const 354451474) "\af")
+)

@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 1306 273238 externref))
+  (memory (;0;) i64 15 10916203856818)
+  (global (;0;) structref ref.null struct)
+  (export "" (memory 0))
+)

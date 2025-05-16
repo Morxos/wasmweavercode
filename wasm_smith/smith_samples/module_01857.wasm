@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 4 742556 anyref ref.null any)
+  (global (;0;) f32 f32.const -0x1.ca492ap+53 (;=-16124498000000000;))
+  (elem (;0;) (table 0) (i64.const 0) anyref)
+  (elem (;1;) declare exnref)
+)

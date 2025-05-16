@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 5522)
+  (global (;0;) i64 i64.const 6826692062460924943)
+  (export "j" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "\9a")
+)

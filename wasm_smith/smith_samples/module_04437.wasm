@@ -1,0 +1,11 @@
+(module
+  (import "\u{0}n" "" (memory (;0;) i64 0 251584487523197))
+  (import "\u{0}" "" (global (;0;) i32))
+  (import "\u{0}" "" (table (;0;) 0 830919 nullexternref))
+  (export "X6" (memory 0))
+  (export "" (global 0))
+  (export "-" (memory 0))
+  (export "3" (global 0))
+  (elem (;0;) eqref (ref.null struct) (ref.null struct) (ref.null none) (ref.null i31) (ref.null array))
+  (data (;0;) "-Z")
+)

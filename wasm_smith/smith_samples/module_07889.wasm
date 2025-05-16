@@ -1,0 +1,9 @@
+(module
+  (import "\u{1}\u{4}\u{9}" "" (table (;0;) 6909 i31ref))
+  (import "ICbp\u{1b}" "" (memory (;0;) 367 45984 shared))
+  (global (;0;) i64 i64.const -3623303268779313809)
+  (elem (;0;) declare anyref (ref.null eq))
+  (data (;0;) "")
+  (data (;1;) (i32.const 20737) "")
+  (data (;2;) "")
+)

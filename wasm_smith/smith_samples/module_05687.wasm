@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 0 nullexternref)
+  (global (;0;) (mut f32) f32.const -0x1.dfd906p-123 (;=-0.00000000000000000000000000000000000017626822;))
+  (export "\u{12}\u{13}\u{4}" (table 0))
+  (elem (;0;) funcref (ref.null func))
+  (elem (;1;) arrayref (ref.null none))
+  (elem (;2;) declare anyref (ref.null none))
+  (elem (;3;) structref)
+  (elem (;4;) nullexternref (ref.null noextern) (ref.null noextern))
+)

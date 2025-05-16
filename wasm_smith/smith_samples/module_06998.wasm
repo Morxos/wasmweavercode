@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 86 exnref ref.null exn)
+  (global (;0;) i64 i64.const -1570091680273693806 i64.const -2614967860333424287 i64.const -5513118714555502092 i64.const -6193158860611691581 i64.const 1007880690281099638 i64.add i64.sub i64.sub i64.sub i64.const -6766262651211758537 i64.const -5758338689531826014 i64.mul i64.const 4895667945445965631 i64.add i64.sub)
+  (export "" (global 0))
+  (export "+\u{18}" (table 0))
+  (export "2" (global 0))
+  (export "3" (global 0))
+  (elem (;0;) declare arrayref (ref.null array) (ref.null array))
+  (elem (;1;) declare nullexternref)
+)

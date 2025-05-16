@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut exnref) ref.null exn)
+  (global (;1;) (mut structref) ref.null struct)
+  (export "" (global 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "y")
+)

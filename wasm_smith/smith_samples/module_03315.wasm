@@ -1,0 +1,6 @@
+(module
+  (import "^\u{55a}&\u{22}" "" (global (;0;) i32))
+  (memory (;0;) i64 0 154315003293506 shared)
+  (elem (;0;) declare i31ref)
+  (data (;0;) (i64.const 0) "")
+)

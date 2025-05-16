@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 0 264966 anyref))
+  (import "" "" (global (;0;) (mut f64)))
+  (global (;1;) i64 i64.const -9958342430135462)
+  (data (;0;) "\f7\b2\8e")
+  (data (;1;) "T\de")
+  (data (;2;) "")
+)

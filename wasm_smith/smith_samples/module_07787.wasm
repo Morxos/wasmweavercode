@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 8 exnref ref.null exn)
+  (global (;0;) (mut i64) i64.const 304668053130328396)
+)

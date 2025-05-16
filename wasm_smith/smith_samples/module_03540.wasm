@@ -1,0 +1,7 @@
+(module
+  (global (;0;) f32 f32.const -0x1.41313ep-77 (;=-0.000000000000000000000008302628;))
+  (global (;1;) funcref ref.null func)
+  (global (;2;) (mut i32) i32.const 8866702)
+  (export "#\u{271}" (global 0))
+  (export "" (global 1))
+)

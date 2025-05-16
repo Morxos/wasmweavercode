@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) i64 184))
+  (import "6]" "" (global (;0;) i32))
+  (global (;1;) (mut i64) i64.const 2517455744302404606)
+  (export "px" (memory 0))
+  (elem (;0;) anyref)
+  (elem (;1;) externref)
+  (elem (;2;) declare nullexternref)
+  (elem (;3;) nullexternref)
+  (data (;0;) (i64.const 8488530) "")
+  (data (;1;) "")
+)

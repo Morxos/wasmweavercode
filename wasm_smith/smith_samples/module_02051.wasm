@@ -1,0 +1,138 @@
+(module
+  (rec
+    (type (;0;) (struct (field i8) (field (mut i8))))
+    (type (;1;) (sub (struct (field (mut i64)) (field (mut i8)) (field (mut i8)) (field i8) (field (mut i16)) (field i8) (field (mut i8)) (field (mut i16)) (field f32) (field i32) (field (mut f32)) (field (mut i16)) (field (mut i8)) (field i16) (field (mut f32)) (field i8) (field i8) (field (mut i32)) (field i16))))
+    (type (;2;) (struct (field i32) (field (mut anyref)) (field i16) (field (mut f32)) (field i8) (field i8) (field (mut i8)) (field i16) (field (mut i8)) (field i16)))
+    (type (;3;) (func (param i64 i64 f64 f32 f32) (result i64 i64 i32)))
+    (type (;4;) (sub (array (mut i16))))
+    (type (;5;) (array (mut i16)))
+    (type (;6;) (func (param structref) (result nullexternref)))
+    (type (;7;) (array f32))
+    (type (;8;) (array i16))
+    (type (;9;) (sub (func)))
+    (type (;10;) (struct (field (mut i8)) (field i8) (field (mut f64)) (field i8)))
+    (type (;11;) (sub final 1 (struct (field (mut i64)) (field (mut i8)) (field (mut i8)) (field i8) (field (mut i16)) (field i8) (field (mut i8)) (field (mut i16)) (field f32) (field i32) (field (mut f32)) (field (mut i16)) (field (mut i8)) (field i16) (field (mut f32)) (field i8) (field i8) (field (mut i32)) (field i16) (field (mut i16)) (field i16) (field f32) (field (mut i64)))))
+    (type (;12;) (sub (func (param f64 i32))))
+    (type (;13;) (sub (func (param (ref null 8)))))
+    (type (;14;) (sub (func (result i64))))
+    (type (;15;) (sub (struct)))
+    (type (;16;) (sub (func (param f32 f32))))
+    (type (;17;) (func (param f32)))
+    (type (;18;) (array (mut i8)))
+    (type (;19;) (func))
+  )
+  (rec
+    (type (;20;) (sub (struct (field f32) (field i8) (field (mut i16)))))
+    (type (;21;) (sub (func (param f32) (result (ref null 5) i64))))
+    (type (;22;) (sub (array (mut i8))))
+    (type (;23;) (struct (field (mut nullfuncref)) (field i8) (field i16) (field (mut i8)) (field i16) (field (mut i8)) (field (mut i64)) (field (mut i32)) (field i16) (field i8) (field i8) (field (mut i8))))
+    (type (;24;) (sub (array i16)))
+    (type (;25;) (sub (func (param i31ref) (result f64))))
+    (type (;26;) (sub (func)))
+    (type (;27;) (struct (field (mut f64)) (field (mut f32)) (field i8) (field (mut i8)) (field (mut f64)) (field i16)))
+    (type (;28;) (sub (array (mut i8))))
+    (type (;29;) (func (param i32 f64 i64 (ref null 23) i64 structref)))
+    (type (;30;) (sub (func (result f32))))
+    (type (;31;) (array i8))
+    (type (;32;) (sub (array (mut f32))))
+    (type (;33;) (struct (field f64)))
+    (type (;34;) (func (param (ref null 25) i64 f32) (result i32 eqref)))
+    (type (;35;) (struct (field (mut i16)) (field (mut i8)) (field (mut i8)) (field i16) (field i16) (field i8) (field (mut i8)) (field i8) (field i8) (field i8) (field (mut i16)) (field (mut i8)) (field i8) (field i8) (field i8) (field i16) (field i16) (field (mut i16))))
+    (type (;36;) (sub (struct (field (mut i8)) (field i8) (field i8) (field f64) (field (mut i16)) (field (mut i8)) (field i8))))
+    (type (;37;) (sub (array i16)))
+    (type (;38;) (sub (array (mut i32))))
+    (type (;39;) (sub (func (param f64) (result funcref i32))))
+    (type (;40;) (struct (field f32) (field (mut nullfuncref)) (field i16) (field i32) (field i8) (field f64) (field (mut i16))))
+    (type (;41;) (array i16))
+    (type (;42;) (sub (array (mut f32))))
+    (type (;43;) (array (mut i8)))
+    (type (;44;) (sub (array (mut i8))))
+    (type (;45;) (sub (array i8)))
+    (type (;46;) (func))
+    (type (;47;) (sub (func)))
+    (type (;48;) (sub 24 (array i16)))
+    (type (;49;) (array i8))
+    (type (;50;) (struct (field i16) (field (mut i8)) (field (mut i8))))
+    (type (;51;) (sub (array (mut structref))))
+    (type (;52;) (func (param f32) (result i32)))
+  )
+  (global (;0;) f64 f64.const -0x1.f809d70536f09p+186 (;=-193109164358680340000000000000000000000000000000000000000;))
+  (global (;1;) (mut nullfuncref) ref.null nofunc)
+  (global (;2;) (mut i32) i32.const 0)
+  (global (;3;) (mut i32) i32.const 0)
+  (global (;4;) (mut i64) i64.const 0)
+  (global (;5;) (mut i64) i64.const 0)
+  (export ".s" (func 0))
+  (export "|\u{7ba}\u{18}" (global 1))
+  (export "$" (global 2))
+  (export "" (global 3))
+  (export "1" (global 4))
+  (export "\u{a}" (global 5))
+  (elem (;0;) declare (ref null 42) (ref.null none) (ref.null 42))
+  (func (;0;) (type 6) (param structref) (result nullexternref)
+    elem.drop 0
+    struct.new 15
+    loop (type 30) (result f32) ;; label = @1
+      f64.const 0x1.ed81ce6ebebf3p+769 (;=5985770573193308000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+      i64.reinterpret_f64
+      ref.null 1
+      i64.const -34359738369
+      i64.const 5987351446231484941
+      i64.shl
+      i32.const -292806424
+      if ;; label = @2
+        global.get 0
+        f64.sqrt
+        f32.demote_f64
+        i32.trunc_f32_u
+        i64.const -562949953421313
+        f64.reinterpret_i64
+        f64.const -0x1.e59e26e9c97c8p+622 (;=-33015046863261570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+        br 1 (;@1;)
+        global.get 0
+        f64.ge
+        loop (type 30) (result f32) ;; label = @3
+          i32.const 365385644
+          ref.null 21
+          global.get 1
+          global.set 1
+          br_on_null 2 (;@1;)
+          drop
+          global.get 2
+          i32.xor
+          global.set 2
+          f32.const -0x1.fffffep+64 (;=-36893486000000000000;)
+        end
+        i32.reinterpret_f32
+        global.get 3
+        i32.xor
+        global.set 3
+        global.get 2
+        i32.xor
+        global.set 2
+        i64.reinterpret_f64
+        global.get 4
+        i64.xor
+        global.set 4
+        global.get 2
+        i32.xor
+        global.set 2
+      end
+      global.get 5
+      i64.xor
+      global.set 5
+      drop
+      global.get 5
+      i64.xor
+      global.set 5
+      f32.const 0x1.98d5ccp+21 (;=3349177.5;)
+    end
+    i32.reinterpret_f32
+    global.get 3
+    i32.xor
+    global.set 3
+    drop
+    ref.null noextern
+  )
+  (data (;0;) "")
+)

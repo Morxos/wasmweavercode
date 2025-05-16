@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 5437 641187 nullexternref ref.null noextern)
+  (export "" (table 0))
+  (elem (;0;) nullref)
+)

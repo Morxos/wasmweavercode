@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 29 369807 nullfuncref ref.null nofunc)
+  (elem (;0;) anyref)
+  (data (;0;) "\e9\83")
+  (data (;1;) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (import ")>" "" (global (;0;) (mut i32)))
+  (import ">y" "" (global (;1;) (mut i31ref)))
+  (table (;0;) 13 anyref ref.null struct)
+  (export "\u{0}!" (table 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (export "N\u{36e}" (global 0))
+)

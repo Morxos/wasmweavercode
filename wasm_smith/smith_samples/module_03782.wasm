@@ -1,0 +1,12 @@
+(module
+  (table (;0;) 352 eqref ref.null array)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) (mut externref) ref.null noextern)
+  (global (;2;) (mut i64) i64.const -3019193268295382234 i64.const 8108932885928801850 i64.const 391051014342415164 i64.const -5544871936812423733 i64.const -5669891820092839411 i64.const -4963512998181604669 i64.sub i64.const -2770250164811227756 i64.mul i64.mul i64.const 5817619301269965468 i64.sub i64.add i64.mul i64.sub i64.const -2390209794400102882 i64.mul)
+  (global (;3;) i32 i32.const -466534552)
+  (export "b" (table 0))
+  (export "\u{13}" (table 0))
+  (export "" (table 0))
+  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
+  (elem (;1;) eqref (ref.null i31))
+)

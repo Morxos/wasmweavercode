@@ -1,0 +1,11 @@
+(module
+  (import "tO\u{5}" "" (global (;0;) i32))
+  (table (;0;) 5297 792298 structref ref.null struct)
+  (global (;1;) (mut i64) i64.const 9144703891680383648)
+  (export "r" (table 0))
+  (export "\u{14}]" (table 0))
+  (data (;0;) "\84+")
+  (data (;1;) "\95\98\b3")
+  (data (;2;) "")
+  (data (;3;) "")
+)

@@ -1,0 +1,10 @@
+(module
+  (type (;0;) (array (mut f32)))
+  (rec)
+  (memory (;0;) i64 558)
+  (export "f" (memory 0))
+  (export "5" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "@t\16")
+  (data (;2;) "")
+)

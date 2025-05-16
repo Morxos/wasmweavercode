@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 6863 funcref)
+  (export "" (table 0))
+  (export "1" (table 0))
+)

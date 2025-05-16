@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 2 226267668444028))
+  (import "" "" (table (;0;) 10 79285 structref))
+  (import "" "" (global (;0;) (mut f64)))
+  (global (;1;) (mut i64) i64.const -8123305967343041790)
+  (export "\u{d}G\u{c}" (global 1))
+  (export "\u{17}^" (global 0))
+)

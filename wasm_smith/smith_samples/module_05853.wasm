@@ -1,0 +1,12 @@
+(module
+  (rec
+    (type (;0;) (struct (field (mut i8)) (field (mut i32)) (field (mut i8)) (field i32)))
+    (type (;1;) (sub (array (mut i32))))
+  )
+  (import "" "" (global (;0;) (mut f32)))
+  (table (;0;) 0 797984 (ref null 0))
+  (global (;1;) (mut i64) i64.const -3597757925358116080 i64.const -5134404337777484887 i64.const -519382857699817009 i64.const 4849969396685764321 i64.const -5817278383609697449 i64.const 847267569489531334 i64.const -6518986587092802074 i64.const -521119537080993257 i64.const -3596809365439241587 i64.const 1232315263777121375 i64.add i64.add i64.sub i64.mul i64.add i64.add i64.mul i64.const -270462416518549419 i64.mul i64.add i64.sub)
+  (export "12\u{7f}" (global 0))
+  (elem (;0;) declare (ref null 0) (ref.null none) (ref.null none))
+  (data (;0;) "O\e0")
+)

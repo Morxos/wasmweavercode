@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 135 55778 eqref ref.null none)
+  (memory (;0;) 59)
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 7064 247857 anyref ref.null array)
+  (memory (;0;) 1300 65312 shared)
+)

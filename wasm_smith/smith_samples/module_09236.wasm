@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 1704)
+  (global (;0;) funcref ref.null func)
+  (export "" (memory 0))
+)

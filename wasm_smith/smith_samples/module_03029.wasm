@@ -1,0 +1,6 @@
+(module
+  (import "3" "" (memory (;0;) i64 0 35245061384291))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (elem (;0;) anyref)
+)

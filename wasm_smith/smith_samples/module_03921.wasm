@@ -1,0 +1,11 @@
+(module
+  (import "\u{b}" "" (table (;0;) 8361 nullexternref))
+  (import "" "" (global (;0;) (mut f32)))
+  (import "" "" (memory (;0;) 3 55932 shared))
+  (import "EI" "" (global (;1;) i31ref))
+  (import "~WF~%" "W" (global (;2;) (mut i32)))
+  (export "@@" (global 1))
+  (export "\u{12}\u{c}\u{c}" (table 0))
+  (export "" (memory 0))
+  (export "\u{d}" (table 0))
+)

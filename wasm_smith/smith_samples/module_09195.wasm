@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 580 structref)
+  (memory (;0;) 0 40899)
+  (export "\u{8}\u{c}6kDX" (table 0))
+)

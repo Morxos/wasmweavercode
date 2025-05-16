@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 5464 243217846958685 shared))
+  (table (;0;) i64 233 nullref ref.null none)
+  (global (;0;) i64 i64.const 4729666078549955397 i64.const 6276528775685624393 i64.const 7846053764006232062 i64.const 4232337607859204606 i64.const 8084310204283221128 i64.const -2467184307991918628 i64.const 5101266780105209486 i64.const -6515437023731957567 i64.mul i64.sub i64.sub i64.add i64.const -9181097747096709387 i64.const 7115854248035818360 i64.add i64.sub i64.add i64.mul i64.mul)
+  (elem (;0;) declare structref)
+  (elem (;1;) nullref)
+)

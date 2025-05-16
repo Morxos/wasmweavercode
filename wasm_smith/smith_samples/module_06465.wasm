@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 9125 externref ref.null noextern)
+  (memory (;0;) 48 2312 shared)
+  (global (;0;) (mut nullfuncref) ref.null nofunc)
+  (global (;1;) i32 i32.const 692271218)
+  (global (;2;) (mut i64) i64.const 240997818006678735)
+  (elem (;0;) (table 0) (i64.const 7201) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (data (;0;) "\ac\c3")
+  (data (;1;) "")
+  (data (;2;) (global.get 1) "")
+)

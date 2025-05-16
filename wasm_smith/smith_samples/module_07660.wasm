@@ -1,0 +1,4 @@
+(module
+  (import "J\u{d}?[R" "" (memory (;0;) 72))
+  (table (;0;) i64 8638 513888 arrayref ref.null none)
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 3590 774379 anyref ref.null eq)
+  (memory (;0;) i64 0 35701704931542 shared)
+  (global (;0;) (mut i32) i32.const -974870210)
+  (global (;1;) f32 f32.const 0x1.c07f6ap+123 (;=18629866000000000000000000000000000000;))
+  (export "=\u{1a}" (table 0))
+  (export "\u{1d}\u{254}u" (global 0))
+  (data (;0;) "")
+  (data (;1;) "O\1c")
+)

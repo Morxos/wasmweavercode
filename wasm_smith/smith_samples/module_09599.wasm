@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 1571 670517 arrayref)
+  (global (;0;) f32 f32.const 0x1.52dcdp-35 (;=0.00000000003852421;))
+  (export "" (table 0))
+  (export "\u{5c}\u{e}c" (table 0))
+  (elem (;0;) declare nullref)
+  (elem (;1;) declare structref)
+  (elem (;2;) eqref (ref.null array) (ref.null struct) (ref.null array) (ref.null i31) (ref.null none))
+  (elem (;3;) (table 0) (i32.const 1) arrayref (ref.null array))
+  (data (;0;) "")
+)

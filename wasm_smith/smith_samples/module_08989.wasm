@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 1))
+  (global (;0;) f32 f32.const -0x1.a2b4dap+99 (;=-1036666960000000000000000000000;))
+  (global (;1;) (mut i64) i64.const -3169263475026532284)
+  (global (;2;) i32 i32.const -1743926248)
+  (global (;3;) i64 i64.const 3018421970487728891)
+  (global (;4;) i64 global.get 3)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "\u{24a}$w" "" (memory (;0;) i64 103 198617746044872))
+  (global (;0;) externref ref.null extern)
+  (export "G\u{8}" (global 0))
+  (export "g~" (memory 0))
+  (export "" (global 0))
+)

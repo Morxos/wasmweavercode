@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 189)
+  (global (;0;) (mut i32) i32.const 1429228736 i32.const 1254048428 i32.const 384544284 i32.const -1246765582 i32.const 648245363 i32.const 1842705297 i32.const -1381652381 i32.const -737055338 i32.add i32.sub i32.add i32.sub i32.const -1767815343 i32.sub i32.add i32.const -1110734705 i32.sub i32.mul i32.sub)
+  (export "" (global 0))
+  (elem (;0;) i31ref)
+  (elem (;1;) declare exnref (ref.null exn))
+  (data (;0;) "\ec")
+)

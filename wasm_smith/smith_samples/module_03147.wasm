@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 6 exnref ref.null exn)
+  (memory (;0;) i64 8512 103061409573414)
+  (data (;0;) "")
+  (data (;1;) "")
+)

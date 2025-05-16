@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) i64 1120 115218530167298 shared))
+  (import "O7" "" (global (;0;) (mut i32)))
+  (global (;1;) (mut i32) i32.const 1815454997)
+  (global (;2;) f32 f32.const -0x1.a87038p-69 (;=-0.0000000000000000000028086974;))
+  (data (;0;) (i64.const 131799) "\af\b7\00\86")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

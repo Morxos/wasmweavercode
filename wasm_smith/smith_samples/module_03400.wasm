@@ -1,0 +1,8 @@
+(module
+  (import "+>" "" (table (;0;) i64 292 666252 i31ref))
+  (import "" "" (global (;0;) i32))
+  (import "" "" (memory (;0;) i64 4))
+  (import "\u{7f}||6{\u{b}cK" "" (global (;1;) funcref))
+  (elem (;0;) (table 0) (i64.const 141) i31ref (ref.null none))
+  (data (;0;) "")
+)

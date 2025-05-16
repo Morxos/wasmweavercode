@@ -1,0 +1,4 @@
+(module
+  (import "-\u{f}\u{665}(" "" (table (;0;) 0 626664 nullref))
+  (export "" (table 0))
+)

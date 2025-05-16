@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 6569 440494 eqref ref.null array)
+  (memory (;0;) 1 6648 shared)
+  (data (;0;) (i32.const 36784) "")
+)

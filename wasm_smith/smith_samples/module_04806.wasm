@@ -1,0 +1,4 @@
+(module
+  (import "b\u{43c}r\u{6}" "" (global (;0;) f64))
+  (memory (;0;) 0 53492)
+)

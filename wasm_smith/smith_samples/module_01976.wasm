@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) 112 nullfuncref)
+  (memory (;0;) i64 1764 25816827957626 shared)
+  (global (;1;) (mut f32) f32.const 0x1.502aa8p+8 (;=336.16663;))
+)

@@ -1,0 +1,12 @@
+(module
+  (memory (;0;) 82 52494)
+  (global (;0;) i32 i32.const 409662690)
+  (global (;1;) (mut i32) i32.const -897895674)
+  (export "v" (memory 0))
+  (export "t\u{4ad}," (memory 0))
+  (export "\u{14}x" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "\85")
+  (data (;1;) (global.get 0) "")
+  (data (;2;) "")
+)

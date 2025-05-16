@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 420 eqref)
+  (memory (;0;) 3 6497 shared)
+  (export "8\u{e}p" (table 0))
+  (elem (;0;) (table 0) (i64.const 199) arrayref)
+  (data (;0;) "\9d\19\11")
+)

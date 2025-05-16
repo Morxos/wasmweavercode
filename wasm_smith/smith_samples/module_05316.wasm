@@ -1,0 +1,8 @@
+(module
+  (import "AR" "" (global (;0;) f64))
+  (import "O" "" (memory (;0;) 406))
+  (import "evg" "" (global (;1;) f32))
+  (import "" "" (global (;2;) (mut i64)))
+  (table (;0;) i64 0 857808 nullfuncref ref.null nofunc)
+  (elem (;0;) nullfuncref (ref.null nofunc))
+)

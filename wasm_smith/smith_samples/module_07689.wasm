@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 2105 anyref)
+  (elem (;0;) (table 0) (i64.const 0) structref (ref.null struct))
+  (elem (;1;) structref)
+  (elem (;2;) nullref (ref.null none) (ref.null none))
+  (elem (;3;) structref)
+  (elem (;4;) anyref (ref.null none))
+  (elem (;5;) eqref (ref.null none))
+)

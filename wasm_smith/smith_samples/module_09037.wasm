@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 568 i31ref))
+  (import "W" "" (global (;0;) (mut f64)))
+  (import "x]" "" (memory (;0;) 1 44637))
+  (global (;1;) (mut i31ref) ref.null i31)
+  (data (;0;) (i32.const 0) "\09\8b\e3\c8")
+)

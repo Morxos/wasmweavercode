@@ -1,0 +1,7 @@
+(module
+  (import "I" "" (global (;0;) (mut f64)))
+  (memory (;0;) i64 765 256905735787561 shared)
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (elem (;0;) declare anyref (ref.null array))
+)

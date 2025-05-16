@@ -1,0 +1,6 @@
+(module
+  (import "l" "" (global (;0;) i32))
+  (export "" (global 0))
+  (elem (;0;) arrayref)
+  (elem (;1;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+)

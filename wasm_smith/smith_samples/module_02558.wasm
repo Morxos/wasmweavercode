@@ -1,0 +1,8 @@
+(module
+  (rec
+    (type (;0;) (array (mut eqref)))
+    (type (;1;) (sub (struct (field (mut i32)) (field (mut i8)) (field i16) (field i16) (field (mut i32)) (field (mut funcref)) (field i8) (field (mut i16)) (field (mut i8)) (field (mut nullref)) (field (mut i16)) (field i16) (field (mut i16)) (field (mut i16)) (field i8))))
+  )
+  (import "" "" (memory (;0;) i64 181 13945654226201))
+  (global (;0;) i32 i32.const -898098545)
+)

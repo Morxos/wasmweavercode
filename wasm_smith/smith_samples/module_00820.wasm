@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 3889 i31ref)
+  (elem (;0;) (table 0) (i64.const 20) i31ref (ref.null i31))
+)

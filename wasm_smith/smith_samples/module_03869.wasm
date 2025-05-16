@@ -1,0 +1,13 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "7*" "" (table (;0;) i64 312 246825 eqref))
+  (memory (;0;) i64 1 260018310715072)
+  (global (;1;) (mut f32) f32.const 0x1.621654p-98 (;=0.000000000000000000000000000004364462;))
+  (global (;2;) i64 i64.const 5001439641536123770)
+  (export "" (memory 0))
+  (export ",\u{19}b" (global 1))
+  (data (;0;) (i64.const 919) "")
+  (data (;1;) "")
+  (data (;2;) (global.get 2) "")
+  (data (;3;) "\be")
+)

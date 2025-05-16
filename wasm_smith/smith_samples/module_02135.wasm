@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 0 anyref ref.null any)
+  (global (;0;) (mut nullfuncref) ref.null nofunc)
+  (global (;1;) (mut f64) f64.const 0x1.5bf7ba08070cfp+35 (;=46703431744.22033;))
+  (elem (;0;) externref)
+  (elem (;1;) declare arrayref (ref.null none))
+  (data (;0;) "")
+)

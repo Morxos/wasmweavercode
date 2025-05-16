@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 502)
+  (export "Yo$" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "\05")
+)

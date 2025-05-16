@@ -1,0 +1,13 @@
+(module
+  (rec
+    (type (;0;) (sub (struct (field (mut i16)) (field (mut i32)) (field (mut i16)) (field (mut i8)) (field f32) (field f64) (field (mut i32)) (field (mut i8)))))
+    (type (;1;) (array (mut i8)))
+    (type (;2;) (struct (field i8) (field (mut i8)) (field (mut i64)) (field (mut f32))))
+    (type (;3;) (sub (array i8)))
+    (type (;4;) (sub (struct (field i64) (field (mut i16)) (field i8) (field (mut exnref)) (field i8) (field (mut i8)) (field (mut i8)) (field i16) (field (mut i16)) (field i16) (field i8))))
+  )
+  (import "" "" (global (;0;) f32))
+  (table (;0;) i64 1023 (ref null 2))
+  (memory (;0;) 65520 65534)
+  (data (;0;) "\c8")
+)

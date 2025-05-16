@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 238)
+  (elem (;0;) declare externref (ref.null extern))
+  (data (;0;) "\7f")
+  (data (;1;) "")
+  (data (;2;) (i64.const 13) "\b1f=\1b^")
+)

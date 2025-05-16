@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 1788)
+  (global (;0;) (mut f32) f32.const 0x1.3ae4a8p+92 (;=6090920000000000000000000000;))
+  (elem (;0;) declare func)
+)

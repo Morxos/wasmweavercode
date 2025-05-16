@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 499 806515 structref))
+  (export "J]" (table 0))
+  (export "\u{11}*" (table 0))
+  (export "m" (table 0))
+)

@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 146 130631214915482 shared)
+  (data (;0;) (i64.const 1971) "")
+)

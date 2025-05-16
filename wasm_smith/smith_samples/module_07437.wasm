@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 11 33924)
+  (export "6" (memory 0))
+  (elem (;0;) declare arrayref (ref.null array) (ref.null none) (ref.null none) (ref.null array) (ref.null array))
+  (elem (;1;) declare nullfuncref)
+  (data (;0;) (i32.const 109) "\00\95")
+  (data (;1;) "eT\07$\e6")
+  (data (;2;) "")
+)

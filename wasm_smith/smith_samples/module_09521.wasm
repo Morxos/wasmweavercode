@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 6 eqref)
+  (global (;0;) (mut eqref) ref.null i31)
+  (global (;1;) i64 i64.const 1179014777518481496 i64.const 272648452073432006 i64.const -6340963706709035139 i64.const 8677444073102652596 i64.const -4402945643125043964 i64.const 1131355920488079952 i64.sub i64.const 5155891389291612720 i64.const -8563936569507426325 i64.add i64.sub i64.add i64.add i64.mul i64.mul i64.const 7230068192900362740 i64.mul)
+  (data (;0;) "\a2")
+  (data (;1;) "\7f\d3I\a2Fxx\ef")
+)

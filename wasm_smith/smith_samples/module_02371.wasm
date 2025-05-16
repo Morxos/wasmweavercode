@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 317 726751 i31ref)
+  (global (;0;) i32 i32.const 1015873685)
+  (global (;1;) i32 i32.const -326993 i32.const -1236646023 i32.const -34467955 i32.const 861010836 i32.const 751955218 i32.const 2093069785 i32.const -1331719283 i32.const 739508279 i32.const 1725109601 i32.const 856557763 i32.mul i32.sub i32.add i32.mul i32.mul i32.add i32.mul i32.sub i32.mul)
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) declare i31ref)
+  (data (;0;) "\f3\d7")
+  (data (;1;) "")
+  (data (;2;) "\02")
+)

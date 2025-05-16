@@ -1,0 +1,10 @@
+(module
+  (import "F s\u{1e}" "" (memory (;0;) 0 53475))
+  (table (;0;) i64 52 exnref)
+  (export "\u{18}" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "W")
+  (data (;2;) "\cd\aa\1d")
+  (data (;3;) "y")
+  (data (;4;) "")
+)

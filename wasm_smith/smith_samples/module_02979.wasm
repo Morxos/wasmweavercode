@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 1855 externref)
+  (memory (;0;) i64 12512 255955044575842)
+  (export "\u{5c}Z#" (table 0))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) declare structref (ref.null none))
+  (elem (;2;) (table 0) (i64.const 182) externref (ref.null extern) (ref.null extern))
+  (elem (;3;) nullfuncref (ref.null nofunc))
+  (elem (;4;) declare externref)
+)

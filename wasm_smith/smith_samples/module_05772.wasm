@@ -1,0 +1,13 @@
+(module
+  (import "" "" (global (;0;) (mut externref)))
+  (global (;1;) f32 f32.const 0x1.a96106p+93 (;=16456053000000000000000000000;))
+  (global (;2;) i32 i32.const -1256542795)
+  (export "e" (global 0))
+  (export "\u{5c}0\u{2}\u{15}TR" (global 0))
+  (export "" (global 0))
+  (export "3" (global 2))
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) eqref (ref.null struct) (ref.null i31))
+  (data (;0;) "")
+  (data (;1;) "\d9")
+)

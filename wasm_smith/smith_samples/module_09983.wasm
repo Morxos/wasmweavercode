@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 19 nullref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (elem (;0;) eqref)
+  (data (;0;) "")
+  (data (;1;) "N")
+)

@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 2010 funcref)
+  (global (;0;) i64 i64.const 4959875194536120704 i64.const -5931310552918968826 i64.const 2657205012666382380 i64.const -5505994538858532865 i64.const -530450903207627110 i64.const -1452517983885040777 i64.const 7449143239210838832 i64.const -885100031214295209 i64.const 3065683543801265045 i64.add i64.mul i64.mul i64.sub i64.const -1533259208305238383 i64.mul i64.sub i64.add i64.sub i64.add)
+  (global (;1;) nullfuncref ref.null nofunc)
+  (export "J\u{19bc}" (table 0))
+  (export "+" (global 0))
+  (elem (;0;) (table 0) (global.get 0) nullfuncref (ref.null nofunc) (global.get 1))
+  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;2;) (table 0) (global.get 0) nullfuncref)
+  (data (;0;) "\afa\fb")
+  (data (;1;) "")
+  (data (;2;) "")
+)

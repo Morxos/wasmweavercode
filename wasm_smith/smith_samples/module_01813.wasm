@@ -1,0 +1,6 @@
+(module
+  (import "e" "" (table (;0;) i64 1225 eqref))
+  (memory (;0;) i64 15 144925043659448)
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 858) structref)
+)

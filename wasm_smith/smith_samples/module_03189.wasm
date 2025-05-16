@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 105 47078))
+  (import "" "" (table (;0;) i64 5819 externref))
+  (export "k*\u{10}8" (memory 0))
+  (export "p" (table 0))
+  (export "" (memory 0))
+  (export "3" (table 0))
+)

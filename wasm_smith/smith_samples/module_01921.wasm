@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 150 207865 anyref))
+  (import "<" "" (memory (;0;) 5 53708))
+  (export "" (table 0))
+  (export "HJ" (memory 0))
+  (elem (;0;) declare eqref (ref.null struct) (ref.null array) (ref.null i31) (ref.null array) (ref.null struct))
+  (elem (;1;) structref (ref.null struct) (ref.null struct))
+)

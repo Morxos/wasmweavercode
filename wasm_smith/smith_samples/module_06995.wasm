@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 7824 290999 exnref))
+  (import "" "" (memory (;0;) i64 1))
+  (export "Y\u{9}\u{5d89}" (memory 0))
+  (elem (;0;) arrayref (ref.null array))
+)

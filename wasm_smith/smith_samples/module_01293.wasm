@@ -1,0 +1,10 @@
+(module
+  (import "\u{4}" "" (global (;0;) (mut i64)))
+  (import "" "" (global (;1;) (mut funcref)))
+  (table (;0;) 259 structref ref.null none)
+  (memory (;0;) 76 48795 shared)
+  (export "" (memory 0))
+  (elem (;0;) funcref)
+  (elem (;1;) declare nullexternref)
+  (elem (;2;) structref)
+)

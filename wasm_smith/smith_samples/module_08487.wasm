@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 6201)
+  (global (;0;) i64 i64.const -1703632960566315228)
+  (export "" (memory 0))
+  (export "1" (global 0))
+  (elem (;0;) anyref)
+  (data (;0;) "")
+  (data (;1;) (global.get 0) "q\bd\f4")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "\u{4e5}" "" (global (;0;) eqref))
+  (data (;0;) "\5c")
+)

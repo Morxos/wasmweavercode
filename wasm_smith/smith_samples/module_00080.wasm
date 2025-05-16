@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (table (;0;) 0 671806 eqref)
+  (memory (;0;) i64 163 267876760705088 shared)
+  (global (;1;) (mut f32) f32.const 0x1.f3672ep-56 (;=0.000000000000000027072693;))
+  (export "" (memory 0))
+  (elem (;0;) eqref (ref.null none) (ref.null struct))
+  (elem (;1;) (table 0) (i32.const 0) structref)
+  (elem (;2;) declare anyref (ref.null array) (ref.null eq))
+  (data (;0;) "")
+)

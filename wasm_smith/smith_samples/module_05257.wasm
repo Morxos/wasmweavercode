@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 0 258563103124189 shared))
+  (import "s\u{358}" "" (global (;0;) (mut i64)))
+  (import "*" "" (global (;1;) (mut f32)))
+  (table (;0;) 6 992324 eqref)
+  (elem (;0;) externref (ref.null noextern))
+  (elem (;1;) func)
+)

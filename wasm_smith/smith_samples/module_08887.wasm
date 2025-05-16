@@ -1,0 +1,13 @@
+(module
+  (import "" "" (table (;0;) 0 775560 exnref))
+  (memory (;0;) i64 3798)
+  (global (;0;) i64 i64.const -186478636979697614 i64.const -6507943141258104849 i64.const -385944367151896608 i64.const -7507125948363660394 i64.const 3449344641997823823 i64.const -6197259694173036862 i64.const -4044046209224195451 i64.const -5774675311305983791 i64.const 7438520682560176063 i64.const 6168844928807923858 i64.const -2952568258859928126 i64.const -8165389768037068319 i64.add i64.sub i64.add i64.mul i64.add i64.add i64.sub i64.add i64.sub i64.add i64.sub)
+  (global (;1;) (mut i64) i64.const 6785181385345843445)
+  (global (;2;) i32 i32.const 1782208203)
+  (global (;3;) structref ref.null struct)
+  (global (;4;) (mut i32) i32.const 1605940186)
+  (export "" (memory 0))
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "\f8")
+  (data (;1;) "")
+)

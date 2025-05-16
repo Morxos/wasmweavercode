@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 1480 nullfuncref))
+  (export "" (table 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+)

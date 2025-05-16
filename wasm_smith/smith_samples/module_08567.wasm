@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 1137 23510 nullref ref.null none)
+  (global (;0;) (mut i64) i64.const 6998084163597335921)
+  (elem (;0;) structref (ref.null none))
+  (elem (;1;) (table 0) (i32.const 23) nullref (ref.null none) (ref.null none) (ref.null none))
+  (elem (;2;) structref (ref.null struct))
+  (elem (;3;) nullexternref (ref.null noextern))
+)

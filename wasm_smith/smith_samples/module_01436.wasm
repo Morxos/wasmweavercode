@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (table (;0;) 337 arrayref ref.null array)
+  (memory (;0;) i64 2848 169753935016270 shared)
+  (global (;1;) i64 i64.const 7639705095679872005 i64.const -165330483781374302 i64.const -6855540987545383322 i64.const 8722425537608402752 i64.const -7212332947311865068 i64.const 2100656095604439099 i64.const -7871782925141846086 i64.const -2487006131571657250 i64.const -500291270910340818 i64.const 6690349869456905800 i64.sub i64.add i64.mul i64.mul i64.sub i64.mul i64.add i64.const 6685347049355380684 i64.sub i64.sub i64.add)
+  (global (;2;) f32 f32.const 0x1.7dc744p-121 (;=0.0000000000000000000000000000000000005609729;))
+  (export "" (table 0))
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null none))
+)

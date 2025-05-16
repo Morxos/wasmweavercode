@@ -1,0 +1,8 @@
+(module
+  (import "rG\u{12}" "" (memory (;0;) 70 61305 shared))
+  (table (;0;) i64 411 nullfuncref)
+  (elem (;0;) arrayref (ref.null array))
+  (elem (;1;) nullexternref (ref.null noextern))
+  (elem (;2;) i31ref)
+  (elem (;3;) funcref)
+)

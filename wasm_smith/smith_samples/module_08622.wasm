@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 0 externref ref.null noextern)
+  (memory (;0;) 0)
+  (global (;0;) (mut i64) i64.const -8079723830441309220 i64.const 8617908918834736653 i64.const 1969933409793771326 i64.const 763689260791458362 i64.const -5012090667976953180 i64.const 239832642577300033 i64.const 4373340521641095626 i64.const -7315663994482759653 i64.sub i64.sub i64.add i64.const -9086716429109657579 i64.const -8940638835348078872 i64.sub i64.sub i64.sub i64.mul i64.sub i64.sub)
+  (export "" (memory 0))
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null none))
+  (elem (;1;) eqref)
+  (elem (;2;) nullfuncref (ref.null nofunc))
+  (elem (;3;) nullref)
+  (elem (;4;) declare nullexternref)
+  (data (;0;) "~3")
+)

@@ -1,0 +1,12 @@
+{
+    "reward": 0.3714793095956168,
+    "flag_states": {
+        "FLAG_0": false,
+        "FLAG_1": true,
+        "FLAG_2": true,
+        "FLAG_3": false,
+        "FLAG_4": true
+    },
+    "return_values": [],
+    "stack_values": []
+}

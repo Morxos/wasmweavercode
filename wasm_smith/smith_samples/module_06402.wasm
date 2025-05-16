@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 13283)
+  (elem (;0;) declare structref (ref.null none))
+  (elem (;1;) declare eqref)
+  (elem (;2;) nullfuncref)
+)

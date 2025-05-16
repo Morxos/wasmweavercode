@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) declare exnref)
+  (elem (;1;) declare funcref (ref.null func))
+  (elem (;2;) arrayref (ref.null array))
+)

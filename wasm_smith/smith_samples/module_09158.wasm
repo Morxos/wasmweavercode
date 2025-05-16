@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "+\u{10}+\u{18}g" "" (table (;0;) 2224 eqref))
+  (elem (;0;) declare i31ref (ref.null none))
+  (elem (;1;) nullref (ref.null none))
+)

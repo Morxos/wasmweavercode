@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 4172 nullexternref)
+  (elem (;0;) anyref (ref.null eq) (ref.null struct) (ref.null array))
+  (elem (;1;) declare exnref)
+  (data (;0;) "y")
+  (data (;1;) "\fb")
+)

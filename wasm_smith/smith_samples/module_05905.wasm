@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 2 338759 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 15015 266108072273752 shared)
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) (table 0) (i64.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare nullref)
+  (data (;0;) (i64.const 699871047) "\85b\b5")
+)

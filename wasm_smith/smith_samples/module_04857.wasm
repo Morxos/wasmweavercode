@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 2649 396048 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 73 204970204121199 shared)
+  (export "/" (memory 0))
+)

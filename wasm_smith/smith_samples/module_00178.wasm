@@ -1,0 +1,10 @@
+(module
+  (import "H" "" (memory (;0;) 0 49874))
+  (table (;0;) 651 837105 exnref ref.null exn)
+  (global (;0;) nullref ref.null none)
+  (elem (;0;) (table 0) (i32.const 0) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) (table 0) (i32.const 0) exnref)
+  (elem (;2;) anyref (ref.null none) (global.get 0))
+  (elem (;3;) (table 0) (i32.const 0) exnref)
+  (data (;0;) "\8d\b2")
+)

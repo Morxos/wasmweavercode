@@ -1,0 +1,4 @@
+(module
+  (global (;0;) f32 f32.const -0x1.db9256p+115 (;=-77165910000000000000000000000000000;))
+  (global (;1;) funcref ref.null nofunc)
+)

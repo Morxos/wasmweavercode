@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 65376 65402)
+  (global (;0;) (mut i31ref) ref.null none)
+  (data (;0;) "[\0fi\ce\9a\d43\e8\f2")
+  (data (;1;) "")
+  (data (;2;) "")
+)

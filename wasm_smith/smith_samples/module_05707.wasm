@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 0 123270 nullexternref ref.null noextern)
+  (memory (;0;) i64 0 113805019051132)
+  (global (;0;) (mut f32) f32.const 0x1.8c3682p-76 (;=0.000000000000000000000020483728;))
+  (export "<9." (global 0))
+  (export "" (table 0))
+  (elem (;0;) nullref)
+)

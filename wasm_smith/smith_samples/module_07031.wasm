@@ -1,0 +1,8 @@
+(module
+  (import "g" "" (memory (;0;) i64 137))
+  (table (;0;) i64 0 arrayref ref.null none)
+  (global (;0;) (mut f32) f32.const 0x1.dc2868p+12 (;=7618.5254;))
+  (export "" (global 0))
+  (elem (;0;) declare i31ref)
+  (data (;0;) (i64.const 232340) "")
+)

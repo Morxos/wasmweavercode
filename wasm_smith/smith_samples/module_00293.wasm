@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 5 210942 exnref)
+  (global (;0;) externref ref.null noextern)
+  (global (;1;) (mut f64) f64.const -0x1.24c4aa2576eabp-74 (;=-0.00000000000000000000006054304914269389;))
+  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) exnref)
+)

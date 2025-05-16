@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 32)
+  (global (;0;) (mut i64) i64.const 5484197029169856232)
+  (elem (;0;) anyref (ref.null struct) (ref.null array))
+  (data (;0;) (i32.const 139603) "F")
+  (data (;1;) (i32.const 4689) "\0e")
+  (data (;2;) (i32.const 181) "\0c\ce:")
+)

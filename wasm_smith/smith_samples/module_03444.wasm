@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 173 nullref)
+  (global (;0;) eqref ref.null array)
+)

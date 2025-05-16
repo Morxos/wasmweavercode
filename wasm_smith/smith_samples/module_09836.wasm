@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 1 54173)
+  (export "7" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "U\f9\ce\a0")
+  (data (;1;) "")
+)

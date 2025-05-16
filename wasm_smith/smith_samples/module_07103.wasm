@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 0 nullfuncref))
+  (data (;0;) "\8d\f1")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

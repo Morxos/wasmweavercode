@@ -1,0 +1,12 @@
+(module
+  (import "\u{16}{" "" (memory (;0;) i64 25))
+  (import "" "" (table (;0;) 239 730436 structref))
+  (global (;0;) i64 i64.const -8528429237396282958)
+  (global (;1;) i32 i32.const 1894067840)
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (export "+6>" (memory 0))
+  (elem (;0;) funcref)
+  (elem (;1;) declare arrayref (ref.null array))
+  (data (;0;) "")
+)

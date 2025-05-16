@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 0 50236 shared)
+  (export "\u{10}" (memory 0))
+  (export "" (memory 0))
+  (export "2" (memory 0))
+  (export "3" (memory 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+)

@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut arrayref)))
+  (import "" "" (table (;0;) i64 2195 644586 exnref))
+  (import "" "" (global (;1;) (mut f32)))
+  (memory (;0;) i64 1839 117278568743789)
+  (export "(2B6" (memory 0))
+  (export "x\u{1b}J34w" (memory 0))
+  (data (;0;) (i64.const 1068616) "J")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (export "m" (global 0))
+  (export "" (global 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

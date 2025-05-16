@@ -1,0 +1,8 @@
+(module
+  (import "\u{0};\u{1a}zs\u{1}\u{11}\u{1b}" "" (global (;0;) f64))
+  (memory (;0;) i64 3817 97282133708661 shared)
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare eqref (ref.null eq))
+  (elem (;2;) declare arrayref)
+  (data (;0;) "E%\ef+")
+)

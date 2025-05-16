@@ -1,0 +1,12 @@
+(module
+  (import "r" "" (memory (;0;) 10858 35861))
+  (import "" "" (table (;0;) i64 2155 117438 structref))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (global (;1;) (mut f64)))
+  (import "B" "" (global (;2;) (mut i64)))
+  (global (;3;) i64 i64.const 4063815385594939664 i64.const 8555950264440557916 i64.const -1125114761740375110 i64.const -5819152145905737609 i64.add i64.const 1766720456120284376 i64.add i64.const -7976606254028933946 i64.const -2323507708412564048 i64.add i64.add i64.const 4326269929019598993 i64.mul i64.add i64.sub)
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) (table 0) (i64.const 88) nullref)
+  (data (;0;) "\a0'")
+  (data (;1;) (i32.const 110131420) "")
+)

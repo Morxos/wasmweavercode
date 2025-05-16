@@ -1,0 +1,8 @@
+(module
+  (import "X" "" (memory (;0;) 1028 36780))
+  (elem (;0;) declare func)
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) declare exnref)
+  (elem (;3;) declare nullexternref (ref.null noextern))
+  (elem (;4;) declare eqref (ref.null struct))
+)

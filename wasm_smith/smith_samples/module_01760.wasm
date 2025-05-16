@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 2920 777402 funcref ref.null func)
+  (memory (;0;) i64 0)
+  (global (;0;) (mut exnref) ref.null exn)
+  (export "|" (global 0))
+  (data (;0;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 299))
+  (import " \u{0}7&" "" (global (;0;) i64))
+  (import "\u{683}hj[aI'Md" "" (global (;1;) (mut f32)))
+  (import "" "" (global (;2;) (mut f64)))
+  (import "\u{c}\u{6e7}" "" (table (;0;) i64 0 988126 externref))
+  (data (;0;) "\12\e8")
+)

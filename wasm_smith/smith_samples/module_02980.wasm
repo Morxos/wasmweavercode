@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 8834 26179)
+  (elem (;0;) declare externref)
+  (elem (;1;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (elem (;2;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;3;) declare nullfuncref)
+)

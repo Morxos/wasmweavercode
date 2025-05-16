@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 170680 i31ref ref.null none)
+  (memory (;0;) 13327 51545 shared)
+  (global (;0;) (mut f32) f32.const -0x1.bdb15ap+17 (;=-228194.7;))
+)

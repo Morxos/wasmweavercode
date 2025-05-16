@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 9182))
+  (import "k+" "" (table (;0;) 1 anyref))
+  (import "u\u{1f}" "" (global (;0;) i32))
+  (export "" (table 0))
+  (elem (;0;) externref (ref.null noextern) (ref.null extern))
+  (elem (;1;) declare arrayref (ref.null array))
+)

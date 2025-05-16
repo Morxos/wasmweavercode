@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 1800 eqref ref.null struct)
+  (global (;0;) i32 i32.const 8022556 i32.const 1354759412 i32.const 1844394997 i32.const 311514354 i32.const 1394269458 i32.const -1537487174 i32.const -1298792335 i32.const 1521952915 i32.sub i32.mul i32.const 971474941 i32.add i32.mul i32.add i32.mul i32.const -225589974 i32.mul i32.mul i32.sub)
+  (global (;1;) (mut i32) i32.const -1565964070 i32.const -389340334 i32.const -243396130 i32.const -461033074 i32.const -2043823683 i32.const 865319061 i32.const -735835170 i32.const 768651649 i32.const -813331750 i32.const 2066245092 i32.sub i32.sub i32.sub i32.sub i32.mul i32.mul i32.sub i32.mul i32.const -1583984451 i32.sub i32.sub)
+  (global (;2;) (mut i64) i64.const -2299059491545251678)
+  (export "" (table 0))
+  (export "41w^" (table 0))
+  (export "7b&\u{50f}" (global 0))
+  (data (;0;) "u")
+  (data (;1;) "\be")
+)

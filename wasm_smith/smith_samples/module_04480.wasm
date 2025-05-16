@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 294 nullref ref.null none)
+  (memory (;0;) 11010 17597 shared)
+  (export "\u{9}" (table 0))
+)

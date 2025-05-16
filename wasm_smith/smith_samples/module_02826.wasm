@@ -1,0 +1,9 @@
+(module
+  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) declare anyref (ref.null none) (ref.null none) (ref.null array))
+  (elem (;2;) i31ref (ref.null none) (ref.null i31))
+  (elem (;3;) nullexternref)
+  (elem (;4;) anyref)
+  (elem (;5;) declare externref (ref.null extern) (ref.null extern) (ref.null extern) (ref.null noextern) (ref.null extern) (ref.null noextern) (ref.null extern) (ref.null noextern))
+  (elem (;6;) declare nullexternref (ref.null noextern) (ref.null noextern))
+)

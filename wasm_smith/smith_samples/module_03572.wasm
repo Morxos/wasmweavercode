@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 95 394753 eqref ref.null i31)
+  (elem (;0;) (table 0) (i32.const 40) eqref)
+  (elem (;1;) (table 0) (i32.const 0) eqref)
+  (data (;0;) "\93\f9n\b5}")
+)

@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut f32) f32.const -0x1.5fc82p+120 (;=-1826555200000000000000000000000000000;))
+  (export "c\u{2}" (global 0))
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null none) (ref.null none))
+  (elem (;1;) anyref)
+)

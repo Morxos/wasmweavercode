@@ -1,0 +1,9 @@
+(module
+  (import "\u{8d}fkfz" "" (memory (;0;) 2113 35848 shared))
+  (import "" "" (table (;0;) i64 9461 nullexternref))
+  (import "u" "" (global (;0;) i32))
+  (export "l" (table 0))
+  (elem (;0;) (table 0) (i64.const 1501) nullexternref)
+  (data (;0;) (global.get 0) "")
+  (data (;1;) (global.get 0) "")
+)

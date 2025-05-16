@@ -1,0 +1,5 @@
+(module
+  (import "gp" "" (table (;0;) 5832 eqref))
+  (memory (;0;) 0 3410)
+  (data (;0;) "")
+)

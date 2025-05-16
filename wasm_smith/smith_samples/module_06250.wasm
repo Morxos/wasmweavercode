@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare anyref (ref.null none))
+  (data (;0;) "\e9")
+)

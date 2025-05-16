@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 3 201923693766068)
+  (global (;0;) (mut eqref) ref.null eq)
+  (global (;1;) i64 i64.const -4363588322388942544)
+  (elem (;0;) declare anyref (ref.null none) (ref.null eq) (ref.null array) (ref.null i31))
+  (elem (;1;) declare nullref)
+  (data (;0;) "3\5c")
+  (data (;1;) (i64.const 19061) "\ce")
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 2 i31ref)
+  (memory (;0;) i64 2588)
+  (global (;0;) (mut f32) f32.const -0x1.7afcc6p+65 (;=-54617840000000000000;))
+  (data (;0;) (i64.const 54370261) "")
+  (data (;1;) (i64.const 115881178) "\891`")
+  (data (;2;) (i64.const 58049527) "\f9")
+)

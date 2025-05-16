@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) 9176 structref))
+  (memory (;0;) i64 0)
+)

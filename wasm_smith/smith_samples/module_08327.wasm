@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut f32) f32.const 0x1.b23b06p-23 (;=0.00000020220436;))
+  (export "" (global 0))
+  (data (;0;) "q\9e")
+  (data (;1;) "")
+)

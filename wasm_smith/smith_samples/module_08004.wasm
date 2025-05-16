@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) 9591 453119 exnref))
+  (memory (;0;) i64 6473)
+  (elem (;0;) declare externref (ref.null extern) (ref.null noextern))
+  (elem (;1;) (table 0) (i32.const 38) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;2;) declare nullfuncref)
+  (elem (;3;) eqref (ref.null eq) (ref.null none) (ref.null struct) (ref.null none))
+  (elem (;4;) (table 0) (i32.const 1544) exnref (ref.null exn))
+  (data (;0;) "\98\11\91")
+)

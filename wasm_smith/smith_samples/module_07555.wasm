@@ -1,0 +1,12 @@
+(module
+  (import "b" "" (global (;0;) f32))
+  (global (;1;) i64 i64.const 3742991477601376567)
+  (export "v" (global 1))
+  (elem (;0;) declare structref)
+  (elem (;1;) nullref)
+  (elem (;2;) exnref)
+  (elem (;3;) nullref)
+  (data (;0;) "s")
+  (data (;1;) "qi")
+  (data (;2;) "")
+)

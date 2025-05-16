@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 0)
+  (data (;0;) "J\e4")
+)

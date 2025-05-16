@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 2 809675 nullfuncref ref.null nofunc)
+  (memory (;0;) 3131)
+  (export "zF" (table 0))
+  (data (;0;) "\eb\c0")
+  (data (;1;) (i32.const 6) "\0b[")
+  (data (;2;) "")
+)

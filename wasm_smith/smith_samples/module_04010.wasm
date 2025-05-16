@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 0 55174 shared)
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) anyref (ref.null none))
+  (elem (;2;) nullexternref (ref.null noextern))
+)

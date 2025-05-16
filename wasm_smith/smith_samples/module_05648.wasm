@@ -1,0 +1,12 @@
+(module
+  (import "T\u{1c}" "" (memory (;0;) i64 67 83268965823635 shared))
+  (table (;0;) i64 12 753954 externref ref.null noextern)
+  (export "" (memory 0))
+  (elem (;0;) externref)
+  (data (;0;) (i64.const 0) "\e3")
+  (data (;1;) ")")
+  (data (;2;) "")
+  (data (;3;) (i64.const 11844) "")
+  (data (;4;) (i64.const -83792419667685376) "")
+  (data (;5;) (i64.const 332) "")
+)

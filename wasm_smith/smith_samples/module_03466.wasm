@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 5003 nullfuncref)
+  (elem (;0;) declare anyref (ref.null eq))
+  (elem (;1;) exnref)
+)

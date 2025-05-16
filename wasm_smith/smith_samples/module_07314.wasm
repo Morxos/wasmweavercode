@@ -1,0 +1,6 @@
+(module
+  (import "O2" "" (memory (;0;) i64 622))
+  (import "" "" (global (;0;) f32))
+  (table (;0;) i64 2336 878985 nullfuncref ref.null nofunc)
+  (elem (;0;) declare nullref (ref.null none))
+)

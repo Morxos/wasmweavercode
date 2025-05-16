@@ -1,0 +1,13 @@
+(module
+  (table (;0;) 184 exnref ref.null exn)
+  (memory (;0;) 2 46266)
+  (global (;0;) (mut i64) i64.const 8273989057009887350 i64.const 6986702662276201424 i64.const 4230025282601100631 i64.const -622004571300848640 i64.add i64.sub i64.add i64.const 6489011097499969370 i64.const 1239606931937118313 i64.mul i64.sub i64.const -3723040530047784900 i64.add i64.const 5675518701284109183 i64.sub)
+  (global (;1;) f32 f32.const -0x1.b47242p-86 (;=-0.000000000000000000000000022034908;))
+  (global (;2;) (mut i64) i64.const -6846349257658768159)
+  (global (;3;) i32 i32.const 599576074)
+  (global (;4;) i32 i32.const -1827871760)
+  (export "" (global 1))
+  (elem (;0;) (table 0) (global.get 3) exnref (ref.null exn))
+  (elem (;1;) declare arrayref)
+  (elem (;2;) nullexternref)
+)

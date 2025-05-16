@@ -1,0 +1,8 @@
+(module
+  (import "ZQD\u{17}\u{9}z" "" (memory (;0;) i64 1 30932599309364))
+  (import "\u{0}7" "" (table (;0;) 1731 406163 structref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (global (;1;) i32))
+  (data (;0;) (i64.const 1419) "")
+  (data (;1;) "")
+)

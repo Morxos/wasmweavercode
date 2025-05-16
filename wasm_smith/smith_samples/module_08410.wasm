@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 6)
+  (export "\u{6}0 gilO\u{149}" (memory 0))
+  (export "\u{0}>" (memory 0))
+  (export "" (memory 0))
+  (export "c]" (memory 0))
+  (export "4" (memory 0))
+)

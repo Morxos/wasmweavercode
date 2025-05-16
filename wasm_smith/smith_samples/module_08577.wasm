@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 1 623744 externref))
+  (import "'\u{1a}=]I " "" (memory (;0;) 9162 12558))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "Z\u{1c}" "" (global (;1;) nullfuncref))
+  (data (;0;) "\87")
+)

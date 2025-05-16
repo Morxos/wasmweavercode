@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 7347 nullexternref)
+  (global (;0;) (mut f32) f32.const 0x1.ea89c2p+47 (;=269676180000000;))
+  (export "\u{5b6}" (table 0))
+)

@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 325 nullfuncref ref.null nofunc)
+  (memory (;0;) 0 15113)
+  (global (;0;) (mut i64) i64.const -878983051252531089 i64.const 3978914252234248542 i64.const -5262109185767192409 i64.const 3977516636629717393 i64.const 1258629982297525878 i64.add i64.sub i64.add i64.sub i64.const -8501670219070981307 i64.const 3924366756223574226 i64.const -4268691332001753245 i64.sub i64.mul i64.sub)
+  (export "" (global 0))
+)

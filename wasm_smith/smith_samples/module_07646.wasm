@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 1759 structref)
+  (memory (;0;) i64 5092 105922146066564 shared)
+  (global (;0;) i32 i32.const 455647750)
+  (global (;1;) (mut exnref) ref.null exn)
+)

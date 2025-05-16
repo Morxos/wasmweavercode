@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 113 432821 nullfuncref)
+  (memory (;0;) 0 62229)
+  (global (;0;) i64 i64.const -5591681682360120477)
+  (export "" (memory 0))
+  (export "1" (global 0))
+  (export "2" (global 0))
+  (data (;0;) "")
+)

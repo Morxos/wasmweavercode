@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 3237 157016 nullfuncref ref.null nofunc)
+  (export "" (table 0))
+)

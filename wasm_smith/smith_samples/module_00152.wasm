@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (memory (;0;) i64 2 81605524223799)
+  (data (;0;) "")
+)

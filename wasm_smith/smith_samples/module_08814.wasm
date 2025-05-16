@@ -1,0 +1,39 @@
+(module
+  (rec
+    (type (;0;) (func (param i32 i64) (result i32)))
+    (type (;1;) (sub (array i8)))
+    (type (;2;) (array i8))
+    (type (;3;) (func (param i32)))
+  )
+  (import "" "" (memory (;0;) i64 39 266433192275176))
+  (import "" "" (table (;0;) 52 302405 externref))
+  (import "" "" (global (;0;) (ref null 1)))
+  (import "\u{677}\u{14}o" "" (global (;1;) i32))
+  (tag (;0;) (type 3) (param i32))
+  (tag (;1;) (type 3) (param i32))
+  (tag (;2;) (type 3) (param i32))
+  (global (;2;) (mut exnref) ref.null exn)
+  (global (;3;) (mut i64) i64.const 0)
+  (export "U{" (func 0))
+  (export "" (global 0))
+  (export "\u{c}#" (memory 0))
+  (export "\u{12}#\u{5c}U\u{14}7" (memory 0))
+  (export "k" (global 3))
+  (elem (;0;) (ref null 3))
+  (elem (;1;) (ref null 1))
+  (elem (;2;) (table 0) (global.get 1) nullexternref)
+  (func (;0;) (type 0) (param i32 i64) (result i32)
+    loop ;; label = @1
+      nop
+      f64.const 0x1.263f1bac9e01fp+872 (;=36193250031747760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+      i64.const 1924528432175579189
+      local.set 1
+      f64.nearest
+      i64.trunc_sat_f64_s
+      global.get 3
+      i64.xor
+      global.set 3
+    end
+    i32.const 286331153
+  )
+)

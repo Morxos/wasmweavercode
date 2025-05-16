@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare func)
+  (data (;0;) "o")
+)

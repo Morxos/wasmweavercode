@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 13326 23900445112958 shared)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "\u{10}" (memory 0))
+)

@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 68 35315))
+  (table (;0;) 1145 669285 funcref ref.null nofunc)
+  (export "" (memory 0))
+  (elem (;0;) declare funcref (ref.null nofunc))
+)

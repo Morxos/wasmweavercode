@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (table (;0;) 0 exnref))
+  (memory (;0;) 6991)
+  (global (;1;) (mut f64) f64.const 0x1.6df7344caf3bdp+195 (;=71787611409225890000000000000000000000000000000000000000000;))
+  (global (;2;) (mut i64) i64.const -8376100414396087766)
+  (global (;3;) (mut anyref) ref.null none)
+  (global (;4;) f32 f32.const 0x1.6c9444p-22 (;=0.0000003395408;))
+  (global (;5;) anyref ref.null eq)
+  (data (;0;) "\dah")
+  (data (;1;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 0 40644114611217))
+  (import "[" "" (table (;0;) 1248 nullref))
+  (export "" (table 0))
+  (export "1" (table 0))
+  (data (;0;) "")
+  (data (;1;) "\b4")
+)

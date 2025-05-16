@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 0 14882 shared)
+  (elem (;0;) declare nullexternref)
+)

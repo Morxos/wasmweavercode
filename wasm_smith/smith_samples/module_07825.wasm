@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 680 102041358592964)
+  (global (;0;) (mut f32) f32.const -0x1.319502p-84 (;=-0.000000000000000000000000061711806;))
+  (export "" (global 0))
+  (elem (;0;) declare externref (ref.null extern))
+  (elem (;1;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+)

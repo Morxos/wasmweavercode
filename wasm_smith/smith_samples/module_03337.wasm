@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 15 977190 arrayref ref.null none)
+  (export "" (table 0))
+  (export "1" (table 0))
+)

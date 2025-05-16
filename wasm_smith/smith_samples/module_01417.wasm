@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut anyref)))
+  (export "" (global 0))
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\8d")
+)

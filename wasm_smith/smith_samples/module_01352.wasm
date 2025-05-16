@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 188 eqref))
+  (import "\u{11}" "" (global (;0;) (mut arrayref)))
+  (export "\u{3}tjY" (global 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+)

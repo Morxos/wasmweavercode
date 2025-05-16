@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) 0))
+  (import "" "" (table (;0;) 1863 externref))
+  (import "\u{1}\u{5a8}\u{5f4}" "" (global (;0;) i64))
+  (import "" "" (global (;1;) (mut i64)))
+  (import "" "" (global (;2;) i32))
+  (import "" "" (global (;3;) nullexternref))
+  (global (;4;) (mut i64) i64.const 8294071078688619330 i64.const 9198273851940690 i64.const 164207385447905512 i64.const 5085072226658814464 i64.const 2527048600984710573 i64.const -3222494986511873197 i64.const 3288840924798808092 i64.const -8987387221555351450 i64.sub i64.mul i64.const -8665699546077416127 i64.add i64.mul i64.add i64.add i64.const 5744328340490802229 i64.mul i64.add i64.add)
+  (export "n\u{9}" (memory 0))
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "\c5")
+)

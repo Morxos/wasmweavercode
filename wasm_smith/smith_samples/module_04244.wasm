@@ -1,0 +1,18 @@
+(module
+  (rec
+    (type (;0;) (sub (array (mut externref))))
+    (type (;1;) (sub (struct (field i8) (field (mut nullref)) (field i8) (field externref))))
+    (type (;2;) (struct (field (mut i16)) (field (mut f64)) (field (mut f64)) (field (mut i8)) (field (mut i8))))
+    (type (;3;) (array (mut i8)))
+  )
+  (import "+" "" (global (;0;) (mut f64)))
+  (import "" "" (global (;1;) (mut (ref null 1))))
+  (table (;0;) i64 0 264961 exnref ref.null exn)
+  (memory (;0;) 4995)
+  (global (;2;) exnref ref.null exn)
+  (global (;3;) (mut structref) ref.null 1)
+  (global (;4;) (mut i64) i64.const 8343577251189363465 i64.const 491045845399330538 i64.const 7702108851527478030 i64.const 8410336369969105581 i64.const -8544764431535878156 i64.const -8961321303967568549 i64.const 4946452458940597438 i64.const -798055215295514574 i64.const -8105214282424145521 i64.const -8733751641007392431 i64.mul i64.mul i64.add i64.sub i64.add i64.mul i64.const -3904256958614271746 i64.mul i64.sub i64.mul i64.mul)
+  (global (;5;) f64 f64.const -0x1.53e353093f45ap+106 (;=-107714802296306180000000000000000;))
+  (global (;6;) (mut exnref) ref.null exn)
+  (elem (;0;) declare exnref (ref.null exn))
+)

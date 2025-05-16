@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 407 anyref ref.null array)
+  (memory (;0;) i64 4038 212528490826590 shared)
+  (export "G" (table 0))
+)

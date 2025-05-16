@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 4431 774404 anyref ref.null array)
+  (memory (;0;) 12076)
+  (global (;0;) (mut i64) i64.const 628689449935601419)
+  (export "" (memory 0))
+  (export "1" (global 0))
+  (export "Q" (global 0))
+)

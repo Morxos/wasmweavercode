@@ -1,0 +1,4 @@
+(module
+  (import "{" "" (memory (;0;) 351 51770 shared))
+  (export "" (memory 0))
+)

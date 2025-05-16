@@ -1,0 +1,10 @@
+(module
+  (import "g\u{d06b}\u{8}}[r" "" (global (;0;) i64))
+  (import "" "" (memory (;0;) i64 185))
+  (import "\u{d}Y\u{19b}K" "" (table (;0;) i64 2215 5677 funcref))
+  (import "" "" (global (;1;) f64))
+  (import "" "" (global (;2;) f64))
+  (import "\u{2}" "" (global (;3;) (mut f64)))
+  (import "" "" (global (;4;) (mut f32)))
+  (data (;0;) (i64.const 188) "y\90\ef\83\aa\c7")
+)

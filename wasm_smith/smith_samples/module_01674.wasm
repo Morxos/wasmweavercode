@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 0 i31ref)
+  (memory (;0;) i64 6552)
+  (elem (;0;) nullref)
+  (data (;0;) "n\e2j\18\e1")
+  (data (;1;) "\04H")
+  (data (;2;) (i64.const 0) ">")
+)

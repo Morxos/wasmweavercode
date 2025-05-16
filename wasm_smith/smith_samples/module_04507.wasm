@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 412 56173)
+  (elem (;0;) declare structref)
+  (elem (;1;) arrayref)
+)

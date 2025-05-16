@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 0 29384 shared)
+  (export "\u{6}" (memory 0))
+  (export "" (memory 0))
+  (elem (;0;) declare nullref (ref.null none) (ref.null none))
+  (elem (;1;) externref)
+  (elem (;2;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "S")
+)

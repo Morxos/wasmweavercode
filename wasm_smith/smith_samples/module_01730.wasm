@@ -1,0 +1,4 @@
+(module
+  (global (;0;) i64 i64.const 5984779915525553762)
+  (export "" (global 0))
+)

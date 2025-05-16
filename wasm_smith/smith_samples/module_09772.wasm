@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 18 externref ref.null extern)
+  (export "" (table 0))
+  (export "_" (table 0))
+  (export "2" (table 0))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) (table 0) (i32.const 1) nullexternref (ref.null noextern))
+  (data (;0;) "u")
+  (data (;1;) "h")
+)

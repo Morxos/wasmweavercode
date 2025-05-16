@@ -1,0 +1,5 @@
+(module
+  (import "\u{1c}l" "" (table (;0;) 1015 14809 i31ref))
+  (data (;0;) "\01K")
+  (data (;1;) "\02")
+)

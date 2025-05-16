@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 9174 13576 i31ref)
+  (memory (;0;) 0)
+  (global (;0;) (mut f32) f32.const 0x1.2adc82p+80 (;=1411332900000000000000000;))
+  (export "\u{5c}s5" (memory 0))
+  (elem (;0;) declare anyref)
+)

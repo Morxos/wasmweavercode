@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) 7 46079))
+  (data (;0;) "\ac\98")
+  (data (;1;) (i32.const 0) "")
+  (data (;2;) "")
+  (data (;3;) (i32.const 0) "")
+  (data (;4;) "\87")
+  (data (;5;) (i32.const 52) "")
+  (data (;6;) (i32.const 506) "")
+  (data (;7;) "")
+  (data (;8;) "\d6")
+)

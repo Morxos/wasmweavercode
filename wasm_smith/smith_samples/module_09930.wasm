@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 6395)
+  (global (;0;) i32 i32.const -91234781 i32.const 870919508 i32.sub i32.const -5537895 i32.sub i32.const -2112864207 i32.sub)
+  (global (;1;) i32 i32.const -1413808851)
+)

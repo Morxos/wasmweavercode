@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 19 nullfuncref))
+  (import "^\u{5c}I" "" (global (;0;) (mut arrayref)))
+  (import ";" "" (global (;1;) i64))
+  (import "" "" (memory (;0;) i64 15129 19298921029988))
+)

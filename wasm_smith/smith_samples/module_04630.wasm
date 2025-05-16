@@ -1,0 +1,9 @@
+(module
+  (rec)
+  (memory (;0;) 22)
+  (export "\u{18}" (memory 0))
+  (export "" (memory 0))
+  (export "\u{1}l1@]" (memory 0))
+  (data (;0;) (i32.const 2559) "")
+  (data (;1;) "\95")
+)

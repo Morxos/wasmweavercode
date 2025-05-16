@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 271 163428835566064))
+  (table (;0;) i64 106 arrayref)
+  (export "" (table 0))
+  (export "w'\u{e}" (table 0))
+  (export "2" (memory 0))
+  (elem (;0;) declare arrayref)
+)

@@ -1,0 +1,15 @@
+(module
+  (rec
+    (type (;0;) (sub (array (mut f32))))
+    (type (;1;) (sub (array (mut i8))))
+    (type (;2;) (sub (array (mut i8))))
+    (type (;3;) (sub (array (mut i16))))
+    (type (;4;) (array i16))
+  )
+  (table (;0;) i64 2151 592292 (ref null 3))
+  (memory (;0;) 336)
+  (global (;0;) (mut f32) f32.const nan:0x3d0569 (;=NaN;))
+  (export "\u{14}l\u{e}e" (table 0))
+  (data (;0;) (i32.const 2589746) "")
+  (data (;1;) "p9")
+)

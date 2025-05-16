@@ -1,0 +1,9 @@
+(module
+  (import "K" "" (global (;0;) i32))
+  (import "" "" (table (;0;) i64 1 212011 externref))
+  (import "[" "" (global (;1;) f64))
+  (import "]D_&" "" (memory (;0;) 0 12399 shared))
+  (import "" "" (global (;2;) f32))
+  (global (;3;) f64 global.get 1)
+  (data (;0;) "\15\07")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 363 37285))
+  (import "\u{755}" "" (table (;0;) i64 2540 nullexternref))
+  (import "~p" "" (global (;0;) f64))
+  (global (;1;) (mut f32) f32.const 0x1.a4815p-94 (;=0.000000000000000000000000000082930014;))
+  (global (;2;) (mut f64) global.get 0)
+  (elem (;0;) (table 0) (i64.const 3) nullexternref)
+  (elem (;1;) anyref (ref.null array) (ref.null i31) (ref.null struct))
+)

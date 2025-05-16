@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 1022 exnref)
+  (memory (;0;) 7325 37870)
+  (global (;0;) (mut f32) f32.const -0x1.ba62ap-3 (;=-0.21600842;))
+)

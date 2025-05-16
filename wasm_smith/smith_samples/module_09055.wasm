@@ -1,0 +1,7 @@
+(module
+  (rec)
+  (memory (;0;) 4349 19554)
+  (global (;0;) i32 i32.const -514367892)
+  (global (;1;) (mut funcref) ref.null nofunc)
+  (export "" (memory 0))
+)

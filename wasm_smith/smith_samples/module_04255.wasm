@@ -1,0 +1,6 @@
+(module
+  (import "b" "" (table (;0;) 1479 arrayref))
+  (global (;0;) (mut i32) i32.const -368577751 i32.const -61672923 i32.const 1462011009 i32.const 520923032 i32.const 1326967652 i32.const -446941962 i32.const -1009052018 i32.const -1871140995 i32.const -206415009 i32.const 1647588605 i32.mul i32.mul i32.sub i32.sub i32.mul i32.add i32.mul i32.const -618811641 i32.sub i32.add i32.sub)
+  (data (;0;) "\83\cb_I2>\a4\07\dc")
+  (data (;1;) "\1f\f7O\c1")
+)

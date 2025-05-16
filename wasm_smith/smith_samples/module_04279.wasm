@@ -1,0 +1,5 @@
+(module
+  (import "?" "" (table (;0;) 2 743387 funcref))
+  (data (;0;) "\cc")
+  (data (;1;) "$")
+)

@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare arrayref (ref.null array) (ref.null none) (ref.null array))
+  (elem (;1;) declare nullref)
+)

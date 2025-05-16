@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 1904 542819 exnref ref.null exn)
+  (elem (;0;) (table 0) (i64.const 0) exnref (ref.null exn))
+  (elem (;1;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;2;) (table 0) (i64.const 188) exnref)
+  (elem (;3;) (table 0) (i64.const 707) exnref)
+  (elem (;4;) funcref)
+  (elem (;5;) declare exnref (ref.null exn))
+  (elem (;6;) exnref)
+  (data (;0;) "")
+)

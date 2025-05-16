@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 4262 418417 eqref ref.null struct)
+  (global (;0;) (mut i32) i32.const 1557863650)
+  (global (;1;) i64 i64.const 4367528900968550932)
+  (export "H" (global 1))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) (table 0) (i64.const 740) structref)
+  (data (;0;) "")
+)

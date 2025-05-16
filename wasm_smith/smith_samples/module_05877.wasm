@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 6007)
+  (global (;0;) (mut f32) f32.const -0x1.09d7b2p-40 (;=-0.0000000000009444625;))
+  (elem (;0;) eqref (ref.null array) (ref.null none))
+)

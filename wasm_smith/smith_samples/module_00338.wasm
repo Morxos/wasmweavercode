@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 1850 20884)
+  (export "?" (memory 0))
+  (data (;0;) (i32.const 2216) "")
+  (data (;1;) (i32.const 816500) "")
+  (data (;2;) (i32.const 647725) "\d6ol\fd")
+)

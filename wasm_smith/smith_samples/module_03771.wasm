@@ -1,0 +1,8 @@
+(module
+  (import "\u{18}" "" (global (;0;) i64))
+  (import "\u{9}\u{d}" "" (table (;0;) 9125 351533 exnref))
+  (memory (;0;) 7969)
+  (global (;1;) i64 i64.const 3045602884999121106)
+  (elem (;0;) declare externref)
+  (data (;0;) "")
+)

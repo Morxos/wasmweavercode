@@ -1,0 +1,8 @@
+(module
+  (import "uE'}" "" (global (;0;) f32))
+  (memory (;0;) i64 1285 203887471249547 shared)
+  (global (;1;) nullexternref ref.null noextern)
+  (global (;2;) f64 f64.const 0x1.1c63d22fdcef9p+401 (;=5737233215701713000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (memory 0))
+  (export "Z" (global 0))
+)

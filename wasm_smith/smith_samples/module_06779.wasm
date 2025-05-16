@@ -1,0 +1,8 @@
+(module
+  (import "`" "" (global (;0;) anyref))
+  (memory (;0;) i64 13706)
+  (global (;1;) (mut i32) i32.const 1443366029 i32.const -1804361109 i32.const 507070801 i32.const 1821231515 i32.const 1244923779 i32.const 1987422097 i32.const -1681444446 i32.const 249046961 i32.const -1407141583 i32.const 660710453 i32.mul i32.mul i32.add i32.mul i32.const 513732778 i32.add i32.add i32.mul i32.mul i32.add i32.mul)
+  (export "D\u{5f7}a\u{18}7 " (memory 0))
+  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
+  (elem (;1;) declare arrayref (ref.null array) (ref.null array))
+)

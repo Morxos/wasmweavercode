@@ -1,0 +1,11 @@
+(module
+  (memory (;0;) 32)
+  (export "sH" (memory 0))
+  (export "\u{396}" (memory 0))
+  (export "" (memory 0))
+  (export "3" (memory 0))
+  (export "4" (memory 0))
+  (elem (;0;) declare eqref)
+  (data (;0;) (i32.const 3071) "\9d?")
+  (data (;1;) "")
+)

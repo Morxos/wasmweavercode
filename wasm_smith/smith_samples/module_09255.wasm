@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 261 728450 structref))
+  (elem (;0;) (table 0) (i32.const 0) structref)
+  (data (;0;) "\f3")
+  (data (;1;) "")
+)

@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 593 345855 externref ref.null noextern)
+  (global (;0;) (mut i64) i64.const -6090860350817830432)
+  (export "\u{5c}&" (global 0))
+  (export "J" (table 0))
+  (export "" (global 0))
+  (export "3" (global 0))
+  (export "\u{1e}" (global 0))
+  (data (;0;) "\cc")
+  (data (;1;) "Y\d5\a8F")
+)

@@ -1,0 +1,9 @@
+(module
+  (global (;0;) i31ref ref.null none)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) i31ref (global.get 0) (global.get 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\85\cf")
+  (data (;3;) "2")
+)

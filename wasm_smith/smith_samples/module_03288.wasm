@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) funcref))
+  (import "" "" (global (;1;) (mut i64)))
+  (memory (;0;) 10 32777)
+  (global (;2;) anyref ref.null any)
+  (global (;3;) (mut i64) i64.const 7756335418515490571)
+  (export "" (global 3))
+  (elem (;0;) structref (ref.null none) (ref.null struct))
+)

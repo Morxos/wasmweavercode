@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 41 491121 nullref ref.null none)
+  (memory (;0;) 211 23096)
+  (export "," (memory 0))
+  (export "\u{5c}\u{10}/" (memory 0))
+  (export "hG" (table 0))
+)

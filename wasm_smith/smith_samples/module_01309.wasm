@@ -1,0 +1,13 @@
+(module
+  (import "^" "" (table (;0;) i64 145 nullref))
+  (global (;0;) i64 i64.const 428449013146633367 i64.const 5869404080035744010 i64.const -4599509546946164126 i64.const 1818610567332059605 i64.const -7403900331116477056 i64.const -6870816027945264715 i64.mul i64.mul i64.const 702067166256854111 i64.const -4402764444605400278 i64.mul i64.add i64.mul i64.add i64.add i64.const 2772726967408630294 i64.add)
+  (export "M" (global 0))
+  (elem (;0;) eqref (ref.null eq) (ref.null none))
+  (elem (;1;) (table 0) (global.get 0) nullref (ref.null none))
+  (elem (;2;) declare arrayref)
+  (elem (;3;) declare anyref (ref.null array))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "W")
+)

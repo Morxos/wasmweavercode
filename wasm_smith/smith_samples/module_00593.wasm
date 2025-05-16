@@ -1,0 +1,10 @@
+(module
+  (import "V'" "" (memory (;0;) i64 1849 37292104847281))
+  (import "DD" "" (table (;0;) i64 3155 nullfuncref))
+  (import "Z" "" (global (;0;) i32))
+  (global (;1;) f32 f32.const 0x1.c7fe3ap-7 (;=0.013915804;))
+  (global (;2;) f32 global.get 1)
+  (global (;3;) (mut f32) global.get 1)
+  (global (;4;) (mut i64) i64.const 4950337784520174229)
+  (data (;0;) (i64.const 20704264) "")
+)

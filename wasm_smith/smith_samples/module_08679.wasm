@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 558 nullref ref.null none)
+  (memory (;0;) 1517 12679 shared)
+  (export "1" (table 0))
+  (export "\u{c}" (table 0))
+  (elem (;0;) eqref)
+  (data (;0;) (i32.const 375292) "\8f\ba\0c")
+  (data (;1;) "")
+)

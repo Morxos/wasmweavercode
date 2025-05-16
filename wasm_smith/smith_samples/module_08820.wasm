@@ -1,0 +1,7 @@
+(module
+  (import "ym\u{26a}" "" (global (;0;) (mut i64)))
+  (import "\u{1}" "" (global (;1;) (mut f64)))
+  (import "" "" (global (;2;) f64))
+  (table (;0;) 326 459717 arrayref)
+  (memory (;0;) 3243)
+)

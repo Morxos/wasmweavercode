@@ -1,0 +1,11 @@
+(module
+  (import "S\u{1b}mZ" "" (table (;0;) 2326 funcref))
+  (export " Y)\u{10}>" (table 0))
+  (export "\u{1b2}\u{545}" (table 0))
+  (export "\u{18}^(" (table 0))
+  (elem (;0;) externref)
+  (elem (;1;) (i32.const 1) funcref)
+  (elem (;2;) (table 0) (i32.const 649) funcref)
+  (elem (;3;) (table 0) (i32.const 719) func)
+  (elem (;4;) (i32.const 464) func)
+)

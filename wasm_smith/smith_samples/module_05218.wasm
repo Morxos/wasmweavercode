@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) i64 1))
+  (import "{" "" (table (;0;) i64 286 exnref))
+  (import "\u{4}" "" (global (;0;) (mut i64)))
+  (export "" (memory 0))
+  (elem (;0;) eqref (ref.null eq))
+  (data (;0;) "")
+  (data (;1;) (i64.const 0) "")
+  (data (;2;) (i64.const 44) "")
+  (data (;3;) "")
+)

@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 5668 arrayref)
+  (memory (;0;) 7454 30614 shared)
+  (export "" (memory 0))
+  (export "w" (table 0))
+  (export "." (table 0))
+  (elem (;0;) declare exnref)
+  (elem (;1;) anyref)
+  (data (;0;) (i32.const 0) "l")
+  (data (;1;) "")
+)

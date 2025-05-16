@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 6 98112 externref ref.null extern)
+  (memory (;0;) 383)
+  (global (;0;) f32 f32.const 0x1.25262ep-71 (;=0.00000000000000000000048497457;))
+)

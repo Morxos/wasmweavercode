@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 88)
+  (export "" (memory 0))
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+)

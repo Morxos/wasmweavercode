@@ -1,0 +1,5 @@
+(module
+  (import "Z=" "" (table (;0;) 279 exnref))
+  (export "/I" (table 0))
+  (export "p" (table 0))
+)

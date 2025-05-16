@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 2375 56318 shared)
+  (global (;0;) f32 f32.const 0x1.4d3f1ap+117 (;=216289340000000000000000000000000000;))
+  (elem (;0;) declare arrayref)
+)

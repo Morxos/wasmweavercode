@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 1 nullref ref.null none)
+  (memory (;0;) i64 0)
+  (export "Lfg^V" (memory 0))
+)

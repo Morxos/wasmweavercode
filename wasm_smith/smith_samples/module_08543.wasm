@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 1442 externref ref.null noextern)
+  (memory (;0;) 3611 28298 shared)
+  (export "" (table 0))
+  (export "\u{1b}\u{4}" (memory 0))
+  (export "2" (table 0))
+  (export "3" (memory 0))
+  (export "4a" (table 0))
+  (export "H" (memory 0))
+)

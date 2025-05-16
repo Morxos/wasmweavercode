@@ -1,0 +1,8 @@
+(module
+  (import "b" "" (memory (;0;) i64 357 92690138860989 shared))
+  (import "\u{17}UZS" "" (global (;0;) (mut i64)))
+  (elem (;0;) declare structref (ref.null none) (ref.null struct))
+  (data (;0;) "")
+  (data (;1;) (i64.const 4028423) "")
+  (data (;2;) (i64.const 146379) "")
+)

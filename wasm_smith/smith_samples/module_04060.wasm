@@ -1,0 +1,5 @@
+(module
+  (import "K\u{1b}" "" (table (;0;) 0 anyref))
+  (global (;0;) i32 i32.const 569090745)
+  (data (;0;) "\dbj\7f")
+)

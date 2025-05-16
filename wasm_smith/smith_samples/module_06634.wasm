@@ -1,0 +1,12 @@
+(module
+  (import "\u{d}\u{5c}" "" (table (;0;) 7229 funcref))
+  (import "h\u{1}" "" (global (;0;) (mut f32)))
+  (import "" "" (memory (;0;) i64 2263 1972291629986))
+  (global (;1;) (mut anyref) ref.null array)
+  (export "-`NV" (table 0))
+  (export "" (table 0))
+  (data (;0;) (i64.const 73358) "q\ce\84\d6")
+  (data (;1;) "")
+  (data (;2;) "\a0")
+  (data (;3;) (i64.const 22388883) "?")
+)

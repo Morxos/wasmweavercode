@@ -1,0 +1,6 @@
+(module
+  (import "}W" "" (memory (;0;) i64 1534 276265968174540))
+  (table (;0;) i64 3473 547071 nullref ref.null none)
+  (global (;0;) externref ref.null extern)
+  (data (;0;) (i64.const 334340) "")
+)

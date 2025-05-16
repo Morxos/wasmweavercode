@@ -1,0 +1,10 @@
+(module
+  (import ">" "" (global (;0;) externref))
+  (import "" "" (global (;1;) eqref))
+  (global (;2;) (mut f32) f32.const -0x1.e9169ep+112 (;=-9919890000000000000000000000000000;))
+  (export "\u{5c3}#\u{7}," (global 0))
+  (export "" (global 2))
+  (data (;0;) "\d4")
+  (data (;1;) "")
+  (data (;2;) "")
+)

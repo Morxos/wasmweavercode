@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 3088 exnref)
+  (export "\u{f}" (table 0))
+  (export "\u{1a}\u{d}V" (table 0))
+)

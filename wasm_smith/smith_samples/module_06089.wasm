@@ -1,0 +1,9 @@
+(module
+  (import "-" "" (table (;0;) i64 465 308073 eqref))
+  (import "XBv" "" (global (;0;) nullexternref))
+  (import "" "" (global (;1;) i64))
+  (memory (;0;) 2070)
+  (export "l~w#" (memory 0))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare eqref (ref.null array) (ref.null struct))
+)

@@ -1,0 +1,4 @@
+(module
+  (import "L" "" (table (;0;) i64 111 eqref))
+  (import "" "" (global (;0;) (mut f64)))
+)

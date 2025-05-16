@@ -1,0 +1,6 @@
+(module
+  (import "-\u{103}\u{3}\u{14}" "" (table (;0;) 7966 921214 anyref))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (memory (;0;) i64 1754 248983137964403))
+  (import "W" "" (global (;1;) i64))
+)

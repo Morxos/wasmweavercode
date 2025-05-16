@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 12328))
+  (import "" "" (global (;0;) (mut f64)))
+  (elem (;0;) declare i31ref (ref.null none))
+  (data (;0;) "\14")
+  (data (;1;) (i64.const 63076121) "]")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "&" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 1 i31ref)
+  (elem (;0;) eqref (ref.null i31) (ref.null array))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

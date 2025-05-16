@@ -1,0 +1,5 @@
+(module
+  (import "I$" "" (table (;0;) 273 190444 eqref))
+  (export "Q }" (table 0))
+  (elem (;0;) (table 0) (i32.const 107) structref (ref.null none) (ref.null struct))
+)

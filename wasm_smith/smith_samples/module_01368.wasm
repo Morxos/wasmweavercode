@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 0 6576 shared)
+  (export "}" (memory 0))
+  (export "=r" (memory 0))
+)

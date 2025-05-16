@@ -1,0 +1,9 @@
+(module
+  (import "\u{10}" "" (global (;0;) (mut i64)))
+  (table (;0;) 0 anyref ref.null array)
+  (memory (;0;) i64 6123)
+  (export "" (global 0))
+  (export "1" (global 0))
+  (data (;0;) "")
+  (data (;1;) "")
+)

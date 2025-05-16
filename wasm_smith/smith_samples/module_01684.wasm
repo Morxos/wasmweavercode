@@ -1,0 +1,8 @@
+(module
+  (import "Q" "" (memory (;0;) 239 63686 shared))
+  (import "\u{1}H" "" (table (;0;) i64 21 anyref))
+  (export "" (table 0))
+  (elem (;0;) eqref)
+  (elem (;1;) nullfuncref)
+  (elem (;2;) structref)
+)

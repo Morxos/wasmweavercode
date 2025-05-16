@@ -1,0 +1,9 @@
+(module
+  (global (;0;) (mut f64) f64.const -0x1.08c7d2175ef6cp-239 (;=-0.0000000000000000000000000000000000000000000000000000000000000000000000011707850012134994;))
+  (export "M" (global 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+  (elem (;1;) anyref)
+  (elem (;2;) declare externref (ref.null noextern) (ref.null extern))
+  (elem (;3;) declare func)
+  (elem (;4;) i31ref)
+)

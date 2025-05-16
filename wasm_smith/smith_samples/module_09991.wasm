@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 13 29084 shared)
+  (data (;0;) "\ff\d8")
+)

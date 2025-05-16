@@ -1,0 +1,7 @@
+(module
+  (import "\u{7}\u{15}\u{5c}\u{1a}\u{8}" "" (memory (;0;) i64 150))
+  (import "r=B" "" (global (;0;) (mut i32)))
+  (import "U" "" (global (;1;) f64))
+  (import "\u{d}" "" (table (;0;) i64 565 88733 anyref))
+  (data (;0;) (i64.const 2) "\f4")
+)

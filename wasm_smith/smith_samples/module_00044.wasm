@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 0 468602 anyref)
+  (global (;0;) f64 f64.const 0x1.cddf6fe1e4ae5p-84 (;=0.00000000000000000000000009327446933667685;))
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "Rh")
+  (data (;1;) "\c3")
+  (data (;2;) "[")
+)

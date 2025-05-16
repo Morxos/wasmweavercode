@@ -1,0 +1,10 @@
+(module
+  (import "\u{7a4}" "" (table (;0;) i64 2729 anyref))
+  (import "\u{a}" "" (memory (;0;) i64 0 281081201083773 shared))
+  (import "" "" (global (;0;) i64))
+  (import "`@" "" (global (;1;) (mut f64)))
+  (import "\u{1c}j\u{12}c]V" "" (global (;2;) f32))
+  (import "" "" (global (;3;) i64))
+  (import "\u{2}E" "" (global (;4;) i64))
+  (elem (;0;) nullfuncref)
+)

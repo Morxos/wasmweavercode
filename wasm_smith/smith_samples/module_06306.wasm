@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 1 arrayref ref.null none)
+  (memory (;0;) 4126 58277 shared)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+)

@@ -1,0 +1,6 @@
+(module
+  (import "l\u{11}lt" "" (global (;0;) (mut i32)))
+  (import "" "" (global (;1;) funcref))
+  (memory (;0;) i64 187 150684511426822)
+  (elem (;0;) exnref (ref.null exn))
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 149 497080 exnref ref.null exn)
+  (memory (;0;) i64 7666 74536573354627)
+  (elem (;0;) nullref (ref.null none))
+  (data (;0;) "\0c")
+  (data (;1;) (i64.const 32195605) "\ce")
+  (data (;2;) "Y")
+)

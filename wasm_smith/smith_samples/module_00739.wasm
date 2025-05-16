@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut arrayref)))
+  (table (;0;) 5217 405676 nullref)
+  (memory (;0;) 7414 41359)
+  (export "" (table 0))
+  (elem (;0;) declare eqref (ref.null i31) (ref.null i31) (ref.null i31) (ref.null struct))
+)

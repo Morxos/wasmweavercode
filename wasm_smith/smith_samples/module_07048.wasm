@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "\u{77de}>\u{d}\u{7f}\u{6}" "" (memory (;0;) 450 14589 shared))
+  (import "" "" (table (;0;) i64 9272 306360 arrayref))
+  (import "^" "" (global (;1;) (mut f32)))
+  (global (;2;) (mut f32) f32.const 0x1.93e458p-89 (;=0.0000000000000000000000000025489167;))
+  (elem (;0;) (table 0) (i64.const 1142) arrayref (ref.null array) (ref.null none) (ref.null array) (ref.null array))
+)

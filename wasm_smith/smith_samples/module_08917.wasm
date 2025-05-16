@@ -1,0 +1,7 @@
+(module
+  (import "\u{7f}w" "" (memory (;0;) i64 7761))
+  (table (;0;) i64 53 funcref)
+  (global (;0;) f32 f32.const -0x1.33cd6ep+47 (;=-169216200000000;))
+  (export "\u{1e}" (memory 0))
+  (elem (;0;) (i64.const 0) func)
+)

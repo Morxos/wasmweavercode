@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (global (;1;) i64))
+  (import "" "" (memory (;0;) 8122 63793))
+  (table (;0;) 7 315893 nullfuncref ref.null nofunc)
+  (export "D4" (global 1))
+  (elem (;0;) nullref (ref.null none))
+  (data (;0;) "\b8")
+  (data (;1;) (i32.const 2012365) "")
+  (data (;2;) (i32.const 53000617) "\d7\a9")
+)

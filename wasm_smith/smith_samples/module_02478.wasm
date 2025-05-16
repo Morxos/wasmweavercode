@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 2 394404 eqref ref.null eq)
+  (data (;0;) "\19")
+  (data (;1;) "")
+)

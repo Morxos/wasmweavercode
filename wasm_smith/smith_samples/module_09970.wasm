@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (global (;1;) i64))
+  (import "" "" (global (;2;) (mut i64)))
+  (memory (;0;) 4151)
+  (elem (;0;) i31ref)
+  (elem (;1;) declare exnref (ref.null exn) (ref.null exn))
+  (elem (;2;) declare func)
+  (data (;0;) (i32.const 3499766) "\da")
+  (data (;1;) "")
+)

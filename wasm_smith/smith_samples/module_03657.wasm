@@ -1,0 +1,12 @@
+(module
+  (import "RCk?" "" (table (;0;) i64 95 nullfuncref))
+  (import "\u{1d}" "" (global (;0;) (mut i32)))
+  (memory (;0;) 832)
+  (global (;1;) (mut structref) ref.null struct)
+  (export "" (memory 0))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) nullref (ref.null none) (ref.null none))
+  (data (;0;) "\bb")
+  (data (;1;) "\d7")
+  (data (;2;) (i32.const 345) "\a9\92")
+)

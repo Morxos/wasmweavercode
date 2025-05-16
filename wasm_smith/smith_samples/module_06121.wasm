@@ -1,0 +1,8 @@
+(module
+  (import "$" "" (global (;0;) (mut nullref)))
+  (import "+\u{7b0}" "" (table (;0;) i64 14 nullfuncref))
+  (import "" "" (memory (;0;) i64 588 113613918858008))
+  (elem (;0;) nullref)
+  (data (;0;) (i64.const 0) "\07\d3$")
+  (data (;1;) "")
+)

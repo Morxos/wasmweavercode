@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare structref)
+  (elem (;1;) declare nullexternref (ref.null noextern))
+)

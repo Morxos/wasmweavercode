@@ -1,0 +1,8 @@
+(module
+  (import "\u{d}" "" (table (;0;) i64 1341 nullfuncref))
+  (export "{?" (table 0))
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) nullfuncref)
+  (elem (;1;) anyref)
+  (elem (;2;) i31ref (ref.null none))
+)

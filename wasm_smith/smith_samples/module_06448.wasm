@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 1 nullref))
+  (memory (;0;) 17 42484)
+  (export "`" (memory 0))
+  (elem (;0;) arrayref (ref.null array) (ref.null none))
+  (elem (;1;) declare i31ref)
+  (elem (;2;) (table 0) (i32.const 0) nullref)
+)

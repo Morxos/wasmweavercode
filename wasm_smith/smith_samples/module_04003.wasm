@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 15692 240347155272122 shared)
+  (export "%\u{19}" (memory 0))
+)

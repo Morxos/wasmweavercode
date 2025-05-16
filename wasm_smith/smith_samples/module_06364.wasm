@@ -1,0 +1,9 @@
+(module
+  (import "(\u{3}\u{1d}" "" (table (;0;) 25 nullref))
+  (import "\u{17}\u{16}\u{43b}FY\u{622}" "" (memory (;0;) i64 10792))
+  (import "}9fnn" "" (global (;0;) (mut eqref)))
+  (global (;1;) (mut i32) i32.const -614201479 i32.const -936331988 i32.const -1133114346 i32.const -1177379217 i32.const 632270162 i32.const -1084327023 i32.const -505376648 i32.const 1005709189 i32.sub i32.sub i32.add i32.const -2064700377 i32.add i32.mul i32.const -1635672023 i32.mul i32.mul i32.add i32.mul)
+  (export "\u{1a}" (global 1))
+  (export "" (table 0))
+  (data (;0;) (i64.const 71729514) "R('\16\85")
+)

@@ -1,0 +1,6 @@
+(module
+  (import "x" "" (global (;0;) externref))
+  (table (;0;) i64 89 744968 arrayref)
+  (memory (;0;) 126 4272)
+  (global (;1;) f32 f32.const -0x1.0326a6p+1 (;=-2.024617;))
+)

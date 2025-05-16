@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 336756 nullexternref ref.null noextern)
+  (memory (;0;) i64 16 160799687208237)
+  (export "\u{f}" (table 0))
+)

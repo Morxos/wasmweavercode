@@ -1,0 +1,10 @@
+(module
+  (import "&" "" (table (;0;) i64 1610 nullfuncref))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (global (;1;) (mut i32)))
+  (memory (;0;) 1144)
+  (export "\u{18}\u{c}" (table 0))
+  (elem (;0;) (table 0) (i64.const 205) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "3")
+  (data (;1;) "")
+)

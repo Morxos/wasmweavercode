@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) i64 182))
+  (import "KG\u{a}" "" (table (;0;) i64 91 arrayref))
+  (import "Nw" "" (global (;0;) (mut f32)))
+  (global (;1;) i64 i64.const 8360217848206659662)
+  (export "" (global 0))
+  (data (;0;) (i64.const 117) "")
+  (data (;1;) (i64.const 847) "")
+  (data (;2;) (global.get 1) "")
+  (data (;3;) "\92")
+  (data (;4;) (i64.const 1513550) "")
+)

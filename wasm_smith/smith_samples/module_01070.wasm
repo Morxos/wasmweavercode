@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 8 980062 nullexternref)
+  (memory (;0;) 1)
+  (global (;0;) (mut i32) i32.const -756184196)
+  (global (;1;) (mut arrayref) ref.null array)
+  (elem (;0;) (table 0) (i64.const 5) nullexternref (ref.null noextern))
+)

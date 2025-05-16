@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 828 eqref)
+  (elem (;0;) (table 0) (i32.const 36) eqref (ref.null array) (ref.null array) (ref.null eq) (ref.null eq) (ref.null array))
+)

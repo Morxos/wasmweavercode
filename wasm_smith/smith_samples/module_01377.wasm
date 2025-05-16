@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 externref)
+  (global (;0;) (mut f32) f32.const -0x1.4b48f8p+117 (;=-215016280000000000000000000000000000;))
+  (global (;1;) i64 i64.const 8753312084245731924)
+  (export "" (table 0))
+  (data (;0;) "u")
+)

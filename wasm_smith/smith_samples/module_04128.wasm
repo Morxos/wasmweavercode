@@ -1,0 +1,5 @@
+(module
+  (import "\u{0}U%S" "" (memory (;0;) 61))
+  (export "" (memory 0))
+  (export "e]a>" (memory 0))
+)

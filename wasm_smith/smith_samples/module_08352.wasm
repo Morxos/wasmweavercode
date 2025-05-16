@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 5575 368754 arrayref)
+  (memory (;0;) i64 3 249022642794233 shared)
+  (export "U$" (memory 0))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut exnref)))
+  (import "\u{7f}\u{16}" "" (memory (;0;) 5287))
+  (table (;0;) i64 68 274681 exnref)
+  (global (;1;) (mut f32) f32.const 0x1.ba0d88p+81 (;=4175071200000000000000000;))
+  (global (;2;) (mut i31ref) ref.null none)
+  (elem (;0;) i31ref (ref.null none) (ref.null none) (ref.null i31) (ref.null i31))
+)

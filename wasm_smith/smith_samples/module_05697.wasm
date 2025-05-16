@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 1 84953401068501 shared)
+  (global (;0;) (mut i32) i32.const -617664214)
+  (global (;1;) (mut i64) i64.const -8894518000691428230)
+  (global (;2;) nullref ref.null none)
+  (global (;3;) (mut f32) f32.const 0x1.a8ef1ep-37 (;=0.000000000012077352;))
+  (export "a" (memory 0))
+  (export "o" (global 0))
+)

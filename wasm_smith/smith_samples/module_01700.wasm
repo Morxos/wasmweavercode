@@ -1,0 +1,12 @@
+(module
+  (import "" "" (table (;0;) i64 0 nullfuncref))
+  (memory (;0;) i64 0 15551643209907)
+  (export "\u{c}\u{17}" (table 0))
+  (export "" (memory 0))
+  (export "B" (table 0))
+  (elem (;0;) declare nullref)
+  (elem (;1;) funcref)
+  (elem (;2;) externref (ref.null noextern))
+  (data (;0;) "\b8\fc^")
+  (data (;1;) "\ec\87L")
+)

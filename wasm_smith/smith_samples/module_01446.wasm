@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 0 1355)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "GI" (memory 0))
+  (export "{\u{13}" (memory 0))
+  (elem (;0;) declare nullexternref)
+)

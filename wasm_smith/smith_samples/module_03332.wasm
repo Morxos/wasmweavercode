@@ -1,0 +1,10 @@
+(module
+  (import "c" "" (global (;0;) (mut i64)))
+  (import "W-" "" (table (;0;) 2154 774610 structref))
+  (import "\u{16}" "" (memory (;0;) 60 23492 shared))
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 1727) structref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) (i32.const 2174924) "]")
+)

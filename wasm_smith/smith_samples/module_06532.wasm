@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 832 732674 arrayref)
+  (memory (;0;) 0)
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null none))
+  (elem (;1;) nullexternref)
+  (data (;0;) "")
+  (data (;1;) "\a8")
+  (data (;2;) "?\cf")
+  (data (;3;) "\8e\0d\b5")
+  (data (;4;) "\c8")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (table (;0;) i64 5755 376678 eqref))
+  (export "" (global 0))
+  (export "B" (global 0))
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) declare arrayref (ref.null array))
+)

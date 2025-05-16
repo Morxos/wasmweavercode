@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 9612)
+  (elem (;0;) nullexternref)
+)

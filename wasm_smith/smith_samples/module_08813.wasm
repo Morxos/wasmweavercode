@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) i64 i64.const -187122577459643480)
+  (export "" (global 1))
+  (elem (;0;) declare nullfuncref (ref.null nofunc))
+)

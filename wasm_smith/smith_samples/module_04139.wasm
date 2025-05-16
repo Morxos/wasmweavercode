@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2028 974450 anyref)
+  (memory (;0;) 404 11041 shared)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "2" (memory 0))
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 141 863666 exnref)
+  (memory (;0;) i64 439 10320825723926)
+  (global (;0;) (mut i64) i64.const 7994352150195106053)
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) nullref (ref.null none))
+)

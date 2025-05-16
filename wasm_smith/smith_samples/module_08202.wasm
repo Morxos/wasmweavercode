@@ -1,0 +1,7 @@
+(module
+  (import ":" "" (table (;0;) i64 0 externref))
+  (import "A2#W" "" (memory (;0;) i64 920 243545792404352))
+  (import "KU" "" (global (;0;) i32))
+  (import "d\u{17}" "" (global (;1;) f32))
+  (elem (;0;) anyref)
+)

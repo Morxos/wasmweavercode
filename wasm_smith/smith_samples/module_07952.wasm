@@ -1,0 +1,13 @@
+(module
+  (rec
+    (type (;0;) (sub (array (mut i16))))
+    (type (;1;) (array (mut i16)))
+    (type (;2;) (struct (field (mut i16)) (field i64) (field i16)))
+  )
+  (table (;0;) i64 3 630364 externref)
+  (export "@" (table 0))
+  (export "S" (table 0))
+  (export "" (table 0))
+  (export "`" (table 0))
+  (export "=" (table 0))
+)

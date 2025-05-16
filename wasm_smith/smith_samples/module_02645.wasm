@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 0)
+  (elem (;0;) declare func)
+)

@@ -1,0 +1,9 @@
+(module
+  (import "\u{3ba}" "" (memory (;0;) 4833 14593))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "I$" "" (table (;0;) i64 1 i31ref))
+  (import "" "" (global (;1;) (mut i64)))
+  (import "" "" (global (;2;) (mut nullref)))
+  (global (;3;) (mut anyref) ref.null i31)
+  (data (;0;) " 1\13")
+)

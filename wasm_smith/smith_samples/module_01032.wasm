@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 0 970443 funcref)
+  (global (;0;) (mut i64) i64.const -2536925378534148859)
+  (global (;1;) anyref ref.null array)
+  (elem (;0;) (table 0) (i32.const 0) nullfuncref)
+  (elem (;1;) structref)
+  (elem (;2;) (table 0) (i32.const 0) nullfuncref)
+  (elem (;3;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "L\bd")
+  (data (;1;) "")
+)

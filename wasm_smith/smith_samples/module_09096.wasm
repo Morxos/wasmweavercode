@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 67 544094 eqref)
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "\9e\e3XJk")
+)

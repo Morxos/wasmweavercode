@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (table (;0;) i64 1000 nullfuncref ref.null nofunc)
+  (global (;1;) i64 i64.const 6084084702078345373)
+  (global (;2;) nullfuncref ref.null nofunc)
+  (elem (;0;) i31ref)
+)

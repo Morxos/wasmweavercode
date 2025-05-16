@@ -1,0 +1,9 @@
+(module
+  (global (;0;) f32 f32.const 0x1.821958p+49 (;=849040700000000;))
+  (elem (;0;) externref (ref.null extern) (ref.null extern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) declare arrayref)
+  (elem (;2;) declare anyref)
+  (elem (;3;) nullexternref)
+  (elem (;4;) declare nullexternref (ref.null noextern))
+  (elem (;5;) declare externref)
+)

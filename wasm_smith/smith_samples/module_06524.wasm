@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 1198 315017 nullfuncref ref.null nofunc)
+  (memory (;0;) 144)
+  (export "" (memory 0))
+  (export "\u{1f}<:" (memory 0))
+)

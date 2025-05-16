@@ -1,0 +1,7 @@
+(module
+  (import "06" "" (global (;0;) i32))
+  (import "" "" (global (;1;) f64))
+  (table (;0;) i64 2440 eqref ref.null eq)
+  (memory (;0;) i64 1491 58762870312669 shared)
+  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern))
+)

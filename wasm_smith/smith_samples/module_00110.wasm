@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 131 funcref)
+  (global (;1;) (mut i64) i64.const -1405132311079949693)
+  (global (;2;) f32 f32.const -0x1.33f42p-63 (;=-0.00000000000000000013042343;))
+  (global (;3;) (mut i64) i64.const -5583279630155782839 i64.const -7096283118190530791 i64.const -6689979053239702044 i64.const -6017928329510146378 i64.const 8414641887089398956 i64.const 6788452163268675197 i64.sub i64.add i64.const -663277961397343869 i64.const 5818852191666056829 i64.mul i64.add i64.add i64.const -7598122251244787495 i64.add i64.mul i64.add)
+  (export "" (global 1))
+  (export "1" (global 1))
+  (export "2" (global 3))
+  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
+)

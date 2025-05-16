@@ -1,0 +1,13 @@
+(module
+  (import "\u{10063b}\u{1b}" "" (memory (;0;) 0))
+  (import "v" "" (table (;0;) 3 71173 funcref))
+  (global (;0;) (mut f64) f64.const -0x1.6faac0d7ae745p-385 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001822495066991153;))
+  (export "\u{3}" (global 0))
+  (export "s\u{16}_" (table 0))
+  (elem (;0;) (table 0) (i32.const 2) func)
+  (elem (;1;) (table 0) (i32.const 0) nullfuncref)
+  (elem (;2;) (table 0) (i32.const 0) nullfuncref)
+  (data (;0;) "\ee:")
+  (data (;1;) "iB")
+  (data (;2;) "\ec")
+)

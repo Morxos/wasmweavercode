@@ -1,0 +1,7 @@
+(module
+  (global (;0;) f32 f32.const 0x1.782064p+67 (;=216822180000000000000;))
+  (export "c\u{22}" (global 0))
+  (elem (;0;) func)
+  (elem (;1;) declare exnref)
+  (elem (;2;) i31ref)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut nullexternref)))
+  (table (;0;) i64 1 251038 nullfuncref ref.null nofunc)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 20 arrayref ref.null array)
+  (global (;0;) nullref ref.null none)
+  (data (;0;) "6")
+)

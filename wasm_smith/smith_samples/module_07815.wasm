@@ -1,0 +1,10 @@
+(module
+  (import "\u{10}4r" "" (memory (;0;) 199 48189 shared))
+  (global (;0;) f32 f32.const -0x1.ecba36p+117 (;=-319798360000000000000000000000000000;))
+  (export "" (global 0))
+  (export "\u{1f}" (global 0))
+  (export "\u{a}" (global 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;2;) externref)
+)

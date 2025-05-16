@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 12))
+  (import "" "" (table (;0;) i64 1389 funcref))
+  (global (;0;) f64 f64.const -0x1.dd6abbd528293p-72 (;=-0.00000000000000000000039491002744145337;))
+  (global (;1;) (mut i32) i32.const 2015601360)
+  (elem (;0;) (table 0) (i64.const 119) funcref)
+  (data (;0;) "-\aa")
+)

@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) 0 49598 shared)
+  (global (;0;) (mut f64) f64.const -0x1.ccee61c809088p+529 (;=-3164199282688383300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;1;) nullfuncref ref.null nofunc)
+  (global (;2;) (mut nullref) ref.null none)
+  (export "SU" (global 2))
+  (export "7dBZt\u{18}" (memory 0))
+  (elem (;0;) structref)
+  (elem (;1;) declare eqref (ref.null eq) (ref.null eq) (ref.null none))
+)

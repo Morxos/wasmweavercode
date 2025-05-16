@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 0 741369 exnref))
+  (memory (;0;) 0)
+  (elem (;0;) declare structref (ref.null struct))
+  (elem (;1;) declare nullexternref (ref.null noextern))
+  (elem (;2;) nullexternref (ref.null noextern) (ref.null noextern))
+)

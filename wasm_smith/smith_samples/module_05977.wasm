@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) i64 0 226829396189032 shared))
+  (table (;0;) 1389 440400 funcref)
+  (global (;0;) (mut i32) i32.const -234577276)
+  (export "" (memory 0))
+  (export "\u{ed}\u{1b}" (table 0))
+  (export "#" (memory 0))
+  (export "3" (memory 0))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "?" "" (global (;0;) f32))
+  (import "" "" (table (;0;) i64 5 580423 anyref))
+  (memory (;0;) 2 24706 shared)
+  (global (;1;) (mut f32) f32.const 0x1.9102ecp-22 (;=0.00000037347098;))
+  (export "-2\u{6ff}(]/" (memory 0))
+  (data (;0;) "\9d")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 72657 nullexternref)
+  (global (;0;) (mut f32) f32.const 0x1.e68eep-92 (;=0.00000000000000000000000000038382667;))
+  (global (;1;) i32 i32.const -408241200)
+  (global (;2;) i31ref ref.null none)
+  (global (;3;) i32 i32.const -1314593625 i32.const 1587638487 i32.const -785703390 i32.const -154831984 i32.const -1664761631 i32.const -1528971229 i32.const -1941579407 i32.const 699104563 i32.const 397273685 i32.const 75282481 i32.const -1432688090 i32.const -966781378 i32.mul i32.mul i32.add i32.sub i32.mul i32.sub i32.sub i32.add i32.mul i32.add i32.mul)
+  (elem (;0;) arrayref (ref.null array) (ref.null array) (ref.null array))
+  (elem (;1;) declare nullexternref (ref.null noextern) (ref.null noextern))
+)

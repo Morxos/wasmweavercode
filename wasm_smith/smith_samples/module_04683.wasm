@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 6023 679405 arrayref))
+  (import "_\u{1d}5J" "" (global (;0;) (mut eqref)))
+  (import "" "" (memory (;0;) 143))
+  (global (;1;) i64 i64.const 31748000647103585 i64.const 4497778494102666966 i64.const -5720393866539044215 i64.const 4999206155719588719 i64.const 5828523061123060562 i64.const 5577172843040681239 i64.const 3789865713915049291 i64.const -803286716334663369 i64.add i64.add i64.sub i64.sub i64.sub i64.mul i64.const -177966325414896957 i64.mul i64.const 1304143253680172426 i64.mul i64.add)
+)

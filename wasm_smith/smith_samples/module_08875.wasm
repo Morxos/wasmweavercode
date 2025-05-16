@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 1))
+  (table (;0;) 1698 946769 nullexternref)
+  (global (;0;) i32 i32.const 201067173)
+  (elem (;0;) (table 0) (global.get 0) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) declare structref)
+  (data (;0;) (i32.const 328) "\9f")
+  (data (;1;) "6+\dc~")
+)

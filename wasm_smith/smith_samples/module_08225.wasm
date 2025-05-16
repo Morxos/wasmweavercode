@@ -1,0 +1,5 @@
+(module
+  (import "/" "" (global (;0;) (mut i32)))
+  (import "" "" (memory (;0;) i64 5246 227032955228414 shared))
+  (export "j" (memory 0))
+)

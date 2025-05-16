@@ -1,0 +1,4 @@
+(module
+  (import "\u{19}" "" (global (;0;) f64))
+  (global (;1;) (mut i32) i32.const 1562604039 i32.const 1952671175 i32.const -950366207 i32.const 857501597 i32.const 226788070 i32.const 694181853 i32.const -1074491570 i32.const 2132060978 i32.add i32.const 768714763 i32.mul i32.add i32.mul i32.add i32.mul i32.const 128411683 i32.add i32.mul i32.mul)
+)

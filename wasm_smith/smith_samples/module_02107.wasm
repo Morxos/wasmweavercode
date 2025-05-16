@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (table (;0;) i64 0 260582 nullfuncref ref.null nofunc)
+  (memory (;0;) 0 31539 shared)
+  (export "" (global 0))
+  (export "\u{19}\u{0})" (table 0))
+  (export "%" (memory 0))
+  (export "," (global 0))
+  (export "}*zEm" (memory 0))
+  (export "\u{adf2}6" (global 0))
+  (elem (;0;) func)
+)

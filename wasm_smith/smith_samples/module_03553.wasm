@@ -1,0 +1,9 @@
+(module
+  (import "e" "" (global (;0;) nullref))
+  (import "" "" (global (;1;) (mut f64)))
+  (elem (;0;) externref)
+  (elem (;1;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;2;) declare anyref (ref.null any))
+  (data (;0;) "\1c")
+  (data (;1;) "i")
+)

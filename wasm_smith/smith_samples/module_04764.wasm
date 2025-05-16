@@ -1,0 +1,12 @@
+(module
+  (rec
+    (type (;0;) (array (mut f32)))
+    (type (;1;) (array (mut i8)))
+    (type (;2;) (array (mut i8)))
+    (type (;3;) (array (mut i16)))
+  )
+  (memory (;0;) 2438)
+  (global (;0;) f32 f32.const -0x1.b97ab4p+47 (;=-242705820000000;))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) arrayref (ref.null 2) (ref.null 3) (ref.null 0))
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 460 exnref)
+  (export "" (table 0))
+  (export "l" (table 0))
+)

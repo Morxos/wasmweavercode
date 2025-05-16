@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) i64 1631 funcref))
+  (import "-\u{58a}AJ\u{3}" "" (memory (;0;) 39 59807))
+  (global (;0;) (mut exnref) ref.null exn)
+  (export "\u{a}K" (memory 0))
+  (export "" (memory 0))
+  (export "2" (memory 0))
+  (elem (;0;) declare arrayref (ref.null array))
+  (data (;0;) "")
+)

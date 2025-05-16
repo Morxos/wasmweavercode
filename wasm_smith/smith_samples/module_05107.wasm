@@ -1,0 +1,8 @@
+(module
+  (import "{" "" (global (;0;) (mut i32)))
+  (import "(" "" (memory (;0;) i64 0))
+  (global (;1;) i64 i64.const -2644884199608076957)
+  (global (;2;) (mut f32) f32.const -0x1.aae632p-91 (;=-0.0000000000000000000000000006735282;))
+  (export "" (memory 0))
+  (elem (;0;) declare nullfuncref)
+)

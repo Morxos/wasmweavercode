@@ -1,0 +1,6 @@
+(module
+  (import "\u{5c}ox" "" (table (;0;) 58 structref))
+  (global (;0;) f32 f32.const -0x1.342356p+56 (;=-86733145000000000;))
+  (global (;1;) (mut f32) f32.const -0x1.72c4c8p+60 (;=-1669793700000000000;))
+  (elem (;0;) structref)
+)

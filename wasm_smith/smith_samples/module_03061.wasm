@@ -1,0 +1,6 @@
+(module
+  (global (;0;) nullref ref.null none)
+  (data (;0;) "")
+  (data (;1;) "\ca")
+  (data (;2;) "")
+)

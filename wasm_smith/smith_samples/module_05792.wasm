@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 624 anyref)
+  (export "M" (table 0))
+  (data (;0;) "OK")
+  (data (;1;) "")
+)

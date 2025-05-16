@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 3484 266902357459532)
+  (elem (;0;) eqref (ref.null array) (ref.null struct))
+)

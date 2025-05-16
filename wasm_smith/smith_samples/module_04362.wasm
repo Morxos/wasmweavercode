@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 9663 824303 nullfuncref ref.null nofunc)
+  (global (;0;) (mut f32) f32.const 0x1.03fd1ep-40 (;=0.0000000000009236655;))
+  (export "" (table 0))
+  (export "WI\u{9}~\u{15}" (table 0))
+  (export "\u{14}dt" (table 0))
+  (export "3" (global 0))
+  (export "\u{12}Pv" (table 0))
+  (data (;0;) "n")
+  (data (;1;) "\fdO")
+)

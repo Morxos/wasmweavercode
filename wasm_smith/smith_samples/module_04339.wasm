@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 170 exnref)
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i32.const 52) exnref (ref.null exn))
+)

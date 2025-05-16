@@ -1,0 +1,8 @@
+(module
+  (import "," "" (memory (;0;) i64 1595))
+  (import "\u{15}a" "" (table (;0;) i64 35 nullfuncref))
+  (import "?q" "" (global (;0;) i64))
+  (export "O/" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "\9d")
+)

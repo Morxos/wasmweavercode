@@ -1,0 +1,8 @@
+(module
+  (global (;0;) i32 i32.const 63910084)
+  (export "AU" (global 0))
+  (export "" (global 0))
+  (elem (;0;) funcref)
+  (data (;0;) "")
+  (data (;1;) "\00")
+)

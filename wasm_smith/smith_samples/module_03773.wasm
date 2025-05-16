@@ -1,0 +1,10 @@
+(module
+  (import ",H" "" (memory (;0;) i64 3044 52032127616655))
+  (global (;0;) (mut f64) f64.const -0x1.38e9786e23062p+138 (;=-425913735647254600000000000000000000000000;))
+  (global (;1;) arrayref ref.null array)
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (elem (;0;) func)
+  (elem (;1;) externref)
+  (elem (;2;) nullexternref (ref.null noextern))
+)

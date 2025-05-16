@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 24)
+  (global (;0;) externref ref.null extern)
+  (global (;1;) i32 i32.const 383070916 i32.const 1005062774 i32.const 760535491 i32.const -1753466326 i32.const -1851384297 i32.const 1027269961 i32.const 255900258 i32.const 943477283 i32.const -1736024727 i32.const 134206744 i32.mul i32.add i32.mul i32.add i32.mul i32.add i32.add i32.sub i32.sub)
+)

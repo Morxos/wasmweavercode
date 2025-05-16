@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 25 565227 exnref)
+  (global (;0;) f32 f32.const -0x1.b4104cp-37 (;=-0.000000000012393675;))
+  (global (;1;) i32 i32.const 1815765889)
+  (global (;2;) i32 global.get 1)
+  (global (;3;) (mut i64) i64.const 7832732867853532697 i64.const 2913544961999548107 i64.sub)
+  (global (;4;) (mut externref) ref.null extern)
+  (data (;0;) "T")
+)

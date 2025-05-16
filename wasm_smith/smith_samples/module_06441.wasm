@@ -1,0 +1,11 @@
+(module
+  (import "T" "" (memory (;0;) i64 3822 76230332708025 shared))
+  (table (;0;) 84 anyref)
+  (export "" (table 0))
+  (export "X\u{6})k\u{6f6}" (memory 0))
+  (export "kH-\u{d}" (memory 0))
+  (elem (;0;) externref)
+  (elem (;1;) declare exnref (ref.null exn))
+  (elem (;2;) exnref)
+  (elem (;3;) declare exnref)
+)

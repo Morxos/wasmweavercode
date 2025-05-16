@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 58 145733092843085)
+  (global (;0;) (mut f32) f32.const -0x1.0ece48p-90 (;=-0.0000000000000000000000000008545124;))
+  (global (;1;) i31ref ref.null none)
+  (elem (;0;) exnref)
+)

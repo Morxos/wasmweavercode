@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "\u{16}" "" (memory (;0;) i64 1427 109123069315227 shared))
+  (import "" "" (global (;1;) nullref))
+  (global (;2;) (mut f64) f64.const -0x1.2ee367e0122edp+36 (;=-81305959937.13643;))
+  (export "[I\u{17}" (memory 0))
+  (elem (;0;) declare func)
+  (elem (;1;) exnref)
+)

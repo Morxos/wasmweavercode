@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "=:\u{1a}<`" "" (memory (;0;) i64 817 265015427387871))
+  (import "" "" (table (;0;) 3 exnref))
+  (export "H\u{1b}" (memory 0))
+  (elem (;0;) externref (ref.null noextern) (ref.null extern))
+  (elem (;1;) eqref)
+)

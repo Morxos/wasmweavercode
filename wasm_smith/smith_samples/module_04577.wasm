@@ -1,0 +1,6 @@
+(module
+  (import "+" "" (global (;0;) i32))
+  (table (;0;) i64 0 funcref)
+  (global (;1;) (mut f32) f32.const -0x1.42ece2p-77 (;=-0.000000000000000000000008347424;))
+  (global (;2;) f32 f32.const 0x1.432504p-26 (;=0.00000001880949;))
+)

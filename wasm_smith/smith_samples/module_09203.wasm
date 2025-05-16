@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 1090 eqref)
+  (global (;0;) (mut f32) f32.const -0x1.a6fffep-104 (;=-0.00000000000000000000000000000008146683;))
+  (global (;1;) (mut f32) f32.const -0x1.e373cp-43 (;=-0.00000000000021469588;))
+  (elem (;0;) structref (ref.null struct))
+  (data (;0;) "\ea")
+  (data (;1;) "")
+)

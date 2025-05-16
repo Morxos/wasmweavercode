@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) i64 10666 31256116364954 shared))
+  (table (;0;) i64 1566 15306 nullfuncref ref.null nofunc)
+  (global (;0;) exnref ref.null exn)
+  (export "\u{19}B" (table 0))
+  (export "N" (global 0))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) (table 0) (i64.const 5) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) (i64.const 347485304) "\f8")
+  (data (;1;) "")
+  (data (;2;) (i64.const 7605916) "")
+  (data (;3;) (i64.const 370) "\89\00")
+)

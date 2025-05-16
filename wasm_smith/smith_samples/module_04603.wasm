@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 797 arrayref ref.null none)
+  (memory (;0;) 214 21909)
+  (export "w\u{5c}" (table 0))
+  (export "f`\u{13}" (table 0))
+  (elem (;0;) eqref)
+)

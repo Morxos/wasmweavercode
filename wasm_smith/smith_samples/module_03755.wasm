@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 3971)
+  (data (;0;) (i64.const 5889) "")
+  (data (;1;) (i64.const 27324) "")
+  (data (;2;) (i64.const 175889652) "/")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "$" "" (table (;0;) 7 exnref))
+  (import "" "" (memory (;0;) 6991 11379))
+)

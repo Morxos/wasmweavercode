@@ -1,0 +1,5 @@
+(module
+  (import "Sb" "" (memory (;0;) 0))
+  (global (;0;) i64 i64.const -9102616078727152285)
+  (data (;0;) "")
+)

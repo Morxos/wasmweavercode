@@ -1,0 +1,11 @@
+(module
+  (memory (;0;) i64 0 7128158435694 shared)
+  (export "\u{8}Z\u{fd}[" (memory 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+  (elem (;1;) externref (ref.null extern))
+  (elem (;2;) eqref (ref.null none) (ref.null eq))
+  (elem (;3;) declare eqref)
+  (data (;0;) "[S%aX")
+  (data (;1;) "")
+  (data (;2;) "")
+)

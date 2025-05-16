@@ -1,0 +1,8 @@
+(module
+  (import "\u{2}\u{425}" "" (memory (;0;) i64 6458 89699989445652 shared))
+  (global (;0;) structref ref.null struct)
+  (global (;1;) (mut f32) f32.const -0x1.106cfep+119 (;=-707257700000000000000000000000000000;))
+  (global (;2;) i64 i64.const -4997810558097072063)
+  (export "J\u{ff}" (memory 0))
+  (export "" (memory 0))
+)

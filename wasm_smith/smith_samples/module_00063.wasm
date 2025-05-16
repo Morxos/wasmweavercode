@@ -1,0 +1,12 @@
+(module
+  (memory (;0;) 182)
+  (global (;0;) i64 i64.const -7321569031147607880 i64.const -5685840882332634915 i64.const -5507988584414780458 i64.const 8727119001852231913 i64.const 4542509019555606120 i64.const -5912543007926166772 i64.const 5673502863600337305 i64.const -8310721300707185279 i64.const 50256463212673804 i64.const -7384343323050499170 i64.sub i64.add i64.sub i64.add i64.const 8562897113999423629 i64.mul i64.sub i64.mul i64.add i64.sub i64.sub)
+  (global (;1;) i32 i32.const -1424417658)
+  (export "" (global 1))
+  (elem (;0;) declare eqref)
+  (elem (;1;) nullexternref (ref.null noextern))
+  (elem (;2;) declare nullexternref)
+  (elem (;3;) declare exnref)
+  (data (;0;) (global.get 1) "Q\99")
+  (data (;1;) "\8a\9b\e0")
+)

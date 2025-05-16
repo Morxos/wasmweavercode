@@ -1,0 +1,5 @@
+(module
+  (import "Z" "" (memory (;0;) i64 0))
+  (import "K" "" (table (;0;) 373 structref))
+  (data (;0;) "")
+)

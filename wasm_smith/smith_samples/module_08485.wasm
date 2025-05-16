@@ -1,0 +1,8 @@
+(module
+  (import "R" "" (table (;0;) 3164 457471 funcref))
+  (import "W" "" (global (;0;) (mut i31ref)))
+  (import "" "" (memory (;0;) i64 233 121219721022777))
+  (import "\u{13}\u{8}\u{12}" "" (global (;1;) i32))
+  (export "]\u{6}\u{18}" (table 0))
+  (elem (;0;) declare nullexternref (ref.null noextern))
+)

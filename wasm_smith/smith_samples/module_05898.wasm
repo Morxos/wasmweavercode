@@ -1,0 +1,10 @@
+(module
+  (import "\u{26a}" "" (memory (;0;) i64 198 217899750072620))
+  (table (;0;) 45 823592 i31ref ref.null none)
+  (export "Dci\u{c}4" (memory 0))
+  (data (;0;) (i64.const 59168) "")
+  (data (;1;) (i64.const 73061) "\92`\b9")
+  (data (;2;) "_")
+  (data (;3;) "")
+  (data (;4;) "?\8e\87\fb")
+)

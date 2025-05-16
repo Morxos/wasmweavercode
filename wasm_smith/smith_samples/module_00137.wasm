@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 0 exnref))
+  (memory (;0;) i64 737)
+  (export "\u{9}" (table 0))
+)

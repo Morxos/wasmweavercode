@@ -1,0 +1,6 @@
+(module
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare anyref)
+  (elem (;2;) declare exnref)
+  (data (;0;) "")
+)

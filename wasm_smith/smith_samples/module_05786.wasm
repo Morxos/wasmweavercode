@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 0 arrayref)
+  (memory (;0;) 382)
+  (global (;0;) i64 i64.const 8172955045048689562 i64.const -8149819598758924398 i64.const 8974529677021663240 i64.const -110779003483847257 i64.const -1529178598283062503 i64.const 1487291744874589847 i64.const 3964862880392760367 i64.const 1210802272781836941 i64.const 5800502573075544795 i64.const -9179320678544563173 i64.const 2507868800030282103 i64.const 7292172366520960610 i64.add i64.sub i64.mul i64.add i64.add i64.sub i64.mul i64.add i64.mul i64.sub i64.add)
+  (export "\u{4}" (global 0))
+  (elem (;0;) funcref (ref.null func))
+  (elem (;1;) nullref (ref.null none) (ref.null none))
+  (data (;0;) (i32.const 0) "")
+)

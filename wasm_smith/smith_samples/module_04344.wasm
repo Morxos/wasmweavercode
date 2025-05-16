@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 0 exnref)
+  (memory (;0;) i64 15)
+  (global (;0;) f32 f32.const 0x1.4fe7c6p+106 (;=106452660000000000000000000000000;))
+  (global (;1;) (mut i32) i32.const 513057168)
+  (global (;2;) structref ref.null struct)
+  (export " c\u{13}\u{3}SN" (global 2))
+  (elem (;0;) declare anyref (global.get 2) (ref.null any) (ref.null any) (global.get 2))
+  (elem (;1;) declare i31ref)
+  (data (;0;) (i64.const 75) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2898 nullref ref.null none)
+  (global (;0;) (mut i32) i32.const 775121625)
+  (global (;1;) (mut i64) i64.const 3692223346293497101 i64.const 5632202473940769045 i64.const -9010480515424260094 i64.const 6004707270007907782 i64.const 5645522506672435806 i64.const -5705374033889846751 i64.const -4860986947697313686 i64.add i64.const 2524782282988780444 i64.mul i64.add i64.add i64.const 4109183960050426186 i64.add i64.sub i64.add i64.mul)
+  (global (;2;) nullref ref.null none)
+  (global (;3;) f32 f32.const -0x1.f2aa7ep-85 (;=-0.000000000000000000000000050352397;))
+  (elem (;0;) (table 0) (i64.const 589) nullref (ref.null none) (global.get 2))
+  (data (;0;) "\b4M?")
+)

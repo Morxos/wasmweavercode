@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 0 139460 externref)
+  (memory (;0;) 1 29072)
+  (export "~2" (table 0))
+  (data (;0;) "")
+  (data (;1;) (i32.const 10) "\d87\b1a\0e\06")
+  (data (;2;) "\89")
+)

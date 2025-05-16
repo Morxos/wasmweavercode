@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) i64 11927))
+  (global (;0;) (mut i32) i32.const 1155266255)
+  (global (;1;) (mut exnref) ref.null exn)
+  (export "" (global 1))
+  (export "1" (global 0))
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare i31ref (ref.null i31))
+)

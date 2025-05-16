@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) eqref))
+  (memory (;0;) 0)
+  (global (;1;) i32 i32.const -1469111908)
+  (elem (;0;) exnref)
+  (elem (;1;) declare arrayref)
+)

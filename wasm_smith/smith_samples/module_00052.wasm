@@ -1,0 +1,8 @@
+(module
+  (import "\u{5a5}?Cn" "" (memory (;0;) 47 41091))
+  (import "t" "" (global (;0;) (mut f64)))
+  (import "\u{14a}" "" (table (;0;) i64 15 i31ref))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

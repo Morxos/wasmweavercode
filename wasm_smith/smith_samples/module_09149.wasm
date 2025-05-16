@@ -1,0 +1,8 @@
+(module
+  (import "P\u{8}" "" (table (;0;) 5 397297 externref))
+  (import "rog8" "" (memory (;0;) i64 1226))
+  (import "" "" (global (;0;) (mut nullfuncref)))
+  (global (;1;) externref ref.null extern)
+  (global (;2;) (mut f64) f64.const -0x1.b8901e95a9571p+455 (;=-160109112338312860000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;3;) (mut f32) f32.const -0x1.074fap-55 (;=-0.00000000000000002854824;))
+)

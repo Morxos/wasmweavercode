@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 4780 structref ref.null struct)
+  (export "4" (table 0))
+)

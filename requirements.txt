@@ -1,0 +1,11 @@
+numpy
+wasmtime
+matplotlib
+scipy
+gymnasium
+stable_baselines3
+tensorboard
+sb3_contrib
+torch
+torchvision
+torchaudio

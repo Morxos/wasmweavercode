@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) i64 2000))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "V\u{7f}\u{f}C" "" (global (;1;) (mut i32)))
+  (import "" "" (global (;2;) arrayref))
+  (table (;0;) i64 437 787104 externref)
+  (export "W" (table 0))
+  (export "\u{5}" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) (i64.const 70145) "")
+)

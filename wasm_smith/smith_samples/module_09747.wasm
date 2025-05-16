@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) i31ref)
+  (elem (;1;) arrayref (ref.null array))
+)

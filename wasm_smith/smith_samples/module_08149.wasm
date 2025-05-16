@@ -1,0 +1,9 @@
+(module
+  (import "]\u{1b}S" "" (table (;0;) 943 nullexternref))
+  (import "\u{7f}l" "" (global (;0;) (mut f32)))
+  (import "" "" (global (;1;) i32))
+  (memory (;0;) i64 11129)
+  (elem (;0;) declare eqref (ref.null struct) (ref.null struct) (ref.null array) (ref.null eq) (ref.null i31))
+  (data (;0;) (i64.const 181607271) "\e2\0e")
+  (data (;1;) (i64.const 739064) "")
+)

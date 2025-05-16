@@ -1,0 +1,5 @@
+(module
+  (import "\u{5}u#\u{612}" "" (memory (;0;) i64 0))
+  (export "" (memory 0))
+  (export "\u{1e}yP" (memory 0))
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 6 482872 anyref)
+  (data (;0;) "\1fg")
+)

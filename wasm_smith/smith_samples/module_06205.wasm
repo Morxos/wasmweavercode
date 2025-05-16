@@ -1,0 +1,7 @@
+(module
+  (global (;0;) anyref ref.null array)
+  (global (;1;) (mut i31ref) ref.null i31)
+  (export "c" (global 1))
+  (elem (;0;) declare i31ref (ref.null none) (ref.null i31))
+  (data (;0;) "")
+)

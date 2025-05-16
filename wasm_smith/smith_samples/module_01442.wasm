@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 8 16191 shared))
+  (table (;0;) 0 467679 eqref)
+  (export "\u{5c}\u{333}\u{5629}\u{17}" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "\b9\db2")
+)

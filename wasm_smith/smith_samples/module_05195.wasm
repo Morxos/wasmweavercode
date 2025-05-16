@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 397 anyref))
+  (global (;0;) (mut i64) i64.const 7382295813842297389)
+  (elem (;0;) (table 0) (i32.const 143) nullref (ref.null none))
+  (data (;0;) "")
+)

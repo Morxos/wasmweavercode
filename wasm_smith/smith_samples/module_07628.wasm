@@ -1,0 +1,7 @@
+(module
+  (import ">`G8" "" (memory (;0;) i64 553))
+  (table (;0;) 0 funcref ref.null nofunc)
+  (elem (;0;) declare func)
+  (elem (;1;) i31ref (ref.null none) (ref.null i31) (ref.null i31))
+  (data (;0;) (i64.const 9388190) "")
+)

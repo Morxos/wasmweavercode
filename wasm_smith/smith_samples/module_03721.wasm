@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 6 126070925340150 shared)
+  (elem (;0;) declare nullfuncref)
+)

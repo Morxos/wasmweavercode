@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 1 externref))
+  (memory (;0;) i64 916 234901426906586 shared)
+  (export "" (table 0))
+  (export "\u{7f}" (memory 0))
+)

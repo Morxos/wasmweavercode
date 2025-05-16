@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 1 62595))
+  (import "\u{58c}" "" (table (;0;) 8 496440 funcref))
+  (export "HY" (table 0))
+  (export "" (memory 0))
+  (data (;0;) "")
+  (data (;1;) (i32.const 1773) "")
+)

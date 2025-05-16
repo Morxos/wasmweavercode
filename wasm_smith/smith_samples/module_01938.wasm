@@ -1,0 +1,10 @@
+(module
+  (import "s|z'" "" (memory (;0;) i64 3128 216708514662575))
+  (elem (;0;) declare nullref)
+  (elem (;1;) nullexternref)
+  (elem (;2;) declare arrayref (ref.null array) (ref.null array) (ref.null array) (ref.null array) (ref.null array))
+  (data (;0;) "")
+  (data (;1;) (i64.const 40711237) "U\da\ed")
+  (data (;2;) (i64.const 38367275) "\b7")
+  (data (;3;) (i64.const 4956565) "")
+)

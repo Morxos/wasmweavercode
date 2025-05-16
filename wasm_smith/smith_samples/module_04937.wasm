@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 0 50543941751702)
+  (global (;0;) (mut arrayref) ref.null array)
+  (global (;1;) (mut f32) f32.const -0x1.0cb182p-5 (;=-0.032799486;))
+  (global (;2;) (mut f32) f32.const 0x1.d454ccp+20 (;=1918284.8;))
+  (global (;3;) f32 f32.const -0x1.02401ep+58 (;=-290764170000000000;))
+  (export "" (memory 0))
+  (data (;0;) "\93\e1\d1")
+)

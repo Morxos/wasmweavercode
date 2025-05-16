@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (table (;0;) i64 0 230065 anyref)
+  (elem (;0;) exnref)
+  (elem (;1;) declare func)
+  (elem (;2;) declare nullfuncref)
+  (data (;0;) "i\d4?*")
+  (data (;1;) "\b9")
+  (data (;2;) "")
+)

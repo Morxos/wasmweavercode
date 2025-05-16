@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 214 nullexternref))
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (elem (;0;) (table 0) (i64.const 0) nullexternref (ref.null noextern))
+)

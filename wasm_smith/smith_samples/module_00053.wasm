@@ -1,0 +1,7 @@
+(module
+  (import "\u{0}?" "" (table (;0;) i64 1724 470982 nullref))
+  (global (;0;) (mut i32) i32.const 156644176)
+  (export "Z\u{17}v\u{4}" (table 0))
+  (elem (;0;) declare structref)
+  (data (;0;) "")
+)

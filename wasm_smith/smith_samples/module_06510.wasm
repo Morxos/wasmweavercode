@@ -1,0 +1,13 @@
+(module
+  (table (;0;) 4 183897 structref ref.null none)
+  (memory (;0;) i64 124 143150891503808)
+  (global (;0;) f64 f64.const 0x1.7b6f0214da82dp+543 (;=42675979298073440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (elem (;0;) funcref (ref.null nofunc))
+  (elem (;1;) (table 0) (i32.const 0) structref)
+  (elem (;2;) (table 0) (i32.const 0) structref)
+  (elem (;3;) eqref (ref.null eq))
+  (elem (;4;) nullref)
+  (elem (;5;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;6;) (table 0) (i32.const 0) structref)
+  (elem (;7;) (table 0) (i32.const 0) structref)
+)

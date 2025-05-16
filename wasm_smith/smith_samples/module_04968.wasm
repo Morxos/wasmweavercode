@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 5 972246 nullref)
+  (global (;0;) f32 f32.const 0x1.c5dc84p-35 (;=0.000000000051598066;))
+  (export "f4" (table 0))
+  (export "r" (global 0))
+  (elem (;0;) declare arrayref (ref.null array))
+  (elem (;1;) declare externref)
+  (elem (;2;) declare i31ref)
+  (elem (;3;) (table 0) (i64.const 0) nullref (ref.null none))
+  (elem (;4;) declare externref (ref.null extern))
+  (data (;0;) "")
+  (data (;1;) "")
+)

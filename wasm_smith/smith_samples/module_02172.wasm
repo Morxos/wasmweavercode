@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 0 307207 arrayref ref.null none)
+  (memory (;0;) 0)
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (elem (;0;) anyref (ref.null any) (ref.null struct))
+  (elem (;1;) arrayref (ref.null array))
+  (data (;0;) "\94|\e4")
+  (data (;1;) "")
+)

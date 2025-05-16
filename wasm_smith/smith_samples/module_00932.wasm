@@ -1,0 +1,5 @@
+(module
+  (import "\u{5}\u{320}\u{0}\u{22}" "" (global (;0;) (mut i31ref)))
+  (table (;0;) 3294 59715 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 0)
+)

@@ -1,0 +1,10 @@
+(module
+  (type (;0;) (sub (struct)))
+  (table (;0;) 0 620728 (ref null 0) ref.null none)
+  (memory (;0;) 0 49317)
+  (global (;0;) i32 i32.const 1592408066 i32.const 592243161 i32.const -1521273967 i32.const -613435594 i32.const -2020389795 i32.const -1355848293 i32.const -539904350 i32.const -143801493 i32.const 1658136153 i32.const 321352433 i32.sub i32.sub i32.add i32.add i32.sub i32.mul i32.sub i32.mul i32.sub i32.const -1330443176 i32.sub)
+  (global (;1;) (mut f32) f32.const 0x1.1162e6p+37 (;=146773160000;))
+  (global (;2;) (mut f32) f32.const 0x1.6a55c6p+43 (;=12449738000000;))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) declare arrayref (ref.null array) (ref.null array) (ref.null none) (ref.null array))
+)

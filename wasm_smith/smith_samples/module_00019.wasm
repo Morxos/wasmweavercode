@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2 arrayref ref.null none)
+  (export "&Np" (table 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (export "3" (table 0))
+  (elem (;0;) declare i31ref)
+  (data (;0;) "\d8")
+)

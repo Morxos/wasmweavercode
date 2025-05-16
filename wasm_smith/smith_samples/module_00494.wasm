@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 4 77602013269759 shared)
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) declare nullref (ref.null none) (ref.null none) (ref.null none))
+)

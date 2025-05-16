@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 740 239055 nullfuncref)
+  (memory (;0;) i64 19)
+  (global (;0;) i64 i64.const -9222595220429604739 i64.const -7079582756767310108 i64.const -7927969390458154913 i64.const -1618222461023608911 i64.const -5144727067660390708 i64.const -8179782352226013341 i64.const 5119804331802137796 i64.const 7795196132569282455 i64.const 8409481242924653938 i64.const 7956911929443226525 i64.mul i64.const -6503334250429413216 i64.add i64.add i64.add i64.mul i64.add i64.sub i64.sub i64.add i64.mul)
+  (global (;1;) structref ref.null struct)
+  (export "O" (table 0))
+  (export "" (table 0))
+  (data (;0;) "\86")
+)

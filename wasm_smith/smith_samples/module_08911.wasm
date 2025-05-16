@@ -1,0 +1,5 @@
+(module
+  (import "(v" "" (table (;0;) i64 4131 706894 nullref))
+  (global (;0;) (mut externref) ref.null noextern)
+  (export "" (global 0))
+)

@@ -1,0 +1,6 @@
+(module
+  (elem (;0;) func)
+  (elem (;1;) declare structref (ref.null struct))
+  (data (;0;) "")
+  (data (;1;) "\e1")
+)

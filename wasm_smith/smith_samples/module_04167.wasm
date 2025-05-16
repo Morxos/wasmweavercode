@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 117 eqref ref.null array)
+  (memory (;0;) i64 2398)
+  (global (;0;) (mut f32) f32.const -0x1.b6069p-127 (;=-0.000000000000000000000000000000000000010056575;))
+  (elem (;0;) (table 0) (i32.const 32) nullref (ref.null none))
+  (elem (;1;) (table 0) (i32.const 2) eqref (ref.null struct))
+)

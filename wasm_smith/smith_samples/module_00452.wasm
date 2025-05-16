@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 121 i31ref)
+  (export "GGK" (table 0))
+)

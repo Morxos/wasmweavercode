@@ -1,0 +1,6 @@
+(module
+  (import "Cd" "" (table (;0;) 0 206044 funcref))
+  (global (;0;) funcref ref.null nofunc)
+  (global (;1;) f32 f32.const -0x1.9cfea4p+40 (;=-1773798700000;))
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern))
+)

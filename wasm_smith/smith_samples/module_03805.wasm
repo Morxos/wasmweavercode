@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 198 i31ref)
+  (memory (;0;) 11241 47134 shared)
+  (global (;0;) (mut i32) i32.const 859393966)
+  (global (;1;) (mut anyref) ref.null any)
+  (data (;0;) "e\ee\04^\d8")
+  (data (;1;) "\95")
+)

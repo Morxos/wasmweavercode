@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 7559)
+  (export "!/$" (memory 0))
+  (elem (;0;) declare funcref)
+  (elem (;1;) declare i31ref)
+  (data (;0;) (i64.const 105111824) "")
+  (data (;1;) (i64.const 61232986) "")
+  (data (;2;) (i64.const 170395) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "1" "" (memory (;0;) 2))
+  (import ")ymq" "" (global (;0;) (mut funcref)))
+  (import "" "" (table (;0;) 0 181650 eqref))
+  (export "{_" (memory 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) funcref (ref.null func) (ref.null func))
+  (elem (;2;) externref (ref.null noextern) (ref.null noextern))
+)

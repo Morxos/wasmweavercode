@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 7902 588012 funcref ref.null nofunc)
+  (global (;0;) (mut i32) i32.const 1512537455 i32.const 58911150 i32.const 514174243 i32.const 687224476 i32.const 2078088270 i32.const -2088565220 i32.const 798994894 i32.const -545094076 i32.add i32.const -67118236 i32.const 283893580 i32.mul i32.add i32.mul i32.sub i32.add i32.add i32.sub i32.sub)
+  (global (;1;) (mut f32) f32.const -0x1.8686fap+82 (;=-7376851000000000000000000;))
+  (global (;2;) f32 f32.const 0x1.af6842p+12 (;=6902.516;))
+)

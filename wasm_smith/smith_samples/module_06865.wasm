@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) i64 478 248440988177570))
+  (table (;0;) i64 194 167389 exnref ref.null exn)
+  (global (;0;) (mut i32) i32.const 1950964087 i32.const -207219639 i32.const -1391129730 i32.const -123313350 i32.const -2034145591 i32.const 311655959 i32.add i32.const -1948524192 i32.add i32.const -806174356 i32.add i32.add i32.const 99074638 i32.mul i32.add i32.sub i32.add)
+  (global (;1;) i32 i32.const -466577230 i32.const 1425807264 i32.const -766021886 i32.const 630395688 i32.const 2115157744 i32.const 1398534740 i32.const 1144935718 i32.const 826161816 i32.const 1969249280 i32.const 580353319 i32.mul i32.sub i32.const 724553376 i32.add i32.mul i32.add i32.add i32.add i32.mul i32.add i32.sub)
+  (global (;2;) nullref ref.null none)
+  (global (;3;) eqref ref.null struct)
+  (global (;4;) f64 f64.const 0x1.759d5cb86caa9p+510 (;=4891947348103214500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;5;) (mut f32) f32.const 0x1.3de3b6p+93 (;=12297754000000000000000000000;))
+  (global (;6;) f64 global.get 4)
+  (global (;7;) i64 i64.const 9124744517841613219)
+  (data (;0;) "\aa:\91\d9}\ef")
+)

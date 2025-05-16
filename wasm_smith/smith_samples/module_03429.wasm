@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 0 nullexternref ref.null noextern)
+  (memory (;0;) i64 0)
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) arrayref (ref.null array) (ref.null array))
+)

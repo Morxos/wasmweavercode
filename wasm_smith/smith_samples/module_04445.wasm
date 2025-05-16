@@ -1,0 +1,13 @@
+(module
+  (table (;0;) 217 externref ref.null noextern)
+  (memory (;0;) 1222 27817)
+  (global (;0;) i32 i32.const 99152905)
+  (global (;1;) (mut i64) i64.const 4133087770344480269 i64.const 554569387336281810 i64.const 1574754973359288361 i64.const 6674545032541415472 i64.const 5221144303048803011 i64.mul i64.add i64.add i64.const -3880509045248785114 i64.const -5553570227344801435 i64.const 7233255117191484957 i64.sub i64.sub i64.sub i64.add)
+  (export "" (table 0))
+  (export "\u{1a}O" (memory 0))
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "")
+  (data (;1;) (global.get 0) "B")
+  (data (;2;) "")
+  (data (;3;) (i32.const 26) "\dds\e9")
+)

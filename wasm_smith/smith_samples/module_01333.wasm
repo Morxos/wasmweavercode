@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 9660 974900 nullexternref))
+  (import "" "" (memory (;0;) i64 9628 51680050714958 shared))
+  (import "" "" (global (;0;) (mut f32)))
+  (data (;0;) "\d8\f9")
+)

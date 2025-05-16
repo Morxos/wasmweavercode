@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "" "" (memory (;0;) i64 0 152595399298018 shared))
+  (table (;0;) i64 55 anyref ref.null any)
+  (global (;1;) (mut f32) f32.const 0x1.5cb28p-118 (;=0.0000000000000000000000000000000000040989167;))
+  (export "A\u{0}\u{d}" (global 1))
+  (export "I" (memory 0))
+  (export "%" (table 0))
+  (export "\u{22}" (global 1))
+  (data (;0;) "\e1")
+)

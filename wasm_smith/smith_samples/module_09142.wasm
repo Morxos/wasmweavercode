@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 310 427081 funcref ref.null func)
+  (memory (;0;) 65317)
+  (global (;0;) f32 f32.const 0x1.a4fecep-78 (;=0.000000000000000000000005441237;))
+  (export "\u{d}\u{16}" (memory 0))
+  (export "\u{19}>`\u{17}" (memory 0))
+  (elem (;0;) (i32.const 103) funcref (ref.null nofunc) (ref.null func))
+  (elem (;1;) arrayref (ref.null array) (ref.null array))
+  (elem (;2;) (table 0) (i32.const 4) func)
+  (elem (;3;) nullref (ref.null none) (ref.null none) (ref.null none))
+)

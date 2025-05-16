@@ -1,0 +1,13 @@
+(module
+  (import "C" "" (table (;0;) i64 0 anyref))
+  (import "" "" (memory (;0;) 1649 60935))
+  (import ")A" "" (global (;0;) (mut arrayref)))
+  (import "\u{3d0}w/]\u{18}u" "" (global (;1;) (mut structref)))
+  (import "B" "" (global (;2;) f64))
+  (global (;3;) (mut f64) global.get 2)
+  (elem (;0;) funcref)
+  (elem (;1;) (table 0) (i64.const 0) structref)
+  (elem (;2;) (table 0) (i64.const 0) eqref)
+  (elem (;3;) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (data (;0;) (i32.const 14) "")
+)

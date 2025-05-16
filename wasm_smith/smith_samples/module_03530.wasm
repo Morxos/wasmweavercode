@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) 66 nullref))
+  (import "" "" (memory (;0;) 686 697))
+  (export "x!\u{3}" (memory 0))
+)

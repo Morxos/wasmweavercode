@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 979 99412 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 872 109006584985221 shared)
+  (export "" (memory 0))
+  (elem (;0;) declare exnref (ref.null exn))
+  (elem (;1;) anyref (ref.null eq))
+  (elem (;2;) anyref)
+)

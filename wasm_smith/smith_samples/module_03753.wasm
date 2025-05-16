@@ -1,0 +1,4 @@
+(module
+  (import "" "" (memory (;0;) 13234))
+  (import "" "" (table (;0;) i64 0 754092 arrayref))
+)

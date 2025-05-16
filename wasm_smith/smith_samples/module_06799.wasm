@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "@\u{7f}" "" (memory (;0;) i64 842 270021250654262 shared))
+  (import "" "" (table (;0;) i64 0 231543 nullexternref))
+  (import "" "" (global (;1;) (mut f32)))
+  (global (;2;) (mut f32) f32.const -0x1.90e112p-78 (;=-0.000000000000000000000005181242;))
+  (export "" (memory 0))
+  (export "]!\u{b}\u{26b}ho61W" (table 0))
+  (elem (;0;) arrayref)
+)

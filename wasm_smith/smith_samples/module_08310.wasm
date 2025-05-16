@@ -1,0 +1,12 @@
+(module
+  (import "7" "" (global (;0;) f32))
+  (import "" "" (memory (;0;) i64 2195 189077082468418))
+  (table (;0;) 5 157863 nullfuncref ref.null nofunc)
+  (global (;1;) (mut i64) i64.const 4530903534160705902 i64.const 3751659410121392122 i64.const 487680326321404402 i64.const -6421951265310075821 i64.const -484758519888947488 i64.const -107550612099450555 i64.const -161917574086962603 i64.const -8167073875892292527 i64.const 8064777079885549355 i64.sub i64.add i64.sub i64.mul i64.add i64.const 7373117342974132572 i64.mul i64.sub i64.sub i64.add)
+  (global (;2;) (mut nullexternref) ref.null noextern)
+  (global (;3;) (mut i31ref) ref.null i31)
+  (global (;4;) f32 global.get 0)
+  (data (;0;) "\bc\01")
+  (data (;1;) "\c3\e0\f2\0c\aa")
+  (data (;2;) "")
+)

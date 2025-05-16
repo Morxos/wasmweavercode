@@ -1,0 +1,3 @@
+(module
+  (elem (;0;) anyref (ref.null struct) (ref.null none) (ref.null i31))
+)

@@ -1,0 +1,11 @@
+(module
+  (import "p,\u{56c}" "" (global (;0;) (mut i64)))
+  (memory (;0;) i64 0 26659009108700)
+  (global (;1;) i64 i64.const 606653017583737429 i64.const 7834277526330497835 i64.const 4257606539048117705 i64.const 2853967287308806806 i64.const -3629495578594773114 i64.mul i64.sub i64.const 8193541134821241076 i64.mul i64.const 4513342263721889181 i64.add i64.mul i64.sub i64.const -4807114824313082137 i64.sub)
+  (elem (;0;) declare externref (ref.null extern) (ref.null extern) (ref.null extern) (ref.null noextern))
+  (elem (;1;) declare externref (ref.null extern) (ref.null noextern))
+  (elem (;2;) declare arrayref (ref.null array))
+  (elem (;3;) declare externref)
+  (data (;0;) "r")
+  (data (;1;) "\af")
+)

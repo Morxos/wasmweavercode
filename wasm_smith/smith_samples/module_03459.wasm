@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 34 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 7320 121266811954924 shared)
+)

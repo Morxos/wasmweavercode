@@ -1,0 +1,6 @@
+(module
+  (import "q/" "" (memory (;0;) i64 8759 249232720861805))
+  (table (;0;) 51 254363 funcref)
+  (global (;0;) (mut i64) i64.const -6014516724387042528 i64.const 2404455132647666669 i64.sub)
+  (export "\u{6}" (table 0))
+)

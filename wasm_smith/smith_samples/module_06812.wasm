@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 6 16736)
+  (export "Q" (memory 0))
+  (export "" (memory 0))
+)

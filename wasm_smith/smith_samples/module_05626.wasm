@@ -1,0 +1,5 @@
+(module
+  (global (;0;) (mut i31ref) ref.null i31)
+  (global (;1;) f32 f32.const 0x1.7b13b6p+95 (;=58659324000000000000000000000;))
+  (export "" (global 1))
+)

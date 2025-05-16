@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 1585 268973 exnref)
+  (export "~" (table 0))
+  (export "Q\u{1b}AL" (table 0))
+  (data (;0;) "Z")
+  (data (;1;) "C\ed")
+)

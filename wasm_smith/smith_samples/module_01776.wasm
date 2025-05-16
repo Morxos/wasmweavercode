@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (table (;0;) i64 5 structref))
+  (import "7\u{5c}'j" "" (global (;1;) i32))
+  (memory (;0;) i64 0)
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none))
+  (data (;0;) (i64.const 0) "")
+)

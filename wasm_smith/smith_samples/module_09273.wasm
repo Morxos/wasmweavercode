@@ -1,0 +1,6 @@
+(module
+  (import "S^\u{15}" "" (memory (;0;) i64 2 136160838415822))
+  (elem (;0;) declare structref)
+  (elem (;1;) declare externref)
+  (elem (;2;) nullref (ref.null none))
+)

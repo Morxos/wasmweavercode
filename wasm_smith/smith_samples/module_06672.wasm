@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 64)
+  (global (;0;) i32 i32.const -1460432880)
+  (export "" (memory 0))
+)

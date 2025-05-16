@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 628 structref)
+  (global (;0;) (mut nullref) ref.null none)
+  (export "" (global 0))
+  (export "1" (global 0))
+  (elem (;0;) (table 0) (i32.const 0) structref)
+  (elem (;1;) func)
+  (elem (;2;) declare nullref (ref.null none))
+  (data (;0;) "2_")
+  (data (;1;) "")
+)

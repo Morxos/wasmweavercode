@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 695 363695 externref))
+  (memory (;0;) i64 11281 63485683184447)
+  (global (;0;) (mut i32) i32.const 167942287 i32.const 1856840325 i32.const 206732601 i32.const 642774906 i32.const -751481024 i32.const -19070184 i32.const -268915157 i32.const 999427418 i32.sub i32.add i32.sub i32.mul i32.sub i32.sub i32.const 1323075680 i32.sub i32.mul i32.const 750392957 i32.add)
+  (global (;1;) (mut i32) i32.const 1399190770)
+  (elem (;0;) funcref (ref.null nofunc) (ref.null nofunc))
+)

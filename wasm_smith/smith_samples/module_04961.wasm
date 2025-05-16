@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 18 243786129841495 shared)
+  (export "z\u{798}" (memory 0))
+  (export "\u{17}" (memory 0))
+  (data (;0;) (i64.const 77) "")
+)

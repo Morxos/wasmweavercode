@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 229 359522 externref))
+  (memory (;0;) i64 1078 78279268004429)
+  (global (;0;) i64 i64.const 5557688700744495161 i64.const 2029023514895615451 i64.const -1505663574272006227 i64.const 3081288390664181183 i64.sub i64.const 4635782896365892171 i64.const -615165468596476841 i64.add i64.sub i64.mul i64.add i64.const -8352128986423755157 i64.mul i64.const -4436634239158094544 i64.add)
+  (global (;1;) funcref ref.null func)
+  (global (;2;) nullexternref ref.null noextern)
+  (global (;3;) (mut i64) global.get 0)
+  (global (;4;) externref ref.null noextern)
+)

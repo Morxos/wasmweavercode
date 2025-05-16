@@ -1,0 +1,10 @@
+(module
+  (import "\u{793}" "" (table (;0;) 1 exnref))
+  (memory (;0;) 18)
+  (export "\u{1f}q" (memory 0))
+  (export "" (table 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) nullfuncref)
+  (elem (;2;) (table 0) (i32.const 0) exnref (ref.null exn))
+  (elem (;3;) (table 0) (i32.const 0) exnref (ref.null exn))
+)

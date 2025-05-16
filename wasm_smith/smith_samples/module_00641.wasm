@@ -1,0 +1,5 @@
+(module
+  (global (;0;) (mut f64) f64.const 0x1.35f43a2e46896p+41 (;=2662484696205.073;))
+  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) arrayref (ref.null array))
+)

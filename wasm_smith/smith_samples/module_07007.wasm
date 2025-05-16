@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 2572 arrayref)
+  (memory (;0;) i64 26)
+  (global (;0;) f64 f64.const 0x1.620ea1d88fc6p+209 (;=1137895831085946100000000000000000000000000000000000000000000000;))
+  (global (;1;) (mut f32) f32.const 0x1.4d302ep+99 (;=824934000000000000000000000000;))
+  (export "" (memory 0))
+  (export "1" (table 0))
+  (export "\u{5c9}" (table 0))
+  (export ":" (table 0))
+  (elem (;0;) declare structref (ref.null struct))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 3629 219710914184900 shared))
+  (import "`" "" (global (;0;) (mut f32)))
+  (table (;0;) i64 4 648158 funcref)
+  (elem (;0;) eqref (ref.null eq) (ref.null eq))
+  (elem (;1;) (table 0) (i64.const 0) nullfuncref)
+)

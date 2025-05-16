@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 286 arrayref)
+  (memory (;0;) 1666)
+)

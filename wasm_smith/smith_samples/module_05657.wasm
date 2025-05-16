@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 106 207244 nullref)
+  (memory (;0;) 1300 12812)
+  (elem (;0;) (table 0) (i64.const 1) nullref)
+  (data (;0;) (i32.const 88371) "Lvo")
+  (data (;1;) "m")
+)

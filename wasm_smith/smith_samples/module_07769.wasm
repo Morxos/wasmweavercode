@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare externref)
+  (data (;0;) "")
+)

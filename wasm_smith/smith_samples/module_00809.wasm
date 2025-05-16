@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 0))
+  (import "\u{5c}" "" (table (;0;) i64 229 nullref))
+  (global (;0;) f32 f32.const 0x1.bc93ep+26 (;=116543360;))
+  (elem (;0;) i31ref)
+  (data (;0;) "")
+  (data (;1;) "\a2e")
+  (data (;2;) "\08\96\a0")
+  (data (;3;) (i32.const -1904456224) "\cb\83\13")
+  (data (;4;) "")
+)

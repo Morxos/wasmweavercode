@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "m\u{15}B" "" (global (;1;) (mut f32)))
+  (import "QW\u{16}" "" (global (;2;) (mut f32)))
+  (table (;0;) i64 166 955051 nullref)
+  (global (;3;) (mut nullfuncref) ref.null nofunc)
+  (export "cd\u{0}" (table 0))
+)

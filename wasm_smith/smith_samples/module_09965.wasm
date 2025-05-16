@@ -1,0 +1,7 @@
+(module
+  (import "9" "" (table (;0;) i64 951 funcref))
+  (import "\u{d}o\u{2}qcf" "" (memory (;0;) 39))
+  (global (;0;) (mut funcref) ref.null func)
+  (global (;1;) i64 i64.const 2554502588284621780)
+  (global (;2;) (mut i64) global.get 1)
+)

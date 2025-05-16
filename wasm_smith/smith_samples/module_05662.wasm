@@ -1,0 +1,4 @@
+(module
+  (import "" "" (memory (;0;) 28))
+  (import "" "" (table (;0;) 1335 i31ref))
+)

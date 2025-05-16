@@ -1,0 +1,10 @@
+(module
+  (type (;0;) (sub (array i64)))
+  (import "\u{10}" "" (table (;0;) 2307 527494 nullexternref))
+  (memory (;0;) i64 453)
+  (elem (;0;) (table 0) (i32.const 11) nullexternref (ref.null noextern))
+  (elem (;1;) (table 0) (i32.const 26) nullexternref)
+  (elem (;2;) declare funcref (ref.null nofunc))
+  (data (;0;) (i64.const 5) "\ad")
+  (data (;1;) (i64.const 26) "\96")
+)

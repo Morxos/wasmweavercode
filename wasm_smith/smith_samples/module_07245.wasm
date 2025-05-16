@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) 337 externref))
+  (memory (;0;) 4160)
+  (global (;0;) funcref ref.null nofunc)
+  (export "" (memory 0))
+  (export "\u{1c}" (global 0))
+  (data (;0;) (i32.const 564) "")
+  (data (;1;) (i32.const 373) "ZT\d0o\17")
+  (data (;2;) "1k\b1\db")
+)

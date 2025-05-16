@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 15437 106902976258409 shared)
+  (elem (;0;) eqref (ref.null none) (ref.null struct) (ref.null struct) (ref.null i31) (ref.null i31))
+  (elem (;1;) externref)
+  (elem (;2;) anyref (ref.null array) (ref.null struct) (ref.null array) (ref.null array) (ref.null none))
+  (data (;0;) "")
+)

@@ -1,0 +1,10 @@
+(module
+  (import "1" "" (memory (;0;) i64 65 42690528104934 shared))
+  (global (;0;) exnref ref.null exn)
+  (global (;1;) f32 f32.const 0x1.79620cp+77 (;=222767600000000000000000;))
+  (global (;2;) f64 f64.const 0x1.66a0b5cea9772p+276 (;=170091557799443530000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (memory 0))
+  (export ")" (global 0))
+  (elem (;0;) eqref)
+  (data (;0;) (i64.const 121) "")
+)

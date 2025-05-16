@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 500 arrayref ref.null array)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) f32 f32.const 0x1.35a926p+72 (;=5712232300000000000000;))
+  (elem (;0;) nullfuncref (ref.null nofunc))
+  (data (;0;) "q\1a\c2\d7&\97")
+  (data (;1;) "\d1\a4")
+  (data (;2;) "")
+)

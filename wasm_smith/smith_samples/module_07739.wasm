@@ -1,0 +1,7 @@
+(module
+  (import "\u{13}" "" (memory (;0;) 3218))
+  (table (;0;) i64 1 130024 nullexternref ref.null noextern)
+  (elem (;0;) (table 0) (i64.const 0) nullexternref)
+  (elem (;1;) externref)
+  (elem (;2;) (table 0) (i64.const 0) nullexternref (ref.null noextern))
+)

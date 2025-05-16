@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 25 122135 eqref))
+  (import "" "" (global (;0;) f32))
+  (import "J\u{5}" "" (memory (;0;) i64 8 65165553677648))
+  (export "" (table 0))
+)

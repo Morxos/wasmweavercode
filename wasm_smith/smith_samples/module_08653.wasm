@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 0 54609 nullexternref)
+  (memory (;0;) i64 13623)
+  (global (;0;) i32 i32.const -1255590028)
+  (global (;1;) (mut anyref) ref.null eq)
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (elem (;0;) declare i31ref)
+)

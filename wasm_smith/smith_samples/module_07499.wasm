@@ -1,0 +1,5 @@
+(module
+  (import "" "" (memory (;0;) i64 0 193209919107242))
+  (table (;0;) i64 48 707903 externref ref.null noextern)
+  (export "\u{7}" (memory 0))
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 178 nullref)
+  (memory (;0;) 107 3425 shared)
+  (global (;0;) (mut f32) f32.const 0x1.b6d752p-102 (;=0.00000000000000000000000000000033807088;))
+)

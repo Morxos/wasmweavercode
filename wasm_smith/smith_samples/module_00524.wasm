@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 1518 121795 nullfuncref))
+  (export "" (table 0))
+  (export "1" (table 0))
+  (elem (;0;) (table 0) (i32.const 5) nullfuncref)
+)

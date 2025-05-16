@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 4 funcref))
+  (elem (;0;) arrayref (ref.null array) (ref.null none) (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "3")
+  (data (;2;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 18 162923 exnref ref.null exn)
+  (memory (;0;) 3 2981 shared)
+  (global (;0;) (mut i32) i32.const 760926067)
+  (global (;1;) f64 f64.const -0x1.ed7d9140a810ap-256 (;=-0.000000000000000000000000000000000000000000000000000000000000000000000000000016647918429120833;))
+  (elem (;0;) (table 0) (i32.const 0) exnref (ref.null exn) (ref.null exn))
+  (elem (;1;) declare nullfuncref)
+)

@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 6717 281272 arrayref))
+  (memory (;0;) 1254 60850 shared)
+  (data (;0;) "")
+  (data (;1;) "")
+)

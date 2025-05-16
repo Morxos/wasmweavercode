@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 3926 nullref ref.null none)
+  (global (;0;) (mut i64) i64.const 530043988546786472)
+  (export "" (global 0))
+)

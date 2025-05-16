@@ -1,0 +1,8 @@
+(module
+  (import " \u{26e}" "" (table (;0;) 2045 externref))
+  (global (;0;) i32 i32.const 1490216245)
+  (global (;1;) (mut f32) f32.const -0x1.db1468p+48 (;=-522355670000000;))
+  (export "\u{1d}\u{1b4}]" (global 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+)

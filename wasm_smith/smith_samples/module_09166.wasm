@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (table (;0;) i64 0 nullref ref.null none)
+  (memory (;0;) i64 7793)
+  (export "R" (table 0))
+  (elem (;0;) declare anyref (ref.null i31) (ref.null i31))
+  (elem (;1;) exnref (ref.null exn))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

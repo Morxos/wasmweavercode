@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 174 44486)
+  (export "|" (memory 0))
+  (export ")8Z" (memory 0))
+  (elem (;0;) i31ref)
+  (elem (;1;) declare anyref)
+)

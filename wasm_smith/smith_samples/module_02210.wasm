@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 53)
+  (elem (;0;) declare externref)
+  (elem (;1;) declare anyref)
+)

@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "\u{6}" "" (global (;1;) f64))
+  (table (;0;) i64 426 102723 arrayref ref.null array)
+  (memory (;0;) 1139)
+  (elem (;0;) func)
+  (data (;0;) "")
+  (data (;1;) (i32.const 36188932) "\d8")
+  (data (;2;) (global.get 0) "")
+)

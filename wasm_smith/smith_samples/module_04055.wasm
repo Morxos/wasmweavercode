@@ -1,0 +1,4 @@
+(module
+  (import "\u{18}\u{18}\u{12}" "" (memory (;0;) i64 6504 205312740765363))
+  (table (;0;) i64 8 externref)
+)

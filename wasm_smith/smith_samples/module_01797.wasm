@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 263 exnref))
+  (import "\u{0}\u{1d}" "" (memory (;0;) 1478 6758))
+  (import "" "" (global (;0;) (mut i32)))
+  (global (;1;) i64 i64.const 8855225414705282034 i64.const -4772444620770773014 i64.const 5795425953571048918 i64.const 8364532990010825432 i64.const 2855572559692282088 i64.const -2824408981889708435 i64.const 7474700385850285352 i64.const -6485793330185506849 i64.const -4502993333160363749 i64.const -8137601283920267993 i64.mul i64.mul i64.add i64.add i64.add i64.sub i64.mul i64.mul i64.mul i64.const 2653636123277870242 i64.add)
+  (export "," (table 0))
+  (data (;0;) (i32.const 52850880) "\e6")
+)

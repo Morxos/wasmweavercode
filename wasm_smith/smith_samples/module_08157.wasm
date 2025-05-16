@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 4404 exnref)
+  (export "2\u{11}" (table 0))
+  (export "" (table 0))
+  (export "O" (table 0))
+  (export "a" (table 0))
+  (export "\u{5cb}" (table 0))
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null struct))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "\u{b}w+D\u{5}" "" (table (;0;) 0 616358 structref))
+  (elem (;0;) declare i31ref (ref.null i31))
+  (elem (;1;) declare exnref)
+  (elem (;2;) declare func)
+  (data (;0;) "F")
+)

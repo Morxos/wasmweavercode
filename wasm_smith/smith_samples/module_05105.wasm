@@ -1,0 +1,6 @@
+(module
+  (import "\u{9}k" "" (table (;0;) i64 5706 nullexternref))
+  (import "i" "" (global (;0;) i64))
+  (import "g\u{1}" "" (memory (;0;) i64 2204 182446053616916 shared))
+  (data (;0;) (global.get 0) "")
+)

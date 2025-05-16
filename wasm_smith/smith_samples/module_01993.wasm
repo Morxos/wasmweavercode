@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 5163 i31ref)
+  (memory (;0;) i64 1 210508391654041 shared)
+  (global (;0;) f32 f32.const -0x1.766eap-50 (;=-0.0000000000000012990724;))
+  (global (;1;) (mut i32) i32.const 983507679)
+  (elem (;0;) (table 0) (i64.const 0) i31ref)
+  (data (;0;) "\8e")
+  (data (;1;) (i64.const 4470) "")
+)

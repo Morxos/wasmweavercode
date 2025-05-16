@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "uU" "" (global (;1;) (mut nullexternref)))
+  (memory (;0;) 0 10947 shared)
+  (export "" (global 1))
+  (export "1" (memory 0))
+  (data (;0;) "M")
+  (data (;1;) "")
+  (data (;2;) "\06")
+)

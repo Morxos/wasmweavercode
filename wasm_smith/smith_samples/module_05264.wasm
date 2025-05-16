@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2722 exnref ref.null exn)
+  (global (;0;) i32 i32.const -202974160)
+  (export "" (table 0))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) (table 0) (i64.const 124) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;2;) structref)
+  (data (;0;) "#\c8")
+)

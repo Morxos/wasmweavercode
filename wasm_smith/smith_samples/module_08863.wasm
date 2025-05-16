@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 2145 544681 externref ref.null noextern)
+  (memory (;0;) i64 11503 201307444978415 shared)
+  (elem (;0;) (table 0) (i64.const 0) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+)

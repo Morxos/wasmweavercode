@@ -1,0 +1,11 @@
+(module
+  (import "{\u{b}" "" (table (;0;) i64 494 765888 nullref))
+  (import "q" "" (memory (;0;) i64 0))
+  (import "E\u{3a2}." "" (global (;0;) i64))
+  (import "M" "" (global (;1;) (mut eqref)))
+  (import "R\u{5c}" "" (global (;2;) (mut i32)))
+  (global (;3;) (mut f32) f32.const -0x1.46b1fcp+97 (;=-202214570000000000000000000000;))
+  (global (;4;) i32 i32.const -547023756)
+  (global (;5;) (mut f32) f32.const 0x1.78f698p-101 (;=0.00000000000000000000000000000058080386;))
+  (export "\u{17}" (global 3))
+)

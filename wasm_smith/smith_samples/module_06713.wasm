@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut i32) i32.const 953957327)
+  (export "1" (global 0))
+  (export "=" (global 0))
+  (export "" (global 0))
+)

@@ -1,0 +1,12 @@
+(module
+  (import "2/\u{10}\u{a}\u{13e}" "" (memory (;0;) 49))
+  (import "o" "" (table (;0;) 0 704057 nullfuncref))
+  (import "L4" "" (global (;0;) (mut f32)))
+  (global (;1;) i64 i64.const 4326088413812821279)
+  (global (;2;) (mut i64) i64.const 6477698016653665420)
+  (global (;3;) (mut i32) i32.const 513246989 i32.const 1629794537 i32.const -571598230 i32.const 1882765401 i32.const 346484018 i32.const 171009772 i32.const -1050069513 i32.const -1416812534 i32.mul i32.add i32.mul i32.add i32.mul i32.const -1130917828 i32.mul i32.add i32.const -532761862 i32.sub i32.mul)
+  (global (;4;) eqref ref.null struct)
+  (elem (;0;) eqref (global.get 4))
+  (data (;0;) (i32.const 271666) "")
+  (data (;1;) "\85")
+)

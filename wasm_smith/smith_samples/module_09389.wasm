@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 3876)
+  (export "W" (memory 0))
+  (elem (;0;) externref)
+  (data (;0;) "F")
+)

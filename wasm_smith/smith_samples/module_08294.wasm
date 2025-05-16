@@ -1,0 +1,5 @@
+(module
+  (import "7" "" (table (;0;) i64 81 669348 exnref))
+  (memory (;0;) i64 2734 248823231702100)
+  (export "" (memory 0))
+)

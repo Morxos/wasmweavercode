@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 3995 583021 i31ref)
+  (global (;0;) (mut externref) ref.null noextern)
+  (export "" (table 0))
+  (data (;0;) "\ff")
+)

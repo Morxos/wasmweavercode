@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 0 nullfuncref)
+  (global (;0;) (mut nullref) ref.null none)
+  (global (;1;) (mut i31ref) ref.null i31)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "O")
+  (data (;4;) "\d0")
+)

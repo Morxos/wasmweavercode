@@ -1,0 +1,10 @@
+(module
+  (import "\u{2}BY8" "" (global (;0;) i32))
+  (table (;0;) 74 nullref ref.null none)
+  (memory (;0;) 8116 27126 shared)
+  (elem (;0;) structref (ref.null none))
+  (elem (;1;) funcref (ref.null func))
+  (elem (;2;) declare eqref)
+  (data (;0;) (global.get 0) "")
+  (data (;1;) (global.get 0) "\99\ad")
+)

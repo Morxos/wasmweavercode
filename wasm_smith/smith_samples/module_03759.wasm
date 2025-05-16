@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 1235 62575 shared)
+  (export "" (memory 0))
+  (elem (;0;) structref (ref.null struct) (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "X\u{19}\u{1d}3ib" "" (global (;0;) (mut exnref)))
+  (global (;1;) i64 i64.const -864822739344851211 i64.const -1978976152330843606 i64.const 8440292355826267531 i64.const 4726978181815354189 i64.const -4968787189627574527 i64.sub i64.const 8102500447702511654 i64.add i64.mul i64.const 745631352496185174 i64.mul i64.mul i64.const 6523637125563130361 i64.sub i64.add)
+  (export "" (global 0))
+)

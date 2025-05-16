@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 0 899802 nullfuncref ref.null nofunc)
+  (global (;0;) f32 f32.const 0x1.ebaa06p+126 (;=163383440000000000000000000000000000000;))
+)

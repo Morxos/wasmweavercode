@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 50 55673 shared)
+  (global (;0;) i64 i64.const -1517316286569089510)
+  (global (;1;) nullexternref ref.null noextern)
+  (export "" (global 1))
+  (elem (;0;) func)
+)

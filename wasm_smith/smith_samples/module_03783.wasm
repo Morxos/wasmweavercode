@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (table (;0;) 368 i31ref)
+  (memory (;0;) 2 37768)
+  (data (;0;) ";\87")
+  (data (;1;) "\17l\1c>\82")
+  (data (;2;) (i32.const 3) " ")
+  (data (;3;) "Z\db\99")
+  (data (;4;) "")
+  (data (;5;) (i32.const 142) "2")
+)

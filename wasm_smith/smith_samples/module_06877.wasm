@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 2143 311055 structref ref.null struct)
+  (memory (;0;) 0)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

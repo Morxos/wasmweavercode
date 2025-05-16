@@ -1,0 +1,4 @@
+(module
+  (import "" "" (memory (;0;) i64 63 158731932781452))
+  (table (;0;) 481 467305 structref ref.null struct)
+)

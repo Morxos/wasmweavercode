@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 846 nullfuncref)
+  (memory (;0;) i64 1916)
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null struct) (ref.null struct))
+  (data (;0;) "\b7")
+  (data (;1;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (global (;0;) f32 f32.const 0x1.63401cp+1 (;=2.775394;))
+  (export "V@\u{c}*" (global 0))
+  (export "\u{7f}" (global 0))
+)

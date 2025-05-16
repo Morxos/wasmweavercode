@@ -1,0 +1,10 @@
+(module
+  (rec
+    (type (;0;) (struct (field (mut i8)) (field f32)))
+    (type (;1;) (sub (struct (field i8) (field (mut i64)) (field i64) (field i8) (field i8) (field i8) (field (mut f32)) (field f64) (field (mut i16)) (field (ref null 0)) (field i16) (field i32) (field i8) (field i8) (field (mut i8)))))
+    (type (;2;) (struct (field f64) (field (mut i16))))
+  )
+  (import "" "" (memory (;0;) i64 0 27464338549355))
+  (export "" (memory 0))
+  (data (;0;) "")
+)

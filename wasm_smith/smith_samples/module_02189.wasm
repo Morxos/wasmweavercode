@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 876 nullfuncref ref.null nofunc)
+  (global (;0;) (mut i64) i64.const -3707918533713223013 i64.const -1144734818430349961 i64.add)
+  (global (;1;) i64 i64.const -2796125767693833690)
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31) (ref.null i31))
+  (elem (;1;) anyref (ref.null none))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 400 152001 exnref))
+  (import "M" "" (global (;0;) (mut f32)))
+  (global (;1;) i32 i32.const 698007378 i32.const 940521549 i32.const -1395988702 i32.const 1839456386 i32.const 3174187 i32.const 732443176 i32.const 151892700 i32.sub i32.mul i32.add i32.add i32.const 489531984 i32.add i32.sub i32.add)
+  (global (;2;) i32 global.get 1)
+  (export "\u{8}" (global 1))
+  (data (;0;) "v")
+)

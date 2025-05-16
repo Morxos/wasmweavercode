@@ -1,0 +1,12 @@
+(module
+  (import "\u{6}:3" "" (global (;0;) i32))
+  (import "%k" "" (table (;0;) 9690 998624 funcref))
+  (memory (;0;) 0 9026)
+  (global (;1;) i64 i64.const -2859121626925951702 i64.const -3107287828522281513 i64.const -9190709393909378719 i64.const -8926384152447498334 i64.const -3610511051850479186 i64.const -5349171307374472619 i64.sub i64.const 7393241096343529660 i64.sub i64.const -654225821453001523 i64.add i64.sub i64.const -5595940060948529650 i64.add i64.sub i64.add i64.sub)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (global.get 0) funcref)
+  (elem (;1;) declare exnref (ref.null exn))
+  (elem (;2;) i31ref (ref.null i31))
+  (data (;0;) "\a6")
+  (data (;1;) "")
+)

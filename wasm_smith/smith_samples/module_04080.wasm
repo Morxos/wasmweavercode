@@ -1,0 +1,4 @@
+(module
+  (global (;0;) structref ref.null struct)
+  (data (;0;) "\b1")
+)

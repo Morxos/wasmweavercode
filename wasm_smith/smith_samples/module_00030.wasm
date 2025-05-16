@@ -1,0 +1,9 @@
+(module
+  (import "#" "" (global (;0;) f32))
+  (import "" "" (global (;1;) f64))
+  (table (;0;) 7 363743 arrayref ref.null none)
+  (global (;2;) (mut i32) i32.const -360297711)
+  (global (;3;) (mut i64) i64.const -1457084374435880149)
+  (global (;4;) (mut f64) global.get 1)
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+)

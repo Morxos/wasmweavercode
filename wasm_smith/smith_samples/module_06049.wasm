@@ -1,0 +1,8 @@
+(module
+  (import "N" "" (memory (;0;) 0))
+  (import "%" "" (table (;0;) i64 15 535018 nullref))
+  (import "\u{6159}" "" (global (;0;) (mut nullref)))
+  (import "k0\u{22}\u{0}" "" (global (;1;) (mut f32)))
+  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "\a1\119\f6")
+)

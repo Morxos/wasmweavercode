@@ -1,0 +1,10 @@
+(module
+  (import "*" "" (memory (;0;) 4499))
+  (import "" "" (global (;0;) i32))
+  (import "" "" (table (;0;) 819 491390 nullref))
+  (import "\u{16}" "" (global (;1;) (mut i64)))
+  (global (;2;) (mut f32) f32.const -0x1.dbc616p-114 (;=-0.0000000000000000000000000000000000894831;))
+  (elem (;0;) structref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "\89")
+)

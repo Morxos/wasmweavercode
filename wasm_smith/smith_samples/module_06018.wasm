@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 1226 nullref ref.null none)
+  (memory (;0;) i64 277)
+  (export "{\u{1d}\u{17}F" (table 0))
+  (data (;0;) "")
+)

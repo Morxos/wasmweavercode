@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 3339)
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) exnref)
+)

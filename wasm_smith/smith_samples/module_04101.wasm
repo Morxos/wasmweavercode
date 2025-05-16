@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 3 nullfuncref ref.null nofunc)
+  (global (;0;) (mut structref) ref.null struct)
+  (global (;1;) (mut f32) f32.const -0x1.5c9e72p-117 (;=-0.0000000000000000000000000000000000081959916;))
+  (global (;2;) (mut f32) f32.const 0x1.23e196p+91 (;=2822901700000000000000000000;))
+  (global (;3;) i64 i64.const 3329281308266815971 i64.const 4575397959255498073 i64.const -3192994933576258176 i64.const 7877846156711927645 i64.const 3252609372060790980 i64.const 3909654628246330233 i64.const 5749401798223880244 i64.const 6642588492850795366 i64.const -2487321324512106865 i64.const 5470694499131334862 i64.mul i64.sub i64.const 3541992621584270321 i64.sub i64.sub i64.mul i64.add i64.mul i64.add i64.add i64.sub)
+  (export "]" (table 0))
+  (elem (;0;) i31ref)
+  (elem (;1;) (table 0) (i64.const 2) nullfuncref (ref.null nofunc))
+  (elem (;2;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;3;) declare i31ref)
+  (data (;0;) "")
+)

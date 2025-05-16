@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 64 15626 exnref)
+  (export "*" (table 0))
+  (export "" (table 0))
+  (data (;0;) "")
+)

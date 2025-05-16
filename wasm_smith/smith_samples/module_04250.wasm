@@ -1,0 +1,8 @@
+(module
+  (import "\u{0}\u{c}\u{12}R\u{2}" "" (table (;0;) i64 4504 nullexternref))
+  (global (;0;) funcref ref.null func)
+  (export "*" (global 0))
+  (elem (;0;) anyref (ref.null eq) (ref.null struct) (ref.null array))
+  (data (;0;) "\a3\1f")
+  (data (;1;) "\cd\15\15")
+)

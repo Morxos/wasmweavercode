@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 811 13388 nullexternref)
+  (memory (;0;) 5423 21047)
+  (global (;0;) f32 f32.const -0x1.3d9f78p+87 (;=-191991280000000000000000000;))
+  (export "" (memory 0))
+)

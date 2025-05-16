@@ -1,0 +1,5 @@
+(module
+  (import "" "" (memory (;0;) i64 5))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+)

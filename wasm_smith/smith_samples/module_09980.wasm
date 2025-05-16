@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 11321 20233 shared))
+  (import "\u{16}" "" (global (;0;) (mut arrayref)))
+  (import "" "" (global (;1;) (mut f32)))
+  (import "P" "" (table (;0;) i64 589 nullexternref))
+  (data (;0;) (i32.const 431056945) "\8c7")
+)

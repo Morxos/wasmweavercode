@@ -1,0 +1,10 @@
+(module
+  (import "x" "" (memory (;0;) i64 1 21974760469553))
+  (table (;0;) i64 1734 550520 funcref)
+  (export "`" (table 0))
+  (export "" (memory 0))
+  (export "2" (memory 0))
+  (data (;0;) (i64.const 66) "2u\ad")
+  (data (;1;) "\f1")
+  (data (;2;) (i64.const 0) "")
+)

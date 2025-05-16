@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 6072 nullexternref))
+  (global (;0;) (mut i32) i32.const 288773781 i32.const -405167385 i32.const 537893643 i32.const -1331797645 i32.const -641413583 i32.add i32.mul i32.const 127372864 i32.mul i32.const -85500951 i32.const -1466680810 i32.mul i32.mul i32.add i32.mul)
+  (export "f" (global 0))
+  (export "" (table 0))
+  (export "9" (table 0))
+  (elem (;0;) (table 0) (i32.const 2358) nullexternref)
+  (elem (;1;) declare eqref (ref.null eq))
+)

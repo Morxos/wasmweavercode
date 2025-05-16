@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 1 i31ref))
+  (import "N\u{414}" "" (global (;0;) f64))
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
+  (elem (;1;) declare exnref)
+  (data (;0;) "*\84\bc")
+)

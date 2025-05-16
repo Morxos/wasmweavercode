@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 378697 nullref ref.null none)
+  (export "" (table 0))
+  (data (;0;) "\90\ea\b4\a0")
+)

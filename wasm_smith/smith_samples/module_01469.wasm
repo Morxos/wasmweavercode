@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 5536 51106)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) i64 i64.const -4772223402236187013)
+  (global (;2;) i64 i64.const 2996847504412141904)
+  (elem (;0;) eqref)
+  (data (;0;) (i32.const 46184726) "\8a")
+)

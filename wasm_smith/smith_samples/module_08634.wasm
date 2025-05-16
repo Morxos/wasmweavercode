@@ -1,0 +1,7 @@
+(module
+  (global (;0;) (mut i32) i32.const 525219224)
+  (global (;1;) i64 i64.const 9144144188272439116)
+  (elem (;0;) declare func)
+  (data (;0;) "5#")
+  (data (;1;) "\00")
+)

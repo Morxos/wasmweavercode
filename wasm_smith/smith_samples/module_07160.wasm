@@ -1,0 +1,6 @@
+(module
+  (import "R" "" (table (;0;) 17 408653 externref))
+  (memory (;0;) 714)
+  (elem (;0;) declare nullref)
+  (elem (;1;) declare nullexternref (ref.null noextern) (ref.null noextern))
+)

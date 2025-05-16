@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 512 914150 nullref)
+  (memory (;0;) 104 57428)
+  (global (;0;) (mut exnref) ref.null exn)
+  (export "\u{0}.\u{f}" (global 0))
+  (elem (;0;) (table 0) (i64.const 3) nullref)
+  (elem (;1;) nullref)
+  (elem (;2;) declare nullref)
+  (elem (;3;) (table 0) (i64.const 17) nullref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

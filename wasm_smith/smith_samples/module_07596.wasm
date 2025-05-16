@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 584 i31ref ref.null none)
+  (memory (;0;) 8)
+  (export "" (memory 0))
+  (elem (;0;) funcref (ref.null func) (ref.null nofunc) (ref.null func))
+  (elem (;1;) i31ref)
+  (data (;0;) (i32.const 0) "\14\16")
+)

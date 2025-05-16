@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 3 195431163455022 shared)
+  (export "" (memory 0))
+  (export "S\u{26b}\u{14}\u{3}" (memory 0))
+  (export "uK\u{1f}" (memory 0))
+  (elem (;0;) anyref)
+  (elem (;1;) declare i31ref (ref.null i31) (ref.null none) (ref.null i31) (ref.null none) (ref.null i31))
+  (data (;0;) "")
+  (data (;1;) "")
+)

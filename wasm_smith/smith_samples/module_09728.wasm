@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 11 nullfuncref ref.null nofunc)
+  (global (;0;) (mut f32) f32.const -0x1.42a648p+20 (;=-1321572.5;))
+  (global (;1;) f32 f32.const -0x1.a708fep+107 (;=-268130370000000000000000000000000;))
+)

@@ -1,0 +1,5 @@
+(module
+  (import "a" "" (table (;0;) 319 444355 i31ref))
+  (memory (;0;) 343 7922)
+  (elem (;0;) i31ref)
+)

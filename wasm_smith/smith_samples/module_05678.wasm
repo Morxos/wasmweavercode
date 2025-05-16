@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 2 nullfuncref ref.null nofunc)
+  (global (;0;) f64 f64.const -0x1.a92eb7eb9f503p-52 (;=-0.00000000000000036878702687358815;))
+  (data (;0;) "\e6")
+)

@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (import "" "" (table (;0;) i64 9653 930600 anyref))
+  (import "T" "" (global (;1;) (mut f64)))
+  (import "3" "" (global (;2;) (mut f32)))
+  (memory (;0;) 899 57210 shared)
+  (export "" (memory 0))
+  (export "2" (global 0))
+  (export "\u{22}B9" (table 0))
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) (table 0) (i64.const 130) i31ref (ref.null i31))
+)

@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) funcref (ref.null nofunc))
+  (data (;0;) "\1cd\be")
+  (data (;1;) "")
+)

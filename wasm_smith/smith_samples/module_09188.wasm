@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 6 758770 eqref ref.null none)
+  (memory (;0;) 7905 57905)
+  (elem (;0;) (table 0) (i32.const 4) structref (ref.null struct))
+  (elem (;1;) (table 0) (i32.const 0) i31ref)
+  (elem (;2;) (table 0) (i32.const 1) nullref (ref.null none))
+  (elem (;3;) declare nullfuncref)
+)

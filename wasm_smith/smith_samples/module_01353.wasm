@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 718754 eqref)
+  (memory (;0;) i64 1977 224597232535180 shared)
+  (data (;0;) (i64.const 3175) "\d71\c2")
+  (data (;1;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 8786 381931 externref))
+  (memory (;0;) i64 756 81284931516212)
+  (global (;0;) f32 f32.const 0x1.ad35acp+107 (;=272043940000000000000000000000000;))
+  (export "" (table 0))
+  (elem (;0;) declare arrayref)
+)

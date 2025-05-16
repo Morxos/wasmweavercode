@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 29 303115 eqref ref.null struct)
+  (global (;0;) f32 f32.const 0x1.b383f4p+51 (;=3830834300000000;))
+  (export "\u{55f}" (global 0))
+  (export "" (global 0))
+  (elem (;0;) declare arrayref)
+)

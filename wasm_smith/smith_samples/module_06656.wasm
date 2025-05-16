@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (memory (;0;) 1 29429)
+  (export "\u{9}\u{5}" (memory 0))
+  (elem (;0;) declare nullref)
+  (elem (;1;) func)
+  (elem (;2;) declare eqref)
+  (elem (;3;) arrayref)
+  (data (;0;) "")
+  (data (;1;) (i32.const 29543) "\e5\beg\bd")
+  (data (;2;) "\b8Rh]\f2\9f")
+)

@@ -1,0 +1,12 @@
+(module
+  (import "\u{73d}D" "" (global (;0;) i32))
+  (table (;0;) 1862 852807 i31ref)
+  (memory (;0;) i64 352 183982323367420)
+  (global (;1;) (mut i32) i32.const 1281526135)
+  (global (;2;) (mut f32) f32.const 0x1.483e98p+120 (;=1704343000000000000000000000000000000;))
+  (global (;3;) (mut i32) i32.const -876153692 i32.const 461388465 i32.const -1134606929 i32.const 1404345304 i32.const 176905484 i32.const -1908025787 i32.const -1111381345 i32.const 388611164 i32.const -2036359089 i32.const -143373946 i32.sub i32.mul i32.sub i32.add i32.add i32.sub i32.sub i32.const 2093039222 i32.mul i32.mul i32.mul)
+  (global (;4;) externref ref.null extern)
+  (export "" (global 4))
+  (data (;0;) (i64.const 13455) "\d4O")
+  (data (;1;) (i64.const 48181) "")
+)

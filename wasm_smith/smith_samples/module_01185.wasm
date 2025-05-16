@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) 0 eqref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "o%" "" (memory (;0;) i64 3222 103831101955152 shared))
+  (import "K" "" (global (;1;) f32))
+  (import "" "" (global (;2;) (mut i32)))
+  (export "U" (global 0))
+  (elem (;0;) nullexternref)
+  (elem (;1;) arrayref)
+)

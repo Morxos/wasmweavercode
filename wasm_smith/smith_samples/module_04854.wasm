@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) i64 280 123736091334084 shared))
+  (import "" "" (global (;0;) (mut i32)))
+  (global (;1;) (mut arrayref) ref.null array)
+  (elem (;0;) nullfuncref)
+  (data (;0;) "")
+  (data (;1;) (i64.const 49762) "")
+  (data (;2;) (i64.const 4422800) "\17\89")
+)

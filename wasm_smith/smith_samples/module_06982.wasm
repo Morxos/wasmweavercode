@@ -1,0 +1,8 @@
+(module
+  (import "z" "" (global (;0;) (mut f64)))
+  (import "\u{1};k" "" (memory (;0;) i64 2517 193774295200661))
+  (global (;1;) anyref ref.null struct)
+  (global (;2;) (mut i64) i64.const 8673074391779050929)
+  (global (;3;) (mut anyref) ref.null none)
+  (elem (;0;) declare externref (ref.null extern))
+)

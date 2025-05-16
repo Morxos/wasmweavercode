@@ -1,0 +1,5 @@
+(module
+  (global (;0;) i32 i32.const -1724175791)
+  (elem (;0;) declare structref (ref.null struct))
+  (elem (;1;) nullfuncref)
+)

@@ -1,0 +1,11 @@
+(module
+  (import "}" "" (table (;0;) 0 269940 anyref))
+  (import "3K -" "" (memory (;0;) 0 920 shared))
+  (import "U" "" (global (;0;) i64))
+  (import "" "" (global (;1;) f64))
+  (import "q" "" (global (;2;) (mut i64)))
+  (import "" "" (global (;3;) (mut funcref)))
+  (import "\u{8}" "" (global (;4;) f64))
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) nullref (ref.null none))
+)

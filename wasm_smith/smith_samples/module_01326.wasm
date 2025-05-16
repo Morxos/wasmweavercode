@@ -1,0 +1,12 @@
+(module
+  (import "" "" (table (;0;) 6930 614131 structref))
+  (import "" "" (global (;0;) f32))
+  (memory (;0;) i64 617 9800516438902)
+  (global (;1;) (mut i64) i64.const 7832674876459949674)
+  (export "\u{3f4}" (table 0))
+  (export "\u{b}\u{1a}\u{3}5\u{1f}6~;im7 a*\u{12}" (memory 0))
+  (elem (;0;) eqref)
+  (elem (;1;) (table 0) (i32.const 0) nullref)
+  (data (;0;) "")
+  (data (;1;) "\12")
+)

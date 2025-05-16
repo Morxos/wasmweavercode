@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut nullref)))
+  (table (;0;) i64 42 236097 anyref)
+  (elem (;0;) eqref (ref.null eq))
+  (elem (;1;) (table 0) (i64.const 10) nullref (ref.null none) (ref.null none))
+  (elem (;2;) (table 0) (i64.const 9) i31ref)
+  (elem (;3;) declare arrayref)
+)

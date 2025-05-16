@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 374 546462 structref)
+  (memory (;0;) 1)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 150) structref)
+  (elem (;1;) declare eqref (ref.null i31) (ref.null array))
+  (elem (;2;) (table 0) (i32.const 0) structref)
+  (data (;0;) "\df\fe")
+)

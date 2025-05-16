@@ -1,0 +1,10 @@
+(module
+  (import "\u{19b}" "" (global (;0;) i64))
+  (import "" "" (global (;1;) (mut i31ref)))
+  (import ":\u{1d}\u{0}" "" (memory (;0;) i64 8427))
+  (table (;0;) 49 arrayref ref.null array)
+  (export "\u{e}" (memory 0))
+  (export "0" (global 1))
+  (elem (;0;) (table 0) (i32.const 1) arrayref)
+  (data (;0;) "\db\d6\eb\acL\9d-i")
+)

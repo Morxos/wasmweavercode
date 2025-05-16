@@ -1,0 +1,5 @@
+(module
+  (global (;0;) f32 f32.const -0x1.e9746ap+24 (;=-32076906;))
+  (elem (;0;) nullexternref)
+  (elem (;1;) anyref (ref.null array) (ref.null i31))
+)

@@ -1,0 +1,12 @@
+(module
+  (import "$" "" (global (;0;) f64))
+  (table (;0;) 294 653189 structref ref.null struct)
+  (memory (;0;) i64 1164 240300956104295)
+  (global (;1;) (mut f32) f32.const 0x1.44d29ap-118 (;=0.000000000000000000000000000000000003818272;))
+  (global (;2;) (mut exnref) ref.null exn)
+  (global (;3;) f32 f32.const 0x1.208e54p-121 (;=0.0000000000000000000000000000000000004239949;))
+  (global (;4;) (mut nullref) ref.null none)
+  (export "t" (global 1))
+  (data (;0;) (i64.const 74328) "")
+  (data (;1;) (i64.const 74817) "")
+)

@@ -1,0 +1,6 @@
+(module
+  (import "w}5\u{17}" "" (global (;0;) (mut i32)))
+  (import "" "" (memory (;0;) 2066))
+  (export "\u{7}" (memory 0))
+  (export "B" (memory 0))
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 10 structref ref.null struct)
+  (global (;0;) i32 i32.const -805089483 i32.const -295185271 i32.const 1258836540 i32.const -1401999848 i32.const -1811151109 i32.const 893035141 i32.sub i32.mul i32.mul i32.const 1703995126 i32.sub i32.mul i32.const -2007195835 i32.const -1664944474 i32.add i32.add i32.add)
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) arrayref (ref.null none) (ref.null array))
+  (elem (;2;) declare arrayref (ref.null none) (ref.null array) (ref.null none))
+)

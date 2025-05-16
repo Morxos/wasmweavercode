@@ -1,0 +1,10 @@
+(module
+  (import "V" "" (table (;0;) i64 0 682735 nullref))
+  (memory (;0;) i64 1382 23932708279012 shared)
+  (global (;0;) (mut i64) i64.const 97867622409352340)
+  (global (;1;) i64 i64.const -4358295236765814091 i64.const 4550711821651194960 i64.const 2555342043461945653 i64.const 5221350120064714763 i64.const -8183639772677814357 i64.const -6547230905080990052 i64.const 3353053435458877401 i64.const -4023319704398745685 i64.mul i64.mul i64.add i64.add i64.sub i64.const 5902451721458642845 i64.add i64.mul i64.const -4186936541599766156 i64.mul i64.mul)
+  (global (;2;) i32 i32.const -1442290538 i32.const -784610106 i32.const -1952519903 i32.const -1616893626 i32.const -569870071 i32.const 2098869782 i32.const -450812926 i32.const 1896494640 i32.sub i32.mul i32.add i32.add i32.const 1265066408 i32.sub i32.mul i32.const -457391358 i32.add i32.mul i32.sub)
+  (export "" (memory 0))
+  (export "1" (table 0))
+  (export "\u{694}" (memory 0))
+)

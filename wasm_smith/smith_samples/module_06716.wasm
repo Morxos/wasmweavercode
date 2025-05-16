@@ -1,0 +1,5 @@
+(module
+  (import "^" "" (memory (;0;) 15608 62373 shared))
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (elem (;0;) declare func)
+)

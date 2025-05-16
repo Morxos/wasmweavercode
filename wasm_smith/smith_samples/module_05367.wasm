@@ -1,0 +1,5 @@
+(module
+  (import "iN'" "" (memory (;0;) i64 1171 129013549958535))
+  (import "9" "" (table (;0;) 0 exnref))
+  (elem (;0;) declare arrayref (ref.null none))
+)

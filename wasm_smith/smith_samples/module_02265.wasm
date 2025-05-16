@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 eqref ref.null eq)
+  (memory (;0;) i64 2 9132085797905)
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "\9dU\01\e0R")
+)

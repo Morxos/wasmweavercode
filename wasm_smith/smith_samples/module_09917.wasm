@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 201 791678 structref)
+  (memory (;0;) 94 40394)
+  (elem (;0;) declare anyref (ref.null struct) (ref.null struct) (ref.null array))
+  (elem (;1;) (table 0) (i64.const 73) structref)
+  (data (;0;) "")
+  (data (;1;) "")
+)

@@ -1,0 +1,6 @@
+(module
+  (import "\u{eaee}\u{16}" "" (table (;0;) i64 2527 494410 externref))
+  (import "" "" (memory (;0;) 7569))
+  (import "+\u{1d}" "" (global (;0;) i32))
+  (export "" (table 0))
+)

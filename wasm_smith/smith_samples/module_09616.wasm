@@ -1,0 +1,6 @@
+(module
+  (import "B" "" (table (;0;) 9257 947528 externref))
+  (memory (;0;) 10 20078)
+  (export "" (table 0))
+  (elem (;0;) declare eqref)
+)

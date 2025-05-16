@@ -1,0 +1,5 @@
+(module
+  (import "\u{19},yG}\u{10}" "" (table (;0;) i64 79 463568 arrayref))
+  (import "\u{1}" "" (global (;0;) f32))
+  (data (;0;) "")
+)

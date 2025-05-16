@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) i64 3 nullfuncref))
+  (export "" (table 0))
+)

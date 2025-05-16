@@ -1,0 +1,13 @@
+(module
+  (import "pR\u{22}" "" (table (;0;) 457 arrayref))
+  (global (;0;) (mut i64) i64.const -222287218989542784)
+  (export "" (global 0))
+  (export "1" (table 0))
+  (elem (;0;) anyref (ref.null eq) (ref.null any))
+  (elem (;1;) (table 0) (i32.const 277) nullref (ref.null none) (ref.null none))
+  (elem (;2;) declare i31ref (ref.null i31))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

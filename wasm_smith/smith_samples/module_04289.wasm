@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) funcref))
+  (memory (;0;) i64 2513)
+  (global (;1;) (mut nullexternref) ref.null noextern)
+  (global (;2;) (mut f32) f32.const 0x1.93a1bp+32 (;=6771814400;))
+  (global (;3;) funcref ref.null func)
+  (global (;4;) (mut exnref) ref.null exn)
+  (export "\u{6e8}" (memory 0))
+  (export "+?`{tDKq\u{7f}\u{13}" (global 1))
+  (elem (;0;) eqref)
+)

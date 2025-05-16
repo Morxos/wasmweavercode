@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) (mut f32) f32.const 0x1.b77442p+39 (;=943720560000;))
+  (export "\u{4}" (global 1))
+  (export "T" (global 0))
+)

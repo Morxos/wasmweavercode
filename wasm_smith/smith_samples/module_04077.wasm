@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 927)
+  (export "" (memory 0))
+  (elem (;0;) declare func)
+  (elem (;1;) nullfuncref)
+  (data (;0;) "\f6HH\be\b8Z\97\00")
+)

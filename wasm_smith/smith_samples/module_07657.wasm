@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 320 nullref ref.null none)
+  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "\fa")
+  (data (;2;) "")
+)

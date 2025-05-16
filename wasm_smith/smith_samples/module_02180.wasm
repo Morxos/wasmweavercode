@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 6334)
+  (elem (;0;) anyref)
+  (elem (;1;) declare func)
+)

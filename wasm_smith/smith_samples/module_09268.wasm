@@ -1,0 +1,7 @@
+(module
+  (import "\u{d}" "" (memory (;0;) i64 1254))
+  (import "@" "" (table (;0;) i64 2810 anyref))
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i64.const 3) eqref (ref.null array) (ref.null none))
+  (elem (;1;) (table 0) (i64.const 0) nullref)
+)

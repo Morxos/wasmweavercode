@@ -1,0 +1,10 @@
+(module
+  (import "H" "" (memory (;0;) i64 227 263418023414624 shared))
+  (global (;0;) (mut exnref) ref.null exn)
+  (export "" (memory 0))
+  (export "+" (memory 0))
+  (export "ox" (global 0))
+  (export "3" (global 0))
+  (export "4" (memory 0))
+  (elem (;0;) arrayref (ref.null none))
+)

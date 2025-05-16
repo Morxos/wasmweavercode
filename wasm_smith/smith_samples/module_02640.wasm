@@ -1,0 +1,4 @@
+(module
+  (import "[" "" (global (;0;) (mut i32)))
+  (export "\u{7f}I\u{7f}s" (global 0))
+)

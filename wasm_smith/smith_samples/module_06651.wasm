@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 914132 structref)
+  (export "=~" (table 0))
+  (elem (;0;) declare exnref (ref.null exn))
+  (data (;0;) "\13\b9")
+)

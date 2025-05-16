@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 808 958805 nullexternref ref.null noextern)
+  (memory (;0;) i64 0)
+  (global (;0;) (mut f32) f32.const -0x1.87abdap+48 (;=-430647140000000;))
+  (data (;0;) "")
+  (data (;1;) "0\aa")
+)

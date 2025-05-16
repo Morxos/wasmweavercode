@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 1076 692601 anyref ref.null any)
+  (memory (;0;) 2146 47633)
+  (global (;0;) (mut i64) i64.const 4121782770065005674)
+  (elem (;0;) (table 0) (i32.const 3) nullref (ref.null none))
+  (elem (;1;) (table 0) (i32.const 741) eqref)
+  (elem (;2;) nullref)
+  (data (;0;) (i32.const 4645725) "")
+)

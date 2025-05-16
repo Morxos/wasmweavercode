@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 350)
+  (global (;0;) (mut f32) f32.const -0x1.db9fcp+103 (;=-18841409000000000000000000000000;))
+  (export "" (global 0))
+  (data (;0;) "")
+)

@@ -1,0 +1,10 @@
+(module
+  (global (;0;) (mut f64) f64.const 0x1.ae8efa031f3b8p+46 (;=118351019952078.88;))
+  (global (;1;) f32 f32.const 0x1.63d35ep-26 (;=0.000000020711779;))
+  (export "" (global 1))
+  (elem (;0;) nullexternref)
+  (elem (;1;) i31ref (ref.null i31))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\03")
+)

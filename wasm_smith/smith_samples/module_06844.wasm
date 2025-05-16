@@ -1,0 +1,7 @@
+(module
+  (import "N" "" (global (;0;) (mut exnref)))
+  (table (;0;) i64 17 420231 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 282)
+  (elem (;0;) (table 0) (i64.const 4) nullfuncref)
+  (elem (;1;) (table 0) (i64.const 12) nullfuncref (ref.null nofunc) (ref.null nofunc))
+)

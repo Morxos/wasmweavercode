@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 2704 132392417466021))
+  (global (;0;) nullexternref ref.null noextern)
+  (global (;1;) (mut i64) i64.const -1509792518219821341)
+  (export "C\u{1e}" (memory 0))
+  (data (;0;) "")
+  (data (;1;) (i64.const 89422139) "")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "?" "" (global (;0;) i64))
+  (import "]" "" (table (;0;) 1255 829224 exnref))
+)

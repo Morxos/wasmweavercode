@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare structref (ref.null struct))
+  (elem (;1;) declare i31ref (ref.null i31))
+)

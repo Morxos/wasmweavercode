@@ -1,0 +1,8 @@
+(module
+  (import "\u{1}" "" (memory (;0;) i64 11350))
+  (table (;0;) 6767 externref ref.null extern)
+  (global (;0;) f32 f32.const -0x1.d52448p-91 (;=-0.00000000000000000000000000074017513;))
+  (global (;1;) (mut i32) i32.const 135487468)
+  (data (;0;) (i64.const 7589) "\9a")
+  (data (;1;) (i64.const 16051) "")
+)

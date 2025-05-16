@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) i64 1 funcref))
+  (import "I\u{36e}\u{1e}~" "" (global (;0;) (mut i64)))
+  (global (;1;) i64 i64.const -3186585531092731279)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "\dc\e7")
+)

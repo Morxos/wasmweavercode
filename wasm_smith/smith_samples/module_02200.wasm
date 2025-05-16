@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 2 851764 structref)
+  (export "" (table 0))
+  (elem (;0;) i31ref (ref.null none) (ref.null none) (ref.null i31) (ref.null none) (ref.null none) (ref.null i31) (ref.null i31) (ref.null i31) (ref.null i31))
+  (elem (;1;) (table 0) (i64.const 0) structref)
+  (elem (;2;) declare anyref)
+)

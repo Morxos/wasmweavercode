@@ -1,0 +1,11 @@
+(module
+  (import "Y" "" (global (;0;) externref))
+  (import "c\u{0}\u{c}.K;/K" "" (global (;1;) i64))
+  (import "" "" (table (;0;) i64 102 907769 exnref))
+  (import "" "" (memory (;0;) 1102 56686))
+  (import "]\u{3}\u{7}\u{7}" "" (global (;2;) i64))
+  (import "" "" (global (;3;) (mut i64)))
+  (import "" "" (global (;4;) (mut i64)))
+  (global (;5;) (mut f32) f32.const -0x1.720d62p-24 (;=-0.00000008615951;))
+  (global (;6;) (mut f32) f32.const -0x1.ab6a4p-67 (;=-0.000000000000000000011313582;))
+)

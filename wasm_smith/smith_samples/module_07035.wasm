@@ -1,0 +1,9 @@
+(module
+  (global (;0;) i64 i64.const -5733992030305326991 i64.const 6150248524294669274 i64.const 2227971949844459949 i64.const 5419417816046841796 i64.const 4766671128141907727 i64.const 3929462827053088287 i64.const 7857574984506632170 i64.const 348096559972452503 i64.const 3254869686670988821 i64.const -1628041909674058199 i64.mul i64.add i64.mul i64.sub i64.sub i64.mul i64.const -361704410031562338 i64.add i64.mul i64.add i64.mul)
+  (global (;1;) (mut i32) i32.const -1479815775)
+  (export "" (global 0))
+  (export "\u{14}a" (global 0))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) declare structref (ref.null none) (ref.null struct))
+  (data (;0;) "ian\96\ff")
+)

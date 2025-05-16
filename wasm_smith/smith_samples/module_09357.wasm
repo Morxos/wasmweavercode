@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 172 219321862354587)
+  (global (;0;) (mut f32) f32.const -0x1.270d3cp-60 (;=-0.000000000000000000999674;))
+  (export "2" (global 0))
+  (export "" (memory 0))
+  (export "22" (global 0))
+  (elem (;0;) declare arrayref (ref.null array) (ref.null none))
+)

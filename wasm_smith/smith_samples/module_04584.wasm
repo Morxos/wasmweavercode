@@ -1,0 +1,8 @@
+(module
+  (type (;0;) (struct (field i8) (field f64) (field (mut i8)) (field i8) (field (mut i16)) (field (mut i64)) (field (mut i16)) (field i8) (field (mut i16)) (field (mut i16)) (field i16)))
+  (import "i" "" (memory (;0;) i64 4278 143732306941940))
+  (table (;0;) i64 1342 externref ref.null extern)
+  (export "\u{e}\u{1a}n\u{11}" (memory 0))
+  (export "" (memory 0))
+  (elem (;0;) nullref)
+)

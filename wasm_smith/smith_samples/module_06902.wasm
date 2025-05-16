@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 6 889102 anyref ref.null eq)
+  (memory (;0;) 3 22921 shared)
+  (data (;0;) (i32.const 35958) "")
+)

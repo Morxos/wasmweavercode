@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 0 658977 funcref)
+  (global (;0;) f32 f32.const -0x1.96ccbap+36 (;=-109199470000;))
+  (global (;1;) nullexternref ref.null noextern)
+  (global (;2;) f64 f64.const -0x1.f3b74ab6c003fp+184 (;=-47863282303900156000000000000000000000000000000000000000;))
+  (global (;3;) i31ref ref.null none)
+  (export "8|V" (table 0))
+  (export "\u{1c}\u{8}" (table 0))
+  (elem (;0;) declare nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "mF?\ed")
+  (data (;2;) "\e8\c75")
+)

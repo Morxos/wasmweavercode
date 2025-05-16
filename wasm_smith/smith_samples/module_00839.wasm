@@ -1,0 +1,5 @@
+(module
+  (import "P" "" (table (;0;) 5254 nullexternref))
+  (data (;0;) "")
+  (data (;1;) "")
+)

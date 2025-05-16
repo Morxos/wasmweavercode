@@ -1,0 +1,4 @@
+(module
+  (import "a/" "" (memory (;0;) i64 12))
+  (data (;0;) "\af")
+)

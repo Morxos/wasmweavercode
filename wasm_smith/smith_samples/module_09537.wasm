@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 1552)
+  (global (;0;) f64 f64.const 0x1.432bf9c43de35p+160 (;=1844984708756441000000000000000000000000000000000;))
+  (global (;1;) i32 i32.const 1761078407)
+  (global (;2;) i64 i64.const -1575905564584456411)
+  (export "" (memory 0))
+  (export "1" (global 1))
+)

@@ -1,0 +1,10 @@
+(module
+  (import "\u{1b}e1&wEr\u{628}" "" (global (;0;) (mut i64)))
+  (import "]\u{8}" "" (memory (;0;) 5917))
+  (table (;0;) i64 2786 108975 funcref ref.null func)
+  (export "n" (memory 0))
+  (export "" (global 0))
+  (export "2" (table 0))
+  (elem (;0;) (table 0) (i64.const 3) funcref (ref.null func))
+  (elem (;1;) anyref)
+)

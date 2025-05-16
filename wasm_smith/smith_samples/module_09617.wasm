@@ -1,0 +1,12 @@
+(module
+  (import "\u{6ab}" "" (global (;0;) (mut f32)))
+  (memory (;0;) i64 2 221359365071122)
+  (export "" (global 0))
+  (elem (;0;) anyref)
+  (elem (;1;) declare eqref (ref.null array) (ref.null i31))
+  (elem (;2;) declare externref)
+  (elem (;3;) declare exnref (ref.null exn))
+  (data (;0;) (i64.const 761) "")
+  (data (;1;) (i64.const 0) ";\84Y")
+  (data (;2;) (i64.const 15458) "")
+)

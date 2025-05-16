@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 9 204500078781785))
+  (import "q\u{19}f*/h@\u{14}" "" (global (;0;) f32))
+  (import "\u{7f}\u{e}hCQ" "" (table (;0;) 1286 structref))
+  (import "" "" (global (;1;) anyref))
+  (data (;0;) (i64.const 179618) "")
+  (data (;1;) (i64.const 309) "")
+)

@@ -1,0 +1,12 @@
+(module
+  (table (;0;) 1345 eqref)
+  (global (;0;) (mut f32) f32.const -0x1.3ff5p-11 (;=-0.0006102696;))
+  (global (;1;) i32 i32.const -1863602945)
+  (global (;2;) i32 global.get 1)
+  (global (;3;) f32 f32.const 0x1.83594p-65 (;=0.000000000000000000041012132;))
+  (global (;4;) (mut i32) global.get 2)
+  (export "x" (table 0))
+  (export "" (table 0))
+  (data (;0;) "\a2")
+  (data (;1;) "\a1\c0")
+)

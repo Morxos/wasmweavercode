@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 121 4078)
+  (export "$\u{d}\u{15}" (memory 0))
+  (export "" (memory 0))
+  (export "\u{bb}" (memory 0))
+)

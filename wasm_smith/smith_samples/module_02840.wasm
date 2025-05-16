@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 6 nullref)
+  (export "\u{b}9ca\u{f}hN\u{1}" (table 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (export "\u{14}K" (table 0))
+  (export "\u{425}" (table 0))
+  (data (;0;) "r\d5")
+  (data (;1;) "a\dfW")
+  (data (;2;) "\96")
+)

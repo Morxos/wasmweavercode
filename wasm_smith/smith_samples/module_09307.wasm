@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 5300 267343 i31ref))
+  (import "\u{5f1}" "" (memory (;0;) 170))
+  (elem (;0;) declare anyref)
+)

@@ -1,0 +1,8 @@
+(module
+  (import "?" "" (global (;0;) i64))
+  (import "1\u{17}Pc" "" (memory (;0;) i64 874 82884610180920))
+  (import "" "" (global (;1;) (mut f64)))
+  (elem (;0;) funcref (ref.null nofunc) (ref.null nofunc) (ref.null func) (ref.null func) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) (global.get 0) "")
+  (data (;1;) (global.get 0) "(\ef")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 1 nullexternref)
+  (global (;0;) (mut f32) f32.const -0x1.d4fdbcp+47 (;=-257830610000000;))
+  (global (;1;) i32 i32.const -1376839640 i32.const -1977452472 i32.const -107752942 i32.const 1662355193 i32.const -232515894 i32.const 1042571577 i32.const 496614696 i32.const 614862926 i32.sub i32.const 766160938 i32.mul i32.sub i32.sub i32.mul i32.sub i32.add i32.add)
+)

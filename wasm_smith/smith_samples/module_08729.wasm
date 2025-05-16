@@ -1,0 +1,8 @@
+(module
+  (import "'" "" (table (;0;) 610 structref))
+  (import "\u{11}" "" (memory (;0;) i64 18 38081475611527))
+  (elem (;0;) (table 0) (i32.const 385) nullref)
+  (elem (;1;) (table 0) (i32.const 0) nullref)
+  (elem (;2;) (table 0) (i32.const 1) structref (ref.null struct))
+  (elem (;3;) func)
+)

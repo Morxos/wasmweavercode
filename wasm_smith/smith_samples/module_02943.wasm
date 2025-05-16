@@ -1,0 +1,12 @@
+(module
+  (import "\u{0}" "" (table (;0;) i64 2269 441583 structref))
+  (import "\u{17}^[A;" "" (memory (;0;) i64 5557))
+  (import "=\u{2da}" "" (global (;0;) (mut i32)))
+  (global (;1;) nullref ref.null none)
+  (global (;2;) i32 i32.const 1092225175)
+  (global (;3;) (mut i32) global.get 2)
+  (global (;4;) (mut f32) f32.const -0x1.d01b18p-56 (;=-0.000000000000000025159228;))
+  (export "4" (global 4))
+  (export "7" (global 0))
+  (data (;0;) (i64.const 19335624) "\d0\1d8")
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 0 7553977556527)
+  (elem (;0;) nullfuncref)
+  (elem (;1;) nullfuncref)
+  (data (;0;) "")
+  (data (;1;) "\0a")
+  (data (;2;) "\e8\ff")
+  (data (;3;) "-W")
+)

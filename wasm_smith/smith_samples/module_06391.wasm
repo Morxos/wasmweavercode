@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 532 527776 arrayref)
+  (elem (;0;) (table 0) (i64.const 482) arrayref)
+  (elem (;1;) anyref)
+  (elem (;2;) declare i31ref)
+)

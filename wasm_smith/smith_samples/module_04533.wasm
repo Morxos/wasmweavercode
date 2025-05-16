@@ -1,0 +1,13 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "X ^\u{1a}" "" (table (;0;) i64 7 757177 exnref))
+  (import "" "" (global (;1;) (mut exnref)))
+  (memory (;0;) i64 1836)
+  (global (;2;) i64 i64.const -3983613627445252325)
+  (global (;3;) f64 f64.const -0x1.e3c18218ac174p+12 (;=-7740.094261810522;))
+  (global (;4;) (mut nullref) ref.null none)
+  (global (;5;) (mut exnref) ref.null exn)
+  (global (;6;) f64 global.get 3)
+  (global (;7;) i64 global.get 2)
+  (data (;0;) "")
+)

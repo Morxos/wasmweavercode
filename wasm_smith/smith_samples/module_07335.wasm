@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 nullref ref.null none)
+  (memory (;0;) 14727)
+  (global (;0;) i64 i64.const 3140534339079579925)
+)

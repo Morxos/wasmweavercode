@@ -1,0 +1,167 @@
+(module
+  (rec
+    (type (;0;) (array (mut i16)))
+    (type (;1;) (array eqref))
+    (type (;2;) (sub (array i8)))
+    (type (;3;) (func (param i32)))
+    (type (;4;) (func (param f64 i64) (result i64)))
+    (type (;5;) (array (mut i32)))
+    (type (;6;) (func (result i32)))
+    (type (;7;) (sub (array i16)))
+    (type (;8;) (sub (func (param f64))))
+    (type (;9;) (func (param i32 i32 i64)))
+    (type (;10;) (sub (struct (field i16) (field (mut anyref)) (field (mut i16)) (field f64) (field (mut f32)) (field i8) (field (mut i64)) (field i8) (field i8))))
+    (type (;11;) (func (result f32)))
+    (type (;12;) (struct (field (mut eqref)) (field (mut i8)) (field (mut i64)) (field (mut i8)) (field i16) (field i8) (field i8) (field (mut i16)) (field i16)))
+    (type (;13;) (sub (array i16)))
+    (type (;14;) (sub (array i32)))
+    (type (;15;) (struct (field (mut i16)) (field f64) (field (mut i8)) (field (mut i16)) (field (mut i8)) (field i8) (field (mut f64)) (field (mut i8)) (field (mut i64)) (field (mut f32)) (field f32) (field i16) (field i8) (field (mut i16)) (field i8)))
+    (type (;16;) (sub (struct (field i64) (field (mut i16)) (field (mut i64)) (field (ref null 4)) (field (mut i16)) (field (mut i16)))))
+    (type (;17;) (struct (field (mut f32)) (field f64) (field i64) (field (mut f32)) (field (mut i8)) (field i16) (field (mut i32)) (field (mut f64)) (field (mut i8)) (field (mut i8))))
+    (type (;18;) (func))
+    (type (;19;) (struct (field (mut (ref null 10))) (field (mut nullref)) (field i8) (field (mut i8)) (field i8) (field (mut i32)) (field i16) (field i8) (field (mut i8)) (field i16) (field (mut i8)) (field (mut i8)) (field (mut i16)) (field (mut i8)) (field (mut i64)) (field i8) (field i32)))
+    (type (;20;) (struct (field i8) (field i16) (field (mut i16)) (field (mut i8)) (field (mut f64)) (field (mut nullref)) (field (mut i16)) (field i8) (field (mut f32)) (field (mut i16)) (field i16) (field eqref) (field f64) (field i16) (field i8) (field f32) (field (mut i16))))
+    (type (;21;) (sub (struct (field i8) (field (mut i16)) (field (mut (ref null 4))) (field i16) (field f64) (field i16) (field (mut i8)))))
+    (type (;22;) (array (mut i16)))
+    (type (;23;) (sub (struct (field (mut i16)) (field (mut i16)) (field i64) (field (mut i8)) (field (mut i32)) (field i16))))
+    (type (;24;) (struct (field (mut i16)) (field (mut i16)) (field i16) (field (mut i8)) (field (mut i31ref)) (field (mut i64)) (field (mut i8)) (field (mut i8))))
+    (type (;25;) (func (result f64)))
+    (type (;26;) (sub (struct (field i16) (field i8) (field structref) (field (mut i8)) (field (mut i16)) (field i16) (field (mut i64)) (field (mut f32)) (field (mut i8)) (field (ref null 3)) (field (mut f32)) (field (mut f32)) (field i32))))
+    (type (;27;) (sub (struct (field (mut i16)) (field (mut i16)) (field (mut i8)) (field i16) (field (mut i8)) (field (mut i16)) (field i64) (field i16) (field i64) (field i8))))
+    (type (;28;) (sub (func (param i32 i32 i32) (result f32))))
+  )
+  (memory (;0;) i64 7469 241427532920348 shared)
+  (tag (;0;) (type 18))
+  (start 0)
+  (elem (;0;) declare structref)
+  (elem (;1;) declare externref)
+  (elem (;2;) (ref null 0) (ref.null 0))
+  (func (;0;) (type 18)
+    (local f32 i32 i32)
+    i32.const 134217727
+    struct.new_default 21
+    return_call 0
+    f64.const -0x1.fffffffffffffp+1020 (;=-22471164185778946000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+    f64.neg
+    f32.demote_f64
+    i32.trunc_sat_f32_s
+    f32.convert_i32_u
+    memory.size
+    call 0
+    call 0
+    call 0
+    block (type 25) (result f64) ;; label = @1
+      i32.const 4095
+      br 1
+      i32.eqz
+      f32.convert_i32_s
+      f32.nearest
+      f32.nearest
+      i64.trunc_sat_f32_s
+      i64.load8_u offset=15002774555253110998
+      block (type 18) ;; label = @2
+        ref.null 3
+        return_call 0
+        f64.const 0x1.5e72de4cddb3bp+192 (;=8592977231978518000000000000000000000000000000000000000000;)
+        f64.neg
+        data.drop 0
+        f64.const 0x1.ad50c34dbf049p+407 (;=554299923071812000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+        f64.trunc
+        i64.const -53941524709894153
+        memory.size
+        f64.convert_i64_u
+        i32.trunc_sat_f64_u
+        array.new_fixed 13 0
+        data.drop 0
+        br 0 (;@2;)
+        br_on_null 0 (;@2;)
+        data.drop 0
+        local.get 0
+        f32.nearest
+        loop (type 6) (result i32) ;; label = @3
+          block (type 18) ;; label = @4
+            return_call 0
+            struct.new_default 21
+            memory.size
+            memory.grow
+            f32.load offset=365937803
+            i64.trunc_sat_f32_s
+            memory.grow
+            struct.new_default 12
+            loop (type 18) ;; label = @5
+              nop
+              local.get 0
+              block (type 25) (result f64) ;; label = @6
+                local.get 1
+                data.drop 0
+                return_call 0
+                i64.const -3011007681169325125
+                loop (type 6) (result i32) ;; label = @7
+                  loop (type 6) (result i32) ;; label = @8
+                    f64.const 0x1.12d1af45dfddep+94 (;=21263096472609786000000000000;)
+                    ref.null none
+                    i64.const 4628320951931310298
+                    i64.load offset=434400716 align=4
+                    call 0
+                    f64.load offset=475607782
+                    f64.const -nan:0xfffff00000000 (;=NaN;)
+                    i64.const 5381896466250197985
+                    i64.clz
+                    i64.load16_s offset=285483229 align=1
+                    f32.const 0x1.p-149 (;=0.000000000000000000000000000000000000000000001;)
+                    f32.const -0x1.fffffep+0 (;=-1.9999999;)
+                    i32.reinterpret_f32
+                    block (type 3) (param i32) ;; label = @9
+                      try_table (type 3) (param i32) (catch_all 6 (;@3;)) (catch_all 7 (;@2;)) (catch_all 5 (;@4;)) (catch 0 0 (;@9;)) ;; label = @10
+                        block (type 25) (result f64) ;; label = @11
+                          return_call 0
+                          try_table (type 6) (result i32) (catch 0 3 (;@8;)) ;; label = @12
+                            loop (type 25) (result f64) ;; label = @13
+                              call 0
+                              memory.size
+                              elem.drop 0
+                              i64.load16_u offset=184549572 align=1
+                              local.get 1
+                              f32.const -nan:0x7fffff (;=NaN;)
+                              br 5 (;@8;)
+                              memory.size
+                              ref.null 13
+                              br_on_null 0 (;@13;)
+                              elem.drop 2
+                              data.drop 0
+                              drop
+                              local.get 0
+                              local.set 0
+                              i64.load8_u offset=101159311
+                              elem.drop 2
+                              i64.load32_s offset=108693747 align=2
+                              i64.extend8_s
+                              i64.load offset=13589114 align=1
+                              unreachable
+                            end
+                            unreachable
+                          end
+                          unreachable
+                        end
+                        unreachable
+                      end
+                    end
+                    unreachable
+                  end
+                end
+                unreachable
+              end
+              unreachable
+            end
+            unreachable
+          end
+          unreachable
+        end
+        unreachable
+      end
+      unreachable
+    end
+    unreachable
+  )
+  (data (;0;) "!\10\5c")
+)

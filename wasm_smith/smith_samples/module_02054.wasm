@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (memory (;0;) 0 20788))
+  (import "\u{c}M7H|`" "" (global (;1;) (mut f32)))
+  (table (;0;) i64 4618 758869 i31ref ref.null none)
+  (global (;2;) (mut exnref) ref.null exn)
+)

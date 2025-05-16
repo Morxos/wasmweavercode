@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) i64 3000 923182 arrayref))
+  (import "&" "" (global (;0;) (mut i64)))
+  (memory (;0;) i64 27 88249919535944)
+  (global (;1;) (mut f32) f32.const 0x1.62a03ap+77 (;=209334170000000000000000;))
+  (data (;0;) "\ae")
+  (data (;1;) (i64.const 1431234) "")
+  (data (;2;) (i64.const 139) "\bd")
+)

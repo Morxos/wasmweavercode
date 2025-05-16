@@ -1,0 +1,10 @@
+(module
+  (import "-\u{7e4}" "" (global (;0;) (mut f32)))
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) i32 i32.const -604137145 i32.const -1999038346 i32.const 702456949 i32.const -1439264856 i32.add i32.const -867319849 i32.add i32.const -1776189330 i32.sub i32.const -1491267537 i32.sub i32.add i32.add i32.const 517890674 i32.add)
+  (elem (;0;) declare i31ref)
+  (elem (;1;) funcref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "_\08")
+  (data (;1;) "E\1e")
+)

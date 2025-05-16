@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (global (;1;) (mut i64) i64.const 1536709219742108479)
+  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+)

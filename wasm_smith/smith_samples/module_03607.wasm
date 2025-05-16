@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (table (;0;) i64 384 structref ref.null struct)
+  (memory (;0;) 7055)
+  (elem (;0;) declare anyref (ref.null eq) (ref.null eq))
+  (data (;0;) (i32.const 31996020) "")
+)

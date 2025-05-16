@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 0 34050)
+  (global (;0;) (mut arrayref) ref.null array)
+  (elem (;0;) declare structref)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "Y{" "" (memory (;0;) 9646 62139))
+  (import "\u{49c}V]\u{1a}a" "" (table (;0;) 699 49441 nullref))
+  (import "\u{a}" "" (global (;0;) i64))
+  (export "" (memory 0))
+  (export "F." (global 0))
+)

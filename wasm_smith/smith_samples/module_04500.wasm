@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) 2261 eqref))
+  (import "" "" (memory (;0;) i64 3471))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (elem (;0;) declare nullfuncref (ref.null nofunc))
+  (elem (;1;) declare i31ref)
+  (data (;0;) "")
+  (data (;1;) (i64.const 218544247) "")
+  (data (;2;) (i64.const 2518863) "\f3")
+)

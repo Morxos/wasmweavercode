@@ -1,0 +1,11 @@
+(module
+  (import "\u{0}" "" (global (;0;) (mut f32)))
+  (import "" "" (global (;1;) i64))
+  (import "\u{12}" "" (memory (;0;) 2 14441))
+  (import "Y\u{3}" "" (table (;0;) i64 181 externref))
+  (export "" (table 0))
+  (export "\u{15}\u{6}b\u{c}\u{12}," (memory 0))
+  (elem (;0;) eqref)
+  (elem (;1;) (table 0) (global.get 1) nullexternref)
+  (elem (;2;) structref (ref.null struct))
+)

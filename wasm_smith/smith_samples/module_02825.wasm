@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 11 22749)
+  (export "" (memory 0))
+  (elem (;0;) eqref)
+)

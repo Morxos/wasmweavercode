@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "v" "" (memory (;0;) i64 1 292356520167 shared))
+  (export "" (memory 0))
+  (data (;0;) (i64.const 0) "\1a\af")
+)

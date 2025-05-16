@@ -1,0 +1,11 @@
+(module
+  (import "}\u{4}" "" (table (;0;) i64 354 629157 nullref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "\u{1a}QLg" "" (memory (;0;) 107 48666))
+  (import "" "" (global (;1;) f32))
+  (global (;2;) f64 f64.const -0x1.55206934b43bfp+610 (;=-5662040638844126000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i64.const 1) nullref)
+  (elem (;1;) (table 0) (i64.const 104) nullref)
+  (elem (;2;) declare exnref (ref.null exn))
+)

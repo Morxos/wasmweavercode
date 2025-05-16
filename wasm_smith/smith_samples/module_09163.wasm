@@ -1,0 +1,4 @@
+(module
+  (global (;0;) eqref ref.null struct)
+  (export "%" (global 0))
+)

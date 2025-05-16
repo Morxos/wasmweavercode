@@ -1,0 +1,10 @@
+(module
+  (import "|\u{11}}" "" (global (;0;) (mut f32)))
+  (import "\u{f}" "" (table (;0;) 919 exnref))
+  (import "" "" (memory (;0;) i64 10 135129381162705 shared))
+  (import "M" "" (global (;1;) f64))
+  (global (;2;) i64 i64.const -8068490596758633163 i64.const -9143298070921372323 i64.const -4081347499662961049 i64.const 448478266655841843 i64.const 241238629534889498 i64.const -5414001932872733792 i64.const -4664263462042993365 i64.const 4080865222176453890 i64.const -2159368756908465307 i64.const -8523273507181500476 i64.const -8028007530233343609 i64.sub i64.sub i64.sub i64.mul i64.add i64.add i64.mul i64.add i64.add i64.add)
+  (data (;0;) (global.get 2) "D")
+  (data (;1;) (i64.const 291) "")
+  (data (;2;) (global.get 2) "\f7")
+)

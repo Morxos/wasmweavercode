@@ -1,0 +1,12 @@
+(module
+  (import "\u{1e}" "" (table (;0;) i64 3220 anyref))
+  (import "" "" (memory (;0;) i64 15788))
+  (import "" "" (global (;0;) nullexternref))
+  (import "d" "" (global (;1;) f64))
+  (import "\u{11}" "" (global (;2;) i64))
+  (import "b~" "" (global (;3;) i64))
+  (import "` " "" (global (;4;) (mut f32)))
+  (elem (;0;) declare arrayref (ref.null array))
+  (elem (;1;) declare anyref)
+  (elem (;2;) (table 0) (global.get 3) nullref (ref.null none))
+)

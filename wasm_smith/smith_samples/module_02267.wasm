@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 1778 225885950265844 shared)
+  (global (;0;) eqref ref.null i31)
+  (global (;1;) (mut f32) f32.const -0x1.70081ep+13 (;=-11777.015;))
+  (global (;2;) eqref ref.null i31)
+  (global (;3;) nullref ref.null none)
+)

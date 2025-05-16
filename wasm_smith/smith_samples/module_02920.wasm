@@ -1,0 +1,9 @@
+(module
+  (import "c" "" (memory (;0;) i64 770))
+  (import "" "" (table (;0;) i64 9 417773 nullfuncref))
+  (import "\u{20f}\u{3}D\u{5}'\u{6bc}" "" (global (;0;) f64))
+  (global (;1;) (mut i64) i64.const 8979484201540718734 i64.const 7429678085448270851 i64.const 738349125643102125 i64.const 2322772604810258805 i64.const -3573818708844585478 i64.const 7711030096081945255 i64.const 4075273021535552423 i64.mul i64.const 5634809556516672295 i64.const -6810629214415537318 i64.add i64.add i64.sub i64.sub i64.add i64.sub i64.add)
+  (export "" (table 0))
+  (elem (;0;) declare nullref)
+  (elem (;1;) eqref)
+)

@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 0 308444 nullexternref))
+  (export "7" (table 0))
+  (export "" (table 0))
+  (elem (;0;) funcref (ref.null func))
+  (data (;0;) "\d4")
+  (data (;1;) "")
+  (data (;2;) "\ce\0ci")
+)

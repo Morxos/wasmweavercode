@@ -1,0 +1,9 @@
+(module
+  (import "!" "" (memory (;0;) 206 64441))
+  (import "" "" (table (;0;) i64 43 627157 nullfuncref))
+  (export "" (memory 0))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) (table 0) (i64.const 0) nullfuncref (ref.null nofunc))
+  (elem (;2;) declare eqref)
+  (data (;0;) (i32.const 1675724) "")
+)

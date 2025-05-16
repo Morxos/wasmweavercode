@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) i64 3760 155630513545988))
+  (import "" "" (table (;0;) i64 0 exnref))
+  (import "\u{17}" "" (global (;0;) (mut i64)))
+  (global (;1;) (mut i32) i32.const 390769208)
+  (global (;2;) (mut nullref) ref.null none)
+  (global (;3;) i32 i32.const -1013568560 i32.const -1646885577 i32.const 979686292 i32.const 1302311245 i32.const 1525472456 i32.const -599254637 i32.const -769668501 i32.const -517924376 i32.sub i32.sub i32.sub i32.add i32.add i32.sub i32.const -887063512 i32.const -1557109042 i32.add i32.add i32.sub)
+  (export "" (memory 0))
+)

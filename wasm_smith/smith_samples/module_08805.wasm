@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 5)
+  (elem (;0;) declare exnref)
+)

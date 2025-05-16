@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 0 exnref)
+  (memory (;0;) i64 1570)
+  (export "\u{1a}" (global 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) declare arrayref)
+)

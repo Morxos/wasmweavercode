@@ -1,0 +1,5 @@
+(module
+  (import "\u{15f}" "" (memory (;0;) 4660))
+  (global (;0;) exnref ref.null exn)
+  (data (;0;) (i32.const 100233) "\b6")
+)

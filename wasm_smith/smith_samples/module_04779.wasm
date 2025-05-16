@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 18 187929 exnref ref.null exn)
+  (export "" (table 0))
+  (export "|\u{19}" (table 0))
+  (elem (;0;) (table 0) (i32.const 6) exnref)
+  (elem (;1;) (table 0) (i32.const 3) exnref (ref.null exn))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

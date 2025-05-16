@@ -1,0 +1,8 @@
+(module
+  (import "\u{14}8" "" (memory (;0;) i64 0 50218006627873))
+  (export "" (memory 0))
+  (elem (;0;) nullexternref)
+  (elem (;1;) declare nullfuncref)
+  (data (;0;) "\93\15")
+  (data (;1;) "")
+)

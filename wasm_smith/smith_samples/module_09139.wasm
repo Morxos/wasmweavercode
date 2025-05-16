@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 1 anyref))
+  (global (;0;) (mut f32) f32.const -0x1.860554p+22 (;=-6390101;))
+  (data (;0;) "")
+)

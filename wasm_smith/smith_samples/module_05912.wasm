@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 2039 751633 nullfuncref)
+  (memory (;0;) 15)
+  (elem (;0;) declare externref (ref.null extern) (ref.null noextern))
+)

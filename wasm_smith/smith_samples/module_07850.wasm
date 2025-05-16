@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut arrayref)))
+  (import "=<" "" (global (;1;) (mut structref)))
+  (table (;0;) 814 exnref)
+  (memory (;0;) i64 179 16539527875007)
+)

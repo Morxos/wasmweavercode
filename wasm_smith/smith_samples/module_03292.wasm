@@ -1,0 +1,10 @@
+(module
+  (import "q0" "" (memory (;0;) i64 5300))
+  (import "\u{b}" "" (global (;0;) i31ref))
+  (table (;0;) i64 113 structref ref.null none)
+  (global (;1;) i64 i64.const -3706015831461219576)
+  (global (;2;) f32 f32.const -0x1.9395fap-103 (;=-0.00000000000000000000000000000015545561;))
+  (global (;3;) i32 i32.const 209928344 i32.const 1284549656 i32.const -1196806176 i32.const 1626306630 i32.const -1315182338 i32.const 1560782840 i32.const 2013095291 i32.const -213571736 i32.mul i32.const -1500487442 i32.const -364328670 i32.add i32.add i32.add i32.add i32.sub i32.add i32.add i32.add)
+  (global (;4;) (mut i64) global.get 1)
+  (elem (;0;) (table 0) (global.get 1) nullref (ref.null none))
+)

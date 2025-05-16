@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 585)
+  (data (;0;) "s")
+  (data (;1;) (i64.const 504484) "\df")
+)

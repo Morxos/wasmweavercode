@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 13 436342 nullfuncref)
+  (memory (;0;) 14080 22930 shared)
+  (export "\u{12}" (table 0))
+  (data (;0;) "")
+  (data (;1;) "\b5\0a\81")
+  (data (;2;) (i32.const 11996282) "")
+)

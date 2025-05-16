@@ -1,0 +1,10 @@
+(module
+  (import "-" "" (global (;0;) f64))
+  (table (;0;) i64 627 87394 nullref ref.null none)
+  (memory (;0;) i64 492 34200035268889)
+  (global (;1;) (mut f64) global.get 0)
+  (global (;2;) (mut i64) i64.const 8565809297902159977)
+  (global (;3;) f64 global.get 0)
+  (elem (;0;) eqref (ref.null eq))
+  (elem (;1;) declare externref (ref.null noextern))
+)

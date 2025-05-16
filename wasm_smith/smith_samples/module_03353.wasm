@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 701057 externref ref.null noextern)
+  (memory (;0;) i64 0 97480106311536 shared)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) eqref (ref.null none) (ref.null struct))
+  (elem (;2;) declare anyref)
+)

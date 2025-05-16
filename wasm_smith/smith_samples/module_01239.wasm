@@ -1,0 +1,7 @@
+(module
+  (import "G" "" (memory (;0;) 0 9501))
+  (table (;0;) i64 0 758870 funcref)
+  (global (;0;) (mut f32) f32.const -0x1.1f981ap+18 (;=-294496.4;))
+  (data (;0;) "\8f_\b2\9b\a4\f92")
+  (data (;1;) " \b8")
+)

@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) i64 0 exnref))
+  (import "" "" (memory (;0;) 0))
+  (global (;0;) (mut i32) i32.const 1160367469 i32.const -367123028 i32.const -2011405475 i32.const -800013236 i32.const 1042345625 i32.const 1459327475 i32.const -1289553890 i32.const -380864493 i32.const 1403906023 i32.const 1416455532 i32.mul i32.sub i32.mul i32.add i32.mul i32.mul i32.const 24169226 i32.add i32.sub i32.sub i32.add)
+  (global (;1;) (mut i32) i32.const -1732899463 i32.const -853809427 i32.const 2106013147 i32.const -925361836 i32.const -367870394 i32.const 420218371 i32.const -2061172171 i32.const 192608058 i32.mul i32.mul i32.mul i32.const -1985905173 i32.mul i32.sub i32.add i32.add i32.sub i32.const -545602513 i32.add)
+  (global (;2;) (mut f32) f32.const 0x1.3c7a6p+56 (;=89080645000000000;))
+  (global (;3;) (mut i64) i64.const -3439840689824856099 i64.const -4411909069942476459 i64.const 7617868174972353073 i64.const 5710611072650154965 i64.const 1228075072225827186 i64.const -4975628280945850662 i64.mul i64.sub i64.const 2171961974803112655 i64.add i64.add i64.const 2077541154147685491 i64.mul i64.const 9028779395282678082 i64.mul i64.sub i64.add)
+  (global (;4;) (mut i64) i64.const 983728980550183771)
+  (export "" (table 0))
+)

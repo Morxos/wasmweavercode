@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 539 funcref ref.null func)
+  (memory (;0;) 20)
+  (global (;0;) funcref ref.null func)
+)

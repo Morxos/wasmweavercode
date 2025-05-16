@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut nullref)))
+  (import "" "" (global (;1;) (mut nullexternref)))
+  (memory (;0;) i64 691 262672982957474)
+  (export "O\u{12}f" (global 1))
+  (export "" (memory 0))
+)

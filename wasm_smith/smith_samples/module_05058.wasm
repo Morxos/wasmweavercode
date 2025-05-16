@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 3576 eqref ref.null eq)
+  (global (;0;) f32 f32.const -0x1.450778p-39 (;=-0.0000000000023094712;))
+  (global (;1;) f32 f32.const -0x1.a1f90ap+96 (;=-129356320000000000000000000000;))
+  (elem (;0;) (table 0) (i32.const 3) i31ref)
+  (data (;0;) "")
+)

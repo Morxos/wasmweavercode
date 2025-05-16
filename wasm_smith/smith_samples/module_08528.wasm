@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 352 eqref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "\u{6}" (table 0))
+  (export "3" (table 0))
+  (elem (;0;) declare func)
+)

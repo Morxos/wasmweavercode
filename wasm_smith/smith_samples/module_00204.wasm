@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (memory (;0;) 0))
+  (import "" "" (global (;1;) (mut f32)))
+  (table (;0;) 0 structref ref.null struct)
+  (elem (;0;) func)
+  (elem (;1;) declare nullfuncref)
+)

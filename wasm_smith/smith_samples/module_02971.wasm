@@ -1,0 +1,9 @@
+(module
+  (import "7" "" (table (;0;) i64 0 965863 eqref))
+  (export "gSr\u{14} " (table 0))
+  (export "v" (table 0))
+  (export "" (table 0))
+  (export "3" (table 0))
+  (export "[\u{1}\u{13}" (table 0))
+  (export "5" (table 0))
+)

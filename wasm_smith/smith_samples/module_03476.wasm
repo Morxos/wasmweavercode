@@ -1,0 +1,11 @@
+(module
+  (import "dd" "" (table (;0;) 4535 412447 structref))
+  (import "" "" (memory (;0;) 1 363))
+  (export "" (memory 0))
+  (export "xOy:" (table 0))
+  (export "2" (table 0))
+  (export "S" (table 0))
+  (export "\u{8}" (table 0))
+  (export "5" (table 0))
+  (export "6" (memory 0))
+)

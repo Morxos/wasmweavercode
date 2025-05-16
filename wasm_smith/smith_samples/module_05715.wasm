@@ -1,0 +1,9 @@
+(module
+  (import "`\u{f}" "" (table (;0;) 9 nullexternref))
+  (global (;0;) f32 f32.const -0x1.78d696p+88 (;=-455569460000000000000000000;))
+  (export "" (global 0))
+  (elem (;0;) (table 0) (i32.const 0) nullexternref (ref.null noextern) (ref.null noextern))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

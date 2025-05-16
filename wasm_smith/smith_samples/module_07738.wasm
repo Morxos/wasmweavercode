@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 1713 nullfuncref))
+  (memory (;0;) i64 13207 21773320365331 shared)
+  (export "U\u{13}\u{6}8KaU" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) nullfuncref)
+)

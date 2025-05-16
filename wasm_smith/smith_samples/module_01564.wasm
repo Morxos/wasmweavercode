@@ -1,0 +1,5 @@
+(module
+  (import "-4(}" "" (table (;0;) 1 funcref))
+  (elem (;0;) (i32.const 0) funcref (ref.null func))
+  (data (;0;) "")
+)

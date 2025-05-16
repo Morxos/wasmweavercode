@@ -1,0 +1,9 @@
+(module
+  (import "," "" (memory (;0;) 220 14827 shared))
+  (global (;0;) (mut i64) i64.const 4157763733182028540 i64.const 1795748160053272332 i64.const -1581017899114097744 i64.const -3808912739119770249 i64.const 1111368503236192284 i64.const 2599222891771368356 i64.const -1577465129709938495 i64.const -8236738935588450967 i64.const 6503534569634508793 i64.const -686817021267077963 i64.mul i64.sub i64.add i64.add i64.mul i64.mul i64.const -3673674386690698885 i64.mul i64.mul i64.mul i64.sub)
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (export "\u{b}H" (memory 0))
+  (export "-" (global 0))
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31) (ref.null none))
+)

@@ -1,0 +1,5 @@
+(module
+  (import "\u{1aa}M" "" (memory (;0;) i64 0 243215530094060 shared))
+  (import "\u{5}k\u{278}" "" (global (;0;) (mut f64)))
+  (table (;0;) 41 funcref)
+)

@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 2 i31ref)
+  (memory (;0;) 3)
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) eqref)
+  (elem (;2;) declare nullref)
+  (elem (;3;) declare exnref)
+  (elem (;4;) declare nullref)
+  (elem (;5;) declare arrayref (ref.null array))
+  (elem (;6;) exnref (ref.null exn) (ref.null exn))
+)

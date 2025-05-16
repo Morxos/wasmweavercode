@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (import "\u{9}" "" (global (;1;) (mut f32)))
+  (import ":<" "" (table (;0;) 0 eqref))
+  (import "0" "" (memory (;0;) 428))
+  (import "X\u{1}>^\u{5c}|" "" (global (;2;) externref))
+  (import "" "" (global (;3;) (mut i32)))
+)

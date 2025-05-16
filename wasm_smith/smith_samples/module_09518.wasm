@@ -1,0 +1,9 @@
+(module
+  (import "!" "" (global (;0;) i32))
+  (memory (;0;) 452 28357 shared)
+  (export "" (global 0))
+  (export "\u{784}a" (memory 0))
+  (export "2" (memory 0))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) structref)
+)

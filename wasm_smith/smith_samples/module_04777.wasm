@@ -1,0 +1,11 @@
+(module
+  (import ";" "" (table (;0;) 1687 eqref))
+  (import "U" "" (global (;0;) anyref))
+  (import "" "" (memory (;0;) i64 57 142472496725725 shared))
+  (import ":\u{3ca}j/" "" (global (;1;) nullfuncref))
+  (global (;2;) (mut i64) i64.const -9101308999298250528)
+  (export "\u{10}p" (memory 0))
+  (export "" (table 0))
+  (export "\u{15}\u{1f}" (memory 0))
+  (elem (;0;) declare nullfuncref)
+)

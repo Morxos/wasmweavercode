@@ -1,0 +1,3 @@
+(module
+  (import "" "" (table (;0;) i64 567 828482 nullfuncref))
+)

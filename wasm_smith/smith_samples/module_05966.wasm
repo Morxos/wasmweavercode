@@ -1,0 +1,7 @@
+(module
+  (import "k" "" (global (;0;) i64))
+  (table (;0;) i64 21 nullexternref)
+  (memory (;0;) 1211 32365)
+  (export "g\u{1c}" (memory 0))
+  (data (;0;) ".\f2d\d0")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 3 362631 nullfuncref))
+  (import "\u{7}f5A" "" (global (;0;) (mut nullfuncref)))
+  (memory (;0;) 9895 27363 shared)
+  (global (;1;) (mut nullref) ref.null none)
+  (data (;0;) (i32.const 5922486) "")
+  (data (;1;) "!")
+)

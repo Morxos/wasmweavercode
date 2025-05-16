@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) 1160 928531 nullexternref ref.null noextern)
+  (elem (;0;) declare func)
+  (elem (;1;) declare arrayref (ref.null array))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "\u{1}'\u{7}\u{8}t\u{d}" "" (global (;0;) (mut nullfuncref)))
+  (import "" "" (table (;0;) 2 exnref))
+  (global (;1;) (mut i32) i32.const -953393999)
+  (elem (;0;) declare exnref (ref.null exn))
+  (elem (;1;) structref (ref.null none))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "yN\u{371}\u{1f}" "" (memory (;0;) 1033 21124))
+  (import "" "" (table (;0;) 0 nullfuncref))
+  (global (;0;) funcref ref.null nofunc)
+  (elem (;0;) declare arrayref (ref.null array) (ref.null array) (ref.null array) (ref.null array) (ref.null array))
+  (data (;0;) "")
+)

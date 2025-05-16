@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut structref) ref.null struct)
+  (elem (;0;) i31ref)
+  (elem (;1;) declare anyref)
+  (elem (;2;) eqref)
+  (data (;0;) "\14Ue")
+  (data (;1;) ")?5")
+)

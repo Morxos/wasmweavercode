@@ -1,0 +1,13 @@
+(module
+  (import "" "" (table (;0;) 0 nullref))
+  (global (;0;) nullfuncref ref.null nofunc)
+  (global (;1;) (mut i64) i64.const -5050627762641416551)
+  (global (;2;) (mut i64) i64.const 4393244785074553395 i64.const -1349044306152250944 i64.const -5377000004632871994 i64.const -5282085973382619482 i64.const -3663972162867574485 i64.const 8483921908044870744 i64.const -5313525388116631392 i64.const -2267072129881213533 i64.add i64.add i64.sub i64.sub i64.const 2097871587521127891 i64.const 2320453114850696453 i64.sub i64.add i64.add i64.add i64.mul)
+  (export "." (global 1))
+  (export "" (global 2))
+  (elem (;0;) externref)
+  (elem (;1;) declare i31ref (ref.null i31))
+  (elem (;2;) i31ref)
+  (data (;0;) "\96")
+  (data (;1;) "i")
+)

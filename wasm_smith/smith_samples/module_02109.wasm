@@ -1,0 +1,5 @@
+(module
+  (global (;0;) i32 i32.const -1766039387 i32.const 595197160 i32.const 870624536 i32.const 882921870 i32.const -1867342424 i32.const 431029388 i32.const -1566842563 i32.const 1194296287 i32.const -1948351156 i32.mul i32.mul i32.add i32.sub i32.mul i32.add i32.add i32.sub)
+  (global (;1;) f32 f32.const -0x1.52251ap-72 (;=-0.00000000000000000000027970693;))
+  (global (;2;) (mut f32) global.get 1)
+)

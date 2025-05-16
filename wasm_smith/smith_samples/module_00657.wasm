@@ -1,0 +1,9 @@
+(module
+  (import "\u{13}" "" (memory (;0;) i64 8496))
+  (global (;0;) f32 f32.const -0x1.7097a6p-119 (;=-0.0000000000000000000000000000000000021663913;))
+  (global (;1;) f32 global.get 0)
+  (global (;2;) f32 global.get 0)
+  (elem (;0;) declare structref (ref.null none) (ref.null struct))
+  (elem (;1;) declare arrayref (ref.null array))
+  (data (;0;) (i64.const 103244224) "")
+)

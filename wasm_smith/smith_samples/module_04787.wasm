@@ -1,0 +1,11 @@
+(module
+  (rec)
+  (import "" "" (table (;0;) 1215 233852 exnref))
+  (import "" "" (memory (;0;) 1497 34942 shared))
+  (import " " "" (global (;0;) (mut i32)))
+  (import "@V" "" (global (;1;) f32))
+  (import "z\u{7f}" "" (global (;2;) funcref))
+  (global (;3;) nullexternref ref.null noextern)
+  (export "+" (global 3))
+  (elem (;0;) arrayref (ref.null none) (ref.null array))
+)

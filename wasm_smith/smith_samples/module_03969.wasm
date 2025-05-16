@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 1818 nullexternref)
+  (global (;0;) (mut arrayref) ref.null none)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "RH$Q{" "" (table (;0;) 98 291358 externref))
+  (import "'[\u{6f9}" "" (memory (;0;) 211))
+  (global (;0;) (mut i32) i32.const -2048393602 i32.const -366560614 i32.const -1870275857 i32.const 1736860312 i32.const -264771996 i32.const -1505228559 i32.const -1125961862 i32.const -1487863484 i32.const 1720218342 i32.const -1869044222 i32.mul i32.sub i32.sub i32.sub i32.sub i32.sub i32.mul i32.mul i32.mul i32.const -690483577 i32.add)
+  (data (;0;) "\07\9b\a6")
+  (data (;1;) "")
+)

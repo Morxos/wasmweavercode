@@ -1,0 +1,7 @@
+(module
+  (import "IR" "" (table (;0;) 0 externref))
+  (memory (;0;) i64 5676 116635687319288)
+  (global (;0;) i64 i64.const -5673338650848154253 i64.const -8027567529565625238 i64.const 7771751438374125334 i64.const 4452810373272988367 i64.add i64.const -2662518721722337606 i64.const 3598336628529244899 i64.sub i64.mul i64.mul i64.const 5165494938616126053 i64.sub i64.sub i64.const -3622784145791966717 i64.add)
+  (export "" (memory 0))
+  (elem (;0;) declare exnref)
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) i64 1715 124292345309875))
+  (import "" "" (global (;0;) f32))
+  (table (;0;) 565 nullexternref ref.null noextern)
+  (export "T" (table 0))
+  (export "\u{f233}" (table 0))
+  (export "" (global 0))
+  (export "3" (global 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) nullfuncref)
+)

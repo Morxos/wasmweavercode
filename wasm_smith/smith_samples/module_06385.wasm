@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 38 structref))
+  (import "\u{13}" "" (memory (;0;) i64 3389 11944093048731))
+  (global (;0;) (mut f32) f32.const -0x1.bd4888p+66 (;=-128344180000000000000;))
+  (export "J2" (memory 0))
+  (data (;0;) "\bf\87")
+  (data (;1;) "")
+)

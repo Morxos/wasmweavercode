@@ -1,0 +1,10 @@
+(module
+  (global (;0;) (mut i64) i64.const 7788460553184766005)
+  (export "p" (global 0))
+  (export "\u{18}" (global 0))
+  (export "" (global 0))
+  (data (;0;) "")
+  (data (;1;) "\18")
+  (data (;2;) "a")
+  (data (;3;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 386 736889 eqref))
+  (import "" "" (global (;0;) f64))
+  (memory (;0;) i64 215 114153475103343 shared)
+)

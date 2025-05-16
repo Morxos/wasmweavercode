@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 1943 structref ref.null struct)
+  (global (;0;) i32 i32.const 2074501339 i32.const 1778424083 i32.const 230389565 i32.const 1198820721 i32.const 408423549 i32.const 291806261 i32.sub i32.mul i32.sub i32.mul i32.sub i32.const 1372486180 i32.add i32.const -219789182 i32.sub)
+  (elem (;0;) (table 0) (i64.const 701) structref)
+)

@@ -1,0 +1,6 @@
+(module
+  (import "3\u{22}" "" (memory (;0;) i64 0 119733149026116))
+  (import "" "" (global (;0;) f32))
+  (global (;1;) (mut externref) ref.null extern)
+  (data (;0;) "b")
+)

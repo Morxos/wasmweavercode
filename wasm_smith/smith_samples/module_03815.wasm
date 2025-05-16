@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 405 11967))
+  (import "TlnE" "" (table (;0;) 2165 eqref))
+  (export "\u{18}\u{9}" (memory 0))
+  (elem (;0;) declare arrayref (ref.null array))
+  (data (;0;) "\da\f6")
+)

@@ -1,0 +1,11 @@
+(module
+  (import "\u{15}" "" (table (;0;) i64 57 funcref))
+  (import "" "" (global (;0;) (mut i32)))
+  (memory (;0;) i64 947 223479661034232)
+  (global (;1;) i64 i64.const 6195719849232717317)
+  (global (;2;) (mut f64) f64.const -0x1.19267e81cdfb4p-792 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004216403108818011;))
+  (elem (;0;) (table 0) (global.get 1) funcref (ref.null nofunc))
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare anyref)
+  (elem (;3;) (table 0) (global.get 1) nullfuncref)
+)

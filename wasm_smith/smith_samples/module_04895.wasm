@@ -1,0 +1,8 @@
+(module
+  (import "|{" "" (global (;0;) (mut i31ref)))
+  (import "\u{8}" "" (global (;1;) (mut i31ref)))
+  (table (;0;) 0 anyref ref.null none)
+  (export "" (global 0))
+  (export "1" (table 0))
+  (export "2" (table 0))
+)

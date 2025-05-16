@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 0 funcref)
+  (memory (;0;) 1255 62557 shared)
+  (elem (;0;) declare externref)
+  (data (;0;) (i32.const 75538) "E")
+  (data (;1;) (i32.const 22366731) "")
+)

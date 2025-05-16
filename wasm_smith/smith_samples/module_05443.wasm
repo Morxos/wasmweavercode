@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 externref ref.null extern)
+  (export "" (table 0))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) func)
+  (elem (;2;) declare nullref (ref.null none))
+)

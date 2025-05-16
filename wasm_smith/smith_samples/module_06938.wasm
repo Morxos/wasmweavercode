@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (table (;0;) i64 217 nullfuncref ref.null nofunc)
+  (elem (;0;) i31ref (ref.null i31))
+  (elem (;1;) declare i31ref)
+)

@@ -1,0 +1,8 @@
+(module
+  (import "f1\u{1b}I^\u{14}q4\u{10}" "" (memory (;0;) i64 3647))
+  (import "" "" (table (;0;) 1 716358 exnref))
+  (export "3" (memory 0))
+  (elem (;0;) declare anyref)
+  (elem (;1;) i31ref)
+  (elem (;2;) (table 0) (i32.const 0) exnref)
+)

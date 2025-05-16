@@ -1,0 +1,11 @@
+(module
+  (elem (;0;) anyref (ref.null none) (ref.null struct) (ref.null i31) (ref.null any) (ref.null array))
+  (data (;0;) "")
+  (data (;1;) "\95")
+  (data (;2;) "(")
+  (data (;3;) "")
+  (data (;4;) "\a5\fe")
+  (data (;5;) "_")
+  (data (;6;) "V")
+  (data (;7;) "")
+)

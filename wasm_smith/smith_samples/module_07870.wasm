@@ -1,0 +1,5 @@
+(module
+  (global (;0;) i64 i64.const 5233022551768159504)
+  (elem (;0;) declare i31ref (ref.null none) (ref.null i31) (ref.null i31) (ref.null i31) (ref.null i31) (ref.null i31) (ref.null none) (ref.null none))
+  (elem (;1;) declare nullfuncref (ref.null nofunc))
+)

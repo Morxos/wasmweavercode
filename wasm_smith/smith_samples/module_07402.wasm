@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 6693 128334 funcref))
+  (import "D" "" (memory (;0;) i64 418 110409741688061))
+  (import "" "" (global (;0;) (mut i64)))
+  (elem (;0;) nullfuncref)
+)

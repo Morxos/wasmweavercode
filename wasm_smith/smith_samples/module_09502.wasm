@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 239 734363 externref ref.null extern)
+  (global (;0;) f64 f64.const 0x1.67e5a5248186dp+299 (;=1431881329923044700000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;1;) f64 global.get 0)
+  (global (;2;) i32 i32.const -1660100657 i32.const -2051835340 i32.const 2067932881 i32.const -611176015 i32.const 1847116997 i32.const 152095889 i32.sub i32.mul i32.add i32.mul i32.mul i32.const -422229337 i32.add i32.const 1530180932 i32.const 830906778 i32.add i32.sub)
+  (global (;3;) f32 f32.const -0x1.10206p+65 (;=-39217557000000000000;))
+  (global (;4;) (mut f32) global.get 3)
+  (export "\u{18}" (global 0))
+)

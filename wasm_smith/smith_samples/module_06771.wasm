@@ -1,0 +1,8 @@
+(module
+  (import "\u{10}&" "" (table (;0;) i64 4 510151 eqref))
+  (memory (;0;) 0)
+  (global (;0;) i64 i64.const 3742771005618669900 i64.const -1130524002016847361 i64.const -3527878832720116005 i64.const 5715040835625814285 i64.const 8587386156394593057 i64.const -9345213167587566 i64.const 7478115197772746613 i64.const -6282580280573958726 i64.const -4742308702856224521 i64.const 4519285530810263178 i64.const -5250141783992332962 i64.const -8610606347648508717 i64.add i64.sub i64.add i64.sub i64.sub i64.mul i64.sub i64.mul i64.sub i64.mul i64.add)
+  (elem (;0;) structref)
+  (elem (;1;) (table 0) (i64.const 0) eqref)
+  (data (;0;) "\9b")
+)

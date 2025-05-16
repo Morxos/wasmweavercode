@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "{i4\u{765}" "" (table (;0;) 19 481533 anyref))
+  (global (;1;) (mut i32) i32.const -702127682 i32.const -1897600023 i32.const 1362338128 i32.const -114594759 i32.const 1600555497 i32.const 137596200 i32.const -435346363 i32.const 2140046543 i32.const -1878696235 i32.const -1257256040 i32.const 1704121210 i32.const -146272028 i32.mul i32.add i32.mul i32.mul i32.mul i32.sub i32.sub i32.mul i32.mul i32.add i32.add)
+  (export "" (global 1))
+  (export "c\u{1f}GKDI" (global 0))
+  (export "2" (global 0))
+  (export "#" (global 0))
+  (export "4" (global 0))
+  (elem (;0;) declare anyref)
+  (elem (;1;) anyref)
+)

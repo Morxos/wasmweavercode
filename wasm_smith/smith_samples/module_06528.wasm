@@ -1,0 +1,11 @@
+(module
+  (import ".|2" "" (global (;0;) (mut f32)))
+  (global (;1;) (mut f32) f32.const -0x1.1edf26p+123 (;=-11916183000000000000000000000000000000;))
+  (global (;2;) (mut externref) ref.null noextern)
+  (global (;3;) (mut i32) i32.const -861408383)
+  (export "" (global 1))
+  (elem (;0;) funcref)
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare funcref (ref.null func) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "")
+)

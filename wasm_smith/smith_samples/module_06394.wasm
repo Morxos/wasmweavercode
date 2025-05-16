@@ -1,0 +1,3 @@
+(module
+  (import "" "" (global (;0;) f64))
+)

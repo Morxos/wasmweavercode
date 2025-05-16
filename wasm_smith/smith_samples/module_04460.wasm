@@ -1,0 +1,5 @@
+(module
+  (import "\u{7b5}" "" (table (;0;) 1755 structref))
+  (memory (;0;) i64 892 117908362004473)
+  (export "\u{7bd}\u{1}" (memory 0))
+)

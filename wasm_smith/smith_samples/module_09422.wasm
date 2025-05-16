@@ -1,0 +1,11 @@
+(module
+  (elem (;0;) declare exnref (ref.null exn))
+  (elem (;1;) funcref)
+  (elem (;2;) nullref (ref.null none))
+  (data (;0;) "1\1c")
+  (data (;1;) "")
+  (data (;2;) "./")
+  (data (;3;) ";")
+  (data (;4;) "\f9\fb\17")
+  (data (;5;) "")
+)

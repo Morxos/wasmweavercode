@@ -1,0 +1,10 @@
+(module
+  (import "f" "" (table (;0;) i64 1355 603853 nullfuncref))
+  (import "" "" (memory (;0;) 3510 53799))
+  (import "g\u{18}" "" (global (;0;) (mut f32)))
+  (import "" "" (global (;1;) i32))
+  (import "@Wh!" "" (global (;2;) (mut f32)))
+  (elem (;0;) func)
+  (elem (;1;) i31ref)
+  (elem (;2;) declare arrayref (ref.null array) (ref.null none))
+)

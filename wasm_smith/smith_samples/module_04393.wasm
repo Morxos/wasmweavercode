@@ -1,0 +1,8 @@
+(module
+  (import "=>" "" (table (;0;) i64 8275 772533 eqref))
+  (export "l" (table 0))
+  (elem (;0;) declare anyref (ref.null array))
+  (elem (;1;) declare structref (ref.null struct))
+  (elem (;2;) arrayref)
+  (data (;0;) "")
+)

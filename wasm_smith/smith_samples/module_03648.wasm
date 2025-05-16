@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 122))
+  (table (;0;) i64 698 360430 exnref)
+  (global (;0;) (mut f32) f32.const -0x1.8aee06p+48 (;=-434229900000000;))
+  (export "\u{1b}" (memory 0))
+  (export "8\u{8f}p" (memory 0))
+  (export "s" (table 0))
+  (data (;0;) (i32.const 3954339) "")
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "" "" (table (;0;) 227 anyref))
+  (memory (;0;) 196)
+  (global (;1;) (mut i32) i32.const 1490306699 i32.const 1810097909 i32.const 411784743 i32.const 1294138795 i32.const -1653511850 i32.const -851086857 i32.const 1184798701 i32.const 136984493 i32.mul i32.mul i32.add i32.const 770072464 i32.sub i32.sub i32.add i32.mul i32.mul i32.const -1454397286 i32.mul)
+  (global (;2;) structref ref.null struct)
+  (export "" (global 2))
+  (elem (;0;) nullref (ref.null none))
+  (elem (;1;) (table 0) (global.get 0) eqref)
+  (data (;0;) "\5c")
+)

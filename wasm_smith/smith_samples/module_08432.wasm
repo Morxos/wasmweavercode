@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 0 189189709524835 shared))
+  (data (;0;) "f\01")
+  (data (;1;) "\b6\ed")
+  (data (;2;) "")
+  (data (;3;) "@")
+)

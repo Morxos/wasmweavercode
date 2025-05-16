@@ -1,0 +1,7 @@
+(module
+  (global (;0;) (mut i64) i64.const -257088938081127598 i64.const 1723157453577193595 i64.const -3285023643133208584 i64.const -3010201362927212755 i64.const -5484176671724217549 i64.const -5126601763195007310 i64.sub i64.mul i64.add i64.sub i64.const 5930328175615347567 i64.const -2653667062502917648 i64.add i64.add i64.mul i64.const 4352654897433426336 i64.sub)
+  (elem (;0;) nullexternref)
+  (elem (;1;) nullexternref)
+  (data (;0;) "\fd")
+  (data (;1;) "qa")
+)

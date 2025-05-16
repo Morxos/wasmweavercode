@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (table (;0;) i64 14 nullref)
+  (memory (;0;) i64 365)
+  (export "IS" (global 0))
+)

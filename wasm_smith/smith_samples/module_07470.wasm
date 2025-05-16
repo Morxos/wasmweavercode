@@ -1,0 +1,8 @@
+(module
+  (import "\u{15}" "" (table (;0;) 1360 968007 nullfuncref))
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "u" (table 0))
+  (elem (;0;) (table 0) (i32.const 1) nullfuncref (ref.null nofunc))
+  (data (;0;) "\de")
+)

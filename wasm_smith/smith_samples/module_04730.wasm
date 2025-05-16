@@ -1,0 +1,6 @@
+(module
+  (elem (;0;) nullexternref)
+  (elem (;1;) externref)
+  (elem (;2;) declare funcref)
+  (data (;0;) "d")
+)

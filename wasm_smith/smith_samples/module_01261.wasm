@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 0 30021 shared))
+  (import "" "" (global (;0;) (mut f32)))
+  (import "\u{7f}" "" (table (;0;) 112 funcref))
+  (import "\u{4f7}\u{1e}\u{19}" "" (global (;1;) i64))
+  (export "" (global 1))
+  (export "1" (table 0))
+  (export "daP+" (memory 0))
+)

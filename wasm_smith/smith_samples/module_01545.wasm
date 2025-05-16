@@ -1,0 +1,12 @@
+(module
+  (import "#" "" (global (;0;) eqref))
+  (import "m" "" (table (;0;) 447 funcref))
+  (global (;1;) i32 i32.const 1565366117 i32.const -769263021 i32.mul)
+  (elem (;0;) nullexternref)
+  (elem (;1;) exnref)
+  (elem (;2;) anyref (global.get 0))
+  (elem (;3;) (table 0) (global.get 1) nullfuncref (ref.null nofunc))
+  (elem (;4;) declare anyref)
+  (elem (;5;) declare i31ref)
+  (data (;0;) "")
+)

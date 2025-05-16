@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut i32) i32.const -1446710536)
+  (export "u" (global 0))
+  (data (;0;) "\c7\8d")
+  (data (;1;) "\89")
+)

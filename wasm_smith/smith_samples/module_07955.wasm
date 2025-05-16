@@ -1,0 +1,8 @@
+(module
+  (import "v\u{f}k\u{1f}" "" (memory (;0;) i64 6))
+  (table (;0;) 267 413666 externref)
+  (global (;0;) (mut i32) i32.const 1800893022)
+  (export "E" (global 0))
+  (data (;0;) "")
+  (data (;1;) "\1ade\b5")
+)

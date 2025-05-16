@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 666 881098 arrayref ref.null none)
+  (export "Lv\u{22}\u{10}" (table 0))
+  (export "" (table 0))
+  (export "\u{1a}" (table 0))
+  (export "H" (table 0))
+  (elem (;0;) (table 0) (i64.const 161) arrayref)
+)

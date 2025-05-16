@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 1060 154544 externref)
+  (global (;0;) (mut f32) f32.const -0x1.e5a182p-14 (;=-0.00011578343;))
+  (export "" (table 0))
+)

@@ -1,0 +1,12 @@
+(module
+  (import "\u{2}O" "" (table (;0;) i64 33 977508 i31ref))
+  (import "8" "" (memory (;0;) i64 12706))
+  (global (;0;) eqref ref.null struct)
+  (global (;1;) i64 i64.const -5552094472797619360 i64.const 5140367552091931659 i64.const 9142672196304598519 i64.const 864946323310347671 i64.const -6171792743920650422 i64.const 3217618956180093813 i64.const -8523099294531657975 i64.add i64.mul i64.const 7591669298945847622 i64.sub i64.mul i64.sub i64.sub i64.sub)
+  (export "" (global 1))
+  (data (;0;) "\a8")
+  (data (;1;) (i64.const 179087) "")
+  (data (;2;) "")
+  (data (;3;) (i64.const 486819929) "O\d3\1e")
+  (data (;4;) "\d8")
+)

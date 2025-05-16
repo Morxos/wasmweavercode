@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 223 nullexternref)
+  (export "" (table 0))
+  (export "WrZ\u{11}/" (table 0))
+  (elem (;0;) (table 0) (i32.const 0) nullexternref)
+  (data (;0;) "")
+  (data (;1;) "")
+)

@@ -1,0 +1,11 @@
+(module
+  (import "rA" "" (global (;0;) (mut i32)))
+  (import "\u{8}" "" (global (;1;) (mut i32)))
+  (import "j" "" (global (;2;) (mut f64)))
+  (import "O" "" (table (;0;) i64 3309 233118 anyref))
+  (import "\u{1c}" "" (memory (;0;) 58 4241 shared))
+  (export "" (memory 0))
+  (export "$Y%" (table 0))
+  (export "S\u{2}\u{8}c" (global 0))
+  (export "\u{1}h" (table 0))
+)

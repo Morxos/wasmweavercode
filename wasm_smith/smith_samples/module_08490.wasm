@@ -1,0 +1,6 @@
+(module
+  (import "'" "" (memory (;0;) 1))
+  (import "" "" (global (;0;) i31ref))
+  (global (;1;) i64 i64.const -1758176818628076348)
+  (export "" (memory 0))
+)

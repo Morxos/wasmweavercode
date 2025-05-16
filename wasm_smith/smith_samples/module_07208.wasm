@@ -1,0 +1,8 @@
+(module
+  (import "E4" "" (memory (;0;) i64 791 199538325031519 shared))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (global (;1;) f32))
+  (import "p\u{13}\u{1f}8" "" (global (;2;) (mut f32)))
+  (import "\u{19}z\u{16}" "" (table (;0;) 0 i31ref))
+  (data (;0;) (i64.const 0) "")
+)

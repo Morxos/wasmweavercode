@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "1" "" (global (;1;) (mut externref)))
+  (export "" (global 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+)

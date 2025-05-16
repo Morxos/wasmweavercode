@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut nullref)))
+  (import "\u{17}\u{b}z" "" (global (;1;) f64))
+  (import "M" "" (table (;0;) 100 727144 nullref))
+  (global (;2;) i64 i64.const -1376385583067710581)
+  (export "{," (global 1))
+  (data (;0;) "")
+  (data (;1;) "\9d")
+  (data (;2;) "\fe'")
+)

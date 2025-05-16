@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31) (ref.null i31))
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\19\9c\ea")
+)

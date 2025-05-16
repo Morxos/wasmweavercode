@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (table (;0;) 60 912819 arrayref)
+  (export "^e\u{5}" (global 0))
+  (data (;0;) "WT\c3,")
+  (data (;1;) "s")
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 5046)
+  (export "" (memory 0))
+  (export "S" (memory 0))
+  (elem (;0;) declare exnref)
+  (elem (;1;) structref (ref.null none))
+  (elem (;2;) eqref)
+  (data (;0;) "")
+)

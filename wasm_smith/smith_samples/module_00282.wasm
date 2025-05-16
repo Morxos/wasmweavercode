@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) i64 12167)
+  (global (;0;) f32 f32.const 0x1.346358p+58 (;=347214100000000000;))
+  (export "" (memory 0))
+  (export "l" (global 0))
+  (data (;0;) "\19")
+)

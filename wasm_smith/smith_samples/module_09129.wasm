@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 5622 15451 shared)
+  (export "i" (memory 0))
+  (export "AJ" (memory 0))
+  (export "\u{2d5}Q" (memory 0))
+  (elem (;0;) declare nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) (i32.const 18814933) "")
+)

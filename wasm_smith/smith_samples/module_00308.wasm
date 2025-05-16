@@ -1,0 +1,240 @@
+(module
+  (rec
+    (type (;0;) (func (param f64)))
+    (type (;1;) (sub (func (param i64) (result f64))))
+    (type (;2;) (func (result f64)))
+  )
+  (memory (;0;) i64 0 128030559876490 shared)
+  (global (;0;) (mut i32) i32.const 0)
+  (global (;1;) (mut i64) i64.const 0)
+  (global (;2;) (mut i32) i32.const 0)
+  (global (;3;) (mut i64) i64.const 0)
+  (export "H" (memory 0))
+  (export "D" (global 0))
+  (export "\u{fbe9}\u{19}D" (global 1))
+  (export "," (global 2))
+  (export "" (global 3))
+  (elem (;0;) (ref null 2))
+  (elem (;1;) (ref null 0) (ref.null nofunc))
+  (func (;0;) (type 0) (param f64)
+    (local i32 f64)
+    i32.const 15
+    i32.popcnt
+    elem.drop 1
+    br 0
+    ref.null nofunc
+    i32.const -356632902
+    local.get 0
+    memory.size
+    local.get 1
+    i32.store align=1
+    i32.trunc_sat_f64_s
+    i32.shr_s
+    nop
+    f64.convert_i32_s
+    block (type 0) (param f64) ;; label = @1
+      local.set 0
+      block (type 2) (result f64) ;; label = @2
+        ref.null i31
+        i64.const 70368744177664
+        i64.load32_u align=2
+        br 1 (;@1;)
+        loop ;; label = @3
+          loop (result f32) ;; label = @4
+            memory.size
+            i32.load16_u
+            i32.extend16_s
+            i64.extend_i32_u
+            i64.popcnt
+            i32.load8_s
+            br 3 (;@1;)
+            f64.const -0x1.446d6d14fcfeap-312 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015188643013890385;)
+            i32.trunc_sat_f64_u
+            f64.convert_i32_s
+            f64.sqrt
+            f64.abs
+            f32.const -0x1.fffffep+64 (;=-36893486000000000000;)
+            f32.nearest
+            f32.const 0x1.8e7c2ap-96 (;=0.000000000000000000000000000019646828;)
+            f32.nearest
+            ref.null array
+            local.get 0
+            i32.trunc_f64_u
+            if ;; label = @5
+              local.get 2
+              loop (result i64) ;; label = @6
+                f32.const 0x1.4776d2p+119 (;=850145500000000000000000000000000000;)
+                loop (result i32) ;; label = @7
+                  try_table (catch_all 1 (;@6;)) (catch_all 0 (;@7;)) (catch_all 3 (;@4;)) (catch_all 1 (;@6;)) (catch_all 4 (;@3;)) (catch_all 0 (;@7;)) (catch_all 2 (;@5;)) (catch_all 4 (;@3;)) ;; label = @8
+                    i32.const -536870912
+                    i32.popcnt
+                    br_table 0 (;@8;) 1 (;@7;) 2 (;@6;) 3 (;@5;) 4 (;@4;) 5 (;@3;) 7 (;@1;) 8 1 (;@7;)
+                    f32.const 0x1.fff8p-136 (;=0.000000000000000000000000000000000000000022957;)
+                    i32.trunc_sat_f32_s
+                    f64.convert_i32_u
+                    f64.const 0x1.c16afdc336ef1p+935 (;=509866384687221230000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+                    f64.ne
+                    f64.convert_i32_u
+                    memory.size
+                    i64.load
+                    f32.load align=1
+                    try_table (type 2) (result f64) (catch_all 5 (;@3;)) (catch_all 1 (;@7;)) (catch_all 7 (;@1;)) (catch_all 3 (;@5;)) (catch_all 0 (;@8;)) ;; label = @9
+                      block (type 2) (result f64) ;; label = @10
+                        i64.const -33554433
+                        elem.drop 0
+                        i32.const 392868821
+                        elem.drop 0
+                        try_table (type 2) (result f64) ;; label = @11
+                          i64.const 6549104263206083442
+                          i64.load16_u
+                          block (result f64) ;; label = @12
+                            br 11 (;@1;)
+                            local.get 2
+                            i32.trunc_f64_u
+                            nop
+                            i32.popcnt
+                            i32.const 1728399124
+                            local.tee 1
+                            i64.extend_i32_u
+                            local.get 0
+                            local.get 0
+                            i64.trunc_sat_f64_u
+                            i64.load32_s align=2
+                            i64.eqz
+                            memory.size
+                            elem.drop 0
+                            i64.load16_s align=1
+                            i32.load16_s
+                            global.get 0
+                            i32.xor
+                            global.set 0
+                            local.get 0
+                            i32.trunc_sat_f64_u
+                            i32.shr_s
+                            loop ;; label = @13
+                              i64.const -5364133541734922890
+                              i32.load16_u align=1
+                              f32.convert_i32_u
+                              memory.size
+                              i64.const 536870912
+                              i32.wrap_i64
+                              global.get 0
+                              i32.xor
+                              global.set 0
+                              global.get 1
+                              i64.xor
+                              global.set 1
+                              i32.reinterpret_f32
+                              global.get 2
+                              i32.xor
+                              global.set 2
+                            end
+                            global.get 0
+                            i32.xor
+                            global.set 0
+                            i64.reinterpret_f64
+                            global.get 3
+                            i64.xor
+                            global.set 3
+                            global.get 1
+                            i64.xor
+                            global.set 1
+                            global.get 0
+                            i32.xor
+                            global.set 0
+                            f64.const -0x1.df3ecfb1bba3cp-753 (;=-0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000395122001843881;)
+                          end
+                          i64.reinterpret_f64
+                          global.get 3
+                          i64.xor
+                          global.set 3
+                          global.get 1
+                          i64.xor
+                          global.set 1
+                          f64.const -nan:0xfffffffffff80 (;=NaN;)
+                        end
+                        i64.reinterpret_f64
+                        global.get 3
+                        i64.xor
+                        global.set 3
+                        global.get 0
+                        i32.xor
+                        global.set 0
+                        global.get 1
+                        i64.xor
+                        global.set 1
+                        f64.const -0x1.a5068d9abfc82p-170 (;=-0.0000000000000000000000000000000000000000000000000010989280868644835;)
+                      end
+                    end
+                    i64.reinterpret_f64
+                    global.get 3
+                    i64.xor
+                    global.set 3
+                    i32.reinterpret_f32
+                    global.get 2
+                    i32.xor
+                    global.set 2
+                    i64.reinterpret_f64
+                    global.get 3
+                    i64.xor
+                    global.set 3
+                  end
+                  i32.const 524288
+                end
+                global.get 0
+                i32.xor
+                global.set 0
+                i32.reinterpret_f32
+                global.get 2
+                i32.xor
+                global.set 2
+                i64.const 3245757506785601657
+              end
+              global.get 1
+              i64.xor
+              global.set 1
+              i64.reinterpret_f64
+              global.get 3
+              i64.xor
+              global.set 3
+            end
+            drop
+            i32.reinterpret_f32
+            global.get 2
+            i32.xor
+            global.set 2
+            i32.reinterpret_f32
+            global.get 2
+            i32.xor
+            global.set 2
+            i64.reinterpret_f64
+            global.get 3
+            i64.xor
+            global.set 3
+            global.get 0
+            i32.xor
+            global.set 0
+            f32.const 0x1.77fca4p-61 (;=0.00000000000000000063694655;)
+          end
+          i32.reinterpret_f32
+          global.get 2
+          i32.xor
+          global.set 2
+        end
+        global.get 1
+        i64.xor
+        global.set 1
+        drop
+        f64.const -0x1.271ff241c5f83p+830 (;=-8253955579380696000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+      end
+      i64.reinterpret_f64
+      global.get 3
+      i64.xor
+      global.set 3
+    end
+    drop
+    global.get 0
+    i32.xor
+    global.set 0
+  )
+)

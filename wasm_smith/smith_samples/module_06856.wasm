@@ -1,0 +1,12 @@
+(module
+  (import "/v\u{8}" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 771 funcref ref.null func)
+  (memory (;0;) 3979)
+  (global (;1;) f64 f64.const 0x1.f34ea8eb6c5a3p+387 (;=614803373430773100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (elem (;0;) (table 0) (i64.const 0) funcref)
+  (data (;0;) (i32.const 8948) "/?")
+  (data (;1;) "")
+  (data (;2;) (i32.const 742333) "")
+  (data (;3;) (i32.const 14022925) "")
+  (data (;4;) (i32.const 387) "")
+)

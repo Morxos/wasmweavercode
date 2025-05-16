@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) i64 226 nullfuncref))
+  (memory (;0;) 3260 7614 shared)
+  (elem (;0;) i31ref (ref.null i31))
+  (elem (;1;) (table 0) (i64.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) i31ref (ref.null none))
+  (elem (;3;) (table 0) (i64.const 1) nullfuncref (ref.null nofunc))
+  (data (;0;) "")
+  (data (;1;) "")
+)

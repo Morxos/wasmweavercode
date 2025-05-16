@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "R6" "" (global (;1;) f32))
+  (memory (;0;) i64 0)
+  (global (;2;) i32 i32.const -993571497 i32.const 1149586894 i32.sub i32.const -1159113382 i32.const 342747402 i32.sub i32.const -2047890374 i32.const -752297092 i32.add i32.mul i32.mul)
+  (data (;0;) "\a9")
+  (data (;1;) "\e5]1")
+)

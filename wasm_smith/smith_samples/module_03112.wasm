@@ -1,0 +1,6 @@
+(module
+  (import "i" "" (global (;0;) (mut structref)))
+  (export "\u{1c}e" (global 0))
+  (export "I6" (global 0))
+  (data (;0;) "")
+)

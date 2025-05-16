@@ -1,0 +1,6 @@
+(module
+  (import "}y)\u{b}*e" "" (memory (;0;) i64 33 190571843588843 shared))
+  (global (;0;) i32 i32.const -269938115 i32.const 423615273 i32.const -378379586 i32.const 1785432437 i32.const -1649012026 i32.const 837817258 i32.mul i32.const -421450762 i32.add i32.sub i32.const 497307451 i32.sub i32.add i32.const -469891167 i32.add i32.mul i32.add)
+  (data (;0;) (i64.const 16263) "")
+  (data (;1;) "")
+)

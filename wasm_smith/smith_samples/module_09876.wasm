@@ -1,0 +1,13 @@
+(module
+  (import "\u{6}w&" "" (global (;0;) exnref))
+  (global (;1;) i64 i64.const 6069745939762403063)
+  (global (;2;) i32 i32.const -1432190815 i32.const -712103489 i32.const -137825983 i32.const 479592661 i32.sub i32.add i32.const 1223877521 i32.sub i32.mul i32.const -311762725 i32.const -1084523732 i32.const -163796976 i32.sub i32.mul i32.sub)
+  (global (;3;) i64 i64.const -4789328297891915791)
+  (global (;4;) (mut nullfuncref) ref.null nofunc)
+  (export "" (global 3))
+  (export ">S\u{19}" (global 3))
+  (export "2" (global 2))
+  (export "3" (global 3))
+  (elem (;0;) declare anyref)
+  (data (;0;) "\b8")
+)

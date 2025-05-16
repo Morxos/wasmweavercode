@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (global (;1;) f32))
+  (import "" "" (global (;2;) f64))
+  (import "\u{3}m" "" (global (;3;) exnref))
+  (elem (;0;) anyref)
+  (data (;0;) "")
+  (data (;1;) "i")
+)

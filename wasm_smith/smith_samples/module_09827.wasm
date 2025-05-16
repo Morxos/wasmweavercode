@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 12488 225678767792832)
+  (global (;0;) (mut i64) i64.const -2054110447485644427)
+  (export "" (memory 0))
+  (export "\u{18}" (memory 0))
+  (data (;0;) (i64.const 14414) "\81")
+  (data (;1;) (i64.const 787) "")
+)

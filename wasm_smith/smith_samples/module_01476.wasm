@@ -1,0 +1,10 @@
+(module
+  (import "$" "" (global (;0;) (mut nullref)))
+  (table (;0;) i64 16 502948 eqref)
+  (export "" (table 0))
+  (export "1" (global 0))
+  (elem (;0;) i31ref (ref.null i31))
+  (data (;0;) "\04S\88")
+  (data (;1;) ":")
+  (data (;2;) "")
+)

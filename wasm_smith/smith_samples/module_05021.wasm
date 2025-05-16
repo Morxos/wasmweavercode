@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 5305 i31ref))
+  (elem (;0;) nullexternref)
+  (elem (;1;) structref (ref.null none) (ref.null struct))
+)

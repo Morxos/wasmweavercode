@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "$\u{a6a1}q" "" (memory (;0;) i64 15 5907014905161))
+  (table (;0;) i64 132 532341 externref)
+  (export "\u{5c}qY" (global 0))
+)

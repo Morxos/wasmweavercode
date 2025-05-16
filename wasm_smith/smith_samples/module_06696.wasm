@@ -1,0 +1,7 @@
+(module
+  (import ".km" "" (table (;0;) i64 1796 i31ref))
+  (import "\u{c}" "" (memory (;0;) i64 48))
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null none) (ref.null struct))
+  (elem (;1;) (table 0) (i64.const 0) i31ref)
+  (data (;0;) "\1c;")
+)

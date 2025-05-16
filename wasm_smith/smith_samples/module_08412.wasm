@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 30 720804 nullfuncref ref.null nofunc)
+  (export "." (table 0))
+  (export "v" (table 0))
+  (export "" (table 0))
+  (export "nM" (table 0))
+  (data (;0;) "")
+)

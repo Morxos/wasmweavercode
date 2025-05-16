@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 15 nullref))
+  (memory (;0;) 10)
+  (global (;0;) (mut i32) i32.const -530018381)
+  (data (;0;) (i32.const 98021) "\96\03\9b.a")
+  (data (;1;) "")
+)

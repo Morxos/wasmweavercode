@@ -1,0 +1,8 @@
+(module
+  (import "{" "" (memory (;0;) 10137))
+  (global (;0;) (mut f32) f32.const -0x1.fbbb36p-30 (;=-0.0000000018471157;))
+  (global (;1;) i64 i64.const -7208221650400633418 i64.const -8853299565448140404 i64.const 3663451016877904009 i64.const 39199675444874464 i64.const 7160952851691731056 i64.const -8710558393569494389 i64.const -5850534167617095177 i64.const 2954787963249269793 i64.mul i64.sub i64.sub i64.const 4776642766022248026 i64.add i64.mul i64.const 8777152584952756407 i64.sub i64.sub i64.sub i64.mul)
+  (export "f" (memory 0))
+  (elem (;0;) externref)
+  (data (;0;) "")
+)

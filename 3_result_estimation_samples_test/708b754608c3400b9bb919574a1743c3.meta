@@ -1,0 +1,11 @@
+{
+    "reward": 0.3884423743817115,
+    "flag_states": {},
+    "return_values": [
+        {
+            "type": "f32",
+            "value": "45414.6796875"
+        }
+    ],
+    "stack_values": []
+}

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 0 5971)
+  (global (;0;) (mut i64) i64.const -5331166059399763802)
+  (global (;1;) (mut f64) f64.const -0x1.2812e9ca4ab9p+309 (;=-1206226289836717300000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (memory 0))
+  (elem (;0;) declare eqref (ref.null struct))
+  (elem (;1;) func)
+  (data (;0;) "z\e8")
+)

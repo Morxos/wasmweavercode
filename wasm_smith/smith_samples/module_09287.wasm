@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) i64 11 arrayref))
+  (import "\u{5c}\u{a}" "" (memory (;0;) i64 447 194734137898632))
+  (import "\u{b}\u{1e}" "" (global (;0;) (mut i32)))
+  (global (;1;) (mut exnref) ref.null exn)
+  (elem (;0;) i31ref (ref.null i31) (ref.null none) (ref.null i31))
+  (data (;0;) "\f9B\e7")
+  (data (;1;) (i64.const 1606950) "")
+  (data (;2;) (i64.const 90342) "w\03Q")
+)

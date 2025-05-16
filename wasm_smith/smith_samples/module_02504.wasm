@@ -1,0 +1,3 @@
+(module
+  (import "\u{12}" "" (memory (;0;) 32))
+)

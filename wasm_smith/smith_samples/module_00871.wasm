@@ -1,0 +1,8 @@
+(module
+  (import "?" "" (table (;0;) 0 i31ref))
+  (global (;0;) (mut exnref) ref.null exn)
+  (export "\u{1b}9[" (global 0))
+  (export "" (table 0))
+  (elem (;0;) declare i31ref)
+  (data (;0;) "\fd")
+)

@@ -1,0 +1,5 @@
+(module
+  (global (;0;) (mut i32) i32.const -333516752 i32.const 1028407425 i32.const -1509504921 i32.const 16908623 i32.const 861463923 i32.const 2011753019 i32.const -1109071932 i32.const -2046641805 i32.const -2115279254 i32.const -1899700371 i32.const 881837423 i32.const 951116516 i32.add i32.add i32.add i32.sub i32.add i32.add i32.mul i32.sub i32.add i32.sub i32.sub)
+  (export "R\u{2f8} 9" (global 0))
+  (elem (;0;) declare arrayref (ref.null array) (ref.null none) (ref.null array) (ref.null none) (ref.null array))
+)

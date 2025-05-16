@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 nullfuncref)
+  (global (;0;) (mut f32) f32.const 0x1.3929f8p-120 (;=0.0000000000000000000000000000000000009203061;))
+  (export "{(" (global 0))
+  (export "" (global 0))
+  (elem (;0;) i31ref)
+)

@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut arrayref)))
+  (import "" "" (table (;0;) 0 funcref))
+  (global (;1;) (mut i32) i32.const -1012866717)
+  (global (;2;) f64 f64.const -0x1.8d08c3f4be2c8p+524 (;=-85173741315578110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;3;) (mut externref) ref.null noextern)
+  (elem (;0;) declare exnref (ref.null exn))
+  (elem (;1;) declare nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "\c2\1d")
+  (data (;2;) "")
+)

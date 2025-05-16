@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 6935 13337 eqref ref.null eq)
+  (memory (;0;) 8769 41066 shared)
+  (data (;0;) (i32.const 481320681) "")
+  (data (;1;) (i32.const 184353958) "")
+  (data (;2;) "\ed\b5")
+)

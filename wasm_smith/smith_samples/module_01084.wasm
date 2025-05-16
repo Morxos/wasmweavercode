@@ -1,0 +1,5 @@
+(module
+  (import "k]" "" (global (;0;) (mut f64)))
+  (export "" (global 0))
+  (elem (;0;) declare func)
+)

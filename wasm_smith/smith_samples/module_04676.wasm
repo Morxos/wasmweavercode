@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) i64 16 158066064007618 shared))
+  (import "\u{18}" "" (table (;0;) i64 0 nullref))
+  (data (;0;) (i64.const 3) "R\caA")
+  (data (;1;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (import "E" "" (table (;0;) i64 675 130450 externref))
+  (import "!Ao7" "" (memory (;0;) 411 7549 shared))
+  (import "" "" (global (;0;) anyref))
+  (import "$P152" "" (global (;1;) (mut i64)))
+  (export "" (table 0))
+)

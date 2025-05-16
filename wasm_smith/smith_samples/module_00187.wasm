@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) declare eqref (ref.null eq))
+  (elem (;2;) declare nullref (ref.null none))
+)

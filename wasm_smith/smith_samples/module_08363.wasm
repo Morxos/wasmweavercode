@@ -1,0 +1,6 @@
+(module
+  (import "zk" "" (table (;0;) i64 4 34909 externref))
+  (export "" (table 0))
+  (export "B" (table 0))
+  (export "mJ\u{9}\u{8}\u{16}J" (table 0))
+)

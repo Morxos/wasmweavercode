@@ -1,0 +1,8 @@
+(module
+  (type (;0;) (sub (struct (field (mut f64)) (field i32) (field (mut i8)) (field i16) (field (mut i16)) (field (mut i8)) (field i16) (field (mut i8)) (field (mut f64)) (field i8) (field (mut f64)) (field (mut externref)) (field (mut i16)) (field f64) (field i8) (field (mut i16)) (field f64) (field f64))))
+  (table (;0;) 461 exnref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "2" (table 0))
+  (export "N" (table 0))
+)

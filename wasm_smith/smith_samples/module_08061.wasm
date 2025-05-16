@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 2555 210735 funcref ref.null nofunc)
+  (export "\u{3bb}`p\u{22}\u{f}Gh<" (table 0))
+  (export "Y" (table 0))
+  (data (;0;) "\93")
+  (data (;1;) "")
+)

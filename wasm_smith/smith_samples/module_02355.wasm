@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut eqref)))
+  (table (;0;) 2 structref)
+  (data (;0;) "")
+  (data (;1;) "\ad\8fh\a2")
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 0 i31ref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "f\u{e} " (table 0))
+  (export "3" (table 0))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare func)
+)

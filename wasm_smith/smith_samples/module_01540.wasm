@@ -1,0 +1,11 @@
+(module
+  (rec
+    (type (;0;) (sub (struct (field (mut i64)) (field (mut i16)) (field (mut i64)) (field (mut f64)) (field (mut i16)) (field i16) (field (mut i16)) (field (mut i16)) (field i32) (field (mut i8)) (field (mut i16)))))
+    (type (;1;) (array (mut i16)))
+  )
+  (table (;0;) i64 18 externref ref.null extern)
+  (global (;0;) (mut i64) i64.const 1096289756165979667)
+  (elem (;0;) (table 0) (i64.const 0) nullexternref)
+  (elem (;1;) (table 0) (i64.const 1) externref (ref.null noextern))
+  (elem (;2;) declare (ref null 0) (ref.null none) (ref.null 0) (ref.null 0))
+)

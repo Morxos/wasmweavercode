@@ -1,0 +1,7 @@
+(module
+  (global (;0;) (mut i32) i32.const 1264916986)
+  (export "R1" (global 0))
+  (export "B~" (global 0))
+  (export "" (global 0))
+  (elem (;0;) exnref (ref.null exn) (ref.null exn))
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 17 i31ref)
+  (memory (;0;) 16)
+  (global (;0;) (mut f64) f64.const 0x1.769593125dfd4p+410 (;=3869080797802929500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "\u{5ea}" (table 0))
+  (export "\u{22}" (table 0))
+  (elem (;0;) exnref)
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) eqref (ref.null i31))
+)

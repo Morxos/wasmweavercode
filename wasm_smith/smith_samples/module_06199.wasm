@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 1854 630798 funcref)
+  (global (;0;) funcref ref.null nofunc)
+  (global (;1;) (mut i32) i32.const 211269263)
+  (global (;2;) (mut eqref) ref.null none)
+  (global (;3;) (mut i32) i32.const 1803407963)
+  (global (;4;) (mut f32) f32.const -0x1.822d6ep-104 (;=-0.000000000000000000000000000000074375073;))
+  (global (;5;) f64 f64.const -0x1.417a43aace60bp+80 (;=-1518135019714610000000000;))
+)

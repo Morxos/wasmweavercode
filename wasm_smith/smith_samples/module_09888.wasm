@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 864640 nullref)
+  (memory (;0;) 5216)
+  (export "d" (memory 0))
+  (export "\u{1e} " (memory 0))
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) func)
+  (data (;0;) (i32.const 1950561) " ")
+)

@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 454)
+  (export "" (memory 0))
+  (elem (;0;) declare nullexternref)
+)

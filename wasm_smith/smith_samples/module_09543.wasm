@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 1 structref)
+  (memory (;0;) 4 60273 shared)
+  (global (;0;) (mut i32) i32.const -745598391 i32.const -1467664358 i32.const 2146908585 i32.const 1260079320 i32.const -2059770605 i32.const 1701690130 i32.const -858866492 i32.const -965672719 i32.add i32.mul i32.const 2053577218 i32.mul i32.mul i32.sub i32.sub i32.mul i32.add i32.const -1800811537 i32.add)
+  (global (;1;) (mut funcref) ref.null func)
+  (export "3\u{18}Zk" (global 1))
+  (export "T\u{1a}|\u{5c}}N" (global 1))
+)

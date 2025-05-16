@@ -1,0 +1,8 @@
+(module
+  (rec)
+  (table (;0;) i64 897 974327 nullexternref)
+  (memory (;0;) i64 13261)
+  (elem (;0;) i31ref (ref.null i31) (ref.null none) (ref.null none) (ref.null i31))
+  (elem (;1;) (table 0) (i64.const 8) nullexternref)
+  (data (;0;) "\14")
+)

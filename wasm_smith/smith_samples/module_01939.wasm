@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 2)
+  (global (;0;) i64 i64.const 3920411964165731683)
+  (global (;1;) (mut i31ref) ref.null none)
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 730296 eqref ref.null struct)
+  (memory (;0;) 2679 13492)
+  (global (;0;) f32 f32.const -0x1.397964p+63 (;=-11294098000000000000;))
+)

@@ -1,0 +1,10 @@
+(module
+  (import "0" "" (global (;0;) arrayref))
+  (import "" "" (global (;1;) (mut i64)))
+  (import "~" "" (memory (;0;) 792 53722))
+  (import "" "" (table (;0;) 5 eqref))
+  (import "\u{22}5\u{2}" "" (global (;2;) (mut f64)))
+  (export "\u{234}@" (table 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) (table 0) (i32.const 4) arrayref (global.get 0))
+)

@@ -1,0 +1,10 @@
+(module
+  (import "y" "" (memory (;0;) 784 59015))
+  (import "" "" (global (;0;) i64))
+  (table (;0;) 1 structref)
+  (global (;1;) externref ref.null noextern)
+  (elem (;0;) eqref)
+  (elem (;1;) (table 0) (i32.const 0) nullref)
+  (elem (;2;) (table 0) (i32.const 0) structref (ref.null none))
+  (elem (;3;) arrayref (ref.null none))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "8s\u{b}.T" "" (global (;0;) f32))
+  (import "3" "" (global (;1;) f64))
+  (global (;2;) f64 global.get 1)
+  (global (;3;) (mut anyref) ref.null any)
+  (global (;4;) (mut i64) i64.const 1515714005564930460 i64.const 8314636751634810278 i64.const 3183460894033683215 i64.const 1777637088595015494 i64.const 7276315959945592427 i64.const -6163091727820861946 i64.const 4864374393447072509 i64.const -4486246121653377575 i64.const -35483854924216526 i64.const 163496031656699346 i64.const 1087879593657961236 i64.const -189734298724778537 i64.mul i64.add i64.add i64.sub i64.sub i64.mul i64.add i64.mul i64.add i64.sub i64.mul)
+  (global (;5;) i32 i32.const 1703783057)
+)

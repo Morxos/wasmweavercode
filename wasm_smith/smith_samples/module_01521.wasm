@@ -1,0 +1,7 @@
+(module
+  (import "f8sXF" "" (memory (;0;) 211 34853 shared))
+  (table (;0;) i64 1655 442371 exnref ref.null exn)
+  (data (;0;) "")
+  (data (;1;) "\96\d7")
+  (data (;2;) (i32.const 782638) "p\f6")
+)

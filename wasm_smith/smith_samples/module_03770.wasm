@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 8 632082 nullexternref ref.null noextern)
+  (global (;0;) i32 i32.const -1924233978 i32.const -513236366 i32.const 1564165361 i32.const -840160513 i32.const 559961994 i32.const -790709085 i32.sub i32.mul i32.const 401980037 i32.const 1726145119 i32.mul i32.sub i32.sub i32.sub i32.const -1212673707 i32.mul i32.mul)
+  (global (;1;) (mut i64) i64.const -4993746146248620194)
+)

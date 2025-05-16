@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 341 641738 nullref ref.null none)
+  (memory (;0;) 4123 28027)
+  (elem (;0;) declare nullref (ref.null none))
+  (data (;0;) (i32.const 1805185) "")
+  (data (;1;) "\d2")
+  (data (;2;) (i32.const 1647) ")d\ea\b8\d0")
+  (data (;3;) (i32.const 218505794) "\0e=")
+  (data (;4;) "\e5:")
+  (data (;5;) "")
+  (data (;6;) "J")
+)

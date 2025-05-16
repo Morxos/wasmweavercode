@@ -1,0 +1,13 @@
+(module
+  (import "il\u{510}" "" (table (;0;) 6807 70052 nullref))
+  (memory (;0;) i64 1073 14541202160346 shared)
+  (global (;0;) f64 f64.const -0x1.86fa82869455ap-529 (;=-0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008690510021293615;))
+  (global (;1;) (mut nullfuncref) ref.null nofunc)
+  (global (;2;) (mut i64) i64.const 4320059791800679692 i64.const -4750677766682884514 i64.mul i64.const -7601314379011888611 i64.mul i64.const 6300451622379942528 i64.const 8451840124978324818 i64.sub i64.const 5216620518949813279 i64.sub i64.sub i64.const 1489779408317310547 i64.add)
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) declare nullexternref (ref.null noextern))
+  (elem (;3;) (table 0) (i32.const 183) nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) (i64.const 3) "\d9\03\be\f0")
+)

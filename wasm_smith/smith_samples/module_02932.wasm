@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 0)
+  (global (;0;) i64 i64.const -7275222182959049847)
+  (elem (;0;) declare i31ref)
+  (elem (;1;) declare externref (ref.null noextern))
+)

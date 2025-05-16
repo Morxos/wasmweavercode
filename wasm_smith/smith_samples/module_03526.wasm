@@ -1,0 +1,13 @@
+(module
+  (rec
+    (type (;0;) (array (mut i16)))
+    (type (;1;) (sub (array (mut f64))))
+  )
+  (table (;0;) i64 122 arrayref ref.null 1)
+  (memory (;0;) i64 20 236594936523538 shared)
+  (export "" (memory 0))
+  (elem (;0;) (ref null 1))
+  (elem (;1;) (table 0) (i64.const 0) arrayref)
+  (elem (;2;) eqref)
+  (data (;0;) (i64.const 140338) "")
+)

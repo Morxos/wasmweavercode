@@ -1,0 +1,5 @@
+(module
+  (global (;0;) exnref ref.null exn)
+  (global (;1;) exnref ref.null exn)
+  (export "" (global 1))
+)

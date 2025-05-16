@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) 5726 454398 structref))
+  (import "S" "" (memory (;0;) i64 0))
+  (global (;0;) f32 f32.const 0x1.a8a9ccp-105 (;=0.000000000000000000000000000000040893585;))
+  (global (;1;) (mut i32) i32.const 996717893)
+  (global (;2;) (mut nullexternref) ref.null noextern)
+  (global (;3;) structref ref.null struct)
+  (global (;4;) f64 f64.const 0x1.28ead0fad75d7p+146 (;=103460561966103970000000000000000000000000000;))
+  (export "\u{5}" (global 2))
+  (data (;0;) "")
+)

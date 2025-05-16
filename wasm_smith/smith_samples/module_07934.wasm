@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 2574)
+  (export "" (memory 0))
+  (elem (;0;) declare externref (ref.null extern))
+  (elem (;1;) arrayref (ref.null array))
+  (elem (;2;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;3;) externref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (data (;0;) (i64.const 39385) "\03\22\f1\18")
+)

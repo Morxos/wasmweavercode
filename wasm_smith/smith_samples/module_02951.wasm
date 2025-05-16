@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) i64 275))
+  (import "1Yl\u{10}" "" (global (;0;) (mut f32)))
+  (import "" "" (global (;1;) i32))
+  (import "\u{c}" "" (global (;2;) (mut f32)))
+  (global (;3;) i64 i64.const -447460183873040868 i64.const -2566459460656707708 i64.const 6235278331630434919 i64.const 611809703209925729 i64.const 6872717518529149223 i64.const -8112245930525825759 i64.const 6314276964481805164 i64.const -6584869208382650665 i64.const -4109491263314681519 i64.const 3948232351226331908 i64.sub i64.mul i64.sub i64.sub i64.const -1396244060731189018 i64.sub i64.add i64.mul i64.sub i64.mul i64.sub)
+  (export "OA" (global 0))
+  (elem (;0;) declare anyref)
+  (data (;0;) (global.get 3) "")
+)

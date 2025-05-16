@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (table (;0;) 0 302403 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 15835)
+  (global (;1;) i32 i32.const 298627115)
+  (export "\u{7db} " (global 0))
+)

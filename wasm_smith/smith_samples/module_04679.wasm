@@ -1,0 +1,6 @@
+(module
+  (import "0" "" (global (;0;) (mut f64)))
+  (import "" "" (table (;0;) 1533 320011 nullexternref))
+  (memory (;0;) 815)
+  (export "\u{a}\u{8}" (global 0))
+)

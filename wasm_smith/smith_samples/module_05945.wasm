@@ -1,0 +1,10 @@
+(module
+  (import "/" "" (memory (;0;) i64 15694 9671988573471))
+  (table (;0;) i64 2741 253853 anyref ref.null any)
+  (export "v" (memory 0))
+  (export "" (table 0))
+  (data (;0;) "\a2\04")
+  (data (;1;) "\ee")
+  (data (;2;) "V")
+  (data (;3;) (i64.const 24485727) "\b0")
+)

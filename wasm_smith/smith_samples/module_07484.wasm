@@ -1,0 +1,10 @@
+(module
+  (import "x" "" (global (;0;) (mut i31ref)))
+  (import "&\u{d}" "" (table (;0;) i64 425 824865 funcref))
+  (import "m\u{1a}\u{1}v3" "" (memory (;0;) 15 46381))
+  (import "" "" (global (;1;) i31ref))
+  (global (;2;) f32 f32.const 0x1.4c2bbcp-71 (;=0.00000000000000000000054953055;))
+  (global (;3;) i64 i64.const -5393354295254700396)
+  (export "" (memory 0))
+  (data (;0;) "")
+)

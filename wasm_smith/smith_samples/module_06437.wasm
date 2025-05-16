@@ -1,0 +1,6 @@
+(module
+  (import "*j" "" (table (;0;) i64 0 648540 nullfuncref))
+  (memory (;0;) i64 1 6956124311709)
+  (global (;0;) (mut i32) i32.const -244641524 i32.const -79984068 i32.const 2018868950 i32.const 2030704981 i32.sub i32.const -1045365178 i32.add i32.const 879955165 i32.const -592804344 i32.const 1678452254 i32.mul i32.add i32.add i32.sub i32.add)
+  (global (;1;) (mut f64) f64.const -0x1.bffec03ef088ep-45 (;=-0.00000000000004973744981862003;))
+)

@@ -1,0 +1,4 @@
+(module
+  (import "v\u{a68b}\u{5}n" "" (memory (;0;) i64 687 94238906965058 shared))
+  (import "\u{3}!\u{13}\u{344}" "" (table (;0;) 244 arrayref))
+)

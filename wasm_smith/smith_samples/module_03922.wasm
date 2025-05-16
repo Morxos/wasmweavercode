@@ -1,0 +1,12 @@
+(module
+  (import "\u{b}" "" (global (;0;) f32))
+  (global (;1;) (mut i32) i32.const -147764957 i32.const 1781226499 i32.add i32.const -2046599168 i32.const -1644106975 i32.mul i32.const -342720921 i32.mul i32.const -2128232397 i32.const 2078346895 i32.sub i32.add i32.mul)
+  (global (;2;) f32 global.get 0)
+  (global (;3;) (mut f32) f32.const 0x1.d685d8p+25 (;=61672370;))
+  (global (;4;) (mut externref) ref.null extern)
+  (global (;5;) i64 i64.const -8892697870853972198 i64.const 8413716586642923041 i64.const -5096357552440897339 i64.const 8099605701662688197 i64.const 7926454356020816228 i64.const 7996375341720440936 i64.const 8079676001963152589 i64.const 3151365438109142786 i64.mul i64.add i64.const -4414275989589105797 i64.sub i64.add i64.add i64.const -7988659262506040550 i64.add i64.add i64.mul i64.add)
+  (global (;6;) f32 global.get 2)
+  (global (;7;) nullfuncref ref.null nofunc)
+  (global (;8;) f32 global.get 6)
+  (export "\u{12}" (global 7))
+)

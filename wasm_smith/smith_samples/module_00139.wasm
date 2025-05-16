@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 1 structref)
+  (memory (;0;) 54 22269)
+  (global (;0;) f32 f32.const -0x1.68a58ep-89 (;=-0.0000000000000000000000000022760006;))
+  (export "" (table 0))
+  (export "\u{65a}-" (memory 0))
+)

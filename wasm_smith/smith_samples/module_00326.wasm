@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 0 funcref)
+  (global (;0;) (mut i64) i64.const 5591529309402265122)
+  (export "" (table 0))
+  (elem (;0;) structref (ref.null none))
+  (elem (;1;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "R_6m\80")
+)

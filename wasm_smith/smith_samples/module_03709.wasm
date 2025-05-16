@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "o\u{17}" "" (table (;0;) 240 998505 anyref))
+  (import "" "" (global (;1;) i32))
+  (memory (;0;) 0)
+  (export "" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "")
+)

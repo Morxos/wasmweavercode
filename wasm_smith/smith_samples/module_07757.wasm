@@ -1,0 +1,7 @@
+(module
+  (import "\u{408}~" "" (global (;0;) (mut f32)))
+  (table (;0;) 657 812161 nullfuncref)
+  (export "" (global 0))
+  (export "1" (global 0))
+  (export ")" (table 0))
+)

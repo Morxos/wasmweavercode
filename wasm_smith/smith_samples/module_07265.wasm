@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 6783 nullexternref)
+  (global (;0;) (mut f32) f32.const -0x1.d55248p+4 (;=-29.332588;))
+  (global (;1;) (mut i64) i64.const -2273805876413061919)
+  (elem (;0;) nullexternref)
+  (elem (;1;) nullfuncref (ref.null nofunc))
+)

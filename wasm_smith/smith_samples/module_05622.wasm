@@ -1,0 +1,7 @@
+(module
+  (import "\u{2}(0" "" (global (;0;) (mut i31ref)))
+  (import "\u{2}" "" (table (;0;) i64 6069 eqref))
+  (import "" "" (memory (;0;) i64 1))
+  (global (;1;) (mut i64) i64.const 2922629457400882513 i64.const 5092420421978872510 i64.sub)
+  (elem (;0;) exnref)
+)

@@ -1,0 +1,13 @@
+(module
+  (memory (;0;) i64 1121 217319365226603 shared)
+  (global (;0;) (mut i32) i32.const 1964350767)
+  (global (;1;) i32 i32.const -892247121)
+  (global (;2;) (mut i32) i32.const 1696423466 i32.const -680583185 i32.const -410028853 i32.const -2030787303 i32.const 1251647953 i32.const 1125276481 i32.const -1572631048 i32.const 758882784 i32.sub i32.add i32.sub i32.add i32.sub i32.sub i32.const 798756693 i32.const 1911174351 i32.mul i32.mul i32.sub)
+  (export "\u{16}" (global 0))
+  (elem (;0;) declare arrayref (ref.null none))
+  (elem (;1;) nullfuncref (ref.null nofunc))
+  (elem (;2;) nullref)
+  (elem (;3;) declare nullref (ref.null none))
+  (elem (;4;) declare eqref)
+  (data (;0;) (i64.const 11458718) "")
+)

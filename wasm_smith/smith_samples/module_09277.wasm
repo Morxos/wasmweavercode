@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 0)
+  (global (;0;) i64 i64.const -8819753695930048457)
+  (export "q" (global 0))
+  (elem (;0;) declare arrayref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\1a")
+)

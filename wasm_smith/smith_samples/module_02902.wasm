@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 237 34476 shared))
+  (import ";\u{18}S{l" "" (table (;0;) 13 789911 exnref))
+  (import "#" "" (global (;0;) (mut f64)))
+  (import "\u{1f}" "" (global (;1;) f64))
+  (elem (;0;) func)
+  (data (;0;) (i32.const 26) "")
+)

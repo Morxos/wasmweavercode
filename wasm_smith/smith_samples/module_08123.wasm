@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 4 structref ref.null struct)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "2" (table 0))
+  (export "/oJ\u{1})+" (table 0))
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (import "4" "" (memory (;0;) 2965 22313))
+  (import "*\u{11}?" "" (global (;1;) i32))
+  (import "" "" (table (;0;) i64 7610 861435 i31ref))
+  (import "" "" (global (;2;) (mut f32)))
+  (global (;3;) i32 i32.const -409304142 i32.const -256326897 i32.const -562647680 i32.const -1489766239 i32.const -2070406141 i32.sub i32.sub i32.const -1331236986 i32.add i32.add i32.const -1589886868 i32.mul i32.const 2023937603 i32.mul i32.sub)
+  (global (;4;) (mut i64) global.get 0)
+  (export "Qv" (table 0))
+  (export "S`j\u{1e}\u{1e}" (table 0))
+)

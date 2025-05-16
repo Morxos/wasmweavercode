@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 nullexternref ref.null noextern)
+  (elem (;0;) declare nullexternref)
+  (data (;0;) "\c3w")
+)

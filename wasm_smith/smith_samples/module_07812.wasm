@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "\u{12}" "" (memory (;0;) i64 12))
+  (import "~" "" (table (;0;) i64 0 42003 nullfuncref))
+  (import "" "" (global (;1;) eqref))
+  (global (;2;) (mut i32) i32.const 650279402 i32.const -1165290206 i32.const 121848267 i32.const -1786647361 i32.const 756699992 i32.const 1014485912 i32.const 1176938372 i32.const -1682197758 i32.const 586341982 i32.const 1225277830 i32.add i32.mul i32.mul i32.add i32.mul i32.add i32.mul i32.add i32.mul)
+  (elem (;0;) eqref)
+)

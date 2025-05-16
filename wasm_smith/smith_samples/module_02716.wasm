@@ -1,0 +1,6 @@
+(module
+  (import "\u{44f}i9\u{633}\u{13}" "" (memory (;0;) 15539))
+  (export "\u{577}7B" (memory 0))
+  (export "L" (memory 0))
+  (elem (;0;) declare structref (ref.null none))
+)

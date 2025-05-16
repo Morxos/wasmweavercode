@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 25 507977 nullexternref ref.null noextern)
+  (memory (;0;) i64 7)
+  (global (;0;) (mut anyref) ref.null any)
+  (elem (;0;) declare funcref)
+)

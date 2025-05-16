@@ -1,0 +1,12 @@
+(module
+  (import "5" "" (global (;0;) i31ref))
+  (import "" "" (memory (;0;) 35 28192 shared))
+  (import "\u{2}" "" (global (;1;) nullfuncref))
+  (table (;0;) 916 741685 i31ref global.get 0)
+  (export "" (global 1))
+  (export "1" (memory 0))
+  (export "2" (table 0))
+  (export "3" (memory 0))
+  (data (;0;) (i32.const 1628791) "")
+  (data (;1;) "")
+)

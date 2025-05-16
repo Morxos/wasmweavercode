@@ -1,0 +1,8 @@
+(module
+  (import "\u{a}\u{daa}" "" (memory (;0;) i64 441 29215455792823))
+  (export "" (memory 0))
+  (export "x\u{4}" (memory 0))
+  (export "'TJ" (memory 0))
+  (elem (;0;) nullexternref)
+  (data (;0;) (i64.const 26) "\ed")
+)

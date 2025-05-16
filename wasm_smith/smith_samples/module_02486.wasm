@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 1115 nullref ref.null none)
+  (global (;0;) i32 i32.const 1897829417)
+  (export "\u{12}" (table 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+)

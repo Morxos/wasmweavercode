@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) 0))
+  (table (;0;) 228 exnref ref.null exn)
+  (global (;0;) (mut nullfuncref) ref.null nofunc)
+  (global (;1;) (mut f32) f32.const -0x1.46ece4p+55 (;=-46010653000000000;))
+  (global (;2;) f32 f32.const 0x1.03c2eap+96 (;=80392250000000000000000000000;))
+  (global (;3;) i64 i64.const 1764418443430280168 i64.const -2462132320057733845 i64.const 3602619464965822329 i64.const 6983886548917481861 i64.const 3322108597096546583 i64.const -3036393413469589561 i64.const 8965679886692200271 i64.const -6510801851778405899 i64.const -6029726791539581957 i64.const -1848613104897279908 i64.sub i64.mul i64.sub i64.mul i64.const 3760058680827898854 i64.add i64.add i64.sub i64.sub i64.sub i64.sub)
+  (global (;4;) f32 f32.const -0x1.9848acp+46 (;=-112228220000000;))
+  (global (;5;) (mut i32) i32.const 844895551)
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 3749 27104)
+  (global (;0;) i32 i32.const 580454525 i32.const 1836960202 i32.add)
+  (global (;1;) i64 i64.const -6618184094404678984)
+  (global (;2;) (mut i32) global.get 0)
+  (export "R\u{13}" (global 0))
+  (export "" (global 2))
+  (elem (;0;) nullexternref)
+)

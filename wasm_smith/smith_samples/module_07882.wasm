@@ -1,0 +1,83 @@
+(module
+  (rec
+    (type (;0;) (sub (array i32)))
+    (type (;1;) (struct (field i16) (field (mut f64)) (field i8) (field i64) (field (mut i16)) (field f32) (field (mut i8)) (field (mut anyref)) (field (mut i16)) (field (mut f64)) (field (mut i16)) (field (mut f64)) (field (mut i8)) (field (mut i64)) (field i8) (field (mut i8)) (field (mut i8))))
+    (type (;2;) (sub (array (mut i8))))
+    (type (;3;) (func (param f32) (result f32)))
+    (type (;4;) (array (mut i8)))
+    (type (;5;) (array structref))
+    (type (;6;) (func (result i32 i32 f32 (ref null 5) f64)))
+    (type (;7;) (struct (field i32) (field i16) (field i32)))
+    (type (;8;) (func))
+    (type (;9;) (struct (field i16) (field i8) (field i8) (field i16) (field (mut i8)) (field i8) (field (mut f32)) (field i8) (field (mut i16)) (field i8)))
+  )
+  (import "\u{5c}ec\u{15a}" "" (tag (;0;) (type 8)))
+  (import "F;\u{a}\u{2}?\u{f}" "" (tag (;1;) (type 8)))
+  (tag (;2;) (type 8))
+  (global (;0;) (mut i32) i32.const 0)
+  (global (;1;) (mut i64) i64.const 0)
+  (global (;2;) (mut i64) i64.const 0)
+  (export "" (func 0))
+  (export "1" (global 0))
+  (export "2" (global 1))
+  (export "\u{17}\u{5}n\u{c}" (global 2))
+  (elem (;0;) declare (ref null 5))
+  (func (;0;) (type 3) (param f32) (result f32)
+    i32.const -16385
+    try_table ;; label = @1
+      ref.null exn
+      loop (type 8) ;; label = @2
+        elem.drop 0
+        ref.null 5
+        struct.new_default 1
+        i32.const -2094634369
+        i64.const 2520626038682959647
+        elem.drop 0
+        f64.const -0x1.29198c423f736p-127 (;=-0.000000000000000000000000000000000000006821076803377261;)
+        struct.new_default 9
+        br 0 (;@2;)
+        elem.drop 0
+        i32.const 268435455
+        br_if 1 (;@1;)
+        i32.const -1389111493
+        f32.const -nan:0x6fffff (;=NaN;)
+        f32.abs
+        i32.trunc_f32_u
+        br_if 1 (;@1;)
+        i32.ctz
+        i32.ctz
+        try_table (result i32) (catch 2 0 (;@2;)) (catch_all 0 (;@2;)) (catch_all 0 (;@2;)) (catch 2 0 (;@2;)) (catch_all 0 (;@2;)) ;; label = @3
+          try_table (type 8) (catch 1 1 (;@2;)) (catch 1 1 (;@2;)) (catch 0 2 (;@1;)) (catch_all 2 (;@1;)) ;; label = @4
+            loop (type 8) ;; label = @5
+            end
+          end
+          i32.const -2046459535
+        end
+        global.get 0
+        i32.xor
+        global.set 0
+        global.get 0
+        i32.xor
+        global.set 0
+        drop
+        i64.reinterpret_f64
+        global.get 1
+        i64.xor
+        global.set 1
+        global.get 2
+        i64.xor
+        global.set 2
+        global.get 0
+        i32.xor
+        global.set 0
+        drop
+        drop
+      end
+      drop
+    end
+    global.get 0
+    i32.xor
+    global.set 0
+    f32.const -nan:0x7c0000 (;=NaN;)
+  )
+)

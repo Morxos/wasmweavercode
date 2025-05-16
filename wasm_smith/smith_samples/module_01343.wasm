@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (table (;0;) i64 225 623637 exnref))
+  (memory (;0;) i64 15648 277586180404160)
+  (export ":A" (global 0))
+)

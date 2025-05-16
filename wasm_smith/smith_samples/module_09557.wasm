@@ -1,0 +1,11 @@
+(module
+  (import "QU" "" (table (;0;) i64 999282 externref))
+  (export "" (table 0))
+  (export "\u{0}W{" (table 0))
+  (export "2" (table 0))
+  (elem (;0;) (table 0) (i64.const 290580) nullexternref)
+  (data (;0;) "Q")
+  (data (;1;) "")
+  (data (;2;) ",H")
+  (data (;3;) "\c6")
+)

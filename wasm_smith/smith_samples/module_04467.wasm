@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) i64 6601))
+  (table (;0;) 587 348939 nullexternref ref.null noextern)
+  (global (;0;) (mut i64) i64.const -1996283171790439356)
+  (global (;1;) (mut f64) f64.const 0x1.742a81fce1fc8p-853 (;=0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000024205300670137114;))
+  (elem (;0;) (table 0) (i32.const 1) nullexternref)
+  (elem (;1;) declare exnref)
+  (elem (;2;) (table 0) (i32.const 1) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (data (;0;) (i64.const 36883919) "'&\b0\97j.")
+)

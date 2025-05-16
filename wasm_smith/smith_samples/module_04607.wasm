@@ -1,0 +1,7 @@
+(module
+  (import "o" "" (table (;0;) 14 457887 arrayref))
+  (import "\u{8}" "" (memory (;0;) 0))
+  (export "" (memory 0))
+  (export "\u{30d}\u{1a}\u{2d0}/E" (memory 0))
+  (export "2" (table 0))
+)

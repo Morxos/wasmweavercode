@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 1 156169 anyref)
+  (global (;0;) nullref ref.null none)
+  (export "" (global 0))
+  (export "\u{d}c\u{19}\u{5c}" (table 0))
+  (data (;0;) "\80")
+  (data (;1;) "")
+)

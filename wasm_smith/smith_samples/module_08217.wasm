@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 0 nullref ref.null none)
+  (elem (;0;) declare eqref)
+)

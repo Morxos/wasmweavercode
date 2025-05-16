@@ -1,0 +1,9 @@
+(module
+  (global (;0;) i64 i64.const 8197201488547514552 i64.const -1886879822158627552 i64.const -4327494648512496028 i64.const -1374915676342704448 i64.const 7537977098389206484 i64.const 6805643475714965082 i64.const 6928451910507506793 i64.const 2595931556724988222 i64.const -8892587126769463351 i64.const -1525354105776786049 i64.sub i64.mul i64.sub i64.mul i64.const 6910047105661309479 i64.sub i64.add i64.add i64.mul i64.mul i64.sub)
+  (export "c" (global 0))
+  (export "9" (global 0))
+  (export "\u{218}y\u{1e}" (global 0))
+  (elem (;0;) declare nullfuncref (ref.null nofunc))
+  (elem (;1;) declare structref (ref.null none))
+  (data (;0;) "")
+)

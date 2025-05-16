@@ -1,0 +1,4 @@
+(module
+  (import "\u{301}" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 184 funcref)
+)

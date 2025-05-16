@@ -1,0 +1,11 @@
+(module
+  (import "i\u{f}" "" (memory (;0;) 13661 29527))
+  (import "K" "" (table (;0;) 1562 255576 exnref))
+  (global (;0;) (mut nullref) ref.null none)
+  (export "\u{1e}k" (table 0))
+  (export "" (global 0))
+  (export "\u{0}" (memory 0))
+  (export "3" (table 0))
+  (elem (;0;) (table 0) (i32.const 9) exnref (ref.null exn))
+  (elem (;1;) (table 0) (i32.const 0) exnref (ref.null exn))
+)

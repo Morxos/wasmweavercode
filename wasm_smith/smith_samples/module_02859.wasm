@@ -1,0 +1,6 @@
+(module
+  (import "'\u{5}\u{375}P" "" (global (;0;) f64))
+  (import " \u{1da}" "" (global (;1;) f32))
+  (import "\u{5e4}g@\u{1f}O6" "" (memory (;0;) 6991))
+  (global (;2;) f32 global.get 1)
+)

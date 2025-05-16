@@ -1,0 +1,3 @@
+(module
+  (import "\u{17}\u{22}" "" (global (;0;) f64))
+)

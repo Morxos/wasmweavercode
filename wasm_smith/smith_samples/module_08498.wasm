@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 642 53041))
+  (table (;0;) 2111 299504 structref)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "Mo!" (table 0))
+  (export "3" (memory 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+  (elem (;1;) anyref)
+  (data (;0;) "")
+)

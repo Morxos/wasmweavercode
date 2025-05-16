@@ -1,0 +1,4 @@
+(module
+  (import "u" "" (memory (;0;) 0 42588))
+  (table (;0;) 536 3195 externref)
+)

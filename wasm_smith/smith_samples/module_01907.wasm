@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 0 101294585090005))
+  (import "?" "" (global (;0;) (mut f32)))
+  (import "\u{5}" "" (table (;0;) 2109 980267 structref))
+  (global (;1;) structref ref.null none)
+  (export "p\u{7e9}J" (global 0))
+)

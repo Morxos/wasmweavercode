@@ -1,0 +1,11 @@
+{
+    "reward": 0.4830887537712274,
+    "flag_states": {},
+    "return_values": [],
+    "stack_values": [
+        {
+            "type": "f32",
+            "value": "nan"
+        }
+    ]
+}

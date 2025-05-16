@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 52 funcref))
+  (global (;0;) (mut eqref) ref.null eq)
+  (elem (;0;) i31ref)
+)

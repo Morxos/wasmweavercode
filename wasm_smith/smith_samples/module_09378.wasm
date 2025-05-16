@@ -1,0 +1,8 @@
+(module
+  (import "\u{7f}" "" (table (;0;) i64 0 structref))
+  (import "" "" (global (;0;) (mut f32)))
+  (import "+\u{310}" "" (global (;1;) (mut i64)))
+  (import "" "" (global (;2;) f32))
+  (memory (;0;) 6816 48553 shared)
+  (global (;3;) i32 i32.const 1091003969)
+)

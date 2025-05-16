@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 externref ref.null noextern)
+  (global (;0;) i64 i64.const 8622998357862229401 i64.const 8873095825162485521 i64.const -2289764789963163353 i64.const 3325030453717156940 i64.const 1932414726215274318 i64.const -7615093024428297995 i64.const -908479565110933929 i64.mul i64.const -5790960474104334036 i64.sub i64.add i64.add i64.add i64.sub i64.const -7654224787613860488 i64.sub i64.mul)
+  (elem (;0;) declare nullexternref (ref.null noextern))
+)

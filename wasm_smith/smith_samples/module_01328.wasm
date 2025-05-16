@@ -1,0 +1,9 @@
+(module
+  (import "^\u{22}\u{9}{" "" (memory (;0;) i64 0 140704740949201 shared))
+  (import "e" "" (global (;0;) (mut f64)))
+  (global (;1;) (mut f32) f32.const 0x1.30ad04p+108 (;=386222500000000000000000000000000;))
+  (export "" (memory 0))
+  (export "1" (global 0))
+  (data (;0;) "")
+  (data (;1;) "\d4\7f{\a5\a2")
+)

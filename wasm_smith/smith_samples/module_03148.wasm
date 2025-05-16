@@ -1,0 +1,6 @@
+(module
+  (import "R" "" (table (;0;) 0 nullfuncref))
+  (export "&" (table 0))
+  (data (;0;) "_\fd\a50")
+  (data (;1;) "")
+)

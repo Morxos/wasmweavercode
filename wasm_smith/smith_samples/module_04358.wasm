@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (export "" (global 0))
+  (export "_" (global 0))
+  (export "2" (global 0))
+)

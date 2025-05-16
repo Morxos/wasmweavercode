@@ -1,0 +1,6 @@
+(module
+  (import "\u{1e}" "" (memory (;0;) i64 4306 64364991482152 shared))
+  (import ":%p-\u{1}" "" (table (;0;) i64 0 exnref))
+  (global (;0;) (mut f32) f32.const -0x1.915d64p-47 (;=-0.000000000000011140111;))
+  (elem (;0;) exnref (ref.null exn) (ref.null exn))
+)

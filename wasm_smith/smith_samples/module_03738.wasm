@@ -1,0 +1,5 @@
+(module
+  (import "\u{44b}" "" (table (;0;) i64 1053 779315 externref))
+  (data (;0;) "#")
+  (data (;1;) "")
+)

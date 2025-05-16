@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 1 277204 eqref))
+  (export "" (table 0))
+  (data (;0;) "")
+)

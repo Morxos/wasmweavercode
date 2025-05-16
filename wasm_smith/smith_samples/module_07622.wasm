@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 210 866043 nullexternref ref.null noextern)
+  (memory (;0;) i64 2 28816166561051)
+  (global (;0;) i64 i64.const -3819475885488513993 i64.const 5555672052243046526 i64.const -125086816918863291 i64.const 624894875472176584 i64.mul i64.const 8937251584059456999 i64.sub i64.const 2450978712454908822 i64.const -2711396310908353183 i64.const -1634480630657048508 i64.mul i64.sub i64.add i64.mul i64.sub)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "\u{b}N" (table 0))
+)

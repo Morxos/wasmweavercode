@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut funcref)))
+  (import "]5" "" (global (;1;) (mut i32)))
+  (memory (;0;) 2132 56152)
+  (export "\u{19}" (memory 0))
+  (elem (;0;) declare funcref (ref.null nofunc))
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 1 263366246161514)
+  (global (;0;) eqref ref.null i31)
+  (export "{yB" (global 0))
+  (export "" (memory 0))
+  (export "\u{e}" (global 0))
+  (export "3" (global 0))
+  (export "\u{1b}W" (memory 0))
+)

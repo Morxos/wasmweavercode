@@ -1,0 +1,5 @@
+(module
+  (import "\u{7}}|" "" (table (;0;) i64 8590 nullfuncref))
+  (global (;0;) (mut i32) i32.const -1067235870 i32.const 1366079008 i32.const -1735712863 i32.const -1330608252 i32.const 1927823696 i32.const -902252585 i32.const -2036914669 i32.const 632054128 i32.const 1547668759 i32.const 140133038 i32.mul i32.add i32.sub i32.sub i32.sub i32.const 545749989 i32.mul i32.sub i32.mul i32.mul i32.add)
+  (global (;1;) (mut eqref) ref.null eq)
+)

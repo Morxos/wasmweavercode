@@ -1,0 +1,7 @@
+(module
+  (global (;0;) f32 f32.const 0x1.a1def4p+64 (;=30110772000000000000;))
+  (export "" (global 0))
+  (export "1" (global 0))
+  (export "E" (global 0))
+  (elem (;0;) nullref (ref.null none) (ref.null none))
+)

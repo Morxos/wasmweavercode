@@ -1,0 +1,6 @@
+(module
+  (import "\u{15}" "" (global (;0;) f64))
+  (import "Z>" "" (global (;1;) i32))
+  (table (;0;) i64 1074 85470 arrayref)
+  (data (;0;) "\80\bc")
+)

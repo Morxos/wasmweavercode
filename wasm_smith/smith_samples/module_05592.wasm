@@ -1,0 +1,9 @@
+(module
+  (import "e~O\u{2}&Dt\u{47e}" "" (memory (;0;) 4 60930 shared))
+  (table (;0;) 8738 200630 funcref)
+  (global (;0;) (mut f64) f64.const -0x1.56d7f51b79737p-266 (;=-0.000000000000000000000000000000000000000000000000000000000000000000000000000000011294765387157663;))
+  (global (;1;) i32 i32.const 643994729 i32.const 239218097 i32.const -9210699 i32.const 1970014694 i32.const 1814903525 i32.const -1955364373 i32.const -1606637115 i32.const -618332409 i32.const -771644519 i32.const -324996050 i32.sub i32.add i32.add i32.const 1704357815 i32.add i32.add i32.sub i32.sub i32.mul i32.add i32.sub)
+  (global (;2;) i32 i32.const 838417230 i32.const 1166267393 i32.const 849809817 i32.const -581952871 i32.const 1562289775 i32.const 81953614 i32.const 2002693979 i32.const -783373025 i32.const -866321850 i32.sub i32.sub i32.mul i32.add i32.mul i32.mul i32.const 1171965422 i32.sub i32.add i32.mul)
+  (global (;3;) (mut i64) i64.const 1271871941592324504 i64.const 8681476737422134433 i64.const -1910899019034297456 i64.const 655800026582758335 i64.const 1351895454265690289 i64.const 7697949132413596918 i64.mul i64.sub i64.const -8178211968476029587 i64.sub i64.add i64.const -1994505489408587379 i64.const -1561528105661984295 i64.add i64.sub i64.sub i64.mul)
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+)

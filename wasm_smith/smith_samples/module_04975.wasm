@@ -1,0 +1,7 @@
+(module
+  (global (;0;) (mut f32) f32.const 0x1.767a3cp+38 (;=402092130000;))
+  (global (;1;) i64 i64.const -3283986781626034753)
+  (export "" (global 1))
+  (export "1" (global 1))
+  (export "2" (global 1))
+)

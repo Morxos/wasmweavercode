@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 12193)
+  (global (;0;) (mut f64) f64.const 0x1.17328df024d0ap-374 (;=0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000028343478442322813;))
+  (global (;1;) (mut f32) f32.const -0x1.6238cap-18 (;=-0.0000052783166;))
+  (global (;2;) (mut f64) f64.const 0x1.8f016eed5d509p+234 (;=43028678661160650000000000000000000000000000000000000000000000000000000;))
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) (i64.const 88326842) ")\a26a")
+  (data (;1;) (i64.const 209163987) "")
+)

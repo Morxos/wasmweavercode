@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 5965 935484 nullref))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (memory (;0;) i64 0 78285927562698 shared))
+  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none) (ref.null none))
+  (elem (;1;) funcref)
+)

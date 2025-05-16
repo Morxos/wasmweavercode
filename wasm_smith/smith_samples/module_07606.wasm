@@ -1,0 +1,8 @@
+(module
+  (import "`" "" (global (;0;) arrayref))
+  (table (;0;) i64 579 215751 structref ref.null none)
+  (global (;1;) (mut i32) i32.const -409921250 i32.const 2098942961 i32.const 921482945 i32.const -1336592035 i32.const 305628190 i32.const -1759149029 i32.const -110628973 i32.sub i32.const -2661497 i32.mul i32.const -2001107745 i32.sub i32.mul i32.mul i32.sub i32.sub i32.add)
+  (export "F" (table 0))
+  (export "" (global 0))
+  (export "2" (global 1))
+)

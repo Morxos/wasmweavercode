@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) nullexternref))
+  (memory (;0;) i64 13939 238722802278188)
+  (export "\u{9}" (memory 0))
+)

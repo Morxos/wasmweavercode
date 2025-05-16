@@ -1,0 +1,8 @@
+(module
+  (import "\u{18}" "" (memory (;0;) i64 1911 265926369659790))
+  (table (;0;) 6390 876209 nullexternref ref.null noextern)
+  (export "#?l" (table 0))
+  (export "1\u{a}" (table 0))
+  (data (;0;) (i64.const 60006143) "")
+  (data (;1;) "")
+)

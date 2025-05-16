@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 178 199905674932117 shared))
+  (import "" "" (global (;0;) (mut funcref)))
+  (import "$\u{1c}&" "" (table (;0;) 0 586134 nullexternref))
+  (import "\u{11}" "" (global (;1;) (mut f64)))
+  (export "" (table 0))
+)

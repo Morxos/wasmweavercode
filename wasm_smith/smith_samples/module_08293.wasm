@@ -1,0 +1,8 @@
+(module
+  (import ")" "" (global (;0;) i64))
+  (memory (;0;) 953 36096)
+  (data (;0;) "")
+  (data (;1;) (i32.const 8623) "D")
+  (data (;2;) (i32.const 0) "")
+  (data (;3;) (i32.const 9505719) "")
+)

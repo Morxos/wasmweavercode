@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 516 i31ref))
+  (import "mT" "" (memory (;0;) i64 809 193817728331574))
+  (import "\u{9}" "" (global (;0;) i64))
+  (elem (;0;) nullref)
+  (data (;0;) "\e6")
+  (data (;1;) (global.get 0) "\f8O")
+)

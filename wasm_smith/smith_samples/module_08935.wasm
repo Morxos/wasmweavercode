@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 869 7094))
+  (table (;0;) i64 880 exnref ref.null exn)
+  (global (;0;) f32 f32.const 0x1.013c32p-33 (;=0.000000000116977;))
+  (data (;0;) (i32.const 60278) "")
+)

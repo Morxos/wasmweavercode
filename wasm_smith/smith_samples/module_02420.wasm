@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 7902 62577038902537 shared))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (data (;0;) (i64.const 472924277) "\e7@\a6")
+  (data (;1;) (i64.const 7) "\b0")
+)

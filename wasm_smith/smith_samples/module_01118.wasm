@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 0 55060 arrayref ref.null array)
+  (export "" (table 0))
+  (data (;0;) "\fc")
+  (data (;1;) "")
+  (data (;2;) "8")
+  (data (;3;) "\00")
+  (data (;4;) "")
+)

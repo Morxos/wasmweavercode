@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 18 38687 shared)
+  (global (;0;) (mut i32) i32.const 1774826555)
+  (export "IG" (global 0))
+  (export "" (memory 0))
+  (data (;0;) (i32.const 319794) "")
+)

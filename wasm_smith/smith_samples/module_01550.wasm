@@ -1,0 +1,9 @@
+(module
+  (import "n" "" (memory (;0;) 2961 3189 shared))
+  (table (;0;) i64 999839 anyref)
+  (global (;0;) f32 f32.const -0x1.276e72p+31 (;=-2478258400;))
+  (global (;1;) (mut f32) f32.const -0x1.e3e944p-110 (;=-0.0000000000000000000000000000000014562173;))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "")
+)

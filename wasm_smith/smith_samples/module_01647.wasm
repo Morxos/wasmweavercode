@@ -1,0 +1,12 @@
+(module
+  (global (;0;) f64 f64.const -0x1.483bdf2abf9fap+715 (;=-220999012451025700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "Bt" (global 0))
+  (export "" (global 0))
+  (export "\u{16}" (global 0))
+  (export "\u{8}" (global 0))
+  (elem (;0;) eqref)
+  (elem (;1;) declare exnref (ref.null exn) (ref.null exn))
+  (elem (;2;) nullref (ref.null none))
+  (elem (;3;) declare arrayref)
+  (elem (;4;) declare anyref)
+)

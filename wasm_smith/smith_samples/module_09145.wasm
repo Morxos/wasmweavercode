@@ -1,0 +1,6 @@
+(module
+  (import "L~" "" (global (;0;) arrayref))
+  (import "Y3\u{2de}" "" (global (;1;) i32))
+  (global (;2;) f32 f32.const 0x1.2b544cp+114 (;=24284477000000000000000000000000000;))
+  (elem (;0;) structref)
+)

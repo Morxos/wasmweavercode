@@ -1,0 +1,6 @@
+(module
+  (elem (;0;) nullref (ref.null none))
+  (elem (;1;) anyref)
+  (data (;0;) "\db{\e3\ee")
+  (data (;1;) "")
+)

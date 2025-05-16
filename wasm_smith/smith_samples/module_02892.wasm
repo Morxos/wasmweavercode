@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) i64 164 nullfuncref))
+  (global (;0;) (mut arrayref) ref.null none)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "(q" "" (memory (;0;) i64 6756))
+  (import "T" "" (global (;0;) (mut f32)))
+  (table (;0;) i64 0 i31ref)
+  (elem (;0;) nullref (ref.null none) (ref.null none))
+  (data (;0;) "T")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "U\u{f}" "" (global (;0;) i32))
+  (import "~9\u{1}" "" (table (;0;) i64 0 nullexternref))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 4 arrayref))
+  (import "\u{1d}" "" (memory (;0;) i64 0 9596237857532))
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none))
+  (elem (;1;) (table 0) (i32.const 0) arrayref (ref.null array) (ref.null array) (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "F\u{e}" "" (memory (;0;) 2 57695))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "U@" "" (global (;1;) i64))
+  (import "\u{1f}1m" "" (global (;2;) f32))
+  (export "K" (memory 0))
+  (export "\u{17}" (memory 0))
+  (elem (;0;) eqref (ref.null i31))
+)

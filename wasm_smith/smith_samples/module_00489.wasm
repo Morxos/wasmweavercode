@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 3132 anyref ref.null none)
+  (global (;0;) i32 i32.const -806319385)
+  (export ",\u{8}" (global 0))
+  (export "" (global 0))
+)

@@ -1,0 +1,4 @@
+(module
+  (import "\u{2}" "" (table (;0;) 2043 anyref))
+  (memory (;0;) i64 8105 198517231134020)
+)

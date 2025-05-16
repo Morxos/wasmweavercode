@@ -1,0 +1,6 @@
+(module
+  (global (;0;) (mut i31ref) ref.null i31)
+  (elem (;0;) externref)
+  (data (;0;) "~\0b\f8")
+  (data (;1;) "")
+)

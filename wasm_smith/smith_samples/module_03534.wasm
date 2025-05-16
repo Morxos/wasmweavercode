@@ -1,0 +1,13 @@
+(module
+  (import "\u{5}\u{16}VH\u{5c}" "" (global (;0;) f64))
+  (table (;0;) 4220 funcref ref.null func)
+  (memory (;0;) 0 58747)
+  (global (;1;) (mut f64) f64.const 0x1.b5ae32550c299p+242 (;=12083037939474640000000000000000000000000000000000000000000000000000000000;))
+  (global (;2;) (mut f64) global.get 0)
+  (export "y&" (memory 0))
+  (export "" (global 1))
+  (data (;0;) "v\9c")
+  (data (;1;) (i32.const 0) "")
+  (data (;2;) "R")
+  (data (;3;) "")
+)

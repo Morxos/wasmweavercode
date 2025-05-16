@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 0 nullexternref)
+  (memory (;0;) 14563)
+  (export "n" (memory 0))
+  (data (;0;) (i32.const 2) "\0c\bdN\ab/G")
+  (data (;1;) "k{\d6")
+)

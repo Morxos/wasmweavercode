@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) i64 2772 119303522841603))
+  (import "[" "" (table (;0;) i64 0 structref))
+  (import "z%" "" (global (;0;) f64))
+  (import "5" "" (global (;1;) (mut i32)))
+  (global (;2;) (mut f64) f64.const -0x1.7a620ccd6a61fp-1 (;=-0.7390293122054493;))
+  (global (;3;) f64 global.get 0)
+  (global (;4;) (mut i64) i64.const -3120591507325844552)
+  (data (;0;) "Z\f3")
+  (data (;1;) "")
+  (data (;2;) (i64.const 1599106) "")
+  (data (;3;) (i64.const 43940118) "\f6w\f2")
+)

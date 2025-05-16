@@ -1,0 +1,9 @@
+(module
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) arrayref)
+  (elem (;2;) declare eqref)
+  (elem (;3;) declare externref)
+  (elem (;4;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\e9\f3")
+  (data (;1;) "")
+)

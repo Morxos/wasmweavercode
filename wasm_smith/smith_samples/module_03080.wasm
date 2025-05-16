@@ -1,0 +1,11 @@
+(module
+  (import "$" "" (global (;0;) nullfuncref))
+  (import " " "" (global (;1;) externref))
+  (table (;0;) 266 904648 exnref)
+  (memory (;0;) i64 153 44765407580115)
+  (elem (;0;) anyref)
+  (elem (;1;) (table 0) (i32.const 65) exnref (ref.null exn))
+  (elem (;2;) externref (global.get 1) (global.get 1) (ref.null noextern) (ref.null noextern) (global.get 1) (global.get 1) (global.get 1))
+  (elem (;3;) nullfuncref)
+  (data (;0;) (i64.const 0) "\04A")
+)

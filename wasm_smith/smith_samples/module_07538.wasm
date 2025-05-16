@@ -1,0 +1,8 @@
+(module
+  (import "s\u{13}" "" (memory (;0;) 0))
+  (table (;0;) i64 1560 anyref ref.null array)
+  (export "C\u{2}" (table 0))
+  (export "" (memory 0))
+  (export "d" (memory 0))
+  (export "R\u{16}" (table 0))
+)

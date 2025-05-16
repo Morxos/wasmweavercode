@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 7594 i31ref)
+  (elem (;0;) (table 0) (i64.const 1344) i31ref)
+  (elem (;1;) (table 0) (i64.const 279) nullref)
+  (elem (;2;) externref)
+)

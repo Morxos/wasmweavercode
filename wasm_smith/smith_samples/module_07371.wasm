@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 906 339847 nullfuncref)
+  (global (;0;) (mut i64) i64.const -6055523056852016265)
+  (elem (;0;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc))
+  (data (;0;) "\ed\17")
+)

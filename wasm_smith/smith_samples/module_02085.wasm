@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (export "$\u{d}Z" (global 0))
+  (export "," (global 0))
+  (export "/" (global 0))
+  (elem (;0;) i31ref (ref.null i31))
+  (elem (;1;) i31ref)
+  (elem (;2;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+)

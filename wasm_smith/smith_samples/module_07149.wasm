@@ -1,0 +1,6 @@
+(module
+  (import "z" "" (table (;0;) 3 nullfuncref))
+  (global (;0;) i31ref ref.null none)
+  (data (;0;) "J\c9")
+  (data (;1;) "")
+)

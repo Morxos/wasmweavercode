@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 1002))
+  (import "" "" (table (;0;) 4 externref))
+  (global (;0;) (mut funcref) ref.null func)
+  (export "\u{1d}\u{1ce}" (memory 0))
+)

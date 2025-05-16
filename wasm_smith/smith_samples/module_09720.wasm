@@ -1,0 +1,13 @@
+(module
+  (import "1\u{9}" "" (table (;0;) 0 externref))
+  (import "x\u{5c}\u{471}" "" (memory (;0;) 6145))
+  (global (;0;) (mut i64) i64.const 1484538268243712807 i64.const -199477325061521202 i64.const -1104698088155656528 i64.const -6418354398357760825 i64.const -7970710222656912651 i64.const 8206399221492906601 i64.const 2319334338448944654 i64.const 7261229387043247300 i64.const 1246451822820489809 i64.const 6159276411811773537 i64.add i64.add i64.const -671371888633949257 i64.add i64.add i64.sub i64.sub i64.add i64.mul i64.add i64.add)
+  (export "" (memory 0))
+  (export "9" (table 0))
+  (export "X|" (memory 0))
+  (export "3" (table 0))
+  (export "b" (table 0))
+  (export "5" (memory 0))
+  (export "K\u{201}" (global 0))
+  (elem (;0;) nullexternref)
+)

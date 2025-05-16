@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "p" "" (table (;0;) i64 0 i31ref))
+  (memory (;0;) i64 15425 161404064096305)
+  (export "_1" (memory 0))
+  (data (;0;) (i64.const 36497312) "r")
+  (data (;1;) "")
+)

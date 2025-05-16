@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "" "" (global (;1;) f32))
+  (import "" "" (global (;2;) (mut i64)))
+  (import "" "" (table (;0;) 259 908529 eqref))
+  (memory (;0;) i64 0 113674402316094)
+  (export "wi B" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "\95d\85\e1b\9c")
+  (data (;2;) "\01")
+)

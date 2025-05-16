@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (memory (;0;) 3090 32092))
+  (import "" "" (table (;0;) i64 1 156514 anyref))
+  (export "a!" (global 0))
+  (export "" (table 0))
+  (data (;0;) (i32.const 70330284) "\8f")
+)

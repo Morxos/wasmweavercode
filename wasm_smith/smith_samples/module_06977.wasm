@@ -1,0 +1,11 @@
+(module
+  (import "w" "" (global (;0;) anyref))
+  (memory (;0;) i64 4476 164253823227404)
+  (global (;1;) (mut i32) i32.const 673993577 i32.const -1170342940 i32.const -800123909 i32.const 1494465780 i32.mul i32.mul i32.const -1545584061 i32.add i32.const 1985673193 i32.sub i32.sub i32.const 2015395435 i32.add i32.const 1791732053 i32.mul)
+  (export "a" (memory 0))
+  (export "\u{18}JhisT" (memory 0))
+  (export "&" (memory 0))
+  (elem (;0;) anyref)
+  (elem (;1;) structref (ref.null none) (ref.null none))
+  (data (;0;) "A\90")
+)

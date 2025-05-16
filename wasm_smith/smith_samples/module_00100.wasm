@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 1597)
+  (global (;0;) (mut f32) f32.const -0x1.0d0f22p-8 (;=-0.0041055162;))
+  (global (;1;) i64 i64.const 4185768355004584215 i64.const -822837400033198394 i64.const -2773654623159702162 i64.const -6419333209815920729 i64.const -7886122057731859772 i64.const 7135399616652127735 i64.const -330749573060736145 i64.mul i64.mul i64.const -5679616083946571765 i64.sub i64.add i64.mul i64.sub i64.const -1405728101154881126 i64.mul i64.mul)
+  (global (;2;) i32 i32.const -7428542)
+  (global (;3;) (mut anyref) ref.null eq)
+  (global (;4;) i32 i32.const -497788485)
+)

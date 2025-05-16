@@ -1,0 +1,8 @@
+(module
+  (import "\u{4ee}\u{3}" "" (global (;0;) f32))
+  (export "" (global 0))
+  (data (;0;) "'")
+  (data (;1;) "\ec")
+  (data (;2;) ";")
+  (data (;3;) "l")
+)

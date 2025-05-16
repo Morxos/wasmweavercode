@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "" "" (memory (;0;) 0))
+  (global (;1;) (mut i32) i32.const -1086031949)
+  (elem (;0;) exnref (ref.null exn))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "1")
+)

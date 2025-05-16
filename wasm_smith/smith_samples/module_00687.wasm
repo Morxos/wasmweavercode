@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 35 exnref)
+  (memory (;0;) i64 2015 244144737748786 shared)
+  (global (;0;) nullfuncref ref.null nofunc)
+  (global (;1;) i64 i64.const 1274642376596867523)
+  (elem (;0;) (table 0) (i32.const 0) exnref)
+)

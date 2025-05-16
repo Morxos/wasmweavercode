@@ -1,0 +1,7 @@
+(module
+  (import "{#" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 595 336327 arrayref)
+  (global (;1;) (mut i32) i32.const 1588558163 i32.const -1769545617 i32.const 1617812417 i32.const 155040451 i32.const -1223496336 i32.const -948972605 i32.sub i32.add i32.add i32.sub i32.const -716864898 i32.add i32.add i32.const 99537889 i32.add i32.const 1142582465 i32.add)
+  (export "F0\u{1e}yiK`" (global 1))
+  (export "{" (table 0))
+)

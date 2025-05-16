@@ -1,0 +1,7 @@
+(module
+  (import "x" "" (memory (;0;) i64 13086 20759976982063 shared))
+  (global (;0;) (mut f32) f32.const 0x1.2bfbb2p+13 (;=9599.462;))
+  (export "" (memory 0))
+  (elem (;0;) structref (ref.null none))
+  (data (;0;) "Y")
+)

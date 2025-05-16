@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 nullfuncref)
+  (memory (;0;) i64 9927 88093380455138)
+  (global (;0;) f64 f64.const -0x1.84fa25a82472ep+517 (;=-651916342917379800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (global 0))
+  (export "_}" (global 0))
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern))
+  (elem (;1;) declare externref (ref.null extern) (ref.null noextern) (ref.null extern) (ref.null noextern) (ref.null extern))
+)

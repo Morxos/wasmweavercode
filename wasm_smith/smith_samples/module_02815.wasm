@@ -1,0 +1,11 @@
+(module
+  (import "_" "" (memory (;0;) i64 6081 34110531219674))
+  (import "" "" (table (;0;) i64 0 247972 nullfuncref))
+  (global (;0;) (mut f32) f32.const 0x1.04a628p-49 (;=0.000000000000001808616;))
+  (export "S{" (memory 0))
+  (elem (;0;) anyref (ref.null array))
+  (elem (;1;) declare externref)
+  (elem (;2;) declare arrayref (ref.null array) (ref.null none) (ref.null array) (ref.null array))
+  (elem (;3;) eqref (ref.null eq) (ref.null struct))
+  (elem (;4;) declare exnref)
+)

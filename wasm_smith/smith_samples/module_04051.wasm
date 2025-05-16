@@ -1,0 +1,5 @@
+(module
+  (import "\u{1d}Gb" "" (table (;0;) 5 145543 externref))
+  (memory (;0;) i64 8561 4584851459042 shared)
+  (elem (;0;) declare externref)
+)

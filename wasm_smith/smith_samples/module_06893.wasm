@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 193 872181 externref)
+  (memory (;0;) i64 5311)
+  (global (;0;) (mut f32) f32.const -0x1.3013fap-115 (;=-0.00000000000000000000000000000000002859536;))
+  (global (;1;) (mut structref) ref.null none)
+  (global (;2;) (mut nullref) ref.null none)
+  (global (;3;) (mut f32) f32.const 0x1.83f89ep+113 (;=15737980000000000000000000000000000;))
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (data (;0;) (i64.const 1668) "")
+)

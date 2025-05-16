@@ -1,0 +1,7 @@
+(module
+  (rec)
+  (import "" "" (memory (;0;) 2009))
+  (table (;0;) i64 4176 externref)
+  (export "$" (memory 0))
+  (elem (;0;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+)

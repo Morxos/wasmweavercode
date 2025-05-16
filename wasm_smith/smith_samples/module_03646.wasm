@@ -1,0 +1,7 @@
+(module
+  (import "M\u{0}#" "" (memory (;0;) i64 129))
+  (table (;0;) i64 0 exnref ref.null exn)
+  (global (;0;) (mut f32) f32.const -0x1.c4b038p-49 (;=-0.0000000000000031411565;))
+  (elem (;0;) nullfuncref)
+  (data (;0;) "")
+)

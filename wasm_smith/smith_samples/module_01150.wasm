@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 9320 nullref)
+  (export "" (table 0))
+  (elem (;0;) eqref (ref.null i31))
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) (table 0) (i32.const 326) nullref (ref.null none))
+  (elem (;3;) nullref (ref.null none))
+  (elem (;4;) (table 0) (i32.const 3) nullref)
+  (elem (;5;) (table 0) (i32.const 72) nullref (ref.null none) (ref.null none))
+  (elem (;6;) eqref (ref.null i31) (ref.null array))
+)

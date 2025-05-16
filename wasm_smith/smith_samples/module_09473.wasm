@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 285 26249)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare eqref (ref.null i31) (ref.null eq) (ref.null struct))
+)

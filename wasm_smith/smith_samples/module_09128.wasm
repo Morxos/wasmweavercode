@@ -1,0 +1,11 @@
+(module
+  (import "\u{5}" "" (global (;0;) (mut f32)))
+  (table (;0;) 0 85482 i31ref ref.null i31)
+  (export "\u{11}~" (global 0))
+  (export "" (global 0))
+  (export "2" (global 0))
+  (export "-" (global 0))
+  (export "\u{13}xkg" (table 0))
+  (data (;0;) "")
+  (data (;1;) "")
+)

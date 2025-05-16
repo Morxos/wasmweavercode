@@ -1,0 +1,9 @@
+(module
+  (import "aD" "" (memory (;0;) i64 0 36055719312727))
+  (global (;0;) (mut f32) f32.const 0x1.74bc74p+94 (;=28839062000000000000000000000;))
+  (global (;1;) (mut i32) i32.const -622759230)
+  (global (;2;) (mut i64) i64.const 8730453333195924963)
+  (export "\u{f}I" (global 0))
+  (data (;0;) "s\0a")
+  (data (;1;) "F\18")
+)

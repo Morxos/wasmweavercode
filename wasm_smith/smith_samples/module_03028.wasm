@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (table (;0;) 63 funcref)
+  (export "t" (global 0))
+  (data (;0;) "\f0")
+)

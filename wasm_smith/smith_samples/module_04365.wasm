@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 2 145906 funcref ref.null func)
+  (export "6Z" (table 0))
+  (export "" (table 0))
+  (elem (;0;) nullref (ref.null none))
+  (data (;0;) "")
+)

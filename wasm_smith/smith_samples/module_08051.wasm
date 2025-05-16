@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 2140 798567 externref ref.null extern)
+  (memory (;0;) 52 41746 shared)
+  (elem (;0;) eqref (ref.null struct))
+  (data (;0;) (i32.const 0) "\80\e7")
+)

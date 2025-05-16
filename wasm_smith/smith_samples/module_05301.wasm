@@ -1,0 +1,4 @@
+(module
+  (import "y" "" (global (;0;) (mut i64)))
+  (elem (;0;) declare externref (ref.null extern) (ref.null extern) (ref.null noextern) (ref.null noextern) (ref.null extern) (ref.null extern))
+)

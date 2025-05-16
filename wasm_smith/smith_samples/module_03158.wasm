@@ -1,0 +1,8 @@
+(module
+  (import "Y" "" (memory (;0;) i64 1))
+  (import "\u{23f}+" "" (table (;0;) i64 3690 anyref))
+  (global (;0;) f64 f64.const 0x1.b3e3011e855d4p-275 (;=0.000000000000000000000000000000000000000000000000000000000000000000000000000000000028046900939497033;))
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) f32 f32.const -0x1.da64fp-61 (;=-0.0000000000000000008036552;))
+  (elem (;0;) declare exnref)
+)

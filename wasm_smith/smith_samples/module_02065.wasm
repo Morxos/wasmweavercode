@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "" "" (memory (;0;) i64 3320))
+  (import "" "" (table (;0;) i64 5778 i31ref))
+  (import ">" "" (global (;1;) i32))
+  (data (;0;) (i64.const 61041687) "\9eb")
+)

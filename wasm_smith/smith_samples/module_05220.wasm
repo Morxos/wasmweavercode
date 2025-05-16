@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 2423 973934 eqref))
+  (import "" "" (global (;0;) (mut i32)))
+  (memory (;0;) 3465)
+  (global (;1;) f32 f32.const -0x1.a15a84p-34 (;=-0.00000000009489522;))
+  (export "" (memory 0))
+  (export "\u{0}" (memory 0))
+)

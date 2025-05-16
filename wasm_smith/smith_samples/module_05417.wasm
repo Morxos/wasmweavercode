@@ -1,0 +1,10 @@
+(module
+  (rec)
+  (import "" "" (global (;0;) f32))
+  (global (;1;) f32 global.get 0)
+  (export "" (global 1))
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct))
+  (elem (;1;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare externref)
+  (data (;0;) "")
+)

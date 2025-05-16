@@ -1,0 +1,7 @@
+(module
+  (import "\u{4f0}," "" (global (;0;) nullexternref))
+  (table (;0;) i64 6646 780896 structref ref.null none)
+  (memory (;0;) i64 2 30991414271327 shared)
+  (global (;1;) f32 f32.const -0x1.edd482p-47 (;=-0.000000000000013706539;))
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null struct))
+)

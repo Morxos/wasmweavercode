@@ -1,0 +1,12 @@
+(module
+  (import "\u{1c}" "" (table (;0;) 1394 764227 eqref))
+  (import "" "" (global (;0;) f64))
+  (import "\u{7f}" "" (memory (;0;) 1257 45883 shared))
+  (global (;1;) nullref ref.null none)
+  (global (;2;) (mut i32) i32.const 194173129 i32.const -194048856 i32.const 1830521742 i32.const 452449632 i32.const 2067158805 i32.const -1658010916 i32.const -859168215 i32.const 1530724815 i32.sub i32.const 777137046 i32.sub i32.add i32.add i32.mul i32.add i32.sub i32.const -1723893677 i32.mul i32.mul)
+  (global (;3;) i64 i64.const 6669563910365951163)
+  (global (;4;) (mut i32) i32.const 951097098)
+  (elem (;0;) declare externref (ref.null extern) (ref.null noextern))
+  (elem (;1;) declare funcref (ref.null nofunc) (ref.null func) (ref.null nofunc))
+  (elem (;2;) declare nullref (global.get 1))
+)

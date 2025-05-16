@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 32)
+  (global (;0;) (mut i64) i64.const 458416768186469528 i64.const -5515352135530121971 i64.const -185425013876411561 i64.const -2635299004312576750 i64.const -4316729395998053788 i64.const -2846867861144902818 i64.const -11880717737793192 i64.const 1625721375658924293 i64.add i64.mul i64.mul i64.mul i64.mul i64.mul i64.const 7106411515427644511 i64.sub i64.const 8263663417962301751 i64.mul i64.mul)
+  (global (;1;) (mut anyref) ref.null struct)
+  (export "3:" (global 1))
+)

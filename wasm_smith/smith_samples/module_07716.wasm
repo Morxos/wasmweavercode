@@ -1,0 +1,7 @@
+(module
+  (import "q" "" (global (;0;) i64))
+  (global (;1;) i32 i32.const 1640687971)
+  (global (;2;) (mut i64) i64.const -5354987606912352121)
+  (elem (;0;) anyref (ref.null eq))
+  (elem (;1;) nullref)
+)

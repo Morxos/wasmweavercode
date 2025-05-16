@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 719 78531 funcref))
+  (memory (;0;) 1459 41003)
+  (export "!@" (table 0))
+  (elem (;0;) i31ref)
+  (elem (;1;) declare func)
+)

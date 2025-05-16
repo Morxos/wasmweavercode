@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 2 structref)
+  (memory (;0;) 0 43381)
+  (global (;0;) (mut externref) ref.null extern)
+  (export "" (table 0))
+  (data (;0;) "9\b9\5c\b9\01\d6\02\06")
+  (data (;1;) "z")
+  (data (;2;) "\15\07")
+)

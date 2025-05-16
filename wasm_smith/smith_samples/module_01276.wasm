@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 76 215299 nullfuncref)
+  (export "]f\u{5c}\u{2b3}" (table 0))
+  (export "W3" (table 0))
+  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31) (ref.null none))
+  (elem (;1;) exnref)
+)

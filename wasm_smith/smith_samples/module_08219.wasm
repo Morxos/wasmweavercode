@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 3690 18314)
+  (export "mH`y" (memory 0))
+  (export "\u{77c}" (memory 0))
+  (elem (;0;) declare func)
+)

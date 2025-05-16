@@ -1,0 +1,7 @@
+(module
+  (import "l}" "" (global (;0;) (mut i32)))
+  (global (;1;) f64 f64.const 0x1.4615a13978df2p+116 (;=105820467500310350000000000000000000;))
+  (export "" (global 1))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) declare func)
+)

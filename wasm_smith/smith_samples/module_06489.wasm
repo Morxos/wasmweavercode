@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 111 609722 externref))
+  (memory (;0;) i64 11369 70033563535203 shared)
+  (data (;0;) "\cb\f2\99\f8\15")
+  (data (;1;) (i64.const 9035242) "#")
+)

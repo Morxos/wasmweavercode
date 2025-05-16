@@ -1,0 +1,9 @@
+(module
+  (global (;0;) (mut i32) i32.const -1728916757)
+  (export "M" (global 0))
+  (export "\u{a}Du\u{754}\u{5c}" (global 0))
+  (export "" (global 0))
+  (export "3" (global 0))
+  (export "F" (global 0))
+  (export "'XUjQ\u{f}" (global 0))
+)

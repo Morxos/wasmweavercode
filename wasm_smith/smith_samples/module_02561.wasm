@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 141 760149 arrayref))
+  (memory (;0;) i64 4169 208108840019678 shared)
+  (export "" (table 0))
+  (export ")d\u{1d}\u{f}}\u{1f}\u{0}^\u{6d1}A\u{18}Ok" (table 0))
+)

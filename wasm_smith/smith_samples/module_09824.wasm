@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (import "\u{54d}" "" (table (;0;) 864 912176 nullexternref))
+  (import "V" "" (memory (;0;) i64 15612 133004410470343))
+  (import "" "" (global (;1;) nullfuncref))
+  (global (;2;) (mut exnref) ref.null exn)
+  (global (;3;) eqref ref.null array)
+  (global (;4;) f64 f64.const 0x1.a1d346403eaa4p+19 (;=855706.195342381;))
+  (export "" (table 0))
+)

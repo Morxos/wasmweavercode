@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "^" "" (table (;0;) i64 1679 442100 i31ref))
+  (memory (;0;) i64 8)
+  (elem (;0;) (table 0) (i64.const 1) i31ref (ref.null i31))
+  (elem (;1;) eqref (ref.null struct))
+  (elem (;2;) arrayref)
+  (data (;0;) "")
+)

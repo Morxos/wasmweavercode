@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 22 542712 externref ref.null extern)
+  (global (;0;) i64 i64.const 5122843655099989132 i64.const 6951683370350924882 i64.sub)
+  (export "" (table 0))
+  (export "c" (table 0))
+  (data (;0;) "\c1")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 14105 199989159446950))
+  (import "U\u{785}\u{b}]X" "" (table (;0;) i64 20 842026 nullref))
+  (global (;0;) i64 i64.const -6094557853819836050 i64.const -1807924559785354660 i64.const -5455639530228205438 i64.const -435215434634302371 i64.const -2550617790058529737 i64.const -3907208969015044561 i64.const -2072296136366259930 i64.const -2220992380407562009 i64.const -5921350887520759456 i64.const 7731759979072389887 i64.const -7189855312128431435 i64.const 450094585415495992 i64.add i64.add i64.sub i64.add i64.sub i64.sub i64.add i64.sub i64.mul i64.add i64.sub)
+  (export "2" (global 0))
+  (data (;0;) (global.get 0) "\06")
+  (data (;1;) "")
+)

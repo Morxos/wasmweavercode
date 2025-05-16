@@ -1,0 +1,9 @@
+(module
+  (import "bb" "" (global (;0;) i32))
+  (global (;1;) (mut i32) i32.const -2029171426)
+  (global (;2;) (mut f32) f32.const 0x1.cccf02p-8 (;=0.0070313816;))
+  (global (;3;) f64 f64.const -0x1.1acb136ebd57ep+264 (;=-32745223007576583000000000000000000000000000000000000000000000000000000000000000;))
+  (export "\u{17}?H" (global 3))
+  (export "Uqa6" (global 1))
+  (export "" (global 1))
+)

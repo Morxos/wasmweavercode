@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) 0 structref))
+  (memory (;0;) i64 1862 248948698821667 shared)
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) (table 0) (i32.const 0) structref)
+)

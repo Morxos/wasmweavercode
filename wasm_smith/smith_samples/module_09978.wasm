@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 4 anyref)
+  (memory (;0;) i64 3994 114809628925265)
+  (global (;0;) i64 i64.const -589939703590107487)
+  (export "4\u{a}" (table 0))
+)

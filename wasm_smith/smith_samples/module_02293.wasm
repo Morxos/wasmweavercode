@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 830 149389379984280)
+  (export "^\u{6ff}8" (memory 0))
+  (data (;0;) (i64.const 11445) "\f9")
+  (data (;1;) (i64.const 31) "nq")
+)

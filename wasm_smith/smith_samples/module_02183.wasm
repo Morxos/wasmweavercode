@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 21 2423 i31ref ref.null i31)
+  (memory (;0;) 6408 12262)
+  (global (;0;) (mut f32) f32.const 0x1.5eb4aap+15 (;=44890.332;))
+  (global (;1;) (mut f32) f32.const 0x1.b84792p+112 (;=8929930600000000000000000000000000;))
+  (elem (;0;) func)
+)

@@ -1,0 +1,6 @@
+(module
+  (import "+" "" (memory (;0;) 14053))
+  (import "(1\u{9}5" "" (global (;0;) i64))
+  (import "\u{4}\u{a}\u{19}]Q" "" (global (;1;) f32))
+  (data (;0;) (i32.const -1293038) "")
+)

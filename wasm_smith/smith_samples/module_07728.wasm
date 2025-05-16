@@ -1,0 +1,6 @@
+(module
+  (import "\u{2fd};" "" (memory (;0;) 0 42201 shared))
+  (import "\u{7f}i" "" (global (;0;) f32))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) declare nullfuncref (ref.null nofunc))
+)

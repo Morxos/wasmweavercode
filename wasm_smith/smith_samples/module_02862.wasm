@@ -1,0 +1,6 @@
+(module
+  (import "\u{1}s" "" (memory (;0;) i64 1853 64809885504745 shared))
+  (table (;0;) 8 903761 externref)
+  (global (;0;) f32 f32.const 0x1.f1d1fep-32 (;=0.0000000004527649;))
+  (export "\u{a}dL" (table 0))
+)

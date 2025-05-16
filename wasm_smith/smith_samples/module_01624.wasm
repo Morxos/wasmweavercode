@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 51 3803))
+  (import "" "" (table (;0;) 2 838514 externref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "<," "" (global (;1;) (mut f64)))
+  (import "" "" (global (;2;) f32))
+  (global (;3;) i64 i64.const 183544900160835734)
+  (export "[i-\u{a}" (table 0))
+  (export "s\u{12}" (table 0))
+  (data (;0;) "\90")
+)

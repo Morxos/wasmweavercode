@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 1 32644 externref ref.null noextern)
+  (global (;0;) i64 i64.const 7219770870019068487)
+  (export "" (table 0))
+  (export "1" (global 0))
+  (export "F\u{b}" (table 0))
+  (export "\u{4}\u{1f}" (table 0))
+  (data (;0;) "")
+)

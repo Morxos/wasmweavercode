@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 890532 exnref ref.null exn)
+  (memory (;0;) i64 4 45268834977569 shared)
+  (export "" (memory 0))
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 6177 502825 nullexternref)
+  (global (;0;) (mut i64) i64.const 6186554832031030434)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "2")
+  (data (;3;) "\06\b4")
+)

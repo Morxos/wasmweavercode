@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 4512 955193 nullref ref.null none)
+  (global (;0;) nullfuncref ref.null nofunc)
+  (global (;1;) (mut nullref) ref.null none)
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "Go\u{18f}G" "" (global (;0;) (mut arrayref)))
+  (import "" "" (memory (;0;) i64 662))
+  (import "" "" (table (;0;) 1127 630707 anyref))
+  (export "" (memory 0))
+  (data (;0;) "")
+)

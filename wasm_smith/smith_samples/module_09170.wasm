@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 1507 anyref ref.null array)
+  (memory (;0;) i64 57 143300681026056 shared)
+  (global (;0;) (mut f32) f32.const 0x1.a7671p+123 (;=17587455000000000000000000000000000000;))
+  (elem (;0;) (table 0) (i64.const 603) eqref (ref.null none))
+  (elem (;1;) arrayref (ref.null array) (ref.null none) (ref.null array))
+  (elem (;2;) declare nullexternref)
+  (data (;0;) "\9c\ffr")
+  (data (;1;) (i64.const 3510244) "")
+)

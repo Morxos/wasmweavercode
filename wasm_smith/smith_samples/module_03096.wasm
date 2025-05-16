@@ -1,0 +1,10 @@
+(module
+  (import "6\u{7}I=\u{1b}" "" (table (;0;) 127 404790 funcref))
+  (import "" "" (memory (;0;) 660 58332))
+  (import "" "" (global (;0;) (mut f32)))
+  (global (;1;) (mut i32) i32.const -1569335069)
+  (global (;2;) f64 f64.const -0x1.a2fdaf6550906p+96 (;=-129671420620745640000000000000;))
+  (global (;3;) (mut i64) i64.const -7572424140893267475 i64.const -3533926556501408204 i64.const 7783455174466389203 i64.const 8208411276405659676 i64.const 8757325823738760678 i64.const -3926607598268838961 i64.const -6106887935761245736 i64.const -6166612711471887663 i64.sub i64.mul i64.const -219171322202348218 i64.sub i64.sub i64.const 4147860900300428381 i64.mul i64.sub i64.add i64.mul i64.mul)
+  (global (;4;) (mut funcref) ref.null func)
+  (global (;5;) (mut f32) f32.const 0x1.09d9p-119 (;=0.0000000000000000000000000000000000015625121;))
+)

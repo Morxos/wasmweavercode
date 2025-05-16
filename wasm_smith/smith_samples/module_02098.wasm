@@ -1,0 +1,12 @@
+(module
+  (import "\u{1ea}P" "" (global (;0;) eqref))
+  (import "_\u{13}~" "" (memory (;0;) 3347))
+  (import "" "" (table (;0;) 0 eqref))
+  (import "" "" (global (;1;) arrayref))
+  (import "" "" (global (;2;) (mut f32)))
+  (import "OYA\u{15}r" "" (global (;3;) i32))
+  (global (;4;) (mut f64) f64.const 0x1.7556305094f86p+89 (;=902672690968075800000000000;))
+  (export "V" (global 1))
+  (elem (;0;) declare arrayref)
+  (elem (;1;) nullfuncref)
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 1615 arrayref ref.null array)
+  (memory (;0;) i64 10)
+  (export "" (table 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+  (data (;0;) "")
+  (data (;1;) (i64.const 35) "\98")
+  (data (;2;) (i64.const 647) "\1d")
+  (data (;3;) "")
+)

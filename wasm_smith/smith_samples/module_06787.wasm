@@ -1,0 +1,5 @@
+(module
+  (import "\u{7f}p" "" (memory (;0;) i64 12102 280416449932933 shared))
+  (global (;0;) (mut funcref) ref.null func)
+  (data (;0;) "")
+)

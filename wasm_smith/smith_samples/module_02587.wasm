@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 5259 310117 eqref)
+  (memory (;0;) i64 6658 98001204836418 shared)
+  (global (;0;) f32 f32.const 0x1.755292p-56 (;=0.000000000000000020237855;))
+  (export "\u{5}" (global 0))
+  (elem (;0;) declare nullexternref (ref.null noextern))
+  (elem (;1;) (table 0) (i64.const 53) eqref)
+  (elem (;2;) structref)
+  (elem (;3;) (table 0) (i64.const 3636) arrayref (ref.null array))
+  (elem (;4;) exnref)
+  (data (;0;) "g,\04")
+  (data (;1;) "")
+)

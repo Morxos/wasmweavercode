@@ -1,0 +1,10 @@
+(module
+  (import "&" "" (table (;0;) i64 8 818821 i31ref))
+  (memory (;0;) 88 28640 shared)
+  (global (;0;) f32 f32.const -0x1.278672p+82 (;=-5582313000000000000000000;))
+  (elem (;0;) (table 0) (i64.const 5) i31ref (ref.null none))
+  (elem (;1;) declare nullref)
+  (data (;0;) (i32.const 3356372) "\98")
+  (data (;1;) (i32.const 3547106) "Z")
+  (data (;2;) "\be\9c")
+)

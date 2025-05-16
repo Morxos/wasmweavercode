@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) nullref)
+  (elem (;1;) declare anyref (ref.null array) (ref.null i31))
+)

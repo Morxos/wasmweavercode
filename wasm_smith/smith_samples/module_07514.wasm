@@ -1,0 +1,5 @@
+(module
+  (import "C5\u{3e3}c\u{10}WRSBO\u{7f}\u{1} " "" (global (;0;) (mut anyref)))
+  (table (;0;) i64 584 externref ref.null noextern)
+  (elem (;0;) declare nullref (ref.null none) (ref.null none))
+)

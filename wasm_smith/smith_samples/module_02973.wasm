@@ -1,0 +1,7 @@
+(module
+  (import "\u{c}U" "" (global (;0;) (mut nullref)))
+  (table (;0;) 0 nullexternref)
+  (export "H\u{22}`\u{17}" (global 0))
+  (export "" (global 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 295 arrayref))
+  (global (;0;) i32 i32.const 1784908798)
+  (export "" (global 0))
+  (data (;0;) "\d2\ee")
+  (data (;1;) "")
+  (data (;2;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 388 nullfuncref)
+  (memory (;0;) i64 373)
+  (global (;0;) i64 i64.const 2454051890257177011)
+)

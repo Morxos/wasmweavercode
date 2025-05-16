@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) 3435))
+  (export "" (memory 0))
+  (data (;0;) "\87n")
+  (data (;1;) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 5534)
+  (global (;0;) nullref ref.null none)
+  (data (;0;) (i32.const 141458159) ";r\83")
+  (data (;1;) (i32.const 7136020) "H")
+  (data (;2;) "\c6\de{")
+  (data (;3;) (i32.const 26391148) "P")
+  (data (;4;) "\81")
+)

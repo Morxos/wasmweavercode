@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) eqref)
+  (elem (;1;) nullref)
+)

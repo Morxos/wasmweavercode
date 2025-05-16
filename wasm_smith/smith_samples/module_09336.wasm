@@ -1,0 +1,7 @@
+(module
+  (import "\u{1e}^" "" (table (;0;) 1 475200 i31ref))
+  (import ";" "" (memory (;0;) 0 18887))
+  (import "GU" "" (global (;0;) (mut i64)))
+  (export "" (memory 0))
+  (data (;0;) "")
+)

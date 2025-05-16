@@ -1,0 +1,4 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "" "" (global (;1;) (mut arrayref)))
+)

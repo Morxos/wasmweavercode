@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 999 46053 shared)
+  (export "\u{10}\u{3}t" (memory 0))
+  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
+)

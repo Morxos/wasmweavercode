@@ -1,0 +1,7 @@
+(module
+  (import "\u{469}" "" (memory (;0;) i64 6717 119742936299610))
+  (table (;0;) 19 237463 eqref)
+  (global (;0;) nullref ref.null none)
+  (global (;1;) i64 i64.const 2197246363163687803 i64.const 7001132220122942860 i64.const -5017865019778698054 i64.sub i64.mul i64.const 2071828853862670726 i64.const 6804265856645273360 i64.const 779412370453512633 i64.mul i64.sub i64.sub i64.const -475858409944666757 i64.add)
+  (export "Ak.r" (memory 0))
+)

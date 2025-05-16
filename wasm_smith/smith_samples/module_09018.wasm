@@ -1,0 +1,8 @@
+(module
+  (import "[" "" (global (;0;) eqref))
+  (import "\u{13}" "" (table (;0;) 0 825679 exnref))
+  (import "" "" (memory (;0;) 850 47303 shared))
+  (import "\u{11}" "" (global (;1;) f64))
+  (import "`u" "" (global (;2;) funcref))
+  (global (;3;) (mut i64) i64.const 6842281453411042016)
+)

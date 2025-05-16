@@ -1,0 +1,8 @@
+(module
+  (global (;0;) f64 f64.const -0x1.2fe955a7fdcc5p-474 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002433824012101929;))
+  (elem (;0;) declare anyref (ref.null any) (ref.null i31))
+  (elem (;1;) funcref (ref.null func) (ref.null func))
+  (elem (;2;) declare nullfuncref)
+  (elem (;3;) declare exnref)
+  (elem (;4;) declare funcref (ref.null func))
+)

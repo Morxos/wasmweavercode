@@ -1,0 +1,7 @@
+(module
+  (import "m" "" (memory (;0;) 58))
+  (import "Z{Dp" "" (table (;0;) 0 863098 nullref))
+  (global (;0;) (mut i64) i64.const 6907206467125251771)
+  (export "1" (table 0))
+  (data (;0;) (i32.const 815613) "\16")
+)

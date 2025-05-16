@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 0 808283 anyref ref.null struct)
+  (global (;0;) (mut i64) i64.const -5533763013899937268)
+  (global (;1;) (mut i64) i64.const -6977224621541256672 i64.const -8440583529260747569 i64.const 5400112096761241604 i64.const -174570819723875087 i64.const -3789452872228952650 i64.const 7633775604394792487 i64.const 7990457094324964630 i64.const 2831944281536681719 i64.const -6316771484675203324 i64.const -3610591876807335020 i64.add i64.mul i64.mul i64.const 84941454560649523 i64.add i64.sub i64.add i64.add i64.sub i64.mul i64.sub)
+  (export "" (global 1))
+  (export "1" (global 1))
+  (export "X" (table 0))
+  (export "3" (table 0))
+  (export "\u{14}" (global 0))
+  (export "5" (global 0))
+  (data (;0;) "")
+)

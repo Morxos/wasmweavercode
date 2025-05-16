@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) nullfuncref))
+  (table (;0;) 5 291387 anyref)
+  (memory (;0;) 7 45341 shared)
+  (elem (;0;) (table 0) (i32.const 1) nullref)
+  (data (;0;) (i32.const 52286) "d\ef")
+  (data (;1;) (i32.const 441421) "")
+  (data (;2;) (i32.const 4943) "\0c")
+)

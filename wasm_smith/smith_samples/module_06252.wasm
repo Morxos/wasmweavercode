@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut funcref) ref.null nofunc)
+  (global (;1;) eqref ref.null struct)
+  (global (;2;) f64 f64.const 0x1.142207ffe3fbdp-230 (;=0.0000000000000000000000000000000000000000000000000000000000000000000006251428096260834;))
+  (elem (;0;) declare nullexternref (ref.null noextern))
+  (elem (;1;) arrayref (ref.null array) (ref.null array) (ref.null array) (ref.null array) (ref.null none))
+  (elem (;2;) externref)
+)

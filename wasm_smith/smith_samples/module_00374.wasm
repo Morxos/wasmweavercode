@@ -1,0 +1,7 @@
+(module
+  (import "fh" "" (table (;0;) i64 79 68494 anyref))
+  (import "" "" (global (;0;) i64))
+  (import "" "" (memory (;0;) i64 0))
+  (import "1" "" (global (;1;) f64))
+  (elem (;0;) declare eqref)
+)

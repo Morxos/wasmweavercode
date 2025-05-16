@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 40 i31ref))
+  (import "\u{14}" "" (memory (;0;) i64 0 129075215049442))
+  (export "4\u{18}m" (memory 0))
+  (export ":" (memory 0))
+  (elem (;0;) (table 0) (i32.const 0) i31ref)
+  (elem (;1;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (data (;0;) "\a2")
+)

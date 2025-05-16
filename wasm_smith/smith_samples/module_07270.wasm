@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (import "" "" (table (;0;) 4118 134403 structref))
+  (import "" "" (memory (;0;) i64 0))
+  (import "" "" (global (;1;) i32))
+  (import "" "" (global (;2;) (mut funcref)))
+  (export "" (memory 0))
+  (data (;0;) "\b5")
+  (data (;1;) (i64.const 0) "")
+)

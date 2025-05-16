@@ -1,0 +1,8 @@
+(module
+  (import "\u{22}E" "" (global (;0;) (mut i64)))
+  (table (;0;) 27 44916 nullref)
+  (memory (;0;) 1250)
+  (export "\u{294}" (memory 0))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) (table 0) (i32.const 22) nullref)
+)

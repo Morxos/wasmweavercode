@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 2965 351449 structref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "," (table 0))
+  (export "@" (table 0))
+  (elem (;0;) declare externref)
+  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern))
+  (data (;0;) "d\22")
+)

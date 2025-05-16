@@ -1,0 +1,12 @@
+(module
+  (import "" "" (table (;0;) i64 1434 eqref))
+  (import "f" "" (memory (;0;) 5172 16349 shared))
+  (import "(" "" (global (;0;) (mut i32)))
+  (export "2v" (table 0))
+  (elem (;0;) (table 0) (i64.const 1076) i31ref (ref.null none) (ref.null i31) (ref.null none))
+  (elem (;1;) eqref (ref.null eq) (ref.null eq) (ref.null struct) (ref.null array) (ref.null eq) (ref.null array))
+  (elem (;2;) declare eqref (ref.null eq) (ref.null struct))
+  (elem (;3;) declare i31ref (ref.null none))
+  (elem (;4;) (table 0) (i64.const 1) eqref)
+  (data (;0;) (i32.const 163922) "G")
+)

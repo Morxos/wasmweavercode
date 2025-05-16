@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 2451 897332 nullexternref ref.null noextern)
+  (export "D8" (table 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (elem (;0;) arrayref (ref.null none))
+)

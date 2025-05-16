@@ -1,0 +1,6 @@
+(module
+  (import "/c%" "" (global (;0;) anyref))
+  (memory (;0;) 1072 29646)
+  (export "" (global 0))
+  (export "1" (memory 0))
+)

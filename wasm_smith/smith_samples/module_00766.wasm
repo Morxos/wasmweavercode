@@ -1,0 +1,5 @@
+(module
+  (import "p" "" (global (;0;) f32))
+  (table (;0;) i64 5255 nullfuncref)
+  (export "" (table 0))
+)

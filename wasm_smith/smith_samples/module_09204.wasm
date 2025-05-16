@@ -1,0 +1,6 @@
+(module
+  (import "6\u{4}1" "" (table (;0;) 2593 arrayref))
+  (global (;0;) (mut i64) i64.const -2614388798526003610)
+  (data (;0;) "@")
+  (data (;1;) "Q\aa")
+)

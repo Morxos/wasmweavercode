@@ -1,0 +1,13 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "\u{1c}<" "" (table (;0;) 8976 eqref))
+  (global (;1;) (mut f32) f32.const 0x1.8804bp+10 (;=1568.0732;))
+  (elem (;0;) (table 0) (i32.const 2370) arrayref (ref.null array))
+  (data (;0;) "\1a")
+  (data (;1;) "")
+  (data (;2;) "\b7")
+  (data (;3;) "")
+  (data (;4;) "")
+  (data (;5;) "")
+  (data (;6;) "z")
+)

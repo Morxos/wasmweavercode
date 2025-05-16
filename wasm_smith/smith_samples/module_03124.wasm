@@ -1,0 +1,5 @@
+(module
+  (import "L\u{16}" "" (global (;0;) funcref))
+  (elem (;0;) declare nullref)
+  (data (;0;) "M\00\ee")
+)

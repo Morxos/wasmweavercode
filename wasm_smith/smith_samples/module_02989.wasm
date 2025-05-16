@@ -1,0 +1,5 @@
+(module
+  (import "n" "" (memory (;0;) i64 3 244251165950030))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+)

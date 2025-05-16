@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (table (;0;) 1403 444471 structref ref.null struct)
+  (global (;1;) (mut i32) global.get 0)
+  (export "" (table 0))
+  (elem (;0;) declare structref)
+  (elem (;1;) declare externref (ref.null noextern) (ref.null extern))
+  (data (;0;) "")
+  (data (;1;) "")
+)

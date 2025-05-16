@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 3116 688386 arrayref))
+  (memory (;0;) i64 0)
+  (export "u" (table 0))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) nullexternref)
+  (data (;0;) "")
+)

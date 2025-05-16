@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 1 440152 eqref)
+  (export "S" (table 0))
+)

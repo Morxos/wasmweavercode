@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 4438 anyref ref.null any)
+  (global (;0;) f32 f32.const -0x1.1f2df4p-75 (;=-0.000000000000000000000029693665;))
+  (global (;1;) i32 i32.const 632843928)
+  (export "" (global 0))
+  (export "1" (global 1))
+  (elem (;0;) (table 0) (i32.const 1794) structref)
+  (elem (;1;) declare arrayref)
+  (data (;0;) "")
+)

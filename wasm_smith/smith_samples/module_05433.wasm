@@ -1,0 +1,9 @@
+(module
+  (import "?C" "" (table (;0;) i64 9144 391666 i31ref))
+  (import "\u{182}f" "" (global (;0;) (mut f32)))
+  (global (;1;) nullexternref ref.null noextern)
+  (global (;2;) (mut f32) f32.const 0x1.8b6df8p-76 (;=0.00000000000000000000002044323;))
+  (global (;3;) i64 i64.const 652522868292851860)
+  (export "" (global 2))
+  (data (;0;) "")
+)

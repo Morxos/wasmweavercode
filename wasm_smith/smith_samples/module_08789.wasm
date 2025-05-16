@@ -1,0 +1,4 @@
+(module
+  (import "L|\u{1b}" "" (memory (;0;) 3846 29943 shared))
+  (export "\u{10}" (memory 0))
+)

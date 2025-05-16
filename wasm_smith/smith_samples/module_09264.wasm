@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 846)
+  (export "j" (memory 0))
+  (data (;0;) (i32.const 11461507) "0")
+  (data (;1;) (i32.const 3564552) "\c2\fd")
+  (data (;2;) "`")
+  (data (;3;) (i32.const 32881) "")
+)

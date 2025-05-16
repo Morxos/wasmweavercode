@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 1312)
+  (global (;0;) (mut f32) f32.const -0x1.a93b42p-87 (;=-0.0000000000000000000000000107343516;))
+  (elem (;0;) arrayref)
+  (data (;0;) "")
+  (data (;1;) "\e5~\ac\d1Xv")
+  (data (;2;) "")
+)

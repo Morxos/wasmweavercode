@@ -1,0 +1,6 @@
+(module
+  (rec)
+  (table (;0;) i64 1 nullfuncref ref.null nofunc)
+  (global (;0;) nullref ref.null none)
+  (export "" (table 0))
+)

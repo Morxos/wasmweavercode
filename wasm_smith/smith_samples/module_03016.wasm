@@ -1,0 +1,7 @@
+(module
+  (global (;0;) f32 f32.const -0x1.656176p+51 (;=-3143554000000000;))
+  (global (;1;) i64 i64.const -8470684185820017268)
+  (elem (;0;) eqref (ref.null array) (ref.null i31) (ref.null i31) (ref.null eq) (ref.null eq))
+  (data (;0;) "\06\00")
+  (data (;1;) "")
+)

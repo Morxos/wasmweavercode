@@ -1,0 +1,5 @@
+(module
+  (elem (;0;) i31ref (ref.null none) (ref.null i31))
+  (elem (;1;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (elem (;2;) nullfuncref (ref.null nofunc))
+)

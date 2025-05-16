@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) 0 anyref))
+  (global (;0;) f32 f32.const 0x1.441e22p-12 (;=0.00030910273;))
+  (export "\u{17}" (global 0))
+  (export "" (global 0))
+  (export "2" (global 0))
+  (elem (;0;) externref (ref.null noextern) (ref.null extern))
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) declare func)
+)

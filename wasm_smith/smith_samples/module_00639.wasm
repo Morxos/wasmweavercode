@@ -1,0 +1,10 @@
+(module
+  (import "\u{7f}l" "" (global (;0;) (mut f64)))
+  (import "+\u{8}" "" (table (;0;) 3257 arrayref))
+  (memory (;0;) 2)
+  (global (;1;) (mut f32) f32.const 0x1.18ee3p-86 (;=0.000000000000000000000000014183362;))
+  (elem (;0;) declare structref)
+  (data (;0;) (i32.const 567) "\a4?")
+  (data (;1;) "X~\8f\c8")
+  (data (;2;) (i32.const 22) "\fd\a8")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) (mut exnref)))
+  (table (;0;) i64 0 structref ref.null struct)
+  (elem (;0;) anyref (ref.null array))
+)

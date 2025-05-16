@@ -1,0 +1,4 @@
+(module
+  (import "\u{10}" "" (memory (;0;) i64 11))
+  (table (;0;) 4666 419334 nullref)
+)

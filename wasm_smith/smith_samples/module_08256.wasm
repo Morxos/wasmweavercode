@@ -1,0 +1,10 @@
+(module
+  (global (;0;) f64 f64.const 0x1.2027d2a934fcap+461 (;=6702163785828165000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;1;) eqref ref.null array)
+  (elem (;0;) externref (ref.null noextern) (ref.null extern) (ref.null extern) (ref.null noextern))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\85")
+  (data (;3;) "\a3")
+  (data (;4;) "\88")
+)

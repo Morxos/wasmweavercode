@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 199 anyref))
+  (import "" "" (global (;0;) (mut i32)))
+  (import "g" "" (memory (;0;) 8554 52793 shared))
+)

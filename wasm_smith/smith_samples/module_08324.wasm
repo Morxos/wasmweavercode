@@ -1,0 +1,4 @@
+(module
+  (import "u0\u{5}" "" (table (;0;) 725 967837 i31ref))
+  (import "\u{16}" "" (global (;0;) (mut i64)))
+)

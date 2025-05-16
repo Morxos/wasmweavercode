@@ -1,0 +1,8 @@
+(module
+  (import "g\u{1ce}\u{78e}6" "" (table (;0;) i64 4591 nullfuncref))
+  (import "\u{d4}O" "" (memory (;0;) i64 312 126651271046426 shared))
+  (export "\u{8}" (table 0))
+  (export "~bL\u{14}" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "")
+)

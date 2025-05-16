@@ -1,0 +1,3 @@
+(module
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
+)

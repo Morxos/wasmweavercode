@@ -1,0 +1,12 @@
+(module
+  (import "\u{b}a" "" (table (;0;) 7218 structref))
+  (import "" "" (memory (;0;) 2821 65344))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "2" (table 0))
+  (export "w[wL&c" (table 0))
+  (export "5" (memory 0))
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none))
+  (data (;0;) (i32.const 67359) "")
+  (data (;1;) "\17\8d")
+)

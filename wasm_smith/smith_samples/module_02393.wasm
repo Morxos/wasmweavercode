@@ -1,0 +1,9 @@
+(module
+  (import "\u{1e}\u{12}" "" (table (;0;) 687 anyref))
+  (memory (;0;) 385 1802)
+  (export " p" (table 0))
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i32.const 599) arrayref (ref.null none) (ref.null array) (ref.null array))
+  (elem (;1;) declare nullfuncref)
+  (elem (;2;) (table 0) (i32.const 191) structref (ref.null none))
+)

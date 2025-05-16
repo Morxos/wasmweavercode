@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) 0 926442 eqref))
+  (global (;0;) f32 f32.const 0x1.8f69aep-11 (;=0.0007618195;))
+  (data (;0;) "")
+)

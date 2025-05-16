@@ -1,0 +1,7 @@
+(module
+  (import "\u{d}" "" (table (;0;) i64 209 432890 i31ref))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (memory (;0;) i64 290))
+  (import "u" "" (global (;1;) i32))
+  (export "E" (memory 0))
+)

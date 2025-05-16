@@ -1,0 +1,11 @@
+(module
+  (import "\u{13}" "" (table (;0;) 2336 externref))
+  (global (;0;) (mut i32) i32.const 22123495)
+  (global (;1;) (mut i64) i64.const 1735415124636218491)
+  (export "\u{10}\u{13}" (table 0))
+  (elem (;0;) i31ref (ref.null i31) (ref.null none))
+  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (data (;0;) "\8f")
+  (data (;1;) "")
+  (data (;2;) "")
+)

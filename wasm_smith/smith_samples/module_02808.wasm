@@ -1,0 +1,4 @@
+(module
+  (global (;0;) (mut i32) i32.const -896631554 i32.const 1646984641 i32.const 360432589 i32.const 997575937 i32.const -1775489499 i32.const -1404769906 i32.const 900799711 i32.const 912966470 i32.add i32.add i32.sub i32.mul i32.mul i32.add i32.mul i32.const 1666305656 i32.sub i32.const 399342015 i32.sub)
+  (global (;1;) (mut i32) i32.const 299667597)
+)

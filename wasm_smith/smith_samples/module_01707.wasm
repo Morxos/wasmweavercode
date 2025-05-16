@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 4412 181400 eqref))
+  (elem (;0;) declare externref)
+  (elem (;1;) declare anyref)
+  (elem (;2;) declare structref (ref.null struct) (ref.null struct) (ref.null struct) (ref.null struct))
+  (elem (;3;) (table 0) (i64.const 160) structref)
+)

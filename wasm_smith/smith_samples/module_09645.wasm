@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut i64) i64.const 6804832138910129166)
+  (global (;1;) (mut f32) f32.const -0x1.0536d8p-75 (;=-0.00000000000000000000002700892;))
+  (elem (;0;) arrayref (ref.null none) (ref.null array))
+  (elem (;1;) anyref)
+  (elem (;2;) nullexternref (ref.null noextern) (ref.null noextern))
+  (data (;0;) "")
+)

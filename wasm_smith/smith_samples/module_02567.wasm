@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 structref)
+  (export "(\u{9}" (table 0))
+  (export "\u{c}" (table 0))
+  (data (;0;) "")
+)

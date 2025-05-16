@@ -1,0 +1,33 @@
+(module
+(type $sig_run (func))
+(import "env" "memory" (memory 1))
+(global $global_625450317 (mut f32) (f32.const -1.893090879632048e+18))
+(func $run (export "run")
+    (local f32 i32 i64)
+    (local $temp i32)
+    ;;FLAG_0
+    nop
+    local.get 0
+    (i64.const 64)
+    drop
+    global.set $global_625450317
+    local.get 0
+    i32.trunc_f32_u
+    (br_table 0)
+    ;;FLAG_1
+    local.get 0
+    (i64.const 8884956)
+    f64.convert_i64_u
+    (i32.const -427)
+    local.tee 1
+    f64.convert_i32_s
+    f64.eq
+    local.set 1
+    i32.trunc_f32_s
+    f32.convert_i32_s
+    drop
+    (i64.const 16350575)
+    local.set 2
+)
+
+)

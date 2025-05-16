@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 4204 nullfuncref)
+  (export ".\u{e}" (table 0))
+  (export "@" (table 0))
+  (export "6" (table 0))
+  (export "`z" (table 0))
+)

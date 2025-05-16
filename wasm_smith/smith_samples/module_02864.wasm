@@ -1,0 +1,6 @@
+(module
+  (elem (;0;) declare funcref)
+  (elem (;1;) declare anyref)
+  (elem (;2;) declare funcref)
+  (elem (;3;) declare eqref (ref.null i31))
+)

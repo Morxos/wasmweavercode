@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 2306 eqref)
+  (export "K" (table 0))
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i32.const 0) eqref (ref.null eq) (ref.null eq))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\98")
+  (data (;3;) "\88")
+)

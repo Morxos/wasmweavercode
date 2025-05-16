@@ -1,0 +1,4 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (table (;0;) 41 123781 externref))
+)

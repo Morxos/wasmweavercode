@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 1219)
+  (elem (;0;) nullexternref)
+  (data (;0;) (i64.const 24580697) "\d3")
+  (data (;1;) "")
+)

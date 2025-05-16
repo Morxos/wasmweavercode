@@ -1,0 +1,11 @@
+(module
+  (import "q" "" (memory (;0;) 2902 53913))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (table (;0;) 2863 funcref))
+  (global (;1;) i32 i32.const 1517143783)
+  (global (;2;) (mut nullref) ref.null none)
+  (global (;3;) f64 global.get 0)
+  (global (;4;) (mut i32) i32.const 899836913)
+  (export "{" (memory 0))
+  (data (;0;) (i32.const 1574) "\1f\8c")
+)

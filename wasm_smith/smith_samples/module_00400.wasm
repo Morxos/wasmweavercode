@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 440 anyref)
+  (memory (;0;) i64 4493)
+  (export "rM\u{2d4}" (memory 0))
+  (elem (;0;) declare anyref (ref.null i31) (ref.null none) (ref.null array))
+  (data (;0;) "\d0\db\11\cd")
+)

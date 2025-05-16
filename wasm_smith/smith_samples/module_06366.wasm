@@ -1,0 +1,11 @@
+(module
+  (import "\u{11}}" "" (global (;0;) f64))
+  (import "" "" (global (;1;) structref))
+  (import "5p" "" (table (;0;) i64 86 818678 nullfuncref))
+  (import "2r" "" (memory (;0;) 12712 13437 shared))
+  (import "\u{7f}\u{213}" "" (global (;2;) f32))
+  (import "" "" (global (;3;) (mut i64)))
+  (global (;4;) exnref ref.null exn)
+  (elem (;0;) (table 0) (i64.const 0) nullfuncref)
+  (elem (;1;) externref (ref.null extern))
+)

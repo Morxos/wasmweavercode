@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 4044 anyref)
+  (global (;0;) i32 i32.const 700642203)
+  (global (;1;) i64 i64.const 5494216998317594735)
+  (global (;2;) arrayref ref.null array)
+  (export "\u{1a}" (table 0))
+  (elem (;0;) structref)
+  (elem (;1;) declare nullref)
+  (data (;0;) "c")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 10 824240 eqref ref.null array)
+  (memory (;0;) i64 3061 5956419353109)
+  (elem (;0;) (table 0) (i32.const 0) i31ref)
+)

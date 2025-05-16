@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 1973 structref ref.null none)
+  (memory (;0;) 1011)
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) (table 0) (i64.const 60) nullref)
+  (elem (;2;) (table 0) (i64.const 645) nullref)
+  (elem (;3;) nullref (ref.null none))
+  (elem (;4;) eqref)
+  (elem (;5;) (table 0) (i64.const 1736) structref (ref.null struct))
+  (data (;0;) (i32.const 201447) "")
+)

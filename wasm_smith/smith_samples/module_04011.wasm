@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 629 704223 nullexternref)
+  (global (;0;) (mut arrayref) ref.null array)
+  (global (;1;) (mut f32) f32.const -0x1.494a7p+30 (;=-1381145600;))
+  (global (;2;) (mut eqref) ref.null array)
+  (global (;3;) f32 f32.const -0x1.7cec7cp-101 (;=-0.000000000000000000000000000000586906;))
+  (global (;4;) (mut f32) f32.const -0x1.68450ep+112 (;=-7307138500000000000000000000000000;))
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "\u{17}" (global 2))
+  (export "R=w\u{c1b1}\u{11}" (table 0))
+)

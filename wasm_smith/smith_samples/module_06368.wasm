@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 80 480963 funcref))
+  (memory (;0;) i64 13 126815786053430 shared)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (data (;0;) (i64.const 1476) "")
+)

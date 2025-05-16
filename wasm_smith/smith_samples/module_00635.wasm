@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 7 exnref)
+  (memory (;0;) i64 20 242262837529511 shared)
+  (data (;0;) "")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "yY0" "" (table (;0;) i64 0 968466 funcref))
+  (data (;0;) "\88\99\ab")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "#" "" (memory (;0;) i64 15391 62010012658566))
+  (table (;0;) i64 8688 701396 exnref ref.null exn)
+  (global (;0;) (mut i31ref) ref.null i31)
+  (global (;1;) i64 i64.const 6898812578209472444)
+  (data (;0;) (global.get 1) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "\u{3a3}r\u{19}" "" (global (;0;) i32))
+  (global (;1;) (mut eqref) ref.null eq)
+  (elem (;0;) arrayref)
+)

@@ -1,0 +1,5 @@
+(module
+  (import "fL" "" (memory (;0;) 97 30945))
+  (import "" "" (table (;0;) i64 1073 exnref))
+  (import "" "" (global (;0;) (mut f64)))
+)

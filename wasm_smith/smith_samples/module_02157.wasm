@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 0 25502))
+  (import "o" "" (table (;0;) i64 8124 arrayref))
+  (import "\u{6}" "" (global (;0;) f32))
+  (import "" "" (global (;1;) i64))
+  (export "zx\u{344}V" (global 0))
+  (export "\u{244}" (table 0))
+  (export "c-" (global 0))
+  (elem (;0;) declare externref)
+  (elem (;1;) declare i31ref)
+)

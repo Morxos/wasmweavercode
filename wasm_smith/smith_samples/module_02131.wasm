@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 8 576563 nullref)
+  (global (;0;) (mut i32) i32.const 543256995)
+  (global (;1;) (mut arrayref) ref.null array)
+  (export "&G#" (table 0))
+  (export "4Z" (table 0))
+  (elem (;0;) declare anyref)
+  (elem (;1;) (table 0) (i64.const 0) nullref (ref.null none) (ref.null none))
+  (data (;0;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "H\u{6}\u{a}" "" (table (;0;) 0 965808 nullexternref))
+  (memory (;0;) 12598)
+  (elem (;0;) anyref)
+  (elem (;1;) arrayref (ref.null array) (ref.null array) (ref.null array))
+  (elem (;2;) nullref)
+  (data (;0;) (i32.const 30885343) "")
+)

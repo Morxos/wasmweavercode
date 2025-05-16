@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (memory (;0;) 2 5180)
+  (global (;1;) (mut f64) f64.const 0x1.85622c6f506c1p-272 (;=0.00000000000000000000000000000000000000000000000000000000000000000000000000000000020043739418478036;))
+  (global (;2;) (mut i32) i32.const -1839826443 i32.const 1522424517 i32.const 2099116745 i32.const -407758755 i32.sub i32.const 389187939 i32.const 2090595104 i32.add i32.add i32.const -1942228072 i32.mul i32.add i32.const -1658264056 i32.mul i32.mul)
+  (elem (;0;) declare i31ref (ref.null i31))
+  (elem (;1;) declare i31ref)
+  (elem (;2;) declare arrayref)
+  (data (;0;) (i32.const 18) "1\fa\5ci")
+)

@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) i64 0 453403 arrayref))
+  (data (;0;) "")
+)

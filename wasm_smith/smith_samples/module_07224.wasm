@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 192 271797 anyref))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "W" "" (memory (;0;) i64 0))
+  (import "G\u{49b}" "" (global (;1;) i64))
+  (global (;2;) (mut i64) i64.const 5095847024400378015 i64.const 5694856841604216964 i64.add)
+  (data (;0;) "")
+)

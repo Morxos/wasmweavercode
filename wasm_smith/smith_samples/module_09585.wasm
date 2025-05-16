@@ -1,0 +1,7 @@
+(module
+  (import "W\u{15}" "" (global (;0;) (mut f64)))
+  (table (;0;) 6868 344508 nullfuncref)
+  (elem (;0;) declare nullref)
+  (data (;0;) "")
+  (data (;1;) "")
+)

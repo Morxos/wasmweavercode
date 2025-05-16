@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 12 159896556844974))
+  (global (;0;) (mut externref) ref.null noextern)
+  (elem (;0;) exnref)
+  (data (;0;) (i64.const 600512) "\a3\0bzj\fc\82")
+  (data (;1;) "")
+)

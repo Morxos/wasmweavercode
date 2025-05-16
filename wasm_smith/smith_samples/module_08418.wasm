@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 6 915208 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 7)
+  (global (;0;) (mut i32) i32.const -901219898)
+  (data (;0;) (i64.const 1170) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 5638 63206 nullref)
+  (memory (;0;) 4)
+  (global (;0;) i32 i32.const -1339170130)
+  (export "r" (table 0))
+  (export "" (table 0))
+  (elem (;0;) i31ref)
+  (elem (;1;) declare nullfuncref (ref.null nofunc))
+)

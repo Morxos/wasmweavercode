@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 3 i31ref)
+  (elem (;0;) funcref)
+)

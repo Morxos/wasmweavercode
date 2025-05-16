@@ -1,0 +1,6 @@
+(module
+  (import "\u{0}~\u{216},Q" "" (global (;0;) (mut f64)))
+  (global (;1;) i64 i64.const 6477480082217246136)
+  (global (;2;) (mut anyref) ref.null eq)
+  (export "\u{7bf}" (global 2))
+)

@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 84 47448)
+  (global (;0;) i32 i32.const 63821565)
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) declare arrayref (ref.null array) (ref.null array) (ref.null array))
+)

@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 0 282448 nullref)
+  (global (;0;) (mut f32) f32.const -0x1.58a77ap-37 (;=-0.000000000009795662;))
+  (export "" (table 0))
+  (elem (;0;) declare nullexternref (ref.null noextern))
+)

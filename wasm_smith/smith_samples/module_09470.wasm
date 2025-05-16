@@ -1,0 +1,3 @@
+(module
+  (import "\u{f}" "" (table (;0;) i64 0 eqref))
+)

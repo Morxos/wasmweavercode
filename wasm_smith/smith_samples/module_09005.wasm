@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 3 nullfuncref ref.null nofunc)
+  (global (;0;) (mut i64) i64.const 8509481193319688109)
+  (global (;1;) i64 i64.const 3786697463305913467)
+  (global (;2;) (mut f64) f64.const -0x1.396293dba38cbp+455 (;=-113890201749428080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;3;) (mut i32) i32.const 900937856 i32.const -728153826 i32.const -806670919 i32.const -1705873346 i32.const 1926408438 i32.const -2098771581 i32.const 1621175370 i32.sub i32.sub i32.const -88416187 i32.sub i32.sub i32.mul i32.mul i32.const 1541372843 i32.mul i32.mul)
+  (export "\u{3}" (table 0))
+  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (data (;0;) "\c7")
+)

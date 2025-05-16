@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 8601 nullfuncref)
+  (memory (;0;) 0 57447 shared)
+  (export "\u{11}\u{648}" (memory 0))
+  (elem (;0;) func)
+  (data (;0;) "\1d\02.")
+  (data (;1;) "Y")
+  (data (;2;) "")
+  (data (;3;) "")
+)

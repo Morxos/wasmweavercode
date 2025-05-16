@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 0 structref))
+  (import "c" "" (memory (;0;) i64 2255 148376644025147 shared))
+  (export "=\u{a}" (memory 0))
+  (export "" (table 0))
+  (export "T\u{18}" (memory 0))
+  (export "3" (memory 0))
+)

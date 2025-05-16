@@ -1,0 +1,9 @@
+(module
+  (import "(" "" (global (;0;) i64))
+  (import "]" "" (table (;0;) 241 705923 nullref))
+  (import "B#" "" (memory (;0;) i64 0 53504652258327))
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (elem (;0;) arrayref (ref.null array) (ref.null array))
+  (elem (;1;) declare func)
+)

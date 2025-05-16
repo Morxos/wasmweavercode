@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (memory (;0;) 1179)
+  (global (;1;) (mut exnref) ref.null exn)
+  (global (;2;) (mut i32) i32.const -1561623282 i32.const -138896203 i32.sub)
+  (global (;3;) (mut f32) f32.const -0x1.4c5f9cp-126 (;=-0.000000000000000000000000000000000000015261841;))
+  (data (;0;) (i32.const 64010837) "")
+  (data (;1;) (i32.const 583975) "")
+  (data (;2;) "\ea")
+)

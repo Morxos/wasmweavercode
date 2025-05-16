@@ -1,0 +1,6 @@
+(module
+  (rec)
+  (table (;0;) i64 0 nullref)
+  (memory (;0;) 1084 58134)
+  (elem (;0;) declare externref)
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 387 641937 eqref ref.null i31)
+  (memory (;0;) 848)
+  (global (;0;) (mut i32) i32.const 1560332773 i32.const 248877204 i32.const -1736627232 i32.const 307514871 i32.const 1469486795 i32.const 816669457 i32.const -1040647917 i32.const -314315872 i32.const 890105327 i32.const -36816306 i32.mul i32.sub i32.const -472762835 i32.mul i32.mul i32.add i32.mul i32.mul i32.add i32.sub i32.mul)
+  (export "" (global 0))
+  (data (;0;) (i32.const 24870011) "\08+")
+  (data (;1;) (i32.const 101) "")
+  (data (;2;) "\e2x")
+)

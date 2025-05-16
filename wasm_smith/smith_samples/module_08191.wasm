@@ -1,0 +1,8 @@
+(module
+  (import "1" "" (table (;0;) 1442 i31ref))
+  (memory (;0;) i64 969 117024509322278)
+  (export "\u{39a}\u{22}" (table 0))
+  (data (;0;) "")
+  (data (;1;) (i64.const 746117) "")
+  (data (;2;) (i64.const 242) "\ba")
+)

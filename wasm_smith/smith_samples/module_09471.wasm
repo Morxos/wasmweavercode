@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 4216 132561 funcref)
+  (global (;0;) i64 i64.const 92964998382962447)
+  (global (;1;) i64 i64.const 9121084919334477716 i64.const 6209376113780969586 i64.const 5095783784788336742 i64.sub i64.sub)
+  (export "" (global 0))
+  (elem (;0;) nullref)
+  (elem (;1;) declare func)
+)

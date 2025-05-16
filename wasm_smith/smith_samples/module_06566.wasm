@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) i64 0 118701 anyref))
+  (import "" "" (global (;0;) (mut i64)))
+  (elem (;0;) declare eqref (ref.null array))
+  (elem (;1;) (table 0) (i64.const 0) nullref)
+  (elem (;2;) declare exnref)
+  (data (;0;) "f")
+  (data (;1;) "L\f7B5")
+)

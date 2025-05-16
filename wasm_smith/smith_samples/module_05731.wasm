@@ -1,0 +1,7 @@
+(module
+  (import "\u{13}" "" (global (;0;) (mut f32)))
+  (import "" "" (table (;0;) i64 2 611252 externref))
+  (memory (;0;) i64 9618 6817611802754)
+  (data (;0;) "")
+  (data (;1;) (i64.const 10644866) "")
+)

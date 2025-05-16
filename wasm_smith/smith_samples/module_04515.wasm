@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) i64 1578 262108365859925)
+  (elem (;0;) declare nullexternref (ref.null noextern))
+)

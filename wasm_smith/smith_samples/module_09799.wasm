@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 9 structref)
+  (memory (;0;) i64 701)
+  (global (;0;) arrayref ref.null array)
+  (elem (;0;) (table 0) (i32.const 1) structref (ref.null none) (ref.null none))
+  (elem (;1;) declare nullexternref)
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 1538 8831))
+  (import "\u{1e}\u{7f}>~\u{13}" "" (global (;0;) f32))
+  (global (;1;) f32 f32.const 0x1.35d5cap-14 (;=0.00007387045;))
+  (global (;2;) (mut f32) global.get 1)
+  (global (;3;) f32 global.get 1)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "2" (memory 0))
+  (elem (;0;) externref)
+)

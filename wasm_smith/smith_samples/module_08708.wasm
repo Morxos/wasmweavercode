@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 276 215405 i31ref)
+  (memory (;0;) 1068)
+  (export "+" (table 0))
+  (export ".>X\u{17}" (memory 0))
+)

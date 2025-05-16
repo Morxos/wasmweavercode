@@ -1,0 +1,7 @@
+(module
+  (global (;0;) i64 i64.const -7125043661307580909)
+  (global (;1;) (mut i32) i32.const -747306449)
+  (export "" (global 1))
+  (export "1" (global 0))
+  (data (;0;) "")
+)

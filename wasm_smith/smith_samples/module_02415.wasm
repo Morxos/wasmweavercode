@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 1 externref)
+  (memory (;0;) i64 375 244154848141068)
+  (elem (;0;) nullfuncref)
+)

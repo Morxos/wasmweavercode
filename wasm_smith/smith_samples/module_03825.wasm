@@ -1,0 +1,12 @@
+(module
+  (table (;0;) 4 structref ref.null struct)
+  (global (;0;) f32 f32.const -0x1.e065b8p-73 (;=-0.00000000000000000000019868768;))
+  (global (;1;) f64 f64.const 0x1.2cc1634b9655ap-179 (;=0.000000000000000000000000000000000000000000000000000001533219292871969;))
+  (global (;2;) f32 f32.const -0x1.6b0e4cp-63 (;=-0.00000000000000000015376013;))
+  (global (;3;) i64 i64.const -6695061284929576746)
+  (global (;4;) i64 global.get 3)
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\ff\f4s'\0e")
+  (data (;1;) "")
+  (data (;2;) "")
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 12 anyref)
+  (export "\u{1d}" (table 0))
+  (export "o" (table 0))
+  (data (;0;) "\b5\f7")
+  (data (;1;) "6")
+  (data (;2;) "")
+  (data (;3;) "")
+  (data (;4;) "\86}-\9c")
+)

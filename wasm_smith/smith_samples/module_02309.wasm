@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 900 341380 arrayref)
+  (memory (;0;) 137 6207 shared)
+  (elem (;0;) (table 0) (i64.const 5) nullref)
+)

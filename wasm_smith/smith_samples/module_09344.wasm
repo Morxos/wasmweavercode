@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 3285 555228 nullexternref)
+  (memory (;0;) i64 38)
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (export "=" (table 0))
+  (elem (;0;) declare func)
+  (elem (;1;) declare structref (ref.null struct) (ref.null struct))
+  (data (;0;) (i64.const 2280) ")\11n")
+  (data (;1;) "\d1")
+)

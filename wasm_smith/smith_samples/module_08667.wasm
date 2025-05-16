@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 10402)
+  (global (;0;) (mut i32) i32.const -98167200 i32.const -1853296883 i32.const 176380583 i32.const 24401865 i32.const 2064091495 i32.const -1725808673 i32.const -1720658290 i32.const 1958431662 i32.sub i32.add i32.add i32.const -1281913441 i32.sub i32.add i32.const -1434265187 i32.sub i32.sub i32.mul i32.add)
+  (global (;1;) funcref ref.null nofunc)
+  (export "m" (global 0))
+  (export "\u{401}" (global 1))
+  (elem (;0;) eqref)
+  (data (;0;) (i64.const 6439766) "s/\e4\ad")
+)

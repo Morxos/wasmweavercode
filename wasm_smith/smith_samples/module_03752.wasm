@@ -1,0 +1,11 @@
+(module
+  (import "\u{c}" "" (table (;0;) 9216 688609 funcref))
+  (import "\u{180}l" "" (memory (;0;) i64 13979 159671848899746 shared))
+  (elem (;0;) (table 0) (i32.const 0) nullfuncref)
+  (elem (;1;) (table 0) (i32.const 7) nullfuncref (ref.null nofunc))
+  (elem (;2;) (table 0) (i32.const 267) func)
+  (elem (;3;) declare arrayref)
+  (data (;0;) "?\08")
+  (data (;1;) "")
+  (data (;2;) (i64.const 84864572) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 1462 20838742280257))
+  (import "" "" (global (;0;) (mut f32)))
+  (table (;0;) i64 1715 34589 nullexternref)
+  (global (;1;) nullref ref.null none)
+  (export "@\u{b}]" (table 0))
+)

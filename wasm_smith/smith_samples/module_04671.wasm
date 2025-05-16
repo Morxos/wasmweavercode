@@ -1,0 +1,8 @@
+(module
+  (import "n\u{16}" "" (global (;0;) f64))
+  (global (;1;) exnref ref.null exn)
+  (export "\u{294}MYB" (global 0))
+  (export "" (global 1))
+  (export "2" (global 0))
+  (elem (;0;) nullref (ref.null none) (ref.null none))
+)

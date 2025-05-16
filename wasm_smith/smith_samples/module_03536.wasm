@@ -1,0 +1,11 @@
+(module
+  (import "Wc" "" (global (;0;) structref))
+  (import "r" "" (global (;1;) i32))
+  (global (;2;) (mut i32) global.get 1)
+  (data (;0;) "")
+  (data (;1;) "\c6 ")
+  (data (;2;) "")
+  (data (;3;) "G\19\a9\fb\0dY")
+  (data (;4;) "")
+  (data (;5;) "9\f4vm")
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 5891 nullfuncref)
+  (elem (;0;) (table 0) (i32.const 35) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "")
+  (data (;1;) "\98")
+  (data (;2;) "\9d\f0")
+  (data (;3;) "")
+)

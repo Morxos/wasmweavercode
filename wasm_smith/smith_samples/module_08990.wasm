@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 0))
+  (table (;0;) 238 586930 arrayref ref.null array)
+  (global (;0;) exnref ref.null exn)
+  (global (;1;) (mut f32) f32.const 0x1.6be5e4p+92 (;=7038811000000000000000000000;))
+  (elem (;0;) (table 0) (i32.const 123) arrayref (ref.null array))
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) structref (ref.null none))
+)

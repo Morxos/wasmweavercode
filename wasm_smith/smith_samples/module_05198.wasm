@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) 197)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "#" (memory 0))
+  (export "3" (memory 0))
+  (data (;0;) (i32.const 7428810) "")
+  (data (;1;) (i32.const 1976) "\8d\edD\0d\d9")
+  (data (;2;) "")
+)

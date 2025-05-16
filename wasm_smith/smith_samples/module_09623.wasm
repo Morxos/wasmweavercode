@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 36 46562293860214 shared)
+  (global (;0;) anyref ref.null eq)
+  (global (;1;) f64 f64.const 0x1.eb3eaed0b9e2ap+798 (;=3198855256855680000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;2;) (mut structref) ref.null struct)
+  (global (;3;) (mut f64) global.get 1)
+  (export "qf\u{5}" (global 2))
+  (elem (;0;) funcref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) nullexternref (ref.null noextern))
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 282 funcref)
+  (memory (;0;) 0 35854 shared)
+  (global (;0;) i32 i32.const 1881127970)
+  (elem (;0;) (table 0) (i64.const 13) nullfuncref (ref.null nofunc))
+  (data (;0;) "")
+)

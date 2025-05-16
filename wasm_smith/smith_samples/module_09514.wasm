@@ -1,0 +1,10 @@
+(module
+  (import "\u{5}" "" (memory (;0;) 10 25259 shared))
+  (import "" "" (table (;0;) i64 272 4816 funcref))
+  (import "" "" (global (;0;) (mut f32)))
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) (i64.const 0) func)
+  (elem (;2;) (table 0) (i64.const 99) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\96")
+  (data (;1;) (i32.const 145409) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2408 nullexternref ref.null noextern)
+  (memory (;0;) 309 55522)
+  (global (;0;) (mut structref) ref.null none)
+  (export "rI\u{8}" (global 0))
+  (export "H" (global 0))
+  (elem (;0;) arrayref (ref.null none) (ref.null array) (ref.null array) (ref.null array))
+  (data (;0;) (i32.const 1753) "")
+)

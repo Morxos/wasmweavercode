@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut nullexternref)))
+  (table (;0;) 6546 764742 i31ref)
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) (mut i31ref) ref.null none)
+  (global (;3;) (mut anyref) ref.null eq)
+  (global (;4;) nullexternref ref.null noextern)
+  (export "" (global 0))
+  (elem (;0;) anyref)
+  (elem (;1;) (table 0) (i32.const 422) i31ref (ref.null none) (ref.null i31))
+  (elem (;2;) structref)
+)

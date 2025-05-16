@@ -1,0 +1,11 @@
+(module
+  (import "X:" "" (global (;0;) f32))
+  (import "" "" (table (;0;) 120 282647 nullexternref))
+  (import "e" "" (global (;1;) (mut nullref)))
+  (global (;2;) i64 i64.const 7293862431748713796 i64.const -9010764460545666403 i64.const -8120089692492004840 i64.const -3715402185395520136 i64.const -1694266882562363155 i64.const -4978290985482910298 i64.add i64.add i64.const 2326428738851710693 i64.mul i64.const 5776113855090011636 i64.const 230654633571221539 i64.add i64.mul i64.sub i64.sub i64.mul)
+  (export "" (table 0))
+  (elem (;0;) externref (ref.null extern))
+  (elem (;1;) declare nullexternref (ref.null noextern) (ref.null noextern))
+  (data (;0;) "B")
+  (data (;1;) ".")
+)

@@ -1,0 +1,6 @@
+(module
+  (import "1" "" (table (;0;) i64 186 nullfuncref))
+  (memory (;0;) 0)
+  (export "/" (table 0))
+  (export "" (table 0))
+)

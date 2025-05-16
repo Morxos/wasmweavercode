@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 0 933221 funcref ref.null func)
+  (global (;0;) (mut i32) i32.const 1421097672)
+  (export "" (table 0))
+  (elem (;0;) declare nullref)
+)

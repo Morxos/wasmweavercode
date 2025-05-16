@@ -1,0 +1,7 @@
+(module
+  (import "\u{17}" "" (table (;0;) i64 4582 exnref))
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) (table 0) (i64.const 2030) exnref (ref.null exn))
+  (elem (;2;) (table 0) (i64.const 0) exnref)
+  (data (;0;) "\b3")
+)

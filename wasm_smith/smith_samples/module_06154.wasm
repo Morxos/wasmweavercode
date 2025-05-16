@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (global (;1;) f32 f32.const 0x1.94769p+100 (;=2002804400000000000000000000000;))
+  (elem (;0;) arrayref (ref.null none))
+  (elem (;1;) declare nullexternref)
+  (data (;0;) "")
+)

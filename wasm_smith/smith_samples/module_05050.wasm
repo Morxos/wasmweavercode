@@ -1,0 +1,10 @@
+(module
+  (import "\u{2}x" "" (global (;0;) f32))
+  (import "B^\u{c}\u{98}" "" (table (;0;) i64 1370 exnref))
+  (import "" "" (memory (;0;) i64 1154 159555918274702))
+  (import "" "" (global (;1;) nullref))
+  (global (;2;) eqref ref.null array)
+  (export "mZA" (table 0))
+  (elem (;0;) declare eqref (global.get 1) (global.get 2) (global.get 1))
+  (data (;0;) (i64.const 0) "")
+)

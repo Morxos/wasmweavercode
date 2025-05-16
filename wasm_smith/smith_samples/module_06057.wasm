@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 1196 nullexternref))
+  (memory (;0;) i64 314 75059426180445 shared)
+  (export "t?" (memory 0))
+  (data (;0;) (i64.const 7) "\e7")
+  (data (;1;) "\e4\18\bf")
+)

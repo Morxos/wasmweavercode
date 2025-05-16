@@ -1,0 +1,11 @@
+(module
+  (import ",S" "" (table (;0;) i64 0 914404 i31ref))
+  (global (;0;) (mut i32) i32.const -967161647 i32.const 1781498709 i32.const 259246016 i32.const 20278304 i32.const 234062525 i32.const 350113192 i32.mul i32.const 621945955 i32.add i32.mul i32.mul i32.const -757856271 i32.mul i32.const -517961433 i32.mul i32.sub i32.mul)
+  (global (;1;) (mut i64) i64.const -7067847800397600489)
+  (global (;2;) (mut i64) i64.const -2507021285114254187)
+  (export "\u{e}]" (table 0))
+  (export "\u{1d}&|jX" (table 0))
+  (export "5" (table 0))
+  (export "0" (table 0))
+  (elem (;0;) nullfuncref)
+)

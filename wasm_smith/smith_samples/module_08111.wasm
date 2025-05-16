@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 158 anyref ref.null any)
+  (elem (;0;) (table 0) (i32.const 2) arrayref (ref.null array))
+  (elem (;1;) (table 0) (i32.const 16) nullref (ref.null none) (ref.null none))
+  (elem (;2;) declare nullfuncref)
+  (elem (;3;) (table 0) (i32.const 0) structref (ref.null struct) (ref.null struct))
+  (elem (;4;) (table 0) (i32.const 140) i31ref (ref.null i31) (ref.null none) (ref.null i31) (ref.null i31))
+  (elem (;5;) exnref)
+)

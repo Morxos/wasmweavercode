@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 13)
+  (export "\u{e}$" (memory 0))
+  (export "k" (memory 0))
+  (export "s45" (memory 0))
+  (export "[" (memory 0))
+  (data (;0;) "\eb\17")
+)

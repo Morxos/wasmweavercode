@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 8636 260276002813652 shared)
+  (elem (;0;) declare nullfuncref (ref.null nofunc))
+  (elem (;1;) anyref)
+  (data (;0;) (i64.const 289239219) "")
+)

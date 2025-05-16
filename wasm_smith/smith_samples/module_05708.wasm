@@ -1,0 +1,9 @@
+(module
+  (import "jz" "" (table (;0;) i64 695 nullref))
+  (memory (;0;) 477)
+  (export "\u{1d}" (memory 0))
+  (export "" (table 0))
+  (export "$" (memory 0))
+  (export "\u{a}" (table 0))
+  (export "b\u{532}\u{2}S" (table 0))
+)

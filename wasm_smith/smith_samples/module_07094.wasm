@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 78 606605 externref)
+  (memory (;0;) i64 3193)
+  (elem (;0;) (table 0) (i32.const 1) externref (ref.null extern))
+  (elem (;1;) eqref)
+  (elem (;2;) arrayref)
+  (elem (;3;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;4;) i31ref)
+)

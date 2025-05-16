@@ -1,0 +1,11 @@
+(module
+  (rec
+    (type (;0;) (sub (struct (field i8))))
+    (type (;1;) (struct (field i8) (field (mut i16)) (field i8) (field i32) (field (mut i32)) (field i64) (field i16) (field i8) (field (mut i64)) (field (mut i16)) (field i32) (field i8) (field f64) (field i16) (field i16)))
+  )
+  (table (;0;) i64 1217 (ref null 1))
+  (memory (;0;) i64 280 252430704132434)
+  (global (;0;) nullexternref ref.null noextern)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) (table 0) (i64.const 359) (ref null 1))
+)

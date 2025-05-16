@@ -1,0 +1,8 @@
+(module
+  (import "M" "" (memory (;0;) i64 224 154454303440947 shared))
+  (import "" "" (table (;0;) i64 0 anyref))
+  (global (;0;) arrayref ref.null array)
+  (elem (;0;) declare eqref)
+  (data (;0;) "")
+  (data (;1;) (i64.const 10) "")
+)

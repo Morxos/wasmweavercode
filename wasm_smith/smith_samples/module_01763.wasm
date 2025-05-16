@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 0 10234 shared)
+  (global (;0;) f64 f64.const -0x1.a4893bbb76029p+185 (;=-80558706063927280000000000000000000000000000000000000000;))
+  (export "" (global 0))
+  (elem (;0;) declare arrayref (ref.null array))
+  (elem (;1;) declare eqref (ref.null eq))
+)

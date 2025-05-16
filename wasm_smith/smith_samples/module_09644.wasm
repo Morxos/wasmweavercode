@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 183 funcref ref.null func)
+  (memory (;0;) 8833)
+  (elem (;0;) (table 0) (i64.const 176) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (elem (;1;) declare func)
+  (elem (;2;) (table 0) (i64.const 3) nullfuncref)
+  (elem (;3;) (i64.const 59) func)
+  (elem (;4;) declare i31ref)
+  (elem (;5;) (table 0) (i64.const 3) nullfuncref)
+)

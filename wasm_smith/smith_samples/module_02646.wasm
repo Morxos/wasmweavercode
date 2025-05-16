@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 766 454483 exnref)
+  (memory (;0;) i64 890 256436341956797)
+  (global (;0;) (mut i32) i32.const -396267783 i32.const -701975029 i32.const -589385265 i32.const -1998431974 i32.const -797321839 i32.const 412732400 i32.const -186057316 i32.const 1256731181 i32.const 30653953 i32.const -1730242849 i32.sub i32.add i32.add i32.add i32.sub i32.mul i32.mul i32.sub i32.mul i32.const 368327291 i32.add)
+  (elem (;0;) structref)
+  (elem (;1;) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (data (;0;) "")
+  (data (;1;) (i64.const 2262284) "")
+)

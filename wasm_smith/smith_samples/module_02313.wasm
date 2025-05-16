@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "" "" (table (;0;) i64 90 nullref))
+  (import "" "" (memory (;0;) 1983 20545 shared))
+  (import "" "" (global (;1;) (mut externref)))
+  (elem (;0;) (table 0) (i64.const 16) nullref (ref.null none))
+  (elem (;1;) externref)
+  (elem (;2;) declare anyref (ref.null struct))
+)

@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 7 nullref ref.null none)
+  (memory (;0;) i64 1859 175498946324422 shared)
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) (i64.const 1309) "")
+)

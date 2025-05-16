@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 3346 953213 exnref)
+  (memory (;0;) 450)
+  (elem (;0;) declare structref)
+  (data (;0;) (i32.const 430) "")
+  (data (;1;) "")
+)

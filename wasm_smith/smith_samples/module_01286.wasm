@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 5023 77410926375933)
+  (global (;0;) i64 i64.const -7660552694901410252)
+  (global (;1;) structref ref.null struct)
+  (export "g!\u{22}LE" (memory 0))
+)

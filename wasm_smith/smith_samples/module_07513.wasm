@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 772 955258 anyref)
+  (global (;0;) (mut f32) f32.const 0x1.57c40ap+83 (;=12987104000000000000000000;))
+  (global (;1;) (mut i64) i64.const -8953835040239712093 i64.const 3882766304369548024 i64.add i64.const -3919833735792300024 i64.mul)
+  (global (;2;) (mut f32) f32.const 0x1.b5463ep+68 (;=504143040000000000000;))
+  (export "\u{6d4}" (global 2))
+  (data (;0;) "")
+)

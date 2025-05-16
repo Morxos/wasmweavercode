@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 0 183156464732859 shared)
+  (global (;0;) (mut nullfuncref) ref.null nofunc)
+  (data (;0;) "M")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "Y\u{5}" "" (table (;0;) 2133 402917 structref))
+  (import "I#\u{4}]#" "" (memory (;0;) i64 25 210243266023108))
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
+)

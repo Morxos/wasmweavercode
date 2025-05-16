@@ -1,0 +1,4 @@
+(module
+  (import "$" "" (memory (;0;) i64 40))
+  (export "\u{1f}" (memory 0))
+)

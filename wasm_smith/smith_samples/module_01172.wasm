@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 i31ref ref.null i31)
+  (memory (;0;) 52)
+  (global (;0;) f32 f32.const 0x1.3b7a4ap-31 (;=0.0000000005738506;))
+  (export "" (memory 0))
+  (elem (;0;) declare structref)
+  (data (;0;) (i32.const 997) "\e9;")
+  (data (;1;) "M\db")
+)

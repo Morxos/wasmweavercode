@@ -1,0 +1,5 @@
+(module
+  (import "\u{6}q\u{f}KX\u{5}" "" (memory (;0;) 0 2970 shared))
+  (table (;0;) i64 24 300604 structref)
+  (elem (;0;) nullref)
+)

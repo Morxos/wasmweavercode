@@ -1,0 +1,5 @@
+(module
+  (import "\u{10}|E+t\u{b}GF" "" (global (;0;) i32))
+  (global (;1;) (mut i32) global.get 0)
+  (elem (;0;) declare arrayref (ref.null array) (ref.null array) (ref.null none))
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 1007 744473 exnref)
+  (global (;0;) (mut i31ref) ref.null none)
+)

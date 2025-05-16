@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (export "" (global 0))
+  (export "u" (global 0))
+  (export "#" (global 0))
+  (export "3" (global 0))
+  (export "9?\u{14}" (global 0))
+  (data (;0;) "")
+  (data (;1;) "\22\d3d")
+)

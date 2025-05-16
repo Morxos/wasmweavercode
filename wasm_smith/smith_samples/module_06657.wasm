@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 420 956479 exnref)
+  (memory (;0;) 0)
+  (global (;0;) (mut f32) f32.const 0x1.233aecp+91 (;=2816605300000000000000000000;))
+  (elem (;0;) (table 0) (i64.const 13) exnref)
+  (data (;0;) "\cf")
+)

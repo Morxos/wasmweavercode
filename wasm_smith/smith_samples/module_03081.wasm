@@ -1,0 +1,6 @@
+(module
+  (import "\u{c}I" "" (memory (;0;) 193 58588))
+  (import "XF\u{0}n\u{d}q" "" (table (;0;) 165 structref))
+  (export "A\u{7}" (memory 0))
+  (data (;0;) "")
+)

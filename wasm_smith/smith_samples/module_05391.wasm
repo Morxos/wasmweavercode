@@ -1,0 +1,9 @@
+(module
+  (import "j38" "" (global (;0;) (mut arrayref)))
+  (import "" "" (global (;1;) (mut f64)))
+  (import ".N" "" (global (;2;) (mut structref)))
+  (import "AO" "" (memory (;0;) i64 7 79489351301295 shared))
+  (import "3" "" (table (;0;) i64 487 structref))
+  (import "" "" (global (;3;) i64))
+  (elem (;0;) nullexternref)
+)

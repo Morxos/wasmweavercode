@@ -1,0 +1,7 @@
+(module
+  (import "q" "" (table (;0;) i64 1 anyref))
+  (memory (;0;) i64 0 144408047869166)
+  (global (;0;) f32 f32.const -0x1.2fb0ccp+118 (;=-394212950000000000000000000000000000;))
+  (export "" (memory 0))
+  (data (;0;) "\a8")
+)

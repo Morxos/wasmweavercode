@@ -1,0 +1,6 @@
+(module
+  (import "<\u{f}" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 5861 eqref ref.null array)
+  (memory (;0;) i64 58)
+  (data (;0;) "\8c\d3U")
+)

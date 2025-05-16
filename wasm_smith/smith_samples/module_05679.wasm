@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 8 191360 i31ref)
+  (global (;0;) (mut f64) f64.const 0x1.2f62af3b8ccd9p+1 (;=2.3701991120120565;))
+  (elem (;0;) nullexternref)
+)

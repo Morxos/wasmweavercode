@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) i31ref (ref.null i31) (ref.null none))
+  (elem (;1;) declare externref)
+)

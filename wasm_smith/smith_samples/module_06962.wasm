@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 1)
+  (global (;0;) f32 f32.const -0x1.0ccd98p-106 (;=-0.000000000000000000000000000000012942399;))
+  (export "" (memory 0))
+  (elem (;0;) nullexternref)
+  (data (;0;) (i64.const 23226) "\85")
+  (data (;1;) "IL")
+  (data (;2;) "")
+  (data (;3;) "")
+)

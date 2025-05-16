@@ -1,0 +1,7 @@
+(module
+  (import "<" "" (table (;0;) 1689 89562 externref))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+)

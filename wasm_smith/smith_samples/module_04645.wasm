@@ -1,0 +1,5 @@
+(module
+  (global (;0;) (mut nullref) ref.null none)
+  (global (;1;) externref ref.null noextern)
+  (data (;0;) "T")
+)

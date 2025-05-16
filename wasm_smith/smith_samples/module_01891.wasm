@@ -1,0 +1,9 @@
+(module
+  (import "\u{12}" "" (table (;0;) 0 nullfuncref))
+  (import "" "" (memory (;0;) 15189 27342))
+  (import "" "" (global (;0;) (mut i31ref)))
+  (import "b" "" (global (;1;) (mut i64)))
+  (import "6" "" (global (;2;) f32))
+  (import "t" "" (global (;3;) (mut i64)))
+  (elem (;0;) declare structref)
+)

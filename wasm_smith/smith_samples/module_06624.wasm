@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 470 765623 anyref ref.null i31)
+  (memory (;0;) 2027)
+  (export "2T" (memory 0))
+  (elem (;0;) funcref)
+)

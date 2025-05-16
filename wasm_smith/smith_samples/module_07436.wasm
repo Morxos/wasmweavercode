@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 265 nullfuncref)
+  (memory (;0;) 9909 47094)
+  (export "\u{14}" (memory 0))
+  (export "" (table 0))
+  (export "1\u{a}Z2\u{19}J\u{16}7" (memory 0))
+  (elem (;0;) declare anyref)
+  (elem (;1;) (table 0) (i64.const 37) nullfuncref (ref.null nofunc))
+  (elem (;2;) externref (ref.null noextern) (ref.null extern))
+  (elem (;3;) (table 0) (i64.const 57) nullfuncref)
+  (data (;0;) (i32.const 113885) "\be\96\9e*\a3")
+)

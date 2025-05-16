@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 13598)
+  (global (;0;) (mut f32) f32.const 0x1.986194p+127 (;=271415840000000000000000000000000000000;))
+  (elem (;0;) declare anyref (ref.null none) (ref.null array) (ref.null struct) (ref.null struct) (ref.null any) (ref.null eq) (ref.null i31) (ref.null struct) (ref.null struct))
+  (data (;0;) "&^p")
+)

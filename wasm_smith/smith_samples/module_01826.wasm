@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 14128))
+  (table (;0;) 2936 481911 nullref)
+  (global (;0;) (mut structref) ref.null struct)
+  (global (;1;) f32 f32.const -0x1.5b11e6p-28 (;=-0.000000005050532;))
+  (export "`" (memory 0))
+)

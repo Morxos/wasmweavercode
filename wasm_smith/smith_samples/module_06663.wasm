@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 279 64105)
+  (global (;0;) f32 f32.const -0x1.a20748p+63 (;=-15061062000000000000;))
+  (export "\u{1e}\u{3}ky" (global 0))
+  (export "h" (memory 0))
+  (elem (;0;) anyref (ref.null eq) (ref.null array))
+)

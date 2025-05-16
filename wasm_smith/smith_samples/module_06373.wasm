@@ -1,0 +1,11 @@
+(module
+  (import "V+\u{52f}" "" (table (;0;) 3938 692322 anyref))
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
+  (elem (;1;) (table 0) (i32.const 4) i31ref (ref.null i31))
+  (data (;0;) "\d9U\ed")
+  (data (;1;) "[")
+  (data (;2;) "\9d")
+  (data (;3;) "")
+  (data (;4;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 320 arrayref ref.null array)
+  (export "a" (table 0))
+  (data (;0;) "")
+  (data (;1;) "i\14\ad")
+  (data (;2;) "")
+)

@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare anyref (ref.null i31))
+  (data (;0;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 315 385024 funcref))
+  (global (;0;) (mut i32) i32.const 1889611563 i32.const 306048969 i32.const -2122167928 i32.const -455318659 i32.const 483496807 i32.sub i32.add i32.sub i32.const 1648854185 i32.sub i32.mul i32.const -176011325 i32.sub i32.const -39538831 i32.add)
+  (export "\u{3f7}\u{16}IN" (table 0))
+  (export "" (global 0))
+  (data (;0;) "")
+  (data (;1;) "")
+)

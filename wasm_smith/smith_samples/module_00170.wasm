@@ -1,0 +1,4 @@
+(module
+  (import "\u{11}\u{2}\u{e}v" "" (memory (;0;) 12 3785 shared))
+  (table (;0;) i64 196 547760 nullfuncref)
+)

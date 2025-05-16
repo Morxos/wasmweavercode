@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 5860 structref ref.null struct)
+  (memory (;0;) i64 0 188772755051088)
+  (global (;0;) (mut i64) i64.const -4911449259831155358)
+  (export "\u{8}" (global 0))
+  (elem (;0;) func)
+)

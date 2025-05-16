@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 129 arrayref)
+  (memory (;0;) 61 32752)
+  (export "A%" (table 0))
+  (export "" (table 0))
+  (export "25" (memory 0))
+  (export "d" (table 0))
+  (data (;0;) "e")
+  (data (;1;) (i32.const 1646620) "\82")
+  (data (;2;) (i32.const 622480) "\01")
+  (data (;3;) "")
+  (data (;4;) "\95")
+)

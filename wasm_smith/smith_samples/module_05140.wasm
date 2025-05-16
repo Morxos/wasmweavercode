@@ -1,0 +1,7 @@
+(module
+  (import "V&#{\u{0}Z" "" (memory (;0;) i64 2899))
+  (table (;0;) 5599 745077 externref)
+  (global (;0;) f32 f32.const 0x1.fa9faap-94 (;=0.000000000000000000000000000099913905;))
+  (export "N" (table 0))
+  (data (;0;) (i64.const 83001303) "")
+)

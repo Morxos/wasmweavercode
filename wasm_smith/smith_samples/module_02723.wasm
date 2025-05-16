@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 35 nullref)
+  (memory (;0;) 13618 62063 shared)
+  (global (;0;) exnref ref.null exn)
+  (global (;1;) nullfuncref ref.null nofunc)
+  (export "^y\u{16}\u{12}4" (memory 0))
+  (export "'_]" (table 0))
+  (elem (;0;) (table 0) (i32.const 5) nullref)
+  (elem (;1;) (table 0) (i32.const 0) nullref (ref.null none))
+  (data (;0;) "")
+)

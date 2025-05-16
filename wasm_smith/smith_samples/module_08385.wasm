@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 5599 funcref ref.null nofunc)
+  (memory (;0;) i64 2201)
+  (elem (;0;) arrayref (ref.null array))
+)

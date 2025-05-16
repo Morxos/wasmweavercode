@@ -1,0 +1,3 @@
+(module
+  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+)

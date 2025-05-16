@@ -1,0 +1,5 @@
+(module
+  (global (;0;) (mut externref) ref.null noextern)
+  (data (;0;) "")
+  (data (;1;) "\22")
+)

@@ -1,0 +1,10 @@
+(module
+  (import "R]\u{1}m" "" (global (;0;) (mut f64)))
+  (import "" "" (table (;0;) i64 81 502074 nullexternref))
+  (import "\u{c1}" "" (global (;1;) (mut i32)))
+  (import "m" "" (global (;2;) (mut f64)))
+  (import "" "" (global (;3;) (mut i64)))
+  (memory (;0;) i64 0 44863900690536)
+  (elem (;0;) (table 0) (i64.const 0) nullexternref (ref.null noextern))
+  (elem (;1;) (table 0) (i64.const 0) nullexternref (ref.null noextern))
+)

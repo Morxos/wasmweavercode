@@ -1,0 +1,10 @@
+(module
+  (import "7" "" (memory (;0;) 4891 16077))
+  (global (;0;) (mut arrayref) ref.null array)
+  (global (;1;) (mut i64) i64.const -3428418952755822860)
+  (global (;2;) i32 i32.const -666720013)
+  (global (;3;) f32 f32.const 0x1.74d7bcp+58 (;=419783580000000000;))
+  (global (;4;) (mut i64) i64.const -8936011078415722575)
+  (export " " (memory 0))
+  (data (;0;) "")
+)

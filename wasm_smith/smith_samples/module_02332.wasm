@@ -1,0 +1,10 @@
+(module
+  (import "Z" "" (memory (;0;) i64 182))
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) 56 416056 structref ref.null none)
+  (global (;1;) i64 i64.const -8988692918365564279 i64.const 711152997234340568 i64.const -7773330299790959993 i64.const 1574376384484452112 i64.sub i64.const 773855210757275505 i64.mul i64.add i64.mul i64.const -362269572795879564 i64.const 1939052395035041998 i64.const -236493580143813151 i64.mul i64.sub i64.mul)
+  (global (;2;) f32 f32.const 0x1.4f5242p+31 (;=2812879000;))
+  (global (;3;) i32 i32.const -1930997199)
+  (elem (;0;) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) nullref (ref.null none))
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) i64 9209 794392 externref))
+  (memory (;0;) i64 150 105238912830147 shared)
+  (global (;0;) (mut i64) i64.const 5993413633641352191 i64.const 1132950240414300707 i64.const 5239127131860843489 i64.const -86566645784915329 i64.const 7176129086348010798 i64.const -4418973532052940565 i64.const 7258442157276669420 i64.const 803696508203149960 i64.const 80931448474507547 i64.sub i64.sub i64.sub i64.sub i64.mul i64.sub i64.const -901540070897151186 i64.mul i64.mul i64.mul)
+  (global (;1;) f64 f64.const -0x1.e3d9edea0828fp-113 (;=-0.00000000000000000000000000000000018200462526621625;))
+  (global (;2;) externref ref.null extern)
+  (export "" (memory 0))
+  (export "\u{11}c" (table 0))
+  (data (;0;) "")
+  (data (;1;) (i64.const 110575) "")
+)

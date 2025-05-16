@@ -1,0 +1,8 @@
+(module
+  (import "f" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 3 funcref ref.null func)
+  (global (;1;) f32 f32.const -0x1.09b182p+82 (;=-5018806000000000000000000;))
+  (global (;2;) i32 i32.const -728189707 i32.const -311932537 i32.const -1920781984 i32.const -387963873 i32.const 686847581 i32.const -672844218 i32.const -49314354 i32.const 939757495 i32.const -1768003016 i32.const 492255431 i32.const -1849320000 i32.add i32.add i32.add i32.mul i32.sub i32.add i32.mul i32.sub i32.sub i32.add)
+  (global (;3;) (mut eqref) ref.null i31)
+  (export "" (table 0))
+)

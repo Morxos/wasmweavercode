@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 903 externref ref.null extern)
+  (memory (;0;) 1165 26799)
+  (export "" (table 0))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare structref (ref.null struct))
+)

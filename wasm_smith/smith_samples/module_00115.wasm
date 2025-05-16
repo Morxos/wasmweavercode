@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 2845 nullexternref)
+  (export "" (table 0))
+)

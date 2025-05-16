@@ -1,0 +1,13 @@
+(module
+  (memory (;0;) i64 15 108795367239938 shared)
+  (export "\u{13}" (memory 0))
+  (elem (;0;) declare eqref)
+  (elem (;1;) declare arrayref (ref.null array))
+  (elem (;2;) declare nullfuncref)
+  (data (;0;) "")
+  (data (;1;) (i64.const 47737) "")
+  (data (;2;) "D")
+  (data (;3;) (i64.const 31981) "")
+  (data (;4;) (i64.const 232031) "\88\19\b9\d3")
+  (data (;5;) "\c8")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 167 externref ref.null extern)
+  (elem (;0;) arrayref)
+  (elem (;1;) (table 0) (i32.const 4) externref (ref.null extern) (ref.null noextern) (ref.null noextern))
+  (elem (;2;) declare exnref)
+  (data (;0;) "\b0\bb")
+)

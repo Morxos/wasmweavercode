@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 12387 276560154682970 shared))
+  (table (;0;) i64 3139 139421 nullref)
+  (global (;0;) f64 f64.const 0x1.bc80548cc62eep-232 (;=0.00000000000000000000000000000000000000000000000000000000000000000000025157881459583398;))
+  (global (;1;) anyref ref.null i31)
+  (elem (;0;) (table 0) (i64.const 207) nullref)
+)

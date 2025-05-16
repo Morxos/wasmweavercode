@@ -1,0 +1,6 @@
+(module
+  (import "2" "" (table (;0;) i64 0 739127 eqref))
+  (memory (;0;) i64 397)
+  (data (;0;) (i64.const 522) "")
+  (data (;1;) "")
+)

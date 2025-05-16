@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 0 exnref ref.null exn)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) (mut eqref) ref.null eq)
+  (global (;2;) externref ref.null noextern)
+  (export "" (global 2))
+  (elem (;0;) declare anyref)
+)

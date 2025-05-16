@@ -1,0 +1,16 @@
+(module
+  (rec
+    (type (;0;) (sub (array i64)))
+    (type (;1;) (sub (struct (field i16) (field i8) (field i16) (field f32))))
+    (type (;2;) (sub (struct (field (mut i16)) (field i8) (field (mut i16)) (field i8) (field i16) (field (mut i16)))))
+    (type (;3;) (struct (field (mut f32))))
+  )
+  (import "&\u{22}" "" (global (;0;) i32))
+  (import "" "" (memory (;0;) i64 1696 8746171865761 shared))
+  (table (;0;) i64 777 120524 funcref)
+  (export "5-\u{8}" (memory 0))
+  (export "" (table 0))
+  (export "2" (memory 0))
+  (export "3" (memory 0))
+  (export "4" (table 0))
+)

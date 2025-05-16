@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) i64 7978 219732993004309))
+  (import "" "" (table (;0;) i64 68 structref))
+  (global (;0;) i32 i32.const 2010702341 i32.const 1663355575 i32.const -321612752 i32.const 300342233 i32.const -2068379072 i32.const -160079677 i32.const 420121978 i32.const 1443195705 i32.const 502361078 i32.const 1917878211 i32.mul i32.sub i32.mul i32.sub i32.add i32.sub i32.const -981069174 i32.sub i32.add i32.sub i32.sub)
+  (global (;1;) (mut externref) ref.null noextern)
+  (elem (;0;) declare arrayref (ref.null none))
+  (elem (;1;) declare func)
+  (elem (;2;) (table 0) (i64.const 1) structref)
+)

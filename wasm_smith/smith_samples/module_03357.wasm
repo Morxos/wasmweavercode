@@ -1,0 +1,4 @@
+(module
+  (import "F" "" (table (;0;) i64 238 arrayref))
+  (export "\u{19}\u{8}" (table 0))
+)

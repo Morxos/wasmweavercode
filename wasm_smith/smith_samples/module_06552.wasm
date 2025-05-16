@@ -1,0 +1,9 @@
+(module
+  (import "#)XS" "" (table (;0;) 75 177263 exnref))
+  (export ")\u{1e}" (table 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (export "3" (table 0))
+  (export "4" (table 0))
+  (data (;0;) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 1))
+  (table (;0;) i64 4465 752048 structref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (elem (;0;) arrayref)
+  (data (;0;) "\87\1f\ec")
+  (data (;1;) (i32.const 20741) "\09")
+)

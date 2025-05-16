@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 3116 506532 structref)
+  (memory (;0;) i64 5116)
+  (export "\u{2}" (memory 0))
+  (export "G" (memory 0))
+)

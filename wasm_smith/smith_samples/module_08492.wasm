@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) 503))
+  (table (;0;) 310 65160 nullexternref ref.null noextern)
+  (global (;0;) structref ref.null struct)
+  (global (;1;) (mut i32) i32.const 806344690)
+  (global (;2;) (mut f32) f32.const -0x1.0bb588p+46 (;=-73587320000000;))
+  (global (;3;) f32 f32.const -0x1.a65916p-98 (;=-0.000000000000000000000000000005205841;))
+  (global (;4;) f32 f32.const -0x1.c67572p+54 (;=-31979693000000000;))
+  (export "" (memory 0))
+  (export "1" (global 4))
+  (elem (;0;) declare eqref)
+  (data (;0;) (i32.const 40962) "&")
+)

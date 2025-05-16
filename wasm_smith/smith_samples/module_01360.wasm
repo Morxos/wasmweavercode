@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) exnref)
+  (elem (;1;) nullfuncref)
+)

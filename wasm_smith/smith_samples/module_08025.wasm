@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 anyref ref.null none)
+  (global (;0;) i64 i64.const 3341560630587018894 i64.const 8317278478702881534 i64.const 6170122121911504234 i64.const 8352542947106764854 i64.const 2086830428824778384 i64.const -8192793814703540863 i64.add i64.const -8758068609727635003 i64.add i64.mul i64.const 257455851608230499 i64.sub i64.sub i64.const 3765262563785258394 i64.add i64.sub i64.add)
+  (export "" (global 0))
+  (data (;0;) "]")
+  (data (;1;) "Q")
+)

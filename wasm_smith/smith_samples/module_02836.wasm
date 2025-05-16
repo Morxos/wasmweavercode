@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 1208 591260 i31ref))
+  (memory (;0;) 11893)
+  (global (;0;) i32 i32.const 1467739562 i32.const 156492412 i32.const -18119564 i32.const 1517785584 i32.const 1663274038 i32.const 1545450259 i32.const -1793075601 i32.const 737921571 i32.sub i32.const 797871399 i32.const 1126016467 i32.sub i32.mul i32.mul i32.sub i32.mul i32.add i32.mul i32.add)
+  (global (;1;) (mut f32) f32.const 0x1.444f48p+73 (;=11964916000000000000000;))
+  (export "" (memory 0))
+  (data (;0;) "")
+)

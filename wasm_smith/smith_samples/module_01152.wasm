@@ -1,0 +1,6 @@
+(module
+  (import "" "" (table (;0;) i64 1 anyref))
+  (import "" "" (memory (;0;) i64 544 104389321847068 shared))
+  (data (;0;) "D")
+  (data (;1;) "\d7")
+)

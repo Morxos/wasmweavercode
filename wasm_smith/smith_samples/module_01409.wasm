@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 12 278226 structref)
+  (memory (;0;) i64 5238 2680465440843 shared)
+  (global (;0;) (mut f32) f32.const -0x1.ed0968p+94 (;=-38146870000000000000000000000;))
+  (export "w\u{4}" (global 0))
+  (elem (;0;) declare i31ref)
+  (data (;0;) "")
+  (data (;1;) (i64.const 19735989) "")
+  (data (;2;) (i64.const 41167917) ")")
+)

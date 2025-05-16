@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 201))
+  (import "d,MjD" "" (table (;0;) 3233 eqref))
+  (export "S" (memory 0))
+  (export "" (table 0))
+  (export "\u{44c}" (memory 0))
+  (elem (;0;) declare nullexternref)
+)

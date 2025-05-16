@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 50)
+  (data (;0;) "+Y")
+  (data (;1;) (i64.const 1660263) "T\be\c4")
+)

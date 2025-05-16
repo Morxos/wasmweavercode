@@ -1,0 +1,11 @@
+(module
+  (global (;0;) (mut i64) i64.const 9059408273834242861)
+  (global (;1;) (mut f32) f32.const -0x1.53a4dcp+120 (;=-1763532400000000000000000000000000000;))
+  (global (;2;) funcref ref.null func)
+  (global (;3;) (mut f64) f64.const -0x1.db6ca3f7d7621p-185 (;=-0.000000000000000000000000000000000000000000000000000000037869736464118757;))
+  (global (;4;) i32 i32.const -298997946)
+  (export "*" (global 3))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) nullref)
+  (elem (;2;) exnref)
+)

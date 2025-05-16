@@ -1,0 +1,6 @@
+(module
+  (import "ah(Wf" "" (table (;0;) 0 58355 arrayref))
+  (memory (;0;) 7395 32713 shared)
+  (export "\u{448}" (memory 0))
+  (export "\u{8}Wlu\u{9}l5" (table 0))
+)

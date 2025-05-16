@@ -1,0 +1,9 @@
+(module
+  (import "1}6!p" "" (global (;0;) (mut i64)))
+  (elem (;0;) func)
+  (elem (;1;) nullexternref)
+  (data (;0;) "\cfB,")
+  (data (;1;) "\b7e\d1")
+  (data (;2;) "\0d\c6")
+  (data (;3;) "")
+)

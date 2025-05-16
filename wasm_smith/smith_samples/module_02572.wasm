@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut i64) i64.const -3429358291265969346 i64.const -7509915406806703462 i64.const -6458243285386603007 i64.const 1267127383382692907 i64.const -6632264846906712381 i64.const 3329617039609842226 i64.add i64.sub i64.mul i64.mul i64.const -3850969869092833425 i64.sub i64.const -7949645912857507469 i64.mul i64.const -5588355680166301762 i64.add i64.sub)
+  (global (;1;) i64 i64.const -2552316561795104999)
+  (global (;2;) f32 f32.const -0x1.9600e4p-88 (;=-0.0000000000000000000000000051244844;))
+  (global (;3;) (mut i32) i32.const 1682675462)
+  (elem (;0;) declare eqref (ref.null struct))
+  (elem (;1;) declare nullexternref)
+)

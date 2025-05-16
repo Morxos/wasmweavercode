@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 182 17786)
+  (global (;0;) f32 f32.const 0x1.62b4e8p-117 (;=0.0000000000000000000000000000000000083391136;))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+  (data (;0;) (i32.const 1629) "\0cVJ\01")
+)

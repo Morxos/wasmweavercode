@@ -1,0 +1,4 @@
+(module
+  (import "f" "" (table (;0;) 4596 anyref))
+  (memory (;0;) i64 25)
+)

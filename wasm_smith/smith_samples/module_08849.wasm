@@ -1,0 +1,5 @@
+(module
+  (import "r" "" (global (;0;) (mut f32)))
+  (table (;0;) 0 anyref ref.null none)
+  (memory (;0;) i64 1000 75841821612586 shared)
+)

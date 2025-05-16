@@ -1,0 +1,13 @@
+(module
+  (table (;0;) 371 45096 i31ref)
+  (memory (;0;) i64 7 3518969326996)
+  (global (;0;) f32 f32.const -0x1.ac3baep-104 (;=-0.0000000000000000000000000000000824747;))
+  (global (;1;) (mut f64) f64.const 0x1.1f6875f49758cp+417 (;=379985613672791760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (export "N$(" (memory 0))
+  (export "3" (global 1))
+  (export "i" (global 1))
+  (elem (;0;) (table 0) (i32.const -1669726) i31ref (ref.null i31) (ref.null i31))
+  (elem (;1;) (table 0) (i32.const 3) nullref (ref.null none) (ref.null none))
+)

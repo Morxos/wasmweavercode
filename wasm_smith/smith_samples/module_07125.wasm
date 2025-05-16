@@ -1,0 +1,12 @@
+(module
+  (import "P-" "" (table (;0;) i64 9202 exnref))
+  (import "\u{3}" "" (global (;0;) (mut i64)))
+  (import "i\u{5fb}" "" (global (;1;) anyref))
+  (import "\u{15}a\u{1a}" "" (memory (;0;) 423 4486 shared))
+  (import "" "" (global (;2;) (mut f32)))
+  (import "c." "" (global (;3;) anyref))
+  (global (;4;) (mut i32) i32.const -197267333)
+  (global (;5;) (mut i64) i64.const -8362610099083952283 i64.const 7655313139464736224 i64.sub)
+  (global (;6;) nullfuncref ref.null nofunc)
+  (export "gf'<" (global 2))
+)

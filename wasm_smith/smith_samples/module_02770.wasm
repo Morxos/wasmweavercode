@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 15181 156460197402089 shared)
+  (export "\u{1a5}]\u{17}\u{18}" (memory 0))
+  (data (;0;) (i64.const 78072211) "")
+  (data (;1;) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (import "\u{10}\u{12}" "" (table (;0;) 2441 512125 structref))
+  (import "" "" (global (;0;) i32))
+  (data (;0;) "\e0")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "")
+  (data (;4;) "")
+)

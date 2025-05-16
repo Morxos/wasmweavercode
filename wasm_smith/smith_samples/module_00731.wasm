@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 1331 structref ref.null struct)
+  (global (;0;) (mut i32) i32.const -527705741)
+)

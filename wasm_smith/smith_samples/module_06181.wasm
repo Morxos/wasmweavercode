@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 313 eqref)
+  (elem (;0;) (table 0) (i64.const 58) nullref (ref.null none) (ref.null none) (ref.null none))
+)

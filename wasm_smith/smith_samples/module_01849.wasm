@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 2786 348238 i31ref)
+  (global (;0;) i64 i64.const 5831277144349813483)
+  (global (;1;) (mut i32) i32.const -612630936)
+  (global (;2;) i64 i64.const -998987139207170244 i64.const 7863513557327900081 i64.add i64.const 1267081508341606393 i64.const -9093656629147051778 i64.mul i64.mul i64.const 1480152391747848722 i64.mul i64.const -1011459888299908063 i64.mul)
+  (global (;3;) (mut i32) i32.const -736592596 i32.const 1529613996 i32.const -897963288 i32.const -1038807119 i32.const -107100700 i32.const 1552773817 i32.const -1170388407 i32.const -1693220883 i32.const -1740425923 i32.const -1024283638 i32.const 536192912 i32.const 933113529 i32.add i32.add i32.add i32.sub i32.sub i32.sub i32.add i32.mul i32.sub i32.sub i32.mul)
+  (data (;0;) "")
+  (data (;1;) "\a2\db")
+  (data (;2;) "VN\c2F")
+)

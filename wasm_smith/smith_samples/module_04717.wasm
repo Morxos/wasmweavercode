@@ -1,0 +1,10 @@
+(module
+  (import "\u{d}\u{b}" "" (table (;0;) i64 230 exnref))
+  (global (;0;) (mut i32) i32.const -819922295)
+  (export "\u{1c}" (global 0))
+  (data (;0;) "\c0\c9\db")
+  (data (;1;) "\a6\dc")
+  (data (;2;) "")
+  (data (;3;) "\0dI")
+  (data (;4;) "")
+)

@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) 0 funcref))
+  (import "" "" (global (;0;) (mut i64)))
+  (import "" "" (global (;1;) (mut externref)))
+  (import "=\u{e}\u{15}#G" "" (memory (;0;) i64 88))
+  (import "\u{464}o" "" (global (;2;) (mut i64)))
+  (global (;3;) f32 f32.const -0x1.6eb81p-125 (;=-0.00000000000000000000000000000000000003367782;))
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare nullref)
+  (data (;0;) (i64.const 75669) "B")
+)

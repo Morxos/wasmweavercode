@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 4881 arrayref)
+  (memory (;0;) i64 0 42935571572690)
+  (export "'\u{0}@" (table 0))
+  (export "D" (memory 0))
+)

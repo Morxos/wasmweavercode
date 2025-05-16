@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 0 anyref)
+  (global (;0;) f32 f32.const 0x1.051dd2p-110 (;=0.0000000000000000000000000000000007857688;))
+  (global (;1;) nullref ref.null none)
+  (global (;2;) (mut i64) i64.const 1975460414605189871)
+  (elem (;0;) declare func)
+  (elem (;1;) declare nullexternref (ref.null noextern))
+  (elem (;2;) arrayref (ref.null none) (global.get 1) (ref.null array) (ref.null array))
+  (data (;0;) "")
+)

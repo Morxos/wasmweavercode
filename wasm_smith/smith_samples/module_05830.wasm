@@ -1,0 +1,6 @@
+(module
+  (import "`\u{1b}" "" (global (;0;) (mut f64)))
+  (table (;0;) 0 900843 externref ref.null noextern)
+  (memory (;0;) 589 53726)
+  (elem (;0;) structref)
+)

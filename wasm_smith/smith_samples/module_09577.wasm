@@ -1,0 +1,6 @@
+(module
+  (global (;0;) i64 i64.const 5210426227654607477)
+  (export "H" (global 0))
+  (export "\u{1f}\u{7a7}" (global 0))
+  (export "" (global 0))
+)

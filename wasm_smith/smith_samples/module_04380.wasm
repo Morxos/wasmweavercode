@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 61 582024 exnref ref.null exn)
+  (memory (;0;) 4488 32764 shared)
+  (global (;0;) f64 f64.const 0x1.f4d8cd9e24864p+232 (;=13502805374809770000000000000000000000000000000000000000000000000000000;))
+  (export "&EI5\u{b}s" (table 0))
+  (export "\u{11}L\u{1f}*`yiQ" (table 0))
+  (export "A" (memory 0))
+  (data (;0;) "a")
+  (data (;1;) "\aa")
+  (data (;2;) (i32.const 98964981) "C")
+  (data (;3;) (i32.const 1599921) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 34 exnref))
+  (global (;0;) f32 f32.const -0x1.389ee2p-3 (;=-0.1526468;))
+  (global (;1;) arrayref ref.null none)
+  (global (;2;) f64 f64.const -0x1.0c9cfe6a7ebb7p+489 (;=-1677086091770427200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;3;) i32 i32.const 745738373 i32.const -1744174848 i32.sub i32.const -1370662143 i32.const 1575971610 i32.const -953360800 i32.mul i32.const -1654864958 i32.const -903994722 i32.add i32.mul i32.mul i32.add)
+  (global (;4;) anyref ref.null none)
+)

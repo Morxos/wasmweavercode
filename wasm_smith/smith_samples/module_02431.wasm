@@ -1,0 +1,12 @@
+(module
+  (import "8\u{7}" "" (table (;0;) 1 nullfuncref))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (memory (;0;) 8566 19548))
+  (global (;1;) i32 i32.const 1568862109)
+  (global (;2;) (mut f32) f32.const -0x1.4b289p+91 (;=-3202768000000000000000000000;))
+  (global (;3;) i64 i64.const 7328090913377468782)
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "")
+  (data (;1;) (global.get 1) "?")
+  (data (;2;) (i32.const 4207) "\f5")
+)

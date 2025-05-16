@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 4 786018 nullref ref.null none)
+  (data (;0;) "\8d")
+)

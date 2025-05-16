@@ -1,0 +1,13 @@
+(module
+  (table (;0;) 434 arrayref ref.null array)
+  (memory (;0;) i64 5 169366826920875)
+  (global (;0;) f32 f32.const 0x1.0af84ap-113 (;=0.00000000000000000000000000000000010042291;))
+  (global (;1;) (mut i32) i32.const 2112344360)
+  (export "" (memory 0))
+  (export "0" (table 0))
+  (elem (;0;) (table 0) (i32.const 393) arrayref)
+  (elem (;1;) declare externref (ref.null extern) (ref.null extern))
+  (elem (;2;) declare structref (ref.null struct) (ref.null none) (ref.null struct))
+  (elem (;3;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;4;) (table 0) (i32.const 165) arrayref (ref.null array) (ref.null none) (ref.null none) (ref.null array) (ref.null array))
+)

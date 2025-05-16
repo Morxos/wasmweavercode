@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (memory (;0;) 0)
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) eqref (ref.null array))
+  (elem (;2;) func)
+  (elem (;3;) nullexternref (ref.null noextern))
+)

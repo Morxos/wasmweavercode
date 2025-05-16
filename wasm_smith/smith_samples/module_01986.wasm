@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 6 936112 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 1)
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) declare funcref (ref.null func) (ref.null func))
+  (elem (;2;) structref)
+)

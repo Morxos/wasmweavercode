@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) i64 1 nullfuncref))
+  (import "QGs" "" (global (;0;) i32))
+  (export "^\u{1d}" (global 0))
+  (export "" (table 0))
+  (export "2" (global 0))
+  (export "3" (global 0))
+  (export "4" (table 0))
+)

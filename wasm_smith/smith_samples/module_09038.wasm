@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 7 eqref)
+  (export "" (table 0))
+  (export "h/" (table 0))
+  (export "\u{1}" (table 0))
+  (export "E" (table 0))
+  (data (;0;) "\fc\bf")
+)

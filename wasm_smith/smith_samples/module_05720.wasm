@@ -1,0 +1,9 @@
+(module
+  (import "\u{3}<" "" (table (;0;) i64 302 structref))
+  (memory (;0;) i64 1044 32484682299953 shared)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "/`" (memory 0))
+  (export "3" (memory 0))
+  (export "4" (memory 0))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "" "" (global (;1;) f32))
+  (import "h.*L\u{b}fC" "" (table (;0;) i64 14 nullref))
+  (elem (;0;) (table 0) (i64.const 8) nullref (ref.null none) (ref.null none))
+  (data (;0;) "")
+)

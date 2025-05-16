@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) 1434 nullref))
+  (import "c" "" (global (;0;) i64))
+  (import "" "" (global (;1;) i32))
+  (import "" "" (global (;2;) (mut funcref)))
+  (import "<$" "" (global (;3;) i64))
+  (import "" "" (memory (;0;) i64 213))
+  (global (;4;) structref ref.null struct)
+  (export "xx|\u{f}" (memory 0))
+  (export "j\u{1e}" (table 0))
+)

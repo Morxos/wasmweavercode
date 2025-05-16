@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (table (;0;) 51 nullexternref ref.null noextern)
+  (export "n" (global 0))
+  (export "" (table 0))
+  (data (;0;) "\99")
+  (data (;1;) "\07")
+  (data (;2;) "\89")
+  (data (;3;) "\8f\a6\14\ec_N")
+)

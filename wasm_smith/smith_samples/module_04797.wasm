@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (elem (;0;) eqref (ref.null none))
+  (elem (;1;) declare eqref)
+  (elem (;2;) declare structref)
+  (elem (;3;) structref)
+  (elem (;4;) declare anyref)
+  (elem (;5;) anyref (ref.null struct))
+  (elem (;6;) declare func)
+  (elem (;7;) declare exnref (ref.null exn))
+)

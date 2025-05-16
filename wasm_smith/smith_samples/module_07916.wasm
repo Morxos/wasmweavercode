@@ -1,0 +1,4 @@
+(module
+  (import "b\u{6e4}" "" (table (;0;) i64 996749 996785 exnref))
+  (data (;0;) "DV")
+)

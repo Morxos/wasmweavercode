@@ -1,0 +1,8 @@
+(module
+  (import "\u{c}" "" (memory (;0;) i64 3))
+  (import "" "" (global (;0;) (mut i32)))
+  (table (;0;) 2554 144780 arrayref)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 8) arrayref)
+  (data (;0;) "")
+)

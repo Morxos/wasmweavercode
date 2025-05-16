@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 eqref)
+  (memory (;0;) 1349 50269 shared)
+  (elem (;0;) structref)
+)

@@ -1,0 +1,4 @@
+(module
+  (global (;0;) (mut f32) f32.const -0x1.cee09ap-40 (;=-0.0000000000016444707;))
+  (data (;0;) "\be")
+)

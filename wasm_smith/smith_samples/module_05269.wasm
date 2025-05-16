@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 15540 26362)
+  (global (;0;) f32 f32.const 0x1.0b65b8p+68 (;=308288140000000000000;))
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none))
+  (data (;0;) "\bf")
+)

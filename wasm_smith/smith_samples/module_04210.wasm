@@ -1,0 +1,13 @@
+(module
+  (import "" "" (table (;0;) i64 3338 nullref))
+  (import "" "" (memory (;0;) i64 29 67631724062807))
+  (import "b\u{19}au8\u{22}" "" (global (;0;) anyref))
+  (global (;1;) (mut i32) i32.const -1077038773)
+  (global (;2;) i32 i32.const -190476471 i32.const 1149414903 i32.const -740526400 i32.const -230297977 i32.const 1616629619 i32.const 582715439 i32.const -274442197 i32.const -1811049734 i32.add i32.mul i32.const 937035506 i32.add i32.const -1455669500 i32.sub i32.add i32.mul i32.mul i32.add i32.mul)
+  (global (;3;) (mut structref) ref.null struct)
+  (global (;4;) f32 f32.const 0x1.fa5112p+53 (;=17814434000000000;))
+  (global (;5;) (mut f64) f64.const -0x1.6c392c95c49b5p+373 (;=-27372608497905583000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "d" (table 0))
+  (export "" (global 1))
+  (elem (;0;) declare nullexternref)
+)

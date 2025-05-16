@@ -1,0 +1,9 @@
+(module
+  (import "\u{5c}" "" (global (;0;) f64))
+  (memory (;0;) i64 8226 207993677408129)
+  (global (;1;) (mut i64) i64.const -8349383502433038302)
+  (elem (;0;) exnref (ref.null exn))
+  (elem (;1;) funcref)
+  (elem (;2;) declare anyref)
+  (elem (;3;) func)
+)

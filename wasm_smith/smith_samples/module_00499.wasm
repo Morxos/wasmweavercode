@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 externref ref.null noextern)
+  (memory (;0;) 29 32127)
+  (global (;0;) (mut i32) i32.const 984783358)
+)

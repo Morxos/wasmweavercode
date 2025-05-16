@@ -1,0 +1,8 @@
+(module
+  (import "Gz" "" (table (;0;) i64 1269 anyref))
+  (memory (;0;) 365 23752 shared)
+  (global (;0;) (mut anyref) ref.null none)
+  (data (;0;) (i32.const 42931) "")
+  (data (;1;) (i32.const 951) "")
+  (data (;2;) "=")
+)

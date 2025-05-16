@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 1220 arrayref ref.null none)
+  (global (;0;) (mut f32) f32.const 0x1.072f9ap+78 (;=310715120000000000000000;))
+  (global (;1;) f32 f32.const -0x1.14363ep+68 (;=-318450620000000000000;))
+  (export "X\u{185}z" (global 1))
+  (export ">\u{19}\u{c}$~" (global 1))
+  (elem (;0;) nullref (ref.null none))
+  (elem (;1;) (table 0) (i64.const -72559460983359488) arrayref (ref.null array) (ref.null array) (ref.null none))
+  (data (;0;) "")
+)

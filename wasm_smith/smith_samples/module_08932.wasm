@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 11 nullref)
+  (memory (;0;) 110 24562)
+  (global (;0;) i64 i64.const 387009874181958639)
+  (export "L" (global 0))
+  (export "Ly" (table 0))
+  (export "|Ow" (global 0))
+)

@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 5331)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare nullref)
+  (elem (;2;) declare arrayref)
+  (data (;0;) (i64.const 0) "")
+  (data (;1;) (i64.const 176340033) "")
+)

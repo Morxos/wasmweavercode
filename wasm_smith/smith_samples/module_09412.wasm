@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) i64 2 782984 funcref ref.null nofunc)
+  (global (;1;) i64 i64.const 209863497500208969)
+  (global (;2;) (mut i32) i32.const -1328439677)
+  (global (;3;) funcref ref.null func)
+  (export "" (table 0))
+  (data (;0;) "\8f")
+)

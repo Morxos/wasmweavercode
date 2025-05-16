@@ -1,0 +1,5 @@
+(module
+  (import "I6s+" "" (global (;0;) i64))
+  (import "" "" (global (;1;) f32))
+  (import ")`" "" (table (;0;) 36 895482 nullexternref))
+)

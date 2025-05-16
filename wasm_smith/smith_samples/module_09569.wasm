@@ -1,0 +1,6 @@
+(module
+  (import "U" "" (memory (;0;) 1))
+  (table (;0;) 141 842264 structref ref.null struct)
+  (export "" (table 0))
+  (data (;0;) (i32.const 0) "")
+)

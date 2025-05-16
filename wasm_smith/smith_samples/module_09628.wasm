@@ -1,0 +1,8 @@
+(module
+  (import "\u{60c}" "" (table (;0;) i64 4386 funcref))
+  (global (;0;) (mut i32) i32.const -269302512)
+  (elem (;0;) (i64.const 0) func)
+  (elem (;1;) declare nullref (ref.null none))
+  (elem (;2;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;3;) (table 0) (i64.const 992) funcref)
+)

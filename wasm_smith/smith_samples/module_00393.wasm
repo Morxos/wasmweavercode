@@ -1,0 +1,5 @@
+(module
+  (import "\u{19}LU\u{2}" "" (memory (;0;) i64 5))
+  (import "\u{14}" "" (table (;0;) i64 0 anyref))
+  (global (;0;) (mut i32) i32.const 430548450 i32.const -1364326071 i32.const -327671054 i32.const 1323325523 i32.const 1347941352 i32.const 1496760604 i32.add i32.const -1364804776 i32.const -332416887 i32.mul i32.add i32.sub i32.sub i32.add i32.sub i32.const -847139057 i32.mul)
+)

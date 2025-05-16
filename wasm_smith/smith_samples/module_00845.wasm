@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 0 8543 shared))
+  (table (;0;) i64 2201 arrayref ref.null array)
+  (global (;0;) (mut eqref) ref.null eq)
+  (global (;1;) f64 f64.const 0x1.8aabc8e2421cap-155 (;=0.00000000000000000000000000000000000000000000003375560997613994;))
+  (export "" (memory 0))
+)

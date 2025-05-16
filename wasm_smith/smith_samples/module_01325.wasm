@@ -1,0 +1,9 @@
+(module
+  (import "<" "" (memory (;0;) i64 4451 212640561573808))
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (table (;0;) 4598 272162 funcref))
+  (import "" "" (global (;1;) (mut i32)))
+  (import "\u{5}F\u{1c}\u{1e}\u{16}" "" (global (;2;) (mut externref)))
+  (export "\u{15}" (memory 0))
+  (data (;0;) (i64.const 11455884) "\02")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "\u{15}3" "" (table (;0;) 0 873239 nullfuncref))
+  (import "" "" (memory (;0;) 869))
+  (import "" "" (global (;0;) (mut i64)))
+  (elem (;0;) exnref)
+  (data (;0;) "*L")
+  (data (;1;) (i32.const 18947) "b$=?")
+)

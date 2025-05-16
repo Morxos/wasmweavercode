@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 9535 147953334479214 shared))
+  (import "" "" (global (;0;) f64))
+  (table (;0;) i64 11 958248 funcref ref.null nofunc)
+  (global (;1;) (mut i32) i32.const 1579603516 i32.const -489952638 i32.const 2012252242 i32.const -1350392742 i32.const -934829321 i32.const -821652671 i32.mul i32.add i32.sub i32.const -1026614993 i32.sub i32.mul i32.mul i32.const 1705330938 i32.const -2110170073 i32.add i32.add)
+  (export "" (table 0))
+  (export "g\u{1b}C" (global 1))
+)

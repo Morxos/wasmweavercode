@@ -1,0 +1,10 @@
+(module
+  (import "~b\u{b}" "" (table (;0;) 19 nullref))
+  (import ":" "" (global (;0;) (mut i64)))
+  (memory (;0;) i64 1 2140781994485)
+  (global (;1;) i31ref ref.null none)
+  (global (;2;) i64 i64.const 8377642190898030166 i64.const -3208316458082804401 i64.const 4141168787261972036 i64.const -1141390866147438548 i64.const -6615525676092685637 i64.const 1800544460391333663 i64.const 3051393774936075598 i64.const -7970750186086901142 i64.add i64.const 3243043056736674170 i64.add i64.add i64.sub i64.sub i64.sub i64.add i64.mul i64.const -5455303270916171887 i64.add)
+  (global (;3;) (mut i32) i32.const -459407999)
+  (export "L" (table 0))
+  (data (;0;) "\bd")
+)

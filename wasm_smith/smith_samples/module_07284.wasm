@@ -1,0 +1,9 @@
+(module
+  (type (;0;) (sub (array (mut i8))))
+  (import "+" "" (global (;0;) (mut f32)))
+  (memory (;0;) i64 13987 207690497692819)
+  (export "\u{3}\u{8}" (memory 0))
+  (elem (;0;) nullref)
+  (elem (;1;) declare (ref null 0) (ref.null none))
+  (elem (;2;) (ref null 0) (ref.null none) (ref.null 0) (ref.null 0))
+)

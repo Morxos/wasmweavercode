@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) 0 eqref))
+  (memory (;0;) 83 25595 shared)
+)

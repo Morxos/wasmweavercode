@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (table (;0;) i64 3 233377 nullexternref ref.null noextern)
+  (memory (;0;) i64 0 144591681799171)
+  (export "" (table 0))
+  (data (;0;) "B\e3")
+)

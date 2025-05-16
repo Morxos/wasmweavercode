@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 1981))
+  (import "0" "" (table (;0;) i64 878 37593 arrayref))
+  (global (;0;) (mut externref) ref.null extern)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i64.const 19) arrayref)
+  (data (;0;) "")
+)

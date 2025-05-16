@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 2 485502 externref ref.null noextern)
+  (memory (;0;) 15323 47861 shared)
+  (global (;0;) (mut i32) i32.const -1682217784)
+  (data (;0;) "")
+)

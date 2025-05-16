@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) 4 4562)
+  (global (;0;) anyref ref.null struct)
+  (elem (;0;) eqref)
+  (elem (;1;) declare exnref (ref.null exn))
+  (elem (;2;) declare anyref)
+  (data (;0;) "")
+)

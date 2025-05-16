@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 20 43578))
+  (import "l" "" (table (;0;) i64 0 429583 externref))
+  (global (;0;) i64 i64.const -3484622999595267675)
+  (elem (;0;) structref)
+  (elem (;1;) arrayref)
+  (data (;0;) "")
+)

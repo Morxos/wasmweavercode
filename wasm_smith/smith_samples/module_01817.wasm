@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) i64 4639))
+  (import "\u{1d}e" "" (table (;0;) 169 258742 structref))
+  (global (;0;) (mut funcref) ref.null nofunc)
+  (global (;1;) f64 f64.const -0x1.338d300f8368dp-384 (;=-0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030490150625951387;))
+  (elem (;0;) (table 0) (i32.const 0) nullref)
+  (elem (;1;) declare i31ref)
+  (data (;0;) (i64.const 21688359) "")
+  (data (;1;) (i64.const 976393) "")
+  (data (;2;) "l\dd")
+  (data (;3;) (i64.const 162516323) "")
+)

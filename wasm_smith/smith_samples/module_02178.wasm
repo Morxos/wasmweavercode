@@ -1,0 +1,8 @@
+(module
+  (import "\u{a}!" "" (memory (;0;) 15696))
+  (import "" "" (table (;0;) i64 0 externref))
+  (import "" "" (global (;0;) f64))
+  (global (;1;) f32 f32.const -0x1.33e22p+62 (;=-5546332500000000000;))
+  (elem (;0;) (table 0) (i64.const 0) externref)
+  (elem (;1;) declare i31ref (ref.null i31) (ref.null i31) (ref.null none) (ref.null i31) (ref.null none) (ref.null none))
+)

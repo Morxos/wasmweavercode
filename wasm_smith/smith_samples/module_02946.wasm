@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 0 eqref)
+  (memory (;0;) i64 1 277608011081438 shared)
+  (global (;0;) i64 i64.const 4663789032613049130 i64.const -7652998826564230764 i64.const -8813912275380130829 i64.const 4523565239190404233 i64.const -1392182248997497960 i64.const 4564639100411553972 i64.const -7448898735544226199 i64.const -744048237285854012 i64.const 7191990615082025712 i64.const -3720709838389423407 i64.sub i64.const 2788910760848702689 i64.add i64.sub i64.sub i64.sub i64.mul i64.mul i64.add i64.add i64.sub)
+  (elem (;0;) declare eqref)
+  (elem (;1;) nullref (ref.null none))
+  (data (;0;) (global.get 0) "\98\d6\86")
+)

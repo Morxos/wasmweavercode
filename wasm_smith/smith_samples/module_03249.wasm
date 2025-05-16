@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 0 nullexternref ref.null noextern)
+  (memory (;0;) i64 883 62584302830748 shared)
+  (export "f" (table 0))
+  (export "" (table 0))
+  (data (;0;) (i64.const 29282399) "")
+)

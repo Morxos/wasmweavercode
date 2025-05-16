@@ -1,0 +1,9 @@
+(module
+  (import "Z7\u{2}" "" (global (;0;) f32))
+  (table (;0;) 8 eqref)
+  (memory (;0;) i64 0 186798788253146)
+  (export "a" (global 0))
+  (export "D" (table 0))
+  (export "" (table 0))
+  (export "3" (table 0))
+)

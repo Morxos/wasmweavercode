@@ -1,0 +1,11 @@
+(module
+  (table (;0;) i64 0 nullexternref)
+  (memory (;0;) i64 0 93477828830022)
+  (global (;0;) f32 f32.const -0x1.27c408p-42 (;=-0.00000000000026269275;))
+  (global (;1;) externref ref.null extern)
+  (global (;2;) f32 f32.const -0x1.7b0574p-4 (;=-0.0925345;))
+  (export "N\u{2b5}" (table 0))
+  (export "\u{e}t" (global 0))
+  (export "" (global 1))
+  (export "3" (global 2))
+)

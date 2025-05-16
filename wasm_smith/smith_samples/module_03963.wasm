@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "\u{1a}" "" (table (;0;) 3436 610515 externref))
+  (memory (;0;) 3796 4923)
+  (global (;1;) i64 i64.const 1848419651797934129 i64.const 8302199576769460918 i64.sub)
+  (global (;2;) (mut f32) f32.const 0x1.90a28p+108 (;=507864900000000000000000000000000;))
+  (export "" (memory 0))
+  (export "\u{7f}\u{694}" (table 0))
+  (elem (;0;) (table 0) (i32.const 380) nullexternref (ref.null noextern) (ref.null noextern))
+  (elem (;1;) declare nullexternref)
+  (data (;0;) (i32.const 66960003) "")
+)

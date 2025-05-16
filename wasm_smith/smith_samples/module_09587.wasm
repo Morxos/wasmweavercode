@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 14692)
+  (global (;0;) (mut i64) i64.const -2726573359554237340)
+  (export "_A" (memory 0))
+  (elem (;0;) externref (ref.null noextern) (ref.null noextern) (ref.null extern) (ref.null noextern) (ref.null extern))
+)

@@ -1,0 +1,4 @@
+(module
+  (import "\u{5c0}" "" (table (;0;) i64 111 i31ref))
+  (elem (;0;) (table 0) (i64.const 31) i31ref (ref.null i31))
+)

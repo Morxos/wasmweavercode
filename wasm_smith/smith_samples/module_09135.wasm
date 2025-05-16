@@ -1,0 +1,7 @@
+(module
+  (import "\u{64e}" "" (table (;0;) i64 26 719506 exnref))
+  (import "aW" "" (global (;0;) f32))
+  (import "\u{5c}F" "" (memory (;0;) 147 37571))
+  (global (;1;) (mut i64) i64.const -2673488624076649347)
+  (export "" (global 1))
+)

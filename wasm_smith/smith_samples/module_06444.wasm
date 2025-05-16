@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (import "" "" (table (;0;) 2748 anyref))
+  (memory (;0;) i64 4335 131831247200663)
+)

@@ -1,0 +1,13 @@
+(module
+  (import "\u{2f6}k" "" (global (;0;) f64))
+  (table (;0;) 2143 717173 arrayref ref.null array)
+  (memory (;0;) 1 41442 shared)
+  (global (;1;) (mut i64) i64.const 4639404510316578098 i64.const 5355373056784251765 i64.const -5788990419501008011 i64.const 5354350537040792869 i64.const -8511421274961954164 i64.const 1571667937171546360 i64.const 4501401824397754029 i64.const 9184507099882787782 i64.const 5313843883750714926 i64.const 4037161316296916826 i64.add i64.mul i64.sub i64.add i64.sub i64.sub i64.mul i64.const 669236336108423284 i64.mul i64.mul i64.add)
+  (global (;2;) (mut i32) i32.const 243985714)
+  (global (;3;) (mut i64) i64.const -5162117079255885169)
+  (export "" (table 0))
+  (export "1" (memory 0))
+  (elem (;0;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) i31ref)
+  (data (;0;) "")
+)

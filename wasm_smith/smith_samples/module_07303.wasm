@@ -1,0 +1,11 @@
+(module
+  (import "\u{13}" "" (global (;0;) (mut i64)))
+  (import "\u{22}\u{14}" "" (table (;0;) 298 869399 funcref))
+  (import "\u{16}" "" (memory (;0;) 4611 65427 shared))
+  (import "j" "" (global (;1;) f64))
+  (import "~\u{5}" "" (global (;2;) i32))
+  (global (;3;) (mut arrayref) ref.null none)
+  (elem (;0;) (table 0) (i32.const 30) func)
+  (data (;0;) "")
+  (data (;1;) (i32.const 1307310) "\d0")
+)

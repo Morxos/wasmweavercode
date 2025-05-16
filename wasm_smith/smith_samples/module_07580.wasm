@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) structref))
+  (table (;0;) 0 arrayref)
+  (export "" (global 0))
+)

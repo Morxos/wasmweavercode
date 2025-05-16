@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) structref))
+  (import "" "" (global (;1;) (mut i32)))
+  (table (;0;) i64 0 funcref ref.null nofunc)
+  (export ",r" (table 0))
+  (export "{?" (global 0))
+  (export "" (global 1))
+  (elem (;0;) eqref (global.get 0) (global.get 0) (ref.null array) (ref.null eq))
+  (elem (;1;) eqref)
+  (elem (;2;) funcref)
+  (elem (;3;) externref (ref.null extern))
+)

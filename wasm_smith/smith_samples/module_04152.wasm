@@ -1,0 +1,4 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (memory (;0;) i64 0 135374457810859)
+)

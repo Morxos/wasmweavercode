@@ -1,0 +1,12 @@
+(module
+  (import "" "" (table (;0;) 8 eqref))
+  (import "" "" (memory (;0;) 9 64829))
+  (export "\u{d}\u{c}\u{7f}" (memory 0))
+  (export "n" (table 0))
+  (export "K?Uj<" (memory 0))
+  (elem (;0;) (table 0) (i32.const 0) structref (ref.null struct))
+  (elem (;1;) declare exnref)
+  (data (;0;) (i32.const 43840) "")
+  (data (;1;) (i32.const 27) "\91")
+  (data (;2;) "")
+)

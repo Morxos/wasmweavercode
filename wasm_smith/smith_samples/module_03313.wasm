@@ -1,0 +1,9 @@
+(module
+  (import "6" "" (global (;0;) (mut f64)))
+  (memory (;0;) i64 2904 162982265324802)
+  (elem (;0;) declare externref (ref.null extern))
+  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern))
+  (data (;0;) (i64.const 1578415) "")
+  (data (;1;) (i64.const 24672894) "")
+  (data (;2;) "N")
+)

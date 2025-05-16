@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 172 structref)
+  (memory (;0;) i64 176 40357347843446 shared)
+  (elem (;0;) (table 0) (i64.const 0) structref)
+)

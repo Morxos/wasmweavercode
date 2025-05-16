@@ -1,0 +1,5 @@
+(module
+  (import "\u{7}" "" (table (;0;) i64 364 71541 i31ref))
+  (memory (;0;) i64 0 65144351349431)
+  (export "\u{14}nf:" (memory 0))
+)

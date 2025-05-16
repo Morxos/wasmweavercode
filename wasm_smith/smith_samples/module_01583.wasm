@@ -1,0 +1,11 @@
+(module
+  (import "\u{9}\u{3}" "" (memory (;0;) 119))
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) 656 externref)
+  (export "" (table 0))
+  (export "M" (memory 0))
+  (export "2" (table 0))
+  (elem (;0;) i31ref)
+  (data (;0;) (i32.const 18366) "")
+  (data (;1;) "")
+)

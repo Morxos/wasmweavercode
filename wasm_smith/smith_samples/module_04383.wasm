@@ -1,0 +1,5 @@
+(module
+  (import "Q" "" (table (;0;) 4094 nullexternref))
+  (memory (;0;) i64 9496 130520236909744)
+  (data (;0;) "")
+)

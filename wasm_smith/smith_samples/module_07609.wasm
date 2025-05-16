@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 16 arrayref ref.null none)
+  (export "5=" (table 0))
+  (export "" (table 0))
+  (export "I5\u{17}#~" (table 0))
+  (elem (;0;) anyref)
+)

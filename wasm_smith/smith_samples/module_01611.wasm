@@ -1,0 +1,9 @@
+(module
+  (import "b" "" (table (;0;) 8354 440013 funcref))
+  (import "v$" "" (global (;0;) (mut f64)))
+  (global (;1;) (mut f32) f32.const 0x1.a71082p-13 (;=0.00020173287;))
+  (export "" (global 0))
+  (export "|/" (table 0))
+  (export "\u{c}*\u{a35e}\u{40e}" (table 0))
+  (elem (;0;) declare eqref (ref.null none) (ref.null i31))
+)

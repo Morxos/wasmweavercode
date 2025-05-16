@@ -1,0 +1,7 @@
+(module
+  (import "XP" "" (memory (;0;) i64 1061 195611205977323))
+  (table (;0;) i64 5987 nullfuncref)
+  (global (;0;) (mut nullref) ref.null none)
+  (export "Q" (global 0))
+  (data (;0;) "\a3")
+)

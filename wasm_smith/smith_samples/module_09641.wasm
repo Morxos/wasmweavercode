@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) i64 31 arrayref))
+  (global (;0;) (mut f32) f32.const 0x1.874fep-58 (;=0.0000000000000000053032667;))
+  (export "" (global 0))
+)

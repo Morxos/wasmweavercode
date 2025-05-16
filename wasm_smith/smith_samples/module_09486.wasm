@@ -1,0 +1,7 @@
+(module
+  (import "\u{a}" "" (memory (;0;) 2))
+  (import "" "" (table (;0;) i64 133 100345 nullexternref))
+  (import "" "" (global (;0;) f64))
+  (elem (;0;) declare anyref)
+  (data (;0;) "")
+)

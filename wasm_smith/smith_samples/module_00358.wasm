@@ -1,0 +1,4 @@
+(module
+  (import "\u{0}\u{2}b" "" (memory (;0;) i64 1477))
+  (import "\u{1c}\u{c}" "" (global (;0;) (mut i32)))
+)

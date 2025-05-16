@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 214 314133 arrayref ref.null array)
+  (memory (;0;) i64 25)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i64.const 2) arrayref (ref.null array))
+  (data (;0;) (i64.const 0) "")
+)

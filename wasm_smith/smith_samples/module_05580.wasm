@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 873))
+  (table (;0;) i64 4066 824980 eqref ref.null none)
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) eqref)
+  (elem (;1;) structref)
+  (data (;0;) (i32.const 717900) "\ad")
+)

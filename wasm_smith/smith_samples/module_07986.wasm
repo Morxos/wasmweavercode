@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 34 arrayref ref.null array)
+  (memory (;0;) i64 1933 15589467087246)
+  (elem (;0;) (table 0) (i64.const 32) nullref)
+  (elem (;1;) func)
+)

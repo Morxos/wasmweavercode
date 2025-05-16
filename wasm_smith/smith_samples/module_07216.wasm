@@ -1,0 +1,7 @@
+(module
+  (import "\u{19}" "" (table (;0;) 0 387288 externref))
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export " :\u{603}" (table 0))
+  (elem (;0;) declare anyref)
+)

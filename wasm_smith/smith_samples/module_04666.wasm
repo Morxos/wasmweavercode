@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) i64 1080))
+  (import "" "" (global (;0;) (mut i32)))
+  (import "#\u{6}'r.\u{1e}&X\u{b}\u{1}^" "" (table (;0;) 27 nullexternref))
+  (elem (;0;) anyref)
+)

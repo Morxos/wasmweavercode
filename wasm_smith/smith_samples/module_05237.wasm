@@ -1,0 +1,10 @@
+(module
+  (import "Y" "" (memory (;0;) 171))
+  (import "\u{15}" "" (global (;0;) eqref))
+  (table (;0;) 5628 i31ref)
+  (global (;1;) (mut i32) i32.const 646762512)
+  (global (;2;) i64 i64.const -1075938327957928608 i64.const -649266095112810040 i64.const 7723188905194352728 i64.const 5497723830479382110 i64.const -602601740803433857 i64.const 6218204323291010229 i64.const -5348648923165652776 i64.const 87798853959786422 i64.const 3723965830640821242 i64.const -5817064050596528230 i64.add i64.sub i64.sub i64.const 5602032300341425440 i64.sub i64.mul i64.sub i64.mul i64.add i64.sub i64.sub)
+  (elem (;0;) externref (ref.null extern))
+  (elem (;1;) (table 0) (i32.const 4) nullref)
+  (data (;0;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 3142 nullfuncref)
+  (global (;0;) (mut f64) f64.const -0x1.31f76475611d7p+281 (;=-4643682515132157000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "k\u{4}t1" (global 0))
+  (export "" (global 0))
+  (elem (;0;) (table 0) (i64.const 1851) nullfuncref)
+)

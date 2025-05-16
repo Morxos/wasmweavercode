@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 0 364784 anyref)
+  (memory (;0;) 29)
+  (global (;0;) eqref ref.null struct)
+  (global (;1;) i64 i64.const 3705287233324754482 i64.const 2262939890658102436 i64.const 624288743281536349 i64.const -7439191378670080077 i64.const 957749429316452799 i64.const -1238959610914928347 i64.const -8564882990937843297 i64.const -6305719777492165836 i64.mul i64.mul i64.add i64.const 4292324372677307260 i64.mul i64.sub i64.sub i64.const -1871648647440814381 i64.sub i64.add i64.sub)
+  (elem (;0;) eqref (global.get 0) (ref.null eq))
+)

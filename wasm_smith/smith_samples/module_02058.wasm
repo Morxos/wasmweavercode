@@ -1,0 +1,6 @@
+(module
+  (import "\u{6}" "" (global (;0;) f32))
+  (import "\u{6}" "" (global (;1;) f64))
+  (table (;0;) 193 497633 arrayref)
+  (export "Z" (table 0))
+)

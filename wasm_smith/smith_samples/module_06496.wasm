@@ -1,0 +1,12 @@
+(module
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) nullexternref ref.null noextern)
+  (global (;3;) (mut anyref) ref.null array)
+  (global (;4;) f64 f64.const 0x1.db96ea3d566e6p+271 (;=7048896407112006000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;5;) (mut i32) i32.const 1200201680)
+  (global (;6;) structref ref.null struct)
+  (global (;7;) f32 f32.const -0x1.2a41aap+30 (;=-1250978400;))
+  (global (;8;) (mut i64) i64.const 1260895972946089579)
+  (export "" (global 8))
+)

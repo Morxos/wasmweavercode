@@ -1,0 +1,11 @@
+(module
+  (import "!E" "" (table (;0;) i64 24 externref))
+  (memory (;0;) 34)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (export "VyH{/" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) (i32.const 1961072) "\82")
+  (data (;1;) (i32.const 156550) "")
+  (data (;2;) "\05")
+  (data (;3;) (i32.const 63) "")
+)

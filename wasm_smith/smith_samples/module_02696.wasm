@@ -1,0 +1,10 @@
+(module
+  (import "" "" (global (;0;) (mut exnref)))
+  (import "" "" (memory (;0;) i64 14877 44574451381640 shared))
+  (table (;0;) i64 1 nullfuncref ref.null nofunc)
+  (export "" (memory 0))
+  (elem (;0;) declare func)
+  (elem (;1;) (table 0) (i64.const 0) nullfuncref)
+  (data (;0;) (i64.const 27) "")
+  (data (;1;) (i64.const 258777) "L")
+)

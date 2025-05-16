@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 37)
+  (global (;0;) (mut externref) ref.null extern)
+  (elem (;0;) func)
+)

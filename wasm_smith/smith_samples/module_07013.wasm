@@ -1,0 +1,12 @@
+(module
+  (import "A" "" (global (;0;) i64))
+  (import "?" "" (memory (;0;) i64 0 68174804734135))
+  (export "\u{8}L" (memory 0))
+  (elem (;0;) declare eqref)
+  (data (;0;) "\eb")
+  (data (;1;) "o")
+  (data (;2;) "\0b")
+  (data (;3;) "\e8")
+  (data (;4;) "")
+  (data (;5;) "$\01_\a2")
+)

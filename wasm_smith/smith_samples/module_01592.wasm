@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) i64 532 29997601807853))
+  (import "" "" (global (;0;) (mut f32)))
+  (table (;0;) i64 0 271034 nullfuncref ref.null nofunc)
+  (export "" (table 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "\af")
+  (data (;3;) "r~")
+  (data (;4;) "\15\a9c")
+  (data (;5;) "")
+  (data (;6;) (i64.const 4011420) "")
+)

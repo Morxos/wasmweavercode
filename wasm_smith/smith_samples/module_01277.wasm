@@ -1,0 +1,217 @@
+(module
+  (rec
+    (type (;0;) (struct (field i8) (field i16) (field i8) (field i16) (field i64)))
+    (type (;1;) (sub (array (mut i64))))
+    (type (;2;) (func))
+    (type (;3;) (array (mut i16)))
+    (type (;4;) (sub (array i8)))
+    (type (;5;) (sub (func (param f32))))
+    (type (;6;) (func))
+    (type (;7;) (func (param f64 i32)))
+    (type (;8;) (sub (struct (field f64) (field (mut f64)) (field i8) (field (mut i64)) (field (mut i8)) (field i16) (field i64) (field (mut i16)) (field i32) (field f32) (field i8) (field i8) (field (mut i16)) (field (mut i8)) (field i64) (field i64) (field i16) (field (mut i8)) (field i8) (field i8))))
+    (type (;9;) (sub (func)))
+    (type (;10;) (sub (func (result i64 i32 f64))))
+    (type (;11;) (sub 4 (array i8)))
+    (type (;12;) (array (mut i8)))
+    (type (;13;) (sub (struct)))
+    (type (;14;) (func (param i32 i64) (result f64 f64)))
+    (type (;15;) (struct (field (mut i16)) (field i8) (field (mut i8)) (field f64) (field (mut f32)) (field f32) (field i16) (field (mut i16)) (field f32) (field (mut i16)) (field (mut i8)) (field (mut i16)) (field (mut i8)) (field (mut f64))))
+    (type (;16;) (sub (struct (field f64) (field i16) (field (mut i16)) (field (mut i16)) (field (mut i8)) (field (mut i32)) (field (mut i16)) (field (mut i32)) (field (mut i8)) (field (mut i8)) (field f64) (field i16) (field (mut i8)) (field i8) (field i16) (field i8) (field i16) (field i32) (field (mut i16)))))
+    (type (;17;) (sub (struct (field (mut i16)) (field (mut f64)) (field (mut f32)) (field i8) (field (mut i16)))))
+    (type (;18;) (sub (array (mut i16))))
+    (type (;19;) (struct (field (mut f64)) (field i8) (field i16) (field (mut nullref)) (field i16) (field (mut i64)) (field (mut i16))))
+    (type (;20;) (struct (field (mut f32)) (field (mut i8)) (field (mut i8)) (field anyref) (field (mut f32)) (field (mut i8)) (field (mut i16)) (field (mut i8)) (field (ref null 16)) (field i8) (field f32)))
+    (type (;21;) (sub (func (param i32 f32 i64))))
+    (type (;22;) (func (param i64 i32 i32)))
+    (type (;23;) (sub (func (result i32))))
+    (type (;24;) (func (result i64 f64)))
+    (type (;25;) (sub final 11 (array i8)))
+    (type (;26;) (sub (array f32)))
+    (type (;27;) (sub (func (result f32 f64 i32 (ref null 16) f32 nullfuncref i64))))
+    (type (;28;) (struct (field i8) (field i16) (field (mut i16)) (field (mut i16)) (field f64) (field (ref null 13)) (field i16) (field i16) (field (mut i16)) (field (mut i8)) (field structref) (field (mut f64)) (field (mut i8))))
+  )
+  (table (;0;) i64 4180 720607 arrayref)
+  (tag (;0;) (type 6))
+  (global (;0;) (mut i32) i32.const 29719079 i32.const 1162686960 i32.const -1416316694 i32.const 192717109 i32.const -1095640574 i32.const -1872972203 i32.const 2097213050 i32.const 734456202 i32.sub i32.add i32.add i32.const 1757197331 i32.add i32.sub i32.const -1911377691 i32.add i32.sub i32.add i32.mul)
+  (global (;1;) (mut i32) i32.const 928522048)
+  (global (;2;) (mut arrayref) ref.null none)
+  (global (;3;) (mut f32) f32.const -0x1.e899dep+116 (;=-158560100000000000000000000000000000;))
+  (global (;4;) (mut i64) i64.const 0)
+  (global (;5;) (mut i32) i32.const 0)
+  (global (;6;) (mut i64) i64.const 0)
+  (global (;7;) (mut i32) i32.const 0)
+  (func (;0;) (type 22) (param i64 i32 i32)
+    (local i64 (ref null 10) (ref null 12) i32)
+    try_table (catch_all 0) ;; label = @1
+      f64.const 0x1.3b4b55b972e2ep+741 (;=14246327020574863000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+      i32.trunc_sat_f64_s
+      i64.extend_i32_u
+      array.new_fixed 1 0
+      br_on_null 1
+      f64.const -0x1.398216b439428p+692 (;=-25163200717851264000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+      i64.trunc_sat_f64_u
+      f32.const -0x1.b718dep+87 (;=-265417930000000000000000000;)
+      i64.trunc_f32_u
+      f64.reinterpret_i64
+      f64.sqrt
+      i64.const -3616771361864723287
+      i64.extend8_s
+      call 2
+      i32.const -286331154
+      f32.const -nan:0x7ffff8 (;=NaN;)
+      f64.promote_f32
+      i32.trunc_f64_u
+      i32.eqz
+      i32.popcnt
+      f64.convert_i32_u
+      f32.const 0x1.p-128 (;=0.000000000000000000000000000000000000002938736;)
+      i32.trunc_f32_s
+      local.tee 6
+      i32.eqz
+      global.set 1
+      try_table (result i32) (catch_all 1) (catch 0 1) (catch_all 0 (;@1;)) (catch 0 0 (;@1;)) (catch_all 0 (;@1;)) (catch 0 0 (;@1;)) (catch 0 1) (catch_all 1) (catch 0 0 (;@1;)) ;; label = @2
+        local.get 3
+        global.get 1
+        i32.clz
+        f32.convert_i32_u
+        i64.const -262145
+        i64.extend16_s
+        table.size 0
+        throw 0
+        i64.add
+        f64.const 0x1.76e4942aa353p+624 (;=101949365712646770000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+        br 2
+        i64.trunc_f64_u
+        i64.gt_s
+        f64.const 0x1.p-1050 (;=0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008289046;)
+        global.get 1
+        br_if 1 (;@1;)
+        i64.trunc_sat_f64_u
+        i32.wrap_i64
+        i32.ne
+        call 3
+        i64.trunc_f64_u
+        f32.convert_i64_u
+        global.get 3
+        loop (type 24) (result i64 f64) ;; label = @3
+          f64.const 0x1.4e73bd749b2edp-151 (;=0.0000000000000000000000000000000000000000000004576828394420452;)
+          f32.const -0x1.ba85bcp-8 (;=-0.006752356;)
+          loop (type 27) (result f32 f64 i32 (ref null 16) f32 nullfuncref i64) ;; label = @4
+            i32.const 268435456
+            local.get 3
+            i32.wrap_i64
+            f32.reinterpret_i32
+            loop (type 5) (param f32) ;; label = @5
+              i32.reinterpret_f32
+              f64.const -0x1.c8cfd847f2d39p+594 (;=-115695072384106380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;)
+              f32.demote_f64
+              try_table (result f64) (catch 0 2 (;@3;)) (catch_all 5) (catch_all 5) (catch 0 5) ;; label = @6
+                struct.new 13
+                call 2
+                call 3
+                ref.null 8
+                extern.convert_any
+                i64.const 281474976710655
+                block (type 23) (result i32) ;; label = @7
+                  f64.const 0x1.p-1032 (;=0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000021729236899484;)
+                  table.size 0
+                  i64.popcnt
+                  f64.reinterpret_i64
+                  f32.const -nan:0x7effff (;=NaN;)
+                  f32.neg
+                  f32.nearest
+                  call 1
+                  f32.const 0x1.f9e84cp+79 (;=1194540100000000000000000;)
+                  f32.neg
+                  array.new_fixed 26 0
+                  ref.null 10
+                  ref.cast nullfuncref
+                  ref.null 12
+                  block (type 23) (result i32) ;; label = @8
+                    f32.const 0x1.fffffep-64 (;=0.00000000000000000010842021;)
+                    i32.trunc_sat_f32_u
+                    i32.ctz
+                    br 7 (;@1;)
+                    f64.const -0x1.3a43c25117ae6p-854 (;=-0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010219727516452868;)
+                    call 2
+                    local.tee 0
+                    i64.extend32_s
+                    f32.convert_i64_s
+                    i64.const -8683528099527493577
+                    table.get 0
+                    call 3
+                    f64.trunc
+                    f64.ceil
+                    i64.reinterpret_f64
+                    global.get 4
+                    i64.xor
+                    global.set 4
+                    global.get 5
+                    i32.xor
+                    global.set 5
+                    global.get 6
+                    i64.xor
+                    global.set 6
+                    drop
+                    i32.reinterpret_f32
+                    global.get 7
+                    i32.xor
+                    global.set 7
+                    drop
+                    i32.reinterpret_f32
+                    global.get 7
+                    i32.xor
+                    global.set 7
+                    drop
+                    global.get 5
+                    i32.xor
+                    global.set 5
+                    i64.reinterpret_f64
+                    global.get 4
+                    i64.xor
+                    global.set 4
+                    i32.reinterpret_f32
+                    global.get 7
+                    i32.xor
+                    global.set 7
+                    i64.reinterpret_f64
+                    global.get 4
+                    i64.xor
+                    global.set 4
+                  end
+                  global.get 5
+                  i32.xor
+                  global.set 5
+                  drop
+                  drop
+                  drop
+                  drop
+                  drop
+                  drop
+                  drop
+                  drop
+                  i32.const 0
+                end
+                unreachable
+              end
+              unreachable
+            end
+            unreachable
+          end
+          unreachable
+        end
+        unreachable
+      end
+      unreachable
+    end
+  )
+  (func (;1;) (type 23) (result i32)
+    unreachable
+  )
+  (func (;2;) (type 27) (result f32 f64 i32 (ref null 16) f32 nullfuncref i64)
+    unreachable
+  )
+  (func (;3;) (type 10) (result i64 i32 f64)
+    unreachable
+  )
+)

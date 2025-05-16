@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (import "D\u{5c}" "" (memory (;0;) i64 0 56588735302640 shared))
+  (table (;0;) 878 354482 externref)
+  (data (;0;) "@\9d\c0\0b")
+)

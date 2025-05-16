@@ -1,0 +1,8 @@
+(module
+  (import "\u{9}&{=\u{d}" "" (table (;0;) i64 0 728310 i31ref))
+  (global (;0;) i32 i32.const 1900679629 i32.const 290321054 i32.const 542908266 i32.const 2121408361 i32.const -429373525 i32.const -1530045878 i32.const 696737707 i32.const 1118250942 i32.const -2098172095 i32.const 2118085642 i32.sub i32.sub i32.add i32.const -1599689027 i32.mul i32.mul i32.add i32.sub i32.add i32.add i32.sub)
+  (global (;1;) nullexternref ref.null noextern)
+  (export "" (global 0))
+  (export "[" (table 0))
+  (export "\u{e}X" (table 0))
+)

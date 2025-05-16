@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 51 556930 externref ref.null extern)
+  (global (;0;) i32 i32.const -2077709818)
+  (export "" (global 0))
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 0 nullfuncref)
+  (elem (;0;) nullexternref (ref.null noextern))
+)

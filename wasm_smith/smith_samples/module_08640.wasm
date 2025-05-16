@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 13 externref ref.null noextern)
+  (global (;0;) (mut i31ref) ref.null i31)
+  (export "n" (global 0))
+  (export "1" (global 0))
+  (export "\u{b}W" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) externref (ref.null extern))
+  (data (;0;) "")
+)

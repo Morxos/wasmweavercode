@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) i64 9 103264749425602))
+  (import "\u{16}" "" (table (;0;) i64 1288 externref))
+  (export "V\u{b}X" (memory 0))
+  (export " " (table 0))
+  (export "" (memory 0))
+  (export "e\u{9}" (memory 0))
+  (export "pY" (memory 0))
+  (elem (;0;) declare arrayref)
+  (data (;0;) (i64.const 300994) "\88")
+  (data (;1;) (i64.const 4079) "")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 4 634511 structref ref.null struct)
+  (memory (;0;) 9675 29945 shared)
+  (elem (;0;) declare externref)
+  (elem (;1;) (table 0) (i64.const 1) structref)
+  (data (;0;) (i32.const 163207051) "")
+  (data (;1;) "")
+  (data (;2;) (i32.const 4329451) "V")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) 64 690798 anyref))
+  (import "5^\u{f}\u{12}\u{12}" "" (global (;0;) (mut f32)))
+  (import "w" "" (memory (;0;) 6913 7087))
+)

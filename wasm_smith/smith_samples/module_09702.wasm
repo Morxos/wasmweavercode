@@ -1,0 +1,10 @@
+(module
+  (import "l" "" (table (;0;) i64 7 540432 nullfuncref))
+  (import "\u{15},Q" "" (global (;0;) (mut f32)))
+  (import "]\u{f}" "" (global (;1;) f64))
+  (import "\u{14}~\u{1e}" "" (memory (;0;) i64 12918))
+  (import "\u{444};[%" "" (global (;2;) f64))
+  (global (;3;) f32 f32.const 0x1.fc6edcp-40 (;=0.000000000001806317;))
+  (global (;4;) f64 global.get 2)
+  (elem (;0;) externref)
+)

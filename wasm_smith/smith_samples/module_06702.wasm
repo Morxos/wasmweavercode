@@ -1,0 +1,6 @@
+(module
+  (import "\u{11}" "" (memory (;0;) 2299 39282 shared))
+  (import "" "" (table (;0;) 4497 nullexternref))
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 1548) nullexternref)
+)

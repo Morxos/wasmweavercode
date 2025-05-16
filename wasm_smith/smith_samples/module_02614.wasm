@@ -1,0 +1,3 @@
+(module
+  (import "" "" (table (;0;) i64 0 749312 i31ref))
+)

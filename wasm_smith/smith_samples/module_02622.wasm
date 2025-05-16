@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 1816)
+  (export "H" (memory 0))
+  (export "+T" (memory 0))
+  (export "\u{12f}" (memory 0))
+  (export "Ml" (memory 0))
+)

@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) i64 816)
+  (global (;0;) exnref ref.null exn)
+  (elem (;0;) declare eqref)
+  (elem (;1;) declare arrayref (ref.null array))
+  (data (;0;) (i64.const 38445) "X")
+  (data (;1;) (i64.const 36505898) "")
+  (data (;2;) (i64.const 68251) "\b7r")
+)

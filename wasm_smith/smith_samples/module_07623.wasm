@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) 3 47010 shared))
+  (global (;0;) (mut i64) i64.const 1995703086047201630 i64.const -8684065851234412927 i64.const 1285451252752305014 i64.const -6916850849815541556 i64.const -8489526366762480309 i64.const -2247030324679883921 i64.const 7413588778367527872 i64.const -5569281966688779232 i64.const 1274798502168682648 i64.sub i64.add i64.mul i64.mul i64.sub i64.add i64.mul i64.mul i64.const 7861649782602486344 i64.sub)
+  (elem (;0;) nullexternref)
+  (elem (;1;) nullexternref (ref.null noextern))
+  (elem (;2;) i31ref (ref.null i31))
+  (data (;0;) "")
+  (data (;1;) (i32.const 23964) "")
+  (data (;2;) "")
+)

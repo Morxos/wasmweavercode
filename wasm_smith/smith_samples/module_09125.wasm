@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 24 funcref ref.null func)
+  (memory (;0;) 122 22750 shared)
+  (elem (;0;) func)
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 643 externref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "\u{1f}" (table 0))
+  (elem (;0;) declare nullref)
+)

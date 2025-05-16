@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) 5 60347 eqref))
+  (memory (;0;) i64 308 67937728058085 shared)
+  (global (;0;) (mut f32) f32.const 0x1.fba5d6p+41 (;=4360661400000;))
+  (elem (;0;) (table 0) (i32.const 0) structref (ref.null struct) (ref.null struct))
+  (elem (;1;) nullfuncref (ref.null nofunc))
+  (data (;0;) "")
+)

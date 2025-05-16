@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 0 36907 structref))
+  (export "A" (table 0))
+  (elem (;0;) anyref (ref.null struct) (ref.null eq))
+  (data (;0;) "r")
+  (data (;1;) "")
+)

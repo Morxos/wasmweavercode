@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 9 nullref)
+  (memory (;0;) 50)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "2" (memory 0))
+  (data (;0;) "\86\d4O\c0")
+)

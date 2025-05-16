@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut i64)))
+  (table (;0;) 1792 34942 i31ref)
+  (memory (;0;) 2 64789)
+  (export "" (global 0))
+  (export "@\u{f}n" (global 0))
+  (export "\u{7f}" (table 0))
+  (elem (;0;) (table 0) (i32.const 383) nullref (ref.null none))
+  (elem (;1;) (table 0) (i32.const 1214) nullref)
+  (data (;0;) "")
+  (data (;1;) (i32.const 6757) "\b6\d0\8c")
+)

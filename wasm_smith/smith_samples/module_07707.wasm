@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 0 682589 anyref)
+  (memory (;0;) 8)
+  (elem (;0;) nullfuncref)
+  (elem (;1;) declare externref (ref.null extern))
+  (elem (;2;) externref)
+  (elem (;3;) arrayref (ref.null array) (ref.null none) (ref.null none) (ref.null array) (ref.null array) (ref.null array))
+  (data (;0;) (i32.const 1596) "A")
+)

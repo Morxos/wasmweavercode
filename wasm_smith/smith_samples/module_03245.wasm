@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) structref)
+  (elem (;1;) exnref (ref.null exn))
+)

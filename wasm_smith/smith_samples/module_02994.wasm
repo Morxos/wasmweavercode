@@ -1,0 +1,7 @@
+(module
+  (import "F\u{1f}0" "" (memory (;0;) 0))
+  (export "^" (memory 0))
+  (export "" (memory 0))
+  (export "2" (memory 0))
+  (elem (;0;) declare structref)
+)

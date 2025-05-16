@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 2832 nullref)
+  (global (;0;) (mut i32) i32.const -1770060490 i32.const -45155302 i32.const 1347129992 i32.const 9148370 i32.const -2035068111 i32.const -1503556854 i32.add i32.mul i32.const -418493383 i32.mul i32.add i32.add i32.mul i32.const -506953104 i32.add i32.const 667924386 i32.mul)
+  (global (;1;) (mut f32) f32.const -0x1.446ep-64 (;=-0.00000000000000000006870066;))
+  (elem (;0;) nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "\ef*i\8d")
+)

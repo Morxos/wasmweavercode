@@ -1,0 +1,10 @@
+(module
+  (type (;0;) (sub (array (mut i8))))
+  (import "\u{12}" "" (global (;0;) (mut externref)))
+  (elem (;0;) (ref null 0))
+  (data (;0;) "")
+  (data (;1;) "\96Q")
+  (data (;2;) "")
+  (data (;3;) "\b8d")
+  (data (;4;) "")
+)

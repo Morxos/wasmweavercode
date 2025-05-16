@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 895 42034 anyref))
+  (import "" "" (memory (;0;) 1681))
+  (export "" (memory 0))
+  (export "*" (table 0))
+  (export "2" (memory 0))
+  (export "3" (memory 0))
+)

@@ -1,0 +1,8 @@
+(module
+  (rec)
+  (import "" "" (memory (;0;) 165 60608))
+  (global (;0;) (mut f64) f64.const -0x1.2fb8ee7550bd8p-81 (;=-0.0000000000000000000000004906899832719967;))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) declare externref)
+  (elem (;2;) declare arrayref (ref.null none) (ref.null none))
+)

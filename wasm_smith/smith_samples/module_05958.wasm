@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) nullexternref))
+  (import "" "" (memory (;0;) 9103))
+  (import "" "" (table (;0;) i64 3667 959655 i31ref))
+  (import "" "" (global (;1;) anyref))
+  (export "Tv\u{e}A" (memory 0))
+  (elem (;0;) (table 0) (i64.const 974) nullref (ref.null none))
+)

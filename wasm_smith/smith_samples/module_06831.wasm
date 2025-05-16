@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare anyref)
+  (data (;0;) "\be\d5\df;")
+)

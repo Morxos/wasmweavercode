@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 4355)
+  (export "\u{4a1}\u{9}" (memory 0))
+  (data (;0;) "")
+)

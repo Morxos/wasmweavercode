@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 0 708572 nullexternref ref.null noextern)
+  (global (;0;) externref ref.null extern)
+  (global (;1;) i64 i64.const 6789995002757034947 i64.const 8705917123238165696 i64.const 2253686737092858491 i64.const 5278683257231606403 i64.const -7913658148135682136 i64.mul i64.const -5147405574969332878 i64.add i64.add i64.mul i64.const -1582946560757394122 i64.sub i64.sub)
+  (export "G" (table 0))
+  (export "V\u{6d0}\u{4}h" (table 0))
+  (export "" (table 0))
+  (elem (;0;) nullexternref)
+  (elem (;1;) funcref (ref.null func) (ref.null func))
+)

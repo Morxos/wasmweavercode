@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 277 132526323926496)
+  (global (;0;) i64 i64.const -4103011263166267720)
+  (global (;1;) structref ref.null struct)
+  (export "" (memory 0))
+  (export "J" (global 0))
+  (data (;0;) "")
+  (data (;1;) (i64.const 12750) "")
+  (data (;2;) "")
+)

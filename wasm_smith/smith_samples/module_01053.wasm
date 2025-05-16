@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) i64 640)
+  (export "u" (memory 0))
+  (export "" (memory 0))
+)

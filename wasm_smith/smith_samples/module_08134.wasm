@@ -1,0 +1,9 @@
+(module
+  (global (;0;) (mut f64) f64.const -0x1.df04d4dcef735p-345 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002610743198689858;))
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare i31ref (ref.null none) (ref.null i31))
+  (elem (;2;) eqref (ref.null none))
+  (data (;0;) "\d3")
+  (data (;1;) "@\e8\a4")
+  (data (;2;) "")
+)

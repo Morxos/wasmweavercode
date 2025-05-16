@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) i64))
+  (table (;0;) 0 externref ref.null noextern)
+  (global (;1;) i32 i32.const 1944619694)
+  (global (;2;) (mut i64) i64.const 7525381803977995203)
+  (elem (;0;) declare structref)
+  (elem (;1;) structref)
+)

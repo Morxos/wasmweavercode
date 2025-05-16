@@ -1,0 +1,12 @@
+(module
+  (import "l\u{7f}\u{5}" "" (table (;0;) 3 306444 nullfuncref))
+  (global (;0;) (mut f32) f32.const 0x1.4cb80ep+59 (;=749216500000000000;))
+  (elem (;0;) arrayref (ref.null array))
+  (data (;0;) "69")
+  (data (;1;) "n")
+  (data (;2;) "0\01")
+  (data (;3;) "\14l")
+  (data (;4;) "")
+  (data (;5;) "")
+  (data (;6;) "\7f")
+)

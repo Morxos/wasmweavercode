@@ -1,0 +1,7 @@
+(module
+  (import "-r5" "" (table (;0;) 0 760250 exnref))
+  (import "" "" (global (;0;) (mut f32)))
+  (global (;1;) exnref ref.null exn)
+  (global (;2;) i64 i64.const -1199083575139276213)
+  (global (;3;) f64 f64.const 0x1.8c7a85062b5e4p+12 (;=6343.65747658673;))
+)

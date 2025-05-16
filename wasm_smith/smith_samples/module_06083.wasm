@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 842 554999 anyref ref.null none)
+  (memory (;0;) 0)
+  (elem (;0;) (table 0) (i32.const 2) i31ref)
+  (elem (;1;) declare nullref (ref.null none))
+)

@@ -1,0 +1,6 @@
+(module
+  (import "" "" (memory (;0;) i64 1519 108275648808150))
+  (table (;0;) 0 855347 nullexternref ref.null noextern)
+  (global (;0;) (mut i31ref) ref.null none)
+  (global (;1;) (mut externref) ref.null extern)
+)

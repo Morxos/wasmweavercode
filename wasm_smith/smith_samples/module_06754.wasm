@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (export "\u{14}" (global 0))
+  (export ":Q" (global 0))
+  (elem (;0;) declare eqref)
+  (elem (;1;) declare externref (ref.null noextern) (ref.null extern))
+  (data (;0;) "")
+  (data (;1;) "Ri")
+)

@@ -1,0 +1,10 @@
+(module
+  (table (;0;) 0 760299 nullfuncref ref.null nofunc)
+  (memory (;0;) 1209)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "$" (table 0))
+  (export "3" (table 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+  (elem (;1;) i31ref (ref.null none) (ref.null none))
+)

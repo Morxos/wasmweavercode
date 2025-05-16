@@ -1,0 +1,8 @@
+(module
+  (import "\u{13}w@K" "" (global (;0;) structref))
+  (import "" "" (memory (;0;) 2370 31167 shared))
+  (import "" "" (table (;0;) i64 0 arrayref))
+  (global (;1;) (mut f64) f64.const 0x1.505cb9c53b3b6p-69 (;=0.0000000000000000000022258583888239244;))
+  (elem (;0;) anyref)
+  (elem (;1;) exnref (ref.null exn) (ref.null exn))
+)

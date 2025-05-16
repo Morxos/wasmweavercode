@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) 2036 externref)
+  (export "" (table 0))
+  (elem (;0;) declare anyref)
+  (data (;0;) "$")
+  (data (;1;) "")
+)

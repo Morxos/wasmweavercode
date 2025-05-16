@@ -1,0 +1,4 @@
+(module
+  (import "*A" "" (global (;0;) externref))
+  (data (;0;) "")
+)

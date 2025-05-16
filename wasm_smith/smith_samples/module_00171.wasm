@@ -1,0 +1,6 @@
+(module
+  (global (;0;) i31ref ref.null none)
+  (global (;1;) (mut i32) i32.const -255562499)
+  (global (;2;) i64 i64.const 3869644501577755323)
+  (global (;3;) (mut f32) f32.const -0x1.fac81p+42 (;=-8706440000000;))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "g.\u{0}\u{f}" "" (memory (;0;) 0 45909 shared))
+  (global (;0;) (mut f32) f32.const -0x1.1c71ccp+64 (;=-20496388000000000000;))
+  (export "z" (memory 0))
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) i31ref)
+  (data (;0;) "\e4")
+)

@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) i64 1378))
+  (import "*" "" (table (;0;) i64 0 eqref))
+  (global (;0;) (mut f64) f64.const -0x1.77c99e7f1e858p+312 (;=-12247884946481534000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;1;) i64 i64.const -8358996925737544886)
+  (export "}\u{1d}_[" (memory 0))
+  (export "" (global 1))
+  (elem (;0;) declare nullexternref)
+  (data (;0;) (global.get 1) "\99")
+)

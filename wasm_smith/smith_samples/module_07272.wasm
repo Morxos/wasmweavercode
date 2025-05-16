@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) eqref))
+  (import "\u{6}C" "" (global (;1;) (mut i32)))
+  (import "" "" (memory (;0;) 8))
+  (elem (;0;) declare nullref (ref.null none) (ref.null none))
+)

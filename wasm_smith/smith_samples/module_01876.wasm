@@ -1,0 +1,9 @@
+(module
+  (import "zp8" "" (table (;0;) i64 2 613277 anyref))
+  (import "" "" (memory (;0;) i64 563))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (global (;1;) (mut arrayref)))
+  (global (;2;) (mut f32) f32.const -0x1.9b0e06p+76 (;=-121321960000000000000000;))
+  (export "" (global 2))
+  (data (;0;) (i64.const 2852110) "u\be#;\1b\e2")
+)

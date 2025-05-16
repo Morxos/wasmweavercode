@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 134 48984 anyref)
+  (memory (;0;) i64 33 232864734903990 shared)
+)

@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 1024 24343)
+  (export "" (memory 0))
+  (elem (;0;) declare externref (ref.null extern))
+)

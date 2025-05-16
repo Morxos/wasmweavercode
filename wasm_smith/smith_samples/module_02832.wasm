@@ -1,0 +1,8 @@
+(module
+  (rec)
+  (global (;0;) i32 i32.const 655913639 i32.const -1200471588 i32.const 585124913 i32.const 1175067297 i32.const -1570782920 i32.const -1982116833 i32.const -252257082 i32.const -174710315 i32.add i32.const -286900502 i32.mul i32.mul i32.mul i32.add i32.add i32.add i32.add i32.const 1294214448 i32.add)
+  (elem (;0;) declare externref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

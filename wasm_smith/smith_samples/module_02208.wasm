@@ -1,0 +1,11 @@
+(module
+  (memory (;0;) i64 2 106297743396432 shared)
+  (elem (;0;) exnref)
+  (elem (;1;) declare eqref (ref.null eq))
+  (elem (;2;) nullref (ref.null none))
+  (elem (;3;) anyref (ref.null any) (ref.null any))
+  (elem (;4;) exnref (ref.null exn) (ref.null exn))
+  (data (;0;) (i64.const 48207) "\a9kA\b6*")
+  (data (;1;) (i64.const 47) "8 ")
+  (data (;2;) (i64.const 74761) "\d7")
+)

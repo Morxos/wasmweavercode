@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) arrayref))
+  (table (;0;) 6904 nullexternref)
+  (global (;1;) (mut i32) i32.const 1666682387 i32.const 1264018362 i32.const -1081678854 i32.const -341242574 i32.const -2042684349 i32.const -1227147798 i32.const 1516054034 i32.const -376473281 i32.const 1441515825 i32.const -763233656 i32.mul i32.add i32.sub i32.sub i32.mul i32.add i32.sub i32.sub i32.add i32.const -369606691 i32.mul)
+  (export "t&9[" (table 0))
+  (export "" (global 0))
+  (export "-" (global 0))
+  (export "N" (table 0))
+  (export "4" (table 0))
+  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+)

@@ -1,0 +1,8 @@
+(module
+  (import "\u{599}2" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 9548 i31ref)
+  (memory (;0;) 584 29907)
+  (export "\u{9}S" (memory 0))
+  (export "\u{4ca}" (global 0))
+  (export "\u{4fc}R" (global 0))
+)

@@ -1,0 +1,10 @@
+(module
+  (rec
+    (type (;0;) (array (mut i16)))
+    (type (;1;) (sub (array (mut i8))))
+    (type (;2;) (array (mut i16)))
+  )
+  (table (;0;) i64 2248 (ref null 0))
+  (memory (;0;) i64 207 100998999152454)
+  (global (;0;) i64 i64.const -7682587502873464244 i64.const 539687846221834380 i64.const 8775089966771837789 i64.const -8409539144486718359 i64.const -6849630508417124144 i64.const 6320488176601985379 i64.const 4632450270307446370 i64.const 7110053029923058994 i64.const -1779438580893410699 i64.const 1136250525763626902 i64.add i64.const 2245207133335124053 i64.mul i64.mul i64.sub i64.mul i64.mul i64.add i64.sub i64.sub i64.sub)
+)

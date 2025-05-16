@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 3347 419834 externref)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "\u{17}" (table 0))
+  (data (;0;) "")
+  (data (;1;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 182 nullexternref ref.null noextern)
+  (memory (;0;) i64 1)
+  (global (;0;) i32 i32.const -872284690)
+  (data (;0;) "\04")
+  (data (;1;) (i64.const 14500) "\cd\b49\a6")
+)

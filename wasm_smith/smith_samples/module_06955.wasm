@@ -1,0 +1,12 @@
+(module
+  (import "\u{9}" "" (table (;0;) 1634 i31ref))
+  (import "" "" (global (;0;) i32))
+  (export "0" (table 0))
+  (export "2" (table 0))
+  (export "" (table 0))
+  (export "]\u{a}V" (global 0))
+  (elem (;0;) (table 0) (global.get 0) i31ref (ref.null none))
+  (elem (;1;) (table 0) (global.get 0) i31ref (ref.null i31) (ref.null i31) (ref.null i31) (ref.null i31))
+  (elem (;2;) (table 0) (global.get 0) i31ref (ref.null none) (ref.null none) (ref.null i31) (ref.null none) (ref.null none))
+  (data (;0;) "")
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 0 914205 externref)
+  (elem (;0;) eqref)
+)

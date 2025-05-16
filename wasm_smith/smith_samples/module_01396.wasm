@@ -1,0 +1,7 @@
+(module
+  (import "\u{6}h" "" (table (;0;) i64 34 nullref))
+  (export "" (table 0))
+  (export "W" (table 0))
+  (data (;0;) "4")
+  (data (;1;) "\08")
+)

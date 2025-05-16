@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) i64 321 133536191531337 shared))
+  (table (;0;) i64 0 i31ref ref.null i31)
+  (export "\u{9}I" (table 0))
+  (export "" (memory 0))
+  (export "\u{9}" (memory 0))
+  (elem (;0;) externref (ref.null noextern))
+)

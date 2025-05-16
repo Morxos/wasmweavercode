@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 5)
+  (global (;0;) (mut f32) f32.const -0x1.11fd2ep-32 (;=-0.00000000024919153;))
+  (export "" (memory 0))
+  (data (;0;) "\91")
+)

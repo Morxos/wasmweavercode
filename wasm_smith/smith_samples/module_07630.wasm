@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 0 451946 eqref)
+  (global (;0;) exnref ref.null exn)
+  (export "" (global 0))
+)

@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 4186 eqref ref.null array)
+  (memory (;0;) i64 48)
+  (export "\u{1f8}" (table 0))
+  (export "\u{22}Q@" (table 0))
+  (export "" (memory 0))
+  (data (;0;) "\d7\1b")
+  (data (;1;) (i64.const 25623) "(\d3")
+  (data (;2;) (i64.const 271706) "\17")
+  (data (;3;) (i64.const 0) "\a09")
+)

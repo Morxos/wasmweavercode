@@ -1,0 +1,13 @@
+(module
+  (table (;0;) i64 4180 285058 i31ref ref.null i31)
+  (global (;0;) f32 f32.const -0x1.8cb996p+26 (;=-103999064;))
+  (export "q!\u{12}?" (table 0))
+  (export "\u{a}" (table 0))
+  (export "" (global 0))
+  (export ">O" (global 0))
+  (export "4" (global 0))
+  (export "5" (table 0))
+  (export "Z\u{5c}I" (table 0))
+  (data (;0;) "\ff5")
+  (data (;1;) "(")
+)

@@ -1,0 +1,9 @@
+(module
+  (import ";&V" "" (table (;0;) i64 6052 675470 structref))
+  (import "\u{17}S\u{0}}~" "" (memory (;0;) 0))
+  (import "" "" (global (;0;) f64))
+  (import "X" "" (global (;1;) (mut f32)))
+  (export "" (table 0))
+  (elem (;0;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+  (elem (;1;) arrayref)
+)

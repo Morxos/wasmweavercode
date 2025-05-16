@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 661 anyref)
+  (memory (;0;) 557 15029)
+  (export "6\u{7f}" (table 0))
+  (data (;0;) "")
+  (data (;1;) (i32.const 33608038) "")
+  (data (;2;) "")
+)

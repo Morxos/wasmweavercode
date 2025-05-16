@@ -1,0 +1,13 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (import "ge" "" (memory (;0;) i64 3557 198580124520790))
+  (table (;0;) 563 420967 i31ref)
+  (global (;1;) (mut f32) global.get 0)
+  (export "wp=p" (memory 0))
+  (export "|WK\u{1f}\u{8}3{" (global 1))
+  (elem (;0;) eqref)
+  (elem (;1;) (table 0) (i32.const 7) i31ref (ref.null none) (ref.null none))
+  (elem (;2;) declare anyref (ref.null none))
+  (data (;0;) (i64.const 460) "")
+  (data (;1;) "[")
+)

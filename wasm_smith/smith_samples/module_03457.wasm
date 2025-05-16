@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 493 exnref)
+  (export "\u{1a}" (table 0))
+  (export "H" (table 0))
+)

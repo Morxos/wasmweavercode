@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) i64 0 432873 funcref))
+  (import "3\u{7f}\u{30f}" "" (global (;0;) (mut i64)))
+  (import "iJ@" "" (global (;1;) i32))
+  (export "" (table 0))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
+)

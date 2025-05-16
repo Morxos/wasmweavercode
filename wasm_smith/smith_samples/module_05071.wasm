@@ -1,0 +1,8 @@
+(module
+  (table (;0;) 4983 arrayref)
+  (global (;0;) (mut exnref) ref.null exn)
+  (global (;1;) (mut f32) f32.const -0x1.c443a8p-88 (;=-0.0000000000000000000000000057083778;))
+  (global (;2;) f32 f32.const -0x1.aa168p+19 (;=-872628;))
+  (data (;0;) "%")
+  (data (;1;) "m")
+)

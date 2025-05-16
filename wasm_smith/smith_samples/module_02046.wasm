@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (global (;1;) nullref))
+  (import "" "" (global (;2;) f32))
+  (global (;3;) exnref ref.null exn)
+  (export "*" (global 1))
+  (elem (;0;) eqref)
+  (data (;0;) "")
+)

@@ -1,0 +1,5 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "-c" "" (memory (;0;) i64 0))
+  (elem (;0;) externref)
+)

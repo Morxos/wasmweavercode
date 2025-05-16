@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 7 288150 arrayref)
+  (memory (;0;) i64 9 17067840487328 shared)
+  (export "[\u{15}\u{5c}" (memory 0))
+  (export "" (memory 0))
+  (elem (;0;) nullref)
+  (elem (;1;) (table 0) (i64.const 0) arrayref)
+  (data (;0;) (i64.const 213) "\1f")
+)

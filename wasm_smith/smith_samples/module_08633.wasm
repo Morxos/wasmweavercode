@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 0 729315 funcref ref.null nofunc)
+  (global (;0;) (mut i64) i64.const -2980721411220886819)
+  (elem (;0;) declare structref (ref.null struct) (ref.null struct))
+  (elem (;1;) i31ref (ref.null none) (ref.null none) (ref.null i31))
+  (elem (;2;) nullref (ref.null none))
+  (elem (;3;) i31ref (ref.null none) (ref.null i31))
+  (data (;0;) "")
+)

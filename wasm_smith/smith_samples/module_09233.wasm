@@ -1,0 +1,4 @@
+(module
+  (import "" "" (memory (;0;) 640 24092))
+  (table (;0;) 5435 910819 anyref)
+)

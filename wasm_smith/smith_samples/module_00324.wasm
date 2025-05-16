@@ -1,0 +1,11 @@
+(module
+  (table (;0;) 0 anyref ref.null any)
+  (export "G" (table 0))
+  (export "e" (table 0))
+  (elem (;0;) declare i31ref (ref.null i31))
+  (elem (;1;) declare nullfuncref)
+  (data (;0;) "\ca\c6")
+  (data (;1;) "G\81je\d3\14\aa\13A")
+  (data (;2;) "\0e")
+  (data (;3;) "\06J\cf")
+)

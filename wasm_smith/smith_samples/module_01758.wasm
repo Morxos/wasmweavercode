@@ -1,0 +1,13 @@
+(module
+  (import ")" "" (memory (;0;) i64 55 120201761298251))
+  (import "<" "" (table (;0;) i64 276 nullexternref))
+  (import "" "" (global (;0;) i32))
+  (import "" "" (global (;1;) arrayref))
+  (import "\u{0}e\u{4}\u{1e}=zxg\u{c}" "" (global (;2;) (mut i32)))
+  (import "/'\u{666}zab" "" (global (;3;) (mut i64)))
+  (import "\u{15}Or&\u{7dd}\u{17}G" "" (global (;4;) (mut nullexternref)))
+  (data (;0;) (i64.const 1) "\7fM\fd")
+  (data (;1;) (i64.const 1) "")
+  (data (;2;) "\7f8\d3")
+  (data (;3;) "\c0\f9")
+)

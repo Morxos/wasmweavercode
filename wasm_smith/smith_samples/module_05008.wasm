@@ -1,0 +1,7 @@
+(module
+  (import "y" "" (memory (;0;) 26 35427 shared))
+  (import "\u{12}" "" (table (;0;) 7 367276 nullref))
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (global (;1;) f32 f32.const -0x1.91e57ap+44 (;=-27618110000000;))
+  (global (;2;) f32 f32.const -0x1.38d2aep-17 (;=-0.000009322851;))
+)

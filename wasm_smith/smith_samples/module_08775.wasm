@@ -1,0 +1,11 @@
+(module
+  (import "W\u{7}" "" (memory (;0;) i64 684))
+  (import "V" "" (global (;0;) structref))
+  (table (;0;) 276 146836 anyref global.get 0)
+  (global (;1;) f64 f64.const -0x1.d1ee78d4c665dp-67 (;=-0.000000000000000000012333104941326265;))
+  (data (;0;) (i64.const 245376) "")
+  (data (;1;) "\a1\e0\17")
+  (data (;2;) "")
+  (data (;3;) (i64.const 883625) "u\b1")
+  (data (;4;) (i64.const 19439252) "\bf")
+)

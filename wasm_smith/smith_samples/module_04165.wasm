@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "r" "" (global (;1;) f64))
+  (table (;0;) 1 402652 nullexternref ref.null noextern)
+  (global (;2;) (mut nullfuncref) ref.null nofunc)
+  (export "\u{d}" (global 2))
+  (export "" (table 0))
+  (export "\u{3}&Z" (global 2))
+  (elem (;0;) declare nullfuncref (ref.null nofunc))
+  (elem (;1;) declare nullfuncref (ref.null nofunc))
+  (elem (;2;) nullref (ref.null none) (ref.null none))
+)

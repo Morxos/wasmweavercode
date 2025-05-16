@@ -1,0 +1,10 @@
+(module
+  (import "\u{10}k-\u{7f}~" "" (table (;0;) i64 1 335857 nullref))
+  (import "\u{3}V" "" (global (;0;) i32))
+  (export "\u{11}\u{19}@" (table 0))
+  (export "8r" (table 0))
+  (elem (;0;) declare i31ref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

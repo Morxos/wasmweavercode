@@ -1,0 +1,9 @@
+(module
+  (import "" "" (table (;0;) 438 270826 arrayref))
+  (global (;0;) i64 i64.const -2863700041900653669)
+  (global (;1;) i64 i64.const -3391782357906067745)
+  (export "j" (table 0))
+  (export "" (table 0))
+  (elem (;0;) arrayref (ref.null array))
+  (elem (;1;) declare structref)
+)

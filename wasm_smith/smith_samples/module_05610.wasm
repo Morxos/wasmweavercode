@@ -1,0 +1,5 @@
+(module
+  (import "\u{3}" "" (table (;0;) i64 6354 844851 nullexternref))
+  (export "" (table 0))
+  (data (;0;) "")
+)

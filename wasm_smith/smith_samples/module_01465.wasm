@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 0))
+  (table (;0;) 8528 549327 nullfuncref ref.null nofunc)
+  (export "t" (table 0))
+  (export "" (memory 0))
+  (export "." (memory 0))
+  (export "3" (table 0))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) arrayref (ref.null array) (ref.null none))
+  (data (;0;) "\81\1c")
+)

@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 12 23915)
+  (export "" (memory 0))
+  (export "\u{13}" (memory 0))
+  (data (;0;) ":\8b\96")
+  (data (;1;) (i32.const 694511) "")
+)

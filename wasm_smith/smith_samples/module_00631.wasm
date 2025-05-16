@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 1 266767 nullexternref ref.null noextern)
+  (export "e" (table 0))
+  (export "u" (table 0))
+  (elem (;0;) nullfuncref (ref.null nofunc))
+  (data (;0;) "\d3")
+)

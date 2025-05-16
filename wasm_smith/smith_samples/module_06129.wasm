@@ -1,0 +1,10 @@
+(module
+  (import "B" "" (global (;0;) i64))
+  (table (;0;) 1233 nullexternref ref.null noextern)
+  (memory (;0;) 846 24169)
+  (data (;0;) (i32.const 857067) "")
+  (data (;1;) "\b1\85")
+  (data (;2;) (i32.const 1004838) "")
+  (data (;3;) (i32.const 71) "")
+  (data (;4;) "")
+)

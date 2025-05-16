@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) 37 17922))
+  (global (;0;) (mut i64) i64.const 6957912017201033891 i64.const -4008787706134256686 i64.const -2567033309352058146 i64.const -7026527491620892760 i64.const 4453199333086495155 i64.const 2856686883096252662 i64.const -5095066179417664205 i64.const 9132929208541256153 i64.mul i64.add i64.const -7802675838582095210 i64.add i64.add i64.sub i64.const 8756266832908509586 i64.add i64.sub i64.add i64.mul)
+  (elem (;0;) declare externref (ref.null extern))
+  (data (;0;) (i32.const 105861) "V+\a3")
+  (data (;1;) "\b6>")
+)

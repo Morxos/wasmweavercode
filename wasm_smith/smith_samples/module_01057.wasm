@@ -1,0 +1,11 @@
+(module
+  (global (;0;) arrayref ref.null none)
+  (global (;1;) (mut f32) f32.const -0x1.e89d96p-73 (;=-0.00000000000000000000020208666;))
+  (elem (;0;) declare funcref)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+  (data (;3;) "\a8\b8")
+  (data (;4;) "")
+  (data (;5;) "l")
+)

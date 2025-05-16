@@ -1,0 +1,10 @@
+(module
+  (import "0" "" (table (;0;) 2006 eqref))
+  (import "|_" "" (memory (;0;) i64 62))
+  (import "\u{0}<" "" (global (;0;) (mut f32)))
+  (import "-" "" (global (;1;) i31ref))
+  (global (;2;) (mut f32) f32.const 0x1.121e42p+89 (;=662777100000000000000000000;))
+  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+  (elem (;1;) (table 0) (i32.const 110) nullref)
+  (elem (;2;) nullref)
+)

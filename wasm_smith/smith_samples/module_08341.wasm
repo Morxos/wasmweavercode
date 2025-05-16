@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 1 arrayref))
+  (import "" "" (memory (;0;) i64 17 191909897970397 shared))
+  (global (;0;) i32 i32.const -102043569)
+  (export "@RS\u{1c}:" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) ">")
+)

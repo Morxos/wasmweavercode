@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 nullfuncref)
+  (global (;0;) (mut f32) f32.const 0x1.d3382p-108 (;=0.000000000000000000000000000000005623947;))
+  (global (;1;) (mut f32) f32.const 0x1.75271ep+73 (;=13766908000000000000000;))
+  (export "" (table 0))
+  (data (;0;) "")
+)

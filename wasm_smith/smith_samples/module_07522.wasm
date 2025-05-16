@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 2625 17270914286979)
+  (global (;0;) i64 i64.const -6479688639592593574)
+  (global (;1;) (mut i64) i64.const 7937736587439350475)
+  (export "E" (memory 0))
+  (data (;0;) (i64.const 229523) "")
+  (data (;1;) (i64.const 147) "\8fW\5c\15\18")
+)

@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 46 258172296977295 shared)
+  (data (;0;) (i64.const 301476) "n^X")
+  (data (;1;) "\dd")
+  (data (;2;) "h\c8#\95\84")
+)

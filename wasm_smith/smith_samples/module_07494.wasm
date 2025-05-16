@@ -1,0 +1,9 @@
+(module
+  (memory (;0;) 0 55550)
+  (export "i" (memory 0))
+  (export "\u{d}" (memory 0))
+  (export "" (memory 0))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "")
+)

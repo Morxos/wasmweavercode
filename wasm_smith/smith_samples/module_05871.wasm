@@ -1,0 +1,4 @@
+(module
+  (import "\u{16}" "" (memory (;0;) 9796))
+  (table (;0;) i64 10 nullref ref.null none)
+)

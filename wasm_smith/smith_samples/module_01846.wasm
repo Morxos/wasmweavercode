@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 263 728286 structref)
+  (global (;0;) i32 i32.const -1625306776)
+  (elem (;0;) declare anyref)
+  (elem (;1;) declare i31ref)
+  (data (;0;) "\14\9a\05")
+  (data (;1;) "i\ef")
+)

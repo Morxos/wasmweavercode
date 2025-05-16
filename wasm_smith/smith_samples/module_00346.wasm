@@ -1,0 +1,11 @@
+(module
+  (import "\u{1c}" "" (global (;0;) (mut i32)))
+  (import "" "" (global (;1;) i64))
+  (import "?" "" (memory (;0;) 0))
+  (import "\u{0}" "" (table (;0;) i64 125 902817 externref))
+  (import "\u{d}" "" (global (;2;) i32))
+  (import "" "" (global (;3;) funcref))
+  (import "" "" (global (;4;) (mut nullfuncref)))
+  (global (;5;) (mut f32) f32.const -0x1.83072cp+62 (;=-6972077000000000000;))
+  (global (;6;) i64 i64.const -1118905711813988976)
+)

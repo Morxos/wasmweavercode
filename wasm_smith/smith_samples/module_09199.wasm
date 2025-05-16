@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) i32))
+  (import "\u{12}" "" (table (;0;) i64 0 43023 structref))
+  (global (;1;) (mut i64) i64.const 7740237974227740809)
+  (export "" (global 0))
+  (export "1" (table 0))
+  (export "8\u{1}@" (global 0))
+  (elem (;0;) nullexternref)
+  (data (;0;) "")
+  (data (;1;) "\94")
+)

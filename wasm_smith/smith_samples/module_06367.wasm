@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut f32)))
+  (import "F" "" (memory (;0;) 5))
+  (table (;0;) i64 4782 anyref ref.null any)
+  (export "\u{1}" (global 0))
+  (data (;0;) "\f5")
+)

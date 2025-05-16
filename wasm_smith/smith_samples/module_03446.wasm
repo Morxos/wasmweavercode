@@ -1,0 +1,13 @@
+(module
+  (import "" "" (memory (;0;) i64 2))
+  (import "" "" (global (;0;) structref))
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (export "2" (memory 0))
+  (export "3" (memory 0))
+  (elem (;0;) nullexternref (ref.null noextern))
+  (elem (;1;) nullexternref)
+  (data (;0;) "\c9")
+  (data (;1;) "")
+  (data (;2;) "")
+)

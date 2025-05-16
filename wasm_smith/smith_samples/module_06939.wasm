@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) f32))
+  (global (;1;) arrayref ref.null array)
+  (export "" (global 0))
+  (data (;0;) "{r")
+  (data (;1;) "")
+)

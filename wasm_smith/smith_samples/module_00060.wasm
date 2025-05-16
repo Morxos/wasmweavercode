@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 6963 funcref)
+  (export "w\u{560}" (table 0))
+  (export "\u{8}" (table 0))
+)

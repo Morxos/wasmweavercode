@@ -1,0 +1,11 @@
+(module
+  (import "" "" (global (;0;) (mut externref)))
+  (memory (;0;) i64 5335 40238647349141)
+  (global (;1;) i64 i64.const -825195101309617575 i64.const 1151588866341436392 i64.const 6219367211802397968 i64.const -4197310167175296132 i64.mul i64.mul i64.add)
+  (export "K3" (global 1))
+  (export "" (memory 0))
+  (export "2" (global 0))
+  (export "DaX\u{11}" (memory 0))
+  (export "\u{1c}" (global 0))
+  (data (;0;) (global.get 1) "]")
+)

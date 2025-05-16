@@ -1,0 +1,11 @@
+(module
+  (import "D\u{1c6}2" "" (memory (;0;) 1 21198))
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "Z3" (memory 0))
+  (elem (;0;) externref)
+  (data (;0;) "\c1Z\be\d7eB")
+  (data (;1;) "E")
+  (data (;2;) "@")
+  (data (;3;) "\beX\e6\9a")
+)

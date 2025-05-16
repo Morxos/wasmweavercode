@@ -1,0 +1,4 @@
+(module
+  (memory (;0;) 2 15817)
+  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none))
+)

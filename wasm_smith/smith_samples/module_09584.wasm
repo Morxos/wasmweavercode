@@ -1,0 +1,4 @@
+(module
+  (elem (;0;) declare i31ref)
+  (elem (;1;) declare anyref)
+)

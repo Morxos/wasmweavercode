@@ -1,0 +1,11 @@
+(module
+  (import "" "" (table (;0;) i64 25 nullfuncref))
+  (import "" "" (global (;0;) f64))
+  (import "" "" (global (;1;) (mut f32)))
+  (memory (;0;) 5442)
+  (global (;2;) externref ref.null noextern)
+  (export "\u{18}" (global 2))
+  (export "" (table 0))
+  (elem (;0;) (table 0) (i64.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "\f0\d2\de")
+)

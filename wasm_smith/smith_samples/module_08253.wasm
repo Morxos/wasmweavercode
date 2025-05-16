@@ -1,0 +1,9 @@
+(module
+  (import "\u{1}" "" (global (;0;) i32))
+  (import "\u{13}" "" (memory (;0;) i64 0 207471053419884))
+  (table (;0;) i64 9180 exnref)
+  (data (;0;) "\ba\aeM\ea")
+  (data (;1;) "\83")
+  (data (;2;) "")
+  (data (;3;) "p")
+)

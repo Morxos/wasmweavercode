@@ -1,0 +1,6 @@
+(module
+  (import "\u{e14b}" "" (global (;0;) (mut f64)))
+  (import "\u{a}" "" (global (;1;) i64))
+  (global (;2;) f32 f32.const 0x1.abc9c2p-71 (;=0.00000000000000000000070771607;))
+  (global (;3;) (mut i64) i64.const 7778149005486092201)
+)

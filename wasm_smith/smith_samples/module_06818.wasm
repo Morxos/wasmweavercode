@@ -1,0 +1,9 @@
+(module
+  (import "5" "" (global (;0;) f64))
+  (import "{" "" (table (;0;) 21 797096 anyref))
+  (memory (;0;) 510 1473)
+  (global (;1;) f64 global.get 0)
+  (global (;2;) f64 global.get 0)
+  (export "h" (memory 0))
+  (export "#?pN" (table 0))
+)

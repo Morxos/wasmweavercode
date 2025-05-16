@@ -1,0 +1,8 @@
+(module
+  (import ";qr\u{88}(RC" "" (global (;0;) (mut i64)))
+  (table (;0;) 265 819507 nullfuncref ref.null nofunc)
+  (memory (;0;) i64 297 167804842936559 shared)
+  (global (;1;) (mut i64) i64.const -870497248118461030 i64.const 3936882011661123049 i64.const 58355229955742491 i64.const -7907404871196713010 i64.const -7259075169481329864 i64.const -7861181115453851041 i64.const -4011871368871393085 i64.const 7697354861204361709 i64.const -7663528392154907222 i64.const 5678040410493791696 i64.add i64.const 3352505000774615728 i64.sub i64.mul i64.add i64.add i64.add i64.add i64.add i64.sub i64.sub)
+  (elem (;0;) declare externref)
+  (elem (;1;) structref)
+)

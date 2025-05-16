@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 7 nullref ref.null none)
+  (memory (;0;) i64 6091)
+)

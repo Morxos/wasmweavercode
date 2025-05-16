@@ -1,0 +1,7 @@
+(module
+  (memory (;0;) 9501 64623 shared)
+  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) declare i31ref (ref.null none) (ref.null none) (ref.null i31))
+  (data (;0;) (i32.const 60518523) "\b1V\c51")
+  (data (;1;) (i32.const 22282427) "")
+)

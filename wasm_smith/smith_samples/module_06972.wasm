@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 1459 15138 shared))
+  (import "" "" (table (;0;) i64 2935 exnref))
+  (import "" "" (global (;0;) externref))
+  (elem (;0;) structref)
+  (data (;0;) "")
+  (data (;1;) (i32.const 165481) "\cd")
+)

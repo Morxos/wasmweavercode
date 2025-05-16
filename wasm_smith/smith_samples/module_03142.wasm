@@ -1,0 +1,5 @@
+(module
+  (global (;0;) i32 i32.const 714400202)
+  (export "$p" (global 0))
+  (elem (;0;) declare arrayref)
+)

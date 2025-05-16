@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 5 i31ref ref.null i31)
+  (global (;0;) (mut i64) i64.const -8736617017606337045)
+  (export "\u{5d5})u" (table 0))
+)

@@ -1,0 +1,4 @@
+(module
+  (table (;0;) i64 14 structref)
+  (elem (;0;) eqref (ref.null eq) (ref.null i31))
+)

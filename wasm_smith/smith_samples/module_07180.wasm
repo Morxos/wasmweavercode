@@ -1,0 +1,10 @@
+(module
+  (import "{1Q" "" (global (;0;) f32))
+  (import "C" "" (table (;0;) 77 45379 nullref))
+  (import "@\u{19} ,c+t" "" (memory (;0;) 5209 44112))
+  (import "l" "" (global (;1;) (mut nullexternref)))
+  (import "^" "" (global (;2;) i32))
+  (global (;3;) i64 i64.const 6955291611785269650)
+  (global (;4;) i64 global.get 3)
+  (elem (;0;) (table 0) (global.get 2) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
+)

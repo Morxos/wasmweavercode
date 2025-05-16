@@ -1,0 +1,6 @@
+(module
+  (import "v" "" (table (;0;) i64 677 exnref))
+  (memory (;0;) 0 18546 shared)
+  (data (;0;) "")
+  (data (;1;) "O")
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 0 449865 exnref ref.null exn)
+  (global (;0;) f64 f64.const -0x1.59c58350fab56p-30 (;=-0.0000000012579095163459402;))
+  (export "\u{63c}" (table 0))
+  (elem (;0;) declare nullexternref)
+  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
+  (data (;0;) "f\18")
+  (data (;1;) "\95")
+)

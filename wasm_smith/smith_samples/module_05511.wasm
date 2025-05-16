@@ -1,0 +1,7 @@
+(module
+  (import "$" "" (table (;0;) i64 527 700130 funcref))
+  (import "" "" (global (;0;) i64))
+  (import "0" "" (global (;1;) f32))
+  (global (;2;) (mut anyref) ref.null i31)
+  (export "`" (table 0))
+)

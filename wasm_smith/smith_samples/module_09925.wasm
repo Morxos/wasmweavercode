@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) i64 1252 115444777687817 shared))
+  (import "" "" (table (;0;) 0 767208 eqref))
+  (global (;0;) (mut i64) i64.const 3053382184106353135)
+  (export "R9,\u{16a}\u{0}\u{0}\u{17};\u{10}k\u{4}" (global 0))
+  (export "" (memory 0))
+  (elem (;0;) exnref)
+  (data (;0;) (i64.const 2437179) "")
+  (data (;1;) (i64.const 77) "\0e6")
+  (data (;2;) (i64.const 1441196) "")
+)

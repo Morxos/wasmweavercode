@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 0 889159 eqref ref.null struct)
+  (global (;0;) (mut i32) i32.const 124026077)
+  (export "" (table 0))
+  (elem (;0;) externref)
+  (data (;0;) "")
+)

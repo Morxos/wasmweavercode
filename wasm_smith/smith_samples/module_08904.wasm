@@ -1,0 +1,10 @@
+(module
+  (import "" "" (table (;0;) 0 nullref))
+  (export "-" (table 0))
+  (export "" (table 0))
+  (elem (;0;) declare func)
+  (elem (;1;) declare nullref)
+  (elem (;2;) declare eqref)
+  (data (;0;) "\ebf")
+  (data (;1;) "")
+)

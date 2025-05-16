@@ -1,0 +1,7 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (table (;0;) i64 0 595670 anyref)
+  (memory (;0;) i64 1 276046702938385)
+  (elem (;0;) declare anyref)
+  (data (;0;) (i64.const 30) "")
+)

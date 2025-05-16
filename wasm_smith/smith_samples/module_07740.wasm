@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) (mut externref)))
+  (memory (;0;) 0)
+  (export "q\u{6}1ci" (memory 0))
+  (export "" (memory 0))
+  (elem (;0;) declare i31ref)
+  (elem (;1;) declare exnref)
+  (elem (;2;) nullref)
+)

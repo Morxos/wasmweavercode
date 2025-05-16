@@ -1,0 +1,5 @@
+(module
+  (global (;0;) structref ref.null none)
+  (global (;1;) i32 i32.const -56948831)
+  (export "" (global 1))
+)

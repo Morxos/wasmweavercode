@@ -1,0 +1,4 @@
+(module
+  (import "N7" "" (table (;0;) i64 3582 696134 arrayref))
+  (data (;0;) "k\1d")
+)

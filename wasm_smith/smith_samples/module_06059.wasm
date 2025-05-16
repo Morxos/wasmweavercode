@@ -1,0 +1,10 @@
+(module
+  (import "" "" (memory (;0;) i64 1 249771098100128))
+  (import "" "" (table (;0;) 8004 exnref))
+  (import "!" "" (global (;0;) (mut i64)))
+  (import "\u{4}\u{1cf}" "" (global (;1;) funcref))
+  (import "" "" (global (;2;) (mut f32)))
+  (import "2\u{14}H" "" (global (;3;) i64))
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 0) exnref (ref.null exn) (ref.null exn) (ref.null exn))
+)

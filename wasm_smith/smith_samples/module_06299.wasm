@@ -1,0 +1,10 @@
+(module
+  (import "J" "" (global (;0;) (mut structref)))
+  (import "" "" (global (;1;) (mut i64)))
+  (import ":" "" (memory (;0;) i64 8341 198649161092212))
+  (import "\u{15}?" "" (global (;2;) eqref))
+  (table (;0;) i64 366 arrayref)
+  (data (;0;) (i64.const 522895236) "")
+  (data (;1;) (i64.const 31689594) "")
+  (data (;2;) (i64.const 43928721) "")
+)

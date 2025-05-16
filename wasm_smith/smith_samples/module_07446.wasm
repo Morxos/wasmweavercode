@@ -1,0 +1,5 @@
+(module
+  (import "K682" "" (table (;0;) 0 574825 externref))
+  (global (;0;) i32 i32.const 1554193886 i32.const 871859480 i32.sub)
+  (data (;0;) "")
+)

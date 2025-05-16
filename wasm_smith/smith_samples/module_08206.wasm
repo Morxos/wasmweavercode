@@ -1,0 +1,8 @@
+(module
+  (global (;0;) (mut i64) i64.const -3853529724378206997 i64.const 7143080879552182064 i64.const 8870692003617856424 i64.const -8668391257526991018 i64.const -3721529740722166617 i64.const -3651225236503589824 i64.const -207744504578252575 i64.mul i64.const -3558681837711436050 i64.sub i64.sub i64.mul i64.add i64.add i64.mul)
+  (global (;1;) i32 i32.const -1300467491)
+  (global (;2;) i64 i64.const -6695435729988823125)
+  (export "" (global 2))
+  (export "1" (global 2))
+  (elem (;0;) i31ref (ref.null none) (ref.null none))
+)

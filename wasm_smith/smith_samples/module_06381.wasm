@@ -1,0 +1,6 @@
+(module
+  (import "U\u{1}`\u{13}2gE'" "" (table (;0;) 69 arrayref))
+  (import "\u{5}k\u{3}" "" (memory (;0;) i64 0 22849712676722))
+  (import "" "" (global (;0;) i32))
+  (elem (;0;) declare arrayref (ref.null array))
+)

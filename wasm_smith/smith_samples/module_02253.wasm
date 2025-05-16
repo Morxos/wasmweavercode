@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 172 nullexternref ref.null noextern)
+  (memory (;0;) 2 59756 shared)
+  (data (;0;) (i32.const 0) "\033")
+  (data (;1;) "tW\df\85\0a")
+)

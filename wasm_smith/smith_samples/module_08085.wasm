@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) 4775 37254)
+  (global (;0;) eqref ref.null struct)
+  (global (;1;) i64 i64.const -8162437989005363632 i64.const -7652369892009665973 i64.const -422590536716943437 i64.const -7094703737550484238 i64.const 5631725102139043715 i64.const 8338321123777356158 i64.const 2574146583781187973 i64.const 6923397926634317569 i64.const -3084369490341453855 i64.sub i64.const 6133406573817475360 i64.sub i64.mul i64.sub i64.sub i64.sub i64.sub i64.add i64.mul)
+  (elem (;0;) declare nullfuncref)
+  (elem (;1;) declare anyref (global.get 0))
+  (elem (;2;) declare exnref)
+  (elem (;3;) funcref (ref.null nofunc))
+  (data (;0;) "D\9a\e5")
+)

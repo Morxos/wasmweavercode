@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 3234 externref ref.null noextern)
+  (memory (;0;) 200 46400 shared)
+  (export "f," (memory 0))
+  (export "" (table 0))
+  (export ")" (table 0))
+)

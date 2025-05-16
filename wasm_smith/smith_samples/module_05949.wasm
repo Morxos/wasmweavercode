@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 99 451050 nullexternref ref.null noextern)
+  (memory (;0;) i64 1295 152761128863675)
+)

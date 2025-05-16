@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 21 238106443321780 shared))
+  (import "~" "" (global (;0;) (mut f32)))
+  (global (;1;) (mut i64) i64.const -7354480518790392399 i64.const -8177157858522365187 i64.const 115175887291811217 i64.const 7600698686682635468 i64.const 4814844426529440437 i64.const -3809022546247429024 i64.const 552148920055670503 i64.const -1008884614373135038 i64.sub i64.const 3487906617878097062 i64.const 623516289278157673 i64.mul i64.sub i64.sub i64.add i64.sub i64.add i64.mul i64.mul)
+  (global (;2;) f32 f32.const -0x1.2f3162p-48 (;=-0.0000000000000042076468;))
+  (elem (;0;) declare nullexternref)
+)

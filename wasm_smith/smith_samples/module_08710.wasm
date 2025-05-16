@@ -1,0 +1,4 @@
+(module
+  (import "e$L)" "" (table (;0;) 16 funcref))
+  (memory (;0;) 2582 52904)
+)

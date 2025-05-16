@@ -1,0 +1,3 @@
+(module
+  (import "\u{0}" "" (memory (;0;) i64 1681))
+)

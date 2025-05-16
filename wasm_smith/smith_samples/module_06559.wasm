@@ -1,0 +1,12 @@
+(module
+  (import "}r" "" (global (;0;) f32))
+  (import "" "" (table (;0;) i64 1269 anyref))
+  (import "" "" (global (;1;) i64))
+  (import "\u{f}FSv" "" (global (;2;) f64))
+  (export "L\u{b}n\u{15}" (global 0))
+  (export "\u{16}" (table 0))
+  (export "\u{12}" (table 0))
+  (export "" (global 1))
+  (elem (;0;) declare funcref (ref.null nofunc))
+  (elem (;1;) declare i31ref)
+)

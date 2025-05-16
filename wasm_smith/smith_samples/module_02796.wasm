@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 3 nullexternref)
+  (global (;0;) (mut f32) f32.const -0x1.d9b2fap-119 (;=-0.0000000000000000000000000000000000027841532;))
+  (global (;1;) i64 i64.const -328340333340566103)
+  (global (;2;) (mut f32) f32.const -0x1.34bb2ep-93 (;=-0.00000000000000000000000000012177298;))
+  (global (;3;) (mut f32) f32.const 0x1.fd3df6p-10 (;=0.0019426042;))
+  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
+)

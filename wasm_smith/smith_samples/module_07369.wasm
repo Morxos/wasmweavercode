@@ -1,0 +1,5 @@
+(module
+  (import "" "" (table (;0;) 6 89926 i31ref))
+  (memory (;0;) i64 35 261554461822257 shared)
+  (elem (;0;) (table 0) (i32.const 0) nullref)
+)

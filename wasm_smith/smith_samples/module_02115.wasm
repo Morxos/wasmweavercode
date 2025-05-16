@@ -1,0 +1,5 @@
+(module
+  (import "N" "" (memory (;0;) i64 5194 191181084060274 shared))
+  (global (;0;) f32 f32.const 0x1.896e1p-37 (;=0.000000000011181951;))
+  (export "O" (global 0))
+)

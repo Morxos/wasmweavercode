@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 1478 exnref ref.null exn)
+  (global (;0;) (mut f32) f32.const 0x1.966284p+38 (;=436352400000;))
+  (elem (;0;) funcref)
+  (data (;0;) "%")
+)

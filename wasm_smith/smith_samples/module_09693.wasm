@@ -1,0 +1,8 @@
+(module
+  (import "" "" (table (;0;) i64 38 anyref))
+  (global (;0;) (mut i64) i64.const 5945891331441735722)
+  (export "" (table 0))
+  (export "6" (global 0))
+  (elem (;0;) (table 0) (i64.const 0) structref)
+  (data (;0;) "k\05@")
+)

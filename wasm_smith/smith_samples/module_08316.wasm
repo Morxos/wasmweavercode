@@ -1,0 +1,7 @@
+(module
+  (import "!" "" (global (;0;) (mut f32)))
+  (memory (;0;) 440 65473 shared)
+  (export "\u{15}u@" (global 0))
+  (elem (;0;) declare structref)
+  (data (;0;) (i32.const 0) "")
+)

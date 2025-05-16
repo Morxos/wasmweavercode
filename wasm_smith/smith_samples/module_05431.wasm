@@ -1,0 +1,7 @@
+(module
+  (import "J\u{ed}" "" (memory (;0;) 868))
+  (export "_" (memory 0))
+  (elem (;0;) declare func)
+  (elem (;1;) nullref (ref.null none))
+  (data (;0;) (i32.const 15934610) "")
+)

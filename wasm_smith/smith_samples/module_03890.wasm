@@ -1,0 +1,5 @@
+(module
+  (memory (;0;) 7367 37906 shared)
+  (elem (;0;) declare eqref)
+  (elem (;1;) nullref (ref.null none))
+)

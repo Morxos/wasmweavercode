@@ -1,0 +1,10 @@
+(module
+  (table (;0;) i64 254 eqref)
+  (global (;0;) (mut f32) f32.const 0x1.e716f8p+49 (;=1071121600000000;))
+  (global (;1;) (mut f32) f32.const -0x1.84db2p-61 (;=-0.0000000000000000006587476;))
+  (global (;2;) (mut f32) f32.const 0x1.a1efe2p-77 (;=0.000000000000000000000010803419;))
+  (global (;3;) f32 f32.const 0x1.40bb4ep-102 (;=0.00000000000000000000000000000024708268;))
+  (global (;4;) (mut structref) ref.null none)
+  (elem (;0;) declare structref (ref.null none) (ref.null struct) (ref.null struct))
+  (elem (;1;) nullexternref (ref.null noextern))
+)

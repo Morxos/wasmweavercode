@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 10928 19144 shared))
+  (import "\u{1d}'" "" (global (;0;) f32))
+  (import "!" "" (table (;0;) i64 40 nullexternref))
+  (export "" (global 0))
+  (export "1" (memory 0))
+  (export "\u{7}]" (table 0))
+)

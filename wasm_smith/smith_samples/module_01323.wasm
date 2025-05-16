@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 0 759958 nullref ref.null none)
+  (elem (;0;) declare structref)
+  (elem (;1;) eqref (ref.null i31) (ref.null array))
+)

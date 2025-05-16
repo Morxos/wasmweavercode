@@ -1,0 +1,10 @@
+(module
+  (global (;0;) (mut i64) i64.const 2265773994431565294)
+  (global (;1;) (mut arrayref) ref.null array)
+  (export "" (global 1))
+  (elem (;0;) i31ref (ref.null none))
+  (data (;0;) "N\80\8f")
+  (data (;1;) "u")
+  (data (;2;) "")
+  (data (;3;) "\df")
+)

@@ -1,0 +1,5 @@
+(module
+  (table (;0;) 245 636844 i31ref)
+  (memory (;0;) i64 2)
+  (elem (;0;) nullexternref (ref.null noextern))
+)

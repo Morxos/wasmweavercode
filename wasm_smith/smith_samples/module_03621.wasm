@@ -1,0 +1,9 @@
+(module
+  (import "q" "" (memory (;0;) i64 5777 95736562427945 shared))
+  (import "\u{10}" "" (global (;0;) f64))
+  (table (;0;) 1928 25278 nullfuncref ref.null nofunc)
+  (export "h\u{16}m" (table 0))
+  (export "" (table 0))
+  (data (;0;) (i64.const 121880454) "\e5")
+  (data (;1;) "]'[")
+)

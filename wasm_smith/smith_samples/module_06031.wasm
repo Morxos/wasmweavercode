@@ -1,0 +1,7 @@
+(module
+  (import "\u{159}" "" (table (;0;) 0 147125 nullexternref))
+  (import "}9" "" (memory (;0;) 0 55797))
+  (import "" "" (global (;0;) i32))
+  (elem (;0;) declare structref)
+  (data (;0;) "\82")
+)

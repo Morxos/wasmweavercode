@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 1320 exnref ref.null exn)
+  (elem (;0;) arrayref (ref.null array))
+  (data (;0;) "")
+  (data (;1;) "")
+)

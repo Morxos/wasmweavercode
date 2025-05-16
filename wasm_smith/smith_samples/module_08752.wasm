@@ -1,0 +1,7 @@
+(module
+  (import "" "" (memory (;0;) i64 8))
+  (table (;0;) 634 arrayref ref.null none)
+  (export "" (table 0))
+  (export "1" (table 0))
+  (export "2" (memory 0))
+)

@@ -1,0 +1,7 @@
+(module
+  (import "+y" "" (global (;0;) (mut f32)))
+  (memory (;0;) i64 0 2243155472445 shared)
+  (global (;1;) (mut i32) i32.const -496832370)
+  (data (;0;) "\0e")
+  (data (;1;) "")
+)

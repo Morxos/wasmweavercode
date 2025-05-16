@@ -1,0 +1,9 @@
+(module
+  (import "" "" (global (;0;) f64))
+  (import "" "" (global (;1;) (mut i32)))
+  (import "[" "" (global (;2;) (mut f32)))
+  (global (;3;) i31ref ref.null i31)
+  (global (;4;) (mut anyref) ref.null struct)
+  (export "" (global 4))
+  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+)

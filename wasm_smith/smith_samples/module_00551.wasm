@@ -1,0 +1,4 @@
+(module
+  (import "" "" (table (;0;) i64 468 319102 eqref))
+  (elem (;0;) (table 0) (i64.const 0) arrayref (ref.null array))
+)

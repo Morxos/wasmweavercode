@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 1946 70757 anyref ref.null struct)
+  (export "\u{1d}6a\u{2db}q\u{2}>%" (table 0))
+  (data (;0;) "=o")
+  (data (;1;) "")
+)

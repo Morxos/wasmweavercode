@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 3864 nullref ref.null none)
+  (memory (;0;) 0)
+  (data (;0;) "y)")
+  (data (;1;) "+\d4\bax\b9")
+)

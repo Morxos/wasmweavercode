@@ -1,0 +1,4 @@
+(module
+  (import "W" "" (table (;0;) 0 nullfuncref))
+  (memory (;0;) 5524 51756)
+)

@@ -1,0 +1,7 @@
+(module
+  (import "\u{1f}d" "" (table (;0;) 0 476026 arrayref))
+  (export "" (table 0))
+  (data (;0;) "\99")
+  (data (;1;) "Y\d4")
+  (data (;2;) "")
+)

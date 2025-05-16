@@ -1,0 +1,4 @@
+(module
+  (import "\u{d}" "" (table (;0;) 619 779128 externref))
+  (import "v}" "" (memory (;0;) 111))
+)

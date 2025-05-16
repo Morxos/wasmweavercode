@@ -1,0 +1,12 @@
+(module
+  (import "4\u{68a}" "" (memory (;0;) i64 779))
+  (import "" "" (global (;0;) eqref))
+  (export "R>" (memory 0))
+  (elem (;0;) i31ref (ref.null none) (ref.null none))
+  (elem (;1;) i31ref)
+  (elem (;2;) nullref (ref.null none) (ref.null none) (ref.null none))
+  (elem (;3;) nullfuncref (ref.null nofunc))
+  (elem (;4;) declare eqref)
+  (elem (;5;) i31ref (ref.null none))
+  (data (;0;) "\c4/\e9\22")
+)

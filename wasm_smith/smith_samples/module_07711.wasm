@@ -1,0 +1,13 @@
+(module
+  (import "" "" (table (;0;) i64 4684 externref))
+  (memory (;0;) i64 14 261020717566018)
+  (global (;0;) (mut f32) f32.const 0x1.682c12p+3 (;=11.25538;))
+  (global (;1;) (mut f64) f64.const 0x1.83f37cc08f92dp+197 (;=304401082892941900000000000000000000000000000000000000000000;))
+  (global (;2;) (mut f32) f32.const -0x1.4970a8p+23 (;=-10795092;))
+  (global (;3;) i32 i32.const -2001082314)
+  (export "" (memory 0))
+  (export "1" (memory 0))
+  (export "2" (table 0))
+  (elem (;0;) declare anyref (ref.null i31))
+  (elem (;1;) externref (ref.null extern))
+)

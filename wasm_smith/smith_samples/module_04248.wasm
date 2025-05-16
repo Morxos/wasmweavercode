@@ -1,0 +1,8 @@
+(module
+  (memory (;0;) i64 5327 67521043293071)
+  (global (;0;) eqref ref.null i31)
+  (elem (;0;) declare func)
+  (elem (;1;) nullref (ref.null none))
+  (elem (;2;) func)
+  (data (;0;) "")
+)

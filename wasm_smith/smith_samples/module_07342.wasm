@@ -1,0 +1,6 @@
+(module
+  (import "f" "" (memory (;0;) 6 54696 shared))
+  (table (;0;) 5894 funcref ref.null func)
+  (export "" (memory 0))
+  (data (;0;) (i32.const 0) "\a3\82\1a\12\be")
+)

@@ -1,0 +1,12 @@
+(module
+  (import "" "" (global (;0;) (mut f64)))
+  (import "" "" (memory (;0;) 149 2797))
+  (table (;0;) i64 1420 861379 nullfuncref ref.null nofunc)
+  (global (;1;) f64 f64.const -0x1.846b549ad0568p+868 (;=-2986049668043789000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (export "" (memory 0))
+  (elem (;0;) declare nullref (ref.null none))
+  (elem (;1;) declare eqref)
+  (elem (;2;) arrayref (ref.null array) (ref.null array) (ref.null array))
+  (elem (;3;) declare arrayref)
+  (data (;0;) "")
+)

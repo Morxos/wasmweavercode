@@ -1,0 +1,9 @@
+(module
+  (global (;0;) structref ref.null struct)
+  (global (;1;) (mut i32) i32.const 2066650476)
+  (global (;2;) (mut structref) global.get 0)
+  (elem (;0;) structref (global.get 0) (global.get 0))
+  (elem (;1;) declare exnref)
+  (data (;0;) "\cc<")
+  (data (;1;) "")
+)

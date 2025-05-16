@@ -1,0 +1,4 @@
+(module
+  (table (;0;) 3844 nullexternref)
+  (global (;0;) (mut f32) f32.const 0x1.55709p+7 (;=170.71985;))
+)

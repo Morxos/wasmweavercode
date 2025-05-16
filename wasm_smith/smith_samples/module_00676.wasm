@@ -1,0 +1,12 @@
+(module
+  (import "" "" (table (;0;) i64 38 exnref))
+  (memory (;0;) 0)
+  (export ";T" (memory 0))
+  (export "\u{52b}" (memory 0))
+  (export "" (table 0))
+  (elem (;0;) arrayref)
+  (elem (;1;) structref)
+  (elem (;2;) nullexternref)
+  (elem (;3;) (table 0) (i64.const 2) exnref)
+  (elem (;4;) (table 0) (i64.const 0) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
+)

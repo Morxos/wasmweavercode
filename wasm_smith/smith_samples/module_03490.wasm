@@ -1,0 +1,9 @@
+(module
+  (import "" "" (memory (;0;) 2643 5280))
+  (import "" "" (global (;0;) f32))
+  (import "\u{f}W" "" (table (;0;) i64 464 166825 externref))
+  (import "J" "" (global (;1;) (mut nullexternref)))
+  (global (;2;) i32 i32.const -1095460256 i32.const 1893483769 i32.const 1616702741 i32.const -99611278 i32.const 613306393 i32.const 1122699380 i32.const 1958149758 i32.const 2038634850 i32.const -2124453562 i32.const 426999820 i32.const 1516237107 i32.const -79773603 i32.add i32.add i32.add i32.mul i32.add i32.mul i32.sub i32.mul i32.sub i32.add i32.mul)
+  (elem (;0;) declare structref (ref.null struct))
+  (data (;0;) "\c6")
+)

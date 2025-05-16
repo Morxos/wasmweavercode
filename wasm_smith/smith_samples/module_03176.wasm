@@ -1,0 +1,12 @@
+(module
+  (import "\u{2af}" "" (memory (;0;) i64 1 50243650890287 shared))
+  (import "" "" (table (;0;) i64 732 781997 arrayref))
+  (import "j" "" (global (;0;) (mut i32)))
+  (global (;1;) (mut f32) f32.const 0x1.e55d74p+28 (;=508942140;))
+  (export "\u{8}" (global 0))
+  (export "n" (memory 0))
+  (export "" (global 1))
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) "I")
+)

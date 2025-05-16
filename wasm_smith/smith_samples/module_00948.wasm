@@ -1,0 +1,7 @@
+(module
+  (import ":x\u{1}" "" (table (;0;) 26 exnref))
+  (memory (;0;) i64 260)
+  (global (;0;) (mut nullfuncref) ref.null nofunc)
+  (export "" (table 0))
+  (elem (;0;) declare externref (ref.null noextern) (ref.null extern) (ref.null extern) (ref.null noextern))
+)

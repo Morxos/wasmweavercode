@@ -1,0 +1,5 @@
+(module
+  (import "" "" (memory (;0;) 1484 28821 shared))
+  (import "ms" "" (table (;0;) 0 363832 externref))
+  (global (;0;) (mut f64) f64.const 0x1.cfb7a7e55bb3ep+106 (;=146957911898508440000000000000000;))
+)

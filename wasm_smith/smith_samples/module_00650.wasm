@@ -1,0 +1,7 @@
+(module
+  (table (;0;) 1700 512104 arrayref)
+  (elem (;0;) (table 0) (i32.const 244) nullref (ref.null none))
+  (elem (;1;) declare i31ref (ref.null i31) (ref.null i31))
+  (elem (;2;) declare nullref)
+  (elem (;3;) structref)
+)

@@ -1,0 +1,9 @@
+(module
+  (table (;0;) 5682 nullexternref ref.null noextern)
+  (global (;0;) (mut i32) i32.const -1255261751)
+  (global (;1;) f32 f32.const -0x1.841952p-37 (;=-0.000000000011030434;))
+  (global (;2;) (mut i64) i64.const 6545667001689316826)
+  (export "\u{1f}" (table 0))
+  (data (;0;) "")
+  (data (;1;) "\ea")
+)

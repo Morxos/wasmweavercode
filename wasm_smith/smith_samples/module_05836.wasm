@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) i64 146 167398383781341)
+  (global (;0;) (mut structref) ref.null struct)
+  (global (;1;) (mut f32) f32.const 0x1.7ff138p-11 (;=0.00073231175;))
+  (global (;2;) (mut f64) f64.const -0x1.ec4b7eefa67afp+72 (;=-9081238133163316000000;))
+  (data (;0;) (i64.const 3191) "")
+  (data (;1;) "")
+  (data (;2;) "\b9")
+  (data (;3;) (i64.const 4040) "")
+)

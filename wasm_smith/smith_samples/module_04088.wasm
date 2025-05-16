@@ -1,0 +1,11 @@
+(module
+  (import "" "" (memory (;0;) 0 27923 shared))
+  (global (;0;) (mut f64) f64.const -0x1.b623cddd3aa7dp+547 (;=-788461384015769100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
+  (global (;1;) eqref ref.null i31)
+  (elem (;0;) declare eqref (global.get 1) (ref.null eq) (ref.null i31) (ref.null array))
+  (elem (;1;) nullexternref (ref.null noextern))
+  (elem (;2;) declare externref (ref.null noextern) (ref.null extern))
+  (elem (;3;) exnref)
+  (elem (;4;) declare structref (ref.null struct) (ref.null struct) (ref.null struct) (ref.null struct))
+  (data (;0;) "\89\9b")
+)

@@ -1,0 +1,6 @@
+(module
+  (table (;0;) 23 796027 funcref ref.null func)
+  (elem (;0;) (table 0) (i32.const 5) funcref (ref.null func))
+  (elem (;1;) declare externref (ref.null extern))
+  (data (;0;) "")
+)

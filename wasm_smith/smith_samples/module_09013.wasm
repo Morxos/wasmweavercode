@@ -1,0 +1,13 @@
+(module
+  (import "~\u{d}\u{12}K" "" (table (;0;) 7274 exnref))
+  (import "" "" (memory (;0;) 6278))
+  (import "" "" (global (;0;) f64))
+  (global (;1;) (mut i32) i32.const 318803550)
+  (global (;2;) nullexternref ref.null noextern)
+  (data (;0;) (i32.const 173373511) "")
+  (data (;1;) (i32.const 628973) "")
+  (data (;2;) "")
+  (data (;3;) (i32.const 13693192) "\9eW")
+  (data (;4;) "")
+  (data (;5;) "")
+)

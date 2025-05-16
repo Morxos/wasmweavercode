@@ -1,0 +1,8 @@
+(module
+  (import "\u{1f5}\u{42a}" "" (memory (;0;) i64 12543 262793673908717))
+  (table (;0;) i64 119 194379 nullref ref.null none)
+  (global (;0;) (mut nullexternref) ref.null noextern)
+  (export "w\u{3}" (table 0))
+  (export "\u{50e}\u{6}y" (memory 0))
+  (elem (;0;) declare nullfuncref)
+)

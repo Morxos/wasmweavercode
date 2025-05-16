@@ -1,0 +1,12 @@
+(module
+  (table (;0;) i64 22 nullref ref.null none)
+  (memory (;0;) 3 22708 shared)
+  (global (;0;) i64 i64.const 5461089745307593463 i64.const -4052087996737714120 i64.const -7299592953250661704 i64.const 7638719170596955445 i64.const 102787033558579683 i64.const 6899808204564322496 i64.const 3641016440336003618 i64.const 7844681239526510414 i64.mul i64.mul i64.add i64.const -5919976365708865793 i64.add i64.const 8697951276669094662 i64.sub i64.sub i64.mul i64.add i64.sub)
+  (elem (;0;) declare i31ref)
+  (elem (;1;) (table 0) (i64.const 0) nullref)
+  (elem (;2;) declare nullref (ref.null none))
+  (elem (;3;) declare func)
+  (elem (;4;) (table 0) (i64.const 0) nullref (ref.null none))
+  (elem (;5;) anyref)
+  (elem (;6;) (table 0) (global.get 0) nullref (ref.null none) (ref.null none))
+)

@@ -1,0 +1,10 @@
+(module
+  (type (;0;) (sub (struct (field (mut i8)) (field (mut i8)) (field i8) (field (mut i8)) (field i16) (field (mut i8)))))
+  (import "1" "" (table (;0;) i64 555 (ref null 0)))
+  (import "|" "" (memory (;0;) i64 61))
+  (global (;0;) (mut i64) i64.const 8453402964175074129)
+  (global (;1;) f64 f64.const 0x1.09b8ec6950e58p-174 (;=0.00000000000000000000000000000000000000000000000000004334798214182788;))
+  (data (;0;) (i64.const 51) "")
+  (data (;1;) "\cb\e6\bc")
+  (data (;2;) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 798 830093 eqref)
+  (global (;0;) externref ref.null extern)
+  (data (;0;) "")
+  (data (;1;) "/\13\18")
+  (data (;2;) "")
+)

@@ -1,0 +1,8 @@
+(module
+  (import "\u{1e}" "" (memory (;0;) i64 0))
+  (import "" "" (global (;0;) i32))
+  (table (;0;) i64 14 nullfuncref)
+  (global (;1;) (mut arrayref) ref.null array)
+  (global (;2;) i64 i64.const 1238473180893499177 i64.const 4278641829909883898 i64.const 7669389695102265175 i64.const -866530264804960509 i64.const 3072247201995593945 i64.const -2857768596807834360 i64.const 787141701530223890 i64.const 8925719464255758237 i64.mul i64.add i64.const 8893196241376443401 i64.const 3868013515140731947 i64.mul i64.mul i64.mul i64.add i64.sub i64.add i64.mul)
+  (elem (;0;) eqref)
+)

@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 952 832958 externref ref.null extern)
+  (elem (;0;) nullref)
+  (elem (;1;) nullfuncref)
+  (elem (;2;) declare externref)
+  (elem (;3;) (table 0) (i64.const 410) externref)
+  (data (;0;) "")
+)

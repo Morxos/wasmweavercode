@@ -1,0 +1,4 @@
+(module
+  (import "\u{1a}" "" (memory (;0;) i64 8517 6014512859229 shared))
+  (elem (;0;) structref)
+)

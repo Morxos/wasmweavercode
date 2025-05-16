@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) 25 4466 shared)
+  (elem (;0;) i31ref (ref.null i31) (ref.null i31))
+  (elem (;1;) declare anyref)
+  (elem (;2;) declare arrayref)
+)

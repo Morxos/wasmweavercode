@@ -1,0 +1,8 @@
+(module
+  (import "" "" (memory (;0;) 1742 47774))
+  (table (;0;) i64 0 nullfuncref)
+  (global (;0;) nullfuncref ref.null nofunc)
+  (global (;1;) (mut f32) f32.const -0x1.eaf6eap+74 (;=-36226787000000000000000;))
+  (export "" (table 0))
+  (data (;0;) "\c6")
+)

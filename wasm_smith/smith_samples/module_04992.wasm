@@ -1,0 +1,12 @@
+(module
+  (import "" "" (memory (;0;) 6 46404 shared))
+  (import "e\u{6a9}.'}LH" "" (table (;0;) i64 5512 arrayref))
+  (import "\u{7}=" "" (global (;0;) i64))
+  (import "" "" (global (;1;) i64))
+  (global (;2;) i32 i32.const -1383890079)
+  (export "5\u{14}V:" (memory 0))
+  (elem (;0;) declare exnref)
+  (elem (;1;) exnref)
+  (elem (;2;) exnref)
+  (data (;0;) (i32.const 1) "")
+)

@@ -1,0 +1,7 @@
+(module
+  (import "<]6S" "" (table (;0;) i64 3284 nullfuncref))
+  (import "" "" (memory (;0;) 326 10700 shared))
+  (elem (;0;) externref)
+  (elem (;1;) (table 0) (i64.const 35) nullfuncref (ref.null nofunc) (ref.null nofunc))
+  (elem (;2;) declare nullexternref)
+)

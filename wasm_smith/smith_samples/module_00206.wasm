@@ -1,0 +1,7 @@
+(module
+  (table (;0;) i64 6132 arrayref)
+  (global (;0;) (mut i32) i32.const -255432650)
+  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none))
+  (data (;0;) "")
+  (data (;1;) "\c2_o")
+)

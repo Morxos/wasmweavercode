@@ -1,0 +1,13 @@
+(module
+  (import "aM-\u{17}" "" (global (;0;) f32))
+  (table (;0;) i64 179 structref ref.null struct)
+  (global (;1;) f32 f32.const -0x1.51f0e6p+91 (;=-3268365000000000000000000000;))
+  (export "\u{5}" (global 1))
+  (export "" (global 1))
+  (export "h\u{160}N" (table 0))
+  (export "K" (global 1))
+  (export "4" (global 0))
+  (export "5" (table 0))
+  (data (;0;) "\c4K")
+  (data (;1;) "\cf\92")
+)

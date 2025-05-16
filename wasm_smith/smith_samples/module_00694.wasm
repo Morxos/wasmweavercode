@@ -1,0 +1,10 @@
+(module
+  (import "3\u{f}" "" (global (;0;) (mut f32)))
+  (import "" "" (memory (;0;) 1106 28769 shared))
+  (import "Go" "" (table (;0;) 1113 anyref))
+  (import "\u{7f}" "" (global (;1;) i64))
+  (import "" "" (global (;2;) i64))
+  (data (;0;) (i32.const 0) "\89\0c")
+  (data (;1;) "")
+  (data (;2;) "\0cP")
+)

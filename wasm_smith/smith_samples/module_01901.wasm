@@ -1,0 +1,10 @@
+(module
+  (import "i" "" (memory (;0;) i64 15060 250451671819590 shared))
+  (import "Xg" "" (table (;0;) 2 760678 eqref))
+  (global (;0;) (mut i64) i64.const -9085309473759668853)
+  (global (;1;) (mut f32) f32.const 0x1.bbb6p+89 (;=1072827200000000000000000000;))
+  (global (;2;) (mut nullfuncref) ref.null nofunc)
+  (export "" (memory 0))
+  (elem (;0;) (table 0) (i32.const 1) structref (ref.null struct))
+  (elem (;1;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
+)

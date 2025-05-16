@@ -1,0 +1,7 @@
+(module
+  (import "Y" "" (memory (;0;) 0 25305))
+  (table (;0;) 6 628303 structref ref.null struct)
+  (export "" (memory 0))
+  (export "\u{32d}\u{1c}" (memory 0))
+  (export "K" (table 0))
+)

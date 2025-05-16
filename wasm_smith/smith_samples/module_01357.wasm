@@ -1,0 +1,5 @@
+(module
+  (global (;0;) i32 i32.const -1494011584 i32.const 625809342 i32.const -1905308442 i32.const 493591412 i32.const 14834976 i32.const -935652376 i32.mul i32.const -1346123608 i32.add i32.add i32.sub i32.add i32.const 1859785772 i32.const -836007711 i32.sub i32.sub i32.add)
+  (global (;1;) (mut externref) ref.null noextern)
+  (elem (;0;) i31ref)
+)

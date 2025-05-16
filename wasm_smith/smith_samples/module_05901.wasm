@@ -1,0 +1,9 @@
+(module
+  (import "\u{1b}" "" (memory (;0;) i64 4968 41725970465564))
+  (table (;0;) i64 1975 332621 arrayref)
+  (global (;0;) f32 f32.const -0x1.a58d5ep-121 (;=-0.0000000000000000000000000000000000006194153;))
+  (global (;1;) (mut f32) global.get 0)
+  (elem (;0;) declare i31ref (ref.null none) (ref.null none) (ref.null none))
+  (elem (;1;) declare func)
+  (data (;0;) "")
+)

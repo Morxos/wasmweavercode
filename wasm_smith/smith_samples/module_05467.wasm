@@ -1,0 +1,5 @@
+(module
+  (table (;0;) i64 8178 funcref)
+  (memory (;0;) 2444 26800)
+  (elem (;0;) (i64.const 40) func)
+)

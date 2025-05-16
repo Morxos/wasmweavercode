@@ -1,0 +1,5 @@
+(module
+  (import "#" "" (global (;0;) (mut f32)))
+  (import "" "" (memory (;0;) 5122 20943 shared))
+  (data (;0;) (i32.const 36057030) "g;")
+)

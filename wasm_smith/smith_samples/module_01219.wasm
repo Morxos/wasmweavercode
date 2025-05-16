@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 161 774792 arrayref ref.null array)
+  (global (;0;) (mut externref) ref.null extern)
+  (export "x\u{22}O\u{37e}" (global 0))
+  (elem (;0;) declare structref)
+)

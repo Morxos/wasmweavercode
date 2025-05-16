@@ -1,0 +1,4 @@
+(module
+  (import "\u{17}r\u{d}0" "" (memory (;0;) 6718 35227))
+  (export "\u{22}" (memory 0))
+)

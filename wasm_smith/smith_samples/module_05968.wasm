@@ -1,0 +1,6 @@
+(module
+  (memory (;0;) i64 3 57567352122185)
+  (global (;0;) (mut i64) i64.const 2060833377882000755)
+  (export ":\u{1a}\u{5c}?@\u{16}i" (global 0))
+  (export "" (memory 0))
+)

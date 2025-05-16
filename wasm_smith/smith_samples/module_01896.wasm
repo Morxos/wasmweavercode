@@ -1,0 +1,9 @@
+(module
+  (rec
+    (type (;0;) (sub (struct (field i8) (field (mut i8)) (field (mut i64)) (field (mut i16)) (field (mut i16)) (field i16) (field i8) (field (mut i16)) (field (mut i8)) (field (mut i16)) (field i16) (field (mut f64)) (field (mut i8)) (field (mut i8)) (field (mut i8)) (field (mut i16)) (field f64) (field i64) (field i16) (field (mut f32)))))
+    (type (;1;) (sub (struct (field (mut i16)) (field (mut i64)) (field f32) (field (mut i16)) (field (mut i64)) (field i8) (field (mut i32)) (field (mut funcref)) (field i16) (field (mut i64)) (field i8) (field (mut i16)))))
+  )
+  (import ">" "" (table (;0;) 4 arrayref))
+  (import "" "" (memory (;0;) 40 37328 shared))
+  (export "" (memory 0))
+)

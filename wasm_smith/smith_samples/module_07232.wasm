@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut anyref)))
+  (import "we" "" (memory (;0;) 609 39252 shared))
+  (import "|L;\u{15}M" "" (global (;1;) (mut i64)))
+  (import "" "" (table (;0;) 57 anyref))
+  (import "" "" (global (;2;) i32))
+  (export "\u{4}" (global 0))
+)

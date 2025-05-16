@@ -1,0 +1,4 @@
+(module
+  (import "_" "" (memory (;0;) i64 12850))
+  (elem (;0;) declare exnref)
+)

@@ -1,0 +1,11 @@
+(module
+  (import "X\u{5c}" "" (memory (;0;) 2021 21876))
+  (import "A\u{2}Y1" "" (global (;0;) (mut i32)))
+  (import ":#OQ\u{1d}" "" (global (;1;) (mut nullexternref)))
+  (import "1" "" (global (;2;) (mut f32)))
+  (import "" "" (table (;0;) i64 0 i31ref))
+  (global (;3;) (mut i32) i32.const -230664378 i32.const 1212591990 i32.const -1062011860 i32.const -471701978 i32.const -1547062520 i32.const -982436766 i32.const 661375674 i32.const 296379742 i32.const -1868086450 i32.const -1707565361 i32.sub i32.sub i32.mul i32.sub i32.add i32.add i32.add i32.add i32.sub i32.const -1153052750 i32.mul)
+  (data (;0;) "")
+  (data (;1;) "")
+  (data (;2;) (i32.const 64506349) "u")
+)

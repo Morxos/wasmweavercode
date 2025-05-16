@@ -1,0 +1,7 @@
+(module
+  (import "" "" (table (;0;) 0 318676 structref))
+  (import "" "" (global (;0;) f32))
+  (memory (;0;) 3)
+  (data (;0;) (i32.const 10631) "I\ee\eduU\90")
+  (data (;1;) (i32.const 325) "")
+)

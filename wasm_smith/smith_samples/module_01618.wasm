@@ -1,0 +1,6 @@
+(module
+  (import "@" "" (global (;0;) (mut i64)))
+  (import "" "" (global (;1;) (mut f64)))
+  (import "" "" (memory (;0;) i64 323 228436506493860))
+  (export "6" (global 0))
+)

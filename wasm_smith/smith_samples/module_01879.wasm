@@ -1,0 +1,5 @@
+(module
+  (import "B\u{12}Um" "" (table (;0;) 9667 506029 eqref))
+  (global (;0;) (mut i32) i32.const -1795944334 i32.const -1803579109 i32.const -977417679 i32.const 867507659 i32.const 1780898955 i32.const -1872549750 i32.sub i32.mul i32.sub i32.sub i32.sub i32.const 1577152808 i32.const -1535419534 i32.mul i32.const 1400690977 i32.sub i32.mul)
+  (data (;0;) "\bd\a8")
+)

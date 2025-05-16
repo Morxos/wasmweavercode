@@ -1,0 +1,12 @@
+(module
+  (import "z3" "" (table (;0;) 203 nullfuncref))
+  (memory (;0;) i64 43)
+  (export "\u{6}\u{1b}" (memory 0))
+  (export "" (table 0))
+  (export "2" (table 0))
+  (export "\u{7f}+" (memory 0))
+  (export "A" (memory 0))
+  (export "i" (memory 0))
+  (export "6" (memory 0))
+  (data (;0;) (i64.const 1976794) "")
+)

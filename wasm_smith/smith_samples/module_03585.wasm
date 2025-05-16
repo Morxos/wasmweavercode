@@ -1,0 +1,6 @@
+(module
+  (import "" "" (global (;0;) (mut i32)))
+  (import "" "" (table (;0;) i64 1054 781953 eqref))
+  (global (;1;) i32 i32.const -845452670)
+  (data (;0;) "\eac\0b")
+)

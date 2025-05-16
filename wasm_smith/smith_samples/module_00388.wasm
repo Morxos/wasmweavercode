@@ -1,0 +1,5 @@
+(module
+  (import "1" "" (global (;0;) i64))
+  (memory (;0;) 79 22184 shared)
+  (data (;0;) (i32.const 113) "%\7f")
+)

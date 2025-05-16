@@ -1,0 +1,8 @@
+(module
+  (table (;0;) i64 471 anyref ref.null none)
+  (elem (;0;) anyref (ref.null eq) (ref.null any))
+  (elem (;1;) exnref (ref.null exn))
+  (elem (;2;) (table 0) (i64.const 14) nullref)
+  (elem (;3;) declare anyref)
+  (data (;0;) "\db\90")
+)

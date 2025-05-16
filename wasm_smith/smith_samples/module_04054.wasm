@@ -1,0 +1,7 @@
+(module
+  (import "8\u{435}" "" (memory (;0;) 754 5971))
+  (import "" "" (table (;0;) 38 nullexternref))
+  (import "\u{18}5\u{d}" "" (global (;0;) funcref))
+  (global (;1;) i64 i64.const 65140755470560713)
+  (export "\u{203}" (memory 0))
+)

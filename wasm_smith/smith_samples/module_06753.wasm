@@ -1,0 +1,6 @@
+(module
+  (table (;0;) i64 0 662258 anyref)
+  (memory (;0;) i64 1347 48036598666276)
+  (export "" (memory 0))
+  (data (;0;) (i64.const 86879) "\5c\0e")
+)

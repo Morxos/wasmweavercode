@@ -1,0 +1,9 @@
+(module
+  (table (;0;) i64 2 742378 nullexternref ref.null noextern)
+  (memory (;0;) i64 2149)
+  (global (;0;) (mut f64) f64.const 0x1.7977ec04797b6p-342 (;=0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001645819371589087;))
+  (elem (;0;) arrayref (ref.null none) (ref.null array) (ref.null array))
+  (elem (;1;) (table 0) (i64.const 0) nullexternref)
+  (data (;0;) "w")
+  (data (;1;) "e")
+)

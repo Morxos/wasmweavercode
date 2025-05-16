@@ -1,0 +1,10 @@
+(module
+  (memory (;0;) 0 37677)
+  (global (;0;) (mut nullref) ref.null none)
+  (global (;1;) i32 i32.const 1661043555)
+  (global (;2;) (mut i64) i64.const -4061723999166334890)
+  (export "" (memory 0))
+  (export "1" (global 1))
+  (export "2" (global 2))
+  (elem (;0;) nullfuncref)
+)

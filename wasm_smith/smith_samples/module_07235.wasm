@@ -1,0 +1,8 @@
+(module
+  (import "" "" (global (;0;) (mut exnref)))
+  (table (;0;) 576 nullref)
+  (memory (;0;) i64 32 89117080087305)
+  (global (;1;) nullfuncref ref.null nofunc)
+  (export "=H" (table 0))
+  (elem (;0;) i31ref)
+)

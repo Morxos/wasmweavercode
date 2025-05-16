@@ -1,0 +1,4 @@
+(module
+  (import "/k" "" (memory (;0;) 0 20836 shared))
+  (import "R`^\u{58a}" "" (table (;0;) i64 8216 364758 externref))
+)
