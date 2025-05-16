@@ -9,3 +9,4 @@ sb3_contrib
 torch
 torchvision
 torchaudio
+openai
