@@ -1,4 +1,6 @@
 #A simple random agent to show how to interact with the environment
+import random
+
 import gymnasium as gym
 from core.environment import WasmWeaverEnv
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint
@@ -16,7 +18,9 @@ def main():
         done = False
         env.reset()
         while not done:
-            action = env.action_space.sample()
+            action_masks = env.unwrapped.action_masks()
+            random_mask = [i for i, mask in enumerate(action_masks) if mask == 1]
+            action = random.choice(random_mask)
             obs, reward, done, truncated, info = env.step(action)
             if done:
                 print(f"Epoch: {epoch}, Action: {action}, Obs: {obs}, Reward: {reward}, Done: {done}")
