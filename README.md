@@ -6,7 +6,7 @@ This document contains the following information:
 
 - Overview of currently supported instructions, concepts, and extensions
 - Basic setup and evaluation guides for experiments
-- The custom gymnasium environment
+- Short summary of the custom gymnasium environment
 
 ### Supported Instructions & Extensions
 
@@ -238,7 +238,7 @@ We implement a few extensions that were useful for our program generation and fu
 	- dataset_metrics.py: Computes basic dataset metrics
 		- folder_name (line 9): Set the dataset folder here
 	- process_wasmweaver_dataset_stats.py: Extracts metrics from raw datasets (e.g. .wasm or .wat) files.
-		- out_dir (lien 117): Set the output directory for statistic files.
+		- out_dir (line 117): Set the output directory for statistic files.
 		- wasm_directory (line 48): Set the directory of the raw dataset.
 			
 #### Getting Started
@@ -271,10 +271,12 @@ We implement a few extensions that were useful for our program generation and fu
 	- python3 experiments/training/generate_result_estimation.py #(generate samples) When finished, the output can be found under "3_result_estimation_samples"
 	
 ##### 4. Alignment Test
+	- For only using the opcode-alignment reward on a module level (as was done for the alignment test), modify core/metrics.py (line 112) from "return ((1 - beta) ..." to "return mod_sim".
 	- python3 experiments/training/alignment.py #(train model) Tensorboard output can be found under "4_alignment_tensorboard"
 	- python3 experiments/training/generate_aligned.py #(generate samples) When finished, the output can be found under "4_alignment_samples"
 	
-#### Evaluate Experiment 1-3 (For Model resoning performance table)
+#### Evaluate Experiment 1-3 (For Model reasoning performance table)
+	- Optional: For direct evaluation without first training models and generating samples, place the three test-dataset folders (also supplied as part of the supplementary materials) on the top level of the project. (Dataset folders: 1_stack_effect_samples_test, 2_reachability_samples_test, 3_result_estimation_samples_test)
 	- Adjust API tokens and endpoints in experiments/eval/models/openai_models.py and in runpod_models.py
 	- Run the eval script with e.g.: python3 experiments/eval/eval.py --model Llama3 --experiment stack
 		- Available Arguments:
