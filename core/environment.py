@@ -13,8 +13,13 @@ from gymnasium.core import ObsType, ActType
 from gymnasium.spaces import Dict
 from gymnasium.spaces.space import T_cov
 import sys
-sys.setrecursionlimit(2000)  # use with caution
-from core.constraints import AbstractConstraint, ConstraintsViolatedError
+
+from torch.fx.experimental.migrate_gradual_types.constraint import BinaryConstraint
+
+from drl.embedder.targets import TargetsEmbedder
+
+sys.setrecursionlimit(20000)  # use with caution
+from core.constraints import AbstractConstraint, ConstraintsViolatedError, FuelConstraint, ByteCodeSizeConstraint
 from core.converter import global_state_to_wat_program
 from core.formater import add_line_numbers_to_code
 from core.loader import TileLoader
@@ -63,6 +68,7 @@ class EnvSelectionStrategy(AbstractSelectionStrategy):
         self.env.counter += 1
         if self.env.finish_thread:
             raise Exception("Thread was reset!")
+
         self.env.current_state = current_state
         self.env.current_function = current_function
         self.env.current_blocks = current_blocks
@@ -86,6 +92,7 @@ class EnvSelectionStrategy(AbstractSelectionStrategy):
                 #print("Selected tile:", tile.name, vars(tile))
                 #print("Selected tile:", tile.name)
                 self.env.last_selected_tile_type = tile
+                print("Selected tile:", tile.name)
                 return tile
 
         raise Exception("Index not found in tiles")
@@ -123,6 +130,7 @@ class WasmWeaverEnv(gym.Env):
         self.block_embedder = BlockEmbedder()
         self.locals_embedder = LocalsEmbedder()
         self.globals_embedder = GlobalsEmbedder()
+        self.target_embedder = TargetsEmbedder()
         self.tables_embedder = TablesEmbedder()
         self.last_selected_tile_type = None
         self.p = 0
@@ -145,6 +153,7 @@ class WasmWeaverEnv(gym.Env):
             "current_block": self.block_embedder.get_space(),
             "current_stack": self.stack_embedder.get_space(),
             "constraints": self.constraints_embedder.get_space(),
+            "targets": self.target_embedder.get_space(),
             "locals": self.locals_embedder.get_space(),
             "globals": self.globals_embedder.get_space(),
             "tables": self.tables_embedder.get_space(),
@@ -154,6 +163,7 @@ class WasmWeaverEnv(gym.Env):
         self.global_state_ready = threading.Semaphore(0)
         self.action_ready = threading.Semaphore(0)
         self.current_state: GlobalState | None = None
+        self.last_state: GlobalState | None = None
         self.current_tiles: List[Type[AbstractTile]] | None = None
         self.current_function: Function | None = None
         self.current_blocks: List[Block] | None = None
@@ -161,7 +171,7 @@ class WasmWeaverEnv(gym.Env):
         self.reward_dict = None
         self.archive: deque[str] = deque(maxlen=1000)
         self.thread: threading.Thread | None = None
-        self.tile_loader = TileLoader("core/instructions/")
+        self.tile_loader = TileLoader("core/instructions/",EnvSelectionStrategy(self))
         self.finish_state = None
         self.finish_thread = False
         self.current_code_str: str | None = None
@@ -201,9 +211,8 @@ class WasmWeaverEnv(gym.Env):
         print("Generating...")
         try:
             output_types = random.choice(self.output_types)
-            generate_function(self.tile_loader, "run", self.input_types, self.init_state,
-                              selection_strategy=EnvSelectionStrategy(self), is_entry=True,
-                              fixed_output_types=output_types)
+            generate_function(self.tile_loader, "run", self.input_types, self.init_state, is_entry=True,
+                              fixed_output_types=output_types,selection_strategy=self.tile_loader.selection_strategy)
 
             self.current_code_str = global_state_to_wat_program(self.current_state)
             #print(self.current_code_str)
@@ -241,7 +250,11 @@ class WasmWeaverEnv(gym.Env):
             self.finish_state = "Success"
             self.global_state_ready.release()
         except ConstraintsViolatedError as e:
+            #Print all constraints
+
             print("Failed!")
+            for constraint in self.current_state.constraints.constraints:
+                print(constraint)
             self.finish_state = e
             self.global_state_ready.release()
         except Exception as e:
@@ -269,18 +282,24 @@ class WasmWeaverEnv(gym.Env):
         self.finish_state = None
         self.global_state_ready = threading.Semaphore(0)
         self.action_ready = threading.Semaphore(0)
+        #Get fuel size constraint
+        fuel_constraints: FuelConstraint = self.init_state.constraints[FuelConstraint]
+        binary_constraints: ByteCodeSizeConstraint = self.init_state.constraints[ByteCodeSizeConstraint]
+        self.current_fuel_target = random.randint(max(1,fuel_constraints.min_target), fuel_constraints.max_target)
+        self.current_binary_size_target = random.randint(max(1,binary_constraints.min_target), binary_constraints.max_target)
         self.thread = threading.Thread(target=self.generate, daemon=True)
         self.thread.start()
 
     def step(
             self, action: ActType
     ) -> tuple[ObsType, SupportsFloat, bool, bool, dict[str, Any]]:
+        self.last_state = deepcopy(self.current_state)
         self.selected_index = action
         self.action_ready.release()
         self.global_state_ready.acquire()
         done = False
         truncated = False
-        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type)
+        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state,self.last_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type,dynamic_targets={"fuel_target":self.current_fuel_target, "binary_size_target":self.current_binary_size_target})
         if isinstance(self.finish_state, Exception):
             done = True
         elif self.finish_state == "Success":
@@ -293,6 +312,16 @@ class WasmWeaverEnv(gym.Env):
                 len(self.current_blocks)),
             "current_stack": self.stack_embedder(self.current_state.stack, self.current_state),
             "constraints": self.constraints_embedder(self.current_state.constraints.constraints),
+            "targets": self.target_embedder([
+                (
+                self.current_fuel_target,
+                self.current_state.constraints[FuelConstraint].max_target
+                ),
+                (
+                self.current_binary_size_target,
+                self.current_state.constraints[ByteCodeSizeConstraint].max_target
+                )
+            ]),
             "locals": self.locals_embedder(self.current_state.stack.get_current_frame().locals,self.current_state),
             "globals": self.globals_embedder(self.current_state.globals,self.current_state),
             "tables": self.tables_embedder(self.current_state.tables,self.current_state),
@@ -355,7 +384,7 @@ class WasmWeaverEnv(gym.Env):
                 reward,
                 done,
                 truncated,
-                {"reward_dict": reward_dict})
+                {"reward_dict": reward_dict, "finish_state": self.finish_state, "code": self.current_code_str, "run_result": self.current_run_result})
 
     def reset(
             self,
@@ -376,6 +405,16 @@ class WasmWeaverEnv(gym.Env):
             "current_function": self.function_embedder(self.current_function),
             "current_stack": self.stack_embedder(self.current_state.stack,self.current_state),
             "constraints": self.constraints_embedder(self.current_state.constraints.constraints),
+            "targets": self.target_embedder([
+                (
+                    self.current_fuel_target,
+                    self.current_state.constraints[FuelConstraint].max_target
+                ),
+                (
+                    self.current_binary_size_target,
+                    self.current_state.constraints[ByteCodeSizeConstraint].max_target
+                )
+            ]),
             "current_block": self.block_embedder(
                 self.current_blocks[-1] if self.current_blocks else Block("origin", 0, BlockType.UNDEFINED),
                 len(self.current_blocks)),

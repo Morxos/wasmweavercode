@@ -43,6 +43,23 @@ def wasm_to_wat(wasm: bytes) -> str:
     return wat_code.decode('utf-8')
 
 @functools.lru_cache(maxsize=128)
+def wat_to_wasm(wat: str) -> bytes:
+    """Converts the given wat code to wasm bytes using wasm-tools"""
+    process = subprocess.Popen(
+        ["wasm-tools", "parse", "-"],  # Read from stdin and write to stdout
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
+
+    wasm_bytes, stderr = process.communicate(input=wat.encode('utf-8'))
+
+    if process.returncode != 0:
+        raise RuntimeError(f"wat to wasm error: {stderr}")
+
+    return wasm_bytes
+
+@functools.lru_cache(maxsize=128)
 def get_module_statistics(wat: str | bytes ):
     """Gets module statistics from the given wat code using wasm-opt."""
 

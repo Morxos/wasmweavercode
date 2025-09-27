@@ -1,11 +1,12 @@
 import json
 import math
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 from wasmtime import wat2wasm
 
 from core.analysis import js_distance_sample_vs_corpus, get_module_statistics, \
-    get_function_statistics, extract_op_code_counts_from_dicts, extract_structural_counts_from_dicts, overall_zscore
+    get_function_statistics, extract_op_code_counts_from_dicts, extract_structural_counts_from_dicts, overall_zscore, \
+    wat_to_wasm, wasm_to_wat
 from core.extractor import wat_to_trigrams
 from core.metrics import score_generated_module_with_structure
 
@@ -64,24 +65,17 @@ class ProgramCorpus:
             normalized_samples.append(self.scalar_ratios(samples[i]))
         return overall_zscore(self.functions_relative_scalars_corpus, normalized_samples)
 
-    def get_similarity(self, wat_code: str)->float:
+    def get_similarity(self, wat_code: str)->Tuple[float,float,float]:
         """Get the distance of the given wasm code to the corpus."""
         module_stats = [get_module_statistics(wat_code)]
-        function_stats = get_function_statistics(wat_code)
         module_opcodes = extract_op_code_counts_from_dicts(module_stats)
-        module_scalars = extract_structural_counts_from_dicts(module_stats)
-        function_opcodes = extract_op_code_counts_from_dicts(function_stats)
-        relative_trigram_distribution = wat_to_trigrams(wat_code)
+        wasm_bytes = wat_to_wasm(wat_code)
+        trigram_distribution = wat_to_trigrams(wasm_to_wat(wasm_bytes))
+        trigram_distribution_corpus = self.trigram_distribution_corpus
         return score_generated_module_with_structure(self.module_opcode_corpus,
-                                                     self.functions_opcode_corpus,
-                                                     self.module_opcode_corpus,
                                                      module_opcodes[0],
-                                                     function_opcodes,
-                                                     module_scalars[0],
-                                                     self.trigram_distribution_corpus,
-                                                     relative_trigram_distribution)
-
-
+                                                     trigram_distribution_corpus,
+                                                     trigram_distribution)
 
 if __name__ == "__main__":
     program_corpus = ProgramCorpus()

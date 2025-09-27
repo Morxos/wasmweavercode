@@ -17,7 +17,7 @@ from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
-TOTAL_TIME_STEPS = 500_000
+TOTAL_TIME_STEPS = 10_000_000
 
 def main():
     gym.register(
@@ -37,10 +37,10 @@ def main():
     experiment_name = "4_alignment"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 200), FuelConstraint(0, 200)],
+                   constraints=[ByteCodeSizeConstraint(0, 10000), FuelConstraint(0, 100)],
                    output_types=[[]], post_processor_types=[],
-                   forbidden_instruction_name_tokens=[],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=False, depth_reward=False, target_trace_length=1,alignment_only=True),
+                   forbidden_instruction_name_tokens=["loop"],
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=False, depth_reward=False,alignment_only=True),
                    verbose=True)
 
 
@@ -51,9 +51,10 @@ def main():
 
     model = MaskablePPO(CustomMaskablePolicy,
                 env,
-                ent_coef=0.02,
+                ent_coef=1e-3,
                 policy_kwargs=policy_kwargs,
-                verbose=0,
+                verbose=1,
+                gamma=1.0,
                 tensorboard_log=f"{experiment_name}_tensorboard/",
                 device="cuda"
                 )

@@ -22,6 +22,9 @@ class SimpleFeatureExtractor(BaseFeaturesExtractor):
         encoded_constraints = observation_space["constraints"]
         encoded_constraints_shape = encoded_constraints.shape
 
+        encoded_targets = observation_space["targets"]
+        encoded_targets_shape = encoded_targets.shape
+
         encoded_current_function = observation_space["current_function"]
         encoded_current_function_shape = encoded_current_function.shape
 
@@ -34,6 +37,7 @@ class SimpleFeatureExtractor(BaseFeaturesExtractor):
 
 
         output_shape = (encoded_constraints_shape[0] +
+                        encoded_targets_shape[0] +
                         encoded_current_function_shape[0] +
                         encoded_current_stack_shape +
                         encoded_current_block_shape[0] +
@@ -42,7 +46,6 @@ class SimpleFeatureExtractor(BaseFeaturesExtractor):
                         self.tables_encoder.d_model+
                         self.tiles_encoder.d_model)
         #Set features dim
-        print("Output shape: ", output_shape)
         self._features_dim = output_shape
 
 
@@ -50,6 +53,8 @@ class SimpleFeatureExtractor(BaseFeaturesExtractor):
         encoded_tensor_list = []
 
         encoded_constraints = observations["constraints"]
+
+        encoded_targets = observations["targets"]
 
         encoded_current_function = observations["current_function"]
 
@@ -119,6 +124,7 @@ class SimpleFeatureExtractor(BaseFeaturesExtractor):
 
 
         encoded_tensor_list.append(encoded_constraints)
+        encoded_tensor_list.append(encoded_targets)
         encoded_tensor_list.append(encoded_current_function)
         stack_embedding = self.stack_encoder(stack_ids, stack_values, stack_mask)
         encoded_tensor_list.append(stack_embedding)

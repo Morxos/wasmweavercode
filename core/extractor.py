@@ -73,6 +73,8 @@ def build_trigrams(functions):
     trigrams = {}
     for function in functions:
         for i in range(len(function) - 2):
+            if function[i] in ['local', 'param', 'result'] or function[i+1] in ['local', 'param', 'result'] or function[i+2] in ['local', 'param', 'result']:
+                continue
             trigram = (function[i], function[i + 1], function[i + 2])
             if trigram not in trigrams:
                 trigrams[trigram] = 0
@@ -84,6 +86,7 @@ def wat_to_trigrams(wat)->Dict[str, int]:
     lines = extract_lines(wat)
     functions = to_functions(lines)
     trigrams = build_trigrams(functions)
+
     #Convert tuples to strings
     trigrams = {f"{k[0]} {k[1]} {k[2]}": v for k, v in trigrams.items()}
     #Calculate relative frequencies
