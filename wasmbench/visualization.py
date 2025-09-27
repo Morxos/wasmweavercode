@@ -129,7 +129,7 @@ def plot_module_byte_code_distribution():
     total_byte_counts_wasm_weaver = []
     byte_code_classes_wasm_weaver = {}
     module_corpus = json.load(open("wasmbench/module_corpus.json"))
-    module_corpus_wasmweaver = json.load(open("wasmbench/wasmweaver/module_corpus.json"))
+    module_corpus_wasmweaver = json.load(open("wasmbench/module_corpus.json"))
     for module in module_corpus:
         total_byte_count = 0
         for key, value in module.items():
@@ -178,32 +178,32 @@ def plot_module_byte_code_distribution():
         for key, value in byte_code_classes.items():
             byte_code_classes[key][i] = (value[i] / total_byte_counts[i]) * 100
 
-    for i in range(len(total_byte_counts_wasm_weaver)):
-        for key, value in byte_code_classes_wasm_weaver.items():
-            byte_code_classes_wasm_weaver[key][i] = (value[i] / total_byte_counts_wasm_weaver[i]) * 100
+    #for i in range(len(total_byte_counts_wasm_weaver)):
+    #    for key, value in byte_code_classes_wasm_weaver.items():
+    #        byte_code_classes_wasm_weaver[key][i] = (value[i] / total_byte_counts_wasm_weaver[i]) * 100
 
     #Sort by median
     byte_code_classes = dict(sorted(byte_code_classes.items(), key=lambda item: (np.median(item[1])), reverse=True))
     # Keep first 10 and accumulate the rest
     accumulated = 0
-    for key, value in list(byte_code_classes.items())[15:]:
+    for key, value in list(byte_code_classes.items())[400:]:
         accumulated += np.median(value)
         del byte_code_classes[key]
 
     #Align the wasm weaver keys with the wasm bench ones
-    ordered_wasm_weaver_values = []
-    for key in byte_code_classes.keys():
-        if key in byte_code_classes_wasm_weaver:
-            ordered_wasm_weaver_values.append(byte_code_classes_wasm_weaver[key])
-        else:
-            ordered_wasm_weaver_values.append([0] * len(total_byte_counts_wasm_weaver))
+    #ordered_wasm_weaver_values = []
+    #for key in byte_code_classes.keys():
+    #    if key in byte_code_classes_wasm_weaver:
+    #        ordered_wasm_weaver_values.append(byte_code_classes_wasm_weaver[key])
+    #    else:
+    #        ordered_wasm_weaver_values.append([0] * len(total_byte_counts_wasm_weaver))
 
 
-    plt.figure(figsize=(3, 2))
+    plt.figure(figsize=(15, 5))
     #Use box plots
     plt.boxplot(list(byte_code_classes.values()), labels=list(byte_code_classes.keys()), showfliers=False)
     #Plot wasm weaver
-    plt.boxplot(ordered_wasm_weaver_values, labels=list(byte_code_classes.keys()), showfliers=False, positions=np.arange(len(byte_code_classes.keys())) + 0.5)
+    #plt.boxplot(ordered_wasm_weaver_values, labels=list(byte_code_classes.keys()), showfliers=False, positions=np.arange(len(byte_code_classes.keys())) + 0.5)
     #plt.xlabel("Byte Code Classes")
     plt.ylabel("Frequency (%)")
     plt.xticks(rotation=45)
@@ -415,12 +415,12 @@ def plot_functions_byte_code_distribution():
 def main():
     #plot_module_total_byte_distribution()
     #plot_functions_total_byte_distribution()
-    #plot_module_byte_code_distribution()
+    plot_module_byte_code_distribution()
     #plot_functions_byte_code_distribution()
     #plot_functions_total_opcode_distribution()
     #plot_modules_total_opcode_distribution()
     #plot_trigram_distribution()
-    plot_module_byte_code_distribution_absolute()
+    #plot_module_byte_code_distribution_absolute()
 
 
 

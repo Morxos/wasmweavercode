@@ -57,7 +57,7 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
                 forced_output_type_len = random.randint(0, min(len(forced_inputs),MAX_FUNCTION_OUTPUTS))
                 forced_output_types = [type(get_random_val()) for _ in range(0, forced_output_type_len)]
                 generate_function(tile_loader, name, forced_inputs, current_state,
-                                  selection_strategy=current_function.selection_strategy, is_entry=False,
+                                  selection_strategy=tile_loader.selection_strategy, is_entry=False,
                                   fixed_output_types=forced_output_types)
 
                 self.get_byte_code_size = global_state.functions.get(name).get_byte_code_size
@@ -177,16 +177,19 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
         """Generates all function tiles that can be placed in the current state"""
         function_tiles = []
         #Generate the tile
+        print("Checking function call tiles")
         for function in current_state.functions.functions.values():
             if not self.create_function_call_tile(function.name,function.index).can_be_placed(current_state, current_function, current_blocks):
                 continue
             function_tiles.append(self.create_function_call_tile(function.name,function.index))
         #Function reference to stack
+        print("Checking function ref to stack tiles")
         for function in current_state.functions.functions.values():
             if not self.create_function_ref_to_stack_tile(function).can_be_placed(current_state, current_function, current_blocks):
                 continue
             function_tiles.append(self.create_function_ref_to_stack_tile(function))
         #Function indirect call
+        print("Checking indirect call tiles")
         for table_name, table in current_state.tables.tables.items():
             for elem_index, elem in enumerate(table.elements):
 

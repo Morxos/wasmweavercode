@@ -6,6 +6,7 @@ from core.state.functions import Function, Block
 from core.state.state import GlobalState
 from core.tile import AbstractTileFactory, AbstractTile
 from core.util import can_place_function, generate_function, generate_block
+from core.value import get_random_val
 
 DISABLED = True
 
@@ -77,7 +78,7 @@ class AbstractRecursionFunctionTileFactory(AbstractTileFactory):
                 forced_output_type_len = random.randint(0, min(len(forced_inputs),MAX_FUNCTION_OUTPUTS))
                 forced_output_types = [type(get_random_val()) for _ in range(0, forced_output_type_len)]
                 generate_function(tile_loader, name, forced_inputs, current_state,
-                                  selection_strategy=current_function.selection_strategy, is_entry=False,
+                                  selection_strategy=tile_loader.selection_strategy, is_entry=False,
                                   fixed_output_types=forced_output_types)
 
                 self.get_byte_code_size = global_state.functions.get(name).get_byte_code_size

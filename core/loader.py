@@ -4,6 +4,7 @@ from typing import List, Type, TypeVar
 
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
+from core.strategy import AbstractSelectionStrategy
 from core.tile import AbstractTile, AbstractTileFactory
 
 T = TypeVar('T')
@@ -23,8 +24,9 @@ class AbstractTileLoader:
 class TileLoader(AbstractTileLoader):
     """Loads all tiles from a given directory."""
 
-    def __init__(self, path: str):
+    def __init__(self, path: str, selection_strategy: AbstractSelectionStrategy):
         self.path = path
+        self.selection_strategy = selection_strategy
         self.tiles: List[Type[AbstractTile]] = self._load_classes(path, AbstractTile)
         self.factories: List[AbstractTileFactory] = [factory(0, self) for factory in
                                                      self._load_classes(path, AbstractTileFactory)]

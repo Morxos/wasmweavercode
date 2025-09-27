@@ -121,7 +121,6 @@ class Function:
         self.blocks: List[Block] = []
         self.checkpoints = {}
         self.current_block_depth = 0
-        self.selection_strategy = None
 
     def create_checkpoint(self):
         checkpoint_id = 0

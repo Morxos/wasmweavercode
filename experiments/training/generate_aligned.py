@@ -1,13 +1,15 @@
-import random
-
 import gymnasium as gym
+import numpy as np
+import sb3_contrib
 from sb3_contrib import MaskablePPO
+
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.environment import WasmWeaverEnv
-from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
-from core.value import I32, I64, F32, F64
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import SimpleRewardFunction
+from experiments.training.policy import CustomMaskablePolicy
+
+print("sb3_contrib version:", sb3_contrib.__version__)
 
 experiment_name = "4_alignment"
 
@@ -16,13 +18,13 @@ gym.register(
         entry_point=WasmWeaverEnv,
     )
 
-reward_function = SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=False, depth_reward=True, target_trace_length=1, alignment_only=True)
+reward_function = SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=False, depth_reward=True, alignment_only=True)
 
 
 env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 200), FuelConstraint(0, 200)],
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=[[]], post_processor_types=[],
-                   forbidden_instruction_name_tokens=[],
+                   forbidden_instruction_name_tokens=["block","loop","function","condition"],
                    reward_function=reward_function,
                    verbose=True)
 
@@ -31,14 +33,28 @@ policy_kwargs = dict(
         net_arch=dict(pi=[512, 256], vf=[512, 256]),
     )
 
-model = MaskablePPO.load(f"{experiment_name}_ppo_wasmweaver")
+model = MaskablePPO(CustomMaskablePolicy,
+                env,
+                ent_coef=1e-3,
+                policy_kwargs=policy_kwargs,
+                verbose=1,
+                gamma=1.0,
+                tensorboard_log=f"{experiment_name}_tensorboard/",
+                device="cpu"
+                )
+
+model.set_parameters(f"{experiment_name}_ppo_wasmweaver.zip")
+
+
+
+#model = MaskablePPO.load(f"{experiment_name}_ppo_wasmweaver")
 
 # Create and wrap the environment
 
 
 # Initialize variables
 obs, info = env.reset()
-target_sample_count = 1000
+target_sample_count = 100
 step_count = 0
 episode_rewards = []
 episode_lengths = []
@@ -48,15 +64,10 @@ current_length = 0
 random_action_probability = 0.00  # Probability of taking a random action
 
 while len(reward_function.buffer.buffer) < target_sample_count:
-    action_masks = env.unwrapped.action_masks()
-    if random.random() < random_action_probability:
-        #Get random position where the action mask is 1
-        random_mask = [i for i, mask in enumerate(action_masks) if mask == 1]
-
-        action = random.choice(random_mask)
-
-    else:
-        action, _ = model.predict(obs, action_masks=action_masks,deterministic=False)
+    action_masks = np.asarray(env.unwrapped.action_masks(), dtype=bool)
+    print(len(action_masks))
+    assert any(action_masks), "all actions masked – policy is stuck"
+    action, _ = model.predict(obs, action_masks=action_masks,deterministic=False)
     obs, reward, done, truncated, info = env.step(action)
     step_count += 1
     current_reward += reward

@@ -87,19 +87,27 @@ class Finish(AbstractTile):
         return f""
 
 def can_place_function(function: Function, global_state: GlobalState)-> bool:
+    print("Checking if can place function", function.name,len(function.tiles))
+    for tile in function.tiles:
+        print("Tile:", tile.name)
     """Applies the given tile to the current state. Returns the branch operation if there is one."""
     if not stack_matches(global_state, function.inputs):
+        print("No stack match")
         return False
-
+    print("Stack check passed")
     if not global_state.stack.can_add_new_stack_frame():
+        print("No new stack frame added")
         return False
-
+    print("Stack check passed 2")
     if global_state.constraints.any_violated():
+        print("No new stack frame added")
         return False
-
+    print("Stack check passed 3")
     #Backup global state and function
     before_generation_checkpoint = global_state.create_checkpoint()
+    print("Global checkpoint creation finished!")
     function_backup = function.create_checkpoint()
+    print("Checking 2")
 
 
     global_state.stack.push_frame(global_state.stack.get_current_frame().stack_pop_n_in_order(len(function.inputs)),
@@ -203,7 +211,7 @@ def generate_function(tile_loader: AbstractTileLoader, name: str, input_types: L
         raise ValueError(f"Input types do not match stack. Expected {input_types}, got {global_state.stack}")
 
     f = Function(name,len(global_state.functions), inputs=input_types, outputs=fixed_output_types, is_external=False)
-    f.selection_strategy = selection_strategy
+    #f.selection_strategy = selection_strategy
 
     global_backup = deepcopy(global_state.globals)
     table_backup = deepcopy(global_state.tables)
@@ -440,7 +448,7 @@ def generate_block(tile_loader: AbstractTileLoader, global_state: GlobalState, c
         if not placeable_tiles:
             raise NoTilesLeftException()
 
-        tile = current_function.selection_strategy.select(placeable_tiles, global_state, current_function, blocks + [block])(random.randint(0, 2 ** 32 - 1))
+        tile = tile_loader.selection_strategy.select(placeable_tiles, global_state, current_function, blocks + [block])(random.randint(0, 2 ** 32 - 1))
         branch_operation = tile.apply(global_state, current_function, blocks+[block])
 
         tile.apply_constraints(global_state, current_function, blocks+[block])

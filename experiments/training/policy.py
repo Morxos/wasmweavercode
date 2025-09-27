@@ -1,12 +1,13 @@
 import torch
+from sb3_contrib.common.maskable.policies import MaskableMultiInputActorCriticPolicy
 from sb3_contrib.ppo_mask import MultiInputPolicy
 
 
-class CustomMaskablePolicy(MultiInputPolicy):
+class CustomMaskablePolicy(MaskableMultiInputActorCriticPolicy):
     def _build(self, lr_schedule) -> None:
         super()._build(lr_schedule)
 
-        # --- split params: encoder vs heads -------------------------------
+        # split params: encoder vs heads
         enc_params, head_params = [], []
         for name, param in self.named_parameters():
             if "features_extractor" in name:
@@ -14,7 +15,6 @@ class CustomMaskablePolicy(MultiInputPolicy):
             else:
                 head_params.append(param)
 
-        # --- custom two‑group AdamW --------------------------------------
         self.optimizer = torch.optim.AdamW(
             [
                 {"params": enc_params, "lr": 1e-4},
