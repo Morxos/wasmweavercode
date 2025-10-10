@@ -92,7 +92,7 @@ class EnvSelectionStrategy(AbstractSelectionStrategy):
                 #print("Selected tile:", tile.name, vars(tile))
                 #print("Selected tile:", tile.name)
                 self.env.last_selected_tile_type = tile
-                print("Selected tile:", tile.name)
+               # print("Selected tile:", tile.name)
                 return tile
 
         raise Exception("Index not found in tiles")
@@ -116,7 +116,7 @@ class ObjectSpace(Space):
 class WasmWeaverEnv(gym.Env):
 
     def __init__(self, constraints: List[AbstractConstraint], input_types: List[Type[Val]] = None,
-                 output_types: List[List[Val]] = None, reward_function: AbstractRewardFunction = SimpleRewardFunction("default_task_store"),
+                 output_types: List[List[Val]] = None, reward_function: AbstractRewardFunction = None,
                  verbose=False, post_processor_types:List[Type[AbstractPostProcessor]] = None, forbidden_instruction_name_tokens=None):
 
         super(WasmWeaverEnv, self).__init__()

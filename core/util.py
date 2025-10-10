@@ -87,27 +87,16 @@ class Finish(AbstractTile):
         return f""
 
 def can_place_function(function: Function, global_state: GlobalState)-> bool:
-    print("Checking if can place function", function.name,len(function.tiles))
-    for tile in function.tiles:
-        print("Tile:", tile.name)
     """Applies the given tile to the current state. Returns the branch operation if there is one."""
     if not stack_matches(global_state, function.inputs):
-        print("No stack match")
         return False
-    print("Stack check passed")
     if not global_state.stack.can_add_new_stack_frame():
-        print("No new stack frame added")
         return False
-    print("Stack check passed 2")
     if global_state.constraints.any_violated():
-        print("No new stack frame added")
         return False
-    print("Stack check passed 3")
     #Backup global state and function
     before_generation_checkpoint = global_state.create_checkpoint()
-    print("Global checkpoint creation finished!")
     function_backup = function.create_checkpoint()
-    print("Checking 2")
 
 
     global_state.stack.push_frame(global_state.stack.get_current_frame().stack_pop_n_in_order(len(function.inputs)),

@@ -53,6 +53,7 @@ class GlobalState:
             blocks.extend(function.get_all_blocks(1))
         return blocks
 
+
     def create_checkpoint(self) -> int:
         """Creates a checkpoint of the current state and returns the id of the checkpoint."""
         i = 0

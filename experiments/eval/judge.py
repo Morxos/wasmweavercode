@@ -1,4 +1,5 @@
 import json
+import math
 from pathlib import Path
 from typing import Literal, List, Dict, Tuple
 
@@ -155,8 +156,44 @@ def judge_wasm_result(meta_file_path: str,
     else:
         raise NotImplementedError
 
-def are_almost_equal(a, b, tolerance=1e-4): #Large value here
-    return abs(a - b) < tolerance
+def judge_wasm_result_string(meta_dict: dict,
+                      wat_string: str,
+                      model: Model | str,
+                      target: Literal["stack", "flags", "result"])->Tuple[List[str],str]:
+
+    if not isinstance(model, str):
+        if target == "stack":
+            complete_prompt = generate_stack_prompt() + "\n Here comes the WAT file: " + wat_string
+        elif target == "flags":
+            complete_prompt = generate_reachability_prompt() + "\n Here comes the WAT file: " + wat_string
+        elif target == "result":
+            complete_prompt = generate_result_estimation_prompt() + "\n Here comes the WAT file: " + wat_string
+        else:
+            raise NotImplementedError
+        while True:
+            try:
+                output = model.predict(complete_prompt)
+                print("Model output:", output)
+                break
+            except Exception as e:
+                print(f"Error while running model: {e}")
+                print("Retrying...")
+    else:
+        output = model
+    if target == "stack":
+        target_stack = meta_dict["stack_values"]
+        return compare_stack_results_with_model_output(target_stack, output), output
+    elif target == "flags":
+        target_flags = meta_dict["flag_states"]
+        return compare_flag_with_model_output(target_flags, output), output
+    elif target == "result":
+        target_result = meta_dict["return_values"]
+        return compare_stack_results_with_model_output(target_result, output, dict_key="return_values"), output
+    else:
+        raise NotImplementedError
+
+def are_almost_equal(a, b, tolerance=1e-5): #Large value here
+    return math.isclose(a, b, rel_tol=tolerance, abs_tol=tolerance)
 
 def same_i64_bit_pattern(a: int, b: int) -> bool:
     # Mask to lower 64 bits, to simulate 64-bit wrapping
@@ -197,7 +234,7 @@ def compare_flag_with_model_output(
                 #errors.append(f"error_value_{target_flag_name}")
             else:
                 errors.append("success_flag_"+target_flag_name)
-                if bool(target[target_flag_name]) != bool(model_output[target_flag_name]):
+                if str(target[target_flag_name]).lower() != str(model_output[target_flag_name]).lower():
                     print(f"Flag {target_flag_name} mismatch: {target[target_flag_name]} != {model_output[target_flag_name]}")
                     errors.append(f"error_value_{target_flag_name}")
                 else:

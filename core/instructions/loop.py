@@ -3,15 +3,12 @@ import uuid
 from copy import deepcopy
 from typing import List, Type
 
-from jinja2.ext import loopcontrols
-from torch.fx.passes.pass_manager import loop_pass
-
 from core.config.config import MAX_BLOCKS_PER_FUNCTION, BOUNDED_LOOP_MIN, BOUNDED_LOOP_MAX
-from core.constraints import FuelConstraint, ByteCodeSizeConstraint, ConstraintType, ConstraintsViolatedError
+from core.constraints import ConstraintType, ConstraintsViolatedError
 from core.formater import indent_code
 from core.state.functions import Function, Block, BlockType
 from core.state.state import GlobalState
-from core.tile import AbstractTileFactory, AbstractTile
+from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
 from core.util import generate_block, can_place_block, apply_block
 from core.value import I32
 
@@ -127,7 +124,7 @@ class LoopTileFactory(AbstractTileFactory):
 
         tile.generate_code = generate_code
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         return tile
 
@@ -219,7 +216,7 @@ class LoopTileFactory(AbstractTileFactory):
 
         tile.generate_code = generate_code
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         return tile
 

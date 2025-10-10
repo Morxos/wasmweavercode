@@ -107,6 +107,11 @@ class Constraints:
                 # If no existing constraint was found, append the new one
                 self.constraints.append(constraint)
 
+    def reset_all(self):
+        """Resets all constraints."""
+        for constraint in self.constraints:
+            constraint.reset()
+
     def divide_remaining_resources(self, constraint_type: ConstraintType, divisor: float):
         """Divides the remaining resources of a constraint type by a divisor."""
         for constraint in self.get_all_by_type(constraint_type):

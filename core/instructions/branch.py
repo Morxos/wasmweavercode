@@ -6,7 +6,7 @@ from pandas.core.internals import blocks
 from core.config.config import MIN_BLOCK_TILES, MIN_FUNCTION_TILES
 from core.state.functions import Function, Block, BlockType
 from core.state.state import GlobalState
-from core.tile import AbstractTileFactory, AbstractTile, BranchOperation
+from core.tile import AbstractTileFactory, AbstractTile, BranchOperation, wrap_apply_function
 from core.value import I32, Val
 
 
@@ -129,7 +129,7 @@ class AbstractBranchTileFactory(AbstractTileFactory):
 
 
         tile.generate_code = generate_code
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         tile.__repr__ = __repr__
         return tile
@@ -191,7 +191,7 @@ class AbstractBranchTileFactory(AbstractTileFactory):
 
 
         tile.generate_code = generate_code
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         tile.__repr__ = __repr__
         return tile
@@ -254,7 +254,7 @@ class AbstractBranchTileFactory(AbstractTileFactory):
 
 
         tile.generate_code = generate_code
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         tile.__repr__ = __repr__
         return tile

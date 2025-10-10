@@ -10,7 +10,6 @@ import torch
 from core.environment import WasmWeaverEnv
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
-from core.value import F64, F32, I64, I32, RefFunc
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
 from experiments.eval.models.openai_models import Gpt41
@@ -18,7 +17,8 @@ from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
-TOTAL_TIME_STEPS = 500_000
+
+TOTAL_TIME_STEPS = 1_000_000
 
 def main():
     gym.register(
@@ -26,22 +26,13 @@ def main():
         entry_point=WasmWeaverEnv,
     )
 
-
-    one_value = [[I32]]#*4 # To make all classes equal size
-    #two_value = [[I32,I32],[I32,I64],[I32,F32],[I32,F64],
-    #             [I64,I32],[I64,I64],[I64,F32],[I64,F64],
-    #             [F32,I32],[F32,I64],[F32,F32],[F32,F64],
-    #             [F64,I32],[F64,I64],[F64,F32],[F64,F64]]
-
-    all_output_classes = one_value #+ two_value
-
-    experiment_name = "3_result_estimation"
+    experiment_name = "5_pure"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
-                   output_types=all_output_classes, post_processor_types=[],
-                   forbidden_instruction_name_tokens=["load","store"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=True, model=Gpt41()),
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
+                   output_types=[[]], post_processor_types=[],
+                   forbidden_instruction_name_tokens=[],
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=False, model=None),
                    verbose=True)
 
 
@@ -57,9 +48,9 @@ def main():
                         verbose=1,
                         gamma=1.0,
                         tensorboard_log=f"{experiment_name}_tensorboard/",
-                        device="mps"
+                        device="cuda"
                         )
-
+    # Load the model if it exists
     try:
         load_model = input("Do you want to load a model? (y/n): ")
         if load_model.lower() == 'y':
@@ -68,12 +59,7 @@ def main():
         print(f"Error loading model: {e}")
         print("Starting training from scratch.")
 
-    try:
-        model.learn(total_timesteps=TOTAL_TIME_STEPS,callback=[PartialRewardCallback(), ProgressCallback(TOTAL_TIME_STEPS), SaveModelCallback(f"{experiment_name}_ppo_wasmweaver")])
-    except Exception as e:
-        model.save(f"{experiment_name}_ppo_wasmweaver")
-        raise e
-
+    model.learn(total_timesteps=TOTAL_TIME_STEPS,callback=[PartialRewardCallback(), ProgressCallback(TOTAL_TIME_STEPS), SaveModelCallback(f"{experiment_name}_ppo_wasmweaver")])
     model.save(f"{experiment_name}_ppo_wasmweaver")
 
 

@@ -11,11 +11,12 @@ from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
+from experiments.eval.models.openai_models import Gpt41
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
-TOTAL_TIME_STEPS = 500_000
+TOTAL_TIME_STEPS = 200_000
 
 def main():
     gym.register(
@@ -27,10 +28,10 @@ def main():
     experiment_name = "1_stack_effect"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(10, 50), FuelConstraint(10, 50)],
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=[[]], post_processor_types=[StackInspectorPostProcessor],
                    forbidden_instruction_name_tokens=["load","store","condition","loop","block","function","br","br_if", "br_table","return"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",target_trace_length=30),
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=True, flag_reward=False, result_reward=False, model=Gpt41()),
                    verbose=True)
 
 
@@ -40,13 +41,14 @@ def main():
     )
 
     model = MaskablePPO(CustomMaskablePolicy,
-                env,
-                policy_kwargs=policy_kwargs,
-                verbose=0,
-                ent_coef=0.02,
-                tensorboard_log=f"{experiment_name}_tensorboard/",
-                device="cuda"
-                )
+                        env,
+                        ent_coef=1e-3,
+                        policy_kwargs=policy_kwargs,
+                        verbose=1,
+                        gamma=1.0,
+                        tensorboard_log=f"{experiment_name}_tensorboard/",
+                        device="mps"
+                        )
     opt = model.policy.optimizer  # works for PPO/MaskablePPO
 
     for i, g in enumerate(opt.param_groups):

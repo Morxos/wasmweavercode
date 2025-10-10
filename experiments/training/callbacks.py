@@ -7,7 +7,7 @@ class ProgressCallback(BaseCallback):
         self.total_steps = total_steps
 
     def _on_step(self) -> bool:
-        frac = self.num_timesteps / self.total_steps  # 0 … 1
+        frac = self.num_timesteps
         # send the fraction into the env so it can schedule rewards
         if hasattr(self.training_env, "env_method"):
             self.training_env.env_method("set_progress", frac)

@@ -1,6 +1,6 @@
 MAX_FUNCTIONS_PER_MODULE = 5  # This limits the max number of distinct functions per module
-MAX_FUNCTION_CALL_DEPTH = 5  # This limits the max depth of e.g. function calls
-MAX_BLOCKS_PER_FUNCTION = 10  # This limits the max number of blocks per function
+MAX_FUNCTION_CALL_DEPTH = 15  # This limits the max depth of e.g. function calls
+MAX_BLOCKS_PER_FUNCTION = 5  # This limits the max number of blocks per function
 MAX_IF_ELSE_PER_BLOCK = 5  # This limits the max number of if-else statements per block
 MAX_LOCALS_PER_FUNCTION = 5  # This limits the max number of local variables per function
 MAX_GLOBALS_PER_MODULE = 5  # This limits the max number of global variables per module

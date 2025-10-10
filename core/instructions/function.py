@@ -7,7 +7,7 @@ from core.config.config import MAX_FUNCTIONS_PER_MODULE, FUNCTIONS_MIN_FUEL_AVAI
 from core.constraints import FuelConstraint, ByteCodeSizeConstraint
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
-from core.tile import AbstractTileFactory, AbstractTile
+from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
 from core.util import generate_function, stack_matches, apply_function, can_place_function
 from core.value import get_random_val, RefFunc, I32
 
@@ -72,7 +72,7 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
         def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
             return f"call ${name}"
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         tile.generate_code = generate_code
         return tile
@@ -99,7 +99,7 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
             nonlocal name
             return f"call ${name}"
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(function_can_be_placed)
         tile.get_byte_code_size = lambda s: 1
         tile.get_fuel_cost = lambda s: 1
@@ -143,12 +143,12 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
         def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
             return f"(call_indirect (table ${table_name}) (type ${current_state.functions.get(function_name).get_sig_name()}))"
 
-        tile.apply = apply
-        function = global_state.functions.get(function_name)
+        tile.apply = wrap_apply_function(apply)
+        #function = global_state.functions.get(function_name)
         tile.can_be_placed = staticmethod(function_can_be_placed)
-        tile.get_byte_code_size = function.get_byte_code_size
-        tile.get_fuel_cost = function.get_fuel_cost
-        tile.get_response_time = function.get_response_time
+        tile.get_byte_code_size = lambda s: 1
+        tile.get_fuel_cost = lambda s: 1
+        tile.get_response_time = lambda s: 0.0001
         tile.generate_code = generate_code
         return tile
 
@@ -168,7 +168,7 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
             return f"ref.func ${function.name}"
 
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(function_can_be_placed)
         tile.generate_code = generate_code
         return tile
@@ -177,19 +177,19 @@ class AbstractFunctionTileFactory(AbstractTileFactory):
         """Generates all function tiles that can be placed in the current state"""
         function_tiles = []
         #Generate the tile
-        print("Checking function call tiles")
+        #print("Checking function call tiles")
         for function in current_state.functions.functions.values():
             if not self.create_function_call_tile(function.name,function.index).can_be_placed(current_state, current_function, current_blocks):
                 continue
             function_tiles.append(self.create_function_call_tile(function.name,function.index))
         #Function reference to stack
-        print("Checking function ref to stack tiles")
+        #print("Checking function ref to stack tiles")
         for function in current_state.functions.functions.values():
             if not self.create_function_ref_to_stack_tile(function).can_be_placed(current_state, current_function, current_blocks):
                 continue
             function_tiles.append(self.create_function_ref_to_stack_tile(function))
         #Function indirect call
-        print("Checking indirect call tiles")
+       # print("Checking indirect call tiles")
         for table_name, table in current_state.tables.tables.items():
             for elem_index, elem in enumerate(table.elements):
 

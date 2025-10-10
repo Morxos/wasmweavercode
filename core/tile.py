@@ -15,6 +15,17 @@ class BranchOperation:
         self.return_values = return_values
 
 global_apply_callbacks = []
+global_end_callbacks = []
+
+def wrap_apply_function(apply_func):
+    def wrapped_apply(self, *args, **kwargs):
+        for callback in global_apply_callbacks:
+            callback(self, *args, **kwargs)
+        res = apply_func(self, *args, **kwargs)
+        for callback in global_end_callbacks:
+            callback(self, *args, **kwargs)
+        return res
+    return wrapped_apply
 
 class ApplyMeta(type):
     def __new__(cls, name, bases, attrs):
@@ -24,7 +35,10 @@ class ApplyMeta(type):
             def wrapped_apply(self, *args, **kwargs):
                 for callback in global_apply_callbacks:
                     callback(self, *args, **kwargs)
-                return orig_apply(self, *args, **kwargs)
+                res = orig_apply(self, *args, **kwargs)
+                for callback in global_end_callbacks:
+                    callback(self, *args, **kwargs)
+                return res
 
             attrs['apply'] = wrapped_apply
 

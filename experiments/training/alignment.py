@@ -37,9 +37,9 @@ def main():
     experiment_name = "4_alignment"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 10000), FuelConstraint(0, 100)],
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
                    output_types=[[]], post_processor_types=[],
-                   forbidden_instruction_name_tokens=["loop"],
+                   forbidden_instruction_name_tokens=[],
                    reward_function=SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=False, depth_reward=False,alignment_only=True),
                    verbose=True)
 

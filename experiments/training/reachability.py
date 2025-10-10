@@ -12,12 +12,13 @@ from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
+from experiments.eval.models.openai_models import Gpt41
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
 
-TOTAL_TIME_STEPS = 500_000
+TOTAL_TIME_STEPS = 200_000
 
 def main():
     gym.register(
@@ -31,7 +32,7 @@ def main():
                    constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
                    output_types=[[]], post_processor_types=[FlagReachabilityPostProcessor],
                    forbidden_instruction_name_tokens=["load","store","loop"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=True, depth_reward=True, target_trace_length=70),
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=True, result_reward=False, model=Gpt41()),
                    verbose=True)
 
 
@@ -41,13 +42,14 @@ def main():
     )
 
     model = MaskablePPO(CustomMaskablePolicy,
-                env,
-                policy_kwargs=policy_kwargs,
-                ent_coef=0.02,
-                verbose=0,
-                tensorboard_log=f"{experiment_name}_tensorboard/",
-                device="cuda"
-                )
+                        env,
+                        ent_coef=1e-3,
+                        policy_kwargs=policy_kwargs,
+                        verbose=1,
+                        gamma=1.0,
+                        tensorboard_log=f"{experiment_name}_tensorboard/",
+                        device="mps"
+                        )
     # Load the model if it exists
     try:
         load_model = input("Do you want to load a model? (y/n): ")

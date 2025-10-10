@@ -5,7 +5,7 @@ from core.config.config import MAX_BLOCKS_PER_FUNCTION, \
     MAX_BLOCK_INPUTS, MAX_BLOCK_OUTPUTS
 from core.state.functions import Function, Block, BlockType
 from core.state.state import GlobalState
-from core.tile import AbstractTileFactory, AbstractTile
+from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
 from core.util import generate_block, apply_block, can_place_block
 from core.value import get_random_val
 
@@ -80,7 +80,7 @@ class AbstractBlockTileFactory(AbstractTileFactory):
 
 
 
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         return tile
 

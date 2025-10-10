@@ -1,4 +1,5 @@
 import random
+from typing import List
 
 import numpy as np
 
@@ -50,7 +51,7 @@ class StackInspectorPostProcessor(AbstractPostProcessor):
 
 class FlagReachabilityPostProcessor(AbstractPostProcessor):
     def __init__(self, max_flags: int = 5):
-        self.flag_tiles = []
+        self.flag_tiles : List[ReachabilityFlagTile] = []
         self.absolute_position_in_binary = []
         self.tile_arrays = []
         self.max_flags = max_flags

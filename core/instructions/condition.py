@@ -7,7 +7,7 @@ from core.config.config import MAX_BLOCKS_PER_FUNCTION, IF_ELSE_MIN_FUEL_AVAILAB
 from core.constraints import FuelConstraint, ByteCodeSizeConstraint
 from core.state.functions import Function, Block, BlockType
 from core.state.state import GlobalState
-from core.tile import AbstractTileFactory, AbstractTile
+from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
 from core.util import generate_block, can_place_block, apply_block
 from core.value import I32, get_random_val
 
@@ -91,7 +91,7 @@ class ConditionTileFactory(AbstractTileFactory):
 
         tile.generate_code = lambda se, st, f, bs: tile.if_block.generate_code(st, f, bs) + tile.else_block.generate_code(
             st, f, bs)
-        tile.apply = apply
+        tile.apply = wrap_apply_function(apply)
         tile.can_be_placed = staticmethod(can_be_placed)
         return tile
 
