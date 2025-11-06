@@ -18,7 +18,7 @@ from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
 
-TOTAL_TIME_STEPS = 1_000_000
+TOTAL_TIME_STEPS = 10_000_000
 
 def main():
     gym.register(
@@ -29,7 +29,7 @@ def main():
     experiment_name = "5_pure"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=[[]], post_processor_types=[],
                    forbidden_instruction_name_tokens=[],
                    reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=False, model=None),
@@ -43,12 +43,12 @@ def main():
 
     model = MaskablePPO(CustomMaskablePolicy,
                         env,
-                        ent_coef=1e-3,
+                        ent_coef=0.01,
                         policy_kwargs=policy_kwargs,
                         verbose=1,
                         gamma=1.0,
                         tensorboard_log=f"{experiment_name}_tensorboard/",
-                        device="cuda"
+                        device="mps"
                         )
     # Load the model if it exists
     try:

@@ -287,6 +287,7 @@ class WasmWeaverEnv(gym.Env):
         binary_constraints: ByteCodeSizeConstraint = self.init_state.constraints[ByteCodeSizeConstraint]
         self.current_fuel_target = random.randint(max(1,fuel_constraints.min_target), fuel_constraints.max_target)
         self.current_binary_size_target = random.randint(max(1,binary_constraints.min_target), binary_constraints.max_target)
+        self.current_depth_target = random.randint(1,5)
         self.thread = threading.Thread(target=self.generate, daemon=True)
         self.thread.start()
 
@@ -299,7 +300,9 @@ class WasmWeaverEnv(gym.Env):
         self.global_state_ready.acquire()
         done = False
         truncated = False
-        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state,self.last_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type,dynamic_targets={"fuel_target":self.current_fuel_target, "binary_size_target":self.current_binary_size_target})
+        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state,self.last_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type,dynamic_targets={"fuel_target":self.current_fuel_target,
+                                                                                                                                                                                                                       "binary_size_target":self.current_binary_size_target,
+                                                                                                                                                                                                                       "depth_target":self.current_depth_target})
         if isinstance(self.finish_state, Exception):
             done = True
         elif self.finish_state == "Success":
@@ -320,6 +323,10 @@ class WasmWeaverEnv(gym.Env):
                 (
                 self.current_binary_size_target,
                 self.current_state.constraints[ByteCodeSizeConstraint].max_target
+                ),
+                (
+                self.current_depth_target,
+                5
                 )
             ]),
             "locals": self.locals_embedder(self.current_state.stack.get_current_frame().locals,self.current_state),
@@ -413,6 +420,10 @@ class WasmWeaverEnv(gym.Env):
                 (
                     self.current_binary_size_target,
                     self.current_state.constraints[ByteCodeSizeConstraint].max_target
+                ),
+                (
+                    self.current_depth_target,
+                    5
                 )
             ]),
             "current_block": self.block_embedder(

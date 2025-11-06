@@ -13,7 +13,7 @@ from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProc
 from core.value import F64, F32, I64, I32, RefFunc
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
-from experiments.eval.models.openai_models import Gpt41
+from experiments.eval.models.openai_models import Gpt41, O3Mini
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
@@ -41,7 +41,7 @@ def main():
                    constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=all_output_classes, post_processor_types=[],
                    forbidden_instruction_name_tokens=["load","store"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=True, model=Gpt41()),
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=True, model=O3Mini()),
                    verbose=True)
 
 

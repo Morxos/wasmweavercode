@@ -11,11 +11,11 @@ deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4o")
 
 
 
-class O4Mini(Model):
+class O3Mini(Model):
     def __init__(self):
-        self.name = "o4-mini"
+        self.name = "o3-mini"
         self.platform = "openai"
-        self.dir_name = "o4_mini"
+        self.dir_name = "o3-mini"
         token_provider = get_bearer_token_provider(
             DefaultAzureCredential(),
             "https://cognitiveservices.azure.com/.default"
@@ -28,12 +28,12 @@ class O4Mini(Model):
             )
 
     def predict(self, prompt: str):
-        print("Predicting with O4Mini...")
+        print("Predicting with O3Mini...")
         print(prompt)
         response = self.client.chat.completions.create(
             model=self.name,
             messages=[{'role': 'user', 'content': prompt}],
-            max_tokens=16384
+            max_completion_tokens=100000
         )
 
 

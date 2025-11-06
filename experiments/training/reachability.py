@@ -12,13 +12,13 @@ from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
-from experiments.eval.models.openai_models import Gpt41
+from experiments.eval.models.openai_models import Gpt41, O3Mini
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
 random.seed(0)
 
-TOTAL_TIME_STEPS = 200_000
+TOTAL_TIME_STEPS = 500_000
 
 def main():
     gym.register(
@@ -31,8 +31,8 @@ def main():
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
                    constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
                    output_types=[[]], post_processor_types=[FlagReachabilityPostProcessor],
-                   forbidden_instruction_name_tokens=["load","store","loop"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=True, result_reward=False, model=Gpt41()),
+                   forbidden_instruction_name_tokens=["load","store","loop","f64","f32"],
+                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples", stack_reward=False, flag_reward=True, result_reward=False, model=Gpt41()),
                    verbose=True)
 
 

@@ -57,8 +57,15 @@ class PartialRewardCallback(BaseCallback):
                     self.reward_count_dict[key] += 1
         return True
 
-def calc_fuel_reward(fuel_used, target_fuel):
+def calc_diff_reward(fuel_used, target_fuel):
     return math.exp(-abs((fuel_used / target_fuel) - 1))
+
+def calculate_dynamic_cyclomatic_complexity(trace: List[str]):
+    decisions = 0
+    for inst in trace:
+        if inst in ["START_ConditionTile","START_LoopTile","START_BrTableTile","START_BrIfTile"]:
+            decisions += 1
+    return decisions/math.sqrt(len(trace))
 
 def calculate_max_dynamic_depth(trace: List[str]):
     depth = 0
@@ -70,7 +77,7 @@ def calculate_max_dynamic_depth(trace: List[str]):
             depth -= 1
         if depth > max_depth:
             max_depth = depth
-    return max_depth/MAX_FUNCTION_CALL_DEPTH
+    return max_depth
 
 def calculate_dynamic_decision_events(trace: List[str]):
     decisions = 0
@@ -174,6 +181,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
 
         if finish_state == "Success":
             target_fuel = dynamic_targets["fuel_target"]
+            depth_target = dynamic_targets.get("depth_target", None)
             if self.stack_reward:
                 stack_post_processor: StackInspectorPostProcessor = run_result.post_processors[0]
                 values = stack_post_processor.stack_inspector_tile.stack_values
@@ -196,6 +204,8 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 result_dict = {
                     "step":p,
                     "reward":reward,
+                    "stack_values": [{"type":val.get_wasm_type(),"value":str(val.value)} for val in values],
+                    "wat_str": wat_str,
                     "result":res,
                     "response":resp,
                     "meta_dict":meta_dict,
@@ -229,6 +239,8 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     os.makedirs( os.path.join(directory) )
                 result_dict = {
                     "step":p,
+                    "wasm_flags": target_dict,
+                    "wasm_string": wat_str,
                     "reward":reward,
                     "result":res,
                     "response":resp,
@@ -269,20 +281,21 @@ class SimpleRewardFunction(AbstractRewardFunction):
 
             else:
 
-                length_reward = calc_fuel_reward(run_result.fuel, target_fuel)
+                length_reward = calc_diff_reward(run_result.fuel, target_fuel)
+
                 #binary_length = len(wat_to_wasm(wat_str))
                 module_reward, bucket_reward, trigram_reward = self.corpus.get_similarity(wat_str)
 
                 #Dynamic nesting depth reward
                 trace = generate_trace_list(global_state)
-                dynamic_depth_reward = calculate_max_dynamic_depth(trace)
+
+                depth_reward = calc_diff_reward(calculate_max_dynamic_depth(trace), depth_target)
                 #dynamic_call_depth_reward = calculate_max_dynamic_call_depth(trace)
                 #dynamic_decision_events = math.tanh(calculate_dynamic_decision_events(trace))
                 #loop_instruction_count = math.tanh(loop_total_instruction_count(trace))
                 #struct_reward = dynamic_depth_reward + dynamic_call_depth_reward + dynamic_decision_events + loop_instruction_count
-                combined_reward = length_reward + module_reward + dynamic_depth_reward*100
+                combined_reward = calculate_dynamic_cyclomatic_complexity(trace) + length_reward + module_reward
                 #Save to file
-                print("P",p)
                 name = str(p)+"_"+str(combined_reward)+".json"
                 #Check if directory exists
                 directory = other_name
@@ -298,7 +311,9 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "target_fuel": target_fuel,
                     "module_reward": module_reward,
                     "bucket_reward": bucket_reward,
-                    "dynamic_depth_reward": dynamic_depth_reward,
+                    "dynamic_depth_reward": depth_reward,
+                    "depth_target": depth_target,
+                    "dynamic_cyclomatic_complexity": calculate_dynamic_cyclomatic_complexity(trace),
                 }
                 #Save to json
                 json.dump(result_dict, open(os.path.join(directory, name), "w"))
@@ -306,11 +321,13 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 return combined_reward, {
                     "length_reward": length_reward,
                     "length_abs_diff": abs((run_result.fuel-target_fuel)),
+                    "depth_abs_diff": abs((calculate_max_dynamic_depth(trace)-depth_target)),
                     "target_fuel": target_fuel,
                     "used_fuel": run_result.fuel,
                     "module_reward": module_reward,
                     "bucket_reward": bucket_reward,
-                    "dynamic_depth_reward": dynamic_depth_reward,
+                    "dynamic_depth_reward": depth_reward,
+                    "dynamic_cyclomatic_complexity": calculate_dynamic_cyclomatic_complexity(trace),
                 }
             #return combined_reward, {"length_reward": length_reward,
             #                       "length_abs_diff": abs((run_result.fuel-target_fuel)),
