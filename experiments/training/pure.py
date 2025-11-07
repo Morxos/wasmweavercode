@@ -29,7 +29,7 @@ def main():
     experiment_name = "5_pure"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
+                   constraints=[ByteCodeSizeConstraint(10, 500), FuelConstraint(10, 50)],
                    output_types=[[]], post_processor_types=[],
                    forbidden_instruction_name_tokens=[],
                    reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=False, model=None),

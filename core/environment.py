@@ -16,6 +16,7 @@ import sys
 
 from torch.fx.experimental.migrate_gradual_types.constraint import BinaryConstraint
 
+from curriculum import CurriculumInstance
 from drl.embedder.targets import TargetsEmbedder
 
 sys.setrecursionlimit(20000)  # use with caution
@@ -179,6 +180,25 @@ class WasmWeaverEnv(gym.Env):
         self.abstract_reward_function = reward_function
         self.verbose = verbose
 
+        fuel_constraints: FuelConstraint = None
+        for constraint in self.constraints:
+            if isinstance(constraint, FuelConstraint):
+                fuel_constraints = constraint
+                break
+
+        def update_max_fuel(val):
+            nonlocal fuel_constraints
+            fuel_constraints.max_target = val
+
+        self.curriculum = CurriculumInstance(step_sizes=[10, 1],
+                                             objective_mins=[fuel_constraints.min_target, 1],
+                                             objective_maxs=[fuel_constraints.max_target, 10],
+                                             objective_starts=[fuel_constraints.min_target, 1],
+                                            constraints_update=[update_max_fuel, None])
+
+
+
+
     def set_progress(self, frac: float):
         """Sets the progress of the training"""
         self.p = frac
@@ -283,11 +303,7 @@ class WasmWeaverEnv(gym.Env):
         self.global_state_ready = threading.Semaphore(0)
         self.action_ready = threading.Semaphore(0)
         #Get fuel size constraint
-        fuel_constraints: FuelConstraint = self.init_state.constraints[FuelConstraint]
-        binary_constraints: ByteCodeSizeConstraint = self.init_state.constraints[ByteCodeSizeConstraint]
-        self.current_fuel_target = random.randint(max(1,fuel_constraints.min_target), fuel_constraints.max_target)
-        self.current_binary_size_target = random.randint(max(1,binary_constraints.min_target), binary_constraints.max_target)
-        self.current_depth_target = random.randint(1,5)
+        self.curriculum.draw_next_values()
         self.thread = threading.Thread(target=self.generate, daemon=True)
         self.thread.start()
 
@@ -300,9 +316,7 @@ class WasmWeaverEnv(gym.Env):
         self.global_state_ready.acquire()
         done = False
         truncated = False
-        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state,self.last_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type,dynamic_targets={"fuel_target":self.current_fuel_target,
-                                                                                                                                                                                                                       "binary_size_target":self.current_binary_size_target,
-                                                                                                                                                                                                                       "depth_target":self.current_depth_target})
+        reward, reward_dict = self.abstract_reward_function(self.finish_state, self.current_state,self.last_state, self.current_code_str,self.current_run_result,self.p, self.last_selected_tile_type,dynamic_targets=self.curriculum)
         if isinstance(self.finish_state, Exception):
             done = True
         elif self.finish_state == "Success":
@@ -315,20 +329,7 @@ class WasmWeaverEnv(gym.Env):
                 len(self.current_blocks)),
             "current_stack": self.stack_embedder(self.current_state.stack, self.current_state),
             "constraints": self.constraints_embedder(self.current_state.constraints.constraints),
-            "targets": self.target_embedder([
-                (
-                self.current_fuel_target,
-                self.current_state.constraints[FuelConstraint].max_target
-                ),
-                (
-                self.current_binary_size_target,
-                self.current_state.constraints[ByteCodeSizeConstraint].max_target
-                ),
-                (
-                self.current_depth_target,
-                5
-                )
-            ]),
+            "targets": self.target_embedder(self.curriculum.get_current_objective_values_with_max()),
             "locals": self.locals_embedder(self.current_state.stack.get_current_frame().locals,self.current_state),
             "globals": self.globals_embedder(self.current_state.globals,self.current_state),
             "tables": self.tables_embedder(self.current_state.tables,self.current_state),
@@ -412,20 +413,7 @@ class WasmWeaverEnv(gym.Env):
             "current_function": self.function_embedder(self.current_function),
             "current_stack": self.stack_embedder(self.current_state.stack,self.current_state),
             "constraints": self.constraints_embedder(self.current_state.constraints.constraints),
-            "targets": self.target_embedder([
-                (
-                    self.current_fuel_target,
-                    self.current_state.constraints[FuelConstraint].max_target
-                ),
-                (
-                    self.current_binary_size_target,
-                    self.current_state.constraints[ByteCodeSizeConstraint].max_target
-                ),
-                (
-                    self.current_depth_target,
-                    5
-                )
-            ]),
+            "targets": self.target_embedder(self.curriculum.get_current_objective_values_with_max()),
             "current_block": self.block_embedder(
                 self.current_blocks[-1] if self.current_blocks else Block("origin", 0, BlockType.UNDEFINED),
                 len(self.current_blocks)),

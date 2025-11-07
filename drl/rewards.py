@@ -15,6 +15,7 @@ from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProc
 from core.runner import AbstractRunResult
 from core.state.state import GlobalState
 from core.tile import AbstractTile
+from curriculum import CurriculumInstance
 from drl.cache import ProgramCache
 from experiments.eval.judge import judge_wasm_result_string
 from experiments.eval.models.model import Model
@@ -23,7 +24,7 @@ from experiments.eval.models.openai_models import Gpt41
 GLOBAL_CORPUS = ProgramCorpus()
 class AbstractRewardFunction:
 
-    def __call__(self, finish_state: str | Exception, global_state: GlobalState,last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets:Dict = None):
+    def __call__(self, finish_state: str | Exception, global_state: GlobalState,last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets:CurriculumInstance = None):
         return 0
 
 class PartialRewardCallback(BaseCallback):
@@ -122,8 +123,9 @@ class SimpleRewardFunction(AbstractRewardFunction):
         self.flag_reward = flag_reward
         self.result_reward = result_reward
         self.model = model
+        self.good_samples = 0
 
-    def __call__(self, finish_state: str | Exception, global_state: GlobalState, last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets:Dict = None):
+    def __call__(self, finish_state: str | Exception, global_state: GlobalState, last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets: CurriculumInstance = None):
         #fuel_constraint = global_state.constraints[FuelConstraint]
         #print("Fuel stats:",global_state.constraints[FuelConstraint].resource, last_global_state.constraints[FuelConstraint].resource, len(global_state.stack.stack_frames))
 
@@ -174,14 +176,18 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "step": p,
                     "reward": -1,
                 }
+                self.good_samples  = max(0,self.good_samples-1)
+                print("Good samples so far:", self.good_samples)
                 name = str(p) + "_" + str(-1) + ".json"
                 with open(os.path.join(directory, name), "w") as f:
                     json.dump(result_dict, f)
             return -1, None
 
         if finish_state == "Success":
-            target_fuel = dynamic_targets["fuel_target"]
-            depth_target = dynamic_targets.get("depth_target", None)
+            target_fuel = dynamic_targets.current_objective_values[0]
+            depth_target = dynamic_targets.current_objective_values[1]
+            print("Target fuel:", target_fuel)
+            print("Depth target:", depth_target)
             if self.stack_reward:
                 stack_post_processor: StackInspectorPostProcessor = run_result.post_processors[0]
                 values = stack_post_processor.stack_inspector_tile.stack_values
@@ -212,6 +218,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 }
                 #Save to json
                 json.dump(result_dict, open(os.path.join(directory, name), "w"))
+
                 return reward, {}
 
             elif self.flag_reward:
@@ -238,7 +245,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 if not os.path.exists( os.path.join(directory) ):
                     os.makedirs( os.path.join(directory) )
                 result_dict = {
-                    "step":p,
+                    "step": p,
                     "wasm_flags": target_dict,
                     "wasm_string": wat_str,
                     "reward":reward,
@@ -294,7 +301,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 #dynamic_decision_events = math.tanh(calculate_dynamic_decision_events(trace))
                 #loop_instruction_count = math.tanh(loop_total_instruction_count(trace))
                 #struct_reward = dynamic_depth_reward + dynamic_call_depth_reward + dynamic_decision_events + loop_instruction_count
-                combined_reward = calculate_dynamic_cyclomatic_complexity(trace) + length_reward + module_reward
+                combined_reward = depth_reward + length_reward + module_reward
                 #Save to file
                 name = str(p)+"_"+str(combined_reward)+".json"
                 #Check if directory exists
@@ -310,6 +317,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "used_fuel": run_result.fuel,
                     "target_fuel": target_fuel,
                     "module_reward": module_reward,
+                    "good_samples": self.good_samples,
                     "bucket_reward": bucket_reward,
                     "dynamic_depth_reward": depth_reward,
                     "depth_target": depth_target,
@@ -317,6 +325,13 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 }
                 #Save to json
                 json.dump(result_dict, open(os.path.join(directory, name), "w"))
+
+                if combined_reward > 2.5:
+                    self.good_samples += 1
+                    print("Good samples so far:", self.good_samples)
+                if self.good_samples > 100:
+                    dynamic_targets.increase_difficulty()
+                    self.good_samples = 0
 
                 return combined_reward, {
                     "length_reward": length_reward,
@@ -329,18 +344,4 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "dynamic_depth_reward": depth_reward,
                     "dynamic_cyclomatic_complexity": calculate_dynamic_cyclomatic_complexity(trace),
                 }
-            #return combined_reward, {"length_reward": length_reward,
-            #                       "length_abs_diff": abs((run_result.fuel-target_fuel)),
-            #                         "binary_size_abs_diff": abs((binary_length-target_binary_size)),
-            #                       "target_fuel": target_fuel,
-            #                          "target_binary_size": target_binary_size,
-            #                       "used_fuel": run_result.fuel,
-            #                       "module_reward": module_reward,
-            #                       "bucket_reward": bucket_reward,
-            #                         "struct_reward": struct_reward,
-            #                         "dynamic_depth_reward": dynamic_depth_reward,
-            #                            "dynamic_call_depth_reward": dynamic_call_depth_reward,
-            #                            "dynamic_decision_events": dynamic_decision_events,
-            #                            "loop_instruction_count": loop_instruction_count,
-            #                          "trigram_reward": trigram_reward}
-        #raise Exception("Should not reach here")
+
