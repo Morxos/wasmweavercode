@@ -1,5 +1,8 @@
+import math
 import os
 import json
+from typing import List
+
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import ScalarFormatter, FuncFormatter
@@ -7,11 +10,34 @@ from scipy.stats import binned_statistic
 
 #Stack first
 
+def calculate_max_dynamic_depth(trace: List[str]):
+    depth = 0
+    max_depth = 0
+    for inst in trace:
+        if inst in ["START_BlockTile", "START_LoopTile", "START_ConditionTile", "START_CreateFunctionTile","START_FunctionCallTile","START_FunctionIndirectCallTile"]:
+            depth += 1
+        elif inst in ["END_BlockTile", "END_LoopTile", "END_ConditionTile", "END_CreateFunctionTile","END_FunctionCallTile","END_FunctionIndirectCallTile"]:
+            depth -= 1
+        if depth > max_depth:
+            max_depth = depth
+    return max_depth
+
+
+def calculate_dynamic_cyclomatic_complexity(trace: List[str]):
+    decisions = 0
+    for inst in trace:
+        if inst in ["START_ConditionTile","START_LoopTile","START_BrTableTile","START_BrIfTile"]:
+            decisions += 1
+    return decisions
+
 o3_stack_json_dict_samples = []
 o3_stack_dir = "flags_output_o3-mini"
 
 gpt4o_stack_json_dict_samples = []
 gpt4o_stack_dir = "flags_output_gpt_4_1"
+
+branching_instructions_o3 = {}
+branching_instructions_gpt4 = {}
 
 #Get all json files in the directory
 for file in os.listdir(o3_stack_dir):
@@ -104,20 +130,20 @@ o4_stack_values_smooth_centers, o4_stack_values_smooth = downsample_irregular(gp
 o4_stack_reward_invalid_smooth_centers, o4_stack_reward_invalid_smooth = downsample_irregular(gpt4o_stack_step_invalid, gpt4o_stack_reward_invalid, window=window_size, stat='mean', drop_empty=True)
 
 
-fig, ax = plt.subplots(figsize=(5, 2))
+fig, ax = plt.subplots(figsize=(6, 2))
 
-ax.plot(o3_stack_values_smooth_centers, o3_stack_values_smooth, color='tab:grey', label="o3-m. #S. Values", marker='s')
-ax.plot(o4_stack_values_smooth_centers, o4_stack_values_smooth, color='tab:brown', linestyle='dashed', label="4o #S. Values", marker='p')
 
-ax.plot(o4_stack_reward_smooth_centers, o4_stack_reward_smooth, label="4o #Errors", marker='v',color="tab:green")
-ax.plot(o3_stack_reward_smooth_centers, o3_stack_reward_smooth, label="o3-m. #Errors", marker='^',color="tab:blue")
+ax.plot(o4_stack_values_smooth_centers, o4_stack_values_smooth, color='tab:brown', label="# Flags (gpt-4o)", marker='p')
 
-ax.plot(o4_stack_reward_invalid_smooth_centers, o4_stack_reward_invalid_smooth, color='tab:orange', label="4o #Inv.", marker='+')
-ax.plot(o3_stack_reward_invalid_smooth_centers, o3_stack_reward_invalid_smooth, color='tab:red', label="o3-m. #Inv.", marker='x')
+ax.plot(o4_stack_reward_smooth_centers, o4_stack_reward_smooth, label="# Errors (gpt-4o)", marker='v',color="tab:green")
+
+
+ax.plot(o4_stack_reward_invalid_smooth_centers, o4_stack_reward_invalid_smooth, color='tab:orange', label="# Inv. (gpt-4o)", marker='+')
+
 
 
 ax.set_xlabel("Step")
-ax.set_xlim(0, 175_000)
+ax.set_xlim(0, 120_000)
 ax.grid(True)
 fig.tight_layout(rect=[0, 0.2, 1, 1])
 class CustomScalarFormatter(ScalarFormatter):
@@ -134,6 +160,32 @@ fig.legend(loc='upper center',
            bbox_to_anchor=(0.5,  0.3),   # y=0.05 is inside the free strip
            ncol=3, frameon=False)
 #Save figure
-fig.savefig("figures/llm_in_the_loop_flags_comparison.pdf")
+fig.savefig("figures/llm_in_the_loop_flags_comparison_gpt4.pdf")
 plt.show()
 
+fig, ax = plt.subplots(figsize=(5, 2))
+
+ax.plot(o3_stack_values_smooth_centers, o3_stack_values_smooth, color='tab:grey', label="# Flags (o3-m.)", marker='s')
+ax.plot(o3_stack_reward_smooth_centers, o3_stack_reward_smooth, label="# Errors (o3-m.)", marker='^',color="tab:blue")
+ax.plot(o3_stack_reward_invalid_smooth_centers, o3_stack_reward_invalid_smooth, color='tab:red', label="# Inv. (o3-m.)", marker='x')
+
+ax.set_xlabel("Step")
+ax.set_xlim(0, 120_000)
+ax.grid(True)
+fig.tight_layout(rect=[0, 0.2, 1, 1])
+class CustomScalarFormatter(ScalarFormatter):
+    def _set_format(self):  # Customize the format method
+        self.format = "%.1f"  # Ensure at least one decimal point
+formatter = CustomScalarFormatter()
+formatter.set_scientific(True)  # Enable scientific notation
+plt.gca().xaxis.set_major_formatter(formatter)
+
+# Force scientific notation
+plt.gca().ticklabel_format(style='sci', axis='x', scilimits=(0, 0))
+
+fig.legend(loc='upper center',
+           bbox_to_anchor=(0.5,  0.3),   # y=0.05 is inside the free strip
+           ncol=3, frameon=False)
+#Save figure
+fig.savefig("figures/llm_in_the_loop_flags_comparison_o3.pdf")
+plt.show()

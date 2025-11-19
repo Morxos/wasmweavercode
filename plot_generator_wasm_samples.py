@@ -19,15 +19,9 @@ for file in os.listdir(o3_stack_dir):
             print(data)
 
 
-o3_stack_step= [data["step"] for data in o3_stack_json_dict_samples  if data["reward"] != -1]
-o3_stack_reward = [data["module_reward"] for data in o3_stack_json_dict_samples if data["reward"] != -1]
-target_fuel = [data["used_fuel"] for data in o3_stack_json_dict_samples if data["reward"] != -1]
-used_fuel = [data["target_fuel"] for data in o3_stack_json_dict_samples if data["reward"] != -1]
-#Correlation index
-correlation_matrix = np.corrcoef(target_fuel, used_fuel)
-print(correlation_matrix)
-exit()
-o3_stack_values = [data["length_reward"] for data in o3_stack_json_dict_samples if data["reward"] != -1]
+o3_stack_step= [data["step"] for data in o3_stack_json_dict_samples]
+o3_stack_reward = [data["module_reward"] if "module_reward" in data else 0 for data in o3_stack_json_dict_samples]
+o3_stack_values = [data["length_reward"] if "length_reward" in data else 0 for data in o3_stack_json_dict_samples]
 
 
 o3_stack_step_invalid= [data["step"] for data in o3_stack_json_dict_samples]
@@ -89,17 +83,17 @@ o3_stack_reward_invalid_smooth_centers, o3_stack_reward_invalid_smooth = downsam
 o3_stack_values_smooth_centers, o3_stack_values_smooth = downsample_irregular(o3_stack_step, o3_stack_values, window=window_size, stat='mean', drop_empty=True)
 
 
-fig, ax = plt.subplots(figsize=(5, 2))
+fig, ax = plt.subplots(figsize=(6, 2))
 
-ax.plot(o3_stack_values_smooth_centers, o3_stack_values_smooth, color='tab:grey', label="o3-m. #S. Values", marker='s')
+ax.plot(o3_stack_values_smooth_centers, o3_stack_values_smooth, color='tab:grey', label="Length Reward", marker='s')
 
-ax.plot(o3_stack_reward_smooth_centers, o3_stack_reward_smooth, label="o3-m. #Errors", marker='^',color="tab:blue")
+ax.plot(o3_stack_reward_smooth_centers, o3_stack_reward_smooth, label="Alignment Reward", marker='^',color="tab:blue")
 
-ax.plot(o3_stack_reward_invalid_smooth_centers, o3_stack_reward_invalid_smooth, color='tab:red', label="o3-m. #Inv.", marker='x')
+ax.plot(o3_stack_reward_invalid_smooth_centers, o3_stack_reward_invalid_smooth, color='tab:red', label="# Invalid Samples", marker='x')
 
 
 ax.set_xlabel("Step")
-#ax.set_xlim(0, 175_000)
+ax.set_xlim(0, 400_000)
 ax.grid(True)
 fig.tight_layout(rect=[0, 0.2, 1, 1])
 class CustomScalarFormatter(ScalarFormatter):
@@ -116,6 +110,6 @@ fig.legend(loc='upper center',
            bbox_to_anchor=(0.5,  0.3),   # y=0.05 is inside the free strip
            ncol=3, frameon=False)
 #Save figure
-fig.savefig("figures/llm_in_the_loop_flags_comparison.pdf")
+fig.savefig("figures/drl_rewards.pdf")
 plt.show()
 

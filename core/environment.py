@@ -193,7 +193,7 @@ class WasmWeaverEnv(gym.Env):
         self.curriculum = CurriculumInstance(step_sizes=[10, 1],
                                              objective_mins=[fuel_constraints.min_target, 1],
                                              objective_maxs=[fuel_constraints.max_target, 10],
-                                             objective_starts=[fuel_constraints.min_target, 1],
+                                             objective_starts=[fuel_constraints.max_target, 15],
                                             constraints_update=[update_max_fuel, None])
 
 

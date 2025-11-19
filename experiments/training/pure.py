@@ -29,7 +29,7 @@ def main():
     experiment_name = "5_pure"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(10, 500), FuelConstraint(10, 50)],
+                   constraints=[ByteCodeSizeConstraint(10, 5000), FuelConstraint(10, 500)],
                    output_types=[[]], post_processor_types=[],
                    forbidden_instruction_name_tokens=[],
                    reward_function=SimpleRewardFunction(f"{experiment_name}_samples",stack_reward=False, flag_reward=False, result_reward=False, model=None),
@@ -43,6 +43,7 @@ def main():
 
     model = MaskablePPO(CustomMaskablePolicy,
                         env,
+                        n_steps=1000000,
                         ent_coef=0.01,
                         policy_kwargs=policy_kwargs,
                         verbose=1,
@@ -60,7 +61,7 @@ def main():
         print("Starting training from scratch.")
 
     model.learn(total_timesteps=TOTAL_TIME_STEPS,callback=[PartialRewardCallback(), ProgressCallback(TOTAL_TIME_STEPS), SaveModelCallback(f"{experiment_name}_ppo_wasmweaver")])
-    model.save(f"{experiment_name}_ppo_wasmweaver")
+    model.save(f"{experiment_name}_ppo_wasmweaver_alt")
 
 
 if __name__ == '__main__':

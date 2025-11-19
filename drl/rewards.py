@@ -124,12 +124,13 @@ class SimpleRewardFunction(AbstractRewardFunction):
         self.result_reward = result_reward
         self.model = model
         self.good_samples = 0
+        self.mod_sample_output = 0
 
     def __call__(self, finish_state: str | Exception, global_state: GlobalState, last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets: CurriculumInstance = None):
         #fuel_constraint = global_state.constraints[FuelConstraint]
         #print("Fuel stats:",global_state.constraints[FuelConstraint].resource, last_global_state.constraints[FuelConstraint].resource, len(global_state.stack.stack_frames))
 
-        other_name = "other_output"
+        other_name = "other_output_500"
 
         if finish_state == None:
             return 0, None
@@ -179,8 +180,11 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 self.good_samples  = max(0,self.good_samples-1)
                 print("Good samples so far:", self.good_samples)
                 name = str(p) + "_" + str(-1) + ".json"
-                with open(os.path.join(directory, name), "w") as f:
-                    json.dump(result_dict, f)
+                if self.mod_sample_output % 1 == 0:
+                    with open(os.path.join(directory, name), "w") as f:
+                        json.dump(result_dict, f)
+                self.mod_sample_output += 1
+
             return -1, None
 
         if finish_state == "Success":
@@ -212,6 +216,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "reward":reward,
                     "stack_values": [{"type":val.get_wasm_type(),"value":str(val.value)} for val in values],
                     "wat_str": wat_str,
+                    "trace": generate_trace_list(global_state),
                     "result":res,
                     "response":resp,
                     "meta_dict":meta_dict,
@@ -247,7 +252,8 @@ class SimpleRewardFunction(AbstractRewardFunction):
                 result_dict = {
                     "step": p,
                     "wasm_flags": target_dict,
-                    "wasm_string": wat_str,
+                    "wat_string": wat_str,
+                    "trace": generate_trace_list(global_state),
                     "reward":reward,
                     "result":res,
                     "response":resp,
@@ -295,13 +301,14 @@ class SimpleRewardFunction(AbstractRewardFunction):
 
                 #Dynamic nesting depth reward
                 trace = generate_trace_list(global_state)
-
-                depth_reward = calc_diff_reward(calculate_max_dynamic_depth(trace), depth_target)
+                print("max block depth",global_state.get_max_block_depth())
+                depth_reward = calc_diff_reward(global_state.get_max_block_depth(), depth_target)
                 #dynamic_call_depth_reward = calculate_max_dynamic_call_depth(trace)
                 #dynamic_decision_events = math.tanh(calculate_dynamic_decision_events(trace))
                 #loop_instruction_count = math.tanh(loop_total_instruction_count(trace))
                 #struct_reward = dynamic_depth_reward + dynamic_call_depth_reward + dynamic_decision_events + loop_instruction_count
-                combined_reward = depth_reward + length_reward + module_reward
+                #combined_reward = depth_reward + length_reward + module_reward
+                combined_reward = module_reward + length_reward
                 #Save to file
                 name = str(p)+"_"+str(combined_reward)+".json"
                 #Check if directory exists
@@ -324,12 +331,15 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "dynamic_cyclomatic_complexity": calculate_dynamic_cyclomatic_complexity(trace),
                 }
                 #Save to json
-                json.dump(result_dict, open(os.path.join(directory, name), "w"))
 
-                if combined_reward > 2.5:
+                if self.mod_sample_output % 1 == 0:
+                    json.dump(result_dict, open(os.path.join(directory, name), "w"))
+                self.mod_sample_output += 1
+
+                if combined_reward > 0.5:
                     self.good_samples += 1
                     print("Good samples so far:", self.good_samples)
-                if self.good_samples > 100:
+                if self.good_samples > 1:
                     dynamic_targets.increase_difficulty()
                     self.good_samples = 0
 

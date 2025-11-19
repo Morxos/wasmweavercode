@@ -29,9 +29,9 @@ def main():
     experiment_name = "2_reachability"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 100)],
+                   constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=[[]], post_processor_types=[FlagReachabilityPostProcessor],
-                   forbidden_instruction_name_tokens=["load","store","loop","f64","f32"],
+                   forbidden_instruction_name_tokens=["load","store","loop","f64","f32","extend","trunc","wrap"],
                    reward_function=SimpleRewardFunction(f"{experiment_name}_samples", stack_reward=False, flag_reward=True, result_reward=False, model=Gpt41()),
                    verbose=True)
 
