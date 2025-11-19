@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 565 646948 anyref)
-  (elem (;0;) declare nullexternref)
-  (elem (;1;) (table 0) (i32.const 173) structref)
-  (data (;0;) "")
-)

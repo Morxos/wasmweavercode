@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 42 anyref ref.null struct)
-  (memory (;0;) i64 20 263669587142551)
-  (export "\u{22}j" (table 0))
-  (elem (;0;) (table 0) (i32.const 0) anyref)
-  (data (;0;) (i64.const 206237) "")
-)

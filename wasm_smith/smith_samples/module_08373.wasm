@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 243511 arrayref ref.null none)
-  (memory (;0;) 0 17405)
-  (global (;0;) (mut i64) i64.const -2435224795390211839)
-  (export "\u{1b}" (table 0))
-  (export "" (memory 0))
-  (export "\u{9e}" (memory 0))
-  (elem (;0;) nullfuncref)
-)

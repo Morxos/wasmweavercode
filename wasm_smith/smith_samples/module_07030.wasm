@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 1262 899201 exnref ref.null exn)
-  (export "Oqz" (table 0))
-)

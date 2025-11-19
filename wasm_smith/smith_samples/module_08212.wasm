@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 0 107107 nullref ref.null none)
-  (memory (;0;) 65360 65496 shared)
-  (global (;0;) (mut i32) i32.const -950549184 i32.const -1611990719 i32.const -492161312 i32.const -542416946 i32.const 2116162746 i32.const -145027750 i32.mul i32.mul i32.const -303993684 i32.add i32.add i32.const 378992306 i32.const -1458507715 i32.mul i32.sub i32.sub i32.add)
-  (global (;1;) i32 i32.const -1603656238)
-  (export "R" (memory 0))
-  (export "*(" (global 1))
-  (data (;0;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 0 439815 funcref)
-  (memory (;0;) 0 39132)
-  (global (;0;) f32 f32.const -0x1.40bf56p-92 (;=-0.0000000000000000000000000002530251;))
-  (global (;1;) f32 f32.const 0x1.1829c2p+33 (;=9400714000;))
-  (export "o" (global 1))
-  (elem (;0;) declare nullexternref)
-)

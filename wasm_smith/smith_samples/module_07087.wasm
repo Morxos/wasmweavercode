@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 3593 eqref)
-  (global (;0;) i64 i64.const -4728940504575206085)
-  (export "" (table 0))
-  (export "#c." (global 0))
-)

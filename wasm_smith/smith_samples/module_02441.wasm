@@ -1,5 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1223 39786747216691))
-  (import "}" "" (table (;0;) 0 nullexternref))
-  (elem (;0;) declare structref (ref.null struct) (ref.null struct))
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 eqref))
-  (global (;0;) f32 f32.const -0x1.a493bep+52 (;=-7398871000000000;))
-  (data (;0;) "")
-  (data (;1;) "")
-)

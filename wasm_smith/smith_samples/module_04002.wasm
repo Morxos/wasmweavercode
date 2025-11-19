@@ -1,9 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.52cc6ep+42 (;=5820515000000;))
-  (export "{" (global 0))
-  (export "P\u{1c}" (global 0))
-  (export "0J%R\u{1a}" (global 0))
-  (export "\u{19}" (global 0))
-  (export "\u{9}" (global 0))
-  (export "" (global 0))
-)

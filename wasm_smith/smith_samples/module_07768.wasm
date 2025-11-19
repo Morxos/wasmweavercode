@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 65 anyref)
-  (export "" (table 0))
-  (export "\u{7}?U" (table 0))
-  (elem (;0;) declare funcref (ref.null func))
-)

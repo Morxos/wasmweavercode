@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (table (;0;) 217 exnref ref.null exn)
-  (memory (;0;) 0)
-  (global (;1;) f64 global.get 0)
-  (export "\u{8}" (table 0))
-)

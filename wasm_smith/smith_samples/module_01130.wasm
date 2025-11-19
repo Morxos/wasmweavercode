@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 211 nullfuncref))
-  (global (;0;) (mut f32) f32.const -0x1.549f3cp+66 (;=-98177610000000000000;))
-  (global (;1;) (mut f32) f32.const -0x1.f8ade6p-52 (;=-0.0000000000000004377395;))
-  (data (;0;) "\11\ac")
-)

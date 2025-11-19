@@ -1,4 +1,0 @@
-(module
-  (import "c\u{6}y@" "" (table (;0;) i64 350 779006 nullfuncref))
-  (export "" (table 0))
-)

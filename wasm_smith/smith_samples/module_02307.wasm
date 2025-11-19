@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) i32))
-  (import "" "" (memory (;0;) i64 87 116328365600190))
-  (table (;0;) 0 418188 eqref)
-  (global (;1;) arrayref ref.null none)
-  (global (;2;) f32 f32.const -0x1.96a74cp+68 (;=-468839570000000000000;))
-  (export "_" (table 0))
-  (export "" (memory 0))
-)

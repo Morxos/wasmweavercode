@@ -1,8 +1,0 @@
-(module
-  (import "|" "" (table (;0;) 4534 877911 nullexternref))
-  (import "" "" (global (;0;) (mut funcref)))
-  (import "" "" (memory (;0;) i64 238))
-  (import "2" "" (global (;1;) (mut exnref)))
-  (global (;2;) (mut i64) i64.const 8160316475696783160)
-  (global (;3;) (mut arrayref) ref.null none)
-)

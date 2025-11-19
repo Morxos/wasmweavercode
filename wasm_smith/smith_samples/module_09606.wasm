@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 1378 arrayref)
-  (global (;0;) (mut i32) i32.const 1157888011)
-  (global (;1;) f64 f64.const -0x1.95495366082ebp+135 (;=-68955912638382840000000000000000000000000;))
-  (global (;2;) (mut i64) i64.const 9143196781086636569)
-  (global (;3;) (mut i32) i32.const -1307725050)
-  (global (;4;) (mut i64) i64.const 892187380394363200)
-  (data (;0;) "")
-)

@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (memory (;0;) i64 0 228832557390912)
-  (elem (;0;) arrayref (ref.null array))
-)

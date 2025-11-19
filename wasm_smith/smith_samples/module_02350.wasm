@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) exnref (ref.null exn))
-  (elem (;1;) declare anyref (ref.null none) (ref.null any) (ref.null any) (ref.null none) (ref.null none))
-  (elem (;2;) structref (ref.null none) (ref.null struct) (ref.null struct))
-)

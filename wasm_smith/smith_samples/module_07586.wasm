@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 2 871628 anyref ref.null none)
-  (memory (;0;) 320)
-  (elem (;0;) arrayref)
-  (elem (;1;) (table 0) (i64.const 0) structref (ref.null none))
-  (data (;0;) (i32.const 187) "")
-  (data (;1;) (i32.const 8984) "")
-)

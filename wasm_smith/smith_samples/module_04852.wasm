@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (import "4" "" (table (;0;) i64 6275 12231 arrayref))
-  (memory (;0;) 0 25677 shared)
-  (elem (;0;) (table 0) (i64.const 5567) nullref (ref.null none))
-  (elem (;1;) declare anyref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

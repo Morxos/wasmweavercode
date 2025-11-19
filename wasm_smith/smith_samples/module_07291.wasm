@@ -1,7 +1,0 @@
-(module
-  (elem (;0;) anyref (ref.null any) (ref.null any))
-  (elem (;1;) declare nullexternref)
-  (elem (;2;) declare exnref (ref.null exn))
-  (elem (;3;) declare nullexternref)
-  (elem (;4;) declare nullexternref)
-)

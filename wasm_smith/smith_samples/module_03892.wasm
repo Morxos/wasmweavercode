@@ -1,9 +1,0 @@
-(module
-  (import "O3G" "" (global (;0;) (mut i64)))
-  (import "^" "" (table (;0;) 5 914226 anyref))
-  (import "K\u{4d2}" "" (global (;1;) (mut f32)))
-  (memory (;0;) i64 8884 128837586477473 shared)
-  (export "f" (memory 0))
-  (elem (;0;) declare nullref)
-  (elem (;1;) (table 0) (i32.const 4) structref)
-)

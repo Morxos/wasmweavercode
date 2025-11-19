@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 2643 4286)
-  (export "" (memory 0))
-  (export "\u{f}$I\u{7f}" (memory 0))
-  (elem (;0;) declare eqref)
-)

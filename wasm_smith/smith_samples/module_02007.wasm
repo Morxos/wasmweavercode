@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 0 471223 funcref)
-  (memory (;0;) i64 0)
-  (export "" (table 0))
-  (export "u" (table 0))
-  (export "2" (table 0))
-  (elem (;0;) declare i31ref)
-  (data (;0;) "\b8")
-)

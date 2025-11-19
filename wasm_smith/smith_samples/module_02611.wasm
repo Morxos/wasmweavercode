@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 5842 803071 externref ref.null noextern)
-  (memory (;0;) 121 18459)
-  (global (;0;) f64 f64.const 0x1.b7ab2e4217c29p-280 (;=0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000008840702432641923;))
-  (global (;1;) (mut structref) ref.null struct)
-  (elem (;0;) (table 0) (i64.const 1975) nullexternref)
-  (elem (;1;) (table 0) (i64.const 33) externref)
-  (elem (;2;) declare i31ref (ref.null none))
-)

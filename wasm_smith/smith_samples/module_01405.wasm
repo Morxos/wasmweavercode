@@ -1,5 +1,0 @@
-(module
-  (import "`" "" (global (;0;) i31ref))
-  (table (;0;) i64 227 anyref ref.null i31)
-  (data (;0;) "")
-)

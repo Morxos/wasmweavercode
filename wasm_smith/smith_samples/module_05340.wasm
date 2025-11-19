@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 19 406925 structref))
-  (import "\u{7de}" "" (global (;0;) (mut f32)))
-  (global (;1;) i64 i64.const -8669211485992531385)
-  (elem (;0;) declare structref)
-)

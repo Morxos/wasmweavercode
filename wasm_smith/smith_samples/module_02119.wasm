@@ -1,5 +1,0 @@
-(module
-  (import "\u{13}Z" "" (table (;0;) i64 484 funcref))
-  (memory (;0;) i64 0)
-  (elem (;0;) i31ref (ref.null none) (ref.null i31))
-)

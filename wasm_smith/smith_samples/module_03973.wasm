@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 540 funcref)
-  (memory (;0;) 18 18408 shared)
-  (global (;0;) i64 i64.const -6834195526441241032)
-  (export "Lt0\u{10}^" (table 0))
-  (export "" (table 0))
-  (export "2" (table 0))
-  (data (;0;) (i32.const 356) "")
-)

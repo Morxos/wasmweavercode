@@ -1,8 +1,0 @@
-(module
-  (import "P" "" (table (;0;) 3 163806 nullfuncref))
-  (export "x" (table 0))
-  (elem (;0;) nullfuncref)
-  (elem (;1;) declare anyref (ref.null array))
-  (elem (;2;) (table 0) (i32.const 0) nullfuncref)
-  (data (;0;) "\91")
-)

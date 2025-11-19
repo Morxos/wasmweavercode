@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) i64 185 nullref ref.null none)
-  (memory (;0;) 6651)
-  (export "`4" (memory 0))
-  (export "l|_\u{17}[" (memory 0))
-)

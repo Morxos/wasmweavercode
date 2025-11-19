@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 87 nullexternref ref.null noextern)
-  (memory (;0;) i64 1 122255319065980 shared)
-  (global (;0;) (mut i32) i32.const 1367674413)
-  (export "\u{7fb}" (memory 0))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-  (data (;0;) "")
-)

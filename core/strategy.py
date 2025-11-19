@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 from typing import Type, TYPE_CHECKING, List
 from core.state.functions import Function, Block
@@ -36,11 +39,11 @@ class RandomSelectionStrategy(AbstractSelectionStrategy):
         """
         selectable_tiles = []
         for tile in tiles:
-            #Disable all load and store instructions
-            #if "Load" in tile.name or "Store" in tile.name:
+            # Disable all load and store instructions
+            # if "Load" in tile.name or "Store" in tile.name:
             #    continue
 
-            #Reduce const instructions
+            # Reduce const instructions
             #if "Const" in tile.name:
             #    I64TruncF64S
             #if "condition" in tile.name.lower():
@@ -48,17 +51,17 @@ class RandomSelectionStrategy(AbstractSelectionStrategy):
             #if "GlobalGet" in tile.name:
             #    continue
 
-            if "block" in tile.name:
-                continue
+            #if "block" in tile.name:
+            #    continue
 
-            if "condition" in tile.name:
-                continue
+            #if "condition" in tile.name:
+            #    continue
 
-            if "loop" in tile.name:
-                continue
+            #if "loop" in tile.name:
+            #    continue
 
-            if "function" in tile.name:
-                continue
+            #if "function" in tile.name:
+            #    continue
 
             #if "GlobalSet" in tile.name:
             #    continue

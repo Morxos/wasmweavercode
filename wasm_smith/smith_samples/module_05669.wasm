@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 843 690945 nullexternref ref.null noextern)
-  (global (;0;) (mut i64) i64.const -5847072307853404451 i64.const 7148631420875069302 i64.sub i64.const -608985434095788297 i64.const 8586149696084882537 i64.const 993074340987797562 i64.const -3732115403118976615 i64.mul i64.add i64.sub i64.mul i64.const 5997945984971880796 i64.sub)
-  (elem (;0;) (table 0) (i64.const 0) nullexternref)
-  (elem (;1;) declare externref)
-  (elem (;2;) declare eqref)
-  (elem (;3;) (table 0) (i64.const 255) nullexternref)
-)

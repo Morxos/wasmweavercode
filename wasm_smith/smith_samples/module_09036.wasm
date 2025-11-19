@@ -1,6 +1,0 @@
-(module
-  (global (;0;) externref ref.null noextern)
-  (export "j" (global 0))
-  (export "" (global 0))
-  (export "2" (global 0))
-)

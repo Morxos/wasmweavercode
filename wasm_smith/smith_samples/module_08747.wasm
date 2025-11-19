@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 funcref ref.null nofunc)
-  (memory (;0;) i64 373 13764531652981)
-  (data (;0;) (i64.const 17866056) "")
-  (data (;1;) (i64.const 8594743) "i!")
-  (data (;2;) "")
-)

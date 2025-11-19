@@ -1,5 +1,0 @@
-(module
-  (global (;0;) (mut i31ref) ref.null none)
-  (data (;0;) "\fb\fb")
-  (data (;1;) "")
-)

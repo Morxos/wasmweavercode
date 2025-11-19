@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 627 exnref ref.null exn)
-  (memory (;0;) i64 578 71051177361064)
-  (data (;0;) "\f7")
-)

@@ -1,7 +1,0 @@
-(module
-  (type (;0;) (array (mut i8)))
-  (global (;0;) (mut (ref null 0)) ref.null none)
-  (data (;0;) "\99")
-  (data (;1;) "\e8-")
-  (data (;2;) "")
-)

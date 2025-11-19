@@ -1,9 +1,0 @@
-(module
-  (import "O" "" (table (;0;) 5048 737486 arrayref))
-  (global (;0;) i64 i64.const 8336066306414678492 i64.const 6383549451243694927 i64.const 404978516193104504 i64.const -7377639736860101126 i64.const 7855515319638873114 i64.const -956198861153231591 i64.sub i64.const 8012629988118145886 i64.add i64.mul i64.add i64.sub i64.mul i64.const -9188474957820934283 i64.add i64.const -722527263910883420 i64.sub)
-  (global (;1;) (mut exnref) ref.null exn)
-  (global (;2;) i64 global.get 0)
-  (data (;0;) "\076")
-  (data (;1;) "")
-  (data (;2;) "\80\11")
-)

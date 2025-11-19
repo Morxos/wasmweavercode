@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) 8878 59548 shared)
-  (export "" (memory 0))
-)

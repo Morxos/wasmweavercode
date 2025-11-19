@@ -1,6 +1,0 @@
-(module
-  (import "\u{18}" "" (memory (;0;) i64 5891 179298240423323))
-  (import "" "" (table (;0;) 416 nullexternref))
-  (global (;0;) nullexternref ref.null noextern)
-  (elem (;0;) (table 0) (i32.const 1) nullexternref (ref.null noextern) (global.get 0) (global.get 0))
-)

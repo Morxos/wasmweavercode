@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 59))
-  (import "~" "" (table (;0;) 4426 424495 anyref))
-  (data (;0;) "\e7")
-  (data (;1;) (i64.const 0) "7UM")
-)

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 177778 i31ref ref.null i31)
-  (global (;0;) (mut f32) f32.const 0x1.8158eep+66 (;=111068820000000000000;))
-  (export "\u{1c}" (global 0))
-  (data (;0;) "\14")
-  (data (;1;) "\af")
-)

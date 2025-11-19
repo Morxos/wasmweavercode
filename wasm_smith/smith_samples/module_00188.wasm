@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 eqref))
-  (import "r\u{a449}\u{1ed}" "" (global (;0;) i64))
-  (global (;1;) (mut i32) i32.const 718106980)
-  (global (;2;) (mut i32) i32.const 1679025267)
-  (global (;3;) i64 i64.const 5536070670735420410)
-  (data (;0;) "H")
-)

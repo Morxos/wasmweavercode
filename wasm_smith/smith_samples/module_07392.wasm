@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 0 212142794089407 shared)
-  (export "\u{1f}~x\u{0}" (memory 0))
-  (export "" (memory 0))
-  (data (;0;) "\a6")
-)

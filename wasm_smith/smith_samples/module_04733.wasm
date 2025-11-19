@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 24 255873 i31ref))
-  (elem (;0;) (table 0) (i64.const 0) i31ref (ref.null none))
-)

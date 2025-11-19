@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 682014 anyref)
-  (memory (;0;) i64 8597 249232027056197 shared)
-  (data (;0;) (i64.const 134523564) "\a2")
-  (data (;1;) "")
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 6837)
-  (global (;0;) arrayref ref.null array)
-  (export "" (memory 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

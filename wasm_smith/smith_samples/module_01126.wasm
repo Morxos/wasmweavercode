@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 4584 nullfuncref ref.null nofunc)
-  (memory (;0;) 106 7877)
-  (global (;0;) f32 f32.const 0x1.c8365p+26 (;=119593280;))
-  (export "?t" (memory 0))
-  (export "v" (global 0))
-)

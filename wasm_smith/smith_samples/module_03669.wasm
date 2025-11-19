@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 2 193695509104)
-  (export "O" (memory 0))
-  (export "\u{2b0}\u{15}\u{1d}" (memory 0))
-  (export "" (memory 0))
-)

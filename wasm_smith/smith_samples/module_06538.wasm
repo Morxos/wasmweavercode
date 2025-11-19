@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 1 219341236602468)
-  (global (;0;) i32 i32.const -2039636633 i32.const -1115379922 i32.const 363928978 i32.const 1442777385 i32.const -1273361831 i32.const -1536276783 i32.const -1092408163 i32.const -1494711780 i32.mul i32.sub i32.const -863003829 i32.add i32.add i32.mul i32.mul i32.add i32.const 1606038476 i32.sub i32.add)
-  (data (;0;) "\f0\95\c4V")
-  (data (;1;) (i64.const 42947) "k")
-  (data (;2;) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 0 794640 nullexternref)
-  (global (;0;) nullexternref ref.null noextern)
-  (global (;1;) f32 f32.const -0x1.981fb2p-123 (;=-0.00000000000000000000000000000000000014992101;))
-  (export "@" (table 0))
-  (export "" (global 0))
-  (export "v" (global 0))
-  (elem (;0;) declare arrayref)
-)

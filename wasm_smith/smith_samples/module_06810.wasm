@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 32 i31ref ref.null none)
-  (memory (;0;) i64 22 156860031655395)
-  (export "-" (memory 0))
-  (data (;0;) (i64.const 300) "6")
-  (data (;1;) (i64.const 686674) "")
-  (data (;2;) (i64.const 558605) "")
-  (data (;3;) (i64.const 0) "^a\80\b1\f2")
-)

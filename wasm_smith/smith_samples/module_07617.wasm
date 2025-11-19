@@ -1,8 +1,0 @@
-(module
-  (import "\u{6f9}|" "" (table (;0;) i64 0 i31ref))
-  (import "" "" (global (;0;) f64))
-  (memory (;0;) i64 9 51755211816248)
-  (global (;1;) (mut f64) f64.const -0x1.5cef21b36e807p-19 (;=-0.000002599761694557955;))
-  (elem (;0;) declare i31ref)
-  (elem (;1;) declare anyref)
-)

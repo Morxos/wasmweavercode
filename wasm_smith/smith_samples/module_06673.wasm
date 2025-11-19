@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 1)
-  (export "\u{1} " (memory 0))
-  (export "@" (memory 0))
-  (elem (;0;) arrayref (ref.null array))
-  (elem (;1;) declare func)
-  (data (;0;) "\f4\0f.")
-)

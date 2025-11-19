@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 9 205703737964471)
-  (elem (;0;) externref)
-  (elem (;1;) declare nullexternref)
-)

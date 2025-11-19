@@ -1,12 +1,16 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 import struct
-
 import numpy as np
-
 from core.config.config import MEMORY_MAX_WRITE_INDEX
 
 
 class Memory:
+    """
+    A simple memory model that supports load and store operations for various data types.
+    """
 
     def __init__(self, initial=1, maximum=1, index=0, default_page_size=65536):
         self.size = initial
@@ -14,7 +18,6 @@ class Memory:
         self.maximum = maximum
         self.memory = bytearray(self.size * default_page_size)
         self.index = index
-        #self.randomize() # Commented out to make the memory deterministic
         self.initial_values = bytearray(self.memory)
 
     def i32_store(self, offset, value):
@@ -25,7 +28,6 @@ class Memory:
     def i32_store8(self, offset, value):
         if offset < 0 or offset >= MEMORY_MAX_WRITE_INDEX:
             raise ValueError("Memory index out of bounds")
-        #print("Storing 8 bit value", value)
         struct.pack_into('<B', self.memory, offset, value & 0xFF)
 
     def i32_store16(self, offset, value):
@@ -157,7 +159,9 @@ class Memory:
         self.memory[index] = value
 
     def __str__(self):
-        """Return a string representation of the memory. First MEMORY_MAX_WRITE_INDEX bytes are shown as hex values. 64 bytes per line."""
+        """
+        Return a string representation of the memory. First MEMORY_MAX_WRITE_INDEX bytes are shown as hex values. 64 bytes per line.
+        """
         BYTES_PER_ROW = 32
         return "\n".join([f"{i:04x}: {' '.join([f'{self.memory[i + j]:02x}' for j in range(BYTES_PER_ROW)])}" for i in
                           range(0, MEMORY_MAX_WRITE_INDEX, BYTES_PER_ROW)])
@@ -166,5 +170,7 @@ class Memory:
         self.memory = bytearray(random.choices(range(256), k=len(self.memory)))
 
     def reinit_memory(self):
-        """Re-initializes the memory to its initial values."""
+        """
+        Re-initializes the memory to its initial values.
+        """
         self.memory = bytearray(self.initial_values)

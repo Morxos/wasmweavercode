@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 0 320942 arrayref)
-  (elem (;0;) declare structref (ref.null struct))
-  (elem (;1;) anyref)
-  (elem (;2;) declare eqref)
-  (elem (;3;) declare nullref)
-  (elem (;4;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-)

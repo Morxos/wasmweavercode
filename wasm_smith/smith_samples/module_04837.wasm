@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 20 nullfuncref)
-  (memory (;0;) 14554 42188 shared)
-  (global (;0;) nullref ref.null none)
-  (global (;1;) f32 f32.const -0x1.7635p-22 (;=-0.00000034850746;))
-  (global (;2;) (mut f32) global.get 1)
-  (elem (;0;) func)
-  (elem (;1;) nullfuncref)
-)

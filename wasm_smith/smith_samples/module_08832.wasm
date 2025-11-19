@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 3955 844443 nullexternref)
-  (memory (;0;) 6 33950 shared)
-  (global (;0;) (mut f32) f32.const -0x1.f6d56ap+21 (;=-4119213.3;))
-  (global (;1;) (mut i32) i32.const -2031246038)
-)

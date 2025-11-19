@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 0 7728 shared)
-  (global (;0;) (mut exnref) ref.null exn)
-  (elem (;0;) exnref)
-  (elem (;1;) declare nullexternref (ref.null noextern))
-)

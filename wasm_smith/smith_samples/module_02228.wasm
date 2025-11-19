@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 2 240077 externref)
-  (global (;0;) f32 f32.const 0x1.4b28aap+92 (;=6405543600000000000000000000;))
-  (global (;1;) (mut i32) i32.const -3266292 i32.const -400057290 i32.const 1006987187 i32.const 1979576817 i32.const 1343846968 i32.const 433918503 i32.const -1101650953 i32.const -1777791521 i32.const 1577007900 i32.const -129837173 i32.sub i32.mul i32.const 1581867086 i32.add i32.mul i32.sub i32.sub i32.add i32.sub i32.add i32.sub)
-  (export "n" (table 0))
-  (elem (;0;) declare nullref)
-  (elem (;1;) declare i31ref (ref.null none))
-  (elem (;2;) (table 0) (i64.const 0) externref)
-)

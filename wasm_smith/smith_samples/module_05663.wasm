@@ -1,6 +1,0 @@
-(module
-  (import "^4gp\u{7f}i\u{2}" "" (global (;0;) (mut f32)))
-  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (elem (;1;) declare structref (ref.null struct))
-  (elem (;2;) i31ref)
-)

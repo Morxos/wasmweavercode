@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 5607 615732 externref)
-  (elem (;0;) declare nullref (ref.null none))
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) (table 0) (i64.const 993) externref (ref.null noextern))
-  (elem (;3;) exnref)
-  (elem (;4;) declare eqref (ref.null eq) (ref.null array) (ref.null i31))
-)

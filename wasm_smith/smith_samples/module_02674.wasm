@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 1))
-  (global (;0;) (mut f32) f32.const -0x1.51d876p-10 (;=-0.0012887785;))
-  (global (;1;) (mut i64) i64.const 637292591525423495)
-  (data (;0;) "\18\95")
-)

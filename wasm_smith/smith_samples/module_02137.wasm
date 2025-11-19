@@ -1,4 +1,0 @@
-(module
-  (import "`" "" (table (;0;) 15 anyref))
-  (memory (;0;) i64 1)
-)

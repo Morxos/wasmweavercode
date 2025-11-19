@@ -1,8 +1,0 @@
-(module
-  (import "\u{d}0@" "" (global (;0;) f32))
-  (import "" "" (table (;0;) i64 0 295597 nullref))
-  (import "/" "" (memory (;0;) i64 2154 73119102131448 shared))
-  (global (;1;) f32 global.get 0)
-  (data (;0;) "\eb_\f8")
-  (data (;1;) (i64.const 112645710) "_'")
-)

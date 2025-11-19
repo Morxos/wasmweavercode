@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 423 structref)
-  (memory (;0;) i64 275 34431701311475 shared)
-  (global (;0;) eqref ref.null array)
-  (global (;1;) (mut i32) i32.const 794461996)
-  (elem (;0;) declare funcref)
-  (elem (;1;) nullexternref)
-  (data (;0;) (i64.const 774802) "\98")
-)

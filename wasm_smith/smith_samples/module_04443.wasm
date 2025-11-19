@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 11 312745 i31ref)
-  (export "" (table 0))
-  (export "\u{1f}" (table 0))
-)

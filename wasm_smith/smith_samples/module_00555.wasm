@@ -1,7 +1,0 @@
-(module
-  (import "A" "" (table (;0;) i64 46 876828 nullexternref))
-  (memory (;0;) i64 0 92482642391614)
-  (global (;0;) (mut i64) i64.const -2717443886774206990)
-  (export "" (global 0))
-  (data (;0;) "\10")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "{\u{1e}" "" (memory (;0;) i64 3997 141574871731829))
-  (table (;0;) 436 externref ref.null noextern)
-  (global (;0;) f32 f32.const -0x1.ef7e48p+65 (;=-71408110000000000000;))
-  (data (;0;) (i64.const 210224694) "i\8c")
-)

@@ -1,9 +1,0 @@
-(module
-  (global (;0;) f64 f64.const -0x1.ef6b1d1f95d19p-347 (;=-0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006750309462848257;))
-  (global (;1;) (mut i32) i32.const 1500900436 i32.const -1807159478 i32.const -79722987 i32.const -487830851 i32.const -423895950 i32.const 562863520 i32.const 787552305 i32.const 54541974 i32.const 866468006 i32.const 1457079220 i32.mul i32.add i32.mul i32.add i32.mul i32.sub i32.const -147250188 i32.add i32.mul i32.mul i32.sub)
-  (global (;2;) (mut nullexternref) ref.null noextern)
-  (global (;3;) arrayref ref.null none)
-  (export "\u{358}7\u{10}(" (global 0))
-  (elem (;0;) declare func)
-  (data (;0;) "")
-)

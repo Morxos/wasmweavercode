@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 5)
-  (elem (;0;) nullref)
-  (elem (;1;) declare structref (ref.null struct) (ref.null struct))
-  (elem (;2;) anyref (ref.null struct) (ref.null any))
-)

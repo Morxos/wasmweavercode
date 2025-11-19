@@ -1,7 +1,0 @@
-(module
-  (import ">\u{16}m}|" "" (memory (;0;) 3169))
-  (global (;0;) f32 f32.const -0x1.d5cca6p+127 (;=-312235260000000000000000000000000000000;))
-  (global (;1;) funcref ref.null nofunc)
-  (elem (;0;) exnref (ref.null exn))
-  (elem (;1;) declare i31ref)
-)

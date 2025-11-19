@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 6 117982586205129 shared)
-  (export "" (memory 0))
-  (export "\u{15}" (memory 0))
-  (elem (;0;) declare externref)
-  (elem (;1;) declare i31ref (ref.null i31))
-  (data (;0;) (i64.const 20919) "")
-)

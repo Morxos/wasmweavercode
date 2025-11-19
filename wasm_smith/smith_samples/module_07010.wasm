@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 953177 anyref)
-  (memory (;0;) 156 60841 shared)
-  (global (;0;) externref ref.null extern)
-  (elem (;0;) declare externref (global.get 0) (global.get 0) (ref.null extern))
-  (data (;0;) "")
-  (data (;1;) "T")
-  (data (;2;) "")
-)

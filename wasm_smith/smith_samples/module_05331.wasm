@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 825 externref))
-  (export "" (table 0))
-  (elem (;0;) structref)
-)

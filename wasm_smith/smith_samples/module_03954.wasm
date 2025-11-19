@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 5023 146116 nullexternref ref.null noextern)
-  (memory (;0;) i64 246 276472453862130)
-  (export "" (memory 0))
-  (export "^V" (table 0))
-  (data (;0;) ">\12\89o\1a\96")
-)

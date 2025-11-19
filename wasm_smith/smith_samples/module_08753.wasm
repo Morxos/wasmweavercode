@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 3614 139619413108157 shared)
-  (export "" (memory 0))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none))
-  (data (;0;) "\b4")
-  (data (;1;) (i64.const 605994) "")
-)

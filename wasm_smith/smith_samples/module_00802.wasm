@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 0 158262056438753)
-  (export "\u{a}C" (memory 0))
-  (export "gE" (memory 0))
-)

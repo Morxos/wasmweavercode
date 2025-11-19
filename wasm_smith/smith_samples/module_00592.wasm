@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 98 20541)
-  (export "" (memory 0))
-  (elem (;0;) declare structref)
-)

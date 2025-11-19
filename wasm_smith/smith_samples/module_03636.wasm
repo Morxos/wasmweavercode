@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 53 nullfuncref)
-  (memory (;0;) i64 264)
-  (data (;0;) "")
-)

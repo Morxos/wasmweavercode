@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 structref ref.null struct)
-  (memory (;0;) i64 15892 222212722825184)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (elem (;0;) eqref)
-)

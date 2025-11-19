@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 816 75471961643205 shared)
-  (elem (;0;) declare arrayref (ref.null none) (ref.null array))
-)

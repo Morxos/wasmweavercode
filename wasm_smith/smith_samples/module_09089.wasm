@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 4019 153195 externref ref.null noextern)
-  (elem (;0;) declare nullexternref)
-)

@@ -1,5 +1,0 @@
-(module
-  (import "\u{1}" "" (table (;0;) 11 36773 arrayref))
-  (memory (;0;) 8996)
-  (global (;0;) i32 i32.const -1276825144 i32.const -1239350306 i32.const 1838706842 i32.const -652961129 i32.const 561245980 i32.const -2073255447 i32.const -1274376235 i32.const 871649144 i32.const -1604914022 i32.const 1802665950 i32.const -1315601277 i32.const 1085537887 i32.sub i32.sub i32.sub i32.sub i32.add i32.sub i32.mul i32.sub i32.add i32.add i32.mul)
-)

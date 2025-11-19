@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 6095 nullfuncref ref.null nofunc)
-  (elem (;0;) declare eqref (ref.null i31))
-  (data (;0;) "\c3\dc\84")
-  (data (;1;) "\ac")
-  (data (;2;) "")
-)

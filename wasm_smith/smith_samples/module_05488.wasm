@@ -1,3 +1,0 @@
-(module
-  (import "\u{6}" "" (global (;0;) (mut f64)))
-)

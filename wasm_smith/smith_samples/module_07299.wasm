@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 0 212143408198027 shared)
-  (global (;0;) f32 f32.const -0x1.bcd0fp+49 (;=-978161100000000;))
-  (export "" (global 0))
-)

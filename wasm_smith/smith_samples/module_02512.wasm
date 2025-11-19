@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 3 eqref)
-  (memory (;0;) 5 45271 shared)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "X" (memory 0))
-  (export "<\u{48d}" (memory 0))
-)

@@ -1,5 +1,0 @@
-(module
-  (import "J" "" (table (;0;) 257 nullref))
-  (memory (;0;) i64 0 191978434736372 shared)
-  (export "" (memory 0))
-)

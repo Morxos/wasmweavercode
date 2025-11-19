@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) f32))
-  (table (;0;) i64 1242 structref)
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import ".\u{10}P" "" (table (;0;) 6520 841290 i31ref))
-  (import ".O" "" (memory (;0;) i64 0 168789469567120 shared))
-  (import "j\u{19}\u{2}\u{1c}" "" (global (;0;) eqref))
-  (export "\u{33b}" (table 0))
-)

@@ -1,3 +1,0 @@
-(module
-  (import "Z>" "" (table (;0;) i64 1799 exnref))
-)

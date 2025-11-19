@@ -1,8 +1,0 @@
-(module
-  (import ":E`y" "" (table (;0;) i64 0 structref))
-  (memory (;0;) 120 21426 shared)
-  (global (;0;) i64 i64.const -5140866090263442070 i64.const 7841775973781521861 i64.const 5893819477524145566 i64.const 4429508434434673347 i64.const 2137718809212726097 i64.const -4419171061740177933 i64.sub i64.const -4536855628777395230 i64.add i64.add i64.add i64.const -1087681987827529685 i64.mul i64.add i64.const 8244671076530337606 i64.add i64.mul)
-  (elem (;0;) eqref (ref.null struct))
-  (data (;0;) (i32.const 268121) "\94")
-  (data (;1;) (i32.const 1980503) "")
-)

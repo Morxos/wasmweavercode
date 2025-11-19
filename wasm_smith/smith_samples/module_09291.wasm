@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 0 3289 eqref)
-  (global (;0;) (mut i64) i64.const -5176260956834468262)
-  (export "u\u{15}\u{d}D" (table 0))
-  (export "" (table 0))
-  (data (;0;) "\0d\d7\cc")
-  (data (;1;) "#\90s")
-)

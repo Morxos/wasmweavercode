@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 420283 anyref))
-  (export "f" (table 0))
-  (export "'" (table 0))
-)

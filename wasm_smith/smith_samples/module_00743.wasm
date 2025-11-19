@@ -1,7 +1,0 @@
-(module
-  (import "\u{f}" "" (memory (;0;) i64 39))
-  (import "" "" (table (;0;) i64 19 nullref))
-  (import ",\u{3fb}s" "" (global (;0;) i32))
-  (export "=" (memory 0))
-  (data (;0;) (i64.const 94941) "")
-)

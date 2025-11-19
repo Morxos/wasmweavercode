@@ -1,8 +1,0 @@
-(module
-  (import "8\u{14}-\u{1e}" "" (table (;0;) i64 836 262605 funcref))
-  (import "" "" (global (;0;) i31ref))
-  (import "w\u{6c3}5V" "" (global (;1;) externref))
-  (memory (;0;) 2099)
-  (data (;0;) (i32.const 478) "\a5M\fe\a1\e3")
-  (data (;1;) (i32.const 81913179) "")
-)

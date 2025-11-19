@@ -1,5 +1,7 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.config.config import MEMORY_MAX_WRITE_INDEX
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
@@ -129,7 +131,7 @@ class Int32DivS(AbstractTile):
         if b.value == 0:
             raise ValueError("Division by zero")
         result = a.value.astype(np.int32) / b.value.astype(np.int32)
-        result = np.int32(result)  # Round to nearest integer
+        result = np.int32(result)
         current_state.stack.get_current_frame().stack_push(I32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -154,7 +156,6 @@ class Int32DivU(AbstractTile):
         a = current_state.stack.get_current_frame().stack_pop()
         if b.value == 0:
             raise ValueError("Division by zero")
-        # Ensure the operands are treated as unsigned by using modulo 2**32
         result = (a.value.astype(np.uint32) // b.value.astype(np.uint32))
         current_state.stack.get_current_frame().stack_push(I32(result))
 
@@ -181,7 +182,6 @@ class Int32RemS(AbstractTile):
         if b.value == 0:
             raise ValueError("Division by zero")
         result = a.value.astype(np.int32) % b.value.astype(np.int32)
-        # Adjust result to make sure the sign matches the dividend's sign
         if (a.value.astype(np.int32) < 0) != (b.value.astype(np.int32) < 0) and result != 0:
             result = result - b.value.astype(np.int32)
         current_state.stack.get_current_frame().stack_push(I32(result))
@@ -208,7 +208,6 @@ class Int32RemU(AbstractTile):
         a = current_state.stack.get_current_frame().stack_pop()
         if b.value == 0:
             raise ValueError("Division by zero")
-        # Calculate the remainder treating values as unsigned
         result = ((a.value.astype(np.uint32)) % (b.value.astype(np.uint32)))
         current_state.stack.get_current_frame().stack_push(I32(result))
 
@@ -223,21 +222,16 @@ class Int32And(AbstractTile):
 
     @staticmethod
     def can_be_placed(current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        # Ensure there are at least two values on the stack
         if len(current_state.stack.get_current_frame().stack) < 2:
             return False
         a = current_state.stack.get_current_frame().stack_peek(2)
         b = current_state.stack.get_current_frame().stack_peek(1)
-        # Check if both are I32 instances
         return isinstance(a, I32) and isinstance(b, I32)
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        # Pop the top two values from the stack
         b = current_state.stack.get_current_frame().stack_pop()
         a = current_state.stack.get_current_frame().stack_pop()
-        # Apply the bitwise AND operation
         result = a.value & b.value
-        # Push the result back to the stack
         current_state.stack.get_current_frame().stack_push(I32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -306,9 +300,8 @@ class Int32Shl(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         shift_amount = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint32) % 32
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int32)
-        result = (value << shift_amount)  # Ensure 32-bit wrapping
+        result = (value << shift_amount)
         current_state.stack.get_current_frame().stack_push(I32(result))
-        #print("Shifting", value, "left by", shift_amount, "result is", result)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
         return "i32.shl"
@@ -381,8 +374,6 @@ class Int32Rotl(AbstractTile):
         for i in range(rotate_amount):
             result = (result << 1) | ((result & 0x80000000) >> 31)
             result = result & 0xFFFFFFFF
-
-        #print("Rotating", value, "left by", rotate_amount, "result is", result)
         current_state.stack.get_current_frame().stack_push(I32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -411,7 +402,6 @@ class Int32Rotr(AbstractTile):
             result = (result >> 1) | ((result & 1) << 31)
             result = result & 0xFFFFFFFF  # Ensure 32-bit wrapping
 
-        #print("Rotating", value, "right by", rotate_amount, "result is", result)
         current_state.stack.get_current_frame().stack_push(I32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -880,9 +870,6 @@ class Int32TruncF64U(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float64)
-        # Truncate the 64-bit float to a 32-bit unsigned integer
-        # print("Truncating", value)
-        # print("Truncated to", np.uint32(value))
         result = np.uint32(value)
         current_state.stack.get_current_frame().stack_push(I32(result))
 
@@ -907,7 +894,6 @@ class Int32ReinterpretF32(AbstractTile):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float32)
         # Reinterpret the 32-bit float as a 32-bit integer with 1:1 bit pattern
         result = value.view(np.int32)
-        #print("Reinterpreting", value, "as", result)
         current_state.stack.get_current_frame().stack_push(I32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -976,7 +962,6 @@ class Int32Store(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(value, I32):
             return False
-        #Check if in range
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 4:
             return False
         return True
@@ -1127,7 +1112,6 @@ class Int32Load8S(AbstractTile):
             return False
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 1:
             return False
-        #print(offset.value)
         return True
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
@@ -1191,7 +1175,6 @@ class Int32Load16S(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
 
         offset = current_state.stack.get_current_frame().stack_pop()
-        #print("t: ", offset.value.astype(np.uint32))
         value = current_state.memory.i32_load16_s(offset.value.astype(np.uint32))
         current_state.stack.get_current_frame().stack_push(I32(value))
 

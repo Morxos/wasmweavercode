@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 548 397487 nullfuncref ref.null nofunc)
-  (global (;0;) arrayref ref.null array)
-  (global (;1;) (mut f32) f32.const 0x1.a570a6p+75 (;=62193570000000000000000;))
-  (export "<" (global 0))
-  (export "g" (global 0))
-  (export "" (global 1))
-)

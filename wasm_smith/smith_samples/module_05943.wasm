@@ -1,3 +1,0 @@
-(module
-  (import "HJ\u{1a}" "" (table (;0;) i64 7807 699341 i31ref))
-)

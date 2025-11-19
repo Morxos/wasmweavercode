@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 14233 36973 shared)
-  (elem (;0;) structref (ref.null struct))
-  (data (;0;) (i32.const 29343042) "\85H\0e\b5\f8")
-)

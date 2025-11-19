@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 852 827842 i31ref ref.null none)
-  (export "" (table 0))
-  (elem (;0;) exnref)
-  (elem (;1;) declare nullref (ref.null none))
-  (data (;0;) "r")
-  (data (;1;) "\d7\a3\b3")
-  (data (;2;) "")
-)

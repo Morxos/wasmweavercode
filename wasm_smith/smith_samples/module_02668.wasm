@@ -1,5 +1,0 @@
-(module
-  (import "\u{8}`" "" (memory (;0;) i64 9418))
-  (table (;0;) 1 nullfuncref)
-  (elem (;0;) declare func)
-)

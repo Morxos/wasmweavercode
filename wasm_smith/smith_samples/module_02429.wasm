@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 22 19674 nullfuncref)
-  (global (;0;) f32 f32.const 0x1.f15a3cp-8 (;=0.0075889966;))
-  (elem (;0;) arrayref (ref.null array) (ref.null none))
-  (elem (;1;) declare nullref)
-)

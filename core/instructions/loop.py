@@ -1,9 +1,12 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 import uuid
 from copy import deepcopy
 from typing import List, Type
-
-from core.config.config import MAX_BLOCKS_PER_FUNCTION, BOUNDED_LOOP_MIN, BOUNDED_LOOP_MAX
+from core.config.config import MAX_BLOCKS_PER_FUNCTION, BOUNDED_LOOP_MIN, BOUNDED_LOOP_MAX, UNBOUNDED_LOOP_MIN, \
+    UNBOUNDED_LOOP_MAX
 from core.constraints import ConstraintType, ConstraintsViolatedError
 from core.formater import indent_code
 from core.state.functions import Function, Block, BlockType
@@ -13,7 +16,9 @@ from core.util import generate_block, can_place_block, apply_block
 from core.value import I32
 
 def generate_random_loop_name(function: Function) -> str:
-    """Generates a random block name that is not already used in the function"""
+    """
+    Generates a random loop name that is not already used in the function.
+    """
     while True:
         name = f"loop_{random.randint(0, 2 ** 32 - 1)}"
         for block in function.blocks:
@@ -22,7 +27,9 @@ def generate_random_loop_name(function: Function) -> str:
         return name
 
 def generate_random_bounded_loop_name(function: Function) -> str:
-    """Generates a random block name that is not already used in the function"""
+    """
+    Generates a random block name that is not already used in the function.
+    """
     while True:
         name = f"b_loop_{random.randint(0, 2 ** 32 - 1)}"
         for block in function.blocks:
@@ -31,7 +38,9 @@ def generate_random_bounded_loop_name(function: Function) -> str:
         return name
 
 class LoopTileFactory(AbstractTileFactory):
-
+    """
+    Factory for generating simple bounded and unbounded loop tiles.
+    """
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
@@ -49,6 +58,9 @@ class LoopTileFactory(AbstractTileFactory):
 
 
     def create_bounded_loop_tile(self, global_state: GlobalState, rep_count = 1) -> Type[AbstractTile]:
+        """
+        Used for generating bounded loop tiles.
+        """
 
         tile = type(f"LoopTile", (AbstractTile,), {"inner_block": None, "rep_count": rep_count})
         tile.name = f"Create bounded loop"
@@ -129,6 +141,9 @@ class LoopTileFactory(AbstractTileFactory):
         return tile
 
     def create_loop_tile(self, global_state: GlobalState) -> Type[AbstractTile]:
+        """
+        Used for generating unbounded loop tiles.
+        """
 
         tile = type(f"LoopTile", (AbstractTile,), {"inner_block": None})
         tile.name = f"Create unbounded loop"
@@ -140,15 +155,15 @@ class LoopTileFactory(AbstractTileFactory):
             nonlocal tile
             if not current_state.stack.can_add_new_stack_frame():
                 return False
-                # Check if stack is larger then 0 and if the top value is an i32
+
             if len(current_state.stack.get_current_frame().stack) < 1:
                 return False
 
             if not isinstance(current_state.stack.get_current_frame().stack_peek(1), I32):
                 return False
-            #Get repetition count i32
+
             rep_count = current_state.stack.get_current_frame().stack_peek(1).value
-            if rep_count <= 0 or rep_count > 100:
+            if rep_count < UNBOUNDED_LOOP_MIN or rep_count > UNBOUNDED_LOOP_MAX:
                 return False
 
             rep_count = rep_count + 1 #Loop is always executed once
@@ -166,10 +181,10 @@ class LoopTileFactory(AbstractTileFactory):
             repetition_count = current_state.stack.get_current_frame().stack_pop().value + 1 #Loop is always executed once
 
             if tile.inner_block is None:
-                #Generate both blocks at the same time
+                # Generate both blocks at the same time
                 name = generate_random_loop_name(current_function)
                 tile.loop_name = name
-                #Backup the state
+                # Backup the state
                 constraints_backup = deepcopy(global_state.constraints)
                 done = False
                 for i in range(0,1):
@@ -178,16 +193,16 @@ class LoopTileFactory(AbstractTileFactory):
                                                       [],
                                                       "loop $" + name, fixed_output_types=[], blocks=current_blocks,
                                                       block_type=BlockType.LOOP)
-                    #Restore constraints after backup
+                    # Restore constraints after backup
                     global_state.constraints = deepcopy(constraints_backup)
-                    #Check if the block can be applied n times
+                    # Check if the block can be applied n times
                     if can_place_block(global_state, current_function, current_blocks, tile.inner_block, repetition_count):
                         done = True
                         break
 
                 if not done:
                     raise ConstraintsViolatedError("Loop could not be generated")
-            #Apply the block
+            # Apply the block
             apply_state = apply_block(current_state, current_function, current_blocks, tile.inner_block,repetition_count)
             if not apply_state:
                 raise ValueError("Block cannot be applied")

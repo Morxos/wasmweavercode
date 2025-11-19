@@ -1,4 +1,0 @@
-(module
-  (import "^^n" "" (global (;0;) i64))
-  (table (;0;) 7135 nullref)
-)

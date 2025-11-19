@@ -1,5 +1,0 @@
-(module
-  (import "\u{7e2}\u{18}" "" (global (;0;) i64))
-  (table (;0;) i64 310 230218 i31ref)
-  (elem (;0;) (table 0) (global.get 0) i31ref (ref.null none) (ref.null i31) (ref.null i31))
-)

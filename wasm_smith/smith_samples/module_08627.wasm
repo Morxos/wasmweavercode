@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 eqref))
-  (import "" "" (global (;0;) nullexternref))
-  (import "=" "" (global (;1;) (mut f64)))
-  (import "\u{1a}" "" (memory (;0;) i64 128 6468861454176 shared))
-)

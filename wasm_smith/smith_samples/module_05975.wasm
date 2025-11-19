@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 9696))
-  (import "" "" (global (;0;) f64))
-  (import "" "" (global (;1;) i32))
-  (import "<" "" (global (;2;) anyref))
-  (global (;3;) f32 f32.const 0x1.a9d2dap+42 (;=7315594400000;))
-  (global (;4;) (mut i32) global.get 1)
-  (export "[" (memory 0))
-)

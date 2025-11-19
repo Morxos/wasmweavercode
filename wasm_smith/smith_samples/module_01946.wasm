@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 532 864479 funcref ref.null nofunc)
-  (memory (;0;) 6186 7616)
-  (global (;0;) (mut i64) i64.const -8737456548656248290)
-  (export "W" (memory 0))
-  (export "(x" (table 0))
-  (data (;0;) (i32.const 729890) "\94")
-)

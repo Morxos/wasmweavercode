@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 0 51150222692248))
-  (import "," "" (table (;0;) 1207 structref))
-  (global (;0;) (mut i32) i32.const -224806972 i32.const 22891253 i32.const -1962569473 i32.const 341869783 i32.add i32.const 368360068 i32.mul i32.mul i32.const 641533170 i32.sub i32.sub i32.const -1392318696 i32.const 875442919 i32.add i32.mul)
-  (export "\u{16}" (global 0))
-)

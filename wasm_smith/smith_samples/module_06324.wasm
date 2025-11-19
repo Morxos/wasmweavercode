@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 26 193187970697885))
-  (global (;0;) f64 f64.const -0x1.55b3afc6c1365p+241 (;=-4716679692245999500000000000000000000000000000000000000000000000000000000;))
-  (global (;1;) (mut f64) global.get 0)
-  (export "" (memory 0))
-  (elem (;0;) i31ref (ref.null none) (ref.null i31))
-  (elem (;1;) declare arrayref (ref.null none))
-)

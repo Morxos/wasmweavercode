@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 5051 externref)
-  (memory (;0;) 5)
-  (elem (;0;) declare eqref)
-  (elem (;1;) nullfuncref)
-  (data (;0;) "\9f")
-  (data (;1;) "")
-  (data (;2;) (i32.const 1419) "%")
-)

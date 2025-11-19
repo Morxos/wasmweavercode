@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 3 343334 arrayref)
-  (global (;0;) f32 f32.const 0x1.4bfbdap-25 (;=0.000000038648;))
-  (global (;1;) (mut i32) i32.const 2059290318 i32.const 1917781999 i32.const 1444163668 i32.const -1486731142 i32.const -751099201 i32.const 1268232116 i32.add i32.sub i32.sub i32.mul i32.const -255634204 i32.const -414862145 i32.sub i32.sub i32.mul i32.const -2031390859 i32.sub)
-  (elem (;0;) structref (ref.null struct) (ref.null struct) (ref.null struct) (ref.null struct) (ref.null none) (ref.null none) (ref.null struct) (ref.null none) (ref.null struct) (ref.null none))
-  (data (;0;) "\b6\be\7f")
-)

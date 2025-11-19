@@ -1,9 +1,0 @@
-(module
-  (import "dgA\u{8}" "" (global (;0;) i64))
-  (table (;0;) i64 1788 480469 nullexternref)
-  (memory (;0;) 2712)
-  (global (;1;) (mut i32) i32.const 20298680)
-  (global (;2;) (mut i64) global.get 0)
-  (export "" (memory 0))
-  (data (;0;) "\fd")
-)

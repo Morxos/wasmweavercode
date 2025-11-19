@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (table (;0;) 1 992231 arrayref ref.null array)
-  (global (;1;) (mut anyref) ref.null none)
-  (global (;2;) i32 i32.const -543573098)
-  (export "\u{73b}" (global 0))
-  (export "\u{7dc4}" (global 0))
-  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
-)

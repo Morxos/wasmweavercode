@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 82 arrayref))
-  (memory (;0;) i64 1518)
-  (export "M" (table 0))
-  (export "" (table 0))
-  (export "_" (memory 0))
-  (elem (;0;) eqref)
-  (elem (;1;) (table 0) (i64.const 0) arrayref (ref.null array) (ref.null array) (ref.null none) (ref.null array))
-)

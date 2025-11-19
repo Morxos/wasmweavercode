@@ -1,6 +1,0 @@
-(module
-  (import "T" "" (global (;0;) f64))
-  (table (;0;) i64 0 414378 externref ref.null noextern)
-  (elem (;0;) i31ref)
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-)

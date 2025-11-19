@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 661 245199 anyref))
-  (import "" "" (global (;0;) (mut f64)))
-  (import ">" "" (global (;1;) i32))
-  (memory (;0;) i64 114 151103402803972)
-  (global (;2;) i31ref ref.null none)
-  (elem (;0;) declare i31ref (global.get 2))
-)

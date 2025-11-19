@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 39 externref ref.null noextern)
-  (export "\u{b}d" (table 0))
-)

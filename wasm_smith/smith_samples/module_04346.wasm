@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 697 nullref ref.null none)
-  (elem (;0;) (table 0) (i64.const 28) nullref (ref.null none) (ref.null none))
-  (elem (;1;) declare structref (ref.null struct))
-  (data (;0;) "\f4S")
-)

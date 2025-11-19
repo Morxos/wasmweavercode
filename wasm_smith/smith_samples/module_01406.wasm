@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1490 155823211839595))
-  (export "\u{a}m" (memory 0))
-  (export "" (memory 0))
-  (data (;0;) "")
-  (data (;1;) (i64.const 6645) "\d6:\09")
-  (data (;2;) "")
-)

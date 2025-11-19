@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 0 nullfuncref)
-  (global (;0;) (mut i32) i32.const 1269996726)
-)

@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2968 eqref ref.null none)
-  (memory (;0;) i64 0 199606443192599)
-  (export "" (memory 0))
-  (export "\u{1a}" (memory 0))
-  (elem (;0;) declare i31ref (ref.null none) (ref.null none) (ref.null i31))
-  (elem (;1;) nullref)
-)

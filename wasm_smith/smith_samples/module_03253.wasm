@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 5230 45325))
-  (global (;0;) (mut exnref) ref.null exn)
-  (export "" (memory 0))
-  (export "1" (global 0))
-  (elem (;0;) declare structref (ref.null struct) (ref.null none))
-  (elem (;1;) declare nullref)
-  (data (;0;) "\fe&#\8f\c2")
-)

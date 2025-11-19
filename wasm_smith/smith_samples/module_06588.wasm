@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 68 106514 exnref)
-  (memory (;0;) i64 86 185378406774764 shared)
-)

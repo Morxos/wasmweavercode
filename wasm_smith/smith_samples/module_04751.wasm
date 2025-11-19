@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 4851 24866)
-  (global (;0;) (mut i64) i64.const 2450639589461277697)
-  (export "\u{1a}X\u{c020f}j" (global 0))
-)

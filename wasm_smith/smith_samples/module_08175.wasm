@@ -1,7 +1,0 @@
-(module
-  (import "Gk" "" (global (;0;) i64))
-  (import "\u{a}" "" (table (;0;) i64 103 nullfuncref))
-  (import "" "" (global (;1;) (mut i64)))
-  (import "\u{10}" "" (global (;2;) (mut i64)))
-  (memory (;0;) 124 50658)
-)

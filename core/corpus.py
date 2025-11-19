@@ -42,10 +42,6 @@ class ProgramCorpus:
             self.trigram_distribution_corpus = json.load(f)["trigrams"]
         self.module_relative_scalars_corpus = [self.scalar_ratios(counts) for counts in self.module_scalars_corpus]
         self.functions_relative_scalars_corpus = [self.scalar_ratios(counts) for counts in self.functions_scalars_corpus]
-        print("Loaded module scalars corpus with size", len(self.module_scalars_corpus))
-        print("Loaded function scalars corpus with size", len(self.functions_scalars_corpus))
-        print("Loaded module opcode corpus with size", len(self.module_opcode_corpus))
-        print("Loaded function opcode corpus with size", len(self.functions_opcode_corpus))
 
     def get_module_opcode_distance(self, sample: List[Dict[str,int]]):
         return js_distance_sample_vs_corpus(sample, self.module_opcode_corpus)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 72))
-  (import "4\u{d}" "" (table (;0;) 8720 i31ref))
-  (import "" "" (global (;0;) (mut f32)))
-  (export "" (table 0))
-)

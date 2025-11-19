@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 10 anyref ref.null any)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "\u{7f}S\u{17}" (table 0))
-)

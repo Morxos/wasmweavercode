@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 eqref ref.null eq)
-  (memory (;0;) i64 13)
-  (global (;0;) f64 f64.const -0x1.03a5be0a3743bp+72 (;=-4789649709585082000000;))
-  (elem (;0;) declare nullfuncref)
-  (data (;0;) "h")
-)

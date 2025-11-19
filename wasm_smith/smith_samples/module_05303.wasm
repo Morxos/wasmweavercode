@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) nullfuncref)
-  (elem (;1;) declare i31ref)
-  (elem (;2;) func)
-)

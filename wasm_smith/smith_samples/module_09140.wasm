@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 5626 635036 funcref)
-  (memory (;0;) 495 61407)
-  (global (;0;) (mut f32) f32.const -0x1.b5d61cp-96 (;=-0.000000000000000000000000000021587;))
-  (global (;1;) (mut i64) i64.const 6469043038105020194 i64.const -759482064053430022 i64.add)
-  (elem (;0;) (i32.const 2206) funcref (ref.null func))
-  (elem (;1;) (table 0) (i32.const 149) nullfuncref (ref.null nofunc))
-  (data (;0;) (i32.const 380123) "")
-)

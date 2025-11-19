@@ -1,8 +1,0 @@
-(module
-  (import "\u{44e}a" "" (memory (;0;) 0 54631))
-  (import "" "" (global (;0;) f64))
-  (import "" "" (table (;0;) i64 1384 structref))
-  (global (;1;) anyref ref.null any)
-  (global (;2;) f64 global.get 0)
-  (data (;0;) "")
-)

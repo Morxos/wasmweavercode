@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 8607 262644 eqref)
-  (memory (;0;) 181)
-  (export "$ \u{10}" (memory 0))
-  (export "mmE" (memory 0))
-)

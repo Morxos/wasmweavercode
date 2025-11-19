@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 943 831282 nullexternref)
-  (memory (;0;) 1 39956 shared)
-  (elem (;0;) declare structref (ref.null struct))
-  (data (;0;) (i32.const 59093) "\e9\b5")
-  (data (;1;) "\a5wT")
-)

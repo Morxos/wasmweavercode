@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 23 556495 eqref)
-  (export "" (table 0))
-  (elem (;0;) declare arrayref (ref.null none))
-)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 4887 funcref ref.null func)
-  (global (;0;) i32 i32.const 1487067709)
-  (global (;1;) i64 i64.const 3214079093759778246 i64.const 2851229642047901893 i64.mul i64.const 7431289913840799184 i64.add)
-  (export "" (global 1))
-  (export "1" (table 0))
-  (elem (;0;) (table 0) (global.get 0) nullfuncref)
-  (data (;0;) "2\e5\9b\f4*\03")
-)

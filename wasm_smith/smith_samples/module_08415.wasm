@@ -1,6 +1,0 @@
-(module
-  (import "a" "" (global (;0;) (mut f32)))
-  (global (;1;) (mut i31ref) ref.null none)
-  (export "." (global 1))
-  (export "" (global 0))
-)

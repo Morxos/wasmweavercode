@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 7999 anyref ref.null array)
-  (global (;0;) f32 f32.const -0x1.b5efeap-102 (;=-0.00000000000000000000000000000033737452;))
-  (elem (;0;) nullref (ref.null none))
-  (elem (;1;) (table 0) (i64.const 6146) nullref)
-)

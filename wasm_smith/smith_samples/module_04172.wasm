@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 687358 nullref))
-  (import "" "" (global (;0;) nullexternref))
-  (import "xh" "" (global (;1;) eqref))
-  (export "" (global 0))
-  (export ":" (global 0))
-  (elem (;0;) declare eqref)
-  (data (;0;) " \18L")
-)

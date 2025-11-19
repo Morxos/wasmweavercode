@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 301 596893 exnref ref.null exn)
-  (elem (;0;) (table 0) (i64.const 22) exnref (ref.null exn))
-  (data (;0;) "\c3\12")
-  (data (;1;) "")
-  (data (;2;) "")
-)

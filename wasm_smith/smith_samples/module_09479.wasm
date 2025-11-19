@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 10379)
-  (global (;0;) f32 f32.const -0x1.80bf9ep-33 (;=-0.00000000017496336;))
-  (global (;1;) nullfuncref ref.null nofunc)
-  (data (;0;) (i32.const 209510729) "\af")
-  (data (;1;) (i32.const 31329621) "\c2\9d\f8")
-  (data (;2;) "")
-  (data (;3;) (i32.const 1189814) "")
-)

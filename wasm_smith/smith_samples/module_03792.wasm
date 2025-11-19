@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 342 954483 structref)
-  (memory (;0;) 14315 14860 shared)
-  (export "@" (table 0))
-  (export "" (table 0))
-  (export "2" (table 0))
-  (export "3" (memory 0))
-)

@@ -1,4 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (global (;1;) (mut nullfuncref) ref.null nofunc)
-)

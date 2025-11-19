@@ -1,11 +1,13 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import math
 import sys
-
 import numpy as np
-
 from core.value import Val, I32, I64, F32, F64, RefFunc
 
 MAX_VALUE_TYPE_INDEX = 5
+_LOG_MAX64 = math.log1p(sys.float_info.max)
 
 def embedd_value_type(value: Val):
     if isinstance(value, I32):
@@ -20,10 +22,10 @@ def embedd_value_type(value: Val):
         return 5
     raise ValueError(f"Unknown value type: {type(value)}")
 
-_LOG_MAX64 = math.log1p(sys.float_info.max)
-
-
 def symlog_to_unit(x):
+    """
+    Maps a scalar or numpy array x to the range [-1, 1] using a symmetric logarithmic scale.
+    """
     x64 = np.asarray(x, dtype=np.float64)
     nan_mask = np.isnan(x64)
     inf_mask = np.isinf(x64)

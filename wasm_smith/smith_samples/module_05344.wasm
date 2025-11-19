@@ -1,7 +1,0 @@
-(module
-  (import "Q" "" (memory (;0;) i64 30 67343699105461))
-  (table (;0;) i64 62 anyref ref.null none)
-  (elem (;0;) (table 0) (i64.const 55) nullref (ref.null none))
-  (data (;0;) "C\bfH")
-  (data (;1;) (i64.const 852231) "")
-)

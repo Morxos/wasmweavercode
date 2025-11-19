@@ -1,6 +1,0 @@
-(module
-  (import "o$" "" (global (;0;) (mut exnref)))
-  (table (;0;) 2293 structref)
-  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "\92")
-)

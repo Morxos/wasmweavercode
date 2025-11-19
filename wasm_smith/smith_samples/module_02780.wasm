@@ -1,7 +1,0 @@
-(module
-  (import "\u{b}" "" (global (;0;) nullfuncref))
-  (import "" "" (table (;0;) 0 639465 nullref))
-  (memory (;0;) 2 55540)
-  (global (;1;) (mut i64) i64.const 7629294852090924391)
-  (elem (;0;) declare externref)
-)

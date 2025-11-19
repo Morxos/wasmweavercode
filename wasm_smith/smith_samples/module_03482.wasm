@@ -1,5 +1,0 @@
-(module
-  (import "as;" "" (global (;0;) (mut i32)))
-  (import "\u{11})" "" (table (;0;) 605 nullref))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 715 73408 funcref ref.null func)
-  (memory (;0;) 115 4887)
-  (elem (;0;) declare nullfuncref)
-  (elem (;1;) declare eqref)
-)

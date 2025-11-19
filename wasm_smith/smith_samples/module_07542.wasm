@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 6 436104 nullfuncref))
-  (global (;0;) f32 f32.const -0x1.8333d4p-86 (;=-0.000000000000000000000000019548728;))
-  (global (;1;) (mut exnref) ref.null exn)
-  (global (;2;) (mut nullfuncref) ref.null nofunc)
-  (global (;3;) (mut i64) i64.const 143765095221368507)
-  (data (;0;) "\b5\91")
-)

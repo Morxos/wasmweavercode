@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 13664)
-  (export "JT\u{b}Y" (memory 0))
-  (elem (;0;) declare arrayref)
-)

@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 1 231602 structref))
-  (elem (;0;) i31ref (ref.null none))
-  (elem (;1;) externref)
-  (elem (;2;) declare anyref (ref.null i31) (ref.null array) (ref.null eq) (ref.null array))
-  (data (;0;) "\87^")
-  (data (;1;) "\0c\99\e2")
-)

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 62 externref ref.null extern)
-  (export "" (table 0))
-  (elem (;0;) declare externref)
-)

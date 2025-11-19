@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 114 20105 anyref ref.null eq)
-  (memory (;0;) i64 1)
-)

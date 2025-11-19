@@ -1,3 +1,0 @@
-(module
-  (import "0U" "" (table (;0;) 5 76097 anyref))
-)

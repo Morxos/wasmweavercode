@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) 7553 9744)
-  (elem (;0;) declare nullref (ref.null none))
-  (elem (;1;) nullref)
-  (elem (;2;) declare eqref (ref.null eq))
-  (elem (;3;) nullfuncref)
-  (data (;0;) (i32.const 6634699) "Y")
-)

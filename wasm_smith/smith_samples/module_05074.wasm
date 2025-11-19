@@ -1,7 +1,0 @@
-(module
-  (import "\u{13}" "" (memory (;0;) 9763))
-  (import "" "" (global (;0;) i32))
-  (import "h)>\u{b}wGD^J" "" (global (;1;) f32))
-  (import "" "" (table (;0;) i64 2772 structref))
-  (import "" "" (global (;2;) (mut i64)))
-)

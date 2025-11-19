@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (import "y" "" (memory (;0;) 13259 63621))
-  (table (;0;) 3637 nullref)
-  (elem (;0;) (table 0) (i32.const 2710) nullref)
-)

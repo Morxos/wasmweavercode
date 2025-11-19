@@ -1,8 +1,0 @@
-(module
-  (import "\u{d}" "" (global (;0;) (mut structref)))
-  (import "" "" (memory (;0;) 5 32743))
-  (table (;0;) i64 515 740945 nullref ref.null none)
-  (export "3Z" (global 0))
-  (export "" (global 0))
-  (export "M" (table 0))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "+" "" (global (;0;) (mut i31ref)))
-  (memory (;0;) 0 19764)
-  (global (;1;) (mut nullfuncref) ref.null nofunc)
-  (global (;2;) i32 i32.const -950112624)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "u\f1\91\de")
-)

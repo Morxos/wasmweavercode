@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) f32))
-  (import "" "" (memory (;0;) 8076))
-  (export "3" (global 0))
-  (data (;0;) "")
-)

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 8097 10665 eqref)
-  (memory (;0;) i64 16)
-  (global (;0;) (mut i64) i64.const 3173926560000572384)
-)

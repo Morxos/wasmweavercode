@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) anyref)
-  (elem (;1;) exnref)
-)

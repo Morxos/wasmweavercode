@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 2749 exnref))
-  (export "\u{14}" (table 0))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 851) exnref (ref.null exn))
-  (data (;0;) "")
-)

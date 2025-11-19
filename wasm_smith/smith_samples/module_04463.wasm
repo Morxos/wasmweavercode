@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 1 funcref ref.null func)
-  (memory (;0;) i64 4 174934855910302)
-  (export "" (memory 0))
-  (elem (;0;) declare exnref)
-)

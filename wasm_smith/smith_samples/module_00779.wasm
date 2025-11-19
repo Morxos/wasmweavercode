@@ -1,6 +1,0 @@
-(module
-  (import "pw" "" (table (;0;) 780 externref))
-  (memory (;0;) i64 460 197954769094594 shared)
-  (global (;0;) (mut f32) f32.const 0x1.223744p+92 (;=5613591600000000000000000000;))
-  (data (;0;) "\a6")
-)

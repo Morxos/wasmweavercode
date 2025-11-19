@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 1527 217670 exnref ref.null exn)
-  (memory (;0;) 7 39845 shared)
-  (data (;0;) (i32.const 37898) "")
-)

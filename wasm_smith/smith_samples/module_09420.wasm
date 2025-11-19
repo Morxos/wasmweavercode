@@ -1,7 +1,0 @@
-(module
-  (import "6q\u{15}O(" "" (memory (;0;) 0 1177 shared))
-  (global (;0;) f32 f32.const -0x1.3410a4p+94 (;=-23835375000000000000000000000;))
-  (global (;1;) arrayref ref.null none)
-  (global (;2;) i32 i32.const -1585872782 i32.const 883419966 i32.const -1085495373 i32.const 28834638 i32.const 1699596188 i32.const 661769424 i32.add i32.const 1604533424 i32.const 2108926482 i32.mul i32.const -1461905770 i32.mul i32.sub i32.sub i32.mul i32.sub i32.sub)
-  (global (;3;) i31ref ref.null none)
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut funcref)))
-  (import "?6y" "" (global (;1;) (mut f32)))
-  (global (;2;) eqref ref.null none)
-  (export "1;" (global 2))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "\u{8}" "" (global (;0;) (mut i32)))
-  (table (;0;) i64 2624 i31ref)
-  (global (;1;) nullexternref ref.null noextern)
-  (global (;2;) (mut i31ref) ref.null i31)
-  (global (;3;) i64 i64.const 5602494990184816459)
-  (global (;4;) f64 f64.const 0x1.c62fd77f22e9dp+238 (;=783670663344963500000000000000000000000000000000000000000000000000000000;))
-  (export "$l" (table 0))
-)

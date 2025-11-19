@@ -1,5 +1,0 @@
-(module
-  (import "9\u{e}" "" (table (;0;) i64 0 nullref))
-  (import "\u{19}4" "" (global (;0;) i32))
-  (elem (;0;) externref (ref.null noextern))
-)

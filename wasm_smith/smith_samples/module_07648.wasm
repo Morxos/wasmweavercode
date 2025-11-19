@@ -1,6 +1,0 @@
-(module
-  (import "=\u{1}\u{1b}" "" (memory (;0;) 8 19989 shared))
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) i64 5856 666387 funcref)
-  (export "\u{14}" (memory 0))
-)

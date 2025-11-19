@@ -1,7 +1,0 @@
-(module
-  (import "\u{7f}\u{12}" "" (table (;0;) 730 706688 anyref))
-  (elem (;0;) declare externref (ref.null extern))
-  (elem (;1;) declare func)
-  (data (;0;) "")
-  (data (;1;) "")
-)

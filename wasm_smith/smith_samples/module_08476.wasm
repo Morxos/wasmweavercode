@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 652 470416 funcref)
-  (global (;0;) (mut i64) i64.const -6381166888513357603 i64.const 1615435826161336608 i64.const 6355095254180610005 i64.const -2434697768373649214 i64.const 9081587688778857614 i64.sub i64.sub i64.add i64.const 8092532115820447819 i64.const 1223392535384416595 i64.const -2506712316028326746 i64.sub i64.sub i64.sub i64.add)
-  (export "1*" (table 0))
-  (export "" (table 0))
-  (export "#G\u{173}" (table 0))
-  (elem (;0;) (table 0) (i64.const 26) nullfuncref (ref.null nofunc))
-  (elem (;1;) (table 0) (i64.const 0) funcref)
-)

@@ -1,6 +1,0 @@
-(module
-  (rec)
-  (import "X" "" (global (;0;) f32))
-  (memory (;0;) 11)
-  (data (;0;) (i32.const 135) "\ee")
-)

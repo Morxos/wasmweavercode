@@ -1,5 +1,0 @@
-(module
-  (import "5\u{b1}" "" (memory (;0;) 272))
-  (global (;0;) (mut i32) i32.const 386520218 i32.const 1294444496 i32.const -1053207160 i32.const 1186701594 i32.const 1724508726 i32.const 707398979 i32.const 450610715 i32.const 510401299 i32.const -1130595772 i32.mul i32.sub i32.mul i32.mul i32.const 1767800847 i32.sub i32.add i32.mul i32.sub i32.mul)
-  (data (;0;) "\d8")
-)

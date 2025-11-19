@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2486 756672 nullfuncref)
-  (memory (;0;) 0 41350)
-  (global (;0;) (mut i32) i32.const -1677001545 i32.const -2028413176 i32.const -1253270844 i32.const -1317582757 i32.const -1921026545 i32.const 2033938428 i32.add i32.add i32.const 1064802693 i32.const 1594217658 i32.mul i32.const 1971858002 i32.mul i32.sub i32.sub i32.add i32.mul)
-  (global (;1;) i64 i64.const -3819421469820297108)
-  (elem (;0;) nullfuncref)
-  (data (;0;) "\d7\bd")
-)

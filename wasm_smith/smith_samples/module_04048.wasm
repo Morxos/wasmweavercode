@@ -1,5 +1,0 @@
-(module
-  (import "\u{13}" "" (table (;0;) i64 0 exnref))
-  (export "[" (table 0))
-  (export ";" (table 0))
-)

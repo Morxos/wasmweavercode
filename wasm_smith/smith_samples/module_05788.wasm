@@ -1,9 +1,0 @@
-(module
-  (import "(w`" "" (memory (;0;) 0 2728 shared))
-  (import "hb)k\u{22}E\u{0}\u{19} " "" (table (;0;) i64 17 exnref))
-  (global (;0;) i32 i32.const 1684426293)
-  (global (;1;) i64 i64.const 4428451487578512461)
-  (elem (;0;) declare arrayref (ref.null array) (ref.null array) (ref.null none) (ref.null array))
-  (elem (;1;) declare nullfuncref (ref.null nofunc))
-  (elem (;2;) declare exnref)
-)

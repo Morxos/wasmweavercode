@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 27 267489 funcref ref.null func)
-  (elem (;0;) (i32.const 0) funcref (ref.null func) (ref.null func))
-  (elem (;1;) externref (ref.null noextern) (ref.null noextern) (ref.null extern) (ref.null noextern) (ref.null extern))
-  (data (;0;) "\ea\b8")
-)

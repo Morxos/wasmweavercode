@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 5329 nullfuncref))
-  (global (;0;) arrayref ref.null array)
-  (elem (;0;) nullfuncref)
-  (elem (;1;) (table 0) (i64.const 3) nullfuncref (ref.null nofunc) (ref.null nofunc))
-)

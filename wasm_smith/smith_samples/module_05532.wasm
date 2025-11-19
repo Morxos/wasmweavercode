@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 8 nullexternref))
-  (global (;0;) i32 i32.const -1973383778 i32.const -1640165373 i32.const 1016495164 i32.const -668313101 i32.const 821645916 i32.const -953676698 i32.const 1266053270 i32.const 36374442 i32.sub i32.sub i32.sub i32.const 1188513192 i32.mul i32.add i32.add i32.add i32.const 1532145380 i32.add i32.mul)
-  (global (;1;) f32 f32.const -0x1.4cbfcap-14 (;=-0.000079333586;))
-  (global (;2;) f32 global.get 1)
-  (data (;0;) "nu")
-  (data (;1;) "\00z\d1\a2\df")
-  (data (;2;) "\ce")
-)

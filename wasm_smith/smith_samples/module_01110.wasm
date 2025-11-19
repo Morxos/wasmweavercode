@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 1577 256768 anyref)
-  (memory (;0;) 1)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "\u{5}" (memory 0))
-  (elem (;0;) (table 0) (i64.const 3) arrayref (ref.null array) (ref.null array) (ref.null array) (ref.null array))
-  (data (;0;) "")
-)

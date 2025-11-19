@@ -1,6 +1,0 @@
-(module
-  (import "R" "" (memory (;0;) 1))
-  (import "" "" (table (;0;) i64 4557 835011 anyref))
-  (import "" "" (global (;0;) f32))
-  (export "" (memory 0))
-)

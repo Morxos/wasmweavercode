@@ -1,8 +1,0 @@
-(module
-  (import "s_" "" (memory (;0;) 4121))
-  (import "" "" (table (;0;) i64 1 330253 nullexternref))
-  (import "" "" (global (;0;) (mut i64)))
-  (global (;1;) externref ref.null noextern)
-  (export "LDl" (global 1))
-  (data (;0;) "")
-)

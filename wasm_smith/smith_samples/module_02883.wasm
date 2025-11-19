@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) anyref))
-  (table (;0;) 140 862814 structref ref.null none)
-  (global (;1;) f32 f32.const 0x1.479d8p-19 (;=0.0000024409237;))
-  (data (;0;) "")
-)

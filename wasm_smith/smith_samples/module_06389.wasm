@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) 16 nullref))
-  (import "\u{4}" "" (global (;0;) f64))
-)

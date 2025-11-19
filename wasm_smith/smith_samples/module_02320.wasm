@@ -1,9 +1,0 @@
-(module
-  (import "\u{5c}B{" "" (table (;0;) 239 817225 nullexternref))
-  (import "\u{19}\u{31c}aT~" "" (memory (;0;) i64 122 164793747059614))
-  (export "" (memory 0))
-  (export "1" (table 0))
-  (export "2" (table 0))
-  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "U\fdP")
-)

@@ -1,5 +1,9 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+import random
+from typing import List
+import numpy as np
 from core.config.config import MEMORY_MAX_WRITE_INDEX
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
@@ -7,12 +11,20 @@ from core.tile import global_apply_callbacks, global_end_callbacks
 from core.util import apply_function
 
 
-def generate_trace(global_state: GlobalState, start_function="run", start_seed=0):
+def print_trace(global_state: GlobalState, entry_function="run", start_seed=0):
+    """
+    Generates a trace of the execution of the global state starting from the entry function.
+    Prints the stack, memory, globals, and the instruction being executed at each step.
+    """
     global_state.memory.reinit_memory()
     global_state.globals.reinit_globals()
     global_state.tables.reinit_tables()
     global_state.constraints.reset_all()
     global_state.stack.stack_frames=[]
+    #Set seed
+    random.seed(start_seed)
+    np.random.seed(start_seed)
+    #Push origin stack frame
     global_state.stack.push_frame(params=None, stack=[], name="origin")
 
     instruction_counter = 0
@@ -29,12 +41,15 @@ def generate_trace(global_state: GlobalState, start_function="run", start_seed=0
         instruction_counter+=1
     global_apply_callbacks.append(dummy_apply_callback)
     print("------------TRACE START------------")
-    apply_function(global_state.functions.get("run"), global_state)
-    #Remove the callback
+    apply_function(global_state.functions.get(entry_function), global_state)
     global_apply_callbacks.remove(dummy_apply_callback)
     print("------------TRACE END------------")
 
-def generate_trace_list(global_state: GlobalState):
+def generate_trace_list(global_state: GlobalState, entry_function="run"):
+    """
+    Generates a trace of the execution of the global state starting from the entry function.
+    Returns a list of instruction names executed.
+    """
     global_state.memory.reinit_memory()
     global_state.globals.reinit_globals()
     global_state.tables.reinit_tables()
@@ -58,7 +73,7 @@ def generate_trace_list(global_state: GlobalState):
 
     global_apply_callbacks.append(dummy_apply_callback)
     global_end_callbacks.append(dummy_apply_end_callback)
-    apply_function(global_state.functions.get("run"), global_state)
+    apply_function(global_state.functions.get(entry_function), global_state)
     global_apply_callbacks.remove(dummy_apply_callback)
     global_end_callbacks.remove(dummy_apply_end_callback)
     return trace

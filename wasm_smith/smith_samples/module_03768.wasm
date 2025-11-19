@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 967 51346919074853)
-  (global (;0;) (mut funcref) ref.null nofunc)
-  (global (;1;) (mut funcref) ref.null func)
-  (elem (;0;) declare i31ref (ref.null none) (ref.null none))
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-)

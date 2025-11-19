@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) 68 591881 arrayref))
-  (import "" "" (memory (;0;) i64 186 66640359643571))
-  (export "" (table 0))
-  (data (;0;) (i64.const 8735) "\d8\e0")
-)

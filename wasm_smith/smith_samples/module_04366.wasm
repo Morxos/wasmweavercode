@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 0 26209)
-  (elem (;0;) externref)
-  (elem (;1;) arrayref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

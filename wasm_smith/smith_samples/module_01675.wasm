@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 3479 23088))
-  (export "" (memory 0))
-  (data (;0;) (i32.const 321295) "{\85f")
-  (data (;1;) (i32.const 52249861) "M\c1")
-)

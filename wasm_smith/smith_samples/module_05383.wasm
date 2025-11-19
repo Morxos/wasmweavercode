@@ -1,6 +1,0 @@
-(module
-  (import "a\u{1e}" "" (table (;0;) 0 208666 arrayref))
-  (memory (;0;) 32 45605)
-  (elem (;0;) structref (ref.null struct))
-  (elem (;1;) declare nullfuncref (ref.null nofunc))
-)

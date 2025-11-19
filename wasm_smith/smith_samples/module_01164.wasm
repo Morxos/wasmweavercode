@@ -1,5 +1,0 @@
-(module
-  (import "#" "" (global (;0;) i64))
-  (elem (;0;) nullfuncref)
-  (data (;0;) "")
-)

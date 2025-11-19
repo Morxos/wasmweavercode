@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 2375))
-  (import "H" "" (table (;0;) i64 356 structref))
-  (elem (;0;) declare structref (ref.null none) (ref.null struct))
-  (elem (;1;) eqref (ref.null array) (ref.null none) (ref.null struct) (ref.null i31) (ref.null struct))
-  (data (;0;) (i64.const 1909865) "")
-)

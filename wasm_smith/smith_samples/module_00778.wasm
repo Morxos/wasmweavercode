@@ -1,6 +1,0 @@
-(module
-  (import "!" "" (memory (;0;) 14 13065))
-  (import "" "" (table (;0;) i64 1534 nullfuncref))
-  (elem (;0;) (table 0) (i64.const 14) nullfuncref)
-  (elem (;1;) (table 0) (i64.const 2) nullfuncref (ref.null nofunc))
-)

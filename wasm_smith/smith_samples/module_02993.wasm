@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 323 633472 nullref ref.null none)
-  (export "." (table 0))
-  (export "^" (table 0))
-  (export "" (table 0))
-  (elem (;0;) nullexternref)
-)

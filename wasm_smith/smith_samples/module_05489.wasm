@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 397 725218 i31ref)
-  (memory (;0;) i64 9603 257214265215444 shared)
-  (export "\u{22}\u{10}" (table 0))
-  (data (;0;) (i64.const 1505) "$")
-)

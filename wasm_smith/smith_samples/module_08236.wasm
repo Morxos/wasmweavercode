@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 492 527749 eqref))
-  (import "1" "" (global (;0;) i32))
-  (import "u" "" (memory (;0;) i64 0))
-  (global (;1;) f64 f64.const -0x1.00876aefb5da8p+156 (;=-91532597087763990000000000000000000000000000000;))
-  (data (;0;) "h\07C\e9")
-  (data (;1;) "sN")
-  (data (;2;) "\e8k")
-)

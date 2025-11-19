@@ -1,4 +1,0 @@
-(module
-  (import "\u{22}" "" (memory (;0;) i64 0 72641703127942))
-  (export "" (memory 0))
-)

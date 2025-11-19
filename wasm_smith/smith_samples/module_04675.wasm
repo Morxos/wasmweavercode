@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 3738 862290 externref ref.null noextern)
-  (elem (;0;) (table 0) (i32.const 181) externref (ref.null noextern) (ref.null extern))
-)

@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.2b63f8p-94 (;=0.000000000000000000000000000059044366;))
-  (global (;1;) (mut f32) f32.const 0x1.b93b92p+42 (;=7580320000000;))
-  (export "o" (global 1))
-  (export "_:" (global 1))
-  (elem (;0;) declare nullfuncref)
-)

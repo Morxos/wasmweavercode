@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 funcref))
-  (export "d" (table 0))
-  (export "" (table 0))
-  (export "2" (table 0))
-  (elem (;0;) declare anyref (ref.null i31))
-  (data (;0;) "\81\e5")
-  (data (;1;) "")
-)

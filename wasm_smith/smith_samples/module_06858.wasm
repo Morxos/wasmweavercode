@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 28 62956)
-  (global (;0;) i64 i64.const 5600243186421229694)
-  (export "Pb" (memory 0))
-)

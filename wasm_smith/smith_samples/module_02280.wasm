@@ -1,7 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.20623cp+102 (;=5712028000000000000000000000000;))
-  (export "" (global 0))
-  (export "\u{d}\u{357}" (global 0))
-  (data (;0;) "")
-  (data (;1;) "f\89\ba")
-)

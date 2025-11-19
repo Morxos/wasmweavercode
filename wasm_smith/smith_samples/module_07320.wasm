@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 1194 nullfuncref ref.null nofunc)
-  (export "-\u{753}]\u{6da}" (table 0))
-  (export "" (table 0))
-  (elem (;0;) nullfuncref)
-  (data (;0;) "")
-)

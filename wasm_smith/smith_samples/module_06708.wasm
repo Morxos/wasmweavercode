@@ -1,6 +1,0 @@
-(module
-  (import "\u{393}" "" (global (;0;) i64))
-  (export "\u{6d8}" (global 0))
-  (export "" (global 0))
-  (data (;0;) "l")
-)

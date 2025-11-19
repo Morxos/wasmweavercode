@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 12 arrayref)
-  (memory (;0;) 639 14709)
-  (global (;0;) i64 i64.const 8507225745928626436)
-  (export "" (table 0))
-  (export "1" (memory 0))
-  (data (;0;) (i32.const 30513568) "\b8\fb")
-)

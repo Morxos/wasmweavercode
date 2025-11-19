@@ -1,6 +1,0 @@
-(module
-  (global (;0;) f32 f32.const -0x1.a48cbcp+43 (;=-14449979000000;))
-  (global (;1;) f32 global.get 0)
-  (export "\u{5}n0\u{4}m" (global 0))
-  (data (;0;) "\0dw")
-)

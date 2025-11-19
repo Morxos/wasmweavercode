@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 from typing import List, Type
 
@@ -9,10 +12,10 @@ from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
 from core.util import generate_block, apply_block, can_place_block
 from core.value import get_random_val
 
-DISABLED = False
-
 def generate_random_block_name(function: Function) -> str:
-    """Generates a random block name that is not already used in the function"""
+    """
+    Generates a random block name that is not already used in the current function.
+    """
     while True:
         name = f"block_{random.randint(0, 2 ** 32 - 1)}"
         for block in function.blocks:
@@ -21,12 +24,17 @@ def generate_random_block_name(function: Function) -> str:
         return name
 
 class AbstractBlockTileFactory(AbstractTileFactory):
+    """
+    Factory for generating block tiles.
+    """
 
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
     def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        """Generates all possible tiles"""
+        """
+        Generates all possible tiles that can create a new block.
+        """
         block_tiles = []
         block_tile = self.create_block_tile(global_state, current_function, current_blocks)
         if block_tile.can_be_placed(global_state, current_function, current_blocks):
@@ -34,7 +42,9 @@ class AbstractBlockTileFactory(AbstractTileFactory):
         return block_tiles
 
     def create_block_tile(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> Type[AbstractTile]:
-
+        """
+        Creates a tile that generates a new block when applied.
+        """
         tile = type(f"BlockTile", (AbstractTile,), {"block": None, "index": len(current_function.blocks)})
         tile.name = f"Create block"
         tile_loader = self.tile_loader

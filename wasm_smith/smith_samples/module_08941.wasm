@@ -1,8 +1,0 @@
-(module
-  (import "g" "" (memory (;0;) i64 8))
-  (import "" "" (table (;0;) 1 621872 nullfuncref))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 1) nullfuncref)
-  (elem (;1;) nullref (ref.null none) (ref.null none) (ref.null none))
-  (data (;0;) "\af")
-)

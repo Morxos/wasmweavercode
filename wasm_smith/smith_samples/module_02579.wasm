@@ -1,5 +1,0 @@
-(module
-  (global (;0;) i32 i32.const 10089048 i32.const -268721736 i32.const 1309297682 i32.const 991096829 i32.const 1533603344 i32.const 1010717471 i32.const -1002827723 i32.const 1350034873 i32.mul i32.mul i32.add i32.sub i32.const -1846139014 i32.mul i32.add i32.sub i32.add i32.const -44757917 i32.add)
-  (export "\u{22}1" (global 0))
-  (export "" (global 0))
-)

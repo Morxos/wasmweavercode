@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 180 nullfuncref))
-  (memory (;0;) 1 38296 shared)
-  (data (;0;) (i32.const 23373) "~")
-  (data (;1;) (i32.const 255) "")
-  (data (;2;) "")
-)

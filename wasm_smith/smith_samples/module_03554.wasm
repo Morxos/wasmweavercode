@@ -1,7 +1,0 @@
-(module
-  (import "h\u{e}" "" (memory (;0;) i64 1 193732961432774 shared))
-  (import "" "" (table (;0;) 5347 structref))
-  (import "" "" (global (;0;) (mut f32)))
-  (import "" "" (global (;1;) i64))
-  (global (;2;) (mut f32) f32.const 0x1.bfa63ep+90 (;=2164699600000000000000000000;))
-)

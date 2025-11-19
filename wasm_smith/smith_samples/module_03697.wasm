@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) 1666 6310)
-  (export "*\u{3f6}2" (memory 0))
-)

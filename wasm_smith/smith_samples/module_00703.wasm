@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 7876)
-  (export "pI" (memory 0))
-  (data (;0;) "\ba")
-)

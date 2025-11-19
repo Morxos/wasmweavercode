@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 7 805878 externref ref.null extern)
-  (memory (;0;) i64 12)
-  (data (;0;) "")
-  (data (;1;) (i64.const 4657) "")
-  (data (;2;) "")
-)

@@ -1,4 +1,0 @@
-(module
-  (import "\u{19}Ze" "" (global (;0;) i64))
-  (export "," (global 0))
-)

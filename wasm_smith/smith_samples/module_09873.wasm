@@ -1,8 +1,0 @@
-(module
-  (import "w\u{157}gG" "" (global (;0;) i32))
-  (import "" "" (table (;0;) i64 0 607718 arrayref))
-  (memory (;0;) i64 974 123970091580190 shared)
-  (elem (;0;) declare func)
-  (elem (;1;) declare i31ref (ref.null i31) (ref.null none) (ref.null none))
-  (data (;0;) "\07")
-)

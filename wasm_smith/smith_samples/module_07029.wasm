@@ -1,8 +1,0 @@
-(module
-  (import "n3" "" (global (;0;) (mut i64)))
-  (import "" "" (table (;0;) 57 939623 externref))
-  (memory (;0;) i64 574)
-  (global (;1;) (mut i64) i64.const -2908419608316779231)
-  (data (;0;) "\bd")
-  (data (;1;) (i64.const 885658) "")
-)

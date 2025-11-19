@@ -1,6 +1,0 @@
-(module
-  (import "\u{3}o" "" (memory (;0;) i64 32 259678343027506 shared))
-  (table (;0;) 932 eqref ref.null none)
-  (elem (;0;) structref (ref.null struct))
-  (elem (;1;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-)

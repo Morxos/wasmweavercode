@@ -1,4 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 234 28913))
-  (global (;0;) (mut i64) i64.const -1591566449961766716)
-)

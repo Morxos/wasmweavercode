@@ -1,9 +1,0 @@
-(module
-  (import "#f" "" (global (;0;) (mut i32)))
-  (import "Y(\u{15}<\u{19}\u{bf9e}" "" (global (;1;) (mut i32)))
-  (table (;0;) i64 48 118755 eqref ref.null eq)
-  (export "h" (table 0))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none))
-  (elem (;1;) declare i31ref)
-  (elem (;2;) declare funcref)
-)

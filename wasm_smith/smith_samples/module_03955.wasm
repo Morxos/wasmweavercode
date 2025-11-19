@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 1068 801967 eqref ref.null none)
-  (global (;0;) (mut i32) i32.const -800490814)
-  (global (;1;) i32 i32.const -1479088774 i32.const 1801257966 i32.const 1950930011 i32.const 1771624904 i32.const -1614104760 i32.const 938776626 i32.add i32.sub i32.mul i32.const 1692698381 i32.const 1929563246 i32.mul i32.sub i32.add i32.mul i32.const 1920097714 i32.add)
-  (global (;2;) i32 i32.const 577477604)
-)

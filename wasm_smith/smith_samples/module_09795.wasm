@@ -1,7 +1,0 @@
-(module
-  (import "\u{b}u" "" (global (;0;) nullfuncref))
-  (import "kU#cy\u{2}" "" (memory (;0;) 566))
-  (table (;0;) i64 12 544283 nullref ref.null none)
-  (global (;1;) (mut anyref) ref.null array)
-  (data (;0;) "+")
-)

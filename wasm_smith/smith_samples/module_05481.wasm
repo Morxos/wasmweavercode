@@ -1,8 +1,0 @@
-(module
-  (import "\u{1c}" "" (global (;0;) (mut i32)))
-  (export "~" (global 0))
-  (export "" (global 0))
-  (export "2" (global 0))
-  (export "l\u{4}" (global 0))
-  (export "4" (global 0))
-)

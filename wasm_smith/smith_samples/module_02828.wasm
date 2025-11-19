@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 1247 582901 nullfuncref ref.null nofunc)
-  (elem (;0;) declare structref)
-  (elem (;1;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc))
-  (elem (;2;) (table 0) (i32.const 3) nullfuncref (ref.null nofunc))
-  (elem (;3;) nullexternref)
-  (elem (;4;) funcref)
-)

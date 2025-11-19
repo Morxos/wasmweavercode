@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 273 arrayref)
-  (memory (;0;) i64 542 29008747753418)
-  (global (;0;) (mut f32) f32.const 0x1.c2ee3cp+116 (;=146335350000000000000000000000000000;))
-  (export "2CXt" (global 0))
-  (export "" (memory 0))
-  (export "2" (memory 0))
-  (data (;0;) (i64.const 39197) "")
-)

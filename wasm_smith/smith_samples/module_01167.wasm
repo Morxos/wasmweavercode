@@ -1,6 +1,0 @@
-(module
-  (import "5" "" (memory (;0;) i64 0))
-  (import "" "" (global (;0;) (mut f64)))
-  (elem (;0;) declare eqref)
-  (data (;0;) "")
-)

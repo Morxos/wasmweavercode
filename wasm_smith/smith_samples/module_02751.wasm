@@ -1,7 +1,0 @@
-(module
-  (import "\u{c}" "" (memory (;0;) i64 128 91111554137588 shared))
-  (import "" "" (table (;0;) i64 0 47931 eqref))
-  (data (;0;) "\a1")
-  (data (;1;) (i64.const 54423) "")
-  (data (;2;) (i64.const 398) "\b9")
-)

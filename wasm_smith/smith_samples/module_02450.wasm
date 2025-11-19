@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut nullref)))
-  (memory (;0;) i64 0 114477385003173)
-  (global (;1;) i64 i64.const 829620409163916315 i64.const -4244392411291841146 i64.sub)
-  (export "" (memory 0))
-  (elem (;0;) exnref (ref.null exn))
-  (data (;0;) "\c8L")
-  (data (;1;) "")
-)

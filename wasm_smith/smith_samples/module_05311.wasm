@@ -1,8 +1,0 @@
-(module
-  (import "\u{0}I" "" (memory (;0;) i64 4571))
-  (table (;0;) 0 funcref)
-  (export ")O" (table 0))
-  (export "\u{12}" (table 0))
-  (elem (;0;) declare i31ref (ref.null none))
-  (data (;0;) "")
-)

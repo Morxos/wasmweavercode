@@ -1,8 +1,0 @@
-(module
-  (import "6" "" (table (;0;) 7536 externref))
-  (global (;0;) i32 i32.const -1325907584 i32.const -1310701724 i32.const -1311923336 i32.const -736487643 i32.mul i32.const -19557332 i32.mul i32.const -1248612467 i32.add i32.const 1357757213 i32.add i32.const -884641166 i32.sub i32.add i32.sub)
-  (export "O" (table 0))
-  (export "\u{b}" (table 0))
-  (elem (;0;) nullref)
-  (data (;0;) "\f2\02")
-)

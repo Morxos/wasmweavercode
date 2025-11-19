@@ -1,4 +1,0 @@
-(module
-  (import "j" "" (global (;0;) (mut f32)))
-  (elem (;0;) declare nullref)
-)

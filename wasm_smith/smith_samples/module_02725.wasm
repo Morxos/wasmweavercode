@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 1107 structref)
-  (memory (;0;) i64 2 10656013682822)
-  (elem (;0;) externref)
-  (data (;0;) "")
-)

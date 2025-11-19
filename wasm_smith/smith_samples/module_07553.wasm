@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 156 i31ref)
-  (memory (;0;) i64 7 164272239422014)
-  (elem (;0;) declare func)
-  (elem (;1;) structref)
-  (data (;0;) "\c1\a8")
-)

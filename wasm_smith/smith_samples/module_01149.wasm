@@ -1,5 +1,0 @@
-(module
-  (import "~\u{0}\u{11}\u{6c5} " "" (table (;0;) 29 872732 funcref))
-  (memory (;0;) 8523)
-  (elem (;0;) (i32.const 0) funcref (ref.null nofunc))
-)

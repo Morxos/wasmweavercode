@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 2246 3169))
-  (table (;0;) i64 88 407165 nullexternref)
-  (global (;0;) nullref ref.null none)
-  (data (;0;) "")
-  (data (;1;) (i32.const 35237559) "")
-  (data (;2;) "")
-  (data (;3;) ",N\7f\b4")
-)

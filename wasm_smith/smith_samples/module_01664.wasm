@@ -1,7 +1,0 @@
-(module
-  (import "\u{7f}" "" (memory (;0;) 3 53627))
-  (table (;0;) 26 341602 exnref)
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 0) exnref)
-  (data (;0;) (i32.const 20019) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "7" "" (memory (;0;) 0))
-  (import "N`" "" (table (;0;) 1 nullref))
-  (global (;0;) (mut i32) i32.const 56146459 i32.const 1364944826 i32.const -1155978626 i32.const 1204350657 i32.const -1265969152 i32.const 748682483 i32.const -912720818 i32.const -1380392648 i32.sub i32.add i32.add i32.sub i32.add i32.mul i32.add i32.const 93199990 i32.const 1990102849 i32.mul i32.add)
-  (data (;0;) "8")
-)

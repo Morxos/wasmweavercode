@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 40 122156756713909 shared)
-  (export "" (memory 0))
-  (export "K" (memory 0))
-  (data (;0;) "\e8")
-)

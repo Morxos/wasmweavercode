@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 10828 17571)
-  (export "9J\u{2}-i.u" (memory 0))
-  (elem (;0;) arrayref (ref.null array))
-  (data (;0;) (i32.const 3052) "\0b\ba")
-)

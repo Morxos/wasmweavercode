@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 24 nullexternref)
-  (global (;0;) (mut nullfuncref) ref.null nofunc)
-  (global (;1;) f64 f64.const -0x1.8680c804d0902p-262 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000020583802360459185;))
-  (elem (;0;) structref)
-)

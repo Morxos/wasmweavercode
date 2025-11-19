@@ -1,7 +1,0 @@
-(module
-  (global (;0;) eqref ref.null eq)
-  (export "#t)\u{c}" (global 0))
-  (export "" (global 0))
-  (export "1\u{b}s" (global 0))
-  (elem (;0;) declare externref (ref.null noextern))
-)

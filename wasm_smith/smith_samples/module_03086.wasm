@@ -1,4 +1,0 @@
-(module
-  (import "\u{22}" "" (table (;0;) i64 117 860278 anyref))
-  (memory (;0;) 1278 8084 shared)
-)

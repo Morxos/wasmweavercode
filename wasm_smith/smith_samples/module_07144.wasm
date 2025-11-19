@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (import "U0" "" (memory (;0;) 65385 65527))
-  (import "\u{1d}\u{633}\u{b}wC!" "" (table (;0;) i64 98 exnref))
-  (global (;1;) (mut f32) f32.const 0x1.f7ed26p-40 (;=0.0000000000017903061;))
-  (elem (;0;) (table 0) (i64.const 0) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
-)

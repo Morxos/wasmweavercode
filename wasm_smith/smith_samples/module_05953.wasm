@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 20 1353 externref ref.null extern)
-  (memory (;0;) 826 29050)
-  (elem (;0;) eqref (ref.null array))
-  (elem (;1;) declare funcref (ref.null func))
-  (elem (;2;) (table 0) (i32.const 0) externref)
-  (elem (;3;) declare arrayref (ref.null none) (ref.null array))
-)

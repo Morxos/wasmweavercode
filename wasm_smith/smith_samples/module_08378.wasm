@@ -1,8 +1,0 @@
-(module
-  (import "\u{7}" "" (memory (;0;) i64 398 34021834459402))
-  (import "R\u{446}+\u{c}\u{b}\u{242}" "" (global (;0;) f32))
-  (import "z" "" (table (;0;) i64 1038 funcref))
-  (import "i'" "" (global (;1;) (mut nullfuncref)))
-  (import "" "" (global (;2;) (mut structref)))
-  (elem (;0;) (table 0) (i64.const 495) funcref)
-)

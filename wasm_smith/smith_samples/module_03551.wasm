@@ -1,8 +1,0 @@
-(module
-  (import "\u{4a3}" "" (memory (;0;) i64 5185 117002163541138))
-  (import "\u{2}\u{f}" "" (global (;0;) (mut f32)))
-  (import "" "" (table (;0;) i64 1 funcref))
-  (import "RK" "" (global (;1;) f32))
-  (global (;2;) f32 global.get 1)
-  (global (;3;) i32 i32.const -1413691819)
-)

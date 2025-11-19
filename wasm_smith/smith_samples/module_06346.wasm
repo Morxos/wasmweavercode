@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 0)
-  (global (;0;) exnref ref.null exn)
-  (data (;0;) "\16\b8")
-)

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 134 643116 i31ref)
-  (export "f" (table 0))
-  (elem (;0;) (table 0) (i32.const 107) i31ref (ref.null i31) (ref.null none) (ref.null none))
-)

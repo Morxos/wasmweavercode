@@ -1,6 +1,0 @@
-(module
-  (import "b" "" (memory (;0;) 1902 44349 shared))
-  (import "u" "'\u{8}" (global (;0;) f64))
-  (table (;0;) i64 0 funcref)
-  (export "\u{69f}" (memory 0))
-)

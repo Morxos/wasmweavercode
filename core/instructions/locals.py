@@ -1,5 +1,7 @@
-from typing import Type, List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.config.config import MAX_LOCALS_PER_FUNCTION
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
@@ -8,11 +10,16 @@ from core.value import get_random_val
 
 
 class AbstractLocalFactory(AbstractTileFactory):
+    """
+    Factory for generating local get, set, and tee tiles.
+    """
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
-    def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> [
-        Type[AbstractTile]]:
+    def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]):
+        """
+        Generates all placeable local get, set, and tee tiles.
+        """
         for index, local in enumerate(global_state.stack.get_current_frame().locals.locals):
             local_get_tile = self.create_local_get_tile(index)
             if local_get_tile.can_be_placed(global_state, current_function, current_blocks):
@@ -37,7 +44,9 @@ class AbstractLocalFactory(AbstractTileFactory):
             yield get_tile
 
     def create_local_get_tile(self, local_index, create_local: bool = False):
-
+        """
+        Used for generating local get tiles.
+        """
         class LocalGet(AbstractTile):
             name = f"Get local"
             index = local_index
@@ -62,7 +71,6 @@ class AbstractLocalFactory(AbstractTileFactory):
                 if create_local:
                     if len(current_function.local_types) > self.index:
                         self.local = current_function.local_types[self.index].get_default_value()
-                        #print(f"Local type due to larger get: {current_function.local_types[self.index]}")
                     else:
                         self.local = get_random_val()
 
@@ -87,6 +95,9 @@ class AbstractLocalFactory(AbstractTileFactory):
         return LocalGet
 
     def create_local_set_tee_tile(self, local_index, create_local: bool = False, is_tee: bool = False):
+        """
+        Used for generating local set and tee tiles.
+        """
         """Used for creating local set tiles"""
 
         class LocalTeeSet(AbstractTile):
@@ -120,7 +131,6 @@ class AbstractLocalFactory(AbstractTileFactory):
                     if len(current_state.stack.get_current_frame().locals) <= self.index:
                         current_state.stack.get_current_frame().locals.add(value)
 
-                    #Add to function local types
                     if len(current_function.local_types) <= self.index:
                         current_function.local_types.append(type(value))
                     else:

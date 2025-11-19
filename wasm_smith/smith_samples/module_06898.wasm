@@ -1,5 +1,0 @@
-(module
-  (import "\u{16}" "" (memory (;0;) 5))
-  (import "" "" (global (;0;) (mut f64)))
-  (import "?" "" (table (;0;) 1839 784251 exnref))
-)

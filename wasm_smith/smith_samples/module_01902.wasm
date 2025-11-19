@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1 nullref ref.null none)
-  (export "" (table 0))
-  (elem (;0;) declare nullexternref (ref.null noextern))
-  (elem (;1;) declare nullexternref)
-  (data (;0;) "\c0\5c\a0D")
-)

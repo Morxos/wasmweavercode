@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 anyref)
-  (memory (;0;) i64 6636)
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "\f8\89")
-)

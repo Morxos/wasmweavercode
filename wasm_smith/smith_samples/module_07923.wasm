@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 6141 83583213235390)
-  (elem (;0;) declare structref (ref.null struct) (ref.null none) (ref.null struct) (ref.null struct))
-  (elem (;1;) funcref (ref.null nofunc) (ref.null func) (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) func)
-  (elem (;3;) exnref (ref.null exn) (ref.null exn) (ref.null exn))
-  (elem (;4;) declare nullref (ref.null none))
-)

@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 2168)
-  (global (;0;) f64 f64.const -0x1.424439c574587p-95 (;=-0.000000000000000000000000000031777931006990324;))
-  (export "l[\u{5}\u{3b3}8" (global 0))
-  (export "" (global 0))
-  (elem (;0;) declare nullref (ref.null none))
-  (data (;0;) (i32.const 61500) "7")
-  (data (;1;) (i32.const 5633607) "Fi\bd")
-)

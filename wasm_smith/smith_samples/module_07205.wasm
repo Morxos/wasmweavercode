@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 3330 469238 i31ref ref.null none)
-  (memory (;0;) i64 0)
-  (global (;0;) (mut i31ref) ref.null none)
-  (export "" (table 0))
-  (export "\u{a}" (global 0))
-  (export "2" (memory 0))
-  (export "3" (memory 0))
-)

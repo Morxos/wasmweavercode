@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 2140 i31ref ref.null none)
-  (memory (;0;) i64 312)
-  (export "" (table 0))
-  (data (;0;) "")
-)

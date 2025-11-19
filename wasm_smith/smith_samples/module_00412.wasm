@@ -1,8 +1,0 @@
-(module
-  (import "r\u{4ad}" "" (memory (;0;) i64 6141 59168141745804))
-  (import "" "" (table (;0;) i64 28 982263 funcref))
-  (import "" "" (global (;0;) exnref))
-  (import "S\u{0}" "" (global (;1;) (mut i64)))
-  (import "{q&" "" (global (;2;) i32))
-  (import ")" "" (global (;3;) (mut exnref)))
-)

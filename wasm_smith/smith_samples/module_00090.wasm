@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 8457 875788 i31ref)
-  (global (;0;) (mut f32) f32.const -0x1.98874p-101 (;=-0.00000000000000000000000000000062943754;))
-  (elem (;0;) nullexternref)
-  (data (;0;) "")
-  (data (;1;) "\ae\e4")
-  (data (;2;) "\8d")
-)

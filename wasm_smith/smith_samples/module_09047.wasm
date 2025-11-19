@@ -1,5 +1,0 @@
-(module
-  (global (;0;) i64 i64.const -9187317178012668611)
-  (export "" (global 0))
-  (data (;0;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 5668 anyref ref.null i31)
-  (memory (;0;) 28 63832 shared)
-  (global (;0;) (mut funcref) ref.null nofunc)
-  (global (;1;) i64 i64.const -8275422017335263213 i64.const 2189770003631096392 i64.const 5998277941533911805 i64.sub i64.const -6073960649107316316 i64.add i64.sub i64.const -1881972313574395581 i64.const 3708998212907654881 i64.mul i64.sub i64.const -5024045851528688520 i64.mul)
-  (export "L>" (memory 0))
-  (data (;0;) "")
-)

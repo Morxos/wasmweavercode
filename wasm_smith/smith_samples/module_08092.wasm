@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (table (;0;) i64 13 158827 funcref ref.null nofunc)
-  (global (;1;) exnref ref.null exn)
-)

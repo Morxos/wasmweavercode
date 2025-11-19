@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut funcref)))
-  (import "(" "" (table (;0;) i64 247 funcref))
-  (memory (;0;) i64 203)
-)

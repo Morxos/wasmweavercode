@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 eqref))
-  (export "s" (table 0))
-)

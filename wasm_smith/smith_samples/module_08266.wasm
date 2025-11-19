@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 15458 204770117389689))
-  (table (;0;) 0 940350 anyref)
-  (global (;0;) i32 i32.const 367931331)
-  (global (;1;) (mut f32) f32.const -0x1.0688a4p+39 (;=-563786940000;))
-  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
-)

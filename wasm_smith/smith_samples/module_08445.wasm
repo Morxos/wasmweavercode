@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (import "," "" (table (;0;) i64 458 788460 eqref))
-  (import "zclZ?" "" (memory (;0;) i64 0))
-  (import "l" "" (global (;1;) (mut i32)))
-  (global (;2;) nullexternref ref.null noextern)
-  (export "3" (table 0))
-)

@@ -1,6 +1,0 @@
-(module
-  (import "8\u{18}:\u{d}" "" (memory (;0;) i64 9024 260494619495482))
-  (table (;0;) 0 nullfuncref ref.null nofunc)
-  (elem (;0;) declare i31ref (ref.null i31))
-  (data (;0;) "")
-)

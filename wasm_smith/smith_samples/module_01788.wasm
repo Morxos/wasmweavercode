@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 349)
-  (global (;0;) (mut i64) i64.const 3036150982273537052)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (elem (;0;) i31ref)
-  (elem (;1;) arrayref)
-  (data (;0;) (i32.const 15418838) "")
-)

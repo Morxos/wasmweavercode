@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 10 nullref ref.null none)
-  (memory (;0;) 3340 9655 shared)
-  (global (;0;) f32 f32.const -0x1.b6582p+7 (;=-219.17212;))
-  (export "\u{8}" (global 0))
-  (export "" (table 0))
-  (elem (;0;) declare nullfuncref)
-  (data (;0;) "")
-)

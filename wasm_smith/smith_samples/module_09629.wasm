@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) nullref))
-  (import "" "" (table (;0;) 443 eqref))
-  (memory (;0;) 8 6340)
-  (export "" (memory 0))
-  (export "=" (memory 0))
-  (export "\u{7}" (global 0))
-)

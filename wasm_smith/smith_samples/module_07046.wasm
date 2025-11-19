@@ -1,7 +1,0 @@
-(module
-  (import "\u{672}" "" (global (;0;) f64))
-  (import "\u{1e}>\u{11}" "" (memory (;0;) i64 0))
-  (import "" "" (global (;1;) (mut i32)))
-  (import "\u{17}" "" (table (;0;) i64 63 structref))
-  (elem (;0;) (table 0) (i64.const 55) structref)
-)

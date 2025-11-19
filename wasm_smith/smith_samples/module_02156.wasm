@@ -1,4 +1,0 @@
-(module
-  (rec)
-  (import "" "" (memory (;0;) 14))
-)

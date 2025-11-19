@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2747 244146 eqref)
-  (memory (;0;) i64 2351)
-  (global (;0;) anyref ref.null none)
-  (global (;1;) funcref ref.null func)
-  (global (;2;) (mut i64) i64.const 4773803181959491780)
-  (elem (;0;) (table 0) (i32.const 106) nullref)
-)

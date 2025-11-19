@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (table (;0;) 1 nullref)
-  (memory (;0;) 1726 37992 shared)
-  (global (;1;) (mut nullexternref) ref.null noextern)
-  (export "" (table 0))
-  (export "g" (table 0))
-  (elem (;0;) nullexternref (ref.null noextern))
-)

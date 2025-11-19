@@ -1,7 +1,9 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import importlib
 import os
 from typing import List, Type, TypeVar
-
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
 from core.strategy import AbstractSelectionStrategy
@@ -13,16 +15,22 @@ T = TypeVar('T')
 class AbstractTileLoader:
 
     def get_placeable_tiles(self, state: GlobalState, current_function: Function, current_blocks: List[Block]) -> List[Type[AbstractTile]]:
-        """Return a list of tiles that can be placed in the current state."""
+        """
+        Return a list of tiles that can be placed in the current state.
+        """
         raise NotImplementedError
 
     def get_tile_type_by_name(self, name: str) -> Type[AbstractTile]:
-        """Return a tile type by name."""
+        """
+        Return a tile type by name.
+        """
         raise NotImplementedError
 
 
 class TileLoader(AbstractTileLoader):
-    """Loads all tiles from a given directory."""
+    """
+    Loads all tiles from a given directory.
+    """
 
     def __init__(self, path: str, selection_strategy: AbstractSelectionStrategy):
         self.path = path
@@ -32,7 +40,9 @@ class TileLoader(AbstractTileLoader):
                                                      self._load_classes(path, AbstractTileFactory)]
 
     def get_placeable_tiles(self, state: GlobalState, current_function: Function, current_blocks: List[Block]) -> List[Type[AbstractTile]]:
-        """Return a list of tiles that can be placed in the current state."""
+        """
+        Return a list of tiles that can be placed in the current state.
+        """
         static_tiles = [tile for tile in self.tiles if tile.can_be_placed(state, current_function,current_blocks)]
         dynamic_tiles = []
         for factory in self.factories:
@@ -40,7 +50,9 @@ class TileLoader(AbstractTileLoader):
         return static_tiles + dynamic_tiles
 
     def get_tile_type_by_name(self, name: str) -> Type[AbstractTile]:
-        """Return a tile type by name."""
+        """
+        Return a tile type by name.
+        """
         for tile in self.tiles:
             if tile.name == name:
                 return tile
@@ -50,25 +62,24 @@ class TileLoader(AbstractTileLoader):
         return f"TileLoader({self.path})\n" + "\n".join([f"  {tile}" for tile in self.tiles])
 
     def _find_python_files(self, directory):
-        """Yield directory and filenames of Python files."""
+        """
+        Yield directory and filenames of Python files.
+        """
         for root, _, files in os.walk(directory):
             for file in files:
                 if file.endswith('.py'):
                     yield root, file
 
     def _import_subclasses(self, root, file, subclass: Type[T]) -> List[Type[T]]:
-        """Attempt to import subclasseses of AbstractTile from the given file."""
+        """
+        Attempt to import subclasses of AbstractTile from the given file.
+        """
         sub_classes = []
-        print("Root",root)
-        print("File",file)
         module_path = os.path.splitext(os.path.join(root, file))[0]
-        print(module_path)
-        print(os.sep)
         relative_module = module_path.replace("/", '.')
-        print(relative_module)
+        print("Loading module:", relative_module)
         try:
             module = importlib.import_module(relative_module)
-            # Don't load module when DISABLED exists and is set to True
             if hasattr(module, "DISABLED") and getattr(module, "DISABLED"):
                 return []
             for name, obj in vars(module).items():

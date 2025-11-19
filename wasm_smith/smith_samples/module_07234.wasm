@@ -1,8 +1,0 @@
-(module
-  (import "4" "" (global (;0;) f64))
-  (table (;0;) i64 159 200280 externref ref.null extern)
-  (memory (;0;) 14478 40697)
-  (global (;1;) f64 f64.const -0x1.2070eb4ee9c2bp+140 (;=-1570422671985093000000000000000000000000000;))
-  (data (;0;) "K\06n\ba")
-  (data (;1;) "\82")
-)

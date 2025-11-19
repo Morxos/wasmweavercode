@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 786 894213 nullexternref ref.null noextern)
-  (memory (;0;) i64 420)
-  (export "\u{a}" (table 0))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 15 i31ref))
-  (global (;0;) externref ref.null noextern)
-  (export "\u{c}L\u{7b9}.\u{628}" (table 0))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 11) i31ref (ref.null i31))
-  (elem (;1;) (table 0) (i32.const 6) i31ref (ref.null i31) (ref.null none))
-  (elem (;2;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-)

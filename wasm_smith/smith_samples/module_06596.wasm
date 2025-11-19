@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 eqref)
-  (memory (;0;) 369 41968 shared)
-  (data (;0;) (i32.const 11822) "")
-  (data (;1;) (i32.const 5561) "")
-)

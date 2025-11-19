@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 8390 16072)
-  (global (;0;) (mut f64) f64.const -0x1.63a65f3afeea9p-594 (;=-0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002142719340954849;))
-  (elem (;0;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (elem (;1;) nullfuncref (ref.null nofunc))
-  (elem (;2;) declare nullexternref (ref.null noextern))
-  (elem (;3;) declare structref (ref.null struct) (ref.null struct) (ref.null none))
-  (elem (;4;) declare nullfuncref (ref.null nofunc))
-)

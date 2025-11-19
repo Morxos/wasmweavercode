@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) anyref))
-  (memory (;0;) i64 113 147918291000)
-  (global (;1;) i64 i64.const -714110348816489905 i64.const 7047536476796262580 i64.const 355381043633547588 i64.const 1086346562460095073 i64.const 378076705414376261 i64.const 8202401158383908920 i64.mul i64.const 516837299961011914 i64.add i64.sub i64.sub i64.sub i64.add i64.const -1072808093051456794 i64.mul i64.const 1987791476348992152 i64.add)
-  (global (;2;) (mut structref) ref.null none)
-  (elem (;0;) declare anyref)
-  (data (;0;) (i64.const 51500) "")
-)

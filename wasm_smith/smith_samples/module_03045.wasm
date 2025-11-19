@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 216 externref)
-  (elem (;0;) declare exnref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

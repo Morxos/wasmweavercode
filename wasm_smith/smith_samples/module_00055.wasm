@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut arrayref)))
-  (table (;0;) i64 7617 263309 funcref ref.null func)
-  (global (;1;) f32 f32.const 0x1.828bbcp-74 (;=0.000000000000000000000079935806;))
-  (global (;2;) externref ref.null noextern)
-  (data (;0;) "\d0\18")
-)

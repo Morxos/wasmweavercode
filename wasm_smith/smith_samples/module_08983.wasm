@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 329722 exnref))
-  (import "@" "" (global (;0;) eqref))
-  (memory (;0;) 1197)
-  (global (;1;) exnref ref.null exn)
-  (global (;2;) (mut i64) i64.const 8175997871031991860)
-  (global (;3;) (mut i32) i32.const -456142648)
-)

@@ -1,5 +1,0 @@
-(module
-  (import "\u{17}" "" (memory (;0;) i64 889))
-  (import "" "" (table (;0;) 1753 522239 eqref))
-  (export "a!\u{64a}%" (table 0))
-)

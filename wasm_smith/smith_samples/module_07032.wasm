@@ -1,5 +1,0 @@
-(module
-  (global (;0;) f64 f64.const -0x1.faf8c067bd465p+23 (;=-16612448.202615926;))
-  (global (;1;) eqref ref.null array)
-  (data (;0;) "\b7#")
-)

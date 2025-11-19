@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 2337 externref ref.null extern)
-  (memory (;0;) 7985 42064)
-  (global (;0;) (mut externref) ref.null noextern)
-  (global (;1;) (mut i64) i64.const -757714389933131168 i64.const -1332868460453692035 i64.const 7727563088704885331 i64.const 650382620341196894 i64.sub i64.const 998345261355584138 i64.mul i64.const -528190752798457211 i64.sub i64.const -1335135547636747046 i64.add i64.const -8280133090260814378 i64.add i64.sub i64.mul)
-  (export "\u{10}T" (global 0))
-)

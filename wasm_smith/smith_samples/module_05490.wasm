@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 763 919973 eqref ref.null eq)
-  (memory (;0;) i64 11142 163020951273907 shared)
-  (export "\u{15}" (memory 0))
-  (data (;0;) (i64.const 68267523) "\dc\d6\f9(")
-)

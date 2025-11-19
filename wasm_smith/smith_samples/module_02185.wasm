@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) declare anyref (ref.null eq))
-  (data (;0;) "k\ac`\18")
-  (data (;1;) "G")
-)

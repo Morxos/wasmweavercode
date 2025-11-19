@@ -1,3 +1,0 @@
-(module
-  (import "J" "" (table (;0;) 6 eqref))
-)

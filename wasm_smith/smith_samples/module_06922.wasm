@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 121 751465 nullexternref)
-  (memory (;0;) 10419 24637)
-  (elem (;0;) declare i31ref)
-  (elem (;1;) arrayref (ref.null none) (ref.null array))
-  (data (;0;) "\89")
-  (data (;1;) "\a1\b0")
-  (data (;2;) "")
-)

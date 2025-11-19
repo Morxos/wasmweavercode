@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 0 10121 shared)
-  (global (;0;) (mut i32) i32.const 776965699 i32.const 479335368 i32.const -1214079338 i32.const 890881774 i32.const -977150790 i32.const -978886755 i32.const -1615300938 i32.const 1173548426 i32.add i32.add i32.const 1463418439 i32.sub i32.mul i32.mul i32.mul i32.mul i32.const 178250033 i32.mul i32.add)
-  (elem (;0;) structref (ref.null struct))
-  (data (;0;) "s\bb")
-  (data (;1;) "")
-)

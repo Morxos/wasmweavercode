@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 30 569773 nullexternref ref.null noextern)
-  (elem (;0;) externref)
-  (elem (;1;) nullexternref)
-  (elem (;2;) nullexternref)
-  (data (;0;) "")
-  (data (;1;) "\05\00")
-  (data (;2;) "\be")
-)

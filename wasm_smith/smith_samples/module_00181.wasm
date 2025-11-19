@@ -1,9 +1,0 @@
-(module
-  (import "A]" "" (table (;0;) 0 arrayref))
-  (global (;0;) f32 f32.const -0x1.ec1896p+85 (;=-74363450000000000000000000;))
-  (global (;1;) i32 i32.const -244645979)
-  (export "" (table 0))
-  (elem (;0;) declare func)
-  (elem (;1;) declare funcref (ref.null nofunc) (ref.null func))
-  (elem (;2;) declare structref)
-)

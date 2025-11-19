@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) nullfuncref (ref.null nofunc))
-  (data (;0;) "/")
-)

@@ -1,7 +1,0 @@
-(module
-  (import "F" "" (table (;0;) 214 335004 arrayref))
-  (import "4^" "" (global (;0;) nullfuncref))
-  (memory (;0;) i64 8961)
-  (elem (;0;) declare exnref)
-  (data (;0;) "\a1")
-)

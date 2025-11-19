@@ -1,8 +1,0 @@
-(module
-  (import "\u{7e7}\u{12}" "" (memory (;0;) 54 18830))
-  (table (;0;) i64 0 698594 funcref)
-  (global (;0;) (mut i64) i64.const 4950484343140146217)
-  (export "r" (table 0))
-  (export "\u{5c}" (memory 0))
-  (elem (;0;) declare nullref (ref.null none))
-)

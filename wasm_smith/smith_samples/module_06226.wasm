@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 14779)
-  (global (;0;) (mut i64) i64.const 4076335394700836686)
-  (elem (;0;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
-  (data (;0;) ")\bb\a6")
-)

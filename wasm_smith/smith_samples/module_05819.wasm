@@ -1,4 +1,0 @@
-(module
-  (import "\u{35b}\u{22}" "" (memory (;0;) i64 12035 263246068917153 shared))
-  (export "o" (memory 0))
-)

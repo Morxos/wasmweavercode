@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 5595 externref ref.null noextern)
-  (memory (;0;) i64 3 126851141243062 shared)
-  (global (;0;) (mut structref) ref.null struct)
-  (global (;1;) nullexternref ref.null noextern)
-  (export "\u{6}a" (table 0))
-  (export "?v`" (table 0))
-)

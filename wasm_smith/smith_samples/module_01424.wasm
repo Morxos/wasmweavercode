@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut eqref)))
-  (export "FLCG1\u{15}" (global 0))
-  (export "" (global 0))
-  (data (;0;) "\dbX")
-  (data (;1;) "@\04!")
-  (data (;2;) "\19\b9")
-  (data (;3;) "E")
-)

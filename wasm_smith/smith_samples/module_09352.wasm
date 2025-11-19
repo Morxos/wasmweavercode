@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 262 778724 structref))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) structref)
-  (elem (;1;) i31ref)
-  (data (;0;) "")
-)

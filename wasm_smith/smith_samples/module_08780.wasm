@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 4215 382501 externref)
-  (memory (;0;) i64 1)
-  (global (;0;) (mut i64) i64.const -3451162162833964000 i64.const 2878381585583103187 i64.sub i64.const 3727041076093446145 i64.add)
-  (global (;1;) (mut f32) f32.const 0x1.d54c36p+102 (;=9295398600000000000000000000000;))
-  (export "" (table 0))
-  (elem (;0;) i31ref)
-)

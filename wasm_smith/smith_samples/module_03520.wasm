@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) declare i31ref (ref.null none))
-  (elem (;1;) structref (ref.null struct))
-)

@@ -1,4 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut structref)))
-  (import "" "" (table (;0;) i64 1531 arrayref))
-)

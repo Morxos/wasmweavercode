@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) i32))
-  (memory (;0;) 23 17471 shared)
-  (data (;0;) (global.get 0) "p")
-)

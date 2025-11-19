@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 4212 14496)
-  (export "5" (memory 0))
-  (export "B\u{59a}\u{5c}\u{1c}\u{f}JiV" (memory 0))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-  (data (;3;) (i32.const 635387) "\fc\a6(")
-)

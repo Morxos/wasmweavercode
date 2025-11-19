@@ -1,7 +1,0 @@
-(module
-  (import "\u{1d}t`Ir" "" (global (;0;) exnref))
-  (export "\u{18}D!" (global 0))
-  (export "\u{8}q\u{f}J" (global 0))
-  (elem (;0;) declare externref (ref.null noextern))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 92 97128 nullfuncref ref.null nofunc)
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "\04\c0")
-)

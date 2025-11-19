@@ -1,5 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 6336))
-  (import "q" "" (table (;0;) i64 0 332470 i31ref))
-  (import "\u{8}tp" "" (global (;0;) (mut f64)))
-)

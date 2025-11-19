@@ -1,9 +1,0 @@
-(module
-  (import "\u{8}" "" (memory (;0;) i64 0 263825491819259))
-  (table (;0;) 2806 528267 i31ref ref.null none)
-  (global (;0;) (mut externref) ref.null noextern)
-  (export "\u{9}2\u{12}" (memory 0))
-  (elem (;0;) declare nullref)
-  (data (;0;) "")
-  (data (;1;) (i64.const 0) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 191 nullref))
-  (memory (;0;) 13118 42353)
-  (global (;0;) (mut f32) f32.const -0x1.84b5e4p-63 (;=-0.0000000000000000001646253;))
-  (global (;1;) (mut f32) f32.const -0x1.55f424p-7 (;=-0.010435598;))
-  (export "@" (table 0))
-  (export "" (global 0))
-  (export "q" (memory 0))
-)

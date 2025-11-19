@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 54 exnref ref.null exn)
-  (memory (;0;) 3659)
-  (global (;0;) (mut eqref) ref.null i31)
-  (global (;1;) (mut nullexternref) ref.null noextern)
-  (export "\u{4}" (global 1))
-  (data (;0;) "l")
-)

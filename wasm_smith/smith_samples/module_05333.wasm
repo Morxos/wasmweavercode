@@ -1,6 +1,0 @@
-(module
-  (import "Y" "" (table (;0;) 752 anyref))
-  (import "" "" (global (;0;) (mut f64)))
-  (import "\u{7}" "" (memory (;0;) 269 64562))
-  (export "<" (global 0))
-)

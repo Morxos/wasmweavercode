@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) i64))
-  (table (;0;) 0 770477 arrayref ref.null array)
-  (memory (;0;) i64 12508 91701934030321 shared)
-  (global (;1;) i64 global.get 0)
-  (elem (;0;) declare i31ref (ref.null none) (ref.null none))
-  (elem (;1;) declare eqref)
-  (data (;0;) (global.get 1) "!\e2")
-)

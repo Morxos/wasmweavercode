@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 36 eqref))
-  (memory (;0;) i64 3270)
-  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-)

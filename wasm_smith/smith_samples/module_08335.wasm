@@ -1,5 +1,0 @@
-(module
-  (import "i\u{13}" "" (global (;0;) (mut anyref)))
-  (export "D" (global 0))
-  (export "<DG" (global 0))
-)

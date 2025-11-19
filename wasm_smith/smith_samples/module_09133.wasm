@@ -1,7 +1,0 @@
-(module
-  (import "cGr" "" (table (;0;) 721 943207 nullexternref))
-  (import "" "" (global (;0;) (mut i32)))
-  (import ":7" "" (memory (;0;) i64 1509 127164223835355))
-  (import "\u{16}\u{16}v" "" (global (;1;) (mut nullfuncref)))
-  (data (;0;) "\80")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 109 arrayref))
-  (import "t" "" (global (;0;) (mut i64)))
-  (global (;1;) (mut f64) f64.const 0x1.0b9dc549db974p-67 (;=0.000000000000000000007083744257367791;))
-  (export "" (global 1))
-  (export "1" (table 0))
-  (export "\u{1c}5" (table 0))
-  (export "3" (global 1))
-)

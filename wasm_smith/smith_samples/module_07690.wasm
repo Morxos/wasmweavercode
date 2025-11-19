@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 364 662704 nullexternref))
-  (import "4oG" "" (memory (;0;) 173 16232))
-  (import "" "" (global (;0;) (mut anyref)))
-  (import "" "" (global (;1;) nullexternref))
-  (import "" "" (global (;2;) i64))
-  (global (;3;) f64 f64.const -0x1.ad61b41671fbdp+117 (;=-278684626757339480000000000000000000;))
-  (global (;4;) f64 global.get 3)
-)

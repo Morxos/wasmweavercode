@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 353 funcref)
-  (memory (;0;) i64 6399 45062855820577)
-  (data (;0;) "")
-  (data (;1;) "")
-)

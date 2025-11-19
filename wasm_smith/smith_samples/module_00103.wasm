@@ -1,8 +1,0 @@
-(module
-  (global (;0;) eqref ref.null array)
-  (global (;1;) i32 i32.const -1537726612)
-  (export "" (global 1))
-  (export "1" (global 0))
-  (export "2" (global 1))
-  (elem (;0;) i31ref)
-)

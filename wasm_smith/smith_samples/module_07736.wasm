@@ -1,8 +1,0 @@
-(module
-  (import "/" "" (memory (;0;) i64 1177 167111020118114 shared))
-  (table (;0;) i64 3 i31ref)
-  (global (;0;) (mut eqref) ref.null eq)
-  (export "\u{17}w4\u{15}" (memory 0))
-  (elem (;0;) externref)
-  (elem (;1;) exnref (ref.null exn))
-)

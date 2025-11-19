@@ -1,19 +1,27 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.config.config import MAX_FUNCTION_CALL_DEPTH, MAX_STACK_SIZE
 from core.state.locals import Locals
 from core.value import Val
 
 class StackValueError(Exception):
-    """Custom exception for stack-related errors."""
+    """
+    Custom exception for stack-related errors.
+    """
     pass
 
 class StackOverflowError(Exception):
-    """Exception raised when stack overflow occurs."""
+    """
+    Exception raised when stack overflow occurs.
+    """
     pass
 
 class StackFrame:
-    """A simple stack frame representation."""
+    """
+    A simple stack frame representation.
+    """
 
     def __init__(self, params: List[Val] = None, stack: List[Val] = None, name=None):
         self.locals = Locals()
@@ -50,40 +58,56 @@ class StackFrame:
         return [self.stack[-i] for i in range(1, n + 1)][::-1]
 
     def __str__(self):
-        """Returns a string representation of the stack frame."""
+        """
+        Returns a string representation of the stack frame.
+        """
         stack_values = [str(val) for val in self.stack]
         stack_locals = [str(val) for val in self.locals.locals]
         return f"StackFrame(name={self.name}, locals={stack_locals}, stack={stack_values})"
 
 
 class Stack:
-    """A simple global stack representation."""
+    """
+    A simple global stack representation.
+    """
 
     def __init__(self):
         self.stack_frames: List[StackFrame] = []
 
     def get_current_frame(self):
-        """Returns the current stack frame."""
+        """
+        Returns the current stack frame.
+        """
         return self.stack_frames[-1]
 
     def can_add_new_stack_frame(self):
-        """Checks if a new stack frame can be added or if the depth limit has been reached."""
+        """
+        Checks if a new stack frame can be added or if the depth limit has been reached.
+        """
         return len(self.stack_frames) < MAX_FUNCTION_CALL_DEPTH
 
     def can_add_n_frames(self, n: int):
-        """Checks if n stack frames can be added or if the depth limit has been reached."""
+        """
+        Checks if n stack frames can be added or if the depth limit has been reached.
+        """
         return len(self.stack_frames) + n <= MAX_FUNCTION_CALL_DEPTH
 
     def get_last_frame(self):
-        """Returns the 'parent' stack frame."""
+        """
+        Returns the 'parent' stack frame.
+        """
         return self.stack_frames[-2]
 
     def push_frame(self, params: List[Val] = None, stack: List[Val] = None, name=None):
-        """Pushes a new stack frame to the stack."""
+        """
+        Pushes a new stack frame to the stack.
+        """
         if not self.can_add_new_stack_frame():
             raise ValueError("Cannot add new stack frame, limit reached.")
         self.stack_frames.append(StackFrame(params, stack, name=name))
 
     def pop_frame(self):
-        """Pops the current stack frame from the stack."""
+        """
+        Pops the current stack frame from the stack.
+        """
         return self.stack_frames.pop()

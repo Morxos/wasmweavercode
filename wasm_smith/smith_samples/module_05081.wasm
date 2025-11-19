@@ -1,6 +1,0 @@
-(module
-  (import "rj" "" (table (;0;) 4029 602971 nullfuncref))
-  (global (;0;) i64 i64.const -4063673169795483264 i64.const 9130196208746671091 i64.add i64.const 240470142560204209 i64.add)
-  (global (;1;) (mut funcref) ref.null nofunc)
-  (global (;2;) (mut i32) i32.const 1907606015)
-)

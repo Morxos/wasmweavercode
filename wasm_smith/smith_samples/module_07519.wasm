@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 57 43491)
-  (global (;0;) (mut i32) i32.const 104451343 i32.const -387193334 i32.const 1897063919 i32.const 2057119554 i32.const -370044672 i32.const -1362896402 i32.const -1099084787 i32.const -2102626530 i32.const 2132416875 i32.const 265900879 i32.mul i32.sub i32.mul i32.add i32.add i32.sub i32.add i32.const 1516748067 i32.mul i32.sub i32.sub)
-  (data (;0;) (i32.const 311301) "\03R")
-  (data (;1;) (i32.const 3158847) "")
-)

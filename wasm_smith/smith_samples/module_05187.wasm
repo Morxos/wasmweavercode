@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 1665)
-  (export "s_\u{13}3" (memory 0))
-  (export "o<Mr]" (memory 0))
-  (data (;0;) "")
-  (data (;1;) (i64.const 16932698) "")
-)

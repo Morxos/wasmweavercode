@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (export "0\u{6}\u{a}" (global 0))
-  (export "" (global 0))
-  (data (;0;) "")
-)

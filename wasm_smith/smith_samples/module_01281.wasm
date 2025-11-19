@@ -1,7 +1,0 @@
-(module
-  (import "\u{3e7}\u{b93}\u{c}" "" (memory (;0;) i64 2 279605978792450))
-  (import "q" "" (global (;0;) f64))
-  (import "9" "" (global (;1;) f32))
-  (import "Z" "" (global (;2;) nullfuncref))
-  (global (;3;) (mut f32) f32.const -0x1.4d77acp+33 (;=-11189311000;))
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (import "" "" (global (;1;) f32))
-  (import "&" "" (memory (;0;) 4121))
-  (elem (;0;) declare func)
-)

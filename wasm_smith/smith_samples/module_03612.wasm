@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 anyref)
-  (memory (;0;) i64 1718)
-  (export "5\u{17}\u{16}Uw" (memory 0))
-  (export "dwg" (table 0))
-)

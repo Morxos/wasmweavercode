@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 219 eqref))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) i31ref)
-)

@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 9125 12598102455687)
-  (global (;0;) (mut f32) f32.const 0x1.9d2fb6p+79 (;=975608700000000000000000;))
-  (global (;1;) (mut i64) i64.const 2299865662485962057)
-  (global (;2;) i64 i64.const -4878747290122948960)
-  (export "m nH\u{2}" (memory 0))
-  (export "" (memory 0))
-  (export "\u{1b}n.Q" (memory 0))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "k\u{211}" "" (global (;0;) i32))
-  (memory (;0;) i64 0 216137087502965 shared)
-  (export "" (global 0))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "\ed)\f3\0dw")
-  (data (;3;) "")
-)

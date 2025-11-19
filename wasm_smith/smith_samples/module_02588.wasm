@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) 24)
-  (export "-\u{295}@\u{d}" (memory 0))
-  (elem (;0;) funcref (ref.null nofunc))
-  (elem (;1;) declare i31ref (ref.null i31) (ref.null i31))
-  (data (;0;) (i32.const 14634) "")
-  (data (;1;) "")
-)

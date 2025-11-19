@@ -1,4 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (table (;0;) 7632 967803 funcref ref.null func)
-)

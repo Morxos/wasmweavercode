@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 989 arrayref ref.null array)
-  (global (;0;) (mut exnref) ref.null exn)
-  (data (;0;) "A")
-  (data (;1;) "")
-  (data (;2;) "")
-  (data (;3;) "")
-  (data (;4;) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 59 eqref)
-  (export "\u{1e}" (table 0))
-  (elem (;0;) declare eqref)
-  (elem (;1;) eqref)
-  (elem (;2;) (table 0) (i32.const 51) i31ref (ref.null i31))
-  (elem (;3;) (table 0) (i32.const 1) structref)
-  (data (;0;) "\e6Y")
-)

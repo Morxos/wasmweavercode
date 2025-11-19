@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 10 566766 i31ref)
-  (export "" (table 0))
-  (export "i" (table 0))
-  (export "\u{13}" (table 0))
-)

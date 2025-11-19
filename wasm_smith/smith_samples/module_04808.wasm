@@ -1,3 +1,0 @@
-(module
-  (elem (;0;) declare anyref (ref.null struct) (ref.null any))
-)

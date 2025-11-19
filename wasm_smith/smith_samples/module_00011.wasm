@@ -1,9 +1,0 @@
-(module
-  (type (;0;) (sub (struct (field (mut i8)) (field (mut i16)) (field (mut i8)) (field i8) (field (mut i8)) (field nullref) (field i8) (field i8) (field i16) (field (mut i16)) (field f32) (field i32))))
-  (import "\u{10}a\u{0}" "" (memory (;0;) 2793))
-  (table (;0;) i64 47 499704 structref ref.null struct)
-  (global (;0;) f64 f64.const 0x1.acd32da7a1319p+146 (;=149423674575425940000000000000000000000000000;))
-  (export "\u{2}\u{5c})\u{625}" (global 0))
-  (elem (;0;) declare (ref null 0) (ref.null none) (ref.null none))
-  (data (;0;) (i32.const 1369) "")
-)

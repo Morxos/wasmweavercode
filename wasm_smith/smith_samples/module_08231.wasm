@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 208 60259))
-  (global (;0;) (mut f32) f32.const -0x1.72c528p+39 (;=-796222800000;))
-  (export "_" (global 0))
-  (export "Q\u{2}" (memory 0))
-  (elem (;0;) declare nullfuncref)
-)

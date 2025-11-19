@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 905 eqref ref.null eq)
-  (global (;0;) (mut f32) f32.const -0x1.b9b3bap+28 (;=-463158180;))
-  (data (;0;) "\18T")
-  (data (;1;) "\d1")
-  (data (;2;) "")
-)

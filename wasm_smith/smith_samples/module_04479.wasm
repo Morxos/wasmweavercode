@@ -1,5 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const 471882158)
-  (elem (;0;) structref)
-  (elem (;1;) declare nullref (ref.null none) (ref.null none))
-)

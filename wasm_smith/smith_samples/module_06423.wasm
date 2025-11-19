@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 13 eqref ref.null eq)
-  (elem (;0;) declare i31ref)
-  (elem (;1;) (table 0) (i64.const 0) arrayref (ref.null array) (ref.null none))
-  (elem (;2;) arrayref (ref.null array) (ref.null array) (ref.null array))
-  (elem (;3;) (table 0) (i64.const 0) eqref)
-  (elem (;4;) declare structref (ref.null none))
-  (elem (;5;) exnref)
-)

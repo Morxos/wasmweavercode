@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 4960 nullref)
-  (memory (;0;) i64 1843 235382352136993)
-  (global (;0;) (mut f64) f64.const -0x1.018a0ff465dcep+137 (;=-175272169207061450000000000000000000000000;))
-  (global (;1;) (mut f32) f32.const -0x1.2bfcf6p-122 (;=-0.00000000000000000000000000000000000022039647;))
-  (export "#3" (table 0))
-  (elem (;0;) (table 0) (i64.const 1660) nullref)
-  (data (;0;) "e\9f")
-)

@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 1230 58820))
-  (table (;0;) 61 eqref ref.null struct)
-  (export "\u{2d5}D" (memory 0))
-  (export "Z\u{e}:" (table 0))
-  (export "e" (table 0))
-  (elem (;0;) exnref)
-)

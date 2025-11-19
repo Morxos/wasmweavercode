@@ -1,8 +1,0 @@
-(module
-  (import "4Z" "" (table (;0;) i64 0 387807 nullfuncref))
-  (memory (;0;) 10744 12857)
-  (global (;0;) (mut f32) f32.const -0x1.3c8d6ep-53 (;=-0.00000000000000013728275;))
-  (global (;1;) (mut f32) f32.const -0x1.1d4c3ap-20 (;=-0.000001062817;))
-  (elem (;0;) i31ref (ref.null none) (ref.null none) (ref.null i31) (ref.null none) (ref.null i31))
-  (elem (;1;) anyref)
-)

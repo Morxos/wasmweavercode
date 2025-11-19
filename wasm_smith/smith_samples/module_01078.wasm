@@ -1,7 +1,0 @@
-(module
-  (rec
-    (type (;0;) (sub (struct)))
-    (type (;1;) (sub 0 (struct (field (mut i8)))))
-  )
-  (memory (;0;) 14)
-)

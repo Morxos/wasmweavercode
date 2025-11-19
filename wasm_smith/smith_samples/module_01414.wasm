@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 290 i31ref)
-  (export "" (table 0))
-)

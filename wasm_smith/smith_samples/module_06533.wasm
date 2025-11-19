@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) anyref (ref.null array))
-  (data (;0;) "\ef")
-)

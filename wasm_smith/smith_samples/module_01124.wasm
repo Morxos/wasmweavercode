@@ -1,7 +1,0 @@
-(module
-  (import "N" "" (memory (;0;) i64 8475 45465520567981 shared))
-  (export "l\u{14}," (memory 0))
-  (elem (;0;) declare structref (ref.null struct))
-  (data (;0;) (i64.const 76975033) "m")
-  (data (;1;) (i64.const 2818458) "2I\91")
-)

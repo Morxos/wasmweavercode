@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 i31ref)
-  (export "" (table 0))
-  (elem (;0;) eqref)
-  (data (;0;) "")
-)

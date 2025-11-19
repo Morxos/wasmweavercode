@@ -1,8 +1,0 @@
-(module
-  (import "v;\u{1f}J#" "" (global (;0;) i64))
-  (table (;0;) i64 644 nullref ref.null none)
-  (memory (;0;) 1)
-  (data (;0;) "\05")
-  (data (;1;) "\ab\c0R")
-  (data (;2;) "\11C")
-)

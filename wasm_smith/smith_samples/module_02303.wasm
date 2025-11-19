@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 10189 148761519244557 shared)
-  (global (;0;) (mut eqref) ref.null eq)
-  (global (;1;) i64 i64.const 2938581171165201870)
-  (data (;0;) (global.get 1) "\d0G\83")
-  (data (;1;) (global.get 1) "")
-  (data (;2;) "")
-)

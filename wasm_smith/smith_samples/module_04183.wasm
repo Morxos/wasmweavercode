@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) declare exnref)
-  (elem (;1;) funcref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

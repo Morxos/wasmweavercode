@@ -1,6 +1,0 @@
-(module
-  (import "r\u{d}+" "" (memory (;0;) i64 866 253900138227775))
-  (import "" "" (table (;0;) i64 1738 nullexternref))
-  (elem (;0;) declare anyref)
-  (elem (;1;) arrayref)
-)

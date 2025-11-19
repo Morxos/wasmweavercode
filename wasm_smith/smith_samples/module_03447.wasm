@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 102 244468 anyref ref.null struct)
-  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
-  (elem (;1;) (table 0) (i64.const 0) arrayref)
-  (data (;0;) "")
-  (data (;1;) "m\af")
-  (data (;2;) "\dd")
-)

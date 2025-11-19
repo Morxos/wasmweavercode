@@ -1,6 +1,0 @@
-(module
-  (import "k\u{17}D" "" (global (;0;) (mut anyref)))
-  (table (;0;) 6231 eqref ref.null none)
-  (memory (;0;) i64 610 41556750663857)
-  (data (;0;) "\96\1b\dcG\b0")
-)

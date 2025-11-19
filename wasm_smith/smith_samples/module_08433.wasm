@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) exnref))
-  (import ">oh\u{1c0}" "" (memory (;0;) 148 26787 shared))
-  (elem (;0;) i31ref (ref.null none))
-  (data (;0;) (i32.const 932953) "")
-)

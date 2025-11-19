@@ -1,7 +1,0 @@
-(module
-  (import "c," "" (table (;0;) i64 1 anyref))
-  (import "" "" (global (;0;) (mut f32)))
-  (global (;1;) (mut i32) i32.const -271428732)
-  (global (;2;) i32 i32.const 1500746903)
-  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-)

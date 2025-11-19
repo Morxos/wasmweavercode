@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 5792 122367975146148))
-  (table (;0;) 55 137643 nullref ref.null none)
-  (export "" (memory 0))
-  (export "^\u{1}\u{7f}." (memory 0))
-  (export "_" (memory 0))
-  (export "\u{5}" (memory 0))
-  (data (;0;) "")
-)

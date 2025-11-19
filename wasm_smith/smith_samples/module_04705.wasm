@@ -1,8 +1,0 @@
-(module
-  (import "d" "" (table (;0;) 0 nullfuncref))
-  (import "" "" (global (;0;) exnref))
-  (global (;1;) (mut exnref) ref.null exn)
-  (elem (;0;) (table 0) (i32.const 0) nullfuncref)
-  (elem (;1;) (table 0) (i32.const 0) nullfuncref)
-  (elem (;2;) declare nullexternref)
-)

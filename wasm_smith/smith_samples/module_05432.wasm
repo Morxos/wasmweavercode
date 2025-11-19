@@ -1,9 +1,0 @@
-(module
-  (import "\u{502}3" "" (global (;0;) (mut i32)))
-  (table (;0;) i64 87 816495 nullref)
-  (global (;1;) f32 f32.const -0x1.a62c18p-77 (;=-0.000000000000000000000010912897;))
-  (global (;2;) f32 f32.const 0x1.994004p-82 (;=0.00000000000000000000000033058957;))
-  (elem (;0;) declare nullexternref)
-  (elem (;1;) declare nullexternref)
-  (data (;0;) "")
-)

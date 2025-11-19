@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) i32))
-  (import "" "" (memory (;0;) i64 15080 185006704853852))
-  (table (;0;) i64 5 166572 exnref ref.null exn)
-  (elem (;0;) declare externref)
-  (data (;0;) (i64.const 254964) "")
-)

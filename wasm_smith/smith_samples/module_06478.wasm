@@ -1,6 +1,0 @@
-(module
-  (import "NP" "" (table (;0;) 320 722747 nullref))
-  (import "\u{19}" "" (global (;0;) (mut funcref)))
-  (global (;1;) f64 f64.const 0x1.f965109fa1c3fp+158 (;=721323540661896200000000000000000000000000000000;))
-  (data (;0;) "")
-)

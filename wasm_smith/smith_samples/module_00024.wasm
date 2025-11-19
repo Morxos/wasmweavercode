@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 2015 anyref ref.null i31)
-  (memory (;0;) 1 3625)
-  (export "]+" (memory 0))
-  (export "#G" (memory 0))
-  (data (;0;) (i32.const 0) "\99]")
-)

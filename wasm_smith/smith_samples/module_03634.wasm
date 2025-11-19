@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 58 nullref ref.null none)
-  (memory (;0;) 4754)
-  (global (;0;) funcref ref.null func)
-  (global (;1;) i64 i64.const 8311753033649248022)
-  (export "" (table 0))
-  (export "#\u{7f}" (global 1))
-  (elem (;0;) structref)
-)

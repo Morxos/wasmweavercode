@@ -1,8 +1,0 @@
-(module
-  (import "D\u{10}" "" (table (;0;) i64 222 anyref))
-  (import "A\u{7f}" "" (memory (;0;) i64 3302 280456878908816))
-  (import "" "" (global (;0;) nullfuncref))
-  (global (;1;) (mut i31ref) ref.null none)
-  (global (;2;) i64 i64.const 4014383091708183541)
-  (data (;0;) "")
-)

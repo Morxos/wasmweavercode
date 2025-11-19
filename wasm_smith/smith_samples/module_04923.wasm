@@ -1,8 +1,0 @@
-(module
-  (import "\u{17}mc" "" (table (;0;) 392 nullexternref))
-  (global (;0;) (mut f64) f64.const -0x1.fa8985c54f8a1p+125 (;=-84162927966228530000000000000000000000;))
-  (global (;1;) f32 f32.const -0x1.70d81p-9 (;=-0.0028140564;))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

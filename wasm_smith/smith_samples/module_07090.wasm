@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (global (;1;) (mut f64) global.get 0)
-  (export "3\u{1}?" (global 0))
-  (elem (;0;) nullfuncref (ref.null nofunc))
-)

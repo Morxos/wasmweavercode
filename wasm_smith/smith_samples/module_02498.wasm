@@ -1,8 +1,0 @@
-(module
-  (import "\u{17}" "" (global (;0;) i31ref))
-  (import "" "" (table (;0;) i64 4 externref))
-  (import "3V" "" (global (;1;) (mut i64)))
-  (global (;2;) (mut f32) f32.const 0x1.ad925cp+59 (;=967309500000000000;))
-  (export "" (table 0))
-  (export "1" (table 0))
-)

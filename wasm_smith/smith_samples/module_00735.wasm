@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 3 322053 nullexternref))
-  (import "" "" (memory (;0;) 1661 2700 shared))
-  (import "" "" (global (;0;) f32))
-  (import "F-" "" (global (;1;) exnref))
-  (export "" (global 1))
-  (data (;0;) "")
-  (data (;1;) (i32.const 2582947) "z\9f")
-)

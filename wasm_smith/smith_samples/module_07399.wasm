@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 4376 nullexternref ref.null noextern)
-  (export "Aq" (table 0))
-  (export ",\u{7}s" (table 0))
-  (export "}" (table 0))
-  (data (;0;) "")
-)

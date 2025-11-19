@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 2385 30643 shared))
-  (import "" "" (global (;0;) (mut nullexternref)))
-  (table (;0;) i64 187 348301 funcref)
-  (global (;1;) i64 i64.const 4069067279753269285 i64.const 8437962036069606160 i64.const 8187024462770404501 i64.const -1983088054799487534 i64.add i64.const -7761794780092250203 i64.add i64.sub i64.const -2987829899276066038 i64.const 148268340575184235 i64.mul i64.const 8028086620674661404 i64.mul i64.mul i64.mul)
-  (elem (;0;) (i64.const 11) func)
-  (elem (;1;) (table 0) (i64.const 107) nullfuncref)
-)

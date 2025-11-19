@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 29 exnref ref.null exn)
-  (export "\u{1e}\u{5c}\u{1}" (table 0))
-)

@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut externref)))
-  (import "aGpJ" "" (global (;1;) (mut nullexternref)))
-  (global (;2;) (mut i32) i32.const 1803011521)
-)

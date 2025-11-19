@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 19 71549 structref))
-  (memory (;0;) 187 13391)
-  (elem (;0;) declare nullfuncref)
-  (elem (;1;) i31ref (ref.null none))
-  (elem (;2;) (table 0) (i32.const 0) structref (ref.null none))
-  (data (;0;) "")
-  (data (;1;) (i32.const 261853) "\1a\e1\9a\1d4/v*")
-)

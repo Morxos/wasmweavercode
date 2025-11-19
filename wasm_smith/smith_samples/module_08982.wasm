@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 5 structref ref.null struct)
-  (global (;0;) (mut f32) f32.const 0x1.222c28p+113 (;=11770794000000000000000000000000000;))
-  (export "X" (table 0))
-  (export "" (table 0))
-  (elem (;0;) exnref (ref.null exn))
-)

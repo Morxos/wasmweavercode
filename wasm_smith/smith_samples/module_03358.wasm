@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 15012 137493845319195 shared))
-  (table (;0;) i64 1 nullref)
-  (global (;0;) (mut i31ref) ref.null i31)
-  (global (;1;) f32 f32.const 0x1.3b29eap+49 (;=693052360000000;))
-)

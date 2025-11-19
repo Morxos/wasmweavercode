@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 38 215667766152400 shared)
-  (data (;0;) (i64.const 2297) "A\da)")
-  (data (;1;) "\17")
-)

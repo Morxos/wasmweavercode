@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 34 214392 funcref)
-  (global (;0;) (mut i64) i64.const -4801206733343989341)
-)

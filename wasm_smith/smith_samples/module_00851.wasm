@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.e20022p+54 (;=33917771000000000;))
-  (global (;1;) f32 f32.const -0x1.01ac8p+8 (;=-257.67383;))
-  (elem (;0;) declare structref)
-  (elem (;1;) declare anyref (ref.null any))
-  (elem (;2;) declare func)
-)

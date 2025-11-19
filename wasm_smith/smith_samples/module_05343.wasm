@@ -1,9 +1,0 @@
-(module
-  (global (;0;) i64 i64.const -7720192917955152098)
-  (global (;1;) (mut exnref) ref.null exn)
-  (global (;2;) i32 i32.const 845791234)
-  (elem (;0;) declare structref)
-  (elem (;1;) declare func)
-  (elem (;2;) structref (ref.null struct) (ref.null struct))
-  (elem (;3;) structref)
-)

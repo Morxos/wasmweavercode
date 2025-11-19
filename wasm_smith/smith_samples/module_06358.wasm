@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 976 788776 nullfuncref))
-  (global (;0;) (mut i64) i64.const -6727084088981097477)
-  (export "d\u{8}" (global 0))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i64.const 7) nullfuncref (ref.null nofunc))
-  (elem (;1;) (table 0) (i64.const 2) nullfuncref)
-)

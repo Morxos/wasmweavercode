@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 0 externref ref.null extern)
-  (memory (;0;) 3151)
-  (global (;0;) anyref ref.null none)
-  (data (;0;) (i32.const 1018) "4")
-  (data (;1;) "\a8\de\83\eb")
-  (data (;2;) (i32.const 6990139) "")
-)

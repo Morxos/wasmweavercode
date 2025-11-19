@@ -1,4 +1,0 @@
-(module
-  (import "H$" "" (global (;0;) (mut anyref)))
-  (import "\u{1b}" "" (table (;0;) 5908 externref))
-)

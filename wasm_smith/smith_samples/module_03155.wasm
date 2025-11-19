@@ -1,6 +1,0 @@
-(module
-  (import "]\u{d}" "" (memory (;0;) i64 6995))
-  (global (;0;) (mut i32) i32.const -1974649129)
-  (export "*" (global 0))
-  (export "\u{17}" (global 0))
-)

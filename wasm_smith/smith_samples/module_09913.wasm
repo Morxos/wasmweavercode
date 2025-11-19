@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 505 63809))
-  (import "c" "" (global (;0;) (mut f64)))
-  (import "I" "" (global (;1;) (mut i64)))
-  (import ";" "" (table (;0;) 1604 nullexternref))
-  (import "E" "" (global (;2;) (mut i64)))
-  (import "ZO" "" (global (;3;) f64))
-)

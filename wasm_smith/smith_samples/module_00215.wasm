@@ -1,9 +1,0 @@
-(module
-  (import "+!" "" (global (;0;) i64))
-  (import "|" "" (global (;1;) i32))
-  (table (;0;) i64 596 156284 arrayref ref.null none)
-  (memory (;0;) 2998)
-  (data (;0;) (i32.const 123522) "")
-  (data (;1;) "")
-  (data (;2;) "\c3\02")
-)

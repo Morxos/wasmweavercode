@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 820 20458)
-  (global (;0;) i32 i32.const -505979667)
-  (elem (;0;) declare anyref)
-  (elem (;1;) declare arrayref)
-)

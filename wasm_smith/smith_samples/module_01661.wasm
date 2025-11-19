@@ -1,6 +1,0 @@
-(module
-  (import "=E" "" (global (;0;) (mut f32)))
-  (table (;0;) i64 4651 943894 funcref ref.null func)
-  (memory (;0;) i64 8563)
-  (data (;0;) (i64.const 18940498) "\83Z")
-)

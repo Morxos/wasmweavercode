@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 6626 arrayref)
-  (global (;0;) (mut anyref) ref.null any)
-  (export "W" (global 0))
-  (export "" (global 0))
-)

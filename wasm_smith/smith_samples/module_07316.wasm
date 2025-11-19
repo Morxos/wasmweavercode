@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut exnref)))
-  (table (;0;) i64 27 319736 arrayref ref.null array)
-  (memory (;0;) i64 3178 117291312704515)
-)

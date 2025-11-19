@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 697 810850 exnref))
-  (export "" (table 0))
-  (data (;0;) "\ab\1e7)")
-  (data (;1;) "")
-  (data (;2;) "")
-)

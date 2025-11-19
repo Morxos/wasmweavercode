@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) arrayref (ref.null none))
-  (elem (;1;) funcref (ref.null func) (ref.null func))
-)

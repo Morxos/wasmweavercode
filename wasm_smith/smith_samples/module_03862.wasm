@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 12 nullexternref ref.null noextern)
-  (memory (;0;) 10468)
-  (elem (;0;) declare arrayref (ref.null array) (ref.null none))
-  (data (;0;) "")
-)

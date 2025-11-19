@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 6944 114810 anyref)
-  (global (;0;) i32 i32.const -491304189)
-  (elem (;0;) (table 0) (global.get 0) anyref)
-  (data (;0;) "a")
-  (data (;1;) "")
-  (data (;2;) "m")
-)

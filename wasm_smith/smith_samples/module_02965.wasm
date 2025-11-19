@@ -1,6 +1,0 @@
-(module
-  (import "(" "" (memory (;0;) 711 2327 shared))
-  (import "P" "" (table (;0;) 5858 exnref))
-  (global (;0;) (mut anyref) ref.null none)
-  (export "" (memory 0))
-)

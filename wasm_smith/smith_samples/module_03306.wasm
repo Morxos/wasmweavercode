@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 1452 anyref ref.null struct)
-  (elem (;0;) arrayref (ref.null none))
-)

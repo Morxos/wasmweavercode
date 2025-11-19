@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) i64 1310 302844 exnref ref.null exn)
-  (memory (;0;) i64 3513 145678117851198)
-  (data (;0;) "")
-  (data (;1;) (i64.const 135992916) "")
-)

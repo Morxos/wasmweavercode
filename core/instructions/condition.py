@@ -1,10 +1,10 @@
-import copy
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 from typing import List, Type
 
-from core.config.config import MAX_BLOCKS_PER_FUNCTION, IF_ELSE_MIN_FUEL_AVAILABLE, IF_ELSE_MIN_BYTECODE_AVAILABLE, \
-    MAX_IF_ELSE_INPUTS, MAX_IF_ELSE_OUTPUTS
-from core.constraints import FuelConstraint, ByteCodeSizeConstraint
+from core.config.config import MAX_BLOCKS_PER_FUNCTION, MAX_IF_ELSE_INPUTS, MAX_IF_ELSE_OUTPUTS
 from core.state.functions import Function, Block, BlockType
 from core.state.state import GlobalState
 from core.tile import AbstractTileFactory, AbstractTile, wrap_apply_function
@@ -12,7 +12,9 @@ from core.util import generate_block, can_place_block, apply_block
 from core.value import I32, get_random_val
 
 def generate_random_condition_name(function: Function) -> str:
-    """Generates a random block name that is not already used in the function"""
+    """
+    Generates a random block name that is not already used in the function.
+    """
     while True:
         name = f"condition_{random.randint(0, 2 ** 32 - 1)}"
         for block in function.blocks:
@@ -21,19 +23,24 @@ def generate_random_condition_name(function: Function) -> str:
         return name
 
 class ConditionTileFactory(AbstractTileFactory):
+    """
+    Factory for generating conditional block tiles.
+    """
 
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
     def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        """Generates all possible tiles"""
+        """
+        Generates all possible tiles that can create a new conditional block.
+        """
         condition_tiles = []
-        condition_tile = self.create_block_tile(global_state)
+        condition_tile = self.create_condition_tile(global_state)
         if condition_tile.can_be_placed(global_state, current_function, current_blocks):
             condition_tiles.append(condition_tile)
         return condition_tiles
 
-    def create_block_tile(self, global_state: GlobalState) -> Type[AbstractTile]:
+    def create_condition_tile(self, global_state: GlobalState) -> Type[AbstractTile]:
 
         tile = type(f"ConditionTile", (AbstractTile,), {"if_block": None, "else_block": None})
         tile.name = f"Create conditional"
@@ -43,13 +50,13 @@ class ConditionTileFactory(AbstractTileFactory):
             nonlocal tile
             if not current_state.stack.can_add_new_stack_frame():
                 return False
-                # Check if stack is larger then 0 and if the top value is an i32
+
             if len(current_state.stack.get_current_frame().stack) < 1:
                 return False
 
             if not isinstance(current_state.stack.get_current_frame().stack_peek(1), I32):
                 return False
-            #If and else blocks are generated at the same time, so it is ok to only check for the presence of the if_block
+            # If and else blocks are generated at the same time, so it is ok to only check for the presence of the if_block.
             if tile.if_block is None and MAX_BLOCKS_PER_FUNCTION <= len(current_function.blocks):
                 return False
 
@@ -57,7 +64,6 @@ class ConditionTileFactory(AbstractTileFactory):
                 return True
 
 
-            #Pop the value from the stack
             block = tile.if_block if current_state.stack.get_current_frame().stack_peek().value != 0 else tile.else_block
             return can_place_block(current_state, current_function, current_blocks, block)
 
@@ -66,7 +72,6 @@ class ConditionTileFactory(AbstractTileFactory):
             should_execute_if = current_state.stack.get_current_frame().stack_pop().value != 0
 
             if tile.if_block is None:
-                #name = generate_random_condition_name(current_function)
                 #Generate both blocks at the same time
                 n_inputs = random.randint(0, min(MAX_IF_ELSE_INPUTS, len(current_state.stack.get_current_frame().stack)))
                 input_types = [type(stack_var) for stack_var in
@@ -86,7 +91,7 @@ class ConditionTileFactory(AbstractTileFactory):
             block = tile.if_block if should_execute_if else tile.else_block
             apply_state = apply_block(current_state, current_function, current_blocks, block)
             if not apply_state:
-                raise ValueError("Block cannot be applied")
+                raise ValueError("Block cannot be applied.")
             return apply_state
 
         tile.generate_code = lambda se, st, f, bs: tile.if_block.generate_code(st, f, bs) + tile.else_block.generate_code(

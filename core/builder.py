@@ -1,10 +1,12 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 from typing import Generator, Any, List, Type
-
 from config.config import MEMORY_MAX_WRITE_INDEX
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint, ConstraintsViolatedError
 from core.converter import global_state_to_wat_program
-from core.debug.debugger import generate_trace
+from core.debug.debugger import print_trace
 from core.formater import add_line_numbers_to_code
 from core.loader import TileLoader
 from core.runner import run_global_state, wat_code_to_wasm, AbstractRunResult
@@ -19,6 +21,9 @@ tile_loader = TileLoader("core/instructions/")
 
 
 class GeneratorResult:
+    """
+    Represents the result of a code generation attempt, including metadata.
+    """
     def __init__(self, seed: int, code_str: str, byte_code: bytearray, run_result: AbstractRunResult,
                  initial_memory: bytearray, canary_output=None):
         if canary_output is None:
@@ -44,6 +49,10 @@ def generate_code(start_seed: int, min_byte_code_size: int = 20, max_byte_code_s
                   max_fuel: int = 2000, verbose: bool = False, selection_strategy: AbstractSelectionStrategy = None,
                   input_types: List[Type[Val]] = None, output_types: List[Type[Val]] = None) -> \
 Generator[GeneratorResult, Any, None]:
+    """
+    Generator that yields generated code snippets along with their metadata.
+    Each generated code snippet adheres to the specified constraints on bytecode size and fuel consumption.
+    """
 
     if input_types is None:
         input_types = []
@@ -63,9 +72,8 @@ Generator[GeneratorResult, Any, None]:
             global_state.stack.push_frame(params=None, stack=[], name="origin")
             f=generate_function(tile_loader, "run", input_types, global_state, selection_strategy=selection_strategy,
                               is_entry=True, fixed_output_types=output_types)
-            #Reset memory
+
             global_state.memory.reinit_memory()
-            #Apply function
             code_str = global_state_to_wat_program(global_state)
             print(code_str)
             apply_function(global_state.functions.get("run"),global_state)
@@ -78,9 +86,8 @@ Generator[GeneratorResult, Any, None]:
                 result = run_global_state(global_state)
             except Exception as e:
                 print(f"Error: {e}")
-                #Reset memory
                 global_state.memory.memory = bytearray(global_state.memory.initial_values[:MEMORY_MAX_WRITE_INDEX])
-                generate_trace(global_state, start_function="run", start_seed=start_seed)
+                print_trace(global_state, entry_function="run", start_seed=start_seed)
                 raise e
             byte_code = wat_code_to_wasm(code_str)
             if verbose:

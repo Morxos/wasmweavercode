@@ -1,8 +1,0 @@
-(module
-  (elem (;0;) arrayref)
-  (elem (;1;) nullref)
-  (data (;0;) "")
-  (data (;1;) "b\c5")
-  (data (;2;) "\c2")
-  (data (;3;) "")
-)

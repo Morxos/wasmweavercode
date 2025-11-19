@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 477 882605 exnref ref.null exn)
-  (export "\u{15}+" (table 0))
-  (elem (;0;) declare arrayref (ref.null array) (ref.null array))
-  (data (;0;) "")
-)

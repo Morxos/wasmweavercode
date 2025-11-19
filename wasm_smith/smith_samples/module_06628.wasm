@@ -1,8 +1,0 @@
-(module
-  (import "@kE" "" (global (;0;) (mut i32)))
-  (global (;1;) arrayref ref.null none)
-  (global (;2;) (mut nullfuncref) ref.null nofunc)
-  (export "K" (global 1))
-  (elem (;0;) nullref (ref.null none))
-  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern))
-)

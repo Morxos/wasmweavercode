@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 180 arrayref ref.null array)
-  (memory (;0;) 0 53241)
-  (data (;0;) "\ae")
-  (data (;1;) "\1b")
-)

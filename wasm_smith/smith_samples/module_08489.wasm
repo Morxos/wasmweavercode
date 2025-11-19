@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 6492 684520 anyref ref.null eq)
-  (export "" (table 0))
-)

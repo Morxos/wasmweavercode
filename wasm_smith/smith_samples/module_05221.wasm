@@ -1,9 +1,0 @@
-(module
-  (import "\u{8}-" "" (table (;0;) i64 5 62433 nullfuncref))
-  (global (;0;) f32 f32.const 0x1.913d68p-125 (;=0.000000000000000000000000000000000000036848062;))
-  (export "" (table 0))
-  (export ";L" (table 0))
-  (elem (;0;) (table 0) (i64.const 3) nullfuncref)
-  (data (;0;) ";0")
-  (data (;1;) "\e4")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "\u{e}" "" (global (;0;) f64))
-  (memory (;0;) 36)
-  (export "\u{18}\u{9}" (global 0))
-  (export "{-7" (global 0))
-  (data (;0;) (i32.const 908994) "")
-  (data (;1;) "")
-  (data (;2;) "\81]")
-)

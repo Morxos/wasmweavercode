@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 5676 678123 exnref))
-  (export "" (table 0))
-  (export "1" (table 0))
-)

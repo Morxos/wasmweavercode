@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -851268285)
-  (elem (;0;) declare arrayref)
-  (elem (;1;) declare func)
-  (elem (;2;) externref)
-  (elem (;3;) declare externref)
-)

@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 0 43038)
-  (elem (;0;) nullref (ref.null none) (ref.null none))
-  (elem (;1;) declare nullfuncref)
-  (data (;0;) "\a1")
-  (data (;1;) "\a6")
-  (data (;2;) "\a7")
-  (data (;3;) "\82\93\9d")
-)

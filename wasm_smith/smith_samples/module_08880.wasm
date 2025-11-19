@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (memory (;0;) i64 1677)
-  (global (;1;) f32 f32.const 0x1.805c7ep+118 (;=498929500000000000000000000000000000;))
-  (export "(\u{e}k" (memory 0))
-  (data (;0;) (i64.const 64260) "%")
-)

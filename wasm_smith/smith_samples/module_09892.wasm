@@ -1,8 +1,0 @@
-(module
-  (import "O>Z%$" "" (table (;0;) 214 funcref))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 68) func)
-  (elem (;1;) (table 0) (i32.const 0) nullfuncref)
-  (elem (;2;) (table 0) (i32.const 2) funcref (ref.null func) (ref.null func))
-  (elem (;3;) declare i31ref (ref.null i31))
-)

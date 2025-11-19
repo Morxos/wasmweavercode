@@ -1,23 +1,22 @@
-#A simple random agent to show how to interact with the environment
-import random
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+import random
 import gymnasium as gym
-import torch
 from sb3_contrib import MaskablePPO
 from sb3_contrib.ppo_mask import MultiInputPolicy
-from stable_baselines3 import PPO
 from torch.optim import AdamW
-
 from core.environment import WasmWeaverEnv
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint
-from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
-from core.value import I32, F32, F64, I64
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
 
 random.seed(0)
 
 def main():
+
+    EXPERIMENT_NAME = "simple_agent_experiment"
+
     gym.register(
         id="gymnasium_env/WasmWeaverEnv-v0",
         entry_point=WasmWeaverEnv,
@@ -33,35 +32,16 @@ def main():
                 {"params": enc_params, "lr": 3e-4},  # SequenceEncoders
                 {"params": other_params, "lr": 3e-4},  # rest of policy
             ])
-    available_types = [
-        I32,
-        I64,
-        F32,
-        F64
-    ]
-    #Generate all combinations of 1 and 2 types
-    output_mutations_one_type = [
-        [t] for t in available_types
-    ]
-
-    output_mutations_two_types = [[available_types[i], available_types[j]] for i in range(len(available_types)) for j in range(i + 1, len(available_types))]
-
-    output_mutations_three_types = [
-
-            [available_types[i], available_types[j], available_types[k]] for i in range(len(available_types)) for j in range(i + 1, len(available_types)) for k in range(j + 1, len(available_types))
-
-    ]
-
-    output_mutations = output_mutations_one_type + output_mutations_two_types + output_mutations_three_types
 
 
-    experiment_name = "experiment_1"
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
                    constraints=[ByteCodeSizeConstraint(0, 100), FuelConstraint(10, 100)],
-                   output_types=output_mutations, post_processor_types=[StackInspectorPostProcessor,FlagReachabilityPostProcessor],
+                   output_types=[[]],
+                   post_processor_types=[],
                    forbidden_instruction_name_tokens=["load","store","condition","loop","block","function"],
-                   reward_function=SimpleRewardFunction(f"{experiment_name}_samples",flag_reward=True),
+                   reward_function=SimpleRewardFunction(f"{EXPERIMENT_NAME}_samples",stack_reward=False,flag_reward=False,model=None),
+                   curriculum=None,
                    verbose=True)
 
 
@@ -73,18 +53,16 @@ def main():
                 env,
                 policy_kwargs=policy_kwargs,
                 verbose=0,
-                tensorboard_log="./wasmweaver_tensorboard/",
+                tensorboard_log="./wasmweaver_tensorboard"+EXPERIMENT_NAME+"/",
                 device="cuda"
                 )
     try:
         model.learn(total_timesteps=10_000_000,callback=[PartialRewardCallback()])
     except Exception as e:
-        model.save("ppo_wasmweaver")
         raise e
-
-    model.save("ppo_wasmweaver")
+    finally:
+        model.save(EXPERIMENT_NAME+"_final_model")
 
 
 if __name__ == '__main__':
-    #print(torch.cuda.is_available())
     main()

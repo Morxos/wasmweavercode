@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 15 nullref ref.null none)
-  (global (;0;) structref ref.null none)
-  (elem (;0;) anyref)
-  (data (;0;) "\d73\86\83")
-  (data (;1;) "")
-  (data (;2;) "c")
-)

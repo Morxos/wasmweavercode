@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 7 eqref ref.null struct)
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "\1d")
-  (data (;2;) "\b6\b2\cf")
-  (data (;3;) "\17")
-)

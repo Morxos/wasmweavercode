@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) declare funcref (ref.null nofunc))
-  (data (;0;) "")
-  (data (;1;) "\ea")
-)

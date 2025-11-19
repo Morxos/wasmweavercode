@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 14 externref)
-  (elem (;0;) declare externref (ref.null extern))
-  (elem (;1;) func)
-  (data (;0;) "\08")
-)

@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 4487 179598737649212)
-  (export "\u{1}" (memory 0))
-  (elem (;0;) arrayref)
-  (elem (;1;) declare arrayref)
-  (elem (;2;) declare anyref)
-  (elem (;3;) arrayref (ref.null none) (ref.null array) (ref.null array))
-)

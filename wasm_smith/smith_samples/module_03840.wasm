@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 8 501981 i31ref ref.null none)
-  (global (;0;) i64 i64.const -8279473824018268939)
-  (global (;1;) (mut f32) f32.const -0x1.2215dp-78 (;=-0.0000000000000000000000037492634;))
-  (export "L\u{15}" (table 0))
-  (elem (;0;) (table 0) (global.get 0) i31ref (ref.null none) (ref.null i31))
-)

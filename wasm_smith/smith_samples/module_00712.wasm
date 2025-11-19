@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1098 224951156714502))
-  (global (;0;) (mut i64) i64.const -5812292478253042912)
-  (export "\u{c}\u{1d}" (global 0))
-  (elem (;0;) declare arrayref (ref.null array))
-)

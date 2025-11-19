@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 0 structref)
-  (memory (;0;) 0)
-  (export "m#" (table 0))
-  (export "" (memory 0))
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-  (elem (;1;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-  (elem (;2;) nullref (ref.null none) (ref.null none))
-)

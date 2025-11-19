@@ -1,6 +1,0 @@
-(module
-  (import "U" "" (global (;0;) i31ref))
-  (table (;0;) 70 anyref)
-  (elem (;0;) nullfuncref)
-  (data (;0;) "\e5")
-)

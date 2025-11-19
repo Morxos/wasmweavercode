@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 6260 arrayref))
-  (memory (;0;) i64 0 140321016851212)
-  (data (;0;) "")
-)

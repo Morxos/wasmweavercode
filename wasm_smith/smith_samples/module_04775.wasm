@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) 6766 824187 nullref))
-  (import "" "" (memory (;0;) i64 52 254435967130711))
-  (elem (;0;) declare exnref)
-  (data (;0;) "")
-)

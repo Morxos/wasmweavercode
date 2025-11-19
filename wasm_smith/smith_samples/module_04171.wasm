@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (import "a" "" (global (;1;) i32))
-  (import "" "" (global (;2;) f64))
-  (table (;0;) i64 848 729096 funcref ref.null nofunc)
-  (memory (;0;) 0 8544)
-  (export "" (global 1))
-  (data (;0;) "")
-)

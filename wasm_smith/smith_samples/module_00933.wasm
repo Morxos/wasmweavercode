@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 2 212102 exnref)
-  (export "tZC" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) exnref)
-  (elem (;1;) structref (ref.null struct) (ref.null struct) (ref.null struct))
-  (elem (;2;) (table 0) (i64.const 0) exnref (ref.null exn) (ref.null exn))
-  (data (;0;) "EDw")
-  (data (;1;) "\15^")
-)

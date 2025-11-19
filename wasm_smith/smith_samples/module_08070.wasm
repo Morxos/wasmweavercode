@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 5489 869669 nullref)
-  (export "\u{1d}" (table 0))
-  (elem (;0;) (table 0) (i32.const 12) nullref (ref.null none))
-  (elem (;1;) (table 0) (i32.const 2502) nullref)
-)

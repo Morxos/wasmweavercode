@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 0 nullexternref)
-  (data (;0;) "")
-  (data (;1;) "~\0b")
-  (data (;2;) "p\f6")
-  (data (;3;) "\a7")
-  (data (;4;) "\c9\924")
-)

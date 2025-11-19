@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 2348 exnref))
-  (import "\u{0}\u{0}" "" (memory (;0;) i64 0 59170892787498))
-  (export "" (memory 0))
-  (data (;0;) "w\94")
-  (data (;1;) "Mn")
-  (data (;2;) "\84\b7\89\83")
-)

@@ -1,7 +1,0 @@
-(module
-  (import "N" "" (memory (;0;) 170 46663))
-  (import "!" "" (table (;0;) i64 0 472262 arrayref))
-  (export "" (memory 0))
-  (export "1" (table 0))
-  (export "2" (memory 0))
-)

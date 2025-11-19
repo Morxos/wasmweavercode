@@ -1,5 +1,0 @@
-(module
-  (import "\u{15}\u{4a5}" "" (table (;0;) i64 228 funcref))
-  (memory (;0;) 0 58 shared)
-  (export "" (table 0))
-)

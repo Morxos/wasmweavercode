@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import copy
 import random
 from typing import Type, List
@@ -11,6 +14,9 @@ from core.value import get_random_random_val
 
 
 def generate_random_global_name(global_state: GlobalState) -> str:
+    """
+    Generates a random global name that is not already used in the global state.
+    """
     while True:
         name = f"global_{random.randint(0, 2 ** 32 - 1)}"
         for global_var in global_state.globals.globals:
@@ -20,6 +26,9 @@ def generate_random_global_name(global_state: GlobalState) -> str:
 
 
 class AbstractGlobalFactory(AbstractTileFactory):
+    """
+    Factory for generating global get and set tiles.
+    """
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
@@ -37,13 +46,15 @@ class AbstractGlobalFactory(AbstractTileFactory):
         if new_set_tile.can_be_placed(global_state, current_function, current_blocks):
             yield new_set_tile
 
-        # Add random local type
         get_tile = self.create_global_get_tile(generate_random_global_name(global_state),
                                                create_global=True, global_index=len(global_state.globals))
         if get_tile.can_be_placed(global_state, current_function, current_blocks):
             yield get_tile
 
     def create_global_get_tile(self, global_name, create_global: bool = False, global_index: int = 0):
+        """
+        Used for generating global get tiles.
+        """
 
         class GlobalGet(AbstractTile):
             name = f"Get global"
@@ -72,11 +83,9 @@ class AbstractGlobalFactory(AbstractTileFactory):
                     raise ValueError("Global is not set and is not marked for being created")
 
                 if create_global and global_var is None:
-                    #print(f"Creating global {self.global_name}")
                     global_var = Global(get_random_random_val(), self.global_name, random.randint(0, 10) > 2)
                     current_state.globals.add(global_var)
 
-                #print(f"Getting global {self.global_name} value", global_var.value)
                 self.last_value = copy.deepcopy(global_var.value)
                 current_state.stack.get_current_frame().stack_push(global_var.value)
 
@@ -89,7 +98,9 @@ class AbstractGlobalFactory(AbstractTileFactory):
         return GlobalGet
 
     def create_global_set_tile(self, global_name, create_global: bool = False, global_index = 0):
-        """Used for creating local set tiles"""
+        """
+        Used for generating global set tiles.
+        """
 
         class GlobalSet(AbstractTile):
             name = f"Set global"

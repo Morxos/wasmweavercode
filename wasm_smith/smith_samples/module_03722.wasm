@@ -1,4 +1,0 @@
-(module
-  (import "ub7" "" (table (;0;) i64 7813 exnref))
-  (export "8" (table 0))
-)

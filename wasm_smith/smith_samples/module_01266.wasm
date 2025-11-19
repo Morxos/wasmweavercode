@@ -1,7 +1,0 @@
-(module
-  (elem (;0;) func)
-  (elem (;1;) externref (ref.null extern))
-  (elem (;2;) declare structref)
-  (elem (;3;) declare eqref (ref.null eq))
-  (data (;0;) "")
-)

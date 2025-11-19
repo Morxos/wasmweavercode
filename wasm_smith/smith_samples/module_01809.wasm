@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) 2860 761365 funcref))
-  (export "\u{1c}\u{4a7}\u{10}" (table 0))
-)

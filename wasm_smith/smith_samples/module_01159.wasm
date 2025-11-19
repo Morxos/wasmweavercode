@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) 0)
-  (global (;0;) (mut f32) f32.const 0x1.040b1ap+7 (;=130.02168;))
-)

@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 259)
-  (export "" (memory 0))
-  (export "6" (memory 0))
-  (elem (;0;) anyref (ref.null none) (ref.null i31))
-)

@@ -1,5 +1,8 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from typing import List, Type
-from gymnasium.spaces import Discrete, MultiDiscrete, Dict, Box
+from gymnasium.spaces import Box
 import numpy as np
 
 from core.config.config import MAX_TILE_LOOKBACK
@@ -10,6 +13,9 @@ MAX_TILE_IDS = 350
 MAX_ARG_VALUE = 128
 
 class TilesEmbedder:
+    """
+    Embeds the tiles into a fixed size tensor.
+    """
 
     def __init__(self):
         ...
@@ -431,7 +437,7 @@ class TilesEmbedder:
 
             case _:
                 return 0
-                #raise ValueError(f"Unknown tile name: {tile.name}")
+
     def get_args(self, tile: AbstractTile | Type[AbstractTile], global_state: GlobalState):
         match tile.name:
             #Loops

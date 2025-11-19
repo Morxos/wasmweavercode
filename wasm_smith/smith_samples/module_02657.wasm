@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 19 exnref)
-  (memory (;0;) i64 576 23521020492682 shared)
-  (global (;0;) i64 i64.const 3409652888299487938)
-)

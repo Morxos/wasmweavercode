@@ -1,8 +1,0 @@
-(module
-  (import "k:" "" (table (;0;) i64 130 285613 eqref))
-  (memory (;0;) 126 3237)
-  (elem (;0;) declare structref)
-  (elem (;1;) (table 0) (i64.const 25) eqref (ref.null i31))
-  (data (;0;) "~\9e")
-  (data (;1;) "M\0d\0b")
-)

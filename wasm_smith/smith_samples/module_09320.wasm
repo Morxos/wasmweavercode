@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 11)
-  (elem (;0;) arrayref (ref.null none))
-  (data (;0;) "\7f\fd")
-)

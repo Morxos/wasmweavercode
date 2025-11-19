@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import numpy as np
 from gymnasium.spaces import Box
 
@@ -9,7 +12,9 @@ from drl.embedder.values import embedd_value_type, symlog_to_unit
 
 
 class GlobalsEmbedder:
-
+    """
+    Embeds the globals into a fixed size tensor.
+    """
     def __init__(self):
         ...
 
@@ -44,14 +49,3 @@ class GlobalsEmbedder:
 
 
         return np.array([global_types, global_values, global_mut, global_mask], dtype=np.float32)
-
-
-if __name__ == "__main__":
-    _globals = Globals()
-    _globals.add(Global(I32(5),"test1", mutable=True))
-    _globals.add(Global(I64(100),"test2", mutable=False))
-    embedder = GlobalsEmbedder()
-    embedding = embedder(_globals)
-    print(embedding)
-    print(embedder.get_space().contains(embedding))
-    print(embedder.get_space())

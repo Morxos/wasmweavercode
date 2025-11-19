@@ -1,8 +1,0 @@
-(module
-  (import "$" "" (memory (;0;) 5 31354))
-  (table (;0;) i64 3 nullexternref ref.null noextern)
-  (global (;0;) (mut i32) i32.const 1168034358)
-  (export "" (table 0))
-  (export "1" (global 0))
-  (elem (;0;) declare i31ref)
-)

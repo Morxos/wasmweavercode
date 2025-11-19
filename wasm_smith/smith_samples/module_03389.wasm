@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 9222 705993 anyref ref.null eq)
-  (memory (;0;) 2294 29559)
-  (elem (;0;) structref)
-  (elem (;1;) declare anyref)
-  (elem (;2;) (table 0) (i32.const 1392) structref)
-)

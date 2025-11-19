@@ -1,7 +1,0 @@
-(module
-  (import "B%" "" (global (;0;) externref))
-  (import "o" "" (table (;0;) i64 5785 anyref))
-  (import ")\u{7f}?\u{15}" "" (memory (;0;) i64 4629))
-  (data (;0;) (i64.const 68634759) "\10")
-  (data (;1;) "\e2")
-)

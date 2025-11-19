@@ -1,7 +1,0 @@
-(module
-  (import "1" "" (table (;0;) 1132 819984 anyref))
-  (import "" "" (global (;0;) arrayref))
-  (memory (;0;) i64 1826)
-  (elem (;0;) (table 0) (i32.const 0) i31ref (ref.null i31))
-  (data (;0;) "")
-)

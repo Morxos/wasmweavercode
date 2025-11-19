@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 21 nullref ref.null none)
-  (memory (;0;) i64 721 240326225930191)
-  (global (;0;) (mut f64) f64.const -0x1.48d396729b335p-541 (;=-0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001784428740097659;))
-  (export "\u{333}S" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "\c6")
-)

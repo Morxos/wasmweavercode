@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 719 134972788820621)
-  (export "" (memory 0))
-  (data (;0;) "\cc")
-  (data (;1;) (i64.const 24630262) "\89\1d\e0")
-)

@@ -1,7 +1,0 @@
-(module
-  (import "{" "" (memory (;0;) 890 21110 shared))
-  (import "0" "" (global (;0;) (mut f64)))
-  (table (;0;) 2776 101496 anyref ref.null array)
-  (global (;1;) f32 f32.const 0x1.278e3p+83 (;=11165768000000000000000000;))
-  (elem (;0;) externref)
-)

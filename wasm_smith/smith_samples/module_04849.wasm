@@ -1,9 +1,0 @@
-(module
-  (import "I" "" (memory (;0;) i64 0))
-  (import "4RL" "" (global (;0;) i64))
-  (import "i\u{c}/" "" (table (;0;) i64 7879 nullfuncref))
-  (global (;1;) (mut i32) i32.const 1699169040)
-  (elem (;0;) declare eqref)
-  (data (;0;) "")
-  (data (;1;) "\b9")
-)

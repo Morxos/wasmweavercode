@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 125 25586)
-  (elem (;0;) exnref)
-  (elem (;1;) func)
-  (elem (;2;) nullref (ref.null none) (ref.null none))
-)

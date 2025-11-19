@@ -1,5 +1,0 @@
-(module
-  (import "n" "" (table (;0;) 0 725183 anyref))
-  (import ":" "" (global (;0;) (mut i32)))
-  (data (;0;) "a")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 13353))
-  (table (;0;) i64 361 nullref ref.null none)
-  (global (;0;) (mut i32) i32.const -348238435 i32.const 1595980838 i32.const -1763753627 i32.const -1898395287 i32.sub i32.mul i32.add i32.const 1935300316 i32.const 375757249 i32.const 73520813 i32.add i32.mul i32.mul i32.const 579340648 i32.add)
-  (export ":\u{1}" (table 0))
-  (data (;0;) (i32.const 199646573) "\a6")
-  (data (;1;) "")
-  (data (;2;) (i32.const 83331) "H\82Qb\bc")
-)

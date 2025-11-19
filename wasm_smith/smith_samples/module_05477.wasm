@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 736 186347685651175 shared))
-  (global (;0;) (mut i32) i32.const 1805277479)
-  (export "" (global 0))
-  (data (;0;) (i64.const 0) "E\fc")
-  (data (;1;) (i64.const 14052477) "\12")
-)

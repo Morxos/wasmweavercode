@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) i32))
-  (import "_" "" (table (;0;) i64 0 externref))
-  (global (;1;) (mut f64) f64.const 0x1.4d35a6273cb9dp-133 (;=0.00000000000000000000000000000000000000011953306979881883;))
-  (global (;2;) (mut i32) i32.const 1515490551 i32.const 1676626919 i32.const 1510747926 i32.const -1773310897 i32.mul i32.mul i32.const -1110717757 i32.const 1989828176 i32.add i32.mul i32.const 1696203840 i32.add i32.const 1547343118 i32.mul i32.sub)
-)

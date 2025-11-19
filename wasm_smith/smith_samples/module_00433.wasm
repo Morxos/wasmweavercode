@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 6399 21170 shared)
-  (export "" (memory 0))
-  (elem (;0;) declare exnref)
-)

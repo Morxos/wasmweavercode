@@ -1,8 +1,9 @@
-import os
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+import os
 from azure.identity import get_bearer_token_provider, DefaultAzureCredential
 from openai import AzureOpenAI
-
 from experiments.eval.models.model import Model
 
 endpoint = os.getenv("ENDPOINT_URL", "https://openai-aiattack-msa-001333-swedencentral-01-freeexperiment.openai.azure.com/")
@@ -28,8 +29,6 @@ class O3Mini(Model):
             )
 
     def predict(self, prompt: str):
-        print("Predicting with O3Mini...")
-        print(prompt)
         response = self.client.chat.completions.create(
             model=self.name,
             messages=[{'role': 'user', 'content': prompt}],
@@ -59,9 +58,6 @@ class Gpt41(Model):
     def predict(self, prompt: str) -> str:
         """Streams a chat completion, printing tokens as they arrive and
         returning the full response once complete."""
-        print("Predicting with Gpt41...")
-        print(prompt)
-
         # Stream the response
         response = self.client.chat.completions.create(
             model=self.name,

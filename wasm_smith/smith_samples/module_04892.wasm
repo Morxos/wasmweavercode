@@ -1,9 +1,0 @@
-(module
-  (global (;0;) (mut i64) i64.const -8668401259239844172)
-  (global (;1;) (mut i32) i32.const -1393970747)
-  (data (;0;) "\17")
-  (data (;1;) "")
-  (data (;2;) "")
-  (data (;3;) "!")
-  (data (;4;) "\7f")
-)

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 0 734641 eqref ref.null array)
-  (memory (;0;) 9 36029)
-  (global (;0;) (mut eqref) ref.null i31)
-)

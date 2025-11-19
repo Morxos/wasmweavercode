@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 0)
-  (global (;0;) (mut f32) f32.const -0x1.098c8ap+119 (;=-689404600000000000000000000000000000;))
-  (global (;1;) (mut nullfuncref) ref.null nofunc)
-  (export "" (memory 0))
-  (data (;0;) "")
-)

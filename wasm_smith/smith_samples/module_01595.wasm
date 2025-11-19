@@ -1,4 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const -0x1.9fb406p+124 (;=-34535272000000000000000000000000000000;))
-  (global (;1;) i32 i32.const 874557226 i32.const -1612169276 i32.const 491508462 i32.const 1801652873 i32.const 913815564 i32.const -1900712220 i32.const -1264745229 i32.const 1948585631 i32.mul i32.sub i32.add i32.mul i32.mul i32.const -1824569513 i32.const 257121304 i32.sub i32.mul i32.add i32.add)
-)

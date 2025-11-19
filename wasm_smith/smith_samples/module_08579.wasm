@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 27 991660 nullref)
-  (export "" (table 0))
-  (export "4" (table 0))
-  (elem (;0;) externref)
-  (data (;0;) "")
-)

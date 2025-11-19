@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 nullfuncref)
-  (memory (;0;) i64 122 272486998899289 shared)
-  (elem (;0;) declare exnref)
-  (data (;0;) "\b5\b6\fe")
-)

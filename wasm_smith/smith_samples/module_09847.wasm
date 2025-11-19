@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 nullexternref)
-  (memory (;0;) 11 37698 shared)
-  (global (;0;) f32 f32.const 0x1.593ab6p-115 (;=0.00000000000000000000000000000000003246521;))
-  (data (;0;) "\a4\1e")
-)

@@ -1,5 +1,0 @@
-(module
-  (import ":F\u{1d}{$" "" (table (;0;) 2437 289315 nullfuncref))
-  (data (;0;) "")
-  (data (;1;) "&:_")
-)

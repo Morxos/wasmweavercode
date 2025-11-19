@@ -1,9 +1,0 @@
-(module
-  (import "O" "" (memory (;0;) 9250 61398))
-  (import "" "" (table (;0;) 0 arrayref))
-  (global (;0;) i31ref ref.null none)
-  (export "5=" (table 0))
-  (export "\u{1d}" (memory 0))
-  (elem (;0;) structref)
-  (data (;0;) "")
-)

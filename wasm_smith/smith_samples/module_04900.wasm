@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 0 53264315641287)
-  (global (;0;) (mut i32) i32.const -1239156046)
-  (global (;1;) f32 f32.const 0x1.1c8444p+55 (;=40042160000000000;))
-  (elem (;0;) declare eqref (ref.null array))
-  (elem (;1;) declare nullfuncref (ref.null nofunc))
-  (elem (;2;) nullexternref (ref.null noextern))
-)

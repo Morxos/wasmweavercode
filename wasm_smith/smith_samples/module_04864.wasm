@@ -1,4 +1,0 @@
-(module
-  (import "[~" "" (table (;0;) 4 557918 i31ref))
-  (memory (;0;) 910 13693)
-)

@@ -1,5 +1,0 @@
-(module
-  (import "q" "" (memory (;0;) 146))
-  (global (;0;) (mut i64) i64.const 8527768813885702636)
-  (data (;0;) (i32.const 201690) "")
-)

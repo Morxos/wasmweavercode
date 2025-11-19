@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 1163 eqref ref.null none)
-  (memory (;0;) 9787 51371 shared)
-  (global (;0;) i64 i64.const -8248217295925834920)
-  (global (;1;) (mut i64) i64.const 448605782493460543)
-  (export "\u{1a}" (table 0))
-  (export "\u{d}]O" (table 0))
-)

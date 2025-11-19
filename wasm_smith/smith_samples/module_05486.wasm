@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 4453)
-  (global (;0;) (mut i64) i64.const 5201963572577073960 i64.const -1671712284314160109 i64.const -8352137531207132470 i64.const 403438960317589439 i64.const -4462381765568909438 i64.const 7721869200301934002 i64.sub i64.sub i64.mul i64.sub i64.const 8934539734264068411 i64.const 4922725061743635110 i64.sub i64.const -3156441999961882160 i64.mul i64.add i64.sub)
-  (export "\u{a}\u{12}>tP\u{b}}~\u{2}PF" (memory 0))
-  (export "" (memory 0))
-  (data (;0;) "\da\1az")
-)

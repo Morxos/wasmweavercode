@@ -1,5 +1,0 @@
-(module
-  (import "\u{d}V/g" "" (global (;0;) f64))
-  (export "\u{326}" (global 0))
-  (data (;0;) "")
-)

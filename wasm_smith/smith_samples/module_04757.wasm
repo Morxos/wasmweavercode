@@ -1,4 +1,0 @@
-(module
-  (import "^+\u{5c8}X\u{4}" "" (memory (;0;) i64 0))
-  (table (;0;) 844 arrayref)
-)

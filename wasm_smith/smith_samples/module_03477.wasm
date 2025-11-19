@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 31 funcref))
-  (memory (;0;) 1413 15109)
-  (elem (;0;) declare externref (ref.null noextern))
-  (data (;0;) (i32.const 27641) "t")
-  (data (;1;) (i32.const 235400) "\a6")
-  (data (;2;) (i32.const 169666) "")
-)

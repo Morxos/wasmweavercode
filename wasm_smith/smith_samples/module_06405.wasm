@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1638 58824 externref))
-  (memory (;0;) i64 13085 107204096908629)
-  (global (;0;) (mut exnref) ref.null exn)
-  (global (;1;) (mut i64) i64.const -8430687314984709952)
-  (elem (;0;) declare exnref)
-  (data (;0;) "\e4!\e9")
-  (data (;1;) (i64.const 108481957) "")
-)

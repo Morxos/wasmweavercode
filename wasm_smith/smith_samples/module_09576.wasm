@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 6409 186590 i31ref ref.null i31)
-  (export "-?\u{17}e(" (table 0))
-  (export "]pRkG\u{1d}" (table 0))
-  (export "\u{9}\u{6}" (table 0))
-  (export "$" (table 0))
-  (elem (;0;) anyref)
-  (data (;0;) "")
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 870 169260330885877)
-  (global (;0;) f32 f32.const -0x1.f715b8p-29 (;=-0.000000003660424;))
-  (elem (;0;) eqref)
-  (elem (;1;) anyref (ref.null struct))
-  (data (;0;) (i64.const 4621849) "\e3")
-)

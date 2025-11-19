@@ -1,5 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -1670609736 i32.const -1855276032 i32.mul)
-  (global (;1;) (mut f32) f32.const 0x1.b16fb8p-83 (;=0.00000000000000000000000017506357;))
-  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-)

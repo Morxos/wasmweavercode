@@ -1,6 +1,0 @@
-(module
-  (import "l" "" (table (;0;) 138 582497 arrayref))
-  (import "hj" "" (memory (;0;) i64 320))
-  (import "Q\u{7a5}" "" (global (;0;) f32))
-  (data (;0;) (i64.const 82688) "p\e9\95")
-)

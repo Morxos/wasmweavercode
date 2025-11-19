@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (import "" "" (memory (;0;) 44 37032 shared))
-  (data (;0;) "\ecI\bd3\a7")
-  (data (;1;) (i32.const 364704) "\c4")
-  (data (;2;) (i32.const 5441) "")
-)

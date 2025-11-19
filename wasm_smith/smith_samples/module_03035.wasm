@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1 245700 externref)
-  (export "\u{16}\u{15}" (table 0))
-  (data (;0;) "\85")
-  (data (;1;) "\d4\c5v")
-  (data (;2;) "\c2")
-)

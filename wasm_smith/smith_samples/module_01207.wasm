@@ -1,5 +1,0 @@
-(module
-  (import "nT\u{b}Ow|\u{1f}W\u{1}\u{14}" "" (table (;0;) i64 3606 structref))
-  (memory (;0;) i64 1917 247432565058210)
-  (global (;0;) (mut i32) i32.const 1808167951)
-)

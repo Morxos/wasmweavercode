@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) nullfuncref)
-  (elem (;1;) arrayref (ref.null array) (ref.null array))
-  (data (;0;) "")
-  (data (;1;) "xt\b4")
-)

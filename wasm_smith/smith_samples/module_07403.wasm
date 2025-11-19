@@ -1,8 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const 1380543214)
-  (elem (;0;) declare i31ref)
-  (elem (;1;) i31ref (ref.null none))
-  (elem (;2;) structref)
-  (elem (;3;) externref)
-  (data (;0;) "Oz")
-)

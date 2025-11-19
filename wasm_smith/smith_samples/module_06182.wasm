@@ -1,6 +1,0 @@
-(module
-  (global (;0;) nullref ref.null none)
-  (elem (;0;) func)
-  (elem (;1;) nullref (global.get 0))
-  (elem (;2;) arrayref (global.get 0) (global.get 0))
-)

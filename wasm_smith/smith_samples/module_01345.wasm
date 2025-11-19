@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 754 861672 eqref))
-  (import "\u{19}" "" (memory (;0;) i64 765 137564583811822))
-  (import "\u{10}sMeU" "" (global (;0;) i32))
-  (global (;1;) f32 f32.const 0x1.ff95c6p-97 (;=0.000000000000000000000000000012611545;))
-  (export "" (memory 0))
-  (data (;0;) (i64.const 612501) "")
-  (data (;1;) "")
-)

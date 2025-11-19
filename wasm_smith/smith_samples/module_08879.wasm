@@ -1,8 +1,0 @@
-(module
-  (import "\u{7f}" "" (memory (;0;) 4527 8040))
-  (import "" "" (table (;0;) i64 235 nullfuncref))
-  (global (;0;) (mut f32) f32.const 0x1.fa2f52p+26 (;=132693320;))
-  (global (;1;) i32 i32.const -493690446)
-  (export "" (table 0))
-  (data (;0;) (i32.const 30693004) "\df\b4'")
-)

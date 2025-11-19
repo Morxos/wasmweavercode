@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 0 structref ref.null struct)
-  (memory (;0;) i64 2 188274670560409 shared)
-)

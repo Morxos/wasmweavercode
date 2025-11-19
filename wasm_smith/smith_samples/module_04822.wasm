@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (data (;0;) "\a7")
-  (data (;1;) "&")
-)

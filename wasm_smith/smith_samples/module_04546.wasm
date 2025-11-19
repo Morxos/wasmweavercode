@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 6750 296782 eqref)
-  (memory (;0;) i64 106 182161013349085)
-  (global (;0;) (mut i64) i64.const -1930535557066303882)
-  (elem (;0;) declare func)
-  (elem (;1;) externref (ref.null extern))
-  (data (;0;) (i64.const 143134) "")
-  (data (;1;) "\8e\ec\b2\f9")
-)

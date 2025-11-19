@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 2791 i31ref))
-  (import "NYY\u{15}" "" (memory (;0;) i64 1 277822727415790))
-  (export "\u{437}\u{10}\u{a}B\u{243}" (memory 0))
-  (elem (;0;) nullfuncref)
-  (elem (;1;) declare eqref (ref.null struct))
-  (elem (;2;) declare anyref)
-  (elem (;3;) (table 0) (i64.const 0) nullref)
-)

@@ -1,8 +1,0 @@
-(module
-  (elem (;0;) declare eqref)
-  (elem (;1;) nullref (ref.null none))
-  (elem (;2;) declare funcref (ref.null func) (ref.null nofunc))
-  (elem (;3;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
-  (data (;0;) "")
-  (data (;1;) "")
-)

@@ -1,4 +1,0 @@
-(module
-  (import ")P." "" (global (;0;) f32))
-  (memory (;0;) i64 0 50221268965103)
-)

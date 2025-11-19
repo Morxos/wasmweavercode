@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 511 61174 shared))
-  (import "\u{0}" "" (table (;0;) i64 4262 234372 exnref))
-  (import "" "" (global (;0;) (mut nullfuncref)))
-  (import "E\u{18}" "" (global (;1;) (mut f32)))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (table (;0;) 4229 exnref ref.null exn)
-  (global (;1;) i32 i32.const 550408694)
-  (global (;2;) f32 f32.const 0x1.9d7c8cp+94 (;=31991970000000000000000000000;))
-)

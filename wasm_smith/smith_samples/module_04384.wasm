@@ -1,7 +1,0 @@
-(module
-  (import "\u{6b4}Uzcd" "" (memory (;0;) 10212))
-  (global (;0;) f32 f32.const -0x1.9ae82p+32 (;=-6893871000;))
-  (elem (;0;) declare arrayref)
-  (elem (;1;) funcref)
-  (data (;0;) (i32.const 552906444) "\5c")
-)

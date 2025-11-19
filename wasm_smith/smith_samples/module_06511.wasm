@@ -1,4 +1,0 @@
-(module
-  (import " BK\u{0}" "" (table (;0;) 8810 externref))
-  (global (;0;) i64 i64.const 9078883555100124938)
-)

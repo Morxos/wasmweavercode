@@ -1,7 +1,0 @@
-(module
-  (import "\u{315}j" "" (table (;0;) i64 0 312718 externref))
-  (memory (;0;) 0)
-  (export ":" (memory 0))
-  (export "" (table 0))
-  (export "J" (memory 0))
-)

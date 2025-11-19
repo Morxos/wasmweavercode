@@ -1,5 +1,0 @@
-(module
-  (import "f" "" (table (;0;) 7 279472 exnref))
-  (memory (;0;) 8 11877 shared)
-  (elem (;0;) (table 0) (i32.const 0) exnref (ref.null exn))
-)

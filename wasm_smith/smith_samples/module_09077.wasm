@@ -1,8 +1,0 @@
-(module
-  (import "\u{c}" "" (memory (;0;) 65455 65524))
-  (import "\u{5}\u{4de}" "" (global (;0;) (mut eqref)))
-  (import "e" "" (global (;1;) (mut f64)))
-  (global (;2;) i64 i64.const -448169452274504196 i64.const 697517037548765634 i64.const -4844224116765519837 i64.const 2825726456034966329 i64.const -3942601726299710997 i64.const 8133903763876621261 i64.const -9127482077594306998 i64.const -3945500053846106500 i64.const 4649787961517575123 i64.const -6841906934897013547 i64.mul i64.const 6794229164135648025 i64.sub i64.add i64.mul i64.mul i64.mul i64.add i64.add i64.mul i64.mul)
-  (export "X" (memory 0))
-  (elem (;0;) anyref (ref.null struct) (ref.null struct))
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 542 funcref)
-  (memory (;0;) i64 23 87979140088274)
-  (global (;0;) (mut exnref) ref.null exn)
-  (data (;0;) "")
-)

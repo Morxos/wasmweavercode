@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 9 395590 externref ref.null extern)
-  (memory (;0;) 3 14349)
-  (global (;0;) (mut f32) f32.const 0x1.acc3bcp-18 (;=0.0000063890902;))
-  (export "<\u{6a3}" (global 0))
-  (data (;0;) (i32.const 79664) "q")
-)

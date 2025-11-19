@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 1043 120211 structref ref.null struct)
-  (memory (;0;) i64 1098 4443698918354)
-  (export "" (table 0))
-  (export "1" (memory 0))
-  (export "2" (table 0))
-  (data (;0;) "\d0\c0\0a}\c2")
-)

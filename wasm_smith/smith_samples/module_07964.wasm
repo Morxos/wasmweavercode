@@ -1,8 +1,0 @@
-(module
-  (import "2T\u{8ab7}\u{7f}" "" (global (;0;) (mut f32)))
-  (table (;0;) i64 0 nullfuncref)
-  (memory (;0;) i64 2636 247889684847408)
-  (global (;1;) (mut f64) f64.const -0x1.eeb37a27c9644p-130 (;=-0.0000000000000000000000000000000000000014197224805960865;))
-  (export "" (table 0))
-  (export "\u{1b}\u{1d}" (memory 0))
-)

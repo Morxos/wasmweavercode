@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 744594 structref ref.null struct)
-  (global (;0;) (mut i64) i64.const 7808168446952432733)
-  (export "" (global 0))
-  (export "\u{2}" (table 0))
-)

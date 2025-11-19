@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 0 696027 exnref)
-  (export "0" (table 0))
-  (export "" (table 0))
-  (export "*\u{76e}T" (table 0))
-  (data (;0;) "\15")
-  (data (;1;) "")
-)

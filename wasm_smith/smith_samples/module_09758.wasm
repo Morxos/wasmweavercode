@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 105 nullref)
-  (global (;0;) (mut i64) i64.const 8269799717447732783)
-  (global (;1;) (mut arrayref) ref.null array)
-  (export "\u{a}" (table 0))
-)

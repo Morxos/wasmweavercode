@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 187 212456784991085)
-  (export "?" (memory 0))
-  (elem (;0;) eqref (ref.null i31))
-  (data (;0;) "\90)")
-  (data (;1;) "")
-  (data (;2;) (i64.const 4543599) "\99")
-  (data (;3;) "")
-)

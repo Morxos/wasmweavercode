@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2367 i31ref)
-  (memory (;0;) i64 8)
-  (global (;0;) (mut i32) i32.const -910962509 i32.const -542316562 i32.const -1127850610 i32.const 1796608176 i32.add i32.mul i32.const -1099695571 i32.const 1497463951 i32.sub i32.const 1274151340 i32.sub i32.const 260874466 i32.add i32.mul i32.add)
-  (global (;1;) f32 f32.const 0x1.ae7a3ap-9 (;=0.0032842823;))
-  (export "" (table 0))
-  (export "1" (global 1))
-)

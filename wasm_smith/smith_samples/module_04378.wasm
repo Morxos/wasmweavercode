@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 i31ref))
-  (global (;0;) (mut f32) f32.const -0x1.470c6ap-21 (;=-0.0000006091753;))
-  (export "{TQ\u{1}" (global 0))
-  (export "\u{5c}8\u{a8}" (global 0))
-  (export "Y]aX\u{16b}L" (global 0))
-)

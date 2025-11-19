@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) i32))
-  (memory (;0;) i64 4)
-  (elem (;0;) declare exnref)
-)

@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 9319 nullexternref ref.null noextern)
-  (memory (;0;) 1685 34174)
-)

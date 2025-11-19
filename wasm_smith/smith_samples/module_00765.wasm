@@ -1,7 +1,0 @@
-(module
-  (import "\u{7f}\u{787}GJ" "" (global (;0;) anyref))
-  (global (;1;) (mut f32) f32.const 0x1.761c5p-62 (;=0.000000000000000000316884;))
-  (export "" (global 0))
-  (export "1" (global 0))
-  (export "2" (global 1))
-)

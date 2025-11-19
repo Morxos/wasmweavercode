@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 1530 exnref))
-  (memory (;0;) i64 580 33689626760271 shared)
-  (global (;0;) (mut nullfuncref) ref.null nofunc)
-  (global (;1;) (mut i64) i64.const -27794699844013728)
-  (global (;2;) (mut i32) i32.const -1452489762)
-  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern))
-  (elem (;1;) declare eqref)
-)

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 3 349696 nullexternref ref.null noextern)
-  (global (;0;) (mut i64) i64.const -3539918358817777558 i64.const 8261746462064493656 i64.const 4339067452807922107 i64.const -2275461016380781869 i64.const 5229538462287432374 i64.const 1932566378024859887 i64.const 8090806675127122059 i64.const 3327509569782836248 i64.const 1676318263658875560 i64.const 4713407111104462965 i64.const -2449089274465616137 i64.const 633327587547907215 i64.sub i64.add i64.sub i64.add i64.sub i64.mul i64.add i64.sub i64.mul i64.mul i64.sub)
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-)

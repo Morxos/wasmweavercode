@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 844)
-  (global (;0;) (mut i32) i32.const -1907298731)
-  (global (;1;) (mut i32) i32.const 1732447538)
-  (elem (;0;) structref)
-  (elem (;1;) declare anyref (ref.null any) (ref.null array) (ref.null none) (ref.null i31))
-)

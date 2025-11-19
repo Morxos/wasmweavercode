@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 6 39913)
-  (global (;0;) i32 i32.const 1996734657 i32.const -632842472 i32.const 669248218 i32.const -1147046609 i32.const 287945943 i32.const 1942794131 i32.add i32.mul i32.const 56308005 i32.add i32.const 456687845 i32.const -496997291 i32.sub i32.add i32.sub i32.add i32.sub)
-  (elem (;0;) declare externref)
-)

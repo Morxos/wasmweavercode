@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 17 arrayref))
-  (import "" "" (global (;0;) (mut f64)))
-)

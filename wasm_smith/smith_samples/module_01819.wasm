@@ -1,9 +1,0 @@
-(module
-  (import "g" "" (table (;0;) 0 950389 anyref))
-  (memory (;0;) 5508 20466)
-  (global (;0;) (mut f32) f32.const 0x1.6704ep-42 (;=0.00000000000031887297;))
-  (export "\u{11}\u{12}:\u{11}" (memory 0))
-  (export "" (global 0))
-  (export "2" (table 0))
-  (export "3" (global 0))
-)

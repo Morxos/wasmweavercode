@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 2360 structref))
-  (import "" "" (memory (;0;) i64 1 118688775470136))
-  (global (;0;) (mut i32) i32.const -1653017070)
-  (global (;1;) i64 i64.const 1395637147899063669 i64.const -8360831158307251818 i64.const 766842600440069918 i64.const 2144548716928852557 i64.mul i64.const -2264929587273525538 i64.const 3061587529069386483 i64.const 8114583721946073005 i64.add i64.const 6559464230788032377 i64.add i64.sub i64.sub i64.mul i64.sub)
-  (data (;0;) (global.get 1) "")
-  (data (;1;) (i64.const 486) "")
-)

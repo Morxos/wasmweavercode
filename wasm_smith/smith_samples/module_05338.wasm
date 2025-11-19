@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 455997 externref)
-  (memory (;0;) i64 1155)
-  (global (;0;) (mut f32) f32.const 0x1.cc9dd2p-89 (;=0.0000000000000000000000000029068987;))
-  (elem (;0;) funcref)
-)

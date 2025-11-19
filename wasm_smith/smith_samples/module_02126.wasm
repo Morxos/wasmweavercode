@@ -1,6 +1,0 @@
-(module
-  (import "\u{5}" "" (memory (;0;) i64 14048 4742206703221 shared))
-  (import "" "" (table (;0;) i64 1696 funcref))
-  (global (;0;) exnref ref.null exn)
-  (global (;1;) (mut i64) i64.const -1139703726850936358 i64.const 1193216407013331994 i64.const 6997115643366109436 i64.const 3931566436085281708 i64.const -1477527949409480429 i64.const -3427207745752313617 i64.const -130988261680918244 i64.const 7351300442254614996 i64.sub i64.mul i64.sub i64.mul i64.add i64.sub i64.const 3141489676924743507 i64.const 519351068321138817 i64.add i64.add i64.sub)
-)

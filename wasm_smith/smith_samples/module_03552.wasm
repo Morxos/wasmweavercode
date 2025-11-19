@@ -1,5 +1,0 @@
-(module
-  (import "\u{1d}" "" (global (;0;) f32))
-  (memory (;0;) 1409 14409)
-  (data (;0;) "")
-)

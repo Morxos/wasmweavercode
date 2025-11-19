@@ -1,9 +1,0 @@
-(module
-  (import "a" "" (memory (;0;) i64 37))
-  (table (;0;) 0 629616 i31ref ref.null none)
-  (elem (;0;) declare nullref (ref.null none))
-  (elem (;1;) declare externref (ref.null extern) (ref.null noextern))
-  (data (;0;) (i64.const 15976) "")
-  (data (;1;) "\84")
-  (data (;2;) "0\1d")
-)

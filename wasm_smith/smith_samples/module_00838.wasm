@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1 146715051263650 shared))
-  (global (;0;) eqref ref.null none)
-  (global (;1;) structref ref.null struct)
-  (export "z`" (global 0))
-  (data (;0;) (i64.const 851) "\a9")
-  (data (;1;) "")
-)

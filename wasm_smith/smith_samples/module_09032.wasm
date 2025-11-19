@@ -1,7 +1,0 @@
-(module
-  (global (;0;) i32 i32.const 1286935479 i32.const -536498266 i32.const 1893390048 i32.const 1262873802 i32.const 695707662 i32.const -1459289843 i32.add i32.const 625123423 i32.add i32.const 1174280065 i32.add i32.add i32.add i32.mul i32.mul)
-  (global (;1;) (mut structref) ref.null struct)
-  (export "\u{1d}\u{7f}" (global 0))
-  (export "-" (global 0))
-  (elem (;0;) declare arrayref)
-)

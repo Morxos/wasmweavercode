@@ -1,7 +1,0 @@
-(module
-  (import "\u{a}q" "" (table (;0;) i64 172 nullfuncref))
-  (import "" "" (global (;0;) i64))
-  (global (;1;) (mut i64) global.get 0)
-  (elem (;0;) declare arrayref (ref.null none) (ref.null array))
-  (elem (;1;) declare externref)
-)

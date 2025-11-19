@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) i64))
-  (global (;1;) i32 i32.const 238902526)
-  (export "" (global 0))
-  (export "%'+u\u{a}XS?" (global 0))
-  (data (;0;) "d")
-)

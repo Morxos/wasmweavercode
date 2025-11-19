@@ -1,7 +1,0 @@
-(module
-  (import "^QA" "" (table (;0;) i64 0 460845 nullexternref))
-  (import "w" "" (memory (;0;) 41 49871 shared))
-  (import "Q" "" (global (;0;) (mut f64)))
-  (global (;1;) i31ref ref.null i31)
-  (elem (;0;) declare structref (ref.null struct))
-)

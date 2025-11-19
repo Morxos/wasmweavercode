@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 2342 12519571904795)
-  (export "" (memory 0))
-  (export "\u{d}\u{14}" (memory 0))
-  (export "4*\u{9}~W:6@(" (memory 0))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) "\130\003K\81FA")
-  (data (;1;) "\c8\f5\19\12")
-)

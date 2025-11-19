@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 6029 709276 i31ref)
-  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) (table 0) (i32.const 0) nullref)
-)

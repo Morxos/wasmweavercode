@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 75 669774 i31ref ref.null none)
-  (global (;0;) externref ref.null noextern)
-  (elem (;0;) (table 0) (i64.const 22) nullref (ref.null none))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 499 82957923980993))
-  (import "" "" (global (;0;) (mut i64)))
-  (global (;1;) (mut f32) f32.const -0x1.b62fe2p+117 (;=-284399650000000000000000000000000000;))
-  (elem (;0;) exnref (ref.null exn))
-  (data (;0;) "")
-)

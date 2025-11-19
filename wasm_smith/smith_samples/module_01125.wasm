@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 1354 eqref ref.null struct)
-  (global (;0;) (mut i32) i32.const -1982041411)
-  (elem (;0;) declare externref (ref.null extern) (ref.null noextern))
-  (elem (;1;) (table 0) (i32.const 0) structref)
-  (data (;0;) "\f3")
-)

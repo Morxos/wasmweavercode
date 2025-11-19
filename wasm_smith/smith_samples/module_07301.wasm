@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 227 structref)
-  (memory (;0;) i64 5217 100541076945497 shared)
-  (data (;0;) (i64.const 55311833) "")
-  (data (;1;) "")
-)

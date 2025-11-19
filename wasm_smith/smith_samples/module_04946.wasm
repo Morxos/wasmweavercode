@@ -1,6 +1,0 @@
-(module
-  (import "P" "" (global (;0;) (mut i64)))
-  (table (;0;) i64 2 394585 i31ref ref.null i31)
-  (memory (;0;) 77)
-  (elem (;0;) eqref (ref.null none))
-)

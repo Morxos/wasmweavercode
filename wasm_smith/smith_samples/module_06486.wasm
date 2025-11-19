@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 387532 structref)
-  (export "\u{1a}" (table 0))
-  (data (;0;) "")
-  (data (;1;) "\d7")
-  (data (;2;) "")
-)

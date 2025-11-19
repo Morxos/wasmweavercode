@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 3 33551 funcref ref.null func)
-  (memory (;0;) 1791 19600)
-  (global (;0;) f32 f32.const -0x1.62966ep-101 (;=-0.00000000000000000000000000000054632873;))
-  (global (;1;) (mut f64) f64.const -0x1.eb2ed4ed3220fp-99 (;=-0.000000000000000000000000000003027148561855419;))
-  (export "u4" (table 0))
-  (export "" (table 0))
-)

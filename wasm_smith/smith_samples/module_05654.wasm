@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 197 nullref ref.null none)
-  (global (;0;) (mut externref) ref.null extern)
-  (global (;1;) (mut f64) f64.const 0x1.e0570803b8a9ep+175 (;=89858258796292000000000000000000000000000000000000000;))
-  (elem (;0;) i31ref)
-)

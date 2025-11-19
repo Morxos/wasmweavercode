@@ -1,9 +1,0 @@
-(module
-  (import "\u{7}_" "" (global (;0;) i32))
-  (import "A" "" (table (;0;) i64 16 nullfuncref))
-  (memory (;0;) i64 4)
-  (global (;1;) (mut i64) i64.const 3724929281734365171)
-  (global (;2;) i64 i64.const -5967143834734075045)
-  (global (;3;) arrayref ref.null none)
-  (data (;0;) "")
-)

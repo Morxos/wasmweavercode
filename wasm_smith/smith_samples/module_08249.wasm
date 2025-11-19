@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 14 funcref))
-  (memory (;0;) i64 7961 147863782312287)
-  (data (;0;) "\83\a9")
-)

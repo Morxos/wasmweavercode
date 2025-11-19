@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 4 nullref ref.null none)
-  (export "" (table 0))
-  (data (;0;) "")
-)

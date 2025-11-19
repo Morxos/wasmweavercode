@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 8552 funcref))
-  (global (;0;) funcref ref.null nofunc)
-  (export "" (global 0))
-  (elem (;0;) (table 0) (i32.const 0) func)
-  (elem (;1;) (table 0) (i32.const 213) nullfuncref (ref.null nofunc) (ref.null nofunc))
-)

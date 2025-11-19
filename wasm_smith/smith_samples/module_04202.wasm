@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 609)
-  (elem (;0;) declare nullref (ref.null none))
-  (elem (;1;) nullexternref (ref.null noextern))
-  (elem (;2;) i31ref)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-)

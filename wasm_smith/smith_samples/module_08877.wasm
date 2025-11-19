@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 0 exnref)
-  (memory (;0;) i64 45 111889857967726 shared)
-  (global (;0;) f32 f32.const -0x1.7115c6p-121 (;=-0.00000000000000000000000000000000000054232174;))
-  (export "\u{3}" (table 0))
-  (export "" (memory 0))
-  (export "2" (global 0))
-)

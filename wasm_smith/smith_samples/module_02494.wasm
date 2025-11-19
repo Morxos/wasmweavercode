@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 47 12060307614861 shared)
-  (elem (;0;) anyref)
-  (data (;0;) (i64.const 22435) "")
-  (data (;1;) "")
-)

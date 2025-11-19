@@ -1,8 +1,0 @@
-(module
-  (import "Ot" "" (table (;0;) i64 0 756595 nullexternref))
-  (import "w" "" (memory (;0;) 8917))
-  (export "\u{0}8" (memory 0))
-  (export "" (table 0))
-  (export "2" (memory 0))
-  (export "u" (memory 0))
-)

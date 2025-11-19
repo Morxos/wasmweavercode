@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 13 388920 anyref)
-  (memory (;0;) 0)
-  (export "G\u{e}" (memory 0))
-)

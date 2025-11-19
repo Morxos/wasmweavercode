@@ -1,5 +1,0 @@
-(module
-  (global (;0;) i32 i32.const -1837044181)
-  (global (;1;) i64 i64.const 7702955891059516934)
-  (export "" (global 0))
-)

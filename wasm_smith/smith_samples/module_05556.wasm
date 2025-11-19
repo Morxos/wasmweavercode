@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (table (;0;) i64 105 262480 exnref)
-  (global (;1;) f32 f32.const 0x1.907054p+31 (;=3359124000;))
-  (global (;2;) (mut f32) f32.const -0x1.f6fb96p-105 (;=-0.000000000000000000000000000000048435478;))
-  (data (;0;) "\ae")
-  (data (;1;) "\9e\dd")
-  (data (;2;) "\fe")
-)

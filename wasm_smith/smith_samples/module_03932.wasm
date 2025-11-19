@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 34 funcref ref.null nofunc)
-  (memory (;0;) 12 12992)
-  (export "" (table 0))
-  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-)

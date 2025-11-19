@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (table (;0;) 1 309558 nullref ref.null none)
-  (global (;1;) (mut nullref) ref.null none)
-  (export "" (global 0))
-  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
-  (data (;0;) "")
-)

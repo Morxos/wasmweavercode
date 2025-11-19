@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) 14 structref))
-  (import "\u{13}\u{5}!" "" (memory (;0;) i64 6353))
-  (import "MZ" "" (global (;0;) (mut f32)))
-  (data (;0;) "R")
-)

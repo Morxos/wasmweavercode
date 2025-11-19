@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 2057 nullfuncref)
-  (global (;0;) (mut f32) f32.const -0x1.797f34p-52 (;=-0.00000000000000032742636;))
-  (global (;1;) (mut exnref) ref.null exn)
-  (global (;2;) structref ref.null struct)
-  (global (;3;) (mut i64) i64.const 8844360345454279072)
-  (global (;4;) (mut f32) f32.const -0x1.987322p-100 (;=-0.0000000000000000000000000000012586329;))
-  (data (;0;) "")
-)

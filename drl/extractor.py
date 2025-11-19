@@ -4,7 +4,7 @@ from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
 
 from core.config.config import MAX_STACK_SIZE, MAX_LOCALS_PER_FUNCTION, MAX_GLOBALS_PER_MODULE, MAX_TABLES_PER_MODULE, \
     MAX_TABLE_SIZE, MAX_TILE_LOOKBACK
-from drl.embedder.stack import SequenceEncoder
+from drl.embedder.sequence import SequenceEncoder
 from drl.embedder.tiles import MAX_TILE_IDS
 from drl.embedder.values import MAX_VALUE_TYPE_INDEX
 

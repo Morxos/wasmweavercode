@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 23316))
-  (global (;0;) i32 i32.const 197409201 i32.const 620039224 i32.const -1942543251 i32.const -327274708 i32.const -1888875304 i32.const -409872511 i32.const 793764998 i32.const -1295698187 i32.add i32.sub i32.const -362085428 i32.mul i32.add i32.const -1231658102 i32.mul i32.sub i32.add i32.add i32.sub)
-  (global (;1;) f32 f32.const -0x1.6195eep-79 (;=-0.0000000000000000000000022849938;))
-  (global (;2;) (mut f32) global.get 1)
-)

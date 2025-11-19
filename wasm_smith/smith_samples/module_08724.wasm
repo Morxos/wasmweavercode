@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut nullref)))
-  (table (;0;) i64 1785 47144 externref ref.null noextern)
-  (memory (;0;) 0 35849)
-  (global (;1;) (mut f32) f32.const 0x1.4dd25ep-84 (;=0.000000000000000000000000067414765;))
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "#I(" "" (table (;0;) 19 externref))
-  (import "" "" (global (;0;) i32))
-  (memory (;0;) 936 35878)
-  (export "" (memory 0))
-  (data (;0;) "\e7\17\0a")
-  (data (;1;) (global.get 0) "2")
-  (data (;2;) (global.get 0) "\07")
-)

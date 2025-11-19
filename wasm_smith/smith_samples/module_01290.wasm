@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 26 15562 shared)
-  (global (;0;) (mut f32) f32.const -0x1.d5ddb8p+41 (;=-4036119000000;))
-  (elem (;0;) arrayref)
-  (elem (;1;) externref)
-  (elem (;2;) func)
-)

@@ -1,7 +1,0 @@
-(module
-  (import "JA*" "" (global (;0;) arrayref))
-  (memory (;0;) 530)
-  (export "B&" (memory 0))
-  (elem (;0;) structref)
-  (elem (;1;) declare i31ref (ref.null i31) (ref.null i31))
-)

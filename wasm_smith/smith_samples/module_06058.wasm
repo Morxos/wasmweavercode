@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 13 43250 shared)
-  (export "" (memory 0))
-  (data (;0;) "")
-)

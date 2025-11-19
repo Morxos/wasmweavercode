@@ -1,26 +1,23 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import random
 import threading
 import time
-import traceback
 from collections import deque
 from copy import deepcopy
 from typing import Any, SupportsFloat, List, Type
 import traceback
 import gymnasium as gym
 import numpy as np
-from gymnasium import Space
 from gymnasium.core import ObsType, ActType
 from gymnasium.spaces import Dict
-from gymnasium.spaces.space import T_cov
 import sys
-
-from torch.fx.experimental.migrate_gradual_types.constraint import BinaryConstraint
-
 from curriculum import CurriculumInstance
 from drl.embedder.targets import TargetsEmbedder
 
 sys.setrecursionlimit(20000)  # use with caution
-from core.constraints import AbstractConstraint, ConstraintsViolatedError, FuelConstraint, ByteCodeSizeConstraint
+from core.constraints import AbstractConstraint, ConstraintsViolatedError
 from core.converter import global_state_to_wat_program
 from core.formater import add_line_numbers_to_code
 from core.loader import TileLoader
@@ -40,12 +37,12 @@ from drl.embedder.locals import LocalsEmbedder
 from drl.embedder.stack import StackEmbedder
 from drl.embedder.tables import TablesEmbedder
 from drl.embedder.tiles import TilesEmbedder, MAX_TILE_IDS
-from drl.rewards import AbstractRewardFunction, SimpleRewardFunction
+from drl.rewards import AbstractRewardFunction
 
 
 class EnvSelectionStrategy(AbstractSelectionStrategy):
     """
-    Random selection strategy.
+    Implements a selection strategy that selects tiles based on an externals agent's input.
     """
 
     def __init__(self, env: "WasmWeaverEnv"):
@@ -55,21 +52,9 @@ class EnvSelectionStrategy(AbstractSelectionStrategy):
 
     def select(self, tiles: List[Type["AbstractTile"]], current_state: GlobalState, current_function: Function,
                current_blocks: List[Block]) -> Type[AbstractTile]:
-        """
-        Returns a random weight for the tile.
-        """
-        #print(self.env.counter)
-        #if self.env.last_time_selection != -1:
-        #    if time.time() - self.env.last_time_selection > 1:
-        #        print("Long time since last selection!")
-        #    else:
-        #        print("Time since last selection:", time.time() - self.env.last_time_selection)
-
-
         self.env.counter += 1
         if self.env.finish_thread:
             raise Exception("Thread was reset!")
-
         self.env.current_state = current_state
         self.env.current_function = current_function
         self.env.current_blocks = current_blocks
@@ -86,38 +71,23 @@ class EnvSelectionStrategy(AbstractSelectionStrategy):
         self.env.global_state_ready.release()
         self.env.action_ready.acquire()
         self.env.last_time_selection = time.time()
-        #print("Available tiles:", [self.env.tiles_embedder.get_id(tile) for tile in allowed_tiles])
-
         for tile in allowed_tiles:
             if self.env.tiles_embedder.get_id(tile) == self.env.selected_index:
-                #print("Selected tile:", tile.name, vars(tile))
-                #print("Selected tile:", tile.name)
                 self.env.last_selected_tile_type = tile
-               # print("Selected tile:", tile.name)
                 return tile
 
         raise Exception("Index not found in tiles")
 
 
-class ObjectSpace(Space):
-    def __init__(self, cls: type | tuple[type, ...] | None = None):
-        #  shape=()  → scalar (one object per env)
-        #  dtype=object  → NumPy will store just the reference
-        super().__init__(shape=(1,), dtype=np.object_)
-        self._cls = cls
-
-    def contains(self, x) -> bool:  # called by RLlib checks
-        return self._cls is None or isinstance(x, self._cls)
-
-    # Not used by RLlib but keeps the API complete
-    def sample(self, mask: Any | None = None) -> T_cov:
-        raise NotImplementedError("Cannot sample an arbitrary object.")
-
-
 class WasmWeaverEnv(gym.Env):
-
-    def __init__(self, constraints: List[AbstractConstraint], input_types: List[Type[Val]] = None,
-                 output_types: List[List[Val]] = None, reward_function: AbstractRewardFunction = None,
+    """
+    The main Gymnasium environment class for WasmWeaver.
+    """
+    def __init__(self, constraints: List[AbstractConstraint],
+                 input_types: List[Type[Val]] = None,
+                 output_types: List[List[Val]] = None,
+                 reward_function: AbstractRewardFunction = None,
+                 curriculum: CurriculumInstance = None,
                  verbose=False, post_processor_types:List[Type[AbstractPostProcessor]] = None, forbidden_instruction_name_tokens=None):
 
         super(WasmWeaverEnv, self).__init__()
@@ -177,26 +147,16 @@ class WasmWeaverEnv(gym.Env):
         self.finish_thread = False
         self.current_code_str: str | None = None
         self.current_run_result: AbstractRunResult | None = None
-        self.abstract_reward_function = reward_function
+        self.abstract_reward_function = reward_function if reward_function is not None else AbstractRewardFunction()
         self.verbose = verbose
-
-        fuel_constraints: FuelConstraint = None
-        for constraint in self.constraints:
-            if isinstance(constraint, FuelConstraint):
-                fuel_constraints = constraint
-                break
-
-        def update_max_fuel(val):
-            nonlocal fuel_constraints
-            fuel_constraints.max_target = val
-
-        self.curriculum = CurriculumInstance(step_sizes=[10, 1],
-                                             objective_mins=[fuel_constraints.min_target, 1],
-                                             objective_maxs=[fuel_constraints.max_target, 10],
-                                             objective_starts=[fuel_constraints.max_target, 15],
-                                            constraints_update=[update_max_fuel, None])
-
-
+        self.curriculum = curriculum
+        if self.curriculum is None:
+            step_sizes = [0 for _ in self.constraints]
+            starts = [c.max_target for c in self.constraints]
+            stops = [c.max_target for c in self.constraints]
+            current = starts
+            updates = [None for _ in self.constraints]
+            self.curriculum = CurriculumInstance(step_sizes, starts, stops, current, updates)
 
 
     def set_progress(self, frac: float):
@@ -228,19 +188,18 @@ class WasmWeaverEnv(gym.Env):
         self.thread = None
 
     def generate(self):
-        print("Generating...")
+        if self.verbose:
+            print("Generating...")
         try:
             output_types = random.choice(self.output_types)
             generate_function(self.tile_loader, "run", self.input_types, self.init_state, is_entry=True,
                               fixed_output_types=output_types,selection_strategy=self.tile_loader.selection_strategy)
 
             self.current_code_str = global_state_to_wat_program(self.current_state)
-            #print(self.current_code_str)
             self.current_state.memory.reinit_memory()
-            #Instantiate and apply post processors
+            # Instantiate and apply post processors
             for post_processor_type in self.post_processor_types:
                 post_processor_instance = post_processor_type()
-                #Apply it
                 post_processor_instance(self.current_state)
                 self.post_processor_instances.append(post_processor_instance)
             # Apply function
@@ -258,7 +217,6 @@ class WasmWeaverEnv(gym.Env):
                     self.current_run_result.post_processors = post_processors_copy
 
                 self.current_run_result.return_types = output_types
-                #Detach all post processor tiles
                 for post_processor_instance in self.post_processor_instances:
                     post_processor_instance.detach(self.current_state)
 
@@ -270,8 +228,6 @@ class WasmWeaverEnv(gym.Env):
             self.finish_state = "Success"
             self.global_state_ready.release()
         except ConstraintsViolatedError as e:
-            #Print all constraints
-
             print("Failed!")
             for constraint in self.current_state.constraints.constraints:
                 print(constraint)
@@ -279,8 +235,6 @@ class WasmWeaverEnv(gym.Env):
             self.global_state_ready.release()
         except Exception as e:
             print(e)
-            #Print stack trace
-
             traceback.print_exc()
             self.finish_state = e
             self.global_state_ready.release()
@@ -294,7 +248,6 @@ class WasmWeaverEnv(gym.Env):
             self.finish_thread = False
         self.init_state = GlobalState()
         for constraint in self.constraints:
-            # Reset constraints
             constraint.reset()
             self.init_state.constraints.add(constraint)
         self.init_state.stack.push_frame(params=None, stack=[], name="origin")
@@ -302,7 +255,6 @@ class WasmWeaverEnv(gym.Env):
         self.finish_state = None
         self.global_state_ready = threading.Semaphore(0)
         self.action_ready = threading.Semaphore(0)
-        #Get fuel size constraint
         self.curriculum.draw_next_values()
         self.thread = threading.Thread(target=self.generate, daemon=True)
         self.thread.start()
@@ -404,7 +356,6 @@ class WasmWeaverEnv(gym.Env):
         super().reset(seed=seed)
         self.post_processor_instances = []
         self._init_state()
-        print(self.global_state_ready._value)
         self.counter = 0
         self.global_state_ready.acquire()
         self.last_time_selection = -1

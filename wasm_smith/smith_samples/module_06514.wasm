@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 8797 4717518534500 shared))
-  (import "" "" (global (;0;) i32))
-  (table (;0;) 1474 structref ref.null struct)
-  (data (;0;) "\94Q")
-)

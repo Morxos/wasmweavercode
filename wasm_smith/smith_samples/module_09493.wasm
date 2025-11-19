@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 8 structref)
-  (memory (;0;) i64 14208 276622314011821 shared)
-  (elem (;0;) exnref (ref.null exn) (ref.null exn))
-  (elem (;1;) declare arrayref)
-)

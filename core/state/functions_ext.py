@@ -1,8 +1,14 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from typing import List, Type, Dict
 from core.value import Val
 
-
 class ExtFunction:
+    """
+    Represents an external function with its name, input and output types, and complexity metrics.
+    """
+
     def __init__(self,name: str, inputs: List[Type[Val]], outputs: List[Type[Val]], cpu_complexity, gpu_complexity):
         self.name = name
         self.inputs = inputs
@@ -23,7 +29,9 @@ class ExtFunction:
 
 
 class ExtFunctions:
-    """A simple function state that stores functions."""
+    """
+    A simple container that stores external functions.
+    """
 
     def __init__(self):
         self.functions: Dict[str, ExtFunction] = {}

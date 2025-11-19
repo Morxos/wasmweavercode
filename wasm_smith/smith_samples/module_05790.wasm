@@ -1,7 +1,0 @@
-(module
-  (import "Us\u{1b}!" "" (memory (;0;) 0))
-  (import "\u{18}w\u{4f5}V" "" (global (;0;) i32))
-  (import "" "" (global (;1;) i64))
-  (export "" (memory 0))
-  (export "\u{3}\u{b}H3\u{622}V" (global 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (global (;1;) i32 i32.const 626579809)
-  (global (;2;) (mut i32) global.get 1)
-  (global (;3;) f64 global.get 0)
-  (global (;4;) (mut i32) global.get 1)
-)

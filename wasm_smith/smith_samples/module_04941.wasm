@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 73 663272 arrayref)
-  (elem (;0;) (table 0) (i64.const 5) arrayref)
-  (elem (;1;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn))
-  (elem (;2;) declare anyref (ref.null array))
-  (elem (;3;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-)

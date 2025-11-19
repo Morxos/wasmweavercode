@@ -1,5 +1,0 @@
-(module
-  (import "f" "" (global (;0;) (mut f32)))
-  (data (;0;) "\fc")
-  (data (;1;) "`")
-)

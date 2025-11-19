@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 1861 anyref)
-  (memory (;0;) i64 0 275540669541084)
-  (data (;0;) "")
-)

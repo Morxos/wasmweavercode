@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 271 structref)
-  (global (;0;) i64 i64.const -3607688816800152985)
-  (global (;1;) i64 global.get 0)
-)

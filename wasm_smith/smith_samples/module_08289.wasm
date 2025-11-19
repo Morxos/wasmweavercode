@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 2310 funcref ref.null nofunc)
-  (global (;0;) f64 f64.const 0x1.e2aeb354e792cp-13 (;=0.00023016091531941876;))
-  (elem (;0;) i31ref (ref.null i31) (ref.null i31) (ref.null none) (ref.null i31) (ref.null none))
-)

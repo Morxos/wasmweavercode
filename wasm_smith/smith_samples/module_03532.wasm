@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 194 144542399524627)
-  (global (;0;) (mut i32) i32.const -943608395 i32.const 1041102613 i32.const -1148897285 i32.const 1025627001 i32.const -1973570422 i32.const 2121208042 i32.mul i32.const 263692783 i32.add i32.const -359316395 i32.add i32.sub i32.mul i32.mul i32.sub)
-  (global (;1;) i31ref ref.null i31)
-  (global (;2;) arrayref ref.null none)
-)

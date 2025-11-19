@@ -1,14 +1,16 @@
-import random
-from typing import TYPE_CHECKING, Union
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+import random
+from typing import Union
 import numpy as np
 import wasmtime
 
-if TYPE_CHECKING:
-    from core.state.functions import Function
-
 
 class Val:
+    """
+    A simple Wasm value that stores a value with type information.
+    """
 
     def __init__(self, value):
         self.value = value
@@ -235,10 +237,14 @@ class RefExtern(Ref):
 
 
 def get_random_val():
-    """Returns a random val with default value."""
+    """
+    Returns a random val with default value.
+    """
     return random.choice([I32, I64, F32, F64]).get_default_value()
 
 
 def get_random_random_val():
-    """Returns a random val with random value."""
+    """
+    Returns a random val with random value.
+    """
     return random.choice([I32, I64, F32, F64]).get_random_val()

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 1449 456226 anyref)
-  (global (;0;) nullfuncref ref.null nofunc)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "\b1\f9")
-)

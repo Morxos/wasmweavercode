@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 0 981184 exnref)
-  (memory (;0;) i64 11422)
-  (export ".E" (memory 0))
-)

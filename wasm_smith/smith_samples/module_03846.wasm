@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (import "d" "" (global (;1;) i32))
-  (import "v\u{a}b" "" (table (;0;) 353 65937 funcref))
-  (import "" "" (global (;2;) (mut i64)))
-  (global (;3;) (mut i32) i32.const -1500861317 i32.const 1414377846 i32.const -1488072410 i32.const 1928021597 i32.const -1752964308 i32.const 216147896 i32.const -596344976 i32.const -917355893 i32.add i32.sub i32.add i32.sub i32.sub i32.mul i32.const 1087174342 i32.add i32.mul i32.const -2094588949 i32.add)
-  (elem (;0;) (table 0) (i32.const 0) nullfuncref)
-)

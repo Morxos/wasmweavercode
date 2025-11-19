@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 1514 eqref ref.null eq)
-  (memory (;0;) i64 27 213442108911769)
-  (global (;0;) (mut i32) i32.const -411132376)
-)

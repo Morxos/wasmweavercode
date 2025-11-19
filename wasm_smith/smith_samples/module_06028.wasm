@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 8031 591534 exnref))
-  (memory (;0;) i64 75 271814704084873)
-  (export "" (memory 0))
-  (export "j(jc\u{15}" (table 0))
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1 350125 nullref))
-  (memory (;0;) 11294)
-  (export "" (memory 0))
-  (export "\u{7}\u{16}" (table 0))
-)

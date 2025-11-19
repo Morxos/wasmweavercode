@@ -1,5 +1,0 @@
-(module
-  (import "\u{1}\u{a}\u{15}\u{d}<" "" (global (;0;) structref))
-  (memory (;0;) 10944 56961)
-  (global (;1;) (mut i64) i64.const -5275885243521258711)
-)

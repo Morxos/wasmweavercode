@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 1791 959936 nullexternref ref.null noextern)
-  (memory (;0;) i64 7511)
-  (export "" (table 0))
-  (export "1" (memory 0))
-  (elem (;0;) externref (ref.null extern) (ref.null noextern) (ref.null extern))
-  (data (;0;) (i64.const 83237277) "")
-)

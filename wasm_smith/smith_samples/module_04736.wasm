@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (memory (;0;) i64 1256)
-  (elem (;0;) declare anyref)
-)

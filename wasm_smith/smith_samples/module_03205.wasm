@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 400 25995 exnref ref.null exn)
-  (memory (;0;) 8991 28211 shared)
-  (elem (;0;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-  (data (;0;) "\bb")
-)

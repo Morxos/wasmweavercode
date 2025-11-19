@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1 218393155852754))
-  (table (;0;) 1665 238462 externref ref.null noextern)
-  (elem (;0;) externref)
-  (elem (;1;) structref)
-  (elem (;2;) declare anyref (ref.null struct) (ref.null i31) (ref.null i31))
-  (data (;0;) "\cd")
-  (data (;1;) "")
-)

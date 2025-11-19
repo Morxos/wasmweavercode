@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) externref (ref.null noextern) (ref.null extern))
-  (elem (;1;) nullfuncref)
-  (data (;0;) "(")
-)

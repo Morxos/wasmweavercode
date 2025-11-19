@@ -1,4 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (memory (;0;) 1368 10269 shared)
-)

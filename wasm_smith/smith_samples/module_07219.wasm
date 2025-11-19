@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 666 32985670763146)
-  (global (;0;) i64 i64.const -7964870404529646989 i64.const -3884710932705356634 i64.const -666142779999060985 i64.const -3252259139371620045 i64.const 6705331235060497368 i64.const 5592183322003877343 i64.add i64.sub i64.const 514521666617503126 i64.sub i64.const -1395888327654251845 i64.sub i64.mul i64.sub i64.sub i64.const 4365300964503870237 i64.sub)
-  (export "c" (memory 0))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) "#\cb")
-  (data (;1;) "\07\c9")
-  (data (;2;) "")
-)

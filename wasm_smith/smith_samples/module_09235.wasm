@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 1 46142))
-  (table (;0;) 3 701397 arrayref ref.null array)
-  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none) (ref.null none))
-  (elem (;1;) externref)
-  (data (;0;) "\e4")
-  (data (;1;) (i32.const 793) "[")
-  (data (;2;) "")
-)

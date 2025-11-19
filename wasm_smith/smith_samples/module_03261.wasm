@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 86 214852 anyref)
-  (export "\u{1d}\u{16}\u{6cf}f{" (table 0))
-  (export "6" (table 0))
-  (elem (;0;) declare funcref (ref.null nofunc) (ref.null func))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "-\u{9}[" "" (table (;0;) 18 eqref))
-  (memory (;0;) 31 15428)
-  (export "Z" (memory 0))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 999257 999829 nullref)
-  (memory (;0;) i64 1030)
-  (elem (;0;) (table 0) (i64.const 16873) nullref)
-  (data (;0;) "")
-)

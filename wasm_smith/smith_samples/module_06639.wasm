@@ -1,6 +1,0 @@
-(module
-  (import "i/4" "" (memory (;0;) i64 1 157462364842220 shared))
-  (import "\u{5}" "" (table (;0;) 5 funcref))
-  (elem (;0;) structref)
-  (data (;0;) (i64.const 3336) "A\d1")
-)

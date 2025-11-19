@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 995787 999743 funcref ref.null func)
-  (memory (;0;) i64 4715)
-  (elem (;0;) externref)
-  (elem (;1;) declare anyref (ref.null eq) (ref.null i31) (ref.null eq))
-)

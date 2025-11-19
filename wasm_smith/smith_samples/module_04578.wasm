@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 1)
-  (elem (;0;) declare exnref)
-  (data (;0;) (i64.const 4096) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 30583 eqref ref.null struct)
-  (global (;0;) (mut f32) f32.const 0x1.bdf9cap+101 (;=4416729800000000000000000000000;))
-  (global (;1;) (mut i32) i32.const -611890527)
-  (elem (;0;) exnref)
-  (elem (;1;) declare nullref (ref.null none) (ref.null none))
-  (elem (;2;) nullexternref)
-  (elem (;3;) declare structref (ref.null struct) (ref.null struct) (ref.null struct) (ref.null none) (ref.null none) (ref.null struct) (ref.null struct) (ref.null none))
-)

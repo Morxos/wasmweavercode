@@ -1,6 +1,0 @@
-(module
-  (import "J]" "" (global (;0;) f64))
-  (import "" "" (memory (;0;) i64 0))
-  (global (;1;) f32 f32.const 0x1.dc124ep+39 (;=1022355800000;))
-  (elem (;0;) nullfuncref)
-)

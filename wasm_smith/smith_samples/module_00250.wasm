@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 7 nullexternref)
-  (memory (;0;) 0)
-  (export "J}" (memory 0))
-  (export "2" (table 0))
-  (export "*" (memory 0))
-  (data (;0;) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "Z" "" (memory (;0;) 3143))
-  (table (;0;) i64 1193 exnref)
-  (global (;0;) f64 f64.const 0x1.2cf45c58bc418p-140 (;=0.0000000000000000000000000000000000000000008434542529252113;))
-  (export "m[" (table 0))
-  (export "\u{d}\u{d}" (memory 0))
-  (elem (;0;) declare structref (ref.null struct))
-  (data (;0;) (i32.const 50048471) "\c4\22")
-)

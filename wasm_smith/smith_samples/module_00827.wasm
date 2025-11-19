@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 1406 exnref)
-  (memory (;0;) 0 6098 shared)
-  (global (;0;) (mut i32) i32.const 443015673)
-  (global (;1;) nullexternref ref.null noextern)
-  (export "" (table 0))
-  (export "\u{15e}\u{d}H>H" (memory 0))
-)

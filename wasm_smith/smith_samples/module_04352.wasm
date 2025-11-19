@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 4391 839152 funcref)
-  (global (;0;) i32 i32.const 1059706572)
-  (elem (;0;) nullexternref)
-  (elem (;1;) declare externref)
-  (elem (;2;) declare arrayref)
-)

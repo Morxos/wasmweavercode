@@ -1,6 +1,0 @@
-(module
-  (import "g" "" (memory (;0;) 1500 38463 shared))
-  (import "\u{4a8}" "" (table (;0;) 0 412329 nullref))
-  (export "x\u{5}\u{1e}" (memory 0))
-  (export "" (memory 0))
-)

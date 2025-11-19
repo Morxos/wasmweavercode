@@ -1,6 +1,0 @@
-(module
-  (import "\u{1e}" "" (memory (;0;) i64 1758 24227327820065))
-  (elem (;0;) nullref)
-  (elem (;1;) declare nullref)
-  (elem (;2;) nullexternref)
-)

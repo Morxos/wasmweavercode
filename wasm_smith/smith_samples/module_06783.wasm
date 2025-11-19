@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 8155 181758 nullfuncref ref.null nofunc)
-  (memory (;0;) 543)
-  (global (;0;) i64 i64.const 7726081709646513572 i64.const 7559949614932301306 i64.add)
-  (elem (;0;) (table 0) (global.get 0) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (elem (;1;) func)
-  (data (;0;) (i32.const 9) "\c6\efR")
-)

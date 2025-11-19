@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 5 arrayref ref.null array)
-  (memory (;0;) i64 12003 816782899903)
-  (export "\u{1d},i" (memory 0))
-  (data (;0;) (i64.const 714128859) "")
-)

@@ -1,8 +1,13 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from core.state.state import GlobalState
 
 
 def _generate_functions(global_state: GlobalState, external=False) -> str:
-    """Generates a strings for all external and internal functions"""
+    """
+    Generates a strings for all external and internal functions.
+    """
     function_str = ""
     for function in global_state.functions.functions.values():
         if function.is_external != external:
@@ -12,7 +17,9 @@ def _generate_functions(global_state: GlobalState, external=False) -> str:
     return function_str
 
 def _generate_ext_functions(global_state: GlobalState) -> str:
-    """Generates a strings for all external functions"""
+    """
+    Generates a strings for all external functions.
+    """
     function_str = ""
     for function in global_state.ext_functions.functions.values():
         function_str += function.generate_code()
@@ -20,14 +27,18 @@ def _generate_ext_functions(global_state: GlobalState) -> str:
     return function_str
 
 def _generate_tables(global_state: GlobalState) -> str:
-    """Generates a strings for all tables"""
+    """
+    Generates a strings for all tables.
+    """
     table_str = ""
     for table in global_state.tables.tables.values():
         table_str += table.generate_code() + "\n"
 
     return table_str
 def _generate_globals(global_state: GlobalState) -> str:
-    """Generates a strings for all global variables"""
+    """
+    Generates a strings for all global variables.
+    """
     global_str = ""
     for global_var in global_state.globals.globals:
         global_str += global_var.generate_code() + "\n"
@@ -36,7 +47,9 @@ def _generate_globals(global_state: GlobalState) -> str:
 
 
 def _generate_signatures(global_state: GlobalState) -> str:
-    """Generates a strings for all function signatures"""
+    """
+    Generates a strings for all function signatures.
+    """
     signature_str = ""
     for function in global_state.functions.functions.values():
         signature_str += function.generate_signature() + "\n"
@@ -44,12 +57,13 @@ def _generate_signatures(global_state: GlobalState) -> str:
 
 
 def global_state_to_wat_program(global_state: GlobalState) -> str:
-    """Converts a global state to a wat program"""
+    """
+    Converts a global state to a wat program.
+    """
     template = f"(module\n"
     #Signatures
     if _generate_signatures(global_state):
         template += f'{_generate_signatures(global_state)}'
-
     #Function imports
     if _generate_functions(global_state, external=True):
         template += f'{_generate_functions(global_state, external=True)}'

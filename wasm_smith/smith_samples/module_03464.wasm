@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) 0 21322)
-  (export "Q\u{6e4}" (memory 0))
-  (elem (;0;) declare externref)
-  (elem (;1;) declare externref)
-  (elem (;2;) declare nullfuncref)
-  (data (;0;) "")
-)

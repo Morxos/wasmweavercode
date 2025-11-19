@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i31ref)))
-  (table (;0;) 1 792642 externref)
-  (memory (;0;) i64 677)
-  (global (;1;) f32 f32.const 0x1.11465ap-32 (;=0.000000000248542;))
-  (global (;2;) (mut i64) i64.const -1495225910118670995 i64.const -1149550810368515294 i64.add)
-  (global (;3;) (mut i32) i32.const -1923111541)
-)

@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 5697)
-  (data (;0;) (i32.const 167351) "1h")
-  (data (;1;) (i32.const 3807345) "\a0\be")
-)

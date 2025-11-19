@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 11 exnref)
-  (memory (;0;) i64 69)
-  (global (;0;) structref ref.null struct)
-  (export "" (global 0))
-  (data (;0;) "")
-)

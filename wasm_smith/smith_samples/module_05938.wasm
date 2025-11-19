@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 330170 eqref)
-  (memory (;0;) i64 370 220329177476037)
-  (export "9" (table 0))
-  (data (;0;) (i64.const 291937) "&")
-)

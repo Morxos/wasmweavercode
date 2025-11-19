@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 4004 exnref ref.null exn)
-  (memory (;0;) 662)
-  (global (;0;) (mut i32) i32.const -946717759 i32.const -165199170 i32.const -698794705 i32.const 1345795915 i32.const 153463298 i32.const -76979701 i32.const 73989625 i32.const 2034690738 i32.const -2045750150 i32.const -537241948 i32.mul i32.sub i32.mul i32.mul i32.sub i32.mul i32.sub i32.const 614618948 i32.mul i32.sub i32.mul)
-)

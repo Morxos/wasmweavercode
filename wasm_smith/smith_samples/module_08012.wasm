@@ -1,9 +1,0 @@
-(module
-  (import "\u{1f}" "" (memory (;0;) 33 13948))
-  (import "a" "" (table (;0;) i64 0 nullexternref))
-  (export "" (memory 0))
-  (data (;0;) (i32.const 618651) "")
-  (data (;1;) "lZ\81")
-  (data (;2;) "")
-  (data (;3;) "")
-)

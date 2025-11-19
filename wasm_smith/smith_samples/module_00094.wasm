@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) declare arrayref)
-  (elem (;1;) exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
-  (elem (;2;) structref (ref.null none))
-  (elem (;3;) declare nullexternref (ref.null noextern))
-)

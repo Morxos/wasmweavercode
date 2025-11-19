@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 56059))
-  (import "\u{15}\u{7}" "" (table (;0;) 11 748748 nullexternref))
-  (global (;0;) (mut externref) ref.null extern)
-  (elem (;0;) declare i31ref)
-  (elem (;1;) nullexternref (ref.null noextern))
-)

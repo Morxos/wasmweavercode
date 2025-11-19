@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 557170 nullexternref)
-  (memory (;0;) i64 4061 39471078488811)
-  (elem (;0;) declare arrayref (ref.null array) (ref.null array))
-  (elem (;1;) declare nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) (i64.const 291679) "")
-)

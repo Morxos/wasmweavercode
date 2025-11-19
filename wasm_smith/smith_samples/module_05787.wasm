@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 2310 992842 nullexternref ref.null noextern)
-  (memory (;0;) i64 631 96678993466365 shared)
-  (elem (;0;) arrayref)
-  (data (;0;) (i64.const 19733584) "")
-  (data (;1;) "Z\04\bd\1e")
-  (data (;2;) "")
-)

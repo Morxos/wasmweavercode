@@ -1,5 +1,0 @@
-(module
-  (import "5" "" (memory (;0;) i64 13719 26337306436529 shared))
-  (import "" "" (table (;0;) 3208 497433 anyref))
-  (elem (;0;) declare nullexternref)
-)

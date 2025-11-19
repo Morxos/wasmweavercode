@@ -1,5 +1,0 @@
-(module
-  (import "-" "" (global (;0;) f64))
-  (table (;0;) i64 75 eqref ref.null struct)
-  (memory (;0;) 4334 27072)
-)

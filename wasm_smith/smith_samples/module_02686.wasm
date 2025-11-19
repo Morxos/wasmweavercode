@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (import "" "" (global (;1;) i32))
-  (import "" "" (table (;0;) i64 2991 734073 eqref))
-  (memory (;0;) i64 1245)
-  (global (;2;) (mut i32) i32.const -146290011)
-  (global (;3;) (mut i64) i64.const 6115227516327176307)
-  (export "" (global 1))
-)

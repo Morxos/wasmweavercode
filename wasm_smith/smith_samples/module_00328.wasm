@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 3)
-  (global (;0;) i64 i64.const 5363329275093237285 i64.const -6292645219491432037 i64.const -7022667343211209737 i64.const 7721319613155908093 i64.add i64.const -3873032600617242948 i64.add i64.sub i64.const 8810387596784629696 i64.mul i64.mul i64.const -3091938863962196193 i64.const -120334465637303866 i64.sub i64.add)
-  (global (;1;) (mut i64) global.get 0)
-  (data (;0;) (i32.const 51659) "")
-)

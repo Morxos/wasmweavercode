@@ -1,9 +1,0 @@
-(module
-  (import "\u{3a8}\u{16}" "" (table (;0;) i64 628 externref))
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "2" (table 0))
-  (export "3" (table 0))
-  (elem (;0;) (table 0) (i64.const 319) nullexternref (ref.null noextern))
-  (elem (;1;) structref (ref.null struct))
-)

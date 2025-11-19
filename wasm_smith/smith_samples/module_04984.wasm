@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 278115 funcref)
-  (global (;0;) (mut i32) i32.const -1245536954 i32.const 566111568 i32.const 612909127 i32.const 584369596 i32.const 434543142 i32.const 1081619745 i32.const -844566508 i32.add i32.add i32.mul i32.add i32.mul i32.add)
-  (export "" (global 0))
-  (export "1" (global 0))
-  (export "\u{413}y" (global 0))
-  (data (;0;) "P\8e")
-  (data (;1;) "\83")
-)

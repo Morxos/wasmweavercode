@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 8845 758447 i31ref)
-  (global (;0;) arrayref ref.null array)
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-)

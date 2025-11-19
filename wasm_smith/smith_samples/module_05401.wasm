@@ -1,5 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.d08b9ep+27 (;=243555570;))
-  (export "FXa\u{5c}\u{2}aN2" (global 0))
-  (export "\u{c}" (global 0))
-)

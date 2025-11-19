@@ -1,6 +1,0 @@
-(module
-  (import " " "" (global (;0;) (mut f64)))
-  (table (;0;) 18 713726 nullref ref.null none)
-  (memory (;0;) i64 2807 125967966486097 shared)
-  (data (;0;) "\b5w")
-)

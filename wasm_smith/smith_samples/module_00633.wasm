@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1 945150 exnref ref.null exn)
-  (memory (;0;) i64 470 84310855994373 shared)
-  (export "" (table 0))
-  (export "\u{12}Q" (table 0))
-  (data (;0;) "")
-)

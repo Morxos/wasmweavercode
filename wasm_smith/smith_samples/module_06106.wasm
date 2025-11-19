@@ -1,5 +1,0 @@
-(module
-  (import "@dQ3" "" (table (;0;) i64 8 465666 structref))
-  (global (;0;) (mut i64) i64.const -7909459504169316248)
-  (export "" (global 0))
-)

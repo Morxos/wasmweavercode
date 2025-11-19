@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 578 107425875407336)
-  (global (;0;) (mut nullexternref) ref.null noextern)
-  (export "" (memory 0))
-  (export "\u{19a}Z" (global 0))
-  (export "$" (global 0))
-  (elem (;0;) structref)
-)

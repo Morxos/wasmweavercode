@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 7980 235350109817004 shared)
-  (global (;0;) (mut i64) i64.const -4087645390659253909)
-  (elem (;0;) eqref)
-)

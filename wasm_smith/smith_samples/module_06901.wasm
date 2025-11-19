@@ -1,6 +1,0 @@
-(module
-  (global (;0;) i32 i32.const -1405029826)
-  (export "KK3i)" (global 0))
-  (elem (;0;) nullref (ref.null none))
-  (elem (;1;) declare eqref (ref.null none))
-)

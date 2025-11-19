@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 9071 267150284805015)
-  (global (;0;) (mut f32) f32.const -0x1.06ebaep-25 (;=-0.00000003060799;))
-  (global (;1;) (mut structref) ref.null struct)
-  (export "" (memory 0))
-  (export "\u{52bd}\u{c}" (memory 0))
-  (elem (;0;) nullref)
-)

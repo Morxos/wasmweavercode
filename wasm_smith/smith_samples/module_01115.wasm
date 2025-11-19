@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 12983 nullexternref))
-  (import "D" "" (global (;0;) f64))
-  (global (;1;) structref ref.null struct)
-  (export "w" (global 1))
-  (elem (;0;) declare i31ref (ref.null none) (ref.null i31) (ref.null none) (ref.null i31) (ref.null none))
-  (data (;0;) "\c9")
-  (data (;1;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 14 55065 funcref)
-  (memory (;0;) i64 6544 183589497422688 shared)
-  (elem (;0;) declare nullfuncref)
-  (data (;0;) "\fd")
-)

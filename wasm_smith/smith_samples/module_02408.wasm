@@ -1,5 +1,0 @@
-(module
-  (import "y" "" (global (;0;) (mut f64)))
-  (table (;0;) i64 45 externref ref.null noextern)
-  (memory (;0;) i64 45 97049715042969)
-)

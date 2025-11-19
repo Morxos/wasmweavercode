@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 11 272921783720422)
-  (global (;0;) (mut i32) i32.const -448923836)
-  (export "" (global 0))
-  (elem (;0;) declare nullexternref)
-  (elem (;1;) funcref (ref.null func) (ref.null func) (ref.null nofunc))
-)

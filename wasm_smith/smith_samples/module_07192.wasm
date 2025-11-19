@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 10065)
-  (global (;0;) f32 f32.const -0x1.7dcab4p+106 (;=-120994650000000000000000000000000;))
-  (global (;1;) f64 f64.const 0x1.f6fbcbdf7bf27p+1 (;=3.929559215663079;))
-  (elem (;0;) nullref (ref.null none) (ref.null none))
-)

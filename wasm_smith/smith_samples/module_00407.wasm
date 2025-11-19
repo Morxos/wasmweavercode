@@ -1,9 +1,0 @@
-(module
-  (import "C\u{2}6^>" "" (table (;0;) 91 funcref))
-  (import "" "" (memory (;0;) 6 24303 shared))
-  (import "K\u{17}" "" (global (;0;) (mut i64)))
-  (import "" "" (global (;1;) f32))
-  (global (;2;) (mut i32) i32.const -702921399 i32.const -660855506 i32.sub)
-  (global (;3;) i64 i64.const 2029441236951719941 i64.const -5195957466733008641 i64.const 523038224890367045 i64.const -5491351875516840685 i64.const 3826349483392884607 i64.const 6824150523140479140 i64.const 7958271503848779633 i64.const 3907974526165742856 i64.sub i64.const 2815148028490963501 i64.add i64.mul i64.add i64.add i64.const -1767836345992980464 i64.add i64.sub i64.mul i64.add)
-  (elem (;0;) declare structref (ref.null none))
-)

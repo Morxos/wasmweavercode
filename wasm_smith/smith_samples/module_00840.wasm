@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) 18 exnref))
-  (export "{" (table 0))
-)

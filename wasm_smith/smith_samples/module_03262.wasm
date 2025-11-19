@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 253 externref ref.null noextern)
-  (export "" (table 0))
-)

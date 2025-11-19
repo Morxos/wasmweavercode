@@ -1,7 +1,0 @@
-(module
-  (import "c" "" (global (;0;) (mut f32)))
-  (import "" "" (memory (;0;) i64 8841 184816825066296 shared))
-  (table (;0;) 38 864344 structref)
-  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
-  (elem (;1;) declare i31ref)
-)

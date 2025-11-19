@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 206)
-  (global (;0;) (mut i64) i64.const -1570493782673714460)
-  (global (;1;) f32 f32.const -0x1.4b3e5ep+26 (;=-86833530;))
-  (elem (;0;) externref)
-  (data (;0;) "")
-)

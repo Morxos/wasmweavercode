@@ -1,7 +1,0 @@
-(module
-  (global (;0;) arrayref ref.null array)
-  (global (;1;) i32 i32.const -1100809190)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "5\19")
-)

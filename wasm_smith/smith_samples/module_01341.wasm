@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 636 670544 exnref ref.null exn)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "K\ef.L")
-)

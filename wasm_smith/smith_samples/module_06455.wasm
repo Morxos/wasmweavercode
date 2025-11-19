@@ -1,7 +1,0 @@
-(module
-  (import "\u{6e2}" "" (table (;0;) i64 0 664083 structref))
-  (import "(" "" (global (;0;) f64))
-  (memory (;0;) 852)
-  (global (;1;) anyref ref.null array)
-  (export "T\u{13}\u{511}" (global 0))
-)

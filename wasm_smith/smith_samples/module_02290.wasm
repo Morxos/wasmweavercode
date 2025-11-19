@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 120 13592074254441 shared)
-  (global (;0;) f32 f32.const -0x1.96ce96p+18 (;=-416570.34;))
-  (global (;1;) (mut f32) f32.const -0x1.95f4c2p+105 (;=-64326310000000000000000000000000;))
-  (elem (;0;) anyref (ref.null eq) (ref.null i31) (ref.null none) (ref.null i31) (ref.null any))
-  (data (;0;) "'")
-)

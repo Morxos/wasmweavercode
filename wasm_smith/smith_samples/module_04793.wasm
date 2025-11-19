@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 1109 32380)
-  (export "" (memory 0))
-  (data (;0;) (i32.const 43429364) "")
-)

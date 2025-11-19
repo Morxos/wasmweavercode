@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 7138 arrayref))
-  (data (;0;) "\1d")
-  (data (;1;) "")
-)

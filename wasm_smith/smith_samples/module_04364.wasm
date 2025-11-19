@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) structref)
-  (elem (;1;) declare exnref)
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 2 funcref))
-  (global (;0;) f32 f32.const 0x1.48d64cp-14 (;=0.00007840087;))
-  (elem (;0;) anyref (ref.null i31) (ref.null none))
-  (elem (;1;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc))
-  (elem (;2;) (table 0) (i32.const 0) funcref (ref.null func))
-)

@@ -1,8 +1,0 @@
-(module
-  (import "Om\u{8}v" "" (global (;0;) f64))
-  (table (;0;) i64 8 arrayref)
-  (global (;1;) f32 f32.const 0x1.fd9754p+48 (;=560301370000000;))
-  (elem (;0;) (table 0) (i64.const 0) arrayref (ref.null array) (ref.null array))
-  (data (;0;) "")
-  (data (;1;) "\c9\06")
-)

@@ -1,15 +1,14 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
 import random
 from typing import List
-
 import numpy as np
-
 from core.config.config import MEMORY_MAX_WRITE_INDEX
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
 from core.tile import AbstractTile
 from core.value import F32, I32, F64, I64
-
 
 class Float32Const(AbstractTile):
     name = "F32Const"
@@ -36,9 +35,6 @@ class Float32Const(AbstractTile):
         return f"(f32.const {self.value})"
 
     def get_byte_code_size(self):
-        # This is a simple model and might not directly correspond to actual byte code size
-        # We assume all floats take the same size, but in a real implementation this could vary
-        # based on the value itself
         return 5  # This is assuming constant size, adjust if a different model is used
 
 class Float32Add(AbstractTile):
@@ -121,12 +117,10 @@ class Float32Div(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop()
         a = current_state.stack.get_current_frame().stack_pop()
-        #print("Dividing", a.value, "by", b.value)
         if b.value == 0.0:
             raise ValueError("Division by zero")
         result = a.value.astype(np.float32) / b.value.astype(np.float32)
-        result = np.float32(result)  # Round to nearest integer
-        #print("Dividing", a.value, "by", b.value, "result is", result)
+        result = np.float32(result)
         current_state.stack.get_current_frame().stack_push(F32(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -147,8 +141,6 @@ class Float32Sqrt(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         a = current_state.stack.get_current_frame().stack_pop()
-        # print("Sqrt", a.value)
-        # print(np.sqrt(a.value))
         current_state.stack.get_current_frame().stack_push(F32(np.sqrt(a.value)))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -618,7 +610,6 @@ class Float32Store(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(value, F32):
             return False
-        #Check if in range
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 4:
             return False
         return True

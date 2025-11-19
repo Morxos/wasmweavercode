@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 37 833257 externref ref.null noextern)
-  (export "" (table 0))
-  (export "\u{1d}G" (table 0))
-  (elem (;0;) eqref)
-)

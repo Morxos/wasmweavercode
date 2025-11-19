@@ -1,5 +1,0 @@
-(module
-  (import "\u{79d}" "" (table (;0;) 433 nullref))
-  (elem (;0;) declare anyref)
-  (data (;0;) "")
-)

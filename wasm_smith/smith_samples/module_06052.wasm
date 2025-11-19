@@ -1,9 +1,0 @@
-(module
-  (import "\u{d}u" "" (memory (;0;) i64 350))
-  (global (;0;) externref ref.null extern)
-  (global (;1;) funcref ref.null nofunc)
-  (global (;2;) i64 i64.const -8594887812941423592)
-  (export "q" (global 0))
-  (elem (;0;) nullfuncref (ref.null nofunc))
-  (data (;0;) "")
-)

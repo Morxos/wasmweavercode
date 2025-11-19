@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 3241 281482 i31ref ref.null none)
-  (export "Nf" (table 0))
-  (export "" (table 0))
-  (export "P" (table 0))
-)

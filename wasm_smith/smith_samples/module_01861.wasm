@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 931 421470 nullref ref.null none)
-  (memory (;0;) i64 0)
-  (global (;0;) (mut i32) i32.const -893094062 i32.const 1093902934 i32.const 1327446956 i32.const -363431993 i32.const -1030381321 i32.const -695211649 i32.const -1648783315 i32.const -1588234635 i32.const -210354827 i32.const 2130645761 i32.const -1974634139 i32.sub i32.add i32.add i32.add i32.mul i32.add i32.sub i32.sub i32.add i32.mul)
-  (global (;1;) i64 i64.const 336731177138920584 i64.const 1643717852167240651 i64.const -6543194758142689936 i64.const 362916401992272114 i64.const -1613748118562660202 i64.const -4470964997635365286 i64.mul i64.sub i64.mul i64.mul i64.const -1420617415857248545 i64.const -5591044308047891912 i64.add i64.sub i64.mul i64.const 1019936422319979651 i64.sub)
-  (global (;2;) (mut externref) ref.null noextern)
-  (global (;3;) i64 global.get 1)
-  (data (;0;) "J")
-)

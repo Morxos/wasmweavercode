@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 4631 nullfuncref ref.null nofunc)
-  (memory (;0;) 208)
-  (export "u-*\u{b}" (table 0))
-  (export "" (memory 0))
-)

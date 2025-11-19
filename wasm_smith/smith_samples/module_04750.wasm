@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 343 eqref)
-  (export "\u{d}" (table 0))
-  (export "%\u{22}#\u{1a}" (table 0))
-  (elem (;0;) (table 0) (i32.const 36) nullref)
-  (elem (;1;) (table 0) (i32.const 0) structref (ref.null struct))
-  (elem (;2;) nullref (ref.null none))
-  (data (;0;) "\af")
-)

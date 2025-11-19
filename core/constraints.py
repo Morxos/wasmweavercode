@@ -1,8 +1,14 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from enum import Enum
 from typing import List, Type
 
+
 class ConstraintsViolatedError(Exception):
-    """Exception raised when constraints are violated."""
+    """
+    Exception raised when constraints are violated.
+    """
 
     def __init__(self, message="Constraints are violated"):
         self.message = message
@@ -14,7 +20,9 @@ class ConstraintType(Enum):
 
 
 class AbstractConstraint:
-    """An abstract class for constraints."""
+    """
+    An abstract class for constraints.
+    """
 
     def __init__(self, min_target=0, max_target=100, initial: float = 0):
         self.resource = initial
@@ -24,23 +32,33 @@ class AbstractConstraint:
         self.type = ConstraintType.STATIC
 
     def reset(self):
-        """Resets the constraint to its initial state."""
+        """
+        Resets the constraint to its initial state.
+        """
         self.resource = self.initial
 
     def get_remaining_resource(self) -> float:
-        """Returns the remaining resource."""
+        """
+        Returns the remaining resource.
+        """
         return self.max_target - self.resource
 
     def is_fulfilled(self) -> bool:
-        """Returns if the constraint is fulfilled."""
+        """
+        Returns if the constraint is fulfilled.
+        """
         return self.resource >= self.min_target
 
     def is_violated(self) -> bool:
-        """Returns if the constraint is violated."""
+        """
+        Returns if the constraint is violated.
+        """
         return self.resource > self.max_target#+self.max_target*0.5
 
     def update_resource(self, delta: float):
-        """Updates the resource value."""
+        """
+        Updates the resource value.
+        """
         self.resource += delta
         return self.resource
 
@@ -49,7 +67,9 @@ class AbstractConstraint:
 
 
 class ResponseTimeConstraint(AbstractConstraint):
-    """A constraint that limits the response time."""
+    """
+    A constraint that limits the response time.
+    """
 
     def __init__(self, min_target=0, max_target=100, initial: float = 0):
         super().__init__(min_target, max_target, initial)
@@ -60,7 +80,9 @@ class ResponseTimeConstraint(AbstractConstraint):
 
 
 class ByteCodeSizeConstraint(AbstractConstraint):
-    """A constraint that limits the bytecode."""
+    """
+    A constraint that limits the bytecode.
+    """
 
     def __init__(self, min_target=0, max_target=100, initial: float = 0):
         super().__init__(min_target, max_target, initial)
@@ -71,7 +93,9 @@ class ByteCodeSizeConstraint(AbstractConstraint):
 
 
 class FuelConstraint(AbstractConstraint):
-    """A constraint that limits the gas."""
+    """
+    A constraint that limits the gas.
+    """
     def __init__(self, min_target=0, max_target=100, initial: float = 0):
         super().__init__(min_target, max_target, initial)
         self.type = ConstraintType.RUNTIME
@@ -81,7 +105,9 @@ class FuelConstraint(AbstractConstraint):
 
 
 class Constraints:
-    """A state that stores all constraints."""
+    """
+    A state that stores all constraints.
+    """
 
     def __init__(self, constraints: List[AbstractConstraint] = None):
         self.constraints = []
@@ -96,57 +122,73 @@ class Constraints:
         return return_metrics
 
     def set_all(self, constraints: List[AbstractConstraint]):
-        """Sets all constraints."""
-        #Replace already set ones
+        """
+        Sets all constraints.
+        """
         for constraint in constraints:
             for i, existing_constraint in enumerate(self.constraints):
                 if isinstance(existing_constraint, type(constraint)):
                     self.constraints[i] = constraint
                     break
             else:
-                # If no existing constraint was found, append the new one
                 self.constraints.append(constraint)
 
     def reset_all(self):
-        """Resets all constraints."""
+        """
+        Resets all constraints.
+        """
         for constraint in self.constraints:
             constraint.reset()
 
     def divide_remaining_resources(self, constraint_type: ConstraintType, divisor: float):
-        """Divides the remaining resources of a constraint type by a divisor."""
+        """
+        Divides the remaining resources of a constraint type by a divisor.
+        """
         for constraint in self.get_all_by_type(constraint_type):
             remaining_resources = constraint.get_remaining_resource()
             constraint.resource = constraint.min_target+(remaining_resources / divisor)
 
 
     def add(self, constraint: AbstractConstraint):
-        """Adds a constraint to the state."""
+        """
+        Adds a constraint to the state.
+        """
         self.constraints.append(constraint)
 
     def __getitem__(self, item: Type[AbstractConstraint]):
-        """Returns a constraint by type."""
+        """
+        Returns a constraint by type.
+        """
         for constraint in self.constraints:
             if isinstance(constraint, item):
                 return constraint
         return None
 
     def remaining_resources(self, constraint_type: Type[AbstractConstraint]) -> float:
-        """Returns the remaining resources of a constraint type."""
+        """
+        Returns the remaining resources of a constraint type.
+        """
         if self[constraint_type] is None:
             #Return infinity if the constraint type is not found
             return float('inf')
         return self[constraint_type].get_remaining_resource()
 
     def all_fulfilled(self) -> bool:
-        """Returns if all constraints are fulfilled."""
+        """
+        Returns if all constraints are fulfilled.
+        """
         return all(constraint.is_fulfilled() for constraint in self.constraints)
 
     def any_violated(self) -> bool:
-        """Returns if any constraint is violated."""
+        """
+        Returns if any constraint is violated.
+        """
         return any(constraint.is_violated() for constraint in self.constraints)
 
     def is_finished(self) -> bool:
-        """Returns if all constraints are fulfilled and no constraint is violated."""
+        """
+        Returns if all constraints are fulfilled and no constraint is violated.
+        """
         return self.all_fulfilled() and not self.any_violated()
 
     def __str__(self):

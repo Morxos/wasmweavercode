@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 86139 funcref)
-  (global (;0;) i64 i64.const 6910009471134167054)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (data (;0;) "\05+\95")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "\u{7f}_" "" (memory (;0;) i64 7613 251517149626870 shared))
-  (table (;0;) 1 244041 arrayref)
-  (export "b" (table 0))
-  (export "\u{129}M=kAP" (table 0))
-)

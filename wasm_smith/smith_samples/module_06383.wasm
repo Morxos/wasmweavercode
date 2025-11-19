@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 1858 funcref ref.null func)
-  (global (;0;) (mut f64) f64.const -0x1.6b7b21470aff6p-188 (;=-0.0000000000000000000000000000000000000000000000000000000036191162721984536;))
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 860) func)
-  (elem (;1;) (i32.const 0) func)
-  (elem (;2;) (table 0) (i32.const 343) nullfuncref)
-)

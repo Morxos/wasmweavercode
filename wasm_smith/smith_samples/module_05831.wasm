@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 647 343405 i31ref ref.null none)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (elem (;0;) (table 0) (i64.const 221) i31ref (ref.null i31) (ref.null i31) (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) (table 0) (i64.const 0) i31ref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

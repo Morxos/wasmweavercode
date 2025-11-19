@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 3 599846 externref)
-  (memory (;0;) 4 862)
-  (data (;0;) "\19")
-  (data (;1;) "N")
-)

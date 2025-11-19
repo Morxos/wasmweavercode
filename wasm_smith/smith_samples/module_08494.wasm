@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 180 arrayref ref.null array)
-  (global (;0;) i31ref ref.null none)
-  (global (;1;) (mut f32) f32.const 0x1.200382p+13 (;=9216.438;))
-  (global (;2;) (mut anyref) ref.null eq)
-  (global (;3;) f64 f64.const -0x1.07a6d54f24d03p+97 (;=-163192493186152180000000000000;))
-)

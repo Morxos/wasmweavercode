@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 71 eqref)
-  (memory (;0;) 1563 13955)
-  (elem (;0;) (table 0) (i32.const 19) nullref (ref.null none))
-  (data (;0;) "")
-  (data (;1;) "Q\aa\c1")
-  (data (;2;) (i32.const 6670) "")
-  (data (;3;) "")
-)

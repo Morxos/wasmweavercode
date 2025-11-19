@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 1563 externref)
-  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
-  (elem (;1;) declare i31ref (ref.null none) (ref.null i31))
-  (elem (;2;) declare nullref)
-)

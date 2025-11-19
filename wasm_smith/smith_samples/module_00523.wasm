@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 7 exnref))
-  (import "\u{10}" "" (memory (;0;) 65350 65524))
-  (elem (;0;) declare externref)
-  (elem (;1;) declare nullfuncref)
-  (elem (;2;) exnref)
-  (elem (;3;) declare i31ref)
-)

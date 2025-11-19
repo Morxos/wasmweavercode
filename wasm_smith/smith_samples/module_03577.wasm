@@ -1,5 +1,0 @@
-(module
-  (import "&\u{7}d" "" (memory (;0;) 48 48451 shared))
-  (global (;0;) i32 i32.const 1078296984)
-  (global (;1;) (mut i32) i32.const 179807711 i32.const -554730025 i32.const -5547122 i32.const 1605455934 i32.mul i32.sub i32.sub i32.const 1803089214 i32.const 43916489 i32.const 41544985 i32.const -2074513938 i32.sub i32.sub i32.add i32.add)
-)

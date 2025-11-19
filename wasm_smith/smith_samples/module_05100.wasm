@@ -1,7 +1,0 @@
-(module
-  (import "Jp" "" (table (;0;) i64 1 exnref))
-  (import "\u{3}" "" (memory (;0;) 969 41978))
-  (export "" (table 0))
-  (export "E\u{d}" (memory 0))
-  (export "2" (memory 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "Nay)!" "" (global (;0;) (mut nullexternref)))
-  (import "" "" (table (;0;) 4843 504490 exnref))
-  (memory (;0;) i64 758)
-  (export "" (global 0))
-  (elem (;0;) eqref)
-)

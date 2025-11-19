@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) nullref (ref.null none) (ref.null none))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-)

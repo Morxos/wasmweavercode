@@ -1,7 +1,0 @@
-(module
-  (import "}m\u{4ab}" "" (memory (;0;) i64 10 211837538902564 shared))
-  (table (;0;) 4871 exnref)
-  (export "" (memory 0))
-  (export ">J\u{b}\u{1c}[@k" (table 0))
-  (data (;0;) "")
-)

@@ -1,7 +1,0 @@
-(module
-  (import "2" "" (memory (;0;) 2 24045 shared))
-  (table (;0;) 6525 395438 structref ref.null none)
-  (export "" (memory 0))
-  (export "1" (table 0))
-  (elem (;0;) structref)
-)

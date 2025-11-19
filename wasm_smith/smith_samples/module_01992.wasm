@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 5 470170 externref)
-  (memory (;0;) i64 1644)
-  (global (;0;) (mut f32) f32.const 0x1.dce812p+84 (;=36034038000000000000000000;))
-)

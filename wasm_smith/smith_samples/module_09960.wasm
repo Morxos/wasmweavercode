@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 17 498262 structref ref.null struct)
-  (global (;0;) (mut i64) i64.const -2988131200722580894)
-  (export "&6" (table 0))
-  (elem (;0;) exnref)
-  (elem (;1;) (table 0) (i32.const 3) nullref (ref.null none) (ref.null none))
-)

@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 412 37888 shared)
-  (elem (;0;) anyref (ref.null i31) (ref.null any))
-  (data (;0;) (i32.const 21519913) "")
-)

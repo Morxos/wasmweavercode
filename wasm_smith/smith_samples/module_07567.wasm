@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 5257)
-  (export "O<" (memory 0))
-  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
-  (elem (;1;) arrayref)
-  (elem (;2;) i31ref (ref.null none) (ref.null none) (ref.null i31) (ref.null none))
-)

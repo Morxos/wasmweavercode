@@ -1,6 +1,0 @@
-(module
-  (import "\u{3}\u{14}" "" (memory (;0;) i64 4 240533095318346 shared))
-  (table (;0;) 494 387587 structref ref.null none)
-  (elem (;0;) eqref (ref.null struct))
-  (elem (;1;) (table 0) (i32.const 42) structref)
-)

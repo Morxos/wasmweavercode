@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 337 224294 arrayref)
-  (memory (;0;) i64 221 225784275419267 shared)
-  (elem (;0;) declare anyref (ref.null array))
-  (elem (;1;) declare structref (ref.null struct) (ref.null none))
-  (data (;0;) (i64.const 3069445) "\ed\c4")
-)

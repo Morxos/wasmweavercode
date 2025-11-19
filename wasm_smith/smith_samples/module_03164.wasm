@@ -1,7 +1,0 @@
-(module
-  (import "k" "" (table (;0;) i64 484 nullref))
-  (import "R" "" (global (;0;) (mut f64)))
-  (import "_" "" (global (;1;) (mut f32)))
-  (memory (;0;) 1)
-  (data (;0;) "\1c")
-)

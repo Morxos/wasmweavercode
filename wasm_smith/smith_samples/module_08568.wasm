@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 3144 13139))
-  (global (;0;) i64 i64.const -4201212835211003222)
-  (global (;1;) i32 i32.const 1925282715)
-  (data (;0;) "]~\0e\90")
-)

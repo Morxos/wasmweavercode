@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 31))
-  (global (;0;) i32 i32.const -165172123)
-  (elem (;0;) declare i31ref)
-  (elem (;1;) nullfuncref)
-  (data (;0;) (i64.const 3230) "s\c1\9e\03")
-  (data (;1;) (i64.const 13) "f\f0\05\c2")
-)

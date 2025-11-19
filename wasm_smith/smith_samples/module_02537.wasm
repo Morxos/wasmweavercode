@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 1 984510 nullexternref)
-  (memory (;0;) i64 9 20788694135357)
-  (export "" (memory 0))
-)

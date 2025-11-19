@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 12974))
-  (table (;0;) i64 857 443239 nullexternref)
-  (global (;0;) i32 i32.const -1143759762 i32.const 688437873 i32.const 1192648651 i32.const 9882085 i32.const -1719323214 i32.const -1875072755 i32.mul i32.const -744431085 i32.add i32.mul i32.const -1132303747 i32.mul i32.add i32.const 2017587698 i32.mul i32.mul i32.sub)
-  (global (;1;) f32 f32.const -0x1.ad32bap+35 (;=-57606000000;))
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-  (elem (;1;) (table 0) (i64.const 2) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-)

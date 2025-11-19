@@ -1,5 +1,0 @@
-(module
-  (global (;0;) nullfuncref ref.null nofunc)
-  (export "" (global 0))
-  (export "2" (global 0))
-)

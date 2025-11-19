@@ -1,7 +1,0 @@
-(module
-  (import "T" "" (global (;0;) (mut f32)))
-  (table (;0;) 10 externref)
-  (memory (;0;) 2212 51025 shared)
-  (export "" (table 0))
-  (data (;0;) "")
-)

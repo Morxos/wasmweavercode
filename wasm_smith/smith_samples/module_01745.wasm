@@ -1,8 +1,0 @@
-(module
-  (import "\u{18}\u{1e}" "" (global (;0;) i32))
-  (global (;1;) f32 f32.const 0x1.499c9ap-102 (;=0.00000000000000000000000000000025392364;))
-  (export "" (global 0))
-  (export "{\u{3be6}\u{8}" (global 0))
-  (elem (;0;) declare func)
-  (data (;0;) "\c0")
-)

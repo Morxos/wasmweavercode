@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (import "" "" (table (;0;) 275 nullref))
-  (import "6\u{5db}yx" "" (memory (;0;) 4403))
-  (import "" "" (global (;1;) (mut i32)))
-  (data (;0;) (i32.const 11846955) "\c7")
-  (data (;1;) (i32.const 15517829) "")
-)

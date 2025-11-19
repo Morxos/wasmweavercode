@@ -1,6 +1,0 @@
-(module
-  (import "R" "" (global (;0;) i32))
-  (import "\u{11}" "" (memory (;0;) 11738 12114))
-  (import "\u{16}" "" (global (;1;) f32))
-  (global (;2;) f32 f32.const 0x1.8a595cp+18 (;=403813.44;))
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 1161 597664 nullexternref ref.null noextern)
-  (elem (;0;) funcref)
-  (data (;0;) "[\0d")
-  (data (;1;) "B")
-)

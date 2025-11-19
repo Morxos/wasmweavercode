@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 38 13487 shared)
-  (global (;0;) funcref ref.null func)
-  (global (;1;) f64 f64.const -0x1.9cf6dc41e0561p-310 (;=-0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007733460763858662;))
-  (elem (;0;) declare i31ref (ref.null i31))
-  (data (;0;) (i32.const 439) "b\8dbf\9f")
-)

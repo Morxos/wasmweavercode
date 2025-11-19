@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 0 90723400976056)
-  (export "" (memory 0))
-  (elem (;0;) arrayref)
-)

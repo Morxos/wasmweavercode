@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 7002 195272 nullref)
-  (memory (;0;) i64 34)
-  (data (;0;) "\b6\96\18\9a")
-  (data (;1;) (i64.const 5) "\d0\f7")
-)

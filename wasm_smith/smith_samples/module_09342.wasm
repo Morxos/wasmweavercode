@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 317 structref)
-  (export "vP\u{5}R" (table 0))
-  (data (;0;) "9")
-  (data (;1;) "\c5")
-)

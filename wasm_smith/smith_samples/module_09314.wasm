@@ -1,7 +1,0 @@
-(module
-  (import "0mt7\u{6}8" "" (table (;0;) 456 623336 exnref))
-  (memory (;0;) 1067 39526 shared)
-  (export "8" (table 0))
-  (elem (;0;) externref)
-  (elem (;1;) arrayref)
-)

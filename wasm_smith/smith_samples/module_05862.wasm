@@ -1,8 +1,0 @@
-(module
-  (import "O\u{16}\u{b}>\u{cf}-\u{d}" "" (table (;0;) 27 funcref))
-  (memory (;0;) i64 1)
-  (export "\u{1b}\u{16}\u{500}J" (table 0))
-  (export "r\u{4bc}" (memory 0))
-  (elem (;0;) declare i31ref (ref.null none))
-  (data (;0;) (i64.const 289) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 231 anyref))
-  (import "6" "" (memory (;0;) i64 177 41154530696091 shared))
-  (import "" "" (global (;0;) (mut f64)))
-  (import "p" "" (global (;1;) (mut f64)))
-  (import "{I" "" (global (;2;) i64))
-  (elem (;0;) declare func)
-  (elem (;1;) (table 0) (i32.const 0) eqref)
-)

@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 141 eqref))
-  (export "" (table 0))
-  (export "0\u{a}\u{d}v\u{10}" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) structref)
-  (elem (;1;) eqref)
-  (data (;0;) "\ebB")
-)

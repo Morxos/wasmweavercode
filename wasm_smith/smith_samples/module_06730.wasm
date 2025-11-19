@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 384 226937015764282 shared)
-  (export "\u{1e}" (memory 0))
-  (data (;0;) (i64.const 2945498) "p7\bc")
-  (data (;1;) "")
-)

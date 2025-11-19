@@ -1,5 +1,0 @@
-(module
-  (import "\u{5}" "" (memory (;0;) 4263))
-  (elem (;0;) i31ref)
-  (elem (;1;) declare nullfuncref (ref.null nofunc) (ref.null nofunc))
-)

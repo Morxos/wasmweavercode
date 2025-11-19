@@ -1,7 +1,0 @@
-(module
-  (import "^" "" (global (;0;) (mut i32)))
-  (import "" "" (memory (;0;) i64 81 385189236172 shared))
-  (export "\u{22}\u{4b9}" (global 0))
-  (export "" (memory 0))
-  (data (;0;) "\8d\cdn\17\cd{8\de\8c")
-)

@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 440)
-  (global (;0;) (mut arrayref) ref.null none)
-  (global (;1;) f32 f32.const -0x1.22b08p+99 (;=-719712200000000000000000000000;))
-  (global (;2;) (mut f32) f32.const -0x1.d5c326p-56 (;=-0.000000000000000025465865;))
-  (export "r" (memory 0))
-  (elem (;0;) declare anyref)
-  (elem (;1;) declare externref (ref.null extern))
-)

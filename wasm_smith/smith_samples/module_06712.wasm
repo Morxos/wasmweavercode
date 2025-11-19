@@ -1,5 +1,0 @@
-(module
-  (import "!" "" (global (;0;) (mut i64)))
-  (global (;1;) f32 f32.const 0x1.04cbbep+25 (;=34183036;))
-  (global (;2;) i64 i64.const 4906642003292474195)
-)

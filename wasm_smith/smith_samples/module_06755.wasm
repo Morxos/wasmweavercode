@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 7657 funcref ref.null nofunc)
-  (global (;0;) nullexternref ref.null noextern)
-  (elem (;0;) (table 0) (i64.const 102) funcref)
-)

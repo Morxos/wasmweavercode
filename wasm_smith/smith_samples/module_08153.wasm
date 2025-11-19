@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 117 704465 eqref)
-  (memory (;0;) 3108)
-  (global (;0;) (mut funcref) ref.null func)
-  (elem (;0;) structref)
-  (elem (;1;) (table 0) (i32.const 0) structref)
-)

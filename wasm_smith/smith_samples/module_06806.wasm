@@ -1,5 +1,0 @@
-(module
-  (import "\u{5f8}5\u{2}Ns$" "" (table (;0;) i64 718 475829 externref))
-  (global (;0;) (mut f32) f32.const 0x1.e6fb1ap+67 (;=280725360000000000000;))
-  (export "" (table 0))
-)

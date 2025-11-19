@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 115 116190 nullfuncref)
-  (memory (;0;) i64 584 255567440827675 shared)
-)

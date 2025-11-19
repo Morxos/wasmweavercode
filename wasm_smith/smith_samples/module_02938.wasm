@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 2273 696796 arrayref ref.null array)
-  (memory (;0;) i64 6 30775860936339)
-  (global (;0;) (mut arrayref) ref.null none)
-  (global (;1;) i32 i32.const -1079490188 i32.const 2062277236 i32.const -1329618066 i32.const 1815794639 i32.const -4102557 i32.const 1478065476 i32.mul i32.add i32.const -916576018 i32.add i32.sub i32.sub i32.const -2035358536 i32.sub i32.const -532525223 i32.mul i32.sub)
-  (global (;2;) (mut f32) f32.const 0x1.878cf8p+74 (;=28891340000000000000000;))
-  (elem (;0;) (table 0) (i64.const 147) arrayref (ref.null none) (ref.null array) (ref.null array) (ref.null array) (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) declare anyref)
-)

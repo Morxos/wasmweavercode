@@ -1,4 +1,0 @@
-(module
-  (global (;0;) (mut structref) ref.null struct)
-  (global (;1;) i64 i64.const 6206885720979917862)
-)

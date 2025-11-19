@@ -1,8 +1,0 @@
-(module
-  (import "'}5" "" (global (;0;) (mut eqref)))
-  (memory (;0;) i64 0)
-  (global (;1;) (mut i64) i64.const 7328261611588724364)
-  (global (;2;) (mut i64) i64.const 3164403081821878057)
-  (global (;3;) i32 i32.const -675540473 i32.const 1792351792 i32.const -1333514313 i32.const 1030221287 i32.const 1152092120 i32.const 1202707765 i32.const -632466917 i32.const 1089835861 i32.mul i32.sub i32.const -2109145934 i32.sub i32.add i32.add i32.add i32.sub i32.mul i32.const 173615456 i32.add)
-  (data (;0;) "")
-)

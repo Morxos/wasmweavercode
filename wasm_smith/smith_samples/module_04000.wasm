@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 0 99863029082765 shared)
-  (global (;0;) nullref ref.null none)
-  (global (;1;) f32 f32.const 0x1.ca9364p-59 (;=0.0000000000000000031074301;))
-  (data (;0;) "")
-)

@@ -1,5 +1,7 @@
-from openai import OpenAI
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from openai import OpenAI
 from experiments.eval.models.model import Model
 
 RUNPOD_TOKEN = ""
@@ -8,7 +10,7 @@ class Phi4Reasoning1(Model):
     def __init__(self):
         self.name = "microsoft/Phi-4-reasoning"
         self.dir_name = "phi_4_reasoning"
-        self.endpoint = "https://oqv22mf6msnru6-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -34,7 +36,7 @@ class Phi4Reasoning2(Model):
     def __init__(self):
         self.name = "microsoft/Phi-4-reasoning"
         self.dir_name = "phi_4_reasoning"
-        self.endpoint = "https://0jv36qtd072e0g-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -60,7 +62,7 @@ class Phi4Reasoning3(Model):
     def __init__(self):
         self.name = "microsoft/Phi-4-reasoning"
         self.dir_name = "phi_4_reasoning"
-        self.endpoint = "https://r1swb5ww10yprb-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -88,7 +90,7 @@ class Qwen31(Model):
     def __init__(self):
         self.name = "Qwen/Qwen3-8B"
         self.dir_name = "qwen3"
-        self.endpoint = "https://q4z269zay3gqc5-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -113,7 +115,7 @@ class Qwen32(Model):
     def __init__(self):
         self.name = "Qwen/Qwen3-8B"
         self.dir_name = "qwen3"
-        self.endpoint = "https://nahu6oh2squodt-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -138,7 +140,7 @@ class Qwen33(Model):
     def __init__(self):
         self.name = "Qwen/Qwen3-8B"
         self.dir_name = "qwen3"
-        self.endpoint = "https://uz21tyfmxn7vg4-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
 
     def predict(self, prompt: str):
@@ -162,7 +164,7 @@ class Qwen33(Model):
 class Llama3(Model):
     def __init__(self):
         self.name = "meta-llama/Meta-Llama-3.1-8B-Instruct"
-        self.endpoint = "https://hee7karfg8wcd2-8000.proxy.runpod.net/v1"
+        self.endpoint = "<your endpoint here>"
         self.platform = "runpod"
         self.dir_name = "llama3"
 

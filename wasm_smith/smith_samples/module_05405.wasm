@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 1 659347 structref ref.null struct)
-  (export "\u{15}" (table 0))
-  (export "D\u{3b5}" (table 0))
-  (elem (;0;) arrayref)
-)

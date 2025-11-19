@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) funcref))
-  (export "" (global 0))
-  (data (;0;) "_")
-)

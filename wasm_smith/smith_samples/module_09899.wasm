@@ -1,9 +1,0 @@
-(module
-  (import "~o" "" (memory (;0;) i64 6902 181362498241379 shared))
-  (global (;0;) (mut nullexternref) ref.null noextern)
-  (export "" (global 0))
-  (elem (;0;) nullref (ref.null none))
-  (data (;0;) "")
-  (data (;1;) (i64.const 38519304) "o")
-  (data (;2;) (i64.const 3450370) "F")
-)

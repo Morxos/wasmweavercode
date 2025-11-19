@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut exnref)))
-  (table (;0;) i64 366 75729 anyref ref.null none)
-  (memory (;0;) 0)
-  (data (;0;) "")
-  (data (;1;) "")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "z-\u{e}" "" (global (;0;) (mut f32)))
-  (import "" "" (global (;1;) (mut f32)))
-  (table (;0;) i64 973 i31ref)
-  (export "" (table 0))
-  (export "1" (global 1))
-  (data (;0;) "")
-  (data (;1;) "")
-)

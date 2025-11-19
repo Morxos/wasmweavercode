@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 i31ref))
-  (import "{AX}" "" (global (;0;) f64))
-  (global (;1;) f32 f32.const 0x1.e88f4ep+21 (;=4002281.8;))
-)

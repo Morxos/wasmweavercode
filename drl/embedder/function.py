@@ -1,14 +1,17 @@
-import numpy as np
-from gymnasium.spaces import Dict, Discrete, Box, MultiDiscrete
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
-from core.config.config import MAX_FUNCTION_INPUTS, MAX_FUNCTION_OUTPUTS, MAX_FUNCTIONS_PER_MODULE
+import numpy as np
+from gymnasium.spaces import Box
+from core.config.config import MAX_FUNCTION_INPUTS, MAX_FUNCTION_OUTPUTS
 from core.state.functions import Function
-from core.value import I32, I64, F32, F64
 from drl.embedder.values import embedd_value_type, MAX_VALUE_TYPE_INDEX
 
 
 class FunctionEmbedder:
-
+    """
+    Embeds a function into a fixed size tensor.
+    """
     def __init__(self):
         ...
 
@@ -30,15 +33,6 @@ class FunctionEmbedder:
             one_hot[embedd_value_type(output_type.get_default_value())] = 1
             outputs_tensor[i*(MAX_VALUE_TYPE_INDEX+1):(i+1)*(MAX_VALUE_TYPE_INDEX+1)] = one_hot
 
-        # Embedd into one tensor
         all_inputs = np.concatenate((inputs_tensor, outputs_tensor, np.array([function_input_count]), np.array([function_output_count])))
 
         return all_inputs
-
-if __name__ == "__main__":
-    function = Function(index=1, inputs=[I32, I64], outputs=[F32, F64],name="test_function")
-    embedder = FunctionEmbedder()
-    embedding = embedder(function)
-    print(embedding)
-    print(embedder.get_space().contains(embedding))
-    print(embedder.get_space())

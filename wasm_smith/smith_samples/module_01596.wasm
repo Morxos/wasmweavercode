@@ -1,7 +1,0 @@
-(module
-  (import "+" "" (global (;0;) (mut i32)))
-  (import "L\u{5}" "" (global (;1;) (mut i64)))
-  (table (;0;) 3990 anyref)
-  (export "\u{d}" (table 0))
-  (export "" (table 0))
-)

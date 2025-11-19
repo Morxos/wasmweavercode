@@ -1,9 +1,0 @@
-(module
-  (import "0IW" "" (memory (;0;) 9 58168))
-  (global (;0;) i64 i64.const -1384139043470057712 i64.const -7313182378599318920 i64.const -5356181552910790791 i64.add i64.sub i64.const 5794029711577370554 i64.sub i64.const -2889384886462211793 i64.add i64.const 4941750336913299989 i64.sub i64.const 869834021886159684 i64.add)
-  (global (;1;) i32 i32.const -892288505)
-  (export "z" (global 0))
-  (export "\u{6}\u{1e}" (memory 0))
-  (elem (;0;) declare i31ref)
-  (data (;0;) "\f94\97\cd\17")
-)

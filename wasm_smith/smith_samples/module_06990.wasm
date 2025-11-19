@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 624557 nullexternref ref.null noextern)
-  (export " " (table 0))
-  (export "B" (table 0))
-  (export "!\u{d}" (table 0))
-  (export "\u{8}" (table 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "$\u{724}\u{9}<" "" (memory (;0;) i64 11067 23448880579137))
-  (table (;0;) i64 5313 843381 externref)
-  (global (;0;) f32 f32.const 0x1.ee0ed4p-39 (;=0.0000000000035104927;))
-  (elem (;0;) externref (ref.null extern) (ref.null extern))
-  (data (;0;) (i64.const 98913292) "")
-)

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 230455 anyref ref.null none)
-  (global (;0;) i32 i32.const 2108437247)
-  (global (;1;) f32 f32.const -0x1.29567ep-41 (;=-0.00000000000052817814;))
-  (global (;2;) i32 i32.const 1349954402 i32.const 1672273280 i32.const 294921280 i32.const 1328089402 i32.const 483305712 i32.const 1162574137 i32.const -636363583 i32.const 483629 i32.const -1246941619 i32.const 303582737 i32.add i32.sub i32.add i32.mul i32.mul i32.const 1297503988 i32.add i32.add i32.mul i32.mul i32.mul)
-  (export "" (global 0))
-)

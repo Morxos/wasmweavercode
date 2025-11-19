@@ -1,7 +1,0 @@
-(module
-  (import "P" "" (global (;0;) f32))
-  (global (;1;) f32 global.get 0)
-  (export "" (global 0))
-  (export "1" (global 0))
-  (elem (;0;) i31ref (ref.null i31) (ref.null none) (ref.null i31))
-)

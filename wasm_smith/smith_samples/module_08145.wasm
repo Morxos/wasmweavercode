@@ -1,5 +1,0 @@
-(module
-  (import "g" "" (table (;0;) i64 218 exnref))
-  (memory (;0;) i64 2481)
-  (elem (;0;) exnref)
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 9159 externref))
-  (import "" "" (global (;0;) f64))
-  (memory (;0;) i64 1768 246376039127861)
-  (export "r" (global 0))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

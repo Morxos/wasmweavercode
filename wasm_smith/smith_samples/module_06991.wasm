@@ -1,8 +1,0 @@
-(module
-  (global (;0;) arrayref ref.null none)
-  (export "<m" (global 0))
-  (export "y" (global 0))
-  (data (;0;) "+")
-  (data (;1;) "")
-  (data (;2;) "G")
-)

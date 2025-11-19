@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) 1259 eqref))
-  (memory (;0;) 12786 48900 shared)
-  (global (;0;) (mut f64) f64.const 0x1.c2ba60795ap+190 (;=2762954812529178000000000000000000000000000000000000000000;))
-  (elem (;0;) (table 0) (i32.const 10) structref)
-)

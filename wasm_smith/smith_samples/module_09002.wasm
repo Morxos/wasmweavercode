@@ -1,5 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 2790 180722306616528 shared))
-  (export "" (memory 0))
-  (data (;0;) (i64.const 1412912) "\a3")
-)

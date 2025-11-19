@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) i64))
-  (memory (;0;) 65217 65483 shared)
-  (elem (;0;) declare funcref)
-)

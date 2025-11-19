@@ -1,6 +1,0 @@
-(module
-  (import ">" "" (global (;0;) (mut f64)))
-  (import "I" "" (table (;0;) i64 121 arrayref))
-  (memory (;0;) 3418 33641 shared)
-  (data (;0;) "")
-)

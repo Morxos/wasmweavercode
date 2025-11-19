@@ -1,9 +1,0 @@
-(module
-  (import "Q|" "" (memory (;0;) i64 5483))
-  (import "C" "" (table (;0;) 279 nullexternref))
-  (import "}\u{0}" "" (global (;0;) i32))
-  (elem (;0;) externref)
-  (data (;0;) "")
-  (data (;1;) (i64.const 7358758) "H")
-  (data (;2;) (i64.const 1802043) "")
-)

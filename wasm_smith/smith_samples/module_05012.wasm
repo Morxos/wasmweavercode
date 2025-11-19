@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 4965 externref))
-  (memory (;0;) 0)
-  (global (;0;) (mut eqref) ref.null struct)
-  (export "2\u{13}" (table 0))
-  (elem (;0;) i31ref (ref.null none) (ref.null none) (ref.null i31))
-  (elem (;1;) arrayref)
-)

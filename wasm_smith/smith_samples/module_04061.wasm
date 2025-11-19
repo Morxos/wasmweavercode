@@ -1,9 +1,0 @@
-(module
-  (import "u" "" (memory (;0;) 2183))
-  (global (;0;) (mut eqref) ref.null array)
-  (global (;1;) (mut i64) i64.const -4352545155115340467 i64.const -6072080259779434042 i64.const -278408304053448609 i64.const -6960800667770480373 i64.const -3469844083830266082 i64.const 3753447206684734743 i64.add i64.sub i64.sub i64.const 2720709578891007051 i64.const 2223574087305722020 i64.const 384416125035671619 i64.sub i64.mul i64.sub i64.sub i64.add)
-  (global (;2;) f32 f32.const 0x1.4a2492p+81 (;=3118111000000000000000000;))
-  (global (;3;) (mut i64) i64.const -418741373632674397)
-  (elem (;0;) declare structref)
-  (elem (;1;) declare anyref (ref.null struct))
-)

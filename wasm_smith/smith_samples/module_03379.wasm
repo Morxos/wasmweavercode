@@ -1,5 +1,0 @@
-(module
-  (import "\u{e}" "" (table (;0;) 551 341265 structref))
-  (import "J(" "" (memory (;0;) 6 17373 shared))
-  (elem (;0;) i31ref)
-)

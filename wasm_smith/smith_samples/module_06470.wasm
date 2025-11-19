@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 119 funcref))
-  (memory (;0;) i64 0 188041107063281)
-  (data (;0;) "@\eb-")
-)

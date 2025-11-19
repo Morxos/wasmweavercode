@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 202 978378 externref)
-  (memory (;0;) i64 2 24914781290921)
-  (export "\u{7f}3L\u{522}w" (table 0))
-  (data (;0;) "\b5")
-)

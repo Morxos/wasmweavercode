@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 61 24328 exnref)
-  (memory (;0;) 107 15337 shared)
-  (global (;0;) i64 i64.const 7172733091837552888)
-  (elem (;0;) (table 0) (i64.const 2) exnref)
-  (elem (;1;) i31ref (ref.null none) (ref.null none))
-  (data (;0;) (i32.const 44) "`")
-)

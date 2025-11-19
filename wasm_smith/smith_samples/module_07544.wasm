@@ -1,7 +1,0 @@
-(module
-  (import "3\u{1a}" "" (memory (;0;) i64 202))
-  (import "" "" (table (;0;) i64 0 250867 nullref))
-  (import "" "" (global (;0;) (mut f32)))
-  (import "" "" (global (;1;) i64))
-  (global (;2;) i32 i32.const 1295413266 i32.const 793765667 i32.const 1145031340 i32.const 1911841026 i32.const 1619450419 i32.const -1507395662 i32.const 853739438 i32.const 99314080 i32.const -251722139 i32.const 893490278 i32.const 1364908644 i32.const 1958237722 i32.mul i32.add i32.mul i32.add i32.mul i32.mul i32.sub i32.add i32.sub i32.add i32.mul)
-)

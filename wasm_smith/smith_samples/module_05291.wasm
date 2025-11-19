@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 2632))
-  (import "" "" (table (;0;) 1947 302731 exnref))
-  (import "<z\u{12}" "" (global (;0;) anyref))
-  (elem (;0;) declare nullref)
-)

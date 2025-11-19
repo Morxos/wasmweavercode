@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 284 funcref ref.null nofunc)
-  (global (;0;) (mut i64) i64.const 2409722987451008493 i64.const 4242060455916508571 i64.const -5103745647554784279 i64.const 5397952898281871139 i64.const -3047290049142679917 i64.const -2776371007770114872 i64.const -3075308083430796747 i64.const 5959683977095718695 i64.const 384450249074502854 i64.const -4886877797024995635 i64.sub i64.sub i64.const -6243249595651834692 i64.mul i64.sub i64.sub i64.sub i64.sub i64.sub i64.add i64.sub)
-  (export "-" (table 0))
-  (elem (;0;) declare structref (ref.null struct))
-)

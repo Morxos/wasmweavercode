@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 8030 922917 externref ref.null extern)
-  (export "'q\u{22}wr>" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) nullexternref)
-  (elem (;1;) structref (ref.null struct))
-)

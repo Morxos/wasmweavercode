@@ -1,6 +1,0 @@
-(module
-  (rec)
-  (import "\u{4fa}" "" (table (;0;) i64 3447 funcref))
-  (export "X" (table 0))
-  (export "" (table 0))
-)

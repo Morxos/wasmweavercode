@@ -1,7 +1,0 @@
-(module
-  (global (;0;) i64 i64.const -8000209863954051560)
-  (export "" (global 0))
-  (export "\u{3e8}" (global 0))
-  (elem (;0;) arrayref)
-  (data (;0;) "\a8")
-)

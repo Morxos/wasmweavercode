@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 693710 structref)
-  (memory (;0;) 2148)
-  (export "" (table 0))
-  (data (;0;) "\b9\bf")
-)

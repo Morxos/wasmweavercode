@@ -1,6 +1,0 @@
-(module
-  (import "`K" "" (table (;0;) 0 nullexternref))
-  (import "" "" (global (;0;) i32))
-  (memory (;0;) 2106)
-  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
-)

@@ -1,8 +1,0 @@
-(module
-  (import "R" "" (global (;0;) i32))
-  (table (;0;) i64 152 anyref ref.null any)
-  (global (;1;) i32 i32.const -1021172696)
-  (export "" (global 1))
-  (elem (;0;) nullref (ref.null none))
-  (data (;0;) "")
-)

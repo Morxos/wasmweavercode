@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 16))
-  (import "" "" (global (;0;) i32))
-  (table (;0;) i64 0 funcref)
-  (data (;0;) "ff\95")
-)

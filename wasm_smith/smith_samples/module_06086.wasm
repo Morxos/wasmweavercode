@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 0 exnref ref.null exn)
-  (memory (;0;) 234 42842 shared)
-  (global (;0;) (mut f32) f32.const -0x1.25f1eap-96 (;=-0.000000000000000000000000000014492606;))
-  (export "\u{12}VZ" (memory 0))
-  (data (;0;) (i32.const 14406037) "s")
-  (data (;1;) "\17\0a")
-)

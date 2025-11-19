@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 848 anyref)
-  (global (;0;) f64 f64.const -0x1.0dc0bf8f43207p+325 (;=-72023593295125240000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
-  (elem (;0;) (table 0) (i32.const 0) nullref)
-  (elem (;1;) declare arrayref (ref.null none))
-  (elem (;2;) externref)
-  (elem (;3;) (table 0) (i32.const 0) nullref (ref.null none))
-  (elem (;4;) declare externref)
-)

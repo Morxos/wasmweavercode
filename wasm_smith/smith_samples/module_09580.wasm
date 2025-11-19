@@ -1,7 +1,0 @@
-(module
-  (import "IXD" "" (global (;0;) (mut i64)))
-  (import "" "" (global (;1;) (mut i32)))
-  (table (;0;) i64 61 anyref)
-  (elem (;0;) (table 0) (i64.const 0) eqref (ref.null none) (ref.null none) (ref.null array))
-  (data (;0;) "")
-)

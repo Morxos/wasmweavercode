@@ -1,6 +1,0 @@
-(module
-  (import "\u{17}" "" (memory (;0;) 1 47376))
-  (import "" "" (global (;0;) i32))
-  (export "T" (memory 0))
-  (data (;0;) (global.get 0) "")
-)

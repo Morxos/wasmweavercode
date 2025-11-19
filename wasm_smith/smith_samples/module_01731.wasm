@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 6456 anyref)
-  (memory (;0;) i64 5435 85961411856595 shared)
-  (export "" (memory 0))
-  (elem (;0;) func)
-  (data (;0;) (i64.const 1628803) "#\8e")
-)

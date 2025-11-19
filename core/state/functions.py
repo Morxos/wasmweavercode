@@ -1,22 +1,23 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import copy
 from enum import Enum
 from typing import List, TYPE_CHECKING, Type, Dict
-
 from core.formater import indent_code
 
 if TYPE_CHECKING:
     from core.tile import AbstractTile
     from state import GlobalState
 
-if TYPE_CHECKING:
-    pass
-
 from core.value import Val
 
-MAX_BLOCK_TYPE_INDEX = 4
+MAX_BLOCK_TYPE_INDEX = 4 #Just for convenience
 
 class BlockType(Enum):
-    """Enum for block types"""
+    """
+    Enum for block types.
+    """
     UNDEFINED = 0
     BLOCK = 1
     IF = 2
@@ -24,7 +25,9 @@ class BlockType(Enum):
     LOOP = 4
 
 class Block:
-    """A simple block representation"""
+    """
+    A simple block representation.
+    """
 
     def __init__(self, name: str, index: int, type: BlockType):
         self.name = name
@@ -35,15 +38,21 @@ class Block:
         self.type: BlockType = type
 
     def get_byte_code_size(self):
-        """Returns the byte code size of the block"""
+        """
+        Returns the byte code size of the block.
+        """
         return 1
 
     def get_fuel_cost(self):
-        """Returns the fuel cost of the block"""
+        """
+        Returns the fuel cost of the block.
+        """
         return 1
 
     def get_response_time(self):
-        """Returns the response time of the block"""
+        """
+        Returns the response time of the block.
+        """
         return 0.0001
 
     def get_all_tile_arrays(self)->List[List["AbstractTile"]]:
@@ -60,7 +69,9 @@ class Block:
         return tile_arrays
 
     def get_max_block_depth(self) -> int:
-        """Returns the maximum block depth of the block"""
+        """
+        Returns the maximum block depth of the block.
+        """
         max_depth = 0
         for tile in self.tiles:
             if type(tile).__name__ == "ConditionTile":
@@ -73,7 +84,9 @@ class Block:
         return max_depth + 1
 
     def get_all_blocks(self, depth: int):
-        """Returns all blocks"""
+        """
+        Returns all blocks.
+        """
         blocks = []
         for tile in self.tiles:
             if type(tile).__name__ == "ConditionTile":
@@ -90,7 +103,9 @@ class Block:
         return blocks
 
     def generate_code(self, current_state: "GlobalState", current_function: "Function", current_blocks: List["Block"]) -> str:
-        """Generates the code of the block"""
+        """
+        Generates the code of the block.
+        """
         result_str = (f"block" if self.name not in ["if", "else"] else f"{self.name}")
         # Add inputs
         if self.inputs and self.name not in ["else"]:
@@ -108,7 +123,9 @@ class Block:
 
 
 class Function:
-    """A simple function representation"""
+    """
+    A simple function representation.
+    """
 
     def __init__(self, name, index, inputs: List[Type[Val]], outputs: List[Type[Val]], is_external=False):
         self.name = name
@@ -137,6 +154,9 @@ class Function:
         return checkpoint_id
 
     def get_all_tile_arrays(self)->List[List["AbstractTile"]]:
+        """
+        Returns all tiles of this and all contained blocks in the function.
+        """
         tile_arrays = []
         tile_arrays.append(self.tiles)
         for tile in self.tiles:
@@ -150,7 +170,9 @@ class Function:
         return tile_arrays
 
     def get_max_block_depth(self) -> int:
-        """Returns the maximum block depth of the function"""
+        """
+        Returns the maximum block depth of the function.
+        """
         max_depth = 0
         for tile in self.tiles:
             if type(tile).__name__ == "ConditionTile":
@@ -163,7 +185,9 @@ class Function:
         return max_depth + 1
 
     def get_all_blocks(self, depth: int):
-        """Returns all blocks"""
+        """
+        Returns all blocks.
+        """
         blocks = []
         for tile in self.tiles:
             if type(tile).__name__ == "ConditionTile":
@@ -194,22 +218,21 @@ class Function:
         del self.checkpoints[checkpoint_id]
 
     def get_byte_code_size(self):
-        """Returns the byte code overhead size of the function"""
         return 1
 
     def get_fuel_cost(self):
-        """Returns the fuel overhead cost of the function"""
         return 1
 
     def get_response_time(self):
-        """Returns the response time of the function"""
         return 0.0001
 
     def get_sig_name(self):
         return f"sig_{self.name}"
 
     def generate_signature(self):
-        """Generates the signature of the function"""
+        """
+        Generates the signature of the function.
+        """
         result_str = f"(type ${self.get_sig_name()} (func"
         if self.inputs:
             result_str += f" (param {' '.join(input_type.get_wasm_type() for input_type in self.inputs)})"
@@ -219,7 +242,9 @@ class Function:
         return result_str
 
     def generate_code(self, current_state: "GlobalState", current_function: "Function") -> str:
-        """Generates the code of the function"""
+        """
+        Generates the code of the function.
+        """
         if self.is_external:
             result_str = f"    (import \"env\" \"{self.name}\" (func ${self.name} "
             if self.inputs:
@@ -235,7 +260,6 @@ class Function:
             if self.outputs:
                 result_str += f" (result {' '.join(output_type.get_wasm_type() for output_type in self.outputs)})"
             result_str += "\n"
-            #Add temp local
             if self.local_types[len(self.inputs):]:
                 result_str += indent_code("(local " + " ".join(
                     local_type.get_wasm_type() for local_type in self.local_types[len(self.inputs):]) + ")\n")
@@ -247,8 +271,9 @@ class Function:
 
 
 class Functions:
-    """A simple function state that stores functions."""
-
+    """
+    A simple function state that stores functions.
+    """
     def __init__(self):
         self.functions: Dict[str, Function] = {}
 

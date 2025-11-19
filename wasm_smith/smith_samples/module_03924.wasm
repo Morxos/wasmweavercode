@@ -1,8 +1,0 @@
-(module
-  (import "n\u{15}" "" (global (;0;) (mut i64)))
-  (import "" "" (global (;1;) (mut i32)))
-  (import "" "" (table (;0;) 175 nullexternref))
-  (memory (;0;) 0 8432)
-  (elem (;0;) declare externref)
-  (elem (;1;) structref (ref.null struct))
-)

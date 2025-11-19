@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 387 eqref ref.null array)
-  (memory (;0;) 6910)
-  (export "\u{64c}" (memory 0))
-  (elem (;0;) declare anyref (ref.null struct))
-  (elem (;1;) declare funcref (ref.null func) (ref.null nofunc) (ref.null func) (ref.null func))
-  (data (;0;) "")
-)

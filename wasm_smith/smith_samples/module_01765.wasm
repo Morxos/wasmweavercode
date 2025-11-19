@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (import "\u{571}" "" (global (;1;) (mut externref)))
-  (table (;0;) i64 0 nullfuncref ref.null nofunc)
-  (export "" (table 0))
-  (export "I" (table 0))
-)

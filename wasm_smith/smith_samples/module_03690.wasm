@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 83 anyref)
-  (memory (;0;) i64 0)
-  (global (;0;) (mut i64) i64.const 2167898056473364660)
-  (export "\u{b}9f" (global 0))
-  (data (;0;) "")
-  (data (;1;) "^")
-)

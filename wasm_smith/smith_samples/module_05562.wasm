@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 2 externref ref.null extern)
-  (global (;0;) (mut i32) i32.const -1351997569 i32.const 1273343239 i32.add i32.const 1513389573 i32.const -1108922567 i32.add i32.const 384809559 i32.const -1218353307 i32.mul i32.sub i32.const 1351533130 i32.sub i32.sub)
-  (export "" (table 0))
-  (export "1" (global 0))
-  (export "2" (global 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

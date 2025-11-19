@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 3 funcref)
-  (export "&Pp" (table 0))
-  (export "" (table 0))
-  (elem (;0;) declare funcref (ref.null nofunc))
-  (data (;0;) "\de")
-)

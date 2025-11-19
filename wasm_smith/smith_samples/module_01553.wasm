@@ -1,9 +1,0 @@
-(module
-  (global (;0;) (mut nullref) ref.null none)
-  (global (;1;) f32 f32.const 0x1.38f8e4p-45 (;=0.000000000000034746897;))
-  (export "e" (global 0))
-  (export "`" (global 0))
-  (elem (;0;) eqref)
-  (elem (;1;) anyref (ref.null any))
-  (elem (;2;) arrayref (ref.null array) (ref.null none))
-)

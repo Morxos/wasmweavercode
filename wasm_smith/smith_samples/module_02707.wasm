@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 10 384468 funcref ref.null nofunc)
-  (memory (;0;) 5)
-  (global (;0;) (mut f64) f64.const 0x1.f390211ac1f6ap-15 (;=0.00005955255092798715;))
-  (export "\u{a}\u{13}" (global 0))
-  (elem (;0;) (table 0) (i32.const 3) nullfuncref)
-)

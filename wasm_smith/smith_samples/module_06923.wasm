@@ -1,5 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 16825))
-  (elem (;0;) declare nullref)
-  (data (;0;) "\dfG\fb\b2")
-)

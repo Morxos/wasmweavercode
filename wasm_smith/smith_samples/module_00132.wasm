@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 2168 705356 externref ref.null noextern)
-  (global (;0;) (mut i32) i32.const -1091310125)
-)

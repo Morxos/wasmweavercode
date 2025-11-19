@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 149 arrayref ref.null array)
-  (memory (;0;) i64 1446)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (elem (;0;) (table 0) (i32.const 1) arrayref)
-  (elem (;1;) declare anyref)
-)

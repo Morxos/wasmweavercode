@@ -1,9 +1,0 @@
-(module
-  (import "\u{5}" "" (global (;0;) i32))
-  (memory (;0;) 2857 45209)
-  (global (;1;) (mut i32) i32.const 1309844995)
-  (export "M\u{9}" (global 0))
-  (elem (;0;) eqref (ref.null eq))
-  (data (;0;) (global.get 0) "")
-  (data (;1;) (i32.const 5737) "'\af")
-)

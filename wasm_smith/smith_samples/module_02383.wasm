@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 413 externref ref.null extern)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "2" (table 0))
-  (export "3" (table 0))
-  (data (;0;) "")
-)

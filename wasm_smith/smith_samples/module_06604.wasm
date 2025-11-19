@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 2529 268569 i31ref)
-  (global (;0;) (mut i32) i32.const -1453179947 i32.const -106511299 i32.const -914637520 i32.const -1466058828 i32.const -2116594102 i32.const -1413628013 i32.sub i32.sub i32.add i32.const 721080060 i32.sub i32.add i32.mul i32.const 774578838 i32.const -2059435699 i32.add i32.add)
-  (elem (;0;) declare eqref)
-  (elem (;1;) declare structref)
-)

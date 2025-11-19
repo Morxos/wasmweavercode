@@ -1,8 +1,0 @@
-(module
-  (global (;0;) exnref ref.null exn)
-  (export "\u{2}a" (global 0))
-  (export "jm" (global 0))
-  (export "" (global 0))
-  (export "r\u{13}e%" (global 0))
-  (data (;0;) "")
-)

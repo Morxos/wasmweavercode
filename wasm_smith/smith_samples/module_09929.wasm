@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1057 nullexternref))
-  (import ":7" "" (memory (;0;) 1 35791))
-  (import "\u{2}" "" (global (;0;) (mut nullexternref)))
-  (import "" "" (global (;1;) (mut i64)))
-  (export ")" (global 1))
-  (data (;0;) (i32.const 12910) "\d2M\c0")
-  (data (;1;) (i32.const 8) ",k")
-)

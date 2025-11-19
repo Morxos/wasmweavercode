@@ -1,6 +1,0 @@
-(module
-  (import "2Cwd\u{1d}" "" (memory (;0;) i64 1235 214766642076495))
-  (global (;0;) f32 f32.const 0x1.dc1ceap+115 (;=77253740000000000000000000000000000;))
-  (export "\u{a}" (memory 0))
-  (data (;0;) "")
-)

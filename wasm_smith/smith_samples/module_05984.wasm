@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 arrayref ref.null array)
-  (memory (;0;) i64 2640 177991601106588)
-  (export "" (table 0))
-  (export "\u{19}Z" (memory 0))
-  (data (;0;) "\b0\a2")
-  (data (;1;) (i64.const 7656194) "")
-  (data (;2;) (i64.const 2196175) "")
-)

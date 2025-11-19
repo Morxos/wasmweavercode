@@ -1,9 +1,0 @@
-(module
-  (import "J" "" (global (;0;) anyref))
-  (memory (;0;) i64 287)
-  (global (;1;) f32 f32.const 0x1.97622p+59 (;=917345640000000000;))
-  (global (;2;) eqref ref.null array)
-  (global (;3;) (mut i32) i32.const 732447482)
-  (global (;4;) (mut f32) global.get 1)
-  (data (;0;) "")
-)

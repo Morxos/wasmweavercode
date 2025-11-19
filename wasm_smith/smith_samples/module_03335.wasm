@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 195 25825 shared))
-  (import "R" "" (table (;0;) i64 95 externref))
-  (import "" "" (global (;0;) i32))
-  (export "" (table 0))
-  (elem (;0;) declare structref (ref.null none))
-)

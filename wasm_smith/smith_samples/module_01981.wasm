@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 978485 nullfuncref))
-  (import "" "" (memory (;0;) i64 4473 184384439194070))
-  (import "-\u{1b}9" "" (global (;0;) (mut i64)))
-  (global (;1;) (mut i64) i64.const 3315569308700207442 i64.const -6795908548631408073 i64.const -4709701497115514914 i64.const 2717340081049658330 i64.const -8415874251494193836 i64.const -3068124194551865579 i64.const 4904826588488199019 i64.const -6469791686698406157 i64.mul i64.add i64.sub i64.const -3905222039813430197 i64.const -4757514878224977652 i64.mul i64.mul i64.add i64.mul i64.sub i64.mul)
-  (data (;0;) (i64.const 130248456) "")
-)

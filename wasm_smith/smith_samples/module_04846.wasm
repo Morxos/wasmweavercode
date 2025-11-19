@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 3828 anyref ref.null eq)
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 1190) anyref)
-)

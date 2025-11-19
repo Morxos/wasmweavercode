@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) 1 3500)
-  (export "Jb\u{3}<" (memory 0))
-  (export "0" (memory 0))
-  (export "~" (memory 0))
-  (export "\u{11}$6" (memory 0))
-  (elem (;0;) declare structref)
-)

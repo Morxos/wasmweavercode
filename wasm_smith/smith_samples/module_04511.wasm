@@ -1,7 +1,0 @@
-(module
-  (import "[\u{b}" "" (table (;0;) 0 anyref))
-  (import "" "" (global (;0;) (mut f32)))
-  (global (;1;) (mut f32) f32.const -0x1.e14502p-29 (;=-0.000000003501697;))
-  (export "" (table 0))
-  (elem (;0;) declare arrayref)
-)

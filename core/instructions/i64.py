@@ -1,5 +1,7 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.config.config import MEMORY_MAX_WRITE_INDEX
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
@@ -37,7 +39,6 @@ class Int64Const(AbstractTile):
         return f"(i64.const {self.value})"
 
     def get_byte_code_size(self):
-        abs_value = abs(self.value)
         if -64 <= self.value < 64:
             return 2  # One byte for the opcode, one for the value
         elif -8192 <= self.value < 8192:
@@ -93,8 +94,6 @@ class Int64Sub(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop()
         a = current_state.stack.get_current_frame().stack_pop()
-        #print("Subtracting", a.value, "from", b.value)
-        #print(a.value - b.value)
         current_state.stack.get_current_frame().stack_push(I64(np.int64(np.int64(a.value) - np.int64(b.value))))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -139,12 +138,10 @@ class Int64DivS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop()
         a = current_state.stack.get_current_frame().stack_pop()
-        #print("Dividing", a.value, "by", b.value)
         if b.value == 0:
             raise ValueError("Division by zero")
         result = a.value.astype(np.int64) / b.value.astype(np.int64)
-        result = np.int64(result)  # Round to nearest integer
-        #print("Dividing", a.value, "by", b.value, "result is", result)
+        result = np.int64(result)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -169,7 +166,6 @@ class Int64DivU(AbstractTile):
         a = current_state.stack.get_current_frame().stack_pop()
         if b.value == 0:
             raise ValueError("Division by zero")
-        # Ensure the operands are treated as unsigned by using modulo 2**32
         result = (a.value.astype(np.uint64) // b.value.astype(np.uint64))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -196,7 +192,6 @@ class Int64RemS(AbstractTile):
         if b.value == 0:
             raise ValueError("Division by zero")
         result = a.value.astype(np.int64) % b.value.astype(np.int64)
-        # Adjust result to make sure the sign matches the dividend's sign
         if (a.value.astype(np.int64) < 0) != (b.value.astype(np.int64) < 0) and result != 0:
             result = result - b.value.astype(np.int64)
         current_state.stack.get_current_frame().stack_push(I64(result))
@@ -224,11 +219,6 @@ class Int64RemU(AbstractTile):
 
         if b.value == 0:
             raise ValueError("Division by zero")
-        # Calculate the remainder treating values as unsigned
-        #result = ((a.value.astype(np.uint64)) % (b.value.astype(np.uint64)))
-        #result = np.uint64(a.value) % np.uint64(b.value)
-        #result = a.value % b.value
-        #result = a.value.astype(np.uint64) % b.value.astype(np.uint64) if a.value.astype(np.uint64) >= 0 else (a.value.astype(np.uint64) + (1 << 64)) % b.value.astype(np.uint64)
         result = np.remainder(a.value.astype(np.uint64), b.value.astype(np.uint64))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -243,21 +233,16 @@ class Int64And(AbstractTile):
 
     @staticmethod
     def can_be_placed(current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        # Ensure there are at least two values on the stack
         if len(current_state.stack.get_current_frame().stack) < 2:
             return False
         a = current_state.stack.get_current_frame().stack_peek(2)
         b = current_state.stack.get_current_frame().stack_peek(1)
-        # Check if both are I64 instances
         return isinstance(a, I64) and isinstance(b, I64)
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        # Pop the top two values from the stack
         b = current_state.stack.get_current_frame().stack_pop()
         a = current_state.stack.get_current_frame().stack_pop()
-        # Apply the bitwise AND operation
         result = a.value.astype(np.uint64) & b.value.astype(np.uint64)
-        # Push the result back to the stack
         current_state.stack.get_current_frame().stack_push(I64(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -326,10 +311,8 @@ class Int64Shl(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         shift_amount = int(current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64) % 64)
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        print(type(value), type(shift_amount))
         result = (value << shift_amount)  # Ensure 64-bit wrapping
         current_state.stack.get_current_frame().stack_push(I64(result))
-        #print("Shifting", value, "left by", shift_amount, "result is", result)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
         return "i64.shl"
@@ -351,8 +334,7 @@ class Int64ShrS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         shift_amount = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64) % 64
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        #print("Shifting", value, "right by", shift_amount)
-        result = value >> np.int32(shift_amount)  # Python's `>>` performs an arithmetic shift for signed integers
+        result = value >> np.int32(shift_amount)
         current_state.stack.get_current_frame().stack_push(I64(result.astype(np.int64)))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -398,14 +380,10 @@ class Int64Rotl(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         rotate_amount = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64) % 64
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Perform rotate left
         result = value & 0xFFFFFFFFFFFFFFFF  # Ensure 64-bit wrapping
         for i in range(int(rotate_amount)):
-            #print(type(result))
             result = (result << np.uint64(1)) | ((result & 0x8000000000000000) >> np.uint64(63))
             result = result & 0xFFFFFFFFFFFFFFFF  # Ensure 64-bit wrapping
-
-        #print("Rotating", value, "left by", rotate_amount, "result is", result)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -428,13 +406,10 @@ class Int64Rotr(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         rotate_amount = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64) % np.uint64(64)
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Perform rotate right
         result = value & np.uint64(0xFFFFFFFFFFFFFFFF)  # Ensure 64-bit wrapping
         for i in range(rotate_amount):
             result = (result >> np.uint64(1)) | ((result & np.uint64(1)) << np.uint64(63))
             result = result & np.uint64(0xFFFFFFFFFFFFFFFF)  # Ensure 64-bit wrapping
-
-        #print("Rotating", value, "right by", rotate_amount, "result is", result)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -457,7 +432,7 @@ class Int64Clz(AbstractTile):
         value = int(current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64))
 
         leading_zeros = 0
-        for i in range(64):  # Iterate over each bit in a 64-bit integer
+        for i in range(64):
             if (value & (1 << (63 - i))) != 0:
                 break
             leading_zeros += 1
@@ -482,12 +457,12 @@ class Int64Ctz(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = int(current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64))
         if value == 0:
-            result = 64  # If the value is zero, all bits are zero, hence 64 trailing zeros
+            result = 64
         else:
             result = 0
             while (value & 1) == 0:
                 result += 1
-                value >>= 1  # Right shift the value until a 1 is found
+                value >>= 1
 
         current_state.stack.get_current_frame().stack_push(I64(np.uint64(result)))
 
@@ -509,7 +484,6 @@ class Int64Popcnt(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Count the number of 1s in the binary representation of the value
         result = bin(value & 0xFFFFFFFFFFFFFFFF).count("1")
         current_state.stack.get_current_frame().stack_push(I64(np.uint64(result)))
 
@@ -531,7 +505,6 @@ class Int64Eqz(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if the value is zero and return 1 if true, else 0
         result = 1 if value == 0 else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -555,7 +528,6 @@ class Int64Eq(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if the two values are equal and return 1 if true, else 0
         result = 1 if a == b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -579,7 +551,6 @@ class Int64Ne(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if the two values are not equal and return 1 if true, else 0
         result = 1 if a != b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -603,7 +574,6 @@ class Int64LtS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Check if a is less than b and return 1 if true, else 0
         result = 1 if a < b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -627,7 +597,6 @@ class Int64LtU(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if a is less than b and return 1 if true, else 0
         result = 1 if a < b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -651,7 +620,6 @@ class Int64LeS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Check if a is less than or equal to b and return 1 if true, else 0
         result = 1 if a <= b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -675,7 +643,6 @@ class Int64LeU(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if a is less than or equal to b and return 1 if true, else 0
         result = 1 if a <= b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -699,7 +666,6 @@ class Int64GtS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Check if a is greater than b and return 1 if true, else 0
         result = 1 if a > b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -723,7 +689,6 @@ class Int64GtU(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if a is greater than b and return 1 if true, else 0
         result = 1 if a > b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -747,7 +712,6 @@ class Int64GeS(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Check if a is greater than or equal to b and return 1 if true, else 0
         result = 1 if a >= b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -771,7 +735,6 @@ class Int64GeU(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         b = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
         a = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint64)
-        # Check if a is greater than or equal to b and return 1 if true, else 0
         result = 1 if a >= b else 0
         current_state.stack.get_current_frame().stack_push(I32(np.uint32(result)))
 
@@ -793,7 +756,6 @@ class Int64ExtendI32S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int32)
-        # Extend the 32-bit integer to a 64-bit integer with sign extension
         result = np.int64(value)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -815,7 +777,6 @@ class Int64ExtendI32U(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.uint32)
-        # Extend the 32-bit integer to a 64-bit integer with zero extension
         result = np.uint64(value)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -843,7 +804,6 @@ class Int64TruncF32S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float32)
-        # Truncate the 64-bit float to a 64-bit integer
         result = np.int64(np.trunc(value))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -871,7 +831,6 @@ class Int64TruncF64S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float64)
-        # Truncate the 64-bit float to a 64-bit integer
         result = np.int64(np.trunc(value))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -899,7 +858,6 @@ class Int64TruncF32U(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float32)
-        # Truncate the 32-bit float to a 64-bit unsigned integer
         result = np.uint64(np.trunc(value))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -927,7 +885,6 @@ class Int64TruncF64U(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float64)
-        # Truncate the 64-bit float to a 64-bit unsigned integer
         result = np.uint64(np.trunc(value))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -949,7 +906,6 @@ class Int64ReinterpretF64(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.float64)
-        # Reinterpret the 64-bit float as a 64-bit integer with 1:1 bit pattern
         result = value.view(np.int64)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -971,7 +927,6 @@ class Int64Extend8S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Sign-extend the 8-bit integer to a 64-bit integer
         result = np.int8(value)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -993,9 +948,7 @@ class Int64Extend16S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Sign-extend the 16-bit integer to a 64-bit integer
         result = np.int64(np.int16(value))
-        print(result)
         current_state.stack.get_current_frame().stack_push(I64(result))
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -1016,7 +969,6 @@ class Int64Extend32S(AbstractTile):
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop().value.astype(np.int64)
-        # Sign-extend the 32-bit integer to a 64-bit integer
         result = np.int64(np.int32(value))
         current_state.stack.get_current_frame().stack_push(I64(result))
 
@@ -1042,7 +994,6 @@ class Int64Store(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(value, I64):
             return False
-        #Check if in range
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 8:
             return False
         return True
@@ -1072,7 +1023,6 @@ class Int64Store8(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(offset, I32) or not isinstance(value, I64):
             return False
-        # Check range for 8-bit store
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 1:
             return False
         return True
@@ -1080,7 +1030,6 @@ class Int64Store8(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop()
         offset = current_state.stack.get_current_frame().stack_pop()
-        # Store only the least significant 8 bits of the integer
         current_state.memory.i64_store8(offset.value.astype(np.uint32), int(value.value.astype(np.uint64)) & 0xFF)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -1103,7 +1052,6 @@ class Int64Store16(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(offset, I32) or not isinstance(value, I64):
             return False
-        # Check range for 16-bit store
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 2:
             return False
         return True
@@ -1111,7 +1059,6 @@ class Int64Store16(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop()
         offset = current_state.stack.get_current_frame().stack_pop()
-        # Store only the least significant 16 bits of the integer
         current_state.memory.i64_store16(offset.value.astype(np.uint32), int(value.value.astype(np.uint64)) & 0xFFFF)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -1134,7 +1081,6 @@ class Int64Store32(AbstractTile):
         value = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(offset, I32) or not isinstance(value, I64):
             return False
-        # Check range for 32-bit store
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 4:
             return False
         return True
@@ -1142,7 +1088,6 @@ class Int64Store32(AbstractTile):
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         value = current_state.stack.get_current_frame().stack_pop()
         offset = current_state.stack.get_current_frame().stack_pop()
-        # Store only the least significant 32 bits of the integer
         current_state.memory.i64_store32(offset.value.astype(np.uint32), int(value.value.astype(np.uint64)) & 0xFFFFFFFF)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:
@@ -1164,7 +1109,6 @@ class Int64Load(AbstractTile):
         offset = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(offset, I32):
             return False
-        #Check if in range
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 8:
             return False
         return True
@@ -1193,8 +1137,6 @@ class Int64Load8U(AbstractTile):
         offset = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(offset, I32):
             return False
-        # Check if in range for 8-bit load
-        #print("Offset value:", offset.value.astype(np.uint32))
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 1:
             return False
         return True
@@ -1225,7 +1167,6 @@ class Int64Load8S(AbstractTile):
             return False
         if offset.value.astype(np.uint32) >= MEMORY_MAX_WRITE_INDEX - 1:
             return False
-        #print(offset.value)
         return True
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
@@ -1286,9 +1227,7 @@ class Int32Load16S(AbstractTile):
         return True
 
     def apply(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-
         offset = current_state.stack.get_current_frame().stack_pop()
-        #print("t: ", offset.value.astype(np.uint32))
         value = current_state.memory.i64_load16_s(offset.value.astype(np.uint32))
         current_state.stack.get_current_frame().stack_push(I64(value))
 

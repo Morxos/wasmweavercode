@@ -1,5 +1,0 @@
-(module
-  (import ">\u{16}dV" "" (global (;0;) externref))
-  (memory (;0;) i64 565)
-  (export "\u{17}" (global 0))
-)

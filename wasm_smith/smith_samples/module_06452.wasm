@@ -1,4 +1,0 @@
-(module
-  (import "V+" "" (table (;0;) i64 0 externref))
-  (memory (;0;) i64 0)
-)

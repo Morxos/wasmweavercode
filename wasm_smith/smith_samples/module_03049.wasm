@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 14 arrayref ref.null none)
-  (memory (;0;) i64 5)
-  (export "" (table 0))
-  (data (;0;) "j")
-)

@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 4680 i31ref)
-  (global (;0;) (mut f64) f64.const -0x1.e6b0ecd25f9c9p+121 (;=-5054089480583923300000000000000000000;))
-  (global (;1;) f32 f32.const 0x1.4563c4p-67 (;=0.000000000000000000008612994;))
-  (export "%{" (table 0))
-  (export "yB" (table 0))
-  (export "" (global 1))
-)

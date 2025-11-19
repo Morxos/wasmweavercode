@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1 155712675956162))
-  (table (;0;) i64 127 funcref)
-  (global (;0;) (mut i32) i32.const -157053321 i32.const -1820091752 i32.const -1574379674 i32.const -1217138113 i32.const 1662232255 i32.const 947780706 i32.add i32.const -2069779659 i32.mul i32.add i32.const 1704334015 i32.mul i32.const 1048425121 i32.add i32.add i32.add i32.sub)
-  (export "+}*H&\u{17}r\u{0}" (global 0))
-  (export "" (global 0))
-)

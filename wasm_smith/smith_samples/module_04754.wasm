@@ -1,9 +1,0 @@
-(module
-  (import "Q" "" (global (;0;) (mut i64)))
-  (export "" (global 0))
-  (export "1" (global 0))
-  (export "O" (global 0))
-  (elem (;0;) nullref)
-  (elem (;1;) exnref (ref.null exn))
-  (elem (;2;) eqref (ref.null none) (ref.null i31) (ref.null i31))
-)

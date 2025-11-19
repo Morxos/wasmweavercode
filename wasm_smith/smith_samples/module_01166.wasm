@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 225 anyref)
-  (memory (;0;) i64 52)
-  (elem (;0;) (table 0) (i32.const 0) i31ref)
-  (elem (;1;) (table 0) (i32.const 51) anyref (ref.null array) (ref.null array) (ref.null eq) (ref.null struct))
-)

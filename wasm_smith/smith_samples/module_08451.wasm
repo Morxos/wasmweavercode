@@ -1,7 +1,0 @@
-(module
-  (import "\u{4f8}\u{623}0" "" (memory (;0;) i64 19))
-  (import "\u{b}WS\u{15}P\u{1b}" "" (global (;0;) f32))
-  (export "jA" (global 0))
-  (elem (;0;) externref (ref.null noextern))
-  (elem (;1;) declare eqref (ref.null eq) (ref.null none) (ref.null struct) (ref.null none) (ref.null array) (ref.null array))
-)

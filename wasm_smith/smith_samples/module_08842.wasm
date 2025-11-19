@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1008 808507 nullexternref))
-  (import "<" "" (memory (;0;) 275 31365))
-  (import "" "" (global (;0;) f32))
-  (global (;1;) exnref ref.null exn)
-  (export "" (memory 0))
-  (export "\u{a}" (table 0))
-  (elem (;0;) (table 0) (i64.const 80) nullexternref (ref.null noextern))
-)

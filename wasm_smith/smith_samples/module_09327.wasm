@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 2269 445768 i31ref))
-  (memory (;0;) 37)
-  (export "H" (table 0))
-  (export "" (memory 0))
-  (elem (;0;) anyref (ref.null none))
-)

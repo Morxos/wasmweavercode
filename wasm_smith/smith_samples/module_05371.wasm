@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 11372)
-  (global (;0;) (mut f32) f32.const 0x1.e001d6p-44 (;=0.000000000000106583;))
-  (global (;1;) nullexternref ref.null noextern)
-)

@@ -1,6 +1,0 @@
-(module
-  (import "{\u{2df}" "" (table (;0;) i64 6496 i31ref))
-  (import "T\u{1f}" "" (global (;0;) (mut exnref)))
-  (memory (;0;) i64 11411 69951001159981)
-  (elem (;0;) (table 0) (i64.const 0) nullref (ref.null none))
-)

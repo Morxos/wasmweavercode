@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 26))
-  (table (;0;) 0 308848 nullexternref ref.null noextern)
-  (global (;0;) (mut i32) i32.const 108097513)
-  (export "\u{8}jEjX" (global 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 1119 134803644548202)
-  (export "" (memory 0))
-  (elem (;0;) arrayref)
-  (data (;0;) "[\d8?LKk\a0\81")
-  (data (;1;) (i64.const 6310268) "")
-)

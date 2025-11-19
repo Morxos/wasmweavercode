@@ -1,6 +1,0 @@
-(module
-  (import "\u{22}\u{15}" "" (global (;0;) i32))
-  (import "\u{5c}HsE\u{7}y(R" "" (table (;0;) 1 823111 nullfuncref))
-  (global (;1;) (mut i64) i64.const -5764372880189993765 i64.const 273251901956044865 i64.sub i64.const 240827055759874550 i64.sub)
-  (export "" (global 0))
-)

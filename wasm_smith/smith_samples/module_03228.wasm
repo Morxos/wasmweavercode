@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1930 structref)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (export "o" (table 0))
-  (elem (;0;) declare structref (ref.null struct) (ref.null struct) (ref.null struct))
-)

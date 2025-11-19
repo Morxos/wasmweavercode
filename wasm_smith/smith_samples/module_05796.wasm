@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 0 230856693135109)
-  (global (;0;) f32 f32.const 0x1.9d35ap-87 (;=0.0000000000000000000000000104308736;))
-  (export "" (global 0))
-  (export "1" (global 0))
-)

@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 996947 nullref)
-  (memory (;0;) i64 346)
-)

@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) 191 39593)
-  (export "1" (memory 0))
-  (elem (;0;) declare nullfuncref)
-  (elem (;1;) structref)
-  (elem (;2;) eqref)
-  (elem (;3;) eqref)
-)

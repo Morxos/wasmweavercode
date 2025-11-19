@@ -1,6 +1,0 @@
-(module
-  (import "U" "" (memory (;0;) i64 6509))
-  (import "" "" (global (;0;) f32))
-  (table (;0;) 5916 structref)
-  (export "" (global 0))
-)

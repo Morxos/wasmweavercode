@@ -1,6 +1,0 @@
-(module
-  (import "2=" "" (memory (;0;) 7757 25601))
-  (import "" "" (table (;0;) i64 0 267858 nullref))
-  (import "\u{10}" "" (global (;0;) (mut f32)))
-  (data (;0;) "")
-)

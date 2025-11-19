@@ -1,7 +1,0 @@
-(module
-  (import ")" "" (table (;0;) i64 12 arrayref))
-  (import "\u{13}j" "" (global (;0;) (mut f64)))
-  (import "" "" (memory (;0;) i64 0))
-  (import "" "" (global (;1;) f32))
-  (elem (;0;) declare arrayref)
-)

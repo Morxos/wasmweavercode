@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 844 nullfuncref))
-  (memory (;0;) 2927 54822)
-  (global (;0;) (mut f32) f32.const -0x1.4dc66p+15 (;=-42723.188;))
-  (global (;1;) (mut externref) ref.null extern)
-  (data (;0;) "d")
-)

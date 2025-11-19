@@ -1,6 +1,0 @@
-(module
-  (import "!" "" (table (;0;) 1186 nullref))
-  (import "\u{305}W\u{2}[" "" (global (;0;) i64))
-  (global (;1;) (mut i64) i64.const 1686747204469763065)
-  (elem (;0;) (table 0) (i32.const 25) nullref (ref.null none) (ref.null none))
-)

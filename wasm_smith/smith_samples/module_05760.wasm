@@ -1,7 +1,0 @@
-(module
-  (import "d\u{a}\u{f}" "" (global (;0;) f32))
-  (global (;1;) (mut i32) i32.const -505900822 i32.const -263003155 i32.const -309599502 i32.const -682978869 i32.const -588747446 i32.const -923779552 i32.const 650775632 i32.const 278617571 i32.add i32.mul i32.mul i32.mul i32.const -1983595763 i32.add i32.const -294747983 i32.sub i32.add i32.mul i32.add)
-  (global (;2;) i32 i32.const 983936000)
-  (global (;3;) nullexternref ref.null noextern)
-  (data (;0;) "\d9")
-)

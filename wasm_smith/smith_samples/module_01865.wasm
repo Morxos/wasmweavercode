@@ -1,8 +1,0 @@
-(module
-  (import "Or,\u{f}" "" (memory (;0;) i64 0))
-  (table (;0;) 5789 externref ref.null extern)
-  (global (;0;) (mut i32) i32.const -1881955954)
-  (export "1" (memory 0))
-  (export "" (table 0))
-  (elem (;0;) declare exnref (ref.null exn))
-)

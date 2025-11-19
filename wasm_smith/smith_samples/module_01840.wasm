@@ -1,7 +1,0 @@
-(module
-  (import "{n" "" (memory (;0;) i64 108 206160369826674))
-  (global (;0;) i32 i32.const -1822084091 i32.const -1036555320 i32.const 1055195242 i32.const 1671274222 i32.const 1680114945 i32.const 710342022 i32.mul i32.add i32.const 849701752 i32.mul i32.const 1031096929 i32.sub i32.mul i32.add i32.mul i32.const -1651225958 i32.mul)
-  (data (;0;) "")
-  (data (;1;) "\82\c7\be")
-  (data (;2;) (i64.const 106549) "\d7")
-)

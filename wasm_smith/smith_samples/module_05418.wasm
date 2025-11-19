@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0))
-  (global (;0;) f32 f32.const -0x1.d1498ep+55 (;=-65483370000000000;))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-)

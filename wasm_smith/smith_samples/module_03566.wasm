@@ -1,8 +1,0 @@
-(module
-  (global (;0;) (mut i64) i64.const -2422278584657311548)
-  (elem (;0;) declare structref)
-  (elem (;1;) declare eqref (ref.null struct) (ref.null array) (ref.null none))
-  (elem (;2;) declare nullexternref)
-  (elem (;3;) nullexternref)
-  (data (;0;) "")
-)

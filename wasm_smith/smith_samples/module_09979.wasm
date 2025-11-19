@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 5097 anyref)
-  (export "" (table 0))
-  (elem (;0;) declare externref (ref.null extern) (ref.null extern) (ref.null extern))
-  (elem (;1;) declare nullexternref)
-  (elem (;2;) (table 0) (i32.const 397) anyref)
-  (elem (;3;) declare nullexternref (ref.null noextern) (ref.null noextern))
-)

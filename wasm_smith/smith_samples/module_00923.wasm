@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 388 251583646008545 shared)
-  (export "" (memory 0))
-  (data (;0;) "h")
-)

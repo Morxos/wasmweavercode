@@ -1,7 +1,0 @@
-(module
-  (import "\u{22}|8" "" (table (;0;) 2 53098 eqref))
-  (global (;0;) (mut i32) i32.const -2141866195 i32.const 1171147007 i32.const 46661517 i32.const -1480991287 i32.const -1853539766 i32.const -916014469 i32.const -1874784010 i32.const 1442862819 i32.add i32.const -1995209933 i32.add i32.sub i32.add i32.mul i32.add i32.add i32.add i32.const -768196940 i32.add)
-  (global (;1;) (mut i32) i32.const -1452885565 i32.const 2082693872 i32.const 868433570 i32.const 1113319616 i32.const -256958469 i32.const 1731211281 i32.sub i32.const -2139010718 i32.const 611077069 i32.sub i32.add i32.sub i32.add i32.const 1863568261 i32.sub i32.add i32.sub)
-  (global (;2;) f32 f32.const -0x1.b457b4p+31 (;=-3660307000;))
-  (data (;0;) "")
-)

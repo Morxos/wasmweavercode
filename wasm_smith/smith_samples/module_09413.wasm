@@ -1,5 +1,0 @@
-(module
-  (import "56" "" (memory (;0;) i64 355 62613112422142 shared))
-  (global (;0;) (mut f32) f32.const 0x1.7e9b24p-121 (;=0.000000000000000000000000000000000000562189;))
-  (elem (;0;) declare nullref)
-)

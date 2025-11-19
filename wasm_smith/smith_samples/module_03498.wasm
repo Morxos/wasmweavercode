@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 3 229013 arrayref)
-  (export "n" (table 0))
-  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31))
-  (elem (;1;) declare i31ref)
-)

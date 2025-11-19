@@ -1,6 +1,0 @@
-(module
-  (import "\u{2da}u\u{1a}{\u{4}1" "" (table (;0;) i64 3 232323 nullexternref))
-  (import "" "" (memory (;0;) 0 46457 shared))
-  (export "" (table 0))
-  (export "nQ\u{1b}\u{2}\u{f}" (memory 0))
-)

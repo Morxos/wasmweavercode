@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 4790 funcref ref.null nofunc)
-  (memory (;0;) i64 153 48089651098976 shared)
-  (global (;0;) (mut i32) i32.const 564392726)
-  (global (;1;) (mut nullexternref) ref.null noextern)
-  (export "\u{fb}" (table 0))
-)

@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 3 396449 nullref ref.null none)
-  (data (;0;) "\97")
-)

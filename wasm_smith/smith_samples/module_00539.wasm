@@ -1,7 +1,0 @@
-(module
-  (import "6{" "" (global (;0;) nullref))
-  (memory (;0;) 11769)
-  (export "" (global 0))
-  (elem (;0;) declare externref (ref.null extern))
-  (data (;0;) (i32.const 9776417) "")
-)

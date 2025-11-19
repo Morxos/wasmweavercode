@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 1 nullref)
-  (global (;0;) (mut f32) f32.const -0x1.a9cf62p-97 (;=-0.000000000000000000000000000010497029;))
-  (export "" (global 0))
-  (data (;0;) "")
-  (data (;1;) "\8d")
-)

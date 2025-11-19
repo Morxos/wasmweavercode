@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 24110 structref))
-  (data (;0;) "\f7\13")
-  (data (;1;) "^")
-)

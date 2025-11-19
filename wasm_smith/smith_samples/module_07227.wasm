@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.13a31cp+66 (;=79447000000000000000;))
-  (export "" (global 0))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "_")
-)

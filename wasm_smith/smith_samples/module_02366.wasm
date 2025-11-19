@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 61543 shared))
-  (import "V" "" (global (;0;) (mut f32)))
-  (import "\u{2}" "" (global (;1;) anyref))
-  (import "x" "" (table (;0;) i64 7039 nullref))
-  (import "3UhXv" "" (global (;2;) (mut f64)))
-  (export "" (global 1))
-)

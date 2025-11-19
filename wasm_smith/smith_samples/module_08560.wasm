@@ -1,6 +1,0 @@
-(module
-  (import "\u{a}" "" (table (;0;) 5232 35454 nullfuncref))
-  (memory (;0;) 80)
-  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern))
-  (data (;0;) (i32.const 27152) "")
-)

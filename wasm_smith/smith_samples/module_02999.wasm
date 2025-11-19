@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut nullexternref)))
-  (memory (;0;) i64 464)
-  (global (;1;) (mut i64) i64.const -1935763810170867819 i64.const 2877293331623087696 i64.const 7939178311443050638 i64.const -7915371337269896346 i64.sub i64.const -8629855543733011583 i64.const -7810790923469111550 i64.sub i64.const 4241023321844490394 i64.mul i64.sub i64.const -5379146380079710406 i64.add i64.sub i64.mul)
-  (global (;2;) (mut nullexternref) ref.null noextern)
-  (data (;0;) "")
-  (data (;1;) (i64.const 12778) "")
-)

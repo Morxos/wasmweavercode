@@ -1,7 +1,0 @@
-(module
-  (import "\u{1c}4" "" (table (;0;) i64 869 nullexternref))
-  (import "" "" (memory (;0;) 584 51062))
-  (global (;0;) eqref ref.null eq)
-  (global (;1;) i32 i32.const 1379998030)
-  (export "" (table 0))
-)

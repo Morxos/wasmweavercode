@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 400 structref ref.null struct)
-  (memory (;0;) i64 4200)
-  (elem (;0;) declare nullfuncref)
-  (elem (;1;) declare eqref)
-  (elem (;2;) (table 0) (i32.const 106) structref (ref.null none))
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (import "\u{3}" "" (global (;1;) (mut anyref)))
-  (import "t\u{15}I" "" (table (;0;) 2122 externref))
-  (export "" (global 1))
-  (export "1" (global 1))
-  (export "D" (global 1))
-  (export "&\u{b}d" (table 0))
-)

@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 5261 40933839006872)
-  (elem (;0;) nullref (ref.null none) (ref.null none))
-)

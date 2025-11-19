@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1999 486482 arrayref))
-  (memory (;0;) 4372)
-)

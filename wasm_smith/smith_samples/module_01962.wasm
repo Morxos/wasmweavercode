@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 0 610590 eqref))
-  (import "" "" (global (;0;) (mut eqref)))
-  (global (;1;) (mut i32) i32.const 659500117 i32.const 722307751 i32.const -654127453 i32.const 103229997 i32.const 1742387409 i32.const -597553868 i32.const 1199650204 i32.const 195510598 i32.add i32.sub i32.mul i32.sub i32.add i32.mul i32.sub i32.const -1728972100 i32.const -364784963 i32.mul i32.mul)
-  (global (;2;) f32 f32.const -nan:0x71862e (;=NaN;))
-  (data (;0;) "\fa\06")
-)

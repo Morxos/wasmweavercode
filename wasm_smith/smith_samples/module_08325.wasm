@@ -1,6 +1,0 @@
-(module
-  (import "\u{15}&" "" (global (;0;) i32))
-  (table (;0;) 9674 839578 eqref)
-  (data (;0;) "\dc")
-  (data (;1;) "")
-)

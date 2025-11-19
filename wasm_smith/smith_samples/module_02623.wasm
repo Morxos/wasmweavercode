@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 748 388012 externref)
-  (export "" (table 0))
-  (export "1" (table 0))
-)

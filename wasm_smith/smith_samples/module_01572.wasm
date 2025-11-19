@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 6483))
-  (elem (;0;) declare anyref)
-  (elem (;1;) arrayref)
-  (elem (;2;) declare nullfuncref)
-  (elem (;3;) declare nullref)
-)

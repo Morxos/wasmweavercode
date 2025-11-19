@@ -1,6 +1,0 @@
-(module
-  (import "q/x" "" (memory (;0;) i64 3871 177007387036311 shared))
-  (global (;0;) (mut i32) i32.const -1612937647)
-  (export "#" (memory 0))
-  (export "\u{7f}\u{3}" (global 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 4182 nullfuncref))
-  (memory (;0;) i64 0 147245423253443 shared)
-  (export "" (memory 0))
-  (elem (;0;) (table 0) (i32.const 1114) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (elem (;1;) (table 0) (i32.const 3) nullfuncref)
-)

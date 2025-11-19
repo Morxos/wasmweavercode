@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 3778 funcref)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

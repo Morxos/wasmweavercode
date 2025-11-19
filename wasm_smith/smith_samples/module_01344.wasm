@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) 1004 693064 nullexternref))
-  (import "_" "" (global (;0;) eqref))
-  (memory (;0;) 4207 54181)
-  (global (;1;) funcref ref.null nofunc)
-  (global (;2;) i64 i64.const -2328593077461577403 i64.const 5001328316391121606 i64.const -3102892866119957429 i64.const 328244010902891041 i64.const -5831530024052616347 i64.const -6277703104400269681 i64.const -3067794019781821317 i64.const -6363125269460598522 i64.sub i64.mul i64.mul i64.add i64.add i64.const -1977638547919746166 i64.const 6572512857939906945 i64.add i64.add i64.sub i64.mul)
-  (export ">" (global 0))
-  (elem (;0;) (table 0) (i32.const 0) nullexternref (ref.null noextern))
-)

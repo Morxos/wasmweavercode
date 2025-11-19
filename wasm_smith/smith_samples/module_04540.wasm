@@ -1,9 +1,0 @@
-(module
-  (import "\u{1d}\u{17}" "" (global (;0;) f32))
-  (import "" "" (table (;0;) 47 166625 externref))
-  (import "" "" (memory (;0;) i64 196))
-  (import "^" "" (global (;1;) i64))
-  (global (;2;) f32 f32.const 0x1.6428e4p+56 (;=100250050000000000;))
-  (export "F" (memory 0))
-  (export "C\u{7f}5C" (global 0))
-)

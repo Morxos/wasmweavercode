@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 2 nullref))
-  (import "Z" "" (memory (;0;) 0 9850))
-  (import "" "" (global (;0;) (mut i32)))
-  (global (;1;) f32 f32.const -0x1.958ee2p+25 (;=-53157316;))
-  (export "" (memory 0))
-  (elem (;0;) eqref)
-)

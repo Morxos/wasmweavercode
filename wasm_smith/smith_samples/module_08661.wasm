@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) anyref (ref.null any) (ref.null array) (ref.null array))
-  (elem (;1;) arrayref)
-  (elem (;2;) declare func)
-  (elem (;3;) nullexternref)
-)

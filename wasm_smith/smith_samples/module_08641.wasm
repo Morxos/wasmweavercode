@@ -1,9 +1,0 @@
-(module
-  (import "\u{351}s=" "" (table (;0;) i64 0 exnref))
-  (import "3q2" "" (memory (;0;) i64 9462 125815732075279 shared))
-  (export "," (memory 0))
-  (export "G" (table 0))
-  (export "" (memory 0))
-  (export "4\u{19}" (table 0))
-  (data (;0;) "J")
-)

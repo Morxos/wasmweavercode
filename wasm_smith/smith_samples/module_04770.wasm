@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) f32))
-  (import "" "" (table (;0;) i64 5556 153433 exnref))
-  (memory (;0;) i64 4037)
-  (elem (;0;) nullref)
-  (data (;0;) (i64.const 96184334) "&\df")
-)

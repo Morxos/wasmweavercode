@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 87 98537 externref ref.null noextern)
-  (memory (;0;) 14622 44812)
-  (global (;0;) (mut i64) i64.const -805431371197392137)
-)

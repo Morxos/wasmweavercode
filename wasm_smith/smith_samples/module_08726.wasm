@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 0 237564219690301)
-  (export "_bB" (memory 0))
-  (export "" (memory 0))
-)

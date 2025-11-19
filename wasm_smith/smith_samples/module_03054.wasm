@@ -1,9 +1,0 @@
-(module
-  (import "\u{a}" "" (memory (;0;) 9348 43838 shared))
-  (table (;0;) 0 492142 structref ref.null struct)
-  (global (;0;) i64 i64.const -2554593945627972442)
-  (global (;1;) (mut f64) f64.const -0x1.7212fb27dcbc4p+410 (;=-3822495661502503500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
-  (export "\u{3}DSeS\u{a}" (memory 0))
-  (export "" (table 0))
-  (export "_" (global 1))
-)

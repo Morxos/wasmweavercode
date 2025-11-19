@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 nullfuncref)
-  (memory (;0;) i64 107)
-  (global (;0;) i64 i64.const 5571463444059334722)
-  (global (;1;) i31ref ref.null i31)
-  (data (;0;) (global.get 0) "")
-)

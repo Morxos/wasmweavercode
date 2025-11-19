@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 0 15239)
-  (export "S\u{0}q" (memory 0))
-  (data (;0;) "!")
-  (data (;1;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (import ";" "" (table (;0;) 1771 635896 externref))
-  (memory (;0;) i64 1430 138022377924021)
-  (export "-\u{355}:E" (memory 0))
-  (export "" (table 0))
-  (data (;0;) (i64.const 69978352) "")
-  (data (;1;) (i64.const 740387) "\eaQ\f2\b9$")
-)

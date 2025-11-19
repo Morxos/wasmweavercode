@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (memory (;0;) i64 31 131223209079725 shared)
-  (export "" (memory 0))
-  (export "Z`\u{260}" (memory 0))
-)

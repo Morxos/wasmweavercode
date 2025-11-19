@@ -1,9 +1,0 @@
-(module
-  (import "\u{5}@" "" (table (;0;) 19 436290 eqref))
-  (import "" "" (global (;0;) (mut nullexternref)))
-  (import ">" "" (memory (;0;) i64 8370 257303987004940))
-  (import "IKO\u{5}" "" (global (;1;) (mut i32)))
-  (import "" "" (global (;2;) i32))
-  (import "\u{1e}A" "" (global (;3;) (mut i32)))
-  (global (;4;) i32 i32.const -713467089 i32.const 2089448880 i32.const -280172420 i32.const 1933554025 i32.const -652358827 i32.const -1550654649 i32.sub i32.const -942701607 i32.const -2031765659 i32.mul i32.sub i32.sub i32.const -1598390866 i32.sub i32.sub i32.add i32.add)
-)

@@ -1,6 +1,0 @@
-(module
-  (type (;0;) (struct (field i64) (field i16) (field i8) (field externref) (field i16) (field i16)))
-  (table (;0;) 0 (ref null 0))
-  (elem (;0;) (ref null 0) (ref.null 0))
-  (data (;0;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (import "T\u{8}b" "" (memory (;0;) i64 0 178101926581924))
-  (table (;0;) 381 funcref)
-  (global (;0;) f64 f64.const -0x1.ff18994f42b8cp+65 (;=-73656709037046200000;))
-  (global (;1;) (mut i64) i64.const -2496837713605916603 i64.const 6999730698885573633 i64.const -4255063913138345505 i64.const -3269891953103715015 i64.const -8266190446475651563 i64.const -5421346994297276468 i64.const 1109822540267505532 i64.const 1823594578139558239 i64.mul i64.add i64.add i64.mul i64.const -7478223530388224154 i64.sub i64.sub i64.add i64.add)
-  (elem (;0;) (i32.const 5) funcref)
-  (data (;0;) "")
-)

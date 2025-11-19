@@ -1,6 +1,0 @@
-(module
-  (import "\u{22}0" "" (global (;0;) nullexternref))
-  (memory (;0;) i64 817 254387607201988)
-  (export "" (global 0))
-  (data (;0;) "`")
-)

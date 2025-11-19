@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 0))
-  (table (;0;) i64 3736 26979 externref ref.null extern)
-  (export "\u{1b}" (memory 0))
-  (elem (;0;) declare anyref)
-  (elem (;1;) declare exnref)
-)

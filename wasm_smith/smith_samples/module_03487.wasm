@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 372 246377 eqref)
-  (memory (;0;) i64 0 195945396899418 shared)
-  (elem (;0;) (table 0) (i64.const 47) arrayref)
-  (data (;0;) "")
-)

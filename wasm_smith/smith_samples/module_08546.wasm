@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 769 35669 structref ref.null struct)
-  (memory (;0;) i64 305 82450486640349)
-  (global (;0;) f64 f64.const -0x1.f18efb6309445p-55 (;=-0.00000000000000005394540319645856;))
-  (global (;1;) (mut i32) i32.const -929512781)
-)

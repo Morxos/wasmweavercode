@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 1913 382917 nullfuncref)
-  (elem (;0;) declare nullref)
-  (data (;0;) "\8d")
-  (data (;1;) "")
-)

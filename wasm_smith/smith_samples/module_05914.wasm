@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 0 515476 i31ref ref.null none)
-  (memory (;0;) 5)
-  (export "" (memory 0))
-)

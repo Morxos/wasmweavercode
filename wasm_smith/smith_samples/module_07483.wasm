@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 55 772331 anyref)
-  (memory (;0;) 164 1334 shared)
-  (export "" (table 0))
-  (export "Ka" (memory 0))
-)

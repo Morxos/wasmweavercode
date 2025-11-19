@@ -1,6 +1,0 @@
-(module
-  (import "\u{7ac}" "" (global (;0;) (mut i64)))
-  (memory (;0;) i64 0)
-  (elem (;0;) declare nullfuncref)
-  (data (;0;) "")
-)

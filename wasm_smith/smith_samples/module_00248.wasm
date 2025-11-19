@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 4 eqref ref.null none)
-  (export "s<\u{3}" (table 0))
-  (elem (;0;) anyref)
-)

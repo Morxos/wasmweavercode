@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 15144))
-  (table (;0;) i64 447 arrayref)
-  (export "B" (table 0))
-  (export "" (table 0))
-  (export "\u{10}F_" (table 0))
-  (export "y" (table 0))
-  (export "4" (memory 0))
-)

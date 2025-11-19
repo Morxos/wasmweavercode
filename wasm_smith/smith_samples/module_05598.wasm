@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 175 48261 shared))
-  (global (;0;) (mut f32) f32.const 0x1.b0ff3cp-20 (;=0.0000016130396;))
-  (global (;1;) (mut i64) i64.const 9037606419648614827)
-  (data (;0;) (i32.const 4299) "<\a5;")
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) f32))
-  (memory (;0;) i64 5108 250889271461226)
-  (elem (;0;) declare nullexternref)
-  (elem (;1;) anyref (ref.null array))
-  (elem (;2;) declare anyref)
-)

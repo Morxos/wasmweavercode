@@ -1,9 +1,0 @@
-(module
-  (import ")J" "" (memory (;0;) i64 5 10057491008777 shared))
-  (import "j" "" (global (;0;) (mut i32)))
-  (export "nn" (global 0))
-  (data (;0;) "")
-  (data (;1;) (i64.const 0) "\00")
-  (data (;2;) (i64.const 125960) "\c6")
-  (data (;3;) "")
-)

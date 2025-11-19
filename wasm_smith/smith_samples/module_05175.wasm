@@ -1,6 +1,0 @@
-(module
-  (import "\u{8}" "" (table (;0;) 8183 520495 anyref))
-  (import "S\u{7ec}" "" (memory (;0;) i64 71 165487322657097 shared))
-  (elem (;0;) declare nullref (ref.null none))
-  (data (;0;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) 0 900076 nullref)
-  (elem (;0;) declare externref)
-  (elem (;1;) arrayref)
-)

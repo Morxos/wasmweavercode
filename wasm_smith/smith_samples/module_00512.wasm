@@ -1,7 +1,0 @@
-(module
-  (import "t5\u{11}" "" (table (;0;) 9197 930268 nullfuncref))
-  (global (;0;) (mut f32) f32.const 0x1.b110cp+118 (;=562151070000000000000000000000000000;))
-  (elem (;0;) (table 0) (i32.const 2) nullfuncref (ref.null nofunc))
-  (elem (;1;) declare arrayref)
-  (data (;0;) "\aa\e5k")
-)

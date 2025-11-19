@@ -1,6 +1,0 @@
-(module
-  (import "oo" "" (table (;0;) i64 7492 995665 nullref))
-  (elem (;0;) func)
-  (data (;0;) "\d0\1cBL")
-  (data (;1;) "&")
-)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 5 exnref)
-  (export "" (table 0))
-  (elem (;0;) structref)
-  (elem (;1;) (table 0) (i64.const 0) exnref (ref.null exn))
-  (elem (;2;) (table 0) (i64.const 0) exnref)
-  (elem (;3;) declare externref)
-  (elem (;4;) declare anyref (ref.null none))
-)

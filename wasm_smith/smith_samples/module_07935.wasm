@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 8 27988)
-  (global (;0;) (mut i64) i64.const 3287493192020045524 i64.const -3443450958304758305 i64.const -4662444769417799148 i64.const 152283702303724870 i64.const 5246828260590906754 i64.const -1983819602577030642 i64.mul i64.const 738907179152011393 i64.add i64.const 8664205329584797831 i64.mul i64.add i64.const 2729425711035825344 i64.mul i64.sub i64.mul i64.mul)
-  (export "" (memory 0))
-  (data (;0;) "")
-  (data (;1;) (i32.const 1) "X")
-)

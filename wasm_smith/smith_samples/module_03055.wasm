@@ -1,4 +1,0 @@
-(module
-  (import "J\u{17}@" "" (global (;0;) (mut f32)))
-  (import "\u{2}" "" (table (;0;) i64 368 390829 nullref))
-)

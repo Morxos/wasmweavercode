@@ -1,9 +1,0 @@
-(module
-  (import "\u{12}\u{440}9\u{19}" "" (global (;0;) (mut i64)))
-  (import "S" "" (memory (;0;) 4643 24410))
-  (table (;0;) 1 478600 nullref)
-  (elem (;0;) (table 0) (i32.const 0) nullref (ref.null none))
-  (elem (;1;) (table 0) (i32.const 0) nullref)
-  (data (;0;) (i32.const 267687394) "")
-  (data (;1;) (i32.const 65571465) "")
-)

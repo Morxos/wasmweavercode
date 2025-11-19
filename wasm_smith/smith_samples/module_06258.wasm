@@ -1,3 +1,0 @@
-(module
-  (import "\u{0}N" "" (memory (;0;) 733 33159))
-)

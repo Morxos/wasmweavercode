@@ -1,6 +1,0 @@
-(module
-  (import "o\u{183}" "" (global (;0;) i64))
-  (import "" "" (table (;0;) i64 251 nullref))
-  (memory (;0;) 1242 46921)
-  (data (;0;) (i32.const 689845) "")
-)

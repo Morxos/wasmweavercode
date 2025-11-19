@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2 964947 eqref)
-  (global (;0;) (mut f32) f32.const 0x1.0d409cp-113 (;=0.00000000000000000000000000000000010128149;))
-  (global (;1;) i32 i32.const 318226181)
-  (global (;2;) (mut i32) i32.const 1829548976)
-  (export "\u{22}" (global 2))
-  (export "Bb" (global 0))
-)

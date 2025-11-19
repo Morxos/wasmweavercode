@@ -1,9 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const -0x1.1eda0ep+121 (;=-2978839000000000000000000000000000000;))
-  (global (;1;) (mut i32) i32.const 2098393699 i32.const 1165621899 i32.const -1947806008 i32.const -432437636 i32.const 1192670416 i32.const -1974429591 i32.const 627388849 i32.const -693075454 i32.add i32.const 384363014 i32.add i32.mul i32.mul i32.add i32.sub i32.const -1542504126 i32.sub i32.sub i32.sub)
-  (global (;2;) (mut structref) ref.null struct)
-  (export "" (global 2))
-  (export "1" (global 1))
-  (export "2" (global 1))
-  (export "\u{1d}@" (global 2))
-)

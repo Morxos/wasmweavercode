@@ -1,6 +1,0 @@
-(module
-  (import "\u{1ca}" "" (memory (;0;) 39))
-  (table (;0;) i64 0 779277 exnref)
-  (global (;0;) (mut i32) i32.const -1807402005)
-  (export "" (table 0))
-)

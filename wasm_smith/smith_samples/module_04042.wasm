@@ -1,5 +1,0 @@
-(module
-  (import "\u{699}a" "" (memory (;0;) i64 338))
-  (import "" "" (table (;0;) 3805 nullfuncref))
-  (elem (;0;) nullexternref)
-)

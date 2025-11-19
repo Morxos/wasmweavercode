@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 60 structref)
-  (export "" (table 0))
-  (export "n&" (table 0))
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-)

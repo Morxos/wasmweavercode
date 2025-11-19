@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 62 10957)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-)

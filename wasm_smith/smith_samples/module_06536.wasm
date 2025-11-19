@@ -1,6 +1,0 @@
-(module
-  (import "q" "" (memory (;0;) 130))
-  (table (;0;) 70 265225 exnref ref.null exn)
-  (export "" (memory 0))
-  (data (;0;) (i32.const 35106) "")
-)

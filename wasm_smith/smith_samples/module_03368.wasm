@@ -1,7 +1,0 @@
-(module
-  (import "e[" "" (table (;0;) 2 funcref))
-  (import "" "" (memory (;0;) 937 4821))
-  (import "" "" (global (;0;) f32))
-  (global (;1;) f32 global.get 0)
-  (data (;0;) (i32.const 1406860) "")
-)

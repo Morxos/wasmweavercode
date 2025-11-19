@@ -1,4 +1,0 @@
-(module
-  (global (;0;) (mut f64) f64.const 0x1.a5598178cb855p+23 (;=13806784.73592774;))
-  (elem (;0;) declare i31ref (ref.null i31) (ref.null none) (ref.null i31) (ref.null none) (ref.null none))
-)

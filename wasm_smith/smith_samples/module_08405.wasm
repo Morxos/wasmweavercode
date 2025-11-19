@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) 385 eqref ref.null none)
-  (memory (;0;) 3572 28795 shared)
-  (global (;1;) i64 i64.const 2727918946057469430 i64.const 6165983124620572105 i64.const 3953976187729289545 i64.const 8766147947467648392 i64.const -4098699124339663735 i64.const -8941012407635626779 i64.const 7660842257077977242 i64.const 7287420676631215470 i64.const 8239146849187271868 i64.const -7006244276989475318 i64.add i64.sub i64.mul i64.add i64.add i64.sub i64.mul i64.mul i64.add i64.const -4494010447701839796 i64.add)
-  (global (;2;) (mut i64) global.get 1)
-  (export "0h" (memory 0))
-  (elem (;0;) (table 0) (i32.const 2) arrayref (ref.null array))
-)

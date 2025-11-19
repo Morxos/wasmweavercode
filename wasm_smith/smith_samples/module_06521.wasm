@@ -1,7 +1,0 @@
-(module
-  (elem (;0;) anyref)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "")
-  (data (;3;) "")
-)

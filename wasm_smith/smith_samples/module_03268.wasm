@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -310744561)
-  (export "R" (global 0))
-  (elem (;0;) structref (ref.null struct))
-  (data (;0;) "\f1")
-  (data (;1;) "2")
-)

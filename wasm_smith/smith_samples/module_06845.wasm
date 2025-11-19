@@ -1,4 +1,0 @@
-(module
-  (import "$(3\u{6f4}\u{5c}" "" (memory (;0;) i64 879))
-  (elem (;0;) arrayref (ref.null none))
-)

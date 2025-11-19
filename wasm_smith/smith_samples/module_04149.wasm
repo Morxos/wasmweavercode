@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 13536)
-  (export "" (memory 0))
-  (data (;0;) (i32.const 41105) "<")
-  (data (;1;) "\1c")
-)

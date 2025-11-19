@@ -1,9 +1,0 @@
-(module
-  (import "N" "" (global (;0;) (mut nullfuncref)))
-  (table (;0;) i64 5 arrayref)
-  (memory (;0;) 3 64785)
-  (export "8" (memory 0))
-  (export "TY" (memory 0))
-  (data (;0;) "")
-  (data (;1;) "\eb")
-)

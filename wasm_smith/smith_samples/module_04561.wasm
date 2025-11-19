@@ -1,7 +1,0 @@
-(module
-  (import "<\u{14}U&" "" (memory (;0;) 4376 43658 shared))
-  (import "#" "" (global (;0;) (mut arrayref)))
-  (table (;0;) i64 9 nullref)
-  (export "\u{15e}" (memory 0))
-  (elem (;0;) nullref)
-)

@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 3445 217195 nullref)
-  (memory (;0;) i64 31 120439832804107 shared)
-  (elem (;0;) (table 0) (i64.const 1981) nullref)
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) (i64.const 74) "")
-)

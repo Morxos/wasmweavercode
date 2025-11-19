@@ -1,7 +1,0 @@
-(module
-  (import "E\u{6}21pw" "" (global (;0;) (mut nullexternref)))
-  (memory (;0;) 34 20017)
-  (export "" (memory 0))
-  (export "1" (global 0))
-  (export "2" (global 0))
-)

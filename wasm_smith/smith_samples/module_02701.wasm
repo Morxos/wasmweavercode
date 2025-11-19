@@ -1,8 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -1636327330)
-  (global (;1;) f32 f32.const 0x1.4bbe78p+95 (;=51334900000000000000000000000;))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-  (elem (;1;) declare exnref (ref.null exn) (ref.null exn) (ref.null exn) (ref.null exn))
-  (elem (;2;) declare nullexternref)
-  (data (;0;) "\aef")
-)

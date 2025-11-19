@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 3354))
-  (import "" "" (global (;0;) f64))
-  (export "\u{8}\u{f}" (memory 0))
-  (export "" (global 0))
-  (elem (;0;) func)
-  (elem (;1;) declare exnref)
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 530611 funcref ref.null nofunc)
-  (memory (;0;) 1963 54435)
-  (export "" (table 0))
-  (export "\u{62cd}U" (table 0))
-)

@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 4538 19174312972005)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (elem (;0;) anyref)
-  (data (;0;) (i64.const 378720) "")
-  (data (;1;) "\13")
-  (data (;2;) "")
-)

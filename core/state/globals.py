@@ -1,11 +1,15 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from copy import deepcopy
 from typing import List
-
 from core.value import Val
 
 
 class Global:
-    """A simple global variable that stores a name and a value (with type information)."""
+    """
+    A simple global variable that stores a name and a value (with type information).
+    """
     def __init__(self,value: Val,name:str, mutable: bool):
         self.value = value
         self.mutable = mutable
@@ -20,13 +24,17 @@ class Global:
 
 
 class Globals:
-    """A simple global state that stores global variables."""
+    """
+    A simple global state that stores global variables.
+    """
 
     def __init__(self):
         self.globals : List[Global] = []
 
     def add(self, value: Global):
-        """Adds a global variable to the state and returns the index."""
+        """
+        Adds a global variable to the state and returns the index.
+        """
         self.globals.append(value)
         return len(self.globals) - 1
 
@@ -37,24 +45,32 @@ class Globals:
         return self.globals[item]
 
     def reinit_globals(self):
-        """Re-initializes all global variables to their initial values."""
+        """
+        Re-initializes all global variables to their initial values.
+        """
         for global_var in self.globals:
             global_var.value = deepcopy(global_var.init_value)
 
     def get_global_by_name(self, name: str):
-        """Returns the global variable with the given name."""
+        """
+        Returns the global variable with the given name.
+        """
         for global_var in self.globals:
             if global_var.name == name:
                 return global_var
         return None
 
     def get_relative_index(self, name: str):
-        """Returns the index of the global variable with the given name."""
+        """
+        Returns the index of the global variable with the given name.
+        """
         for i, global_var in enumerate(self.globals):
             if global_var.name == name:
                 return i
         return None
 
     def __str__(self):
-        """Returns a string representation of the global state."""
+        """
+        Returns a string representation of the global state.
+        """
         return ", ".join(global_var.name +" = "+ str(global_var.value) for global_var in self.globals)

@@ -1,7 +1,9 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import copy
 import random
 from typing import Type, List
-
 from core.config.config import MAX_TABLE_SIZE, MAX_TABLES_PER_MODULE
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
@@ -9,8 +11,10 @@ from core.state.tables import Table
 from core.tile import AbstractTile, AbstractTileFactory
 from core.value import I32, RefFunc
 
-
 def generate_random_table_name(global_state: GlobalState) -> str:
+    """
+    Generates a random table name that is not already used in the global state.
+    """
     while True:
         name = f"tab_{random.randint(0, 2 ** 32 - 1)}"
         for table_name in global_state.tables.tables:
@@ -20,11 +24,13 @@ def generate_random_table_name(global_state: GlobalState) -> str:
 
 
 class AbstractTableFactory(AbstractTileFactory):
+    """
+    Factory for generating table get and set tiles.
+    """
     def __init__(self, seed: int, tile_loader):
         super().__init__(seed, tile_loader)
 
-    def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> [
-        Type[AbstractTile]]:
+    def generate_all_placeable_tiles(self, global_state: GlobalState, current_function: Function, current_blocks: List[Block]):
         for table in global_state.tables.tables.values():
             table_get_tile = self.create_table_get_tile(table.name,global_state.tables.get(table.name).index)
             if table_get_tile.can_be_placed(global_state, current_function, current_blocks):
@@ -38,13 +44,16 @@ class AbstractTableFactory(AbstractTileFactory):
                                                   create_table=True)
         if new_set_tile.can_be_placed(global_state, current_function, current_blocks):
             yield new_set_tile
-        #Currently disabled to not flood the stack with null ref
+
         new_get_tile = self.create_table_get_tile(generate_random_table_name(global_state),len(global_state.tables),
                                                     create_table=True)
         if new_get_tile.can_be_placed(global_state, current_function, current_blocks):
             yield new_get_tile
 
     def create_table_get_tile(self, table_name: str, table_index: int, create_table: bool = False):
+        """
+        Used for creating table get tiles.
+        """
 
         class TableGet(AbstractTile):
             name = f"Get table"
@@ -63,7 +72,7 @@ class AbstractTableFactory(AbstractTileFactory):
             def can_be_placed(current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
                 if not create_table:
                     TableGet.table_size = current_state.tables.tables[table_name].size
-                #Check if last value is a valid index
+                # Check if last value is a valid index
                 if len(current_state.stack.get_current_frame().stack) < 1:
                     return False
                 if not isinstance(current_state.stack.get_current_frame().stack[-1], I32):
@@ -94,7 +103,9 @@ class AbstractTableFactory(AbstractTileFactory):
         return TableGet
 
     def create_table_set_tile(self, table_name: str, table_index: int, create_table: bool = False):
-        """Used for creating local set tiles"""
+        """
+        Used for creating table set tiles.
+        """
 
         class TableSet(AbstractTile):
             name = f"Set table"

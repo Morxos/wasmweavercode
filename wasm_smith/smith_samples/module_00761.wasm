@@ -1,7 +1,0 @@
-(module
-  (import "\u{e}v" "" (memory (;0;) i64 76 231488869413108))
-  (import "" "" (global (;0;) structref))
-  (table (;0;) i64 2667 arrayref)
-  (elem (;0;) declare eqref)
-  (data (;0;) "\ed\f1(")
-)

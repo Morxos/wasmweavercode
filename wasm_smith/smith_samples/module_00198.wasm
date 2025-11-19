@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 1338 arrayref ref.null none)
-  (memory (;0;) i64 11587 245124672678389)
-  (elem (;0;) declare nullref)
-)

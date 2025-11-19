@@ -1,6 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -950177875)
-  (export "" (global 0))
-  (export "]" (global 0))
-  (export ",>xX\u{1e}\u{15}\u{16}" (global 0))
-)

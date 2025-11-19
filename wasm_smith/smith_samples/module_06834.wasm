@@ -1,7 +1,0 @@
-(module
-  (import "-a\u{12}\u{447}unw" "" (memory (;0;) 11731))
-  (global (;0;) i32 i32.const 2077752196)
-  (elem (;0;) i31ref)
-  (elem (;1;) externref (ref.null extern) (ref.null extern) (ref.null noextern) (ref.null noextern) (ref.null extern))
-  (elem (;2;) declare externref)
-)

@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) 242 658442 arrayref))
-  (data (;0;) "\d8\ff\d4")
-)

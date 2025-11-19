@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 9100 209190 arrayref ref.null none)
-  (export " /" (table 0))
-  (elem (;0;) (table 0) (i32.const 79) arrayref)
-)

@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 61896 shared))
-  (import "" "" (global (;0;) (mut f32)))
-  (table (;0;) 1603 786815 arrayref)
-  (elem (;0;) externref)
-)

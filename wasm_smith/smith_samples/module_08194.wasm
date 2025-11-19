@@ -1,7 +1,0 @@
-(module
-  (import "%U\u{6}" "" (global (;0;) i32))
-  (import "" "" (memory (;0;) i64 526))
-  (import "\u{3}Y" "" (table (;0;) 164 anyref))
-  (global (;1;) f32 f32.const 0x1.978b48p+115 (;=66127806000000000000000000000000000;))
-  (export "" (table 0))
-)

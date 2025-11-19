@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 66 nullref)
-  (data (;0;) "\d8")
-  (data (;1;) "\d6T\dc\f9\92\d2[\bb")
-)

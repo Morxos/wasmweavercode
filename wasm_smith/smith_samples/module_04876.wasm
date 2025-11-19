@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 3077))
-  (import "" "" (table (;0;) i64 137 562355 exnref))
-  (global (;0;) (mut nullfuncref) ref.null nofunc)
-  (global (;1;) (mut f32) f32.const -0x1.dfcdep-28 (;=-0.00000000698207;))
-  (export "*7" (global 0))
-  (elem (;0;) (table 0) (i64.const 109) exnref)
-  (data (;0;) "")
-)

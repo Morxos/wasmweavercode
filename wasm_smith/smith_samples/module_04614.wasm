@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 2778 4996))
-  (global (;0;) i64 i64.const 4115629886912120643 i64.const 1038660154621896273 i64.const -7872227227775430067 i64.const -5855990205693102313 i64.const 8273904760117296480 i64.const 6951119723726188728 i64.const 396084094159842450 i64.const -5744014911446580215 i64.sub i64.mul i64.const 5532078874603621453 i64.sub i64.const -3553070085489894729 i64.sub i64.add i64.sub i64.add i64.mul i64.sub)
-  (export "" (global 0))
-  (elem (;0;) eqref)
-  (data (;0;) (i32.const 375727) "")
-  (data (;1;) "\86\91\08\a7")
-)

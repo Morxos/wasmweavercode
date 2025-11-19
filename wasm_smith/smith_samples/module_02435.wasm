@@ -1,7 +1,0 @@
-(module
-  (import "\u{4fa}p\u{a}" "" (table (;0;) 2843 392082 nullref))
-  (global (;0;) (mut i32) i32.const 1099023127 i32.const 1500364079 i32.const 425421776 i32.const 767628477 i32.mul i32.const -1974570417 i32.const 465188744 i32.const 1352214487 i32.add i32.add i32.const 2008368672 i32.add i32.sub i32.mul i32.mul)
-  (export "" (table 0))
-  (elem (;0;) (table 0) (i32.const 2405) nullref (ref.null none))
-  (data (;0;) "\1c")
-)

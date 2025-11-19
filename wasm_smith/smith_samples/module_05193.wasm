@@ -1,9 +1,0 @@
-(module
-  (import "\u{2}" "" (memory (;0;) 12 1524))
-  (import "B\u{7}>6" "" (global (;0;) f32))
-  (global (;1;) i31ref ref.null i31)
-  (global (;2;) (mut f64) f64.const -0x1.4fe35cb528cf1p-78 (;=-0.000000000000000000000004341252373424258;))
-  (elem (;0;) declare nullfuncref)
-  (data (;0;) (i32.const 38561) "")
-  (data (;1;) (i32.const 114) "")
-)

@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) declare anyref (ref.null any) (ref.null struct) (ref.null none))
-  (elem (;1;) exnref)
-  (data (;0;) "\94")
-)

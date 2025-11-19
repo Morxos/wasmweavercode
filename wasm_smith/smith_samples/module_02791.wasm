@@ -1,9 +1,0 @@
-(module
-  (rec
-    (type (;0;) (sub (array (mut f64))))
-    (type (;1;) (array nullfuncref))
-  )
-  (import "" "" (memory (;0;) i64 610))
-  (global (;0;) (mut i32) i32.const -1543569352 i32.const 980498239 i32.const -1197634415 i32.const 1762571656 i32.const -544854231 i32.const 461024458 i32.sub i32.const 340874843 i32.const 810288233 i32.add i32.mul i32.const 1077849012 i32.add i32.mul i32.mul i32.mul i32.sub)
-  (global (;1;) (ref null 0) ref.null none)
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut nullfuncref)))
-  (import "mI3" "" (memory (;0;) i64 0 39061277902776))
-  (export "." (global 0))
-  (export "J" (global 0))
-  (data (;0;) "M\c4")
-)

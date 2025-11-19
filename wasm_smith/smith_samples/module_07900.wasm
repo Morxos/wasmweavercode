@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (import "" "" (table (;0;) i64 0 arrayref))
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "\a2\b8")
-)

@@ -1,5 +1,0 @@
-(module
-  (import "q[`X" "" (table (;0;) i64 177 nullexternref))
-  (data (;0;) "")
-  (data (;1;) "")
-)

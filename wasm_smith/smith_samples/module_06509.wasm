@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 eqref))
-  (memory (;0;) i64 1263 21368829788733)
-  (export "" (table 0))
-  (export "1" (memory 0))
-)

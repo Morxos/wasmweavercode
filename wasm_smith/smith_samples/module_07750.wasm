@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 structref ref.null struct)
-  (export "" (table 0))
-  (export "B\u{5fc}[" (table 0))
-  (export "2" (table 0))
-  (export "-" (table 0))
-  (elem (;0;) eqref (ref.null i31))
-  (data (;0;) "")
-)

@@ -1,9 +1,11 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import json
 import os
-
 import numpy as np
 
-o3_stack_dir = "other_output_500"
+samples_path = "<path to generated samples here>"
 
 total_lengths = []
 target_lengths = []
@@ -13,9 +15,9 @@ length_reward = []
 module_reward = []
 
 
-for file in os.listdir(o3_stack_dir):
+for file in os.listdir(samples_path):
     if file.endswith(".json"):
-        with open(os.path.join(o3_stack_dir, file), "r") as f:
+        with open(os.path.join(samples_path, file), "r") as f:
             data = json.load(f)
             if data["reward"] == -1:
                 continue

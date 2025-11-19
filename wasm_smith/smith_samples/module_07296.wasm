@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 2941 157246 exnref ref.null exn)
-  (memory (;0;) i64 56 32624959134133)
-  (elem (;0;) declare funcref)
-  (data (;0;) "")
-)

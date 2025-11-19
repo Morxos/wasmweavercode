@@ -1,7 +1,0 @@
-(module
-  (import "2" "" (table (;0;) i64 0 189509 nullexternref))
-  (import "[" "" (global (;0;) (mut i64)))
-  (export "" (global 0))
-  (elem (;0;) externref (ref.null noextern))
-  (data (;0;) "")
-)

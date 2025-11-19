@@ -1,6 +1,0 @@
-(module
-  (import "W" "" (memory (;0;) i64 0 140616374498934))
-  (table (;0;) i64 12 nullexternref ref.null noextern)
-  (export "" (memory 0))
-  (export "{" (memory 0))
-)

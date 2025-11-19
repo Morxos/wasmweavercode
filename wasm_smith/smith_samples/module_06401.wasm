@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 3 externref)
-  (export "zS" (table 0))
-  (export "" (table 0))
-  (export "\u{1c}" (table 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

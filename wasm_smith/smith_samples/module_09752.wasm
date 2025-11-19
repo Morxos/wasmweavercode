@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) externref))
-  (import "F" "" (table (;0;) 0 402553 anyref))
-  (export "0" (global 0))
-  (export "\u{11}K" (global 0))
-)

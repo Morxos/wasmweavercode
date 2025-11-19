@@ -1,6 +1,0 @@
-(module
-  (global (;0;) i32 i32.const 1547029715)
-  (export "g" (global 0))
-  (data (;0;) "[")
-  (data (;1;) "")
-)

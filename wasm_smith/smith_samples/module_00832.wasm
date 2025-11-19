@@ -1,8 +1,0 @@
-(module
-  (import " i6" "" (table (;0;) i64 115 arrayref))
-  (import "" "" (global (;0;) (mut f64)))
-  (import "(4[" "" (global (;1;) (mut f64)))
-  (elem (;0;) (table 0) (i64.const 0) arrayref (ref.null array) (ref.null none) (ref.null none) (ref.null array) (ref.null array) (ref.null array) (ref.null none))
-  (elem (;1;) declare externref (ref.null noextern))
-  (data (;0;) "\ea\fa")
-)

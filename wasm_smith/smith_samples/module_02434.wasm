@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 5988 arrayref ref.null none)
-  (memory (;0;) 114)
-)

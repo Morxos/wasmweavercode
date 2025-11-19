@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 0 208782146133621))
-  (import "\u{77d}0j." "" (table (;0;) i64 4905 arrayref))
-  (import "2\u{13e}E" "" (global (;0;) i64))
-  (import "" "" (global (;1;) (mut i64)))
-)

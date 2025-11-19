@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 9704 11780 shared))
-  (table (;0;) i64 4619 eqref)
-  (export "" (table 0))
-  (elem (;0;) declare nullexternref)
-)

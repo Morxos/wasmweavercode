@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 45 57397 shared))
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (export "~\u{12}Ik1" (memory 0))
-  (export "5" (memory 0))
-)

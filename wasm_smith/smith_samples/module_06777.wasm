@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut nullfuncref)))
-  (import "" "" (global (;1;) (mut f32)))
-  (table (;0;) 3120 anyref ref.null struct)
-  (global (;2;) (mut nullfuncref) ref.null nofunc)
-  (export "" (global 1))
-  (export "1" (global 1))
-  (export "B|!\u{a}&" (global 2))
-)

@@ -1,19 +1,19 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import numpy as np
-from gymnasium.spaces import Dict, MultiDiscrete, Box
-import math
-import sys
+from gymnasium.spaces import Box
 from core.config.config import MAX_STACK_SIZE
-from core.state.stack import Stack, StackFrame
+from core.state.stack import Stack
 from core.state.state import GlobalState
 from core.value import I32, I64, F32, F64, RefFunc
-from drl.embedder.sequence import SequenceEncoder
-from drl.embedder.values import embedd_value_type, MAX_VALUE_TYPE_INDEX, symlog_to_unit
-import torch
-import torch.nn as nn
-
+from drl.embedder.values import embedd_value_type,  symlog_to_unit
 
 
 class StackEmbedder:
+    """
+    Embeds the stack into a fixed size tensor.
+    """
     def __init__(self):
         ...
 
@@ -31,7 +31,6 @@ class StackEmbedder:
             else:
                 mask[i] = 0
         values_tensor = np.zeros(MAX_STACK_SIZE, dtype=np.float32)
-        stack_size = np.float32(len(current_stack_frame.stack))
         for i, value in enumerate(stack_values):
             id_tensor[i] = embedd_value_type(value)
             if isinstance(value, I32):
@@ -51,26 +50,4 @@ class StackEmbedder:
                 raise ValueError(f"Unknown value type: {type(value)}")
 
         return np.array([id_tensor, values_tensor, mask], dtype=np.float32)
-
-
-
-if __name__ == "__main__":
-    stack = Stack()
-    stack.stack_frames.append(StackFrame())
-    stack.stack_frames[0].stack_push(I32(1))
-    stack.stack_frames[0].stack_push(I64(2))
-    stack.stack_frames[0].stack_push(F32(3.0))
-    stack.stack_frames[0].stack_push(F64(4.0))
-
-    stack_embedder = StackEmbedder()
-    embedding = stack_embedder(stack, GlobalState())
-    print(stack_embedder.get_space().contains(embedding))
-    print(embedding)
-
-    stack_encoder = SequenceEncoder(MAX_VALUE_TYPE_INDEX+1, 16, n_heads=2, n_layers=2, max_len=MAX_STACK_SIZE)
-    ids = torch.tensor(embedding[0], dtype=torch.int64).unsqueeze(0)
-    values = torch.tensor(embedding[1], dtype=torch.float32).unsqueeze(0)
-    mask = torch.tensor(embedding[2], dtype=torch.float32).unsqueeze(0)
-
-    print(stack_encoder(ids, values, mask))
 

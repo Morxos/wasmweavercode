@@ -1,9 +1,0 @@
-(module
-  (import "\u{12}\u{0}p\u{5c}" "" (table (;0;) i64 182 nullfuncref))
-  (import "" "" (global (;0;) (mut f64)))
-  (import "" "" (memory (;0;) 41 7468))
-  (global (;1;) (mut f32) f32.const -0x1.95881p+58 (;=-456587870000000000;))
-  (export "(" (table 0))
-  (export "|\u{8f}]|" (global 1))
-  (data (;0;) "\cd")
-)

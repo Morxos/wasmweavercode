@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 3751)
-  (global (;0;) f32 f32.const 0x1.5c0cf8p-72 (;=0.00000000000000000000028790076;))
-  (global (;1;) (mut i32) i32.const 559440170)
-  (export "" (global 0))
-  (export "+\u{5}" (memory 0))
-)

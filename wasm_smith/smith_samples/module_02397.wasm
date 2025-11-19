@@ -1,8 +1,0 @@
-(module
-  (import "\u{7}" "" (global (;0;) f64))
-  (import "G" "" (memory (;0;) 0 4570 shared))
-  (import "" "" (global (;1;) f64))
-  (import "" "" (global (;2;) (mut f64)))
-  (global (;3;) i32 i32.const 1454181098)
-  (data (;0;) "")
-)

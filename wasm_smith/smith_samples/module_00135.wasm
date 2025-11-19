@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 642 636810 exnref ref.null exn)
-  (elem (;0;) anyref)
-  (data (;0;) "\e9")
-)

@@ -1,15 +1,19 @@
-import numpy as np
-from gymnasium.spaces import Dict, Discrete, Box, MultiDiscrete
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
-from core.config.config import MAX_FUNCTION_INPUTS, MAX_FUNCTION_OUTPUTS, MAX_FUNCTIONS_PER_MODULE, MAX_BLOCK_INPUTS, \
+import numpy as np
+from gymnasium.spaces import Box
+
+from core.config.config import MAX_BLOCK_INPUTS, \
     MAX_BLOCK_OUTPUTS
-from core.state.functions import Function, Block, BlockType, MAX_BLOCK_TYPE_INDEX
-from core.value import I32, I64, F32, F64
+from core.state.functions import Block, MAX_BLOCK_TYPE_INDEX
 from drl.embedder.values import embedd_value_type, MAX_VALUE_TYPE_INDEX
 
 
 class BlockEmbedder:
-
+    """
+    Embeds a block into a fixed size tensor.
+    """
     def __init__(self):
         ...
 
@@ -33,6 +37,7 @@ class BlockEmbedder:
             outputs_tensor[i*(MAX_VALUE_TYPE_INDEX+1):(i+1)*(MAX_VALUE_TYPE_INDEX+1)] = one_hot
 
         type_tensor[block.type.value] = 1
+
         # Add depth
         depth_tensor = np.zeros(1, dtype=np.float32)
         depth_tensor[0] = depth
@@ -41,13 +46,3 @@ class BlockEmbedder:
         all_inputs = np.concatenate((inputs_tensor, outputs_tensor, np.array([block_input_count]), np.array([block_output_count]), type_tensor, depth_tensor))
 
         return all_inputs
-
-if __name__ == "__main__":
-    block = Block("test",index=1, type=BlockType.LOOP)
-    block.inputs = [I32, I64]
-    block.outputs = [F32, F64]
-    embedder = BlockEmbedder()
-    embedding = embedder(block)
-    print(embedding)
-    print(embedder.get_space().contains(embedding))
-    print(embedder.get_space())

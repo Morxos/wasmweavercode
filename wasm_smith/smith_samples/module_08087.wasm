@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 1941 2592))
-  (import "" "" (table (;0;) i64 247 i31ref))
-  (global (;0;) i64 i64.const -1693827126116294092 i64.const -2961340712144827647 i64.const 3105116944767081162 i64.const 3651748911213934025 i64.const 4442973647710547741 i64.const -8193074130811855099 i64.const -8621532954241823527 i64.const 749660950640028293 i64.add i64.sub i64.mul i64.add i64.add i64.const -8482535571516347288 i64.mul i64.add i64.sub i64.const 3632978754702392217 i64.mul)
-  (export "\u{43f}Pc34D~\u{48a}w" (table 0))
-  (export "\u{bda0} p?e" (table 0))
-  (data (;0;) "\bf\1e\f1")
-  (data (;1;) "\9dV<\c6")
-)

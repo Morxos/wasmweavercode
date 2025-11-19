@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 57 508464 exnref))
-  (data (;0;) "\c3M")
-  (data (;1;) "\01\e2\a4\08")
-)

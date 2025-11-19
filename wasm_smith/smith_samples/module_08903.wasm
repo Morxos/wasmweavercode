@@ -1,7 +1,0 @@
-(module
-  (import "6\u{b}4" "" (global (;0;) (mut f64)))
-  (table (;0;) 32 230238 anyref ref.null eq)
-  (memory (;0;) 278 58753 shared)
-  (export "" (table 0))
-  (data (;0;) (i32.const 103) "b")
-)

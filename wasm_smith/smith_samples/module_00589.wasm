@@ -1,4 +1,0 @@
-(module
-  (import "`?\u{253}m\u{1d}" "" (memory (;0;) 648))
-  (data (;0;) (i32.const 17129221) "")
-)

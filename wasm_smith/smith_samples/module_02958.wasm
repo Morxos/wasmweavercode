@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 188 358396 nullexternref)
-  (memory (;0;) 11946 22280 shared)
-  (data (;0;) "")
-  (data (;1;) "f")
-)

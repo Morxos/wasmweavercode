@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 3043 arrayref)
-  (memory (;0;) 0 32183)
-  (global (;0;) (mut f32) f32.const -0x1.8964a4p-10 (;=-0.0015006757;))
-  (elem (;0;) declare arrayref)
-  (data (;0;) "=")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "\u{a}" "" (memory (;0;) 536 952))
-  (import "}" "" (global (;0;) i64))
-  (import "9W" "" (global (;1;) f32))
-  (import "v" "" (table (;0;) i64 3 eqref))
-  (global (;2;) (mut eqref) ref.null i31)
-  (data (;0;) (i32.const 1) "n\07")
-  (data (;1;) "")
-)

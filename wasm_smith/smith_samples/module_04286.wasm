@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 1851)
-  (global (;0;) i32 i32.const 1986830849)
-  (global (;1;) (mut anyref) ref.null any)
-  (global (;2;) i64 i64.const -8282570407918389051)
-  (export "" (memory 0))
-)

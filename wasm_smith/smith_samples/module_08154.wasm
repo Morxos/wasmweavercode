@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 0 nullref ref.null none)
-  (memory (;0;) 65)
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-)

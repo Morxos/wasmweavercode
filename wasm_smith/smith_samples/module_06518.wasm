@@ -1,7 +1,0 @@
-(module
-  (import "\u{2a1}(t" "" (memory (;0;) 8 62458 shared))
-  (import "" "" (global (;0;) (mut i32)))
-  (elem (;0;) nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern))
-  (elem (;1;) declare eqref (ref.null array) (ref.null none) (ref.null eq) (ref.null struct) (ref.null i31) (ref.null eq) (ref.null none))
-  (data (;0;) "\97\f8,\af\04\ef\1b\d8|")
-)

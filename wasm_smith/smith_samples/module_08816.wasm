@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 nullexternref)
-  (export "" (table 0))
-  (export "\u{524}" (table 0))
-  (export "2" (table 0))
-  (elem (;0;) (table 0) (i64.const 0) nullexternref)
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) (table 0) (i64.const 0) nullexternref)
-)

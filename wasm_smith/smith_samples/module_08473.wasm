@@ -1,5 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 2218 10220))
-  (import "" "" (table (;0;) i64 299 726194 nullref))
-  (import "Zcv" "" (global (;0;) (mut i64)))
-)

@@ -1,9 +1,14 @@
-from typing import Dict, List, Type
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import Dict, List, Type
 from core.value import Ref, RefFunc
 
 
 class Table:
+    """
+    A simple table that stores a name, type and elements.
+    """
     def __init__(self, name: str, index:int, table_type: Type[RefFunc], size: int):
         self.name = name
         self.table_type = table_type
@@ -22,7 +27,9 @@ class Table:
 
 
 class Tables:
-    """A simple table state that stores all tables."""
+    """
+    A simple table state that stores all tables.
+    """
 
     def __init__(self):
         self.tables: Dict[str, Table] = {}

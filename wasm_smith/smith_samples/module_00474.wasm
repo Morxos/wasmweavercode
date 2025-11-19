@@ -1,5 +1,0 @@
-(module
-  (import "V" "" (table (;0;) 189 externref))
-  (import "@\u{15}" "" (memory (;0;) 4032))
-  (import "N" "" (global (;0;) (mut i64)))
-)

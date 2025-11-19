@@ -1,4 +1,0 @@
-(module
-  (import "B" "" (global (;0;) (mut f32)))
-  (elem (;0;) declare nullexternref (ref.null noextern))
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 74 exnref ref.null exn)
-  (memory (;0;) i64 19 139784500416832)
-  (global (;0;) (mut arrayref) ref.null array)
-  (export "\u{8}\u{1b}" (memory 0))
-)

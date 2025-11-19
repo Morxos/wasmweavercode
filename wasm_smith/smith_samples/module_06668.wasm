@@ -1,8 +1,0 @@
-(module
-  (import "\u{1a}" "" (global (;0;) (mut f32)))
-  (table (;0;) 0 694202 exnref)
-  (export "" (global 0))
-  (export "1" (table 0))
-  (elem (;0;) eqref (ref.null eq))
-  (data (;0;) "")
-)

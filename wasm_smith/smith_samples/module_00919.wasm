@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 9 nullfuncref))
-  (memory (;0;) i64 9626 82420676518571)
-  (export "\u{cbca}" (memory 0))
-)

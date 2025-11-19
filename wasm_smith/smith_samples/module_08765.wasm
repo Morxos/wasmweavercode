@@ -1,4 +1,0 @@
-(module
-  (import "\u{0}z" "" (global (;0;) (mut exnref)))
-  (data (;0;) "")
-)

@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1079 854282 nullexternref))
-  (import "D" "" (memory (;0;) i64 6047 59568871198122))
-)

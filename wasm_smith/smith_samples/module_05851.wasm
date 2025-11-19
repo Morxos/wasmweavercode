@@ -1,9 +1,0 @@
-(module
-  (import "Ls^/\u{8}\u{13}\u{479}" "" (table (;0;) 23 43545 nullref))
-  (import "" "" (memory (;0;) i64 3 246547298354903 shared))
-  (import "5" "" (global (;0;) (mut f64)))
-  (import "" "" (global (;1;) (mut f32)))
-  (import "" "" (global (;2;) (mut i64)))
-  (import "^)" "" (global (;3;) i32))
-  (data (;0;) (i64.const 484) "")
-)

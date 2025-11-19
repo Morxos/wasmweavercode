@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 0 150191162516837 shared)
-  (global (;0;) nullref ref.null none)
-  (global (;1;) i64 i64.const -9025464613148406684 i64.const -5053501433696637202 i64.const 3150072397605007377 i64.const -5007637129457370576 i64.const 9106146526592076593 i64.const 3338665379586288290 i64.const 5548795091024333628 i64.const 7591953927456998338 i64.const 1623164854587738935 i64.const -6903863111233282980 i64.add i64.add i64.const 5377239996276173891 i64.mul i64.mul i64.add i64.sub i64.sub i64.mul i64.add i64.mul)
-  (export "" (memory 0))
-  (export "E\u{9}" (memory 0))
-  (export "2" (global 0))
-  (elem (;0;) i31ref (ref.null i31))
-)

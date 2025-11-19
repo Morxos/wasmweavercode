@@ -1,5 +1,0 @@
-(module
-  (import "KL\u{306}" "" (table (;0;) 163 628801 exnref))
-  (import "\u{15}" "" (memory (;0;) i64 5650))
-  (import "" "" (global (;0;) i64))
-)

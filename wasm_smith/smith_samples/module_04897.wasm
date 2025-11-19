@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 759)
-  (export "" (memory 0))
-  (elem (;0;) anyref (ref.null eq))
-  (data (;0;) "")
-  (data (;1;) (i32.const 367269) "\9bC")
-)

@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) 4700)
-  (global (;0;) (mut i64) i64.const 2949485359867074621)
-  (export "\u{f}<" (memory 0))
-  (elem (;0;) declare nullref (ref.null none))
-)

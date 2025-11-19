@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 20 788711 nullfuncref ref.null nofunc)
-  (memory (;0;) 165 30605 shared)
-  (export "6g" (table 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

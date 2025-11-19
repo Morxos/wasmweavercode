@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) f64))
-  (memory (;0;) 1226 11124 shared)
-  (global (;1;) (mut i32) i32.const -1709866403 i32.const -1948666165 i32.const 2073404861 i32.const 1015294152 i32.const -1162853505 i32.const 1370725941 i32.const 2124137507 i32.const -38862562 i32.const 110946456 i32.const 1967943603 i32.sub i32.add i32.sub i32.add i32.add i32.sub i32.sub i32.const 1793389023 i32.sub i32.add i32.mul)
-  (elem (;0;) declare exnref)
-  (data (;0;) "\de=")
-)

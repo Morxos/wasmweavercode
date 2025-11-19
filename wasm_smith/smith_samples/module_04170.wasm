@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 6645 63264))
-  (import "$" "" (table (;0;) 1540 nullref))
-  (import "" "" (global (;0;) i64))
-  (global (;1;) (mut f32) f32.const 0x1.f594bap-123 (;=0.00000000000000000000000000000000000018425175;))
-  (global (;2;) f64 f64.const 0x1.f489dae18a539p+122 (;=10395777843695583000000000000000000000;))
-  (export "\u{18}\u{4}" (table 0))
-)

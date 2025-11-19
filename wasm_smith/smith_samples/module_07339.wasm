@@ -1,6 +1,0 @@
-(module
-  (global (;0;) f32 f32.const -0x1.f9f6fap-36 (;=-0.000000000028760766;))
-  (export "" (global 0))
-  (elem (;0;) exnref (ref.null exn))
-  (elem (;1;) anyref (ref.null any))
-)

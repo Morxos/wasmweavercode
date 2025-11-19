@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 6218 971350 nullexternref))
-  (memory (;0;) 0)
-  (elem (;0;) (table 0) (i32.const 3221) nullexternref (ref.null noextern))
-)

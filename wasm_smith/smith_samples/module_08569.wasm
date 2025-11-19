@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) f32))
-  (global (;1;) (mut arrayref) ref.null array)
-  (export "" (global 1))
-  (export "I" (global 1))
-)

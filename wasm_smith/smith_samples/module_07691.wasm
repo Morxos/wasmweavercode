@@ -1,9 +1,0 @@
-(module
-  (global (;0;) (mut i64) i64.const 3191898101444563069)
-  (elem (;0;) declare externref)
-  (elem (;1;) declare arrayref)
-  (data (;0;) "\1d\aa")
-  (data (;1;) "")
-  (data (;2;) "")
-  (data (;3;) "\80")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 9 anyref))
-  (memory (;0;) i64 0)
-  (global (;0;) f64 f64.const 0x1.f6ff6239ea067p-193 (;=0.0000000000000000000000000000000000000000000000000000000001565080851624336;))
-  (elem (;0;) (table 0) (i64.const 0) structref (ref.null struct))
-  (elem (;1;) (table 0) (i64.const 0) eqref (ref.null i31) (ref.null i31))
-  (elem (;2;) (table 0) (i64.const 2) structref (ref.null none))
-  (elem (;3;) declare i31ref)
-)

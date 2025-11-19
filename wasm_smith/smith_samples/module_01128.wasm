@@ -1,5 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f32)))
-  (export "" (global 0))
-  (elem (;0;) declare nullref (ref.null none))
-)

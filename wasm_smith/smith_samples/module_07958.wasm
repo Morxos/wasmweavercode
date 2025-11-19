@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 3682 150384 exnref ref.null exn)
-  (data (;0;) "s\ca")
-  (data (;1;) "")
-  (data (;2;) "\d9")
-  (data (;3;) "")
-  (data (;4;) "")
-  (data (;5;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "%|(v\u{10}A" "" (table (;0;) 61 structref))
-  (export "A\u{1b}" (table 0))
-  (export "" (table 0))
-  (data (;0;) "")
-)

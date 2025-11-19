@@ -1,4 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const 1547888071 i32.const 172481395 i32.const 336456516 i32.const 1928152822 i32.const -1640542540 i32.const 1616201782 i32.const 852614116 i32.const -1995261131 i32.const -1497731963 i32.const -1715045904 i32.mul i32.sub i32.mul i32.sub i32.sub i32.add i32.add i32.sub i32.mul)
-  (export "" (global 0))
-)

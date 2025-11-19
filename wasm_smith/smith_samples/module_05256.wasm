@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 266 255808753047256)
-  (export "6\u{1d}" (memory 0))
-  (data (;0;) (i64.const 137780) "")
-)

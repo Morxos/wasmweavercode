@@ -1,8 +1,0 @@
-(module
-  (memory (;0;) i64 848)
-  (elem (;0;) declare exnref)
-  (elem (;1;) funcref (ref.null func) (ref.null func) (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) declare exnref)
-  (elem (;3;) declare anyref (ref.null struct))
-  (data (;0;) (i64.const 144474) "\96")
-)

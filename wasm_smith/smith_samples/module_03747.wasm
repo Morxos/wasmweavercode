@@ -1,6 +1,0 @@
-(module
-  (global (;0;) i32 i32.const -378617072 i32.const -1123789376 i32.const -1952490334 i32.const 434890018 i32.const -595005932 i32.const -172739564 i32.const -1699460119 i32.const -1070362895 i32.const -2062506854 i32.const -1835408357 i32.const 2014056638 i32.const 1513768002 i32.add i32.add i32.add i32.mul i32.mul i32.sub i32.sub i32.sub i32.mul i32.mul i32.add)
-  (global (;1;) (mut f64) f64.const 0x1.6fb17b9437a78p-204 (;=0.000000000000000000000000000000000000000000000000000000000000055863305008721045;))
-  (export "0\u{427}=\u{a}" (global 0))
-  (export "b" (global 0))
-)

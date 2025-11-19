@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 2245)
-  (global (;0;) (mut f32) f32.const 0x1.d8e762p-105 (;=0.000000000000000000000000000000045538983;))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) "")
-)

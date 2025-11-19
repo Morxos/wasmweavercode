@@ -1,10 +1,11 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import json
 import math
 from pathlib import Path
 from typing import Literal, List, Dict, Tuple
-
 import numpy as np
-
 from experiments.eval.models.model import Model
 
 def generate_reachability_prompt():
@@ -137,7 +138,6 @@ def judge_wasm_result(meta_file_path: str,
         while True:
             try:
                 output = model.predict(complete_prompt)
-                print("Model output:", output)
                 break
             except Exception as e:
                 print(f"Error while running model: {e}")
@@ -173,7 +173,6 @@ def judge_wasm_result_string(meta_dict: dict,
         while True:
             try:
                 output = model.predict(complete_prompt)
-                print("Model output:", output)
                 break
             except Exception as e:
                 print(f"Error while running model: {e}")
@@ -192,7 +191,7 @@ def judge_wasm_result_string(meta_dict: dict,
     else:
         raise NotImplementedError
 
-def are_almost_equal(a, b, tolerance=1e-5): #Large value here
+def are_almost_equal(a, b, tolerance=1e-5):
     return math.isclose(a, b, rel_tol=tolerance, abs_tol=tolerance)
 
 def same_i64_bit_pattern(a: int, b: int) -> bool:
@@ -210,12 +209,12 @@ def compare_flag_with_model_output(
     target: Dict[str,str],
     model_output: str,
 ):
-    #Check if start and end labels are in the model output
+    # Check if start and end labels are in the model output
     if not all(label in model_output for label in ["<OUTPUT>", "</OUTPUT>"]):
         print("Got model output:", model_output)
         print("Model output does not contain start and end labels")
         return ["error_labels"]
-    #Check if the model output is a valid JSON
+    # Check if the model output is a valid JSON
     try:
         errors = []
         json_part = model_output.split("<OUTPUT>")[-1].split("</OUTPUT>")[0]
@@ -223,7 +222,7 @@ def compare_flag_with_model_output(
         print("Reference flags:", target)
         model_output = json.loads(json_part)
         model_output = model_output["flag_states"]
-        #Check sizes
+        # Check sizes
         if len(target) != len(model_output):
             print(f"Flag length mismatch: {len(target)} != {len(model_output)}")
             errors.append("error_length")
@@ -231,7 +230,6 @@ def compare_flag_with_model_output(
             if target_flag_name not in model_output:
                 print(f"Flag {target_flag_name} not found in model output")
                 errors.append(f"error_flag_{target_flag_name}")
-                #errors.append(f"error_value_{target_flag_name}")
             else:
                 errors.append("success_flag_"+target_flag_name)
                 if str(target[target_flag_name]).lower() != str(model_output[target_flag_name]).lower():
@@ -255,12 +253,12 @@ def compare_stack_results_with_model_output(
     model_output: str,
     dict_key: str = "stack_values",
 ):
-    #Check if start and end labels are in the model output
+    # Check if start and end labels are in the model output
     if not all(label in model_output for label in ["<OUTPUT>", "</OUTPUT>"]):
         print("Got model output:", model_output)
         print("Model output does not contain start and end labels")
         return ["error_labels"]
-    #Check if the model output is a valid JSON
+    # Check if the model output is a valid JSON
     try:
         json_part = model_output.split("<OUTPUT>")[1].split("</OUTPUT>")[0]
         print("Model json response:", json_part)
@@ -281,7 +279,7 @@ def compare_stack_results_with_model_output(
                 results.append(f"success_type_{stack_value_dict['type']}_{i}")
 
             if stack_value_dict["type"].lower() == "i32":
-                #Check if values can be converted to int
+                # Check if values can be converted to int
                 try:
                     int(stack_value_dict["value"])
                     int(model_value_dict["value"])
@@ -297,7 +295,7 @@ def compare_stack_results_with_model_output(
                     results.append(f"success_value_{stack_value_dict['type']}_{i}")
 
             elif stack_value_dict["type"].lower() == "i64":
-                #Check if values can be converted to int
+                # Check if values can be converted to int
                 try:
                     int(stack_value_dict["value"])
                     int(model_value_dict["value"])
@@ -313,9 +311,9 @@ def compare_stack_results_with_model_output(
                     results.append(f"success_value_{stack_value_dict['type']}_{i}")
 
             elif stack_value_dict["type"].lower() == "f32" or stack_value_dict["type"].lower() == "f64":
-                #Check if values can be converted to float
+                # Check if values can be converted to float
                 try:
-                    #Check if both values are NaN or inf
+                    # Check if both values are NaN or inf
                     if str(stack_value_dict["value"]).lower() == str(model_value_dict["value"]).lower():
                         if str(stack_value_dict["value"]).lower() in ["nan", "inf", "-inf"]:
                             print(f"Value match: {stack_value_dict['value']} == {model_value_dict['value']}")

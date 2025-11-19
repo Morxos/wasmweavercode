@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (table (;0;) i64 2216 i31ref)
-  (global (;1;) i32 i32.const -1071318600 i32.const -1897406635 i32.mul)
-  (data (;0;) "")
-)

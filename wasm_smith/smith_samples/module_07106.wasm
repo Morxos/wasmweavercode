@@ -1,6 +1,0 @@
-(module
-  (import "\u{1}\u{782}~" "" (table (;0;) 282 nullfuncref))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-  (data (;0;) "")
-  (data (;1;) "n\08")
-)

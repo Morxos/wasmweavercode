@@ -1,6 +1,0 @@
-(module
-  (import "\u{1e}$Hu" "" (global (;0;) i32))
-  (import "_" "" (memory (;0;) i64 1 113139277581720 shared))
-  (import "#L" "" (table (;0;) 0 i31ref))
-  (export "" (table 0))
-)

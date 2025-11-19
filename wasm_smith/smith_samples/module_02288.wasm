@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 40 60036))
-  (table (;0;) i64 703 i31ref)
-  (global (;0;) exnref ref.null exn)
-  (export "" (global 0))
-)

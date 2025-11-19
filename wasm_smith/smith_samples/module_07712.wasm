@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 3204 74665593397729 shared)
-  (data (;0;) (i64.const 4620754) "\dc")
-)

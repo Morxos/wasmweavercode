@@ -1,9 +1,0 @@
-(module
-  (import "=m" "" (memory (;0;) i64 54 184203176201333 shared))
-  (import "" "" (global (;0;) (mut i32)))
-  (import "\u{1f}" "" (global (;1;) f32))
-  (import "" "" (global (;2;) i64))
-  (table (;0;) 4765 242592 externref)
-  (elem (;0;) anyref (ref.null eq))
-  (data (;0;) (global.get 2) "")
-)

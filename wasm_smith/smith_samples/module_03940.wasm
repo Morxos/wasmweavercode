@@ -1,8 +1,0 @@
-(module
-  (import "8=\u{b}s" "" (table (;0;) i64 0 eqref))
-  (global (;0;) (mut f32) f32.const -0x1.656beap-2 (;=-0.34904447;))
-  (export "" (global 0))
-  (export "sUNu" (global 0))
-  (export "\u{d}E_" (global 0))
-  (data (;0;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 9))
-  (global (;0;) structref ref.null none)
-  (global (;1;) (mut f64) f64.const 0x1.0f4b2efb1718ap-195 (;=0.000000000000000000000000000000000000000000000000000000000021103309380040712;))
-  (elem (;0;) i31ref (ref.null none))
-  (data (;0;) "")
-  (data (;1;) "\0c\17\5c")
-)

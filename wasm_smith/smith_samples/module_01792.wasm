@@ -1,7 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.ac3188p-113 (;=0.00000000000000000000000000000000016106849;))
-  (global (;1;) anyref ref.null i31)
-  (export "" (global 1))
-  (data (;0;) "")
-  (data (;1;) "")
-)

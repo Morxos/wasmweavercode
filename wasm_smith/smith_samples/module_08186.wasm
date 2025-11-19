@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 541 exnref)
-  (memory (;0;) i64 1285)
-  (data (;0;) (i64.const 49370140) "")
-  (data (;1;) (i64.const 35509) "")
-  (data (;2;) "")
-  (data (;3;) (i64.const 775462) "\88")
-  (data (;4;) "")
-)

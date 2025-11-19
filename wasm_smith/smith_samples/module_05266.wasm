@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 311 48860 arrayref)
-  (elem (;0;) i31ref (ref.null i31))
-  (elem (;1;) func)
-  (elem (;2;) declare nullref (ref.null none) (ref.null none))
-  (data (;0;) "\a6")
-)

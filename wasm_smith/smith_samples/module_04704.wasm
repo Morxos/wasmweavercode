@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 489 466192 arrayref)
-  (memory (;0;) 802 29115)
-  (global (;0;) funcref ref.null nofunc)
-)

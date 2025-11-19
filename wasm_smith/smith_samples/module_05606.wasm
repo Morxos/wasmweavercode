@@ -1,6 +1,0 @@
-(module
-  (import "=" "" (table (;0;) i64 2303 nullexternref))
-  (import "" "" (memory (;0;) 59))
-  (global (;0;) (mut i32) i32.const -1998082012)
-  (elem (;0;) (table 0) (i64.const 578) nullexternref)
-)

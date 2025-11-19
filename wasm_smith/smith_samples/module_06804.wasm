@@ -1,9 +1,0 @@
-(module
-  (import ">" "" (table (;0;) 0 nullfuncref))
-  (import "" "" (memory (;0;) i64 55 257672285563698 shared))
-  (export "" (table 0))
-  (elem (;0;) declare i31ref (ref.null i31))
-  (data (;0;) (i64.const 719) "\db")
-  (data (;1;) "Iym+?\d8")
-  (data (;2;) (i64.const 7542) "\be")
-)

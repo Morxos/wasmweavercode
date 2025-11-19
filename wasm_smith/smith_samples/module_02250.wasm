@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 1555 exnref)
-  (memory (;0;) 728 50205)
-  (global (;0;) externref ref.null noextern)
-  (global (;1;) (mut i64) i64.const 2308742071664394120)
-  (global (;2;) externref global.get 0)
-)

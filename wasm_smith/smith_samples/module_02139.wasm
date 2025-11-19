@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 169 funcref ref.null func)
-  (memory (;0;) i64 0)
-)

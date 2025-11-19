@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 38 273235825559999 shared)
-  (export "d}R" (memory 0))
-  (data (;0;) "\fbr")
-  (data (;1;) "\903")
-)

@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) anyref)
-  (data (;0;) "\91")
-  (data (;1;) "\d0")
-  (data (;2;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (import "Q\u{9}" "" (global (;0;) i64))
-  (table (;0;) i64 0 611817 funcref)
-  (memory (;0;) 11980 46155)
-  (global (;1;) f64 f64.const 0x1.91e2786885a0bp+276 (;=190607618994076060000000000000000000000000000000000000000000000000000000000000000000;))
-  (export "" (global 0))
-  (elem (;0;) (table 0) (global.get 0) nullfuncref (ref.null nofunc))
-)

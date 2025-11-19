@@ -1,7 +1,0 @@
-(module
-  (import "\u{19c}?E&F" "" (memory (;0;) 8117 25953))
-  (table (;0;) 4444 164664 eqref ref.null struct)
-  (data (;0;) "\a7n")
-  (data (;1;) ">}")
-  (data (;2;) (i32.const 80859) "F")
-)

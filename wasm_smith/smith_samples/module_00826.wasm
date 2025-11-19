@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 102 195390 structref)
-  (export "}Em" (table 0))
-  (export "}%" (table 0))
-  (elem (;0;) nullexternref)
-)

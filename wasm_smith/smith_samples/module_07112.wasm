@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 0 610366 exnref)
-  (elem (;0;) externref (ref.null extern))
-)

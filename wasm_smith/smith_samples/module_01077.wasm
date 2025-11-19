@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (global (;1;) (mut f32) f32.const -0x1.44345ep-121 (;=-0.0000000000000000000000000000000000004763758;))
-  (global (;2;) (mut i32) i32.const -1709193096)
-  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (elem (;1;) structref)
-  (data (;0;) "")
-  (data (;1;) "\ae")
-)

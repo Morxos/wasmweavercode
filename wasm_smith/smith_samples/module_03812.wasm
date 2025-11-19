@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 68 exnref))
-  (memory (;0;) i64 0 164443413104421)
-  (elem (;0;) eqref)
-  (data (;0;) "")
-  (data (;1;) "\bc")
-)

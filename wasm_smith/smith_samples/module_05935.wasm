@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 1 arrayref))
-  (import "0<" "" (memory (;0;) 0 49741))
-  (elem (;0;) (table 0) (i64.const 0) nullref)
-  (data (;0;) "\ce.\88\e5")
-  (data (;1;) "")
-)

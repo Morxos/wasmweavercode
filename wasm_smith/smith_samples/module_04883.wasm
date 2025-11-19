@@ -1,5 +1,0 @@
-(module
-  (import "zC^>\u{e}" "" (global (;0;) f64))
-  (import "" "" (global (;1;) (mut f32)))
-  (memory (;0;) i64 2375 232841874398066)
-)

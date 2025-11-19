@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 20 367503 nullfuncref))
-  (memory (;0;) i64 303 171213166239281 shared)
-  (export "" (memory 0))
-)

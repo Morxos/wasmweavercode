@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 4742 951079 nullfuncref ref.null nofunc)
-  (export "" (table 0))
-)

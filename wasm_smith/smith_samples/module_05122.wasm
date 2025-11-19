@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 36 226988 nullref))
-  (memory (;0;) i64 2812)
-  (export "%" (table 0))
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-)

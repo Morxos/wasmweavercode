@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 459 i31ref ref.null i31)
-  (global (;0;) nullfuncref ref.null nofunc)
-  (data (;0;) "")
-  (data (;1;) "\bdE`")
-)

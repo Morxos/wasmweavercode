@@ -1,9 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.4636b4p+121 (;=3387596600000000000000000000000000000;))
-  (export "" (global 0))
-  (export "\u{608f}yU" (global 0))
-  (export "2" (global 0))
-  (elem (;0;) declare func)
-  (elem (;1;) structref (ref.null struct))
-  (data (;0;) "")
-)

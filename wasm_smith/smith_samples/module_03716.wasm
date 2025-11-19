@@ -1,6 +1,0 @@
-(module
-  (global (;0;) anyref ref.null array)
-  (global (;1;) (mut i64) i64.const -4580245947462621310)
-  (export "" (global 0))
-  (export "i" (global 0))
-)

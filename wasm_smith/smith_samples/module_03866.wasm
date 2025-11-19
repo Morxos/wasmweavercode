@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 6 34193 shared)
-  (global (;0;) f32 f32.const 0x1.fccfdcp+2 (;=7.9501867;))
-  (export "Gm\u{1d}\u{1f}\u{d}" (global 0))
-  (elem (;0;) nullfuncref (ref.null nofunc))
-  (elem (;1;) declare exnref (ref.null exn) (ref.null exn))
-  (elem (;2;) externref (ref.null noextern))
-  (elem (;3;) declare eqref (ref.null i31))
-)

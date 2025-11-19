@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) 7710)
-  (global (;0;) (mut i64) i64.const -1573965760442148940)
-)

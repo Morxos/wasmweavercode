@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 428 arrayref)
-  (memory (;0;) i64 196)
-  (data (;0;) (i64.const 2207385) "v\90")
-  (data (;1;) (i64.const 13788) "")
-)

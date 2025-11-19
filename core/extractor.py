@@ -1,5 +1,4 @@
 import os
-import re
 import subprocess
 import tempfile
 import json
@@ -8,7 +7,6 @@ from collections import Counter
 import multiprocessing as mp
 from typing import Dict
 
-from core.analysis import wasm_to_wat
 from core.runner import wat_to_wasm_bytes
 
 

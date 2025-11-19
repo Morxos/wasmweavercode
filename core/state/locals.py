@@ -1,16 +1,22 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.value import Val
 
 
 class Locals:
-    """A simple local state that stores local variables."""
+    """
+    A simple local state that stores local variables.
+    """
 
     def __init__(self):
         self.locals: List[Val] = []
 
     def add(self, local: Val):
-        """Adds a local variable to the state and returns the index."""
+        """
+        Adds a local variable to the state and returns the index.
+        """
         if not isinstance(local, Val):
             raise ValueError("Local is not of type Val")
         self.locals.append(local)

@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 826109 eqref ref.null none)
-  (memory (;0;) i64 5792)
-  (global (;0;) (mut i64) i64.const -7569079189621139690 i64.const 6461002947442810973 i64.const -7118190437734815377 i64.const 104009338224951979 i64.const 8493193995690192450 i64.const 4309526479996802888 i64.const -6556631528608978967 i64.const -3621061132713409984 i64.add i64.const 5270426506375935920 i64.mul i64.mul i64.mul i64.sub i64.mul i64.sub i64.const 8188564250855466791 i64.sub i64.add)
-  (global (;1;) (mut i64) i64.const 8320628898782468277)
-  (export "m" (memory 0))
-  (elem (;0;) declare anyref)
-  (data (;0;) "")
-)

@@ -1,8 +1,0 @@
-(module
-  (type (;0;) (sub (array i16)))
-  (memory (;0;) 2320 51961 shared)
-  (export "N" (memory 0))
-  (elem (;0;) (ref null 0))
-  (elem (;1;) declare (ref null 0) (ref.null 0))
-  (data (;0;) (i32.const 642) "")
-)

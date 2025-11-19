@@ -1,6 +1,0 @@
-(module
-  (import "(co\u{a}" "" (table (;0;) i64 376 860028 i31ref))
-  (export "" (table 0))
-  (data (;0;) "\b4\0az")
-  (data (;1;) "\99")
-)

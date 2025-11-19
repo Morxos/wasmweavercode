@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut exnref)))
-  (import "tv" "" (memory (;0;) i64 0 270317630108964))
-  (table (;0;) 1017 69690 anyref)
-  (elem (;0;) funcref)
-  (elem (;1;) nullexternref)
-  (data (;0;) "~")
-  (data (;1;) "")
-)

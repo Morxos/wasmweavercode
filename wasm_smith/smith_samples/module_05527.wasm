@@ -1,9 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.5fcaaap+15 (;=45029.332;))
-  (global (;1;) (mut i64) i64.const -7571470960633772610 i64.const 685514658472827212 i64.const -8138610188843994723 i64.mul i64.add)
-  (global (;2;) (mut i32) i32.const -2088950521)
-  (data (;0;) "\0bR")
-  (data (;1;) "\c1h\a4\f3\02")
-  (data (;2;) "#\9a")
-  (data (;3;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "r\u{2}\u{342}" "" (table (;0;) 999968 999988 nullref))
-  (elem (;0;) declare i31ref)
-  (data (;0;) "")
-  (data (;1;) "\ed\d9")
-)

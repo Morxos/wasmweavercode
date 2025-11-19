@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 8277 453247 anyref)
-  (memory (;0;) i64 1283 113881712445187 shared)
-  (elem (;0;) nullfuncref)
-  (elem (;1;) exnref)
-)

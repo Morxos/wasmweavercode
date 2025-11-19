@@ -1,9 +1,0 @@
-(module
-  (import "l~" "" (memory (;0;) 233))
-  (global (;0;) i32 i32.const 1357382206)
-  (export "#" (global 0))
-  (export "\u{f}J\u{3};\u{1f}/" (memory 0))
-  (export "" (global 0))
-  (elem (;0;) declare structref (ref.null none) (ref.null struct))
-  (elem (;1;) nullexternref (ref.null noextern))
-)

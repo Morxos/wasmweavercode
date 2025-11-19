@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (global (;1;) (mut i64) i64.const 8367229653199214838)
-  (export "" (global 1))
-  (elem (;0;) funcref)
-  (data (;0;) "")
-)

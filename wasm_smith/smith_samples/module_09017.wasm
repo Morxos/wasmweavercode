@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 0 566693 nullref)
-  (elem (;0;) declare anyref (ref.null i31))
-  (data (;0;) "\09")
-)

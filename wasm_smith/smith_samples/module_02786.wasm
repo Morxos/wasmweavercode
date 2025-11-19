@@ -1,9 +1,0 @@
-(module
-  (import "~F" "" (global (;0;) (mut nullref)))
-  (import "" "" (global (;1;) (mut f32)))
-  (table (;0;) i64 2 nullexternref)
-  (global (;2;) f64 f64.const -0x1.1660f9d00baa3p+435 (;=-96481561883905150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;))
-  (global (;3;) (mut i64) i64.const 7276461678811133948)
-  (global (;4;) (mut f64) global.get 2)
-  (global (;5;) (mut i32) i32.const -1284951272)
-)

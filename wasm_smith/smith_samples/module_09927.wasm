@@ -1,5 +1,0 @@
-(module
-  (import "\u{12}hN" "" (table (;0;) i64 21 nullref))
-  (memory (;0;) 2287)
-  (data (;0;) (i32.const 160609) "")
-)

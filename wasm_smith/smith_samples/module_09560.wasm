@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 14 8692)
-  (global (;0;) nullref ref.null none)
-  (global (;1;) i32 i32.const 1143496693)
-  (global (;2;) f64 f64.const 0x1.e4628ba643447p-2 (;=0.4730321712712037;))
-  (data (;0;) (i32.const 15) "&")
-)

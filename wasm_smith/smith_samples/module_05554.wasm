@@ -1,8 +1,0 @@
-(module
-  (import "\u{6}Y1" "" (table (;0;) 3407 anyref))
-  (import "b\u{8}=W#" "" (global (;0;) (mut f64)))
-  (global (;1;) (mut f32) f32.const -0x1.544faap-43 (;=-0.00000000000015112853;))
-  (global (;2;) (mut i64) i64.const -6591465821646594584)
-  (data (;0;) "\1d")
-  (data (;1;) "\1c")
-)

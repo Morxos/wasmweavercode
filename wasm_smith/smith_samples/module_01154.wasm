@@ -1,7 +1,0 @@
-(module
-  (import "\u{5c}\u{11}>" "" (table (;0;) 847 nullexternref))
-  (import "" "" (memory (;0;) i64 0))
-  (data (;0;) "\1di")
-  (data (;1;) "")
-  (data (;2;) "\a6")
-)

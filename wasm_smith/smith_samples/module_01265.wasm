@@ -1,6 +1,0 @@
-(module
-  (import "\u{12}" "" (table (;0;) i64 21 311612 arrayref))
-  (import "" "" (global (;0;) (mut funcref)))
-  (import "\u{12}+" "" (global (;1;) (mut f64)))
-  (memory (;0;) i64 50)
-)

@@ -1,7 +1,0 @@
-(module
-  (import "\u{5}" "" (global (;0;) i32))
-  (memory (;0;) i64 13793 152202368721092)
-  (export "" (memory 0))
-  (export ">" (memory 0))
-  (elem (;0;) exnref (ref.null exn) (ref.null exn))
-)

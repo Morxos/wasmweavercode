@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1038 exnref)
-  (elem (;0;) nullexternref)
-  (elem (;1;) declare structref)
-  (elem (;2;) declare externref)
-  (elem (;3;) func)
-)

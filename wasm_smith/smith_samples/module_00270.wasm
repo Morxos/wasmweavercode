@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 2005 251202 eqref ref.null eq)
-  (global (;0;) (mut i64) i64.const -8944947137666376866)
-)

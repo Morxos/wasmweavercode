@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (import "" "" (table (;0;) 3 funcref))
-  (memory (;0;) i64 418)
-  (global (;1;) f32 f32.const 0x1.1ca8a8p-8 (;=0.004343549;))
-  (export "\u{15}" (global 1))
-  (data (;0;) "")
-)

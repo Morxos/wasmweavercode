@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 37 503162 exnref))
-  (import "" "" (global (;0;) (mut nullref)))
-  (import "" "" (memory (;0;) i64 1))
-  (export "\u{e};" (table 0))
-  (export "''" (table 0))
-)

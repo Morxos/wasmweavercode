@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 21 131140 externref ref.null noextern)
-  (memory (;0;) i64 12661 254469607678013)
-  (elem (;0;) declare arrayref)
-  (data (;0;) (i64.const 704483941) "")
-  (data (;1;) (i64.const 738693516) "\9d\a7")
-)

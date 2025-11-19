@@ -1,8 +1,0 @@
-(module
-  (import "\u{22}iQ" "" (global (;0;) f32))
-  (import "" "" (memory (;0;) i64 13151 111605761046530))
-  (table (;0;) 0 130611 externref)
-  (global (;1;) (mut i32) i32.const 1922792623 i32.const -681520616 i32.const -582835894 i32.const -1927357904 i32.const -43022903 i32.const -1204580740 i32.const -1059588608 i32.const 1732057006 i32.const -455386897 i32.const 1050897484 i32.const -1355450533 i32.const 569099568 i32.sub i32.mul i32.add i32.add i32.mul i32.add i32.mul i32.mul i32.add i32.mul i32.sub)
-  (export "=-\u{0}\u{1f}\u{5}4" (memory 0))
-  (data (;0;) "\19\aa\f6")
-)

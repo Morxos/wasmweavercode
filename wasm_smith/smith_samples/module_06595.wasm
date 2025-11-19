@@ -1,5 +1,0 @@
-(module
-  (import "?9\u{397}\u{17}" "" (memory (;0;) i64 12133))
-  (export "A\u{a}" (memory 0))
-  (data (;0;) "\b4\1c\95;")
-)

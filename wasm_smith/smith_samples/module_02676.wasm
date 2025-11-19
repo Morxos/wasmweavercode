@@ -1,6 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const 0x1.c4fe88p+90 (;=2190545800000000000000000000;))
-  (export "\u{625}ye\u{a}" (global 0))
-  (elem (;0;) nullref)
-  (data (;0;) "&")
-)

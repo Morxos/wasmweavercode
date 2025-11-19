@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 18 237798230354994)
-  (global (;0;) eqref ref.null struct)
-  (export "7\u{11}IDM\u{14}" (global 0))
-  (data (;0;) (i64.const 377676) "Z")
-  (data (;1;) "")
-)

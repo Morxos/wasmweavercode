@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 8318))
-  (global (;0;) f64 f64.const 0x1.633fcd2c573b8p-97 (;=0.000000000000000000000000000008757569524202712;))
-  (global (;1;) (mut i64) i64.const 7549932282988964942)
-  (global (;2;) (mut funcref) ref.null nofunc)
-  (export "O" (global 1))
-)

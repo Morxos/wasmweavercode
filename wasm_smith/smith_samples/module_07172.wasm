@@ -1,6 +1,0 @@
-(module
-  (import "b-f" "" (table (;0;) 1161 854801 structref))
-  (import "" "" (memory (;0;) 69))
-  (global (;0;) (mut i64) i64.const 6276901513353841419)
-  (export "" (global 0))
-)

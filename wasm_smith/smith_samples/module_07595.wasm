@@ -1,6 +1,0 @@
-(module
-  (import "ln" "" (memory (;0;) 0))
-  (global (;0;) (mut exnref) ref.null exn)
-  (global (;1;) (mut i64) i64.const 2549867722427409848)
-  (data (;0;) "")
-)

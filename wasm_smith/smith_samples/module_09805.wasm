@@ -1,5 +1,0 @@
-(module
-  (global (;0;) (mut i64) i64.const -3009790872749473045)
-  (data (;0;) "\d9S\fa")
-  (data (;1;) "")
-)

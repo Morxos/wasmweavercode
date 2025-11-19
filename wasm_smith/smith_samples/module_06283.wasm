@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1 94747114327611))
-  (table (;0;) 0 531397 externref ref.null noextern)
-  (global (;0;) f64 f64.const -0x1.0ecd55ca91f6bp+160 (;=-1546006634363496700000000000000000000000000000000;))
-  (data (;0;) (i64.const 0) "")
-)

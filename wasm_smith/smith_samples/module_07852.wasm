@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 4116)
-  (export "UV " (memory 0))
-  (elem (;0;) func)
-  (data (;0;) "")
-  (data (;1;) "")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "]" "" (global (;0;) (mut nullexternref)))
-  (elem (;0;) declare func)
-  (elem (;1;) declare structref)
-  (data (;0;) "\f5|")
-)

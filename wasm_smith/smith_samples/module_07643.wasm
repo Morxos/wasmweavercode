@@ -1,8 +1,0 @@
-(module
-  (import "\u{c}\u{1b}8" "" (memory (;0;) i64 0 20288650151766))
-  (import "\u{5c}" "" (global (;0;) i32))
-  (import "" "" (global (;1;) f32))
-  (table (;0;) 94 nullref)
-  (global (;2;) (mut i32) i32.const 464121617)
-  (global (;3;) (mut i32) i32.const 2069332234)
-)

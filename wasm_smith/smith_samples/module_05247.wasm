@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i32)))
-  (import "\u{9}" "" (memory (;0;) i64 9087))
-  (table (;0;) i64 10 nullref)
-  (export "^" (global 0))
-  (export "g" (memory 0))
-  (data (;0;) "")
-)

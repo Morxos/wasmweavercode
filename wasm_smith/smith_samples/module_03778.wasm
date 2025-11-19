@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 4 exnref ref.null exn)
-  (global (;0;) (mut i32) i32.const 1931077342)
-  (elem (;0;) declare exnref)
-  (data (;0;) "\c8")
-  (data (;1;) "\c0")
-  (data (;2;) "\cd\b8")
-)

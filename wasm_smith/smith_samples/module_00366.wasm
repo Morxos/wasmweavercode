@@ -1,7 +1,0 @@
-(module
-  (import "\u{5c}" "" (global (;0;) (mut anyref)))
-  (export "Y" (global 0))
-  (elem (;0;) nullref)
-  (data (;0;) "\19")
-  (data (;1;) "")
-)

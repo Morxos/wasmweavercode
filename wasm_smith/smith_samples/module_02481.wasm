@@ -1,6 +1,0 @@
-(module
-  (import "@Y" "" (table (;0;) 998224 998320 nullref))
-  (import "=)|" "" (global (;0;) (mut f64)))
-  (import "-}D" "" (global (;1;) i32))
-  (import "" "" (memory (;0;) i64 25))
-)

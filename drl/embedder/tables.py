@@ -1,16 +1,18 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import numpy as np
 from gymnasium.spaces import Box
-
-from core.config.config import MAX_GLOBALS_PER_MODULE, MAX_TABLES_PER_MODULE, MAX_TABLE_SIZE
-from core.state.functions import Function
-from core.state.globals import Globals, Global
+from core.config.config import MAX_TABLES_PER_MODULE, MAX_TABLE_SIZE
 from core.state.state import GlobalState
-from core.state.tables import Tables, Table
-from core.value import I32, I64, RefFunc, RefExtern
-from drl.embedder.values import embedd_value_type, symlog_to_unit
+from core.state.tables import Tables
+from drl.embedder.values import embedd_value_type
 
 
 class TablesEmbedder:
+    """
+    Embeds the tables into a fixed size tensor.
+    """
 
     def __init__(self):
         ...
@@ -33,21 +35,8 @@ class TablesEmbedder:
                 if table.elements[i].value==None:
                     table_values[t_i*MAX_TABLE_SIZE + i] = -1
                 else:
-                    print()
                     table_values[t_i*MAX_TABLE_SIZE + i] = global_state.functions.get(table.elements[i].value).index
                 table_mask[t_i*MAX_TABLE_SIZE + i] = 1
 
 
         return np.array([value_types, table_values, table_mask], dtype=np.float32)
-
-
-if __name__ == "__main__":
-    _tables = Tables()
-    _tables.set(Table("test", 0, RefFunc, 5))
-    _tables.set(Table("test2", 1, RefFunc, 5))
-    _tables.get("test").elements[0] = RefFunc(Function("test_func", 0, [], [], False))
-    embedder = TablesEmbedder()
-    embedding = embedder(_tables)
-    print(embedding)
-    print(embedder.get_space().contains(embedding))
-    print(embedder.get_space())

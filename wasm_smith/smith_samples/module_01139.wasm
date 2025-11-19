@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (import "C" "" (table (;0;) i64 1716 110359 nullfuncref))
-  (import "" "" (global (;1;) (mut f32)))
-  (import "" "" (global (;2;) exnref))
-  (export "0Z\u{4}" (table 0))
-  (elem (;0;) (table 0) (i64.const 77) nullfuncref)
-  (elem (;1;) (table 0) (i64.const 1) nullfuncref)
-)

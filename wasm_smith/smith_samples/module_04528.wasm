@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 0 3716))
-  (import "" "" (global (;0;) f64))
-  (import "o" "" (table (;0;) 166 130641 externref))
-  (import "" "" (global (;1;) f64))
-  (elem (;0;) nullref)
-  (data (;0;) "7")
-  (data (;1;) "")
-)

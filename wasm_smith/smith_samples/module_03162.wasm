@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) 1)
-  (global (;0;) i64 i64.const -4646731909885425019)
-  (elem (;0;) eqref (ref.null array))
-)

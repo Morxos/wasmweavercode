@@ -1,7 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.dcf42ap+97 (;=295220080000000000000000000000;))
-  (export "" (global 0))
-  (elem (;0;) i31ref)
-  (elem (;1;) externref)
-  (elem (;2;) declare nullref)
-)

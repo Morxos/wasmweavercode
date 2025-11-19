@@ -1,5 +1,0 @@
-(module
-  (import "\u{17}S$" "" (memory (;0;) 21))
-  (table (;0;) 1186 nullref ref.null none)
-  (data (;0;) (i32.const 0) "\b8:")
-)

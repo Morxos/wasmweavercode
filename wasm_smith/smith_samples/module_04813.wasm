@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 7)
-  (global (;0;) (mut nullfuncref) ref.null nofunc)
-  (export "" (global 0))
-  (elem (;0;) exnref (ref.null exn))
-  (elem (;1;) i31ref)
-  (elem (;2;) i31ref)
-  (elem (;3;) nullexternref)
-)

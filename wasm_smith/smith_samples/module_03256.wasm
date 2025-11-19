@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 9412 nullfuncref)
-  (memory (;0;) 103 20843)
-  (export "f" (table 0))
-  (export "" (table 0))
-  (elem (;0;) declare nullexternref)
-  (data (;0;) (i32.const 4530600) "")
-  (data (;1;) "")
-)

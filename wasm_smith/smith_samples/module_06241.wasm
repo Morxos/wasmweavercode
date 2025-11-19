@@ -1,8 +1,0 @@
-(module
-  (import "m" "" (table (;0;) 10 anyref))
-  (import "?" "" (memory (;0;) 8718))
-  (global (;0;) f64 f64.const -0x1.36ee2d2c12fa9p+42 (;=-5341743198283.915;))
-  (export "\u{1}" (global 0))
-  (elem (;0;) (table 0) (i32.const -80803) anyref (ref.null array))
-  (elem (;1;) declare externref)
-)

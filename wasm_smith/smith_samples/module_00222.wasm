@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 1497 570270 arrayref)
-  (export "" (table 0))
-  (elem (;0;) declare structref (ref.null none) (ref.null struct))
-  (elem (;1;) eqref)
-)

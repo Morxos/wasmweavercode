@@ -1,9 +1,13 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import torch
 from sb3_contrib.common.maskable.policies import MaskableMultiInputActorCriticPolicy
-from sb3_contrib.ppo_mask import MultiInputPolicy
-
 
 class CustomMaskablePolicy(MaskableMultiInputActorCriticPolicy):
+    """
+    Custom policy with different learning rates for encoder and heads.
+    """
     def _build(self, lr_schedule) -> None:
         super()._build(lr_schedule)
 

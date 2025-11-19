@@ -1,8 +1,0 @@
-(module
-  (import "\u{212}" "" (table (;0;) 129 879234 eqref))
-  (import "" "" (global (;0;) f64))
-  (memory (;0;) i64 4 71864752537226)
-  (global (;1;) structref ref.null struct)
-  (global (;2;) f64 global.get 0)
-  (export "Z0" (global 1))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 7917 165042184656987 shared))
-  (import "" "" (table (;0;) i64 4 751820 arrayref))
-  (export "" (memory 0))
-  (export "1" (table 0))
-  (data (;0;) (i64.const 107439730) "\c0\97\d3")
-)

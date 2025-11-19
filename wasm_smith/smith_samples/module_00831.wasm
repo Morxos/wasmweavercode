@@ -1,9 +1,0 @@
-(module
-  (import "Cz" "" (table (;0;) i64 1 exnref))
-  (import "" "" (global (;0;) f32))
-  (memory (;0;) i64 123 137192942247255)
-  (global (;1;) eqref ref.null none)
-  (global (;2;) i32 i32.const -1400868211)
-  (export "U(u" (memory 0))
-  (export "\u{1d}1" (global 1))
-)

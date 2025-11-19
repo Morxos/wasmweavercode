@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 989 350216 exnref ref.null exn)
-  (memory (;0;) i64 281040040558491 281171606159778 shared)
-  (global (;0;) i32 i32.const 1313431458)
-  (elem (;0;) (table 0) (global.get 0) exnref)
-)

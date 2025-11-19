@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 8421 nullfuncref))
-  (export "" (table 0))
-)

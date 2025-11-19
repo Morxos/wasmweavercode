@@ -1,7 +1,0 @@
-(module
-  (import "\u{693},%" "" (global (;0;) i32))
-  (table (;0;) 14 962681 exnref ref.null exn)
-  (global (;1;) (mut i31ref) ref.null none)
-  (global (;2;) exnref ref.null exn)
-  (export "\u{18}" (table 0))
-)

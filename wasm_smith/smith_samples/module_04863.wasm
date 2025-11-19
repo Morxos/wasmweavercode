@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 108 53895 shared))
-  (table (;0;) 2 structref ref.null struct)
-  (data (;0;) (i32.const 713536) "\9d")
-  (data (;1;) "\f1\c4")
-  (data (;2;) (i32.const 5571107) "R")
-)

@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 110 652821 structref)
-  (elem (;0;) declare structref (ref.null struct) (ref.null struct))
-  (data (;0;) "")
-  (data (;1;) "\b3!\ee")
-)

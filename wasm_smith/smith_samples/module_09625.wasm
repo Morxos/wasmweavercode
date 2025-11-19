@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 500 nullexternref ref.null noextern)
-  (memory (;0;) 6413 28315)
-  (export "\u{17}" (table 0))
-  (elem (;0;) (table 0) (i32.const 71) nullexternref)
-)

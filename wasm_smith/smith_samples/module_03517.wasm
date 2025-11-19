@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 410 143160368612571 shared)
-  (global (;0;) funcref ref.null func)
-  (data (;0;) (i64.const 74) "\eb")
-)

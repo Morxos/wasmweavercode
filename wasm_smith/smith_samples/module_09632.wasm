@@ -1,8 +1,0 @@
-(module
-  (import "'~\u{13e}'\u{1b}" "" (global (;0;) f64))
-  (table (;0;) 777 nullref)
-  (memory (;0;) 1488 33893)
-  (global (;1;) (mut i64) i64.const 8683216458620211968)
-  (global (;2;) i64 i64.const 5776855329397502487)
-  (elem (;0;) funcref (ref.null func))
-)

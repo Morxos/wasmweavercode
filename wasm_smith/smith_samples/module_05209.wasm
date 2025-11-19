@@ -1,6 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 144 externref))
-  (elem (;0;) nullref)
-  (elem (;1;) arrayref)
-  (elem (;2;) declare nullfuncref)
-)

@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 arrayref))
-  (import "\u{164}>" "" (memory (;0;) 6267 31324))
-  (global (;0;) (mut arrayref) ref.null none)
-)

@@ -1,6 +1,0 @@
-(module
-  (import "\u{1e}" "" (memory (;0;) i64 0 256149444146974))
-  (import "" "" (table (;0;) 1526 arrayref))
-  (global (;0;) (mut anyref) ref.null eq)
-  (export "" (memory 0))
-)

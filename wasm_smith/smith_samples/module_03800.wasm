@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 2916 nullexternref ref.null noextern)
-  (global (;0;) (mut i32) i32.const 1477343185)
-  (data (;0;) "\12")
-  (data (;1;) "")
-  (data (;2;) "K")
-)

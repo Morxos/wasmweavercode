@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 3290 223942929758134 shared)
-  (elem (;0;) i31ref (ref.null i31))
-  (data (;0;) "!\17")
-)

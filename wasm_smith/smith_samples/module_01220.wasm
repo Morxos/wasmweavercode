@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 1 funcref ref.null func)
-  (global (;0;) (mut nullfuncref) ref.null nofunc)
-  (export "" (table 0))
-)

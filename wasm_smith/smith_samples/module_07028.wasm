@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 118 structref)
-  (memory (;0;) 1735)
-  (global (;0;) (mut funcref) ref.null func)
-  (export ".." (global 0))
-)

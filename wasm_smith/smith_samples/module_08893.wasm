@@ -1,8 +1,0 @@
-(module
-  (import "\u{2c8}\u{6dc}!" "" (global (;0;) (mut i32)))
-  (import "a" "" (table (;0;) i64 2 208659 exnref))
-  (import "w)" "" (global (;1;) (mut i32)))
-  (import "" "" (memory (;0;) 65391))
-  (global (;2;) (mut i64) i64.const 1158676751131759697)
-  (export "" (memory 0))
-)

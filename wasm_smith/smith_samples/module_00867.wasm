@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 0 57171620495699)
-  (elem (;0;) exnref)
-)

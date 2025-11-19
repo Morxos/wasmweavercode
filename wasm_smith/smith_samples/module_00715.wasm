@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 5357))
-  (table (;0;) 10 453587 nullref ref.null none)
-  (export "I" (memory 0))
-  (data (;0;) "")
-  (data (;1;) (i64.const 14565806) "\17")
-)

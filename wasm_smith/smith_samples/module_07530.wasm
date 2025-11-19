@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 2283 103301050894228)
-  (global (;0;) (mut f32) f32.const -0x1.017f1ep+37 (;=-138242410000;))
-  (global (;1;) f64 f64.const -0x1.2c3af015a755bp-28 (;=-0.000000004368924796290713;))
-  (export "." (memory 0))
-  (export "" (global 0))
-)

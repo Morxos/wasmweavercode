@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 0)
-  (export "" (memory 0))
-  (elem (;0;) declare i31ref (ref.null i31) (ref.null i31))
-  (elem (;1;) declare nullfuncref)
-  (data (;0;) "")
-)

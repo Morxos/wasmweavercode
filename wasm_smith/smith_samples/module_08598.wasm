@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 1588)
-  (data (;0;) (i64.const 28) "\a0")
-)

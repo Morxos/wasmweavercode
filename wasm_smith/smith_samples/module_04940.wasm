@@ -1,3 +1,0 @@
-(module
-  (import "*J" "" (table (;0;) i64 295 62635 i31ref))
-)

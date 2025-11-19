@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) 146 29954)
-  (export "\u{15}NK+" (memory 0))
-  (export "Xw" (memory 0))
-  (export "" (memory 0))
-  (export "3" (memory 0))
-  (export "VO&" (memory 0))
-  (export "O" (memory 0))
-)

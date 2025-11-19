@@ -1,8 +1,0 @@
-(module
-  (import "'LA" "" (global (;0;) (mut i64)))
-  (memory (;0;) i64 2332 222452776816624 shared)
-  (global (;1;) (mut f32) f32.const -0x1.967c68p-10 (;=-0.0015506209;))
-  (export "" (global 0))
-  (elem (;0;) eqref (ref.null i31) (ref.null i31))
-  (elem (;1;) declare arrayref (ref.null array) (ref.null array))
-)

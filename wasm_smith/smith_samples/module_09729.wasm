@@ -1,5 +1,0 @@
-(module
-  (import "Q" "" (memory (;0;) 82 56843))
-  (table (;0;) i64 3798 funcref)
-  (data (;0;) (i32.const 224455) "\85\ff")
-)

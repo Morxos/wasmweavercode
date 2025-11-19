@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 5980 529147 eqref)
-  (export "" (table 0))
-  (export "W" (table 0))
-  (export "\u{263}+" (table 0))
-  (export "%" (table 0))
-)

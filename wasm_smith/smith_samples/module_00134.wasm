@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (table (;0;) 0 214162 structref)
-  (export "6K\u{5d8}" (table 0))
-  (export ":" (global 0))
-  (export "K)" (table 0))
-  (data (;0;) "")
-)

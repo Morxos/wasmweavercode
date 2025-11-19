@@ -1,5 +1,0 @@
-(module
-  (table (;0;) 0 565394 funcref ref.null nofunc)
-  (memory (;0;) 20)
-  (export "" (memory 0))
-)

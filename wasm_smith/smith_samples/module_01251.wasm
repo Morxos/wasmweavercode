@@ -1,6 +1,0 @@
-(module
-  (import "\u{13}" "" (table (;0;) 3993 996292 anyref))
-  (elem (;0;) nullfuncref)
-  (data (;0;) "")
-  (data (;1;) "\5ch")
-)

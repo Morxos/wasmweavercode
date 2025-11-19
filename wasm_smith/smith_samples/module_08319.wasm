@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 376 nullfuncref ref.null nofunc)
-  (memory (;0;) 507 47653)
-  (global (;0;) i64 i64.const 7798797410455283491)
-  (elem (;0;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-  (data (;1;) "\b2\eb")
-)

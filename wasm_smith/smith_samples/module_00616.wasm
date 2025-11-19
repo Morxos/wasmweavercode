@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 0 144626063706040 shared))
-  (import "VF\u{6}" "" (table (;0;) 3802 348825 i31ref))
-  (import "-" "" (global (;0;) (mut i64)))
-  (import "L\u{6}md" "" (global (;1;) (mut i64)))
-  (import "" "" (global (;2;) i32))
-)

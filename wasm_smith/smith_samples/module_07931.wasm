@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 0)
-  (global (;0;) (mut f32) f32.const -0x1.3d5c8ap+45 (;=-43617830000000;))
-  (elem (;0;) declare i31ref (ref.null none))
-  (data (;0;) "\e6-\86")
-  (data (;1;) "")
-)

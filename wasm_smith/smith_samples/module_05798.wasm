@@ -1,5 +1,0 @@
-(module
-  (elem (;0;) nullref (ref.null none))
-  (data (;0;) "\d9Z")
-  (data (;1;) "")
-)

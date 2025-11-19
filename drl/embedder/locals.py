@@ -1,9 +1,10 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import numpy as np
 from gymnasium.spaces import Box
 
-from core.config.config import MAX_GLOBALS_PER_MODULE, MAX_LOCALS_PER_FUNCTION
-from core.state.functions import Function
-from core.state.globals import Globals, Global
+from core.config.config import MAX_LOCALS_PER_FUNCTION
 from core.state.locals import Locals
 from core.state.state import GlobalState
 from core.value import I32, I64, F32, F64, Ref
@@ -11,7 +12,9 @@ from drl.embedder.values import embedd_value_type, symlog_to_unit
 
 
 class LocalsEmbedder:
-
+    """
+    Embeds the locals into a fixed size tensor.
+    """
     def __init__(self):
         ...
 
@@ -45,14 +48,3 @@ class LocalsEmbedder:
             local_mask[i] = 1
 
         return np.array([local_types, local_values, local_mask], dtype=np.float32)
-
-
-if __name__ == "__main__":
-    _locals = Locals()
-    _locals.add(I32(5))
-    _locals.add(I64(100))
-    embedder = LocalsEmbedder()
-    embedding = embedder(_locals, global_state=GlobalState())
-    print(embedding)
-    print(embedder.get_space().contains(embedding))
-    print(embedder.get_space())

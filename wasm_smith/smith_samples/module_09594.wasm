@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 164)
-  (global (;0;) (mut i32) i32.const 1079046074)
-  (elem (;0;) declare arrayref (ref.null array) (ref.null array) (ref.null array))
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) nullref (ref.null none) (ref.null none) (ref.null none) (ref.null none))
-)

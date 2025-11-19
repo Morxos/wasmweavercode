@@ -1,8 +1,0 @@
-(module
-  (import "Z&}\u{12}\u{6}\u{12}" "" (table (;0;) i64 1513 externref))
-  (memory (;0;) 0 30008 shared)
-  (global (;0;) i64 i64.const 4208845688819718034)
-  (global (;1;) (mut f32) f32.const -0x1.f74c5cp-94 (;=-0.000000000000000000000000000099258084;))
-  (elem (;0;) (table 0) (i64.const 207) nullexternref)
-  (data (;0;) "")
-)

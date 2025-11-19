@@ -1,9 +1,0 @@
-(module
-  (import "\u{1d}a?" "" (table (;0;) 1810 anyref))
-  (memory (;0;) 0)
-  (global (;0;) i64 i64.const -6936219370625780349)
-  (elem (;0;) nullfuncref)
-  (elem (;1;) (table 0) (i32.const 0) nullref (ref.null none))
-  (elem (;2;) (table 0) (i32.const 767) i31ref (ref.null none))
-  (data (;0;) "")
-)

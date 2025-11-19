@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 2 342219 arrayref ref.null array)
-  (global (;0;) (mut i32) i32.const 156825816 i32.const 2085691084 i32.const -1020828379 i32.sub i32.add i32.const -443381190 i32.add)
-  (global (;1;) (mut i64) i64.const 9061528086042174787)
-  (export "_\u{7}" (table 0))
-  (export "\u{8}" (global 1))
-  (export "\u{14}\u{d}DR" (table 0))
-)

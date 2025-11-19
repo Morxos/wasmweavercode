@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 2 265522 nullexternref)
-  (memory (;0;) 7688 46642)
-  (data (;0;) (i32.const 31838683) "\9c>J")
-  (data (;1;) (i32.const 725139) "#\99")
-  (data (;2;) "\f8")
-)

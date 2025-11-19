@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) externref))
-  (table (;0;) i64 342 structref)
-  (memory (;0;) 9117 18143 shared)
-  (global (;1;) exnref ref.null exn)
-)

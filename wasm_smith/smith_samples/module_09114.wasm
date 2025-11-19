@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 27 anyref)
-  (elem (;0;) (table 0) (i32.const 0) arrayref)
-  (data (;0;) "")
-  (data (;1;) "\b6")
-  (data (;2;) "")
-  (data (;3;) "")
-  (data (;4;) "\e4")
-)

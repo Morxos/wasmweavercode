@@ -1,8 +1,0 @@
-(module
-  (import "\u{7fe}" "" (table (;0;) i64 477 eqref))
-  (import "\u{14}-*O" "" (global (;0;) i32))
-  (import "" "" (global (;1;) anyref))
-  (import "n\u{1b}&" "" (global (;2;) (mut i32)))
-  (data (;0;) "k\eb")
-  (data (;1;) "y\8b\9d")
-)

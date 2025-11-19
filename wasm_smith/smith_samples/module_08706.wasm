@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 8 71162 nullfuncref ref.null nofunc)
-  (memory (;0;) 0)
-  (data (;0;) "8\b0\c8")
-)

@@ -1,9 +1,0 @@
-(module
-  (global (;0;) (mut f32) f32.const -0x1.2bd0aep+110 (;=-1520243400000000000000000000000000;))
-  (export "\u{2}jIw" (global 0))
-  (export "n" (global 0))
-  (export "" (global 0))
-  (data (;0;) "")
-  (data (;1;) "\99\e4`")
-  (data (;2;) "")
-)

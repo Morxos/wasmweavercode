@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 1669 317863 funcref)
-  (export "" (table 0))
-  (export "a" (table 0))
-  (elem (;0;) (table 0) (i64.const 234) nullfuncref (ref.null nofunc))
-  (elem (;1;) declare nullexternref)
-)

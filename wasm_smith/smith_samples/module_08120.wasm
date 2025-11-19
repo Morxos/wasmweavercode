@@ -1,8 +1,0 @@
-(module
-  (import "g;" "" (table (;0;) 560 nullexternref))
-  (import ";\u{5}" "" (memory (;0;) 1 61461 shared))
-  (import "" "" (global (;0;) f32))
-  (export "" (global 0))
-  (export "|Jj" (table 0))
-  (export ">\u{16}\u{1b}?@\u{13}" (global 0))
-)

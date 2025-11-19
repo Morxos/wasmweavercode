@@ -1,5 +1,0 @@
-(module
-  (import "\u{1}O\u{1f}N" "" (global (;0;) (mut i32)))
-  (table (;0;) i64 8 arrayref)
-  (memory (;0;) i64 1 67783483508280 shared)
-)

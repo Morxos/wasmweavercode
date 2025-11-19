@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 0 89761973005214))
-  (import "" "" (global (;0;) f64))
-  (import "SLD" "" (global (;1;) (mut i64)))
-  (global (;2;) f64 global.get 0)
-)

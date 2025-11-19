@@ -1,5 +1,0 @@
-(module
-  (import "\u{7f}\u{d}S," "" (memory (;0;) 2993 16594))
-  (global (;0;) i32 i32.const -598317998)
-  (export "%>" (memory 0))
-)

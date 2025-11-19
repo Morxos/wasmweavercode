@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 5 646882 externref)
-  (memory (;0;) i64 10837 235877978592882)
-  (global (;0;) arrayref ref.null array)
-  (global (;1;) i64 i64.const 3603801118670573053)
-  (global (;2;) (mut f32) f32.const -0x1.2fa45p-29 (;=-0.0000000022092852;))
-  (export "\u{5}" (table 0))
-  (data (;0;) "\a8\88\8e")
-)

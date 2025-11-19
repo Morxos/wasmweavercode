@@ -1,9 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut f64)))
-  (import "T-" "" (global (;1;) (mut f64)))
-  (table (;0;) 58 nullfuncref ref.null nofunc)
-  (memory (;0;) 31 3819)
-  (global (;2;) (mut i64) i64.const -7319259871844916492 i64.const -511283287168848667 i64.const -4901224246008050178 i64.const -8008865002708030833 i64.const -9034536243737379687 i64.const 5017145203541838595 i64.const 2397532672794771503 i64.const 2575553990070788513 i64.const -356487729673270276 i64.const -4870521394757121659 i64.add i64.sub i64.sub i64.sub i64.sub i64.const -5686107875217703663 i64.add i64.sub i64.add i64.sub i64.add)
-  (elem (;0;) (table 0) (i32.const 0) nullfuncref (ref.null nofunc))
-  (data (;0;) "\90")
-)

@@ -1,9 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 6266 externref))
-  (memory (;0;) 5260 58220)
-  (export "" (memory 0))
-  (elem (;0;) (table 0) (i64.const 914) externref)
-  (elem (;1;) exnref)
-  (elem (;2;) exnref (ref.null exn))
-  (data (;0;) (i32.const 154) "\1e_\04")
-)

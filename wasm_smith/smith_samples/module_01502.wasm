@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 0 i31ref)
-  (memory (;0;) i64 0 93554269492676)
-  (elem (;0;) nullfuncref (ref.null nofunc))
-  (elem (;1;) declare structref (ref.null none) (ref.null struct) (ref.null struct) (ref.null struct))
-  (data (;0;) "q")
-  (data (;1;) (i64.const -6150546657822042495) ",\a0\c9")
-  (data (;2;) "\cf\80\a3")
-)

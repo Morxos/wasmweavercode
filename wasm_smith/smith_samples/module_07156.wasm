@@ -1,9 +1,0 @@
-(module
-  (table (;0;) i64 1 nullref ref.null none)
-  (memory (;0;) 405 36819 shared)
-  (elem (;0;) eqref)
-  (data (;0;) (i32.const 3104539) "\a6")
-  (data (;1;) (i32.const 25883) "")
-  (data (;2;) "\bc")
-  (data (;3;) "f3")
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 1046 63868 shared)
-  (global (;0;) i32 i32.const 694288690)
-  (export "" (memory 0))
-  (export "Q" (memory 0))
-  (export "2" (memory 0))
-)

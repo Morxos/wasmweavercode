@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 1400))
-  (export "" (memory 0))
-  (export "2" (memory 0))
-  (export "22" (memory 0))
-  (export "3" (memory 0))
-)

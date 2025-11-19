@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 10432 124559904360947)
-  (global (;0;) f32 f32.const -0x1.45903cp+53 (;=-11454744000000000;))
-  (elem (;0;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-)

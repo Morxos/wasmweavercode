@@ -1,6 +1,0 @@
-(module
-  (import "M" "" (global (;0;) exnref))
-  (import "#" "" (global (;1;) (mut i32)))
-  (global (;2;) i31ref ref.null none)
-  (elem (;0;) declare structref)
-)

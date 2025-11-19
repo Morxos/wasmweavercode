@@ -1,8 +1,0 @@
-(module
-  (global (;0;) (mut i32) i32.const -1718620115)
-  (global (;1;) (mut i32) i32.const -1709668754 i32.const 301719368 i32.const -1019506522 i32.const 675894255 i32.sub i32.add i32.const 992195389 i32.const -776388564 i32.const -1365011818 i32.mul i32.add i32.sub i32.mul i32.const 802079255 i32.mul)
-  (export "" (global 1))
-  (export "\u{13}" (global 0))
-  (elem (;0;) declare arrayref)
-  (data (;0;) "")
-)

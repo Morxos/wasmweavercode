@@ -1,7 +1,0 @@
-(module
-  (import "-" "" (global (;0;) (mut i32)))
-  (import "~M$" "" (table (;0;) 139 arrayref))
-  (global (;1;) funcref ref.null nofunc)
-  (global (;2;) funcref global.get 1)
-  (export "\u{678}\u{4}" (global 1))
-)

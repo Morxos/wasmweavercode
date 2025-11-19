@@ -1,9 +1,0 @@
-(module
-  (import "n\u{242}" "" (table (;0;) i64 41 arrayref))
-  (memory (;0;) 631)
-  (global (;0;) nullref ref.null none)
-  (export "" (table 0))
-  (export "1" (global 0))
-  (export "-" (global 0))
-  (elem (;0;) (table 0) (i64.const 25) arrayref (ref.null array))
-)

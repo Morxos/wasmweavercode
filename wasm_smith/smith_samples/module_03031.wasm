@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 2015 externref ref.null extern)
-  (memory (;0;) 2 8998)
-  (export "t" (memory 0))
-)

@@ -1,6 +1,0 @@
-(module
-  (import "f" "" (global (;0;) f32))
-  (import "a" "" (global (;1;) (mut f32)))
-  (memory (;0;) i64 2)
-  (data (;0;) "")
-)

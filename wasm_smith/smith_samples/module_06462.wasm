@@ -1,8 +1,0 @@
-(module
-  (import "(" "" (memory (;0;) 2577 10386 shared))
-  (import "" "" (table (;0;) 8319 453628 arrayref))
-  (import "Z" "" (global (;0;) (mut i32)))
-  (import "\u{1e}\u{11}Nf" "" (global (;1;) (mut i31ref)))
-  (global (;2;) nullref ref.null none)
-  (elem (;0;) declare func)
-)

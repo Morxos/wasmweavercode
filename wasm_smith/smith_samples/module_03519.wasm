@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 19 nullexternref ref.null noextern)
-  (memory (;0;) i64 18)
-  (data (;0;) "")
-  (data (;1;) "\a2\b3\b3\f4\98-\e5#")
-)

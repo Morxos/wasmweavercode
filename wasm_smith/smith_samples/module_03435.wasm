@@ -1,4 +1,0 @@
-(module
-  (table (;0;) i64 3019 arrayref)
-  (memory (;0;) i64 2 26387888026026 shared)
-)

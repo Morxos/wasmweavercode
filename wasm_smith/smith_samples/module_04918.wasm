@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 0 842105 eqref)
-  (memory (;0;) 196 33669)
-  (export "j" (memory 0))
-  (elem (;0;) declare externref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-  (data (;0;) (i32.const 505227) "\0c")
-)

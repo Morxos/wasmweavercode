@@ -1,4 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 1 153941382762364))
-  (data (;0;) (i64.const 792) "\bdV\03\d1")
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 1331 56511 shared)
-  (data (;0;) "")
-  (data (;1;) (i32.const 6) "")
-  (data (;2;) "\d8\b9l")
-  (data (;3;) (i32.const 516882) "")
-)

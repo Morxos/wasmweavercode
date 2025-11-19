@@ -1,7 +1,0 @@
-(module
-  (import "_" "" (global (;0;) (mut f64)))
-  (import "" "" (table (;0;) 8170 160281 nullfuncref))
-  (elem (;0;) declare nullexternref)
-  (elem (;1;) declare structref (ref.null struct))
-  (data (;0;) "")
-)

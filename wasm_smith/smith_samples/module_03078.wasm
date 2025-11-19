@@ -1,4 +1,0 @@
-(module
-  (table (;0;) 1 349601 i31ref ref.null i31)
-  (global (;0;) f32 f32.const 0x1.4c5118p+28 (;=348459400;))
-)

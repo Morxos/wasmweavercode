@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) structref (ref.null struct) (ref.null none) (ref.null none) (ref.null none) (ref.null struct))
-  (data (;0;) "^)")
-  (data (;1;) ";")
-  (data (;2;) "")
-)

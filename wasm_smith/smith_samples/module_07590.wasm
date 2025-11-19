@@ -1,5 +1,0 @@
-(module
-  (import "8$" "" (global (;0;) f64))
-  (export "=" (global 0))
-  (elem (;0;) externref (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null noextern) (ref.null extern))
-)

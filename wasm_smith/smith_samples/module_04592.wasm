@@ -1,7 +1,0 @@
-(module
-  (import "\u{14},O(" "" (table (;0;) 6415 arrayref))
-  (import "" "" (memory (;0;) 2608 6018 shared))
-  (import "" "" (global (;0;) f64))
-  (import "" "" (global (;1;) i64))
-  (elem (;0;) exnref)
-)

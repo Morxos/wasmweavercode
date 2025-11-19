@@ -1,6 +1,0 @@
-(module
-  (global (;0;) nullref ref.null none)
-  (export "" (global 0))
-  (elem (;0;) arrayref)
-  (data (;0;) "\9c")
-)

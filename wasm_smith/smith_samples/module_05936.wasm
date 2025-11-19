@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 0 arrayref ref.null array)
-  (memory (;0;) 65388 65440)
-  (export "R" (table 0))
-  (elem (;0;) declare i31ref)
-)

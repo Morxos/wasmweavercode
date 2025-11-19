@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) 7516 arrayref))
-  (import "L" "" (global (;0;) nullfuncref))
-  (global (;1;) f32 f32.const 0x1.e03ca4p-116 (;=0.00000000000000000000000000000000002258063;))
-  (global (;2;) (mut f32) global.get 1)
-  (global (;3;) externref ref.null extern)
-  (export "v\u{b}A]\u{22}" (table 0))
-)

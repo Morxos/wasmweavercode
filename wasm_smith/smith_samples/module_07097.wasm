@@ -1,6 +1,0 @@
-(module
-  (elem (;0;) anyref (ref.null none))
-  (elem (;1;) declare nullref (ref.null none) (ref.null none) (ref.null none))
-  (elem (;2;) eqref (ref.null array) (ref.null eq))
-  (data (;0;) "\5c")
-)

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 0 26134 nullfuncref)
-  (elem (;0;) exnref (ref.null exn) (ref.null exn))
-  (elem (;1;) func)
-  (elem (;2;) anyref)
-  (elem (;3;) declare i31ref)
-)

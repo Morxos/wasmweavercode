@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 11736 170386212819849)
-  (elem (;0;) declare structref)
-  (elem (;1;) arrayref (ref.null array))
-  (data (;0;) "")
-)

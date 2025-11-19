@@ -1,9 +1,0 @@
-(module
-  (import "\u{9}\u{d}2" "" (global (;0;) (mut i31ref)))
-  (import "" "" (table (;0;) i64 1280 i31ref))
-  (import "\u{3}" "" (global (;1;) funcref))
-  (memory (;0;) i64 18 236877133866411 shared)
-  (export "" (global 1))
-  (elem (;0;) declare nullref)
-  (data (;0;) "l")
-)

@@ -1,8 +1,0 @@
-(module
-  (import "C" "" (memory (;0;) 1788))
-  (table (;0;) i64 1 45408 externref ref.null noextern)
-  (export "" (memory 0))
-  (elem (;0;) (table 0) (i64.const 0) nullexternref)
-  (data (;0;) (i32.const 71058947) "")
-  (data (;1;) "")
-)

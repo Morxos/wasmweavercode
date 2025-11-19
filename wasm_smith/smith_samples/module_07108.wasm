@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 2176 nullref ref.null none)
-  (memory (;0;) 1 57372)
-  (global (;0;) arrayref ref.null array)
-  (global (;1;) (mut f32) f32.const 0x1.d56e6cp+17 (;=240348.84;))
-  (data (;0;) "\b5")
-)

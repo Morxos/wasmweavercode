@@ -1,9 +1,0 @@
-(module
-  (table (;0;) 458 485373 eqref)
-  (global (;0;) (mut i64) i64.const 2722698278969443226)
-  (global (;1;) (mut externref) ref.null noextern)
-  (elem (;0;) nullexternref)
-  (data (;0;) "")
-  (data (;1;) "\87")
-  (data (;2;) "yI")
-)

@@ -1,6 +1,0 @@
-(module
-  (import "D\u{1b}" "" (memory (;0;) i64 7))
-  (table (;0;) i64 4 547133 exnref ref.null exn)
-  (global (;0;) i31ref ref.null none)
-  (data (;0;) (i64.const 31401) "@")
-)

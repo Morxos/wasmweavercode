@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 3438 funcref ref.null func)
-  (global (;0;) (mut f32) f32.const 0x1.bc1f92p-31 (;=0.0000000008078556;))
-  (export "p" (table 0))
-  (elem (;0;) (table 0) (i32.const 11) nullfuncref)
-  (data (;0;) "\e3")
-)

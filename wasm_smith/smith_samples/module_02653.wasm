@@ -1,5 +1,0 @@
-(module
-  (import "@\u{5c}" "" (table (;0;) 0 structref))
-  (import "" "" (memory (;0;) i64 0))
-  (export "" (table 0))
-)

@@ -1,5 +1,0 @@
-(module
-  (import "vs]P" "" (memory (;0;) 7103 48801))
-  (import "\u{10}" "" (table (;0;) i64 0 592845 exnref))
-  (global (;0;) (mut f32) f32.const -0x1.d345a8p+81 (;=-4413260200000000000000000;))
-)

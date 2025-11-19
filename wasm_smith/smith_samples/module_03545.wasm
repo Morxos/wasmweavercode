@@ -1,8 +1,0 @@
-(module
-  (import "i\u{a}\u{e}1@" "" (memory (;0;) i64 16 253819056466172))
-  (import "" "" (global (;0;) i32))
-  (table (;0;) i64 0 415763 exnref ref.null exn)
-  (elem (;0;) declare eqref)
-  (data (;0;) "\d8")
-  (data (;1;) (i64.const 8060) "")
-)

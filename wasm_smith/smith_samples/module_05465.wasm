@@ -1,5 +1,0 @@
-(module
-  (memory (;0;) i64 3968)
-  (global (;0;) (mut i32) i32.const 1533874835 i32.const 938259618 i32.const 346928246 i32.const -497195290 i32.const 1915510354 i32.const 587003784 i32.const 932240044 i32.const 1052747133 i32.const -613043355 i32.const 410400245 i32.const 512655589 i32.const -1002032278 i32.mul i32.sub i32.sub i32.mul i32.sub i32.sub i32.sub i32.mul i32.mul i32.add i32.add)
-  (global (;1;) (mut i64) i64.const 4375157188153203799)
-)

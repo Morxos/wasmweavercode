@@ -1,6 +1,0 @@
-(module
-  (table (;0;) i64 361 funcref)
-  (data (;0;) "\05\84\ac\e4")
-  (data (;1;) "")
-  (data (;2;) "")
-)

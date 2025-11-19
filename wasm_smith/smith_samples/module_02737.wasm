@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 435 anyref)
-  (elem (;0;) (table 0) (i32.const 17) eqref)
-  (elem (;1;) declare i31ref)
-  (elem (;2;) nullexternref)
-)

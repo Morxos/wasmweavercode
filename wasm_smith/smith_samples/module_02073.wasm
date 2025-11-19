@@ -1,6 +1,0 @@
-(module
-  (import "m\u{2be}" "" (table (;0;) 0 anyref))
-  (global (;0;) i64 i64.const 2385846411495482159)
-  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-)

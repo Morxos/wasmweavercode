@@ -1,8 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 997574 997935 nullfuncref))
-  (global (;0;) (mut i32) i32.const 1565370723 i32.const -683183619 i32.const 559234112 i32.const -1992159283 i32.const 41087320 i32.const -699697006 i32.const 1084344766 i32.const 1305295499 i32.mul i32.mul i32.const -2051954841 i32.const 187620486 i32.sub i32.mul i32.mul i32.mul i32.mul i32.add i32.mul)
-  (global (;1;) i32 i32.const -1516191460)
-  (global (;2;) (mut f32) f32.const -0x1.4584a2p+7 (;=-162.75905;))
-  (export "M" (global 2))
-  (export "" (table 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) i64 263 232454454826007)
-  (global (;0;) (mut f32) f32.const 0x1.fb35ap+108 (;=642964400000000000000000000000000;))
-  (elem (;0;) externref)
-  (elem (;1;) declare i31ref)
-  (elem (;2;) declare exnref (ref.null exn) (ref.null exn))
-)

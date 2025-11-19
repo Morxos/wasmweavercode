@@ -1,9 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 8608 65301))
-  (import "" "" (table (;0;) 2093 structref))
-  (import "" "" (global (;0;) f64))
-  (global (;1;) (mut arrayref) ref.null array)
-  (export ":" (global 1))
-  (elem (;0;) declare anyref)
-  (data (;0;) (i32.const 1300246) "")
-)

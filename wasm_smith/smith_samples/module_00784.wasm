@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) i64 3531)
-  (elem (;0;) declare i31ref)
-)

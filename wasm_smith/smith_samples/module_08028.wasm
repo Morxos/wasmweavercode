@@ -1,7 +1,0 @@
-(module
-  (import "Y\u{17}\u{c}\u{5c}~\u{13}" "" (table (;0;) 4 47717 arrayref))
-  (elem (;0;) declare anyref)
-  (elem (;1;) (table 0) (i32.const 0) arrayref)
-  (data (;0;) "\d2\a4\e4")
-  (data (;1;) "")
-)

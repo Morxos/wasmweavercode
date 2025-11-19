@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 0 nullexternref ref.null noextern)
-  (global (;0;) nullref ref.null none)
-  (global (;1;) i32 i32.const 137314808)
-  (elem (;0;) declare nullexternref (ref.null noextern) (ref.null noextern) (ref.null noextern))
-)

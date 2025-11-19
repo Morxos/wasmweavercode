@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 2045)
-  (elem (;0;) declare arrayref)
-  (elem (;1;) declare funcref (ref.null func) (ref.null nofunc) (ref.null nofunc))
-  (elem (;2;) nullfuncref (ref.null nofunc))
-)

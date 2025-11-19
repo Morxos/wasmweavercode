@@ -1,8 +1,0 @@
-(module
-  (import "f\u{6}" "" (global (;0;) (mut structref)))
-  (import "" "" (memory (;0;) 1288))
-  (import "" "" (global (;1;) (mut f32)))
-  (import "Yn" "" (table (;0;) 360 structref))
-  (global (;2;) i64 i64.const -1129507147014325982 i64.const -2690909304669871062 i64.const 1437203846074094728 i64.const -6202654236977680085 i64.const -4637709012822885640 i64.const 6052530223944169807 i64.add i64.const -1637685954745888924 i64.mul i64.const -8445153937405241450 i64.sub i64.add i64.add i64.const -2228812263434623015 i64.mul i64.mul i64.sub)
-  (export "\u{a}Z@" (memory 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 622))
-  (export "YU" (memory 0))
-  (export "e\u{1c}" (memory 0))
-  (data (;0;) "")
-  (data (;1;) "")
-)

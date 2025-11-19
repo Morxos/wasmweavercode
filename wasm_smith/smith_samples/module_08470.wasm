@@ -1,7 +1,0 @@
-(module
-  (import "" "" (table (;0;) 7308 funcref))
-  (import "K\u{c}" "" (global (;0;) i64))
-  (import "\u{7bb}" "" (memory (;0;) 30 281))
-  (global (;1;) i64 i64.const -7423771110220523675 i64.const 4183124083337614156 i64.sub)
-  (elem (;0;) nullfuncref)
-)

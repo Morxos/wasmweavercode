@@ -1,9 +1,0 @@
-(module
-  (global (;0;) eqref ref.null array)
-  (global (;1;) eqref global.get 0)
-  (export "" (global 1))
-  (elem (;0;) eqref (ref.null eq))
-  (elem (;1;) nullfuncref (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-  (data (;1;) "")
-)

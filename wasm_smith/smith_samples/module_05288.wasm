@@ -1,4 +1,0 @@
-(module
-  (memory (;0;) 11325 13113)
-  (elem (;0;) declare nullfuncref (ref.null nofunc))
-)

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) 448 exnref ref.null exn)
-  (elem (;0;) declare eqref (ref.null array))
-  (elem (;1;) (table 0) (i32.const 4) exnref)
-  (data (;0;) "")
-  (data (;1;) "")
-)

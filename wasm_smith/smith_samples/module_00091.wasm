@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 5489 764864 eqref)
-  (memory (;0;) i64 1739 201838943832000)
-  (export "j\u{1a}," (memory 0))
-  (elem (;0;) eqref)
-  (elem (;1;) nullexternref)
-)

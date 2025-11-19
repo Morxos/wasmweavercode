@@ -1,5 +1,7 @@
-from typing import List
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
 
+from typing import List
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
 from core.tile import AbstractTile
@@ -45,10 +47,8 @@ class Select(AbstractTile):
 
     @staticmethod
     def can_be_placed(current_state: GlobalState, current_function: Function, current_blocks: List[Block]):
-        # Ensure there are at least three values on the stack
         if len(current_state.stack.get_current_frame().stack) < 3:
             return False
-        #Check if the condition is an i32
         condition = current_state.stack.get_current_frame().stack_peek(1)
         if not isinstance(condition, I32):
             return False
@@ -56,8 +56,6 @@ class Select(AbstractTile):
         if not isinstance(current_state.stack.get_current_frame().stack_peek(3), Num) or not isinstance(
                 current_state.stack.get_current_frame().stack_peek(2), Num):
             return False
-        #Check if the values are the same type
-        #print(current_state.stack.get_current_frame().stack_peek(3), current_state.stack.get_current_frame().stack_peek(2))
         if type(current_state.stack.get_current_frame().stack_peek(3)) != type(
                 current_state.stack.get_current_frame().stack_peek(2)):
             return False
@@ -68,14 +66,11 @@ class Select(AbstractTile):
         false_value = current_state.stack.get_current_frame().stack_pop()
         true_value = current_state.stack.get_current_frame().stack_pop()
 
-        # Choose based on the condition
-        # Non-zero condition selects the true value, zero selects the false value
         if condition.value != 0:
             result = true_value
         else:
             result = false_value
 
-        # Push the result back onto the stack
         current_state.stack.get_current_frame().stack_push(result)
 
     def generate_code(self, current_state: GlobalState, current_function: Function, current_blocks: List[Block]) -> str:

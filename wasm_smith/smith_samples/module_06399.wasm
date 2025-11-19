@@ -1,8 +1,0 @@
-(module
-  (import "" "" (global (;0;) nullfuncref))
-  (table (;0;) i64 0 324387 anyref)
-  (export "" (table 0))
-  (data (;0;) "")
-  (data (;1;) "")
-  (data (;2;) "\94&")
-)

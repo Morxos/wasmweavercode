@@ -1,9 +1,0 @@
-(module
-  (import "\u{5c}" "" (global (;0;) i32))
-  (memory (;0;) i64 382 241520817415585)
-  (global (;1;) (mut f32) f32.const -0x1.16722p+101 (;=-2757593600000000000000000000000;))
-  (global (;2;) i64 i64.const 4429563935244531941)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (export "2" (global 0))
-)

@@ -1,7 +1,0 @@
-(module
-  (table (;0;) i64 904 anyref)
-  (export "" (table 0))
-  (export "]" (table 0))
-  (data (;0;) "\a5")
-  (data (;1;) "")
-)

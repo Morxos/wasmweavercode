@@ -1,20 +1,27 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from stable_baselines3.common.callbacks import BaseCallback
 
 
 class ProgressCallback(BaseCallback):
+    """
+    Callback for updating the environment with the current training progress.
+    """
     def __init__(self, total_steps):
         super().__init__()
         self.total_steps = total_steps
 
     def _on_step(self) -> bool:
-        frac = self.num_timesteps
-        # send the fraction into the env so it can schedule rewards
         if hasattr(self.training_env, "env_method"):
-            self.training_env.env_method("set_progress", frac)
+            self.training_env.env_method("set_progress", self.num_timesteps)
         return True
 
 
 class SaveModelCallback(BaseCallback):
+    """
+    Callback for saving the model every 10,000 steps.
+    """
     def __init__(self, save_path, verbose=0):
         super().__init__(verbose)
         self.save_path = save_path

@@ -1,5 +1,0 @@
-(module
-  (table (;0;) i64 19 externref ref.null extern)
-  (memory (;0;) i64 2)
-  (data (;0;) "\b5\f94\13}")
-)

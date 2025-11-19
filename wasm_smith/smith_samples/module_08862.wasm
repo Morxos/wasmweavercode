@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 751 212803109209343))
-  (table (;0;) i64 10 nullexternref)
-  (export "" (table 0))
-  (data (;0;) "\e6")
-)

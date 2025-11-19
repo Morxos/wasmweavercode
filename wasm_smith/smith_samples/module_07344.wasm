@@ -1,6 +1,0 @@
-(module
-  (import "Q" "" (global (;0;) (mut nullfuncref)))
-  (elem (;0;) nullfuncref (ref.null nofunc) (ref.null nofunc) (ref.null nofunc))
-  (data (;0;) "")
-  (data (;1;) "")
-)

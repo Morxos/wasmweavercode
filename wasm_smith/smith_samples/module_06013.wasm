@@ -1,8 +1,0 @@
-(module
-  (table (;0;) i64 9343 structref)
-  (export "" (table 0))
-  (export "1" (table 0))
-  (elem (;0;) funcref)
-  (elem (;1;) declare structref)
-  (elem (;2;) (table 0) (i64.const 0) nullref (ref.null none))
-)

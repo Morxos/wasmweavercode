@@ -1,5 +1,0 @@
-(module
-  (import "" "" (table (;0;) 130 externref))
-  (import "" "" (global (;0;) (mut f32)))
-  (memory (;0;) 0 7296)
-)

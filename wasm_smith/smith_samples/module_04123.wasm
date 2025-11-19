@@ -1,9 +1,0 @@
-(module
-  (memory (;0;) i64 738)
-  (export "\u{4}\u{b}U" (memory 0))
-  (export "" (memory 0))
-  (export ":\u{8}I" (memory 0))
-  (export "3" (memory 0))
-  (export "4" (memory 0))
-  (export "5" (memory 0))
-)

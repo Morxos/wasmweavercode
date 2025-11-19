@@ -1,7 +1,0 @@
-(module
-  (import "%n" "" (memory (;0;) i64 7141 29510940708912))
-  (import "\u{e}" "" (global (;0;) (mut f32)))
-  (export "U" (memory 0))
-  (export "" (global 0))
-  (data (;0;) "")
-)

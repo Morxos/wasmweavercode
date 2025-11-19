@@ -1,6 +1,0 @@
-(module
-  (import "" "" (global (;0;) i64))
-  (elem (;0;) eqref)
-  (data (;0;) "T")
-  (data (;1;) "")
-)

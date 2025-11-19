@@ -1,7 +1,0 @@
-(module
-  (import "" "" (global (;0;) (mut i64)))
-  (import "" "" (global (;1;) f64))
-  (table (;0;) 0 263960 structref)
-  (global (;2;) i64 i64.const 8947273946711675543)
-  (global (;3;) (mut f64) global.get 1)
-)

@@ -1,4 +1,0 @@
-(module
-  (global (;0;) (mut i64) i64.const 6717265104905558219)
-  (export "" (global 0))
-)

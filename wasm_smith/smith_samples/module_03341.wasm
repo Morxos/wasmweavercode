@@ -1,7 +1,0 @@
-(module
-  (import "" "" (memory (;0;) i64 5586 161094887970259))
-  (import "I" "" (table (;0;) i64 8604 377257 funcref))
-  (export "V" (table 0))
-  (elem (;0;) nullfuncref)
-  (elem (;1;) declare exnref (ref.null exn) (ref.null exn))
-)

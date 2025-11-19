@@ -1,14 +1,15 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from copy import deepcopy
 from typing import List
-
 import numpy as np
-
 from core.state.functions import Function, Block
 from core.state.state import GlobalState
 from core.tile import AbstractTile, BranchOperation
 from core.value import I32, I64, F32, F64
 
-DISABLED = True
+DISABLED = True # Set to False to enable debug tiles
 
 class ReachabilityFlagTile(AbstractTile):
     name = "ReachabilityFlagTile"

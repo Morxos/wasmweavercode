@@ -1,6 +1,0 @@
-(module
-  (import "" "" (memory (;0;) 9))
-  (import "" "" (global (;0;) (mut f64)))
-  (export "" (global 0))
-  (export "1" (memory 0))
-)

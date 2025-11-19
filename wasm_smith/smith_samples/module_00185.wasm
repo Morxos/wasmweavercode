@@ -1,6 +1,0 @@
-(module
-  (table (;0;) 8932 508664 nullexternref)
-  (elem (;0;) declare nullref (ref.null none))
-  (data (;0;) "")
-  (data (;1;) "\ef\83")
-)

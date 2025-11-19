@@ -1,4 +1,0 @@
-(module
-  (global (;0;) f32 f32.const 0x1.2b127p+34 (;=20070384000;))
-  (export "" (global 0))
-)

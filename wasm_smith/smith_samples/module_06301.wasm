@@ -1,6 +1,0 @@
-(module
-  (import "\u{f}#" "" (memory (;0;) 43 56569))
-  (import "CKu\u{22}l\u{60c}" "" (table (;0;) i64 2466 nullfuncref))
-  (export "" (memory 0))
-  (elem (;0;) (table 0) (i64.const 976) nullfuncref)
-)

@@ -1,4 +1,0 @@
-(module
-  (import "a" "" (table (;0;) 241 205057 exnref))
-  (memory (;0;) 8830 31759)
-)

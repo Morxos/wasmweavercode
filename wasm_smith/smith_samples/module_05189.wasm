@@ -1,9 +1,0 @@
-(module
-  (import "YT" "" (global (;0;) i64))
-  (import "\u{c}\u{d}" "" (memory (;0;) 15333 32692))
-  (table (;0;) i64 0 34227 nullfuncref)
-  (export "\u{12}L\u{5c}" (table 0))
-  (elem (;0;) declare exnref (ref.null exn) (ref.null exn))
-  (elem (;1;) declare nullexternref)
-  (data (;0;) "")
-)

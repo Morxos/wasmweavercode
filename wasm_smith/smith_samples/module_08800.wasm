@@ -1,4 +1,0 @@
-(module
-  (elem (;0;) declare anyref (ref.null i31) (ref.null i31))
-  (elem (;1;) declare i31ref (ref.null i31))
-)

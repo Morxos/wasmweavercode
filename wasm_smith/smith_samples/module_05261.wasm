@@ -1,7 +1,0 @@
-(module
-  (memory (;0;) 7663)
-  (export "" (memory 0))
-  (export "1" (memory 0))
-  (export "\u{89}x" (memory 0))
-  (elem (;0;) i31ref)
-)

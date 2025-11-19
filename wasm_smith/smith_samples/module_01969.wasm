@@ -1,6 +1,0 @@
-(module
-  (memory (;0;) i64 3223 126739380565233)
-  (export "" (memory 0))
-  (export "\u{1e}E" (memory 0))
-  (data (;0;) "/")
-)

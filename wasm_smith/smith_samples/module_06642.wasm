@@ -1,4 +1,0 @@
-(module
-  (import "" "" (table (;0;) i64 0 nullfuncref))
-  (import "t\u{13}" "" (global (;0;) (mut f32)))
-)

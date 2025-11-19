@@ -1,5 +1,0 @@
-(module
-  (import "\u{1a}" "" (memory (;0;) 2046 12278))
-  (global (;0;) (mut anyref) ref.null any)
-  (global (;1;) (mut i64) i64.const 438022746474701877 i64.const 1877150459236182628 i64.const -3087515498296927955 i64.const 731032573562436082 i64.const -4254193033551150119 i64.sub i64.const 1776380569803382088 i64.mul i64.mul i64.mul i64.add i64.const -6918769201214209457 i64.mul i64.const -2100364194472324521 i64.mul)
-)

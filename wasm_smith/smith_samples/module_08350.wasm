@@ -1,8 +1,0 @@
-(module
-  (table (;0;) 2245 976543 structref)
-  (memory (;0;) 6991)
-  (export "" (memory 0))
-  (export "N" (memory 0))
-  (export "=O" (table 0))
-  (export "4" (memory 0))
-)

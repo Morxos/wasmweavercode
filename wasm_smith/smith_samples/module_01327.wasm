@@ -1,9 +1,0 @@
-(module
-  (global (;0;) f32 f32.const -0x1.42ac74p+109 (;=-818074900000000000000000000000000;))
-  (export "" (global 0))
-  (export "A\u{1b}" (global 0))
-  (elem (;0;) declare externref (ref.null noextern) (ref.null extern))
-  (data (;0;) "")
-  (data (;1;) "\8b5\0b")
-  (data (;2;) "")
-)
