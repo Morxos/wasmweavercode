@@ -17,8 +17,18 @@ from experiments.eval.models.model import Model
 GLOBAL_CORPUS = ProgramCorpus()
 
 class AbstractRewardFunction:
-
-    def __call__(self, finish_state: str | Exception, global_state: GlobalState,last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets:CurriculumInstance = None):
+    """
+    Abstract class for reward functions.
+    """
+    def __call__(self,
+                 finish_state: str | Exception,
+                 global_state: GlobalState,
+                 last_global_state: GlobalState,
+                 wat_str: str,
+                 run_result: AbstractRunResult,
+                 p: float,
+                 last_placed_tile: Type[AbstractTile],
+                 dynamic_targets:CurriculumInstance = None):
         return 0, {}
 
 class PartialRewardCallback(BaseCallback):

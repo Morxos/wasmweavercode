@@ -21,7 +21,6 @@ def main():
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
                    constraints=[ByteCodeSizeConstraint(0, 512), FuelConstraint(0, 5000)],
                    verbose=True)
-    print("Environment created")
     for epoch in range(1000):
         start_time = time.time()
         done = False

@@ -179,7 +179,7 @@ We implement a few extensions that were useful for our program generation and fu
 	- rewards.py: This module is used for calculating and outputting partial and total rewards.
 		
 - experiments: Contains code for training and evaluating our different scenarios:
-	- training: Contains for our different experiments
+	- training: Contains code different experiments
 		- llm_stack_effect.py: Example code for using an LLM to predict stack effects of instructions.
         - llm_reachability.py: Example code for using an LLM to predict flag reachability.
         - drl_generator.py: Example code for training DRL agents for WebAssembly program generation with the alignment and length reward.
@@ -212,9 +212,9 @@ We implement a few extensions that were useful for our program generation and fu
 	- tar -xvzf wasm-tools-1.230.0-x86_64-linux.tar.gz
 	- export PATH="path/to/wasm-tools-1.230.0-x86_64-linux/:$PATH" # Add wasm-tools binary to path
 	
-#### Exemplary Tool Us
-	The following scenarios demonstrate how to use the tool for different tasks, such as code generation with high-level rewards and LLM benchmarking.
-    All All samples can be found in the "experiments/training" folder.
+#### Examples
+The following scenarios demonstrate how to use the tool for different tasks, such as code generation with high-level rewards and LLM benchmarking.
+All samples can be found in the "experiments/training" folder.
 	
 ##### 1. DRL Guided Generation with Alignment and Length Reward
 	- python3 experiments/training/drl_generator.py
