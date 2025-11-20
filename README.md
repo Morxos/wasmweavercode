@@ -3,6 +3,12 @@ This flexible random program generator produces pseudo-random correct WebAssembl
 Furthermore, soft lower and hard upper limits are applied during generation to ensure that the generated code stays within the bounds of the given use cases.
 This generator is (among other things) intended for benchmarking execution reasoning capabilities of e.g. large language models (LLMs) on WebAssembly code.
 
+
+
+https://github.com/user-attachments/assets/e9e9e4dc-e370-46dd-98a4-7c84e262b0a5
+
+
+
 This document contains the following information:
 
 - Overview of currently supported instructions, concepts, and extensions
