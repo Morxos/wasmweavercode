@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import json
 import math
 import os
@@ -5,12 +8,12 @@ from typing import Type, List
 
 from stable_baselines3.common.callbacks import BaseCallback
 from core.corpus import ProgramCorpus
+from core.curriculum import CurriculumInstance
 from core.debug.debugger import generate_trace_list
 from core.processor import StackInspectorPostProcessor, FlagReachabilityPostProcessor
 from core.runner import AbstractRunResult
 from core.state.state import GlobalState
 from core.tile import AbstractTile
-from curriculum import CurriculumInstance
 from experiments.eval.judge import judge_wasm_result_string
 from experiments.eval.models.model import Model
 
@@ -95,6 +98,7 @@ class SimpleRewardFunction(AbstractRewardFunction):
         self.flag_reward = flag_reward
         self.model = model
         self.good_samples = 0
+        self.GOOD_SAMPLE_THRESHOLD = 0.5
         self.target_dir = target_dir
 
     def __call__(self, finish_state: str | Exception, global_state: GlobalState, last_global_state: GlobalState, wat_str: str, run_result: AbstractRunResult, p: float, last_placed_tile: Type[AbstractTile], dynamic_targets: CurriculumInstance = None):
@@ -235,13 +239,11 @@ class SimpleRewardFunction(AbstractRewardFunction):
                     "module_reward": module_reward,
                     "good_samples": self.good_samples,
                     "bucket_reward": bucket_reward,
-                    "dynamic_depth_reward": depth_reward,
-                    "depth_target": depth_target,
+                    "dynamic_depth_reward": depth_reward
                 }
                 #Save to json
                 json.dump(result_dict, open(os.path.join(directory, name), "w"))
-
-                if combined_reward > 0.5: # Threshold for good samples
+                if combined_reward > self.GOOD_SAMPLE_THRESHOLD: # Threshold for good samples
                     self.good_samples += 1
                     print("Good samples so far:", self.good_samples)
                 if self.good_samples > 1:

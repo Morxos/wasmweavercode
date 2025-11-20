@@ -1,11 +1,9 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import json
-import math
 from typing import List, Dict, Tuple
-
-from wasmtime import wat2wasm
-
-from core.analysis import js_distance_sample_vs_corpus, get_module_statistics, \
-    get_function_statistics, extract_op_code_counts_from_dicts, extract_structural_counts_from_dicts, overall_zscore, \
+from core.analysis import js_distance_sample_vs_corpus, get_module_statistics, extract_op_code_counts_from_dicts, overall_zscore, \
     wat_to_wasm, wasm_to_wat
 from core.extractor import wat_to_trigrams
 from core.metrics import score_generated_module_with_structure

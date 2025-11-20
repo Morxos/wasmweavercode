@@ -12,7 +12,7 @@ deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4o")
 
 
 
-class O3Mini(Model):
+class o3Mini(Model):
     def __init__(self):
         self.name = "o3-mini"
         self.platform = "openai"

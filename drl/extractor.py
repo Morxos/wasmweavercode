@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 import gymnasium.spaces
 import torch
 from stable_baselines3.common.torch_layers import BaseFeaturesExtractor

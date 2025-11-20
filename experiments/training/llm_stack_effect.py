@@ -9,7 +9,7 @@ from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import StackInspectorPostProcessor
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
-from experiments.eval.models.openai_models import O3Mini
+from experiments.eval.models.openai_models import o3Mini
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 
@@ -28,7 +28,7 @@ def main():
                    constraints=[ByteCodeSizeConstraint(0, 1000), FuelConstraint(0, 50)],
                    output_types=[[]], post_processor_types=[StackInspectorPostProcessor],
                    forbidden_instruction_name_tokens=["load","store","condition","loop","block","function","br","br_if", "br_table","return"],
-                   reward_function=SimpleRewardFunction(f"{EXPERIMENT_NAME}_samples",stack_reward=True, flag_reward=False, model=O3Mini()),
+                   reward_function=SimpleRewardFunction(f"{EXPERIMENT_NAME}_samples", stack_reward=True, flag_reward=False, model=o3Mini()),
                    verbose=True)
 
 

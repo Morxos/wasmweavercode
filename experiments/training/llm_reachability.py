@@ -4,13 +4,12 @@
 import random
 import gymnasium as gym
 from sb3_contrib import MaskablePPO
-
 from core.environment import WasmWeaverEnv
 from core.constraints import ByteCodeSizeConstraint, FuelConstraint
 from core.processor import FlagReachabilityPostProcessor
 from drl.extractor import SimpleFeatureExtractor
 from drl.rewards import PartialRewardCallback, SimpleRewardFunction
-from experiments.eval.models.openai_models import Gpt41, O3Mini
+from experiments.eval.models.openai_models import Gpt41, o3Mini
 from experiments.training.callbacks import ProgressCallback, SaveModelCallback
 from experiments.training.policy import CustomMaskablePolicy
 

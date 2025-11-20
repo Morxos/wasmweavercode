@@ -14,7 +14,7 @@ from experiments.training.policy import CustomMaskablePolicy
 random.seed(0)
 
 TOTAL_TIME_STEPS = 10_000_000
-EXPERIMENT_NAME = "drl_generator_experiment"
+EXPERIMENT_NAME = "DRL_GENERATOR_EXPERIMENT"
 
 def main():
     gym.register(
@@ -25,7 +25,7 @@ def main():
 
 
     env = gym.make("gymnasium_env/WasmWeaverEnv-v0",
-                   constraints=[ByteCodeSizeConstraint(10, 5000), FuelConstraint(10, 500)],
+                   constraints=[ByteCodeSizeConstraint(10, 5000), FuelConstraint(10, 50)],
                    output_types=[[]], post_processor_types=[],
                    forbidden_instruction_name_tokens=[],
                    reward_function=SimpleRewardFunction(f"{EXPERIMENT_NAME}_samples",stack_reward=False, flag_reward=False, model=None),

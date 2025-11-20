@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: 2025 Siemens AG
+
 from collections import Counter
 from math import log2
 from typing import List, Dict, Iterable

@@ -13,7 +13,8 @@ import numpy as np
 from gymnasium.core import ObsType, ActType
 from gymnasium.spaces import Dict
 import sys
-from curriculum import CurriculumInstance
+
+from core.curriculum import CurriculumInstance
 from drl.embedder.targets import TargetsEmbedder
 
 sys.setrecursionlimit(20000)  # use with caution
