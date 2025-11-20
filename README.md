@@ -1,12 +1,12 @@
 # WasmWeaver: A Framework for Runtime-Aware WebAssembly Program Generation with Reinforcement Learning
 This flexible random program generator produces pseudo-random correct WebAssembly code (and shared memory) that always runs to completion without exceptions, while being guided by a DRL policy.
 Furthermore, soft lower and hard upper limits are applied during generation to ensure that the generated code stays within the bounds of the given use cases.
-This generator is (among other things) intended for benchmarking execution reasoning capabilities of large language models (LLMs) on WebAssembly code.
+This generator is (among other things) intended for benchmarking execution reasoning capabilities of e.g. large language models (LLMs) on WebAssembly code.
 
 This document contains the following information:
 
 - Overview of currently supported instructions, concepts, and extensions
-- Basic setup and evaluation guides for experiments
+- Basic setup of the tool and guides for presented exemplary experiments
 - A brief video demonstration
 - Short summary of the custom gymnasium environment
 
@@ -212,8 +212,9 @@ We implement a few extensions that were useful for our program generation and fu
 	- tar -xvzf wasm-tools-1.230.0-x86_64-linux.tar.gz
 	- export PATH="path/to/wasm-tools-1.230.0-x86_64-linux/:$PATH" # Add wasm-tools binary to path
 	
-#### Run Experiments
-	Experiments can be run with the following simple commands:
+#### Exemplary Tool Us
+	The following scenarios demonstrate how to use the tool for different tasks, such as code generation with high-level rewards and LLM benchmarking.
+    All All samples can be found in the "experiments/training" folder.
 	
 ##### 1. DRL Guided Generation with Alignment and Length Reward
 	- python3 experiments/training/drl_generator.py
