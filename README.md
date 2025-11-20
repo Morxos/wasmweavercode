@@ -241,3 +241,9 @@ All samples can be found in the "experiments/training" folder.
 	- At each step the generator puts out its current GlobalState (core/state/state.py) as well as the current function and blocks (both in core/state/functions.py)
 	- These are then converted to numeric gymnasium spaces with embedding modules, located under drl/embedder/... The ids found in drl/embedder/tiles.py->get_id() (ids of code tiles) can also be used to decode the available actions in the available action mask.
 	- An simple extractor, combining all those numeric embeddings into a fixed-size representation for the actor-critic model can be found in drl/extractor.py
+
+### License
+This project is licensed under the MIT License. See the license file for details.
+
+### Contact
+Kilian Müller, kilian.mueller@siemens.com
