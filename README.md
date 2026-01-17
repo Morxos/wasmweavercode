@@ -207,7 +207,7 @@ We implement a few extensions that were useful for our program generation and fu
 ##### Install (Tested on Ubuntu 24.04.1 LTS)
 	
 	- Project requires Python 3.12 # Install python 3.12
-	- pip install -r requirement.txt # Install dependencies
+	- pip install -r requirements.txt # Install dependencies
 	- export PYTHONPATH="path/to/.../wasmweavercode/:$PYTHONPATH" # Add path to python path.
 	- wget https://github.com/WebAssembly/binaryen/releases/download/version_123/binaryen-version_123-x86_64-linux.tar.gz #e.g. for wasm-opt
 	- tar -xvzf binaryen-version_123-x86_64-linux.tar.gz
